@@ -1,0 +1,276 @@
+{
+  "siman": "12",
+  "halakhot": [
+    {
+      "seif": "1",
+      "sujet": "הלכות ציצית והטלית",
+      "sujet_fr": "Chapitre 12 - Lois du Tsitsit et du Tallit",
+      "titre_seif": "Emplacement exact du trou à partir du bord",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "א. הנקב שמכניסים בו את הציצית לא יהיה רחוק מן השפה יותר משלוש אצבעות, ולא קרוב פחות מקשר אגודל.",
+        "hebreu_avec_voyelles": "א. הַנֶּקֶב שֶׁמַּכְנִיסִים בּוֹ אֶת הַצִּיצִית לֹא יִהְיֶה רָחוֹק מִן הַשָּׂפָה יוֹתֵר מִשָּׁלֹשׁ אֶצְבָּעוֹת, וְלֹא קָרוֹב פָּחוֹת מִקֶּשֶׁר אֲגוּדָל.",
+        "francais": "1. Le trou dans lequel on introduit le Tsitsit ne doit pas être distant du bord de plus de trois largeurs de doigts (Kesher Agoudal), ni plus près que la jointure du pouce."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "א.",
+          "hebreu_voyelles": "א.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "הנקב",
+          "hebreu_voyelles": "הַנֶּקֶב",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שמכניסים",
+          "hebreu_voyelles": "שֶׁמַּכְנִיסִים",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בו",
+          "hebreu_voyelles": "בּוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "הציצית",
+          "hebreu_voyelles": "הַצִּיצִית",
+          "francais_mot": "Tsitsit (Franges)",
+          "expression_contexte": "Tsitsit"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "לא",
+          "hebreu_voyelles": "לֹא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "יהיה",
+          "hebreu_voyelles": "יִהְיֶה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "רחוק",
+          "hebreu_voyelles": "רָחוֹק",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "מן",
+          "hebreu_voyelles": "מִן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "השפה",
+          "hebreu_voyelles": "הַשָּׂפָה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "יותר",
+          "hebreu_voyelles": "יוֹתֵר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "משלוש",
+          "hebreu_voyelles": "מִשָּׁלֹשׁ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "אצבעות,",
+          "hebreu_voyelles": "אֶצְבָּעוֹת,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "ולא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "קרוב",
+          "hebreu_voyelles": "קָרוֹב",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "פחות",
+          "hebreu_voyelles": "פָּחוֹת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "מקשר",
+          "hebreu_voyelles": "מִקֶּשֶׁר",
+          "francais_mot": "Nœud",
+          "expression_contexte": "Nœud"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "אגודל.",
+          "hebreu_voyelles": "אֲגוּדָל.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        }
+      ]
+    },
+    {
+      "seif": "2",
+      "sujet": "הלכות ציצית והטלית",
+      "sujet_fr": "Chapitre 12 - Lois du Tsitsit et du Tallit",
+      "titre_seif": "Fixation des franges du côté du coin",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ב. יקשור את הציצית על כנף הבגד כשהוא תלוי לצד שפת הבגד, כדי שיהיה נוי למצוה.",
+        "hebreu_avec_voyelles": "ב. יִקְשֹׁר אֶת הַצִּיצִית עַל כָּנָף הַבֶּגֶד כְּשֶׁהוּא תָּלוּי לְצַד שְׂפַת הַבֶּגֶד, כְּדֵי שֶׁיִּהְיוּ נוֹי לַמִּצְוָה.",
+        "francais": "2. On nouera le Tsitsit sur le coin du vêtement de manière à ce qu'il pende harmonieusement le long du bord, pour l'embellissement du commandement (Noï Mitzva)."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ב.",
+          "hebreu_voyelles": "ב.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "יקשור",
+          "hebreu_voyelles": "יִקְשֹׁר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "הציצית",
+          "hebreu_voyelles": "הַצִּיצִית",
+          "francais_mot": "Tsitsit (Franges)",
+          "expression_contexte": "Tsitsit"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "כנף",
+          "hebreu_voyelles": "כָּנָף",
+          "francais_mot": "Coin / Aile",
+          "expression_contexte": "Coin"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "הבגד",
+          "hebreu_voyelles": "הַבֶּגֶד",
+          "francais_mot": "Vêtement",
+          "expression_contexte": "Vêtement"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "כשהוא",
+          "hebreu_voyelles": "כְּשֶׁהוּא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "תלוי",
+          "hebreu_voyelles": "תָּלוּי",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "לצד",
+          "hebreu_voyelles": "לְצַד",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "שפת",
+          "hebreu_voyelles": "שְׂפַת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "הבגד,",
+          "hebreu_voyelles": "הַבֶּגֶד,",
+          "francais_mot": "Vêtement",
+          "expression_contexte": "Vêtement"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "שיהיה",
+          "hebreu_voyelles": "שֶׁיִּהְיוּ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "נוי",
+          "hebreu_voyelles": "נוֹי",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "למצוה.",
+          "hebreu_voyelles": "לַמִּצְוָה.",
+          "francais_mot": "Mitsva (Commandement)",
+          "expression_contexte": "Mitsva"
+        }
+      ]
+    }
+  ]
+}

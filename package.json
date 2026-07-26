@@ -6,9 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate": "node scripts/generate-siman.js",
+    "generate:siman318": "node scripts/generate-siman.js --siman 318"
   },
   "dependencies": {
+    "@google/genai": "^2.13.0",
+    "dotenv": "^17.4.2",
+    "iconv-lite": "^0.7.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

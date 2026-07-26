@@ -1,0 +1,123 @@
+{
+  "siman": "19",
+  "halakhot": [
+    {
+      "seif": "1",
+      "sujet": "הלכות ציצית והטלית",
+      "sujet_fr": "Chapitre 19 - Lois du Tsitsit et du Tallit",
+      "titre_seif": "Exemption du vêtement de cuir sans tissu à 4 coins",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "א. בגד של עור פטור מן הציצית, שאין נקרא בגד אלא דבר העשוי מטווי וארוג.",
+        "hebreu_avec_voyelles": "א. בֶּגֶד שֶׁל עוֹר פָּטוּר מִן הַצִּיצִית, שֶׁאֵין נִקְרָא בֶּגֶד אֶלָּא דָּבָר הֶעָשׂוּי מִטָּווּי וְאָרוּג.",
+        "francais": "1. Un vêtement en cuir est exempt du Tsitsit, car seul un textile filé et tissé porte halakhiquement le nom de vêtement (Beged)."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "א.",
+          "hebreu_voyelles": "א.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "בגד",
+          "hebreu_voyelles": "בֶּגֶד",
+          "francais_mot": "Vêtement",
+          "expression_contexte": "Vêtement"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "עור",
+          "hebreu_voyelles": "עוֹר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "פטור",
+          "hebreu_voyelles": "פָּטוּר",
+          "francais_mot": "Exempt",
+          "expression_contexte": "Exempt"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "מן",
+          "hebreu_voyelles": "מִן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "הציצית,",
+          "hebreu_voyelles": "הַצִּיצִית,",
+          "francais_mot": "Tsitsit (Franges)",
+          "expression_contexte": "Tsitsit"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "נקרא",
+          "hebreu_voyelles": "נִקְרָא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "בגד",
+          "hebreu_voyelles": "בֶּגֶד",
+          "francais_mot": "Vêtement",
+          "expression_contexte": "Vêtement"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "דבר",
+          "hebreu_voyelles": "דָּבָר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "העשוי",
+          "hebreu_voyelles": "הֶעָשׂוּי",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "מטווי",
+          "hebreu_voyelles": "מִטָּווּי",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "וארוג.",
+          "hebreu_voyelles": "וְאָרוּג.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        }
+      ]
+    }
+  ]
+}

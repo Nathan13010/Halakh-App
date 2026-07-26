@@ -255,7 +255,7 @@ const WelcomeScreen = ({ books, favorites, onSelectBook, onSelectFavorite, onRem
       </main>
 
       <footer className="max-w-6xl mx-auto w-full text-center border-t border-zinc-200 dark:border-zinc-800 pt-6 text-[10px] text-zinc-500 uppercase tracking-widest font-bold flex flex-col sm:flex-row items-center justify-between gap-4 mt-8">
-        <span>© 2026 Mishné Mikra • Yalkout Yossef Interactif</span>
+        <span>© 2026 Halakh'App • Yalkout Yossef Interactif</span>
         <span className="text-zinc-600">Localisation LocalStorage sécurisée • Étude moderne de la Halakha</span>
       </footer>
 

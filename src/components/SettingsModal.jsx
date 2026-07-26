@@ -119,7 +119,7 @@ const SettingsModal = ({ theme, setTheme, textSize, setTextSize, onClose, onRese
           </div>
           
           <p className="text-center text-[10px] text-zinc-400 pt-2">
-            Mishné Mikra v2.0 • Halakha Learning
+            Halakh'App v2.0 • Halakha Learning
           </p>
         </div>
       </div>

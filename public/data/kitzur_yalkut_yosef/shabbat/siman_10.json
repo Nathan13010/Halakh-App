@@ -1,0 +1,3257 @@
+{
+  "siman": "10",
+  "halakhot": [
+    {
+      "seif": "1",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Exemption de l'écharpe d'hiver (Tza'if)",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "א. צעיף שנותנים על הצואר בימות החורף, אף-על-פי שיש לו ד' כנפות ויש בו שיעור טלית, פטור מציצית. וירא שמים יעשה קרן אחת בעיגול.",
+        "hebreu_avec_voyelles": "א. צָעִיף שֶׁנּוֹתְנִים עַל הַצַּוָּאר בִּימוֹת הַחֹרֶף, אַף-עַל-פִּי שֶׁיֵּשׁ לוֹ ד' כַּנְפוֹת וְיֵשׁ בּוֹ שִׁעוּר טַלִּית, פָּטוּר מִצִּיצִית. וִירֵא שָׁמַיִם יַעֲשֶׂה קֶרֶן אַחַת בְּעִגּוּל.",
+        "francais": "1. Une écharpe qu'on met autour du cou en hiver, même si elle possède quatre coins et la dimension minimale d'un Tallit, est exempte de la Mitsva du Tsitsit. Un homme craignant le Ciel arrondira l'un des coins pour éliminer tout doute."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "א.",
+          "hebreu_voyelles": "א.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "צעיף",
+          "hebreu_voyelles": "צָעִיף",
+          "francais_mot": "Écharpe",
+          "expression_contexte": "Écharpe"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שנותנים",
+          "hebreu_voyelles": "שֶׁנּוֹתְנִים",
+          "francais_mot": "Qu'on met / place",
+          "expression_contexte": "Qu'on met",
+          "infinitif": "לָתֵת = Donner / Mettre"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "הצואר",
+          "hebreu_voyelles": "הַצַּוָּאר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "בימות",
+          "hebreu_voyelles": "בִּימוֹת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "החורף,",
+          "hebreu_voyelles": "הַחֹרֶף,",
+          "francais_mot": "L'hiver",
+          "expression_contexte": "L'hiver"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "אף-על-פי",
+          "hebreu_voyelles": "אַף-עַל-פִּי",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "שיש",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "כנפות",
+          "hebreu_voyelles": "כַּנְפוֹת",
+          "francais_mot": "Coins",
+          "expression_contexte": "Coins"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "ויש",
+          "hebreu_voyelles": "וְיֵשׁ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "בו",
+          "hebreu_voyelles": "בּוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "שיעור",
+          "hebreu_voyelles": "שִׁעוּר",
+          "francais_mot": "Mesure",
+          "expression_contexte": "Mesure"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "טלית,",
+          "hebreu_voyelles": "טַלִּית,",
+          "francais_mot": "Tallit",
+          "expression_contexte": "Tallit"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "פטור",
+          "hebreu_voyelles": "פָּטוּר",
+          "francais_mot": "Exempt",
+          "expression_contexte": "Exempt"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "מציצית.",
+          "hebreu_voyelles": "מִצִּיצִית.",
+          "francais_mot": "De Tsitsit",
+          "expression_contexte": "De Tsitsit"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "וירא",
+          "hebreu_voyelles": "וִירֵא",
+          "francais_mot": "Et un homme craignant",
+          "expression_contexte": "Un homme craignant"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "שמים",
+          "hebreu_voyelles": "שָׁמַיִם",
+          "francais_mot": "Le Ciel",
+          "expression_contexte": "Le Ciel"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "יעשה",
+          "hebreu_voyelles": "יַעֲשֶׂה",
+          "francais_mot": "Fera / Arrondira",
+          "expression_contexte": "Fera",
+          "infinitif": "לַעֲשׂוֹת = Faire"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "קרן",
+          "hebreu_voyelles": "קֶרֶן",
+          "francais_mot": "Un coin",
+          "expression_contexte": "Un coin"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "אחת",
+          "hebreu_voyelles": "אַחַת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "בעיגול.",
+          "hebreu_voyelles": "בְּעִגּוּל.",
+          "francais_mot": "En arrondi",
+          "expression_contexte": "En arrondi"
+        }
+      ]
+    },
+    {
+      "seif": "2",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Vêtement à plus de quatre coins",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ב. טלית שאין בה ד' כנפות פטורה מציצית, יש לה יותר מארבע כנפות, חייב להטיל ציציות בארבע כנפות המרוחקות זו מזו. וכן דעת מרן השלחן ערוך.",
+        "hebreu_avec_voyelles": "ב. טַלִּית שֶׁאֵין בָּהּ ד' כַּנְפוֹת פְּטוּרָה מִצִּיצִית, יֵשׁ לָהּ יוֹתֵר מֵאַרְבַּע כַּנְפוֹת, חַיָּב לְהַטִּיל צִיצִיּוֹת בְּאַרְבַּע כַּנְפוֹת הַמְּרֻחָקוֹת זוֹ מִזּוֹ. וְכֵן דַּעַת מָרָן הַשֻּׁלְחָן עָרוּךְ.",
+        "francais": "2. Un Tallit qui ne possède pas 4 coins est exempt de Tsitsit. S'il possède plus de 4 coins, on a l'obligation de mettre des Tsitsiot aux 4 coins les plus distants les uns des autres, selon l'avis de Maran le Shoulhan Aroukh."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ב.",
+          "hebreu_voyelles": "ב.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Tallit",
+          "expression_contexte": "Tallit"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "כנפות",
+          "hebreu_voyelles": "כַּנְפוֹת",
+          "francais_mot": "Coins",
+          "expression_contexte": "Coins"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "פטורה",
+          "hebreu_voyelles": "פְּטוּרָה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "מציצית,",
+          "hebreu_voyelles": "מִצִּיצִית,",
+          "francais_mot": "De Tsitsit",
+          "expression_contexte": "De Tsitsit"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "לה",
+          "hebreu_voyelles": "לָהּ",
+          "francais_mot": "À Hashem",
+          "expression_contexte": "À Hashem"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "יותר",
+          "hebreu_voyelles": "יוֹתֵר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "מארבע",
+          "hebreu_voyelles": "מֵאַרְבַּע",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "כנפות,",
+          "hebreu_voyelles": "כַּנְפוֹת,",
+          "francais_mot": "Coins",
+          "expression_contexte": "Coins"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "חייב",
+          "hebreu_voyelles": "חַיָּב",
+          "francais_mot": "Soumis / Obligé",
+          "expression_contexte": "Soumis"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "להטיל",
+          "hebreu_voyelles": "לְהַטִּיל",
+          "francais_mot": "Mettre",
+          "expression_contexte": "Mettre",
+          "infinitif": "לְהַטִּיל = Attacher"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "ציציות",
+          "hebreu_voyelles": "צִיצִיּוֹת",
+          "francais_mot": "Tsitsiot",
+          "expression_contexte": "Tsitsiot"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "בארבע",
+          "hebreu_voyelles": "בְּאַרְבַּע",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "כנפות",
+          "hebreu_voyelles": "כַּנְפוֹת",
+          "francais_mot": "Coins",
+          "expression_contexte": "Coins"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "המרוחקות",
+          "hebreu_voyelles": "הַמְּרֻחָקוֹת",
+          "francais_mot": "Les plus éloignées",
+          "expression_contexte": "Les plus éloignées"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "זו",
+          "hebreu_voyelles": "זוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "מזו.",
+          "hebreu_voyelles": "מִזּוֹ.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "וכן",
+          "hebreu_voyelles": "וְכֵן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "דעת",
+          "hebreu_voyelles": "דַּעַת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "מרן",
+          "hebreu_voyelles": "מָרָן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "השלחן",
+          "hebreu_voyelles": "הַשֻּׁלְחָן",
+          "francais_mot": "Shoulhan",
+          "expression_contexte": "Shoulhan"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "ערוך.",
+          "hebreu_voyelles": "עָרוּךְ.",
+          "francais_mot": "Aroukh",
+          "expression_contexte": "Aroukh"
+        }
+      ]
+    },
+    {
+      "seif": "3",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Interdiction d'ajouter une 5ème frange (Bal Tossif)",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ג. בגד שיש בו ה' כנפות, ועבר והטיל בו ה' ציציות, עובר משום בל תוסיף.",
+        "hebreu_avec_voyelles": "ג. בֶּגֶד שֶׁיֵּשׁ בּוֹ ה' כַּנְפוֹת, וְעָבַר וְהִטִּיל בּוֹ ה' צִיצִיּוֹת, עוֹבֵר מִשּׁוּם בַּל תּוֹסִיף.",
+        "francais": "3. Un vêtement qui possède 5 coins : si l'on a transgressé en y installant 5 Tsitsiot, on transgresse l'interdiction de Bal Tossif (ne rien ajouter aux Mitsvot)."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ג.",
+          "hebreu_voyelles": "ג.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "בגד",
+          "hebreu_voyelles": "בֶּגֶד",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שיש",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בו",
+          "hebreu_voyelles": "בּוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "ה'",
+          "hebreu_voyelles": "ה'",
+          "francais_mot": "Hashem (D.ieu)",
+          "expression_contexte": "Hashem (D.ieu)"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "כנפות,",
+          "hebreu_voyelles": "כַּנְפוֹת,",
+          "francais_mot": "Coins",
+          "expression_contexte": "Coins"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "ועבר",
+          "hebreu_voyelles": "וְעָבַר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "והטיל",
+          "hebreu_voyelles": "וְהִטִּיל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "בו",
+          "hebreu_voyelles": "בּוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "ה'",
+          "hebreu_voyelles": "ה'",
+          "francais_mot": "Hashem (D.ieu)",
+          "expression_contexte": "Hashem (D.ieu)"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "ציציות,",
+          "hebreu_voyelles": "צִיצִיּוֹת,",
+          "francais_mot": "Tsitsiot",
+          "expression_contexte": "Tsitsiot"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "עובר",
+          "hebreu_voyelles": "עוֹבֵר",
+          "francais_mot": "Transgresse",
+          "expression_contexte": "Transgresse",
+          "infinitif": "לַעֲבֹר = Transgresser"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "משום",
+          "hebreu_voyelles": "מִשּׁוּם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "בל",
+          "hebreu_voyelles": "בַּל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "תוסיף.",
+          "hebreu_voyelles": "תּוֹסִיף.",
+          "francais_mot": "N'ajoute pas (Bal Tossif)",
+          "expression_contexte": "N'ajoute pas"
+        }
+      ]
+    },
+    {
+      "seif": "4",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Cas du manteau long (Frak)",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ד. מעיל ארוך הפתוח ברובו מאחריו (הנקרא פראק), נהגו לעשות בו עיגול בכנף אחד, כדי שלא יצטרך להטיל בו ציצית לכולי עלמא.",
+        "hebreu_avec_voyelles": "ד. מְעִיל אָרֹךְ הַפָּתוּחַ בְּרֻבּוֹ מֵאַחֲרָיו (הַנִּקְרָא פְרָאק), נָהֲגוּ לַעֲשׂוֹת בּוֹ עִגּוּל בְּכָנָף אֶחָד, כְּדֵי שֶׁלֹּא יִצְטָרֵךְ לְהַטִּיל בּוֹ צִיצִית לְכֻלֵּי עָלְמָא.",
+        "francais": "4. Pour un manteau long ouvert en majeure partie à l'arrière (appelé Frak), la coutume est d'arrondir l'un de ses coins afin de l'exempter de Tsitsit selon tous les avis rabbiniques."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ד.",
+          "hebreu_voyelles": "ד.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מעיל",
+          "hebreu_voyelles": "מְעִיל",
+          "francais_mot": "Manteau",
+          "expression_contexte": "Manteau"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "ארוך",
+          "hebreu_voyelles": "אָרֹךְ",
+          "francais_mot": "Long",
+          "expression_contexte": "Long"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "הפתוח",
+          "hebreu_voyelles": "הַפָּתוּחַ",
+          "francais_mot": "Qui est ouvert",
+          "expression_contexte": "Ouvert"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "ברובו",
+          "hebreu_voyelles": "בְּרֻבּוֹ",
+          "francais_mot": "En sa majeure partie",
+          "expression_contexte": "En majeure partie"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "מאחריו",
+          "hebreu_voyelles": "מֵאַחֲרָיו",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "(הנקרא",
+          "hebreu_voyelles": "(הַנִּקְרָא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "פראק),",
+          "hebreu_voyelles": "פְרָאק),",
+          "francais_mot": "Frak (Manteau)",
+          "expression_contexte": "Frak"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "נהגו",
+          "hebreu_voyelles": "נָהֲגוּ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "לעשות",
+          "hebreu_voyelles": "לַעֲשׂוֹת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "בו",
+          "hebreu_voyelles": "בּוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "עיגול",
+          "hebreu_voyelles": "עִגּוּל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "בכנף",
+          "hebreu_voyelles": "בְּכָנָף",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "אחד,",
+          "hebreu_voyelles": "אֶחָד,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "יצטרך",
+          "hebreu_voyelles": "יִצְטָרֵךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "להטיל",
+          "hebreu_voyelles": "לְהַטִּיל",
+          "francais_mot": "Mettre",
+          "expression_contexte": "Mettre",
+          "infinitif": "לְהַטִּיל = Attacher"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "בו",
+          "hebreu_voyelles": "בּוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "ציצית",
+          "hebreu_voyelles": "צִיצִית",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "לכולי",
+          "hebreu_voyelles": "לְכֻלֵּי",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "עלמא.",
+          "hebreu_voyelles": "עָלְמָא.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        }
+      ]
+    },
+    {
+      "seif": "5",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Chemises modernes avec découpe au col",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ה. חולצות ובגדים שיש בהם ד' כנפות, ב' למעלה ליד הצואר, וב' למטה, כבר פשט המנהג שאין מטילין בהם ציצית, דלא חשיב כבגד שיש לו ד' כנפות אלא כשב' כנפות מלפניו וב' כנפות מאחריו.",
+        "hebreu_avec_voyelles": "ה. חוּלְצוֹת וּבְגָדִים שֶׁיֵּשׁ בָּהֶם ד' כַּנְפוֹת, ב' לְמַעְלָה לְיַד הַצַּוָּאר, וּב' לְמַטָּה, כְּבָר פָּשַׁט הַמִּנְהָג שֶׁאֵין מַטִּילִין בָּהֶם צִיצִית, דְּלֹא חָשִׁיב כְּבֶגֶד שֶׁיֵּשׁ לוֹ ד' כַּנְפוֹת אֶלָּא כְּשֶׁב' כַּנְפוֹת מִלְּפָנָיו וּב' כַּנְפוֹת מֵאַחֲרָיו.",
+        "francais": "5. Les chemises et vêtements qui comportent 4 coins (2 en haut près du col et 2 en bas) : l'usage universel est de ne pas y mettre de Tsitsit, car un vêtement n'est considéré soumis que s'il comporte 2 coins à l'avant et 2 coins à l'arrière."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ה.",
+          "hebreu_voyelles": "ה.",
+          "francais_mot": "Hashem (D.ieu)",
+          "expression_contexte": "Hashem (D.ieu)"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "חולצות",
+          "hebreu_voyelles": "חוּלְצוֹת",
+          "francais_mot": "Chemises",
+          "expression_contexte": "Chemises"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "ובגדים",
+          "hebreu_voyelles": "וּבְגָדִים",
+          "francais_mot": "Vêtements",
+          "expression_contexte": "Vêtements"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "שיש",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "בהם",
+          "hebreu_voyelles": "בָּהֶם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "כנפות,",
+          "hebreu_voyelles": "כַּנְפוֹת,",
+          "francais_mot": "Coins",
+          "expression_contexte": "Coins"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "ב'",
+          "hebreu_voyelles": "ב'",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "למעלה",
+          "hebreu_voyelles": "לְמַעְלָה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "ליד",
+          "hebreu_voyelles": "לְיַד",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "הצואר,",
+          "hebreu_voyelles": "הַצַּוָּאר,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "וב'",
+          "hebreu_voyelles": "וּב'",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "למטה,",
+          "hebreu_voyelles": "לְמַטָּה,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "כבר",
+          "hebreu_voyelles": "כְּבָר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "פשט",
+          "hebreu_voyelles": "פָּשַׁט",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "המנהג",
+          "hebreu_voyelles": "הַמִּנְהָג",
+          "francais_mot": "La coutume",
+          "expression_contexte": "La coutume"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "מטילין",
+          "hebreu_voyelles": "מַטִּילִין",
+          "francais_mot": "On ne met pas",
+          "expression_contexte": "On ne met pas"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "בהם",
+          "hebreu_voyelles": "בָּהֶם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "דלא",
+          "hebreu_voyelles": "דְּלֹא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "חשיב",
+          "hebreu_voyelles": "חָשִׁיב",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "כבגד",
+          "hebreu_voyelles": "כְּבֶגֶד",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "שיש",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "כנפות",
+          "hebreu_voyelles": "כַּנְפוֹת",
+          "francais_mot": "Coins",
+          "expression_contexte": "Coins"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "כשב'",
+          "hebreu_voyelles": "כְּשֶׁב'",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "כנפות",
+          "hebreu_voyelles": "כַּנְפוֹת",
+          "francais_mot": "Coins",
+          "expression_contexte": "Coins"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "מלפניו",
+          "hebreu_voyelles": "מִלְּפָנָיו",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "וב'",
+          "hebreu_voyelles": "וּב'",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "כנפות",
+          "hebreu_voyelles": "כַּנְפוֹת",
+          "francais_mot": "Coins",
+          "expression_contexte": "Coins"
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "מאחריו.",
+          "hebreu_voyelles": "מֵאַחֲרָיו.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        }
+      ]
+    },
+    {
+      "seif": "6",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Tallit Katan fermé par boutons-pression",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ו. טלית קטן שסוגרים אותו על-ידי לחצנים בצדדיו, עד שנראה שאין לו ארבע כנפות, יש להסתפק בזה אם מקיים באותה שעה מצות ציצית, אבל אחר שפתח את הלחצנים הטלית כשרה.",
+        "hebreu_avec_voyelles": "ו. טַלִּית קָטָן שֶׁסּוֹגְרִים אוֹתוֹ עַל-יְדֵי לַחַצְנִים בִּצְדָדָיו, עַד שֶׁנִּרְאֶה שֶׁאֵין לוֹ אַרְבַּע כַּנְפוֹת, יֵשׁ לְהִסְתַּפֵּק בָּזֶה אִם מְקַיֵּם בְּאוֹתָהּ שָׁעָה מִצְוַת צִיצִית, אֲבָל אַחַר שֶׁפָּתַח אֶת הַלַּחַצְנִים הַטַּלִּית כְּשֵׁרָה.",
+        "francais": "6. Un Tallit Katan fermé sur les côtés au moyen de boutons-pression, au point qu'il semble ne plus avoir 4 coins : il y a un doute quant à savoir si l'on accomplit la Mitsva pendant cette fermeture. Mais une fois les boutons-pression ouverts, le Tallit est parfaitement kasher."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ו.",
+          "hebreu_voyelles": "ו.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Tallit",
+          "expression_contexte": "Tallit"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "קטן",
+          "hebreu_voyelles": "קָטָן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "שסוגרים",
+          "hebreu_voyelles": "שֶׁסּוֹגְרִים",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "אותו",
+          "hebreu_voyelles": "אוֹתוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "על-ידי",
+          "hebreu_voyelles": "עַל-יְדֵי",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "לחצנים",
+          "hebreu_voyelles": "לַחַצְנִים",
+          "francais_mot": "Boutons-pression",
+          "expression_contexte": "Boutons-pression"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "בצדדיו,",
+          "hebreu_voyelles": "בִּצְדָדָיו,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "עד",
+          "hebreu_voyelles": "עַד",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "שנראה",
+          "hebreu_voyelles": "שֶׁנִּרְאֶה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "ארבע",
+          "hebreu_voyelles": "אַרְבַּע",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "כנפות,",
+          "hebreu_voyelles": "כַּנְפוֹת,",
+          "francais_mot": "Coins",
+          "expression_contexte": "Coins"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "להסתפק",
+          "hebreu_voyelles": "לְהִסְתַּפֵּק",
+          "francais_mot": "Douter / Avoir un doute",
+          "expression_contexte": "Douter",
+          "infinitif": "לְהִסְתַּפֵּךְ = Douter"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "מקיים",
+          "hebreu_voyelles": "מְקַיֵּם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "באותה",
+          "hebreu_voyelles": "בְּאוֹתָהּ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "שעה",
+          "hebreu_voyelles": "שָׁעָה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "מצות",
+          "hebreu_voyelles": "מִצְוַת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "אבל",
+          "hebreu_voyelles": "אֲבָל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "אחר",
+          "hebreu_voyelles": "אַחַר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "שפתח",
+          "hebreu_voyelles": "שֶׁפָּתַח",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "הלחצנים",
+          "hebreu_voyelles": "הַלַּחַצְנִים",
+          "francais_mot": "Boutons-pression",
+          "expression_contexte": "Boutons-pression"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "Tallit",
+          "expression_contexte": "Tallit"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "כשרה.",
+          "hebreu_voyelles": "כְּשֵׁרָה.",
+          "francais_mot": "Kasher",
+          "expression_contexte": "Kasher"
+        }
+      ]
+    },
+    {
+      "seif": "7",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Ajout d'un 4ème coin sur un vêtement à 3 coins",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ז. היו לבגד ג' כנפות, ועשה בהם ג' ציציות, ושוב עשה לבגד כנף ד', ועשה גם בו ציצית, הטלית פסולה, משום שנאמר תעשה ולא מן העשוי.",
+        "hebreu_avec_voyelles": "ז. הָיוּ לַבֶּגֶד ג' כַּנְפוֹת, וְעָשָׂה בָּהֶם ג' צִיצִיּוֹת, וְשׁוּב עָשָׂה לַבֶּגֶד כָּנָף ד', וְעָשָׂה גַּם בּוֹ צִיצִית, הַטַּלִּית פְּסוּלָה, מִשּׁוּם שֶׁנֶּאֱמַר תַּעֲשֶׂה וְלֹא מִן הָעָשׂוּי.",
+        "francais": "7. Si un vêtement n'avait que 3 coins sur lesquels on a installé 3 Tsitsiot, puis qu'on a ajouté un 4ème coin avec son Tsitsit, le Tallit est invalide en vertu du principe Ta'assé VeLo Min Ha'Assouï."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ז.",
+          "hebreu_voyelles": "ז.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "היו",
+          "hebreu_voyelles": "הָיוּ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לבגד",
+          "hebreu_voyelles": "לַבֶּגֶד",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "ג'",
+          "hebreu_voyelles": "ג'",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "כנפות,",
+          "hebreu_voyelles": "כַּנְפוֹת,",
+          "francais_mot": "Coins",
+          "expression_contexte": "Coins"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "ועשה",
+          "hebreu_voyelles": "וְעָשָׂה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "בהם",
+          "hebreu_voyelles": "בָּהֶם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "ג'",
+          "hebreu_voyelles": "ג'",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "ציציות,",
+          "hebreu_voyelles": "צִיצִיּוֹת,",
+          "francais_mot": "Tsitsiot",
+          "expression_contexte": "Tsitsiot"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "ושוב",
+          "hebreu_voyelles": "וְשׁוּב",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "עשה",
+          "hebreu_voyelles": "עָשָׂה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "לבגד",
+          "hebreu_voyelles": "לַבֶּגֶד",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "כנף",
+          "hebreu_voyelles": "כָּנָף",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ד',",
+          "hebreu_voyelles": "ד',",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "ועשה",
+          "hebreu_voyelles": "וְעָשָׂה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "גם",
+          "hebreu_voyelles": "גַּם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "בו",
+          "hebreu_voyelles": "בּוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "Tallit",
+          "expression_contexte": "Tallit"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "פסולה,",
+          "hebreu_voyelles": "פְּסוּלָה,",
+          "francais_mot": "Invalide (Passoul)",
+          "expression_contexte": "Invalide"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "משום",
+          "hebreu_voyelles": "מִשּׁוּם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "שנאמר",
+          "hebreu_voyelles": "שֶׁנֶּאֱמַר",
+          "francais_mot": "Comme il est dit",
+          "expression_contexte": "Comme il est dit",
+          "infinitif": "לֵאָמֵר = Être dit"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "תעשה",
+          "hebreu_voyelles": "תַּעֲשֶׂה",
+          "francais_mot": "Tu feras",
+          "expression_contexte": "Tu feras"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "ולא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "מן",
+          "hebreu_voyelles": "מִן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "העשוי.",
+          "hebreu_voyelles": "הָעָשׂוּי.",
+          "francais_mot": "Le fait accompli",
+          "expression_contexte": "Le fait accompli"
+        }
+      ]
+    },
+    {
+      "seif": "8",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Coin de Tallit découpé puis réparé",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ח. טלית שהיו לה ד' כנפות עם ציציות, ואחר כך נחתך כנף אחד ונעשה עגול, תיקן את הכנף אחר כך, אינו צריך להתיר הציציות, וכן נראה עיקר.",
+        "hebreu_avec_voyelles": "ח. טַלִּית שֶׁהָיוּ לָהּ ד' כַּנְפוֹת עִם צִיצִיּוֹת, וְאַחַר כָּךְ נִחְתַּךְ כָּנָף אֶחָד וְנַעֲשָׂה עָגֹל, תִּקֵּן אֶת הַכָּנָף אַחַר כָּךְ, אֵינוֹ צָרִיךְ לְהַתִּיר הַצִּיצִיּוֹת, וְכֵן נִרְאֶה עִקָּר.",
+        "francais": "8. Un Tallit à 4 coins muni de Tsitsiot dont un coin a été découpé en arrondi puis réparé : a posteriori, il n'est pas nécessaire de défaire et réattacher les Tsitsiot, et tel est l'avis fondamental."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ח.",
+          "hebreu_voyelles": "ח.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Tallit",
+          "expression_contexte": "Tallit"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שהיו",
+          "hebreu_voyelles": "שֶׁהָיוּ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "לה",
+          "hebreu_voyelles": "לָהּ",
+          "francais_mot": "À Hashem",
+          "expression_contexte": "À Hashem"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "כנפות",
+          "hebreu_voyelles": "כַּנְפוֹת",
+          "francais_mot": "Coins",
+          "expression_contexte": "Coins"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "עם",
+          "hebreu_voyelles": "עִם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "ציציות,",
+          "hebreu_voyelles": "צִיצִיּוֹת,",
+          "francais_mot": "Tsitsiot",
+          "expression_contexte": "Tsitsiot"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "ואחר",
+          "hebreu_voyelles": "וְאַחַר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "כך",
+          "hebreu_voyelles": "כָּךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "נחתך",
+          "hebreu_voyelles": "נִחְתַּךְ",
+          "francais_mot": "A été coupé",
+          "expression_contexte": "A été coupé",
+          "infinitif": "לְהֵחָתֵךְ = Être coupé"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "כנף",
+          "hebreu_voyelles": "כָּנָף",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "אחד",
+          "hebreu_voyelles": "אֶחָד",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ונעשה",
+          "hebreu_voyelles": "וְנַעֲשָׂה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "עגול,",
+          "hebreu_voyelles": "עָגֹל,",
+          "francais_mot": "Arrondi",
+          "expression_contexte": "Arrondi"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "תיקן",
+          "hebreu_voyelles": "תִּקֵּן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "הכנף",
+          "hebreu_voyelles": "הַכָּנָף",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "אחר",
+          "hebreu_voyelles": "אַחַר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "כך,",
+          "hebreu_voyelles": "כָּךְ,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "אינו",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "להתיר",
+          "hebreu_voyelles": "לְהַתִּיר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "הציציות,",
+          "hebreu_voyelles": "הַצִּיצִיּוֹת,",
+          "francais_mot": "Tsitsiot",
+          "expression_contexte": "Tsitsiot"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "וכן",
+          "hebreu_voyelles": "וְכֵן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "נראה",
+          "hebreu_voyelles": "נִרְאֶה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "עיקר.",
+          "hebreu_voyelles": "עִקָּר.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        }
+      ]
+    },
+    {
+      "seif": "9",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Coin déchiré et recousu au vêtement",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ט. אם נקרע הכנף ורוצה לחברו לבגד, מעיקר הדין אין צריך להתיר ממנו הציציות, ולא נפסל משום תעשה ולא מן העשוי, כיון דתחלת עשייתו בבגד זה היה בכשרות.",
+        "hebreu_avec_voyelles": "ט. אִם נִקְרַע הַכָּנָף וְרוֹצֶה לְחַבְּרוֹ לַבֶּגֶד, מֵעִקַּר הַדִּין אֵין צָרִיךְ לְהַתִּיר מִמֶּנּוּ הַצִּיצִיּוֹת, וְלֹא נִפְסַל מִשּׁוּם תַּעֲשֶׂה וְלֹא מִן הָעָשׂוּי, כֵּיוָן דִּתְחִלַּת עֲשִׂיָּתוֹ בְּבֶגֶד זֶה הָיָה בְּכַשְׁרוּת.",
+        "francais": "9. Si un coin du vêtement s'est déchiré et qu'on souhaite le recoudre : en strict droit halakhique, il n'est pas nécessaire de défaire le Tsitsit au préalable, car la confection initiale avait été faite de manière valide."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ט.",
+          "hebreu_voyelles": "ט.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "נקרע",
+          "hebreu_voyelles": "נִקְרַע",
+          "francais_mot": "S'est déchiré",
+          "expression_contexte": "S'est déchiré",
+          "infinitif": "לְהִקָּרַע = Se déchirer"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "הכנף",
+          "hebreu_voyelles": "הַכָּנָף",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "ורוצה",
+          "hebreu_voyelles": "וְרוֹצֶה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "לחברו",
+          "hebreu_voyelles": "לְחַבְּרוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "לבגד,",
+          "hebreu_voyelles": "לַבֶּגֶד,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "מעיקר",
+          "hebreu_voyelles": "מֵעִקַּר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "הדין",
+          "hebreu_voyelles": "הַדִּין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "להתיר",
+          "hebreu_voyelles": "לְהַתִּיר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "ממנו",
+          "hebreu_voyelles": "מִמֶּנּוּ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "הציציות,",
+          "hebreu_voyelles": "הַצִּיצִיּוֹת,",
+          "francais_mot": "Tsitsiot",
+          "expression_contexte": "Tsitsiot"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "ולא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "נפסל",
+          "hebreu_voyelles": "נִפְסַל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "משום",
+          "hebreu_voyelles": "מִשּׁוּם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "תעשה",
+          "hebreu_voyelles": "תַּעֲשֶׂה",
+          "francais_mot": "Tu feras",
+          "expression_contexte": "Tu feras"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "ולא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "מן",
+          "hebreu_voyelles": "מִן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "העשוי,",
+          "hebreu_voyelles": "הָעָשׂוּי,",
+          "francais_mot": "Le fait accompli",
+          "expression_contexte": "Le fait accompli"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "כיון",
+          "hebreu_voyelles": "כֵּיוָן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "דתחלת",
+          "hebreu_voyelles": "דִּתְחִלַּת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "עשייתו",
+          "hebreu_voyelles": "עֲשִׂיָּתוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "בבגד",
+          "hebreu_voyelles": "בְּבֶגֶד",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "זה",
+          "hebreu_voyelles": "זֶה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "היה",
+          "hebreu_voyelles": "הָיָה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "בכשרות.",
+          "hebreu_voyelles": "בְּכַשְׁרוּת.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        }
+      ]
+    },
+    {
+      "seif": "10",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Pliage et couture des coins pour le lavage",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "י. מי שמכבס את טליתו, וחושש שהחוטים לא יקרעו בכיבוס, ורוצה לכופלן על הכנף, ולתפור כפילות הכנף באופן שהציציות נבלעות בתוך הכפילות, ואחר הכביסה מתיר את התפירות, אין לחוש בזה משום תעשה ולא מן העשוי.",
+        "hebreu_avec_voyelles": "י. מִי שֶׁמְּכַבֵּס אֶת טַלִּיתוֹ, וְחוֹשֵׁשׁ שֶׁהַחוּטִים לֹא יִקָּרְעוּ בַּכִּבּוּס, וְרוֹצֶה לְכוֹפְלָן עַל הַכָּנָף, וְלִתְפֹּר כְּפִילוּת הַכָּנָף בְּאֹפֶן שֶׁהַצִּיצִיּוֹת נִבְלָעוֹת בְּתוֹךְ הַכְּפִילוּת, וְאַחַר הַכְּבִיסָה מַתִּיר אֶת הַתְּפִירוֹת, אֵין לָחוּשׁ בָּזֶה מִשּׁוּם תַּעֲשֶׂה וְלֹא מִן הָעָשׂוּי.",
+        "francais": "10. Celui qui lave son Tallit et craint que les fils ne s'abîment au lavage : s'il plie le coin et le coud temporairement pour y enfermer les franges, puis découd le tout après le lavage, cela est parfaitement permis et ne contrevient pas au principe de Ta'assé VeLo Min Ha'Assouï."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "י.",
+          "hebreu_voyelles": "י.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מי",
+          "hebreu_voyelles": "מִי",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שמכבס",
+          "hebreu_voyelles": "שֶׁמְּכַבֵּס",
+          "francais_mot": "Lave (du linge)",
+          "expression_contexte": "Lave",
+          "infinitif": "לְכַבֵּס = Laver"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "טליתו,",
+          "hebreu_voyelles": "טַלִּיתוֹ,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "וחושש",
+          "hebreu_voyelles": "וְחוֹשֵׁשׁ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "שהחוטים",
+          "hebreu_voyelles": "שֶׁהַחוּטִים",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "לא",
+          "hebreu_voyelles": "לֹא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "יקרעו",
+          "hebreu_voyelles": "יִקָּרְעוּ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "בכיבוס,",
+          "hebreu_voyelles": "בַּכִּבּוּס,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "ורוצה",
+          "hebreu_voyelles": "וְרוֹצֶה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "לכופלן",
+          "hebreu_voyelles": "לְכוֹפְלָן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "הכנף,",
+          "hebreu_voyelles": "הַכָּנָף,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "ולתפור",
+          "hebreu_voyelles": "וְלִתְפֹּר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "כפילות",
+          "hebreu_voyelles": "כְּפִילוּת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "הכנף",
+          "hebreu_voyelles": "הַכָּנָף",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "באופן",
+          "hebreu_voyelles": "בְּאֹפֶן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "שהציציות",
+          "hebreu_voyelles": "שֶׁהַצִּיצִיּוֹת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "נבלעות",
+          "hebreu_voyelles": "נִבְלָעוֹת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "בתוך",
+          "hebreu_voyelles": "בְּתוֹךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "הכפילות,",
+          "hebreu_voyelles": "הַכְּפִילוּת,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "ואחר",
+          "hebreu_voyelles": "וְאַחַר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "הכביסה",
+          "hebreu_voyelles": "הַכְּבִיסָה",
+          "francais_mot": "Lavage",
+          "expression_contexte": "Lavage"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "מתיר",
+          "hebreu_voyelles": "מַתִּיר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "התפירות,",
+          "hebreu_voyelles": "הַתְּפִירוֹת,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "לחוש",
+          "hebreu_voyelles": "לָחוּשׁ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "משום",
+          "hebreu_voyelles": "מִשּׁוּם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "תעשה",
+          "hebreu_voyelles": "תַּעֲשֶׂה",
+          "francais_mot": "Tu feras",
+          "expression_contexte": "Tu feras"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "ולא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "מן",
+          "hebreu_voyelles": "מִן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "העשוי.",
+          "hebreu_voyelles": "הָעָשׂוּי.",
+          "francais_mot": "Le fait accompli",
+          "expression_contexte": "Le fait accompli"
+        }
+      ]
+    },
+    {
+      "seif": "11",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Tallit déchiré en deux puis recousu",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "יא. טלית עם ציציות שנקרעה לשנים, אפילו אם נקרעה ברובה, ובא לתופרה, מעיקר הדין אין צריך להתיר הציציות קודם שתופר הבגד, ואין לחוש בזה משום תעשה ולא מן העשוי.",
+        "hebreu_avec_voyelles": "יא. טַלִּית עִם צִיצִיּוֹת שֶׁנִּקְרְעָה לִשְׁנַיִם, אֲפִלּוּ אִם נִקְרְעָה בְּרֻבָּהּ, וּבָא לִתְפֹּרָהּ, מֵעִקַּר הַדִּין אֵין צָרִיךְ לְהַתִּיר הַצִּיצִיּוֹת קֹדֶם שֶׁתּוֹפֵר הַבֶּגֶד, וְאֵין לָחוּשׁ בָּזֶה מִשּׁוּם תַּעֲשֶׂה וְלֹא מִן הָעָשׂוּי.",
+        "francais": "11. Un Tallit avec ses Tsitsiot qui s'est déchiré en deux (même en majeure partie) : si l'on vient le recoudre, en strict droit halakhique, il n'est pas nécessaire de défaire les franges avant la couture."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "יא.",
+          "hebreu_voyelles": "יא.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Tallit",
+          "expression_contexte": "Tallit"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "עם",
+          "hebreu_voyelles": "עִם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "ציציות",
+          "hebreu_voyelles": "צִיצִיּוֹת",
+          "francais_mot": "Tsitsiot",
+          "expression_contexte": "Tsitsiot"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "שנקרעה",
+          "hebreu_voyelles": "שֶׁנִּקְרְעָה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "לשנים,",
+          "hebreu_voyelles": "לִשְׁנַיִם,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "אפילו",
+          "hebreu_voyelles": "אֲפִלּוּ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "נקרעה",
+          "hebreu_voyelles": "נִקְרְעָה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "ברובה,",
+          "hebreu_voyelles": "בְּרֻבָּהּ,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "ובא",
+          "hebreu_voyelles": "וּבָא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "לתופרה,",
+          "hebreu_voyelles": "לִתְפֹּרָהּ,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "מעיקר",
+          "hebreu_voyelles": "מֵעִקַּר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "הדין",
+          "hebreu_voyelles": "הַדִּין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "להתיר",
+          "hebreu_voyelles": "לְהַתִּיר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "הציציות",
+          "hebreu_voyelles": "הַצִּיצִיּוֹת",
+          "francais_mot": "Tsitsiot",
+          "expression_contexte": "Tsitsiot"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "קודם",
+          "hebreu_voyelles": "קֹדֶם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "שתופר",
+          "hebreu_voyelles": "שֶׁתּוֹפֵר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "הבגד,",
+          "hebreu_voyelles": "הַבֶּגֶד,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "לחוש",
+          "hebreu_voyelles": "לָחוּשׁ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "משום",
+          "hebreu_voyelles": "מִשּׁוּם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "תעשה",
+          "hebreu_voyelles": "תַּעֲשֶׂה",
+          "francais_mot": "Tu feras",
+          "expression_contexte": "Tu feras"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "ולא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "מן",
+          "hebreu_voyelles": "מִן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "העשוי.",
+          "hebreu_voyelles": "הָעָשׂוּי.",
+          "francais_mot": "Le fait accompli",
+          "expression_contexte": "Le fait accompli"
+        }
+      ]
+    },
+    {
+      "seif": "12",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Tallit coupé en deux conservant le Chi'our",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "יב. טלית שחלקוה לשתים, ובכל חלק יש בה שיעור טלית, ונשאר לכל אחת מהם ציצית אחת או שתים, מותר להטיל ציציות בשאר הכנפות, ואין בזה משום תעשה ולא מן העשוי.",
+        "hebreu_avec_voyelles": "יב. טַלִּית שֶׁחִלְּקוּהָ לִשְׁתַּיִם, וּבְכָל חֵלֶק יֵשׁ בָּהּ שִׁעוּר טַלִּית, וְנִשְׁאַר לְכָל אַחַת מֵהֶם צִיצִית אַחַת אוֹ שְׁתַּיִם, מֻתָּר לְהַטִּיל צִיצִיּוֹת בִּשְׁאָר הַכַּנְפוֹת, וְאֵין בָּזֶה מִשּׁוּם תַּעֲשֶׂה וְלֹא מִן הָעָשׂוּי.",
+        "francais": "12. Si l'on a découpé un grand Tallit en deux parties et que chaque partie conserve la dimension minimale d'un Tallit (Chi'our Tallit), il est permis de rajouter des Tsitsiot aux coins manquants sans crainte d'invalidation."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "יב.",
+          "hebreu_voyelles": "יב.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Tallit",
+          "expression_contexte": "Tallit"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שחלקוה",
+          "hebreu_voyelles": "שֶׁחִלְּקוּהָ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "לשתים,",
+          "hebreu_voyelles": "לִשְׁתַּיִם,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "ובכל",
+          "hebreu_voyelles": "וּבְכָל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "חלק",
+          "hebreu_voyelles": "חֵלֶק",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "שיעור",
+          "hebreu_voyelles": "שִׁעוּר",
+          "francais_mot": "Mesure",
+          "expression_contexte": "Mesure"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "טלית,",
+          "hebreu_voyelles": "טַלִּית,",
+          "francais_mot": "Tallit",
+          "expression_contexte": "Tallit"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "ונשאר",
+          "hebreu_voyelles": "וְנִשְׁאַר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "לכל",
+          "hebreu_voyelles": "לְכָל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "אחת",
+          "hebreu_voyelles": "אַחַת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "מהם",
+          "hebreu_voyelles": "מֵהֶם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "ציצית",
+          "hebreu_voyelles": "צִיצִית",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "אחת",
+          "hebreu_voyelles": "אַחַת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "שתים,",
+          "hebreu_voyelles": "שְׁתַּיִם,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "להטיל",
+          "hebreu_voyelles": "לְהַטִּיל",
+          "francais_mot": "Mettre",
+          "expression_contexte": "Mettre",
+          "infinitif": "לְהַטִּיל = Attacher"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "ציציות",
+          "hebreu_voyelles": "צִיצִיּוֹת",
+          "francais_mot": "Tsitsiot",
+          "expression_contexte": "Tsitsiot"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "בשאר",
+          "hebreu_voyelles": "בִּשְׁאָר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "הכנפות,",
+          "hebreu_voyelles": "הַכַּנְפוֹת,",
+          "francais_mot": "Coins",
+          "expression_contexte": "Coins"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "משום",
+          "hebreu_voyelles": "מִשּׁוּם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "תעשה",
+          "hebreu_voyelles": "תַּעֲשֶׂה",
+          "francais_mot": "Tu feras",
+          "expression_contexte": "Tu feras"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "ולא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "מן",
+          "hebreu_voyelles": "מִן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "העשוי.",
+          "hebreu_voyelles": "הָעָשׂוּי.",
+          "francais_mot": "Le fait accompli",
+          "expression_contexte": "Le fait accompli"
+        }
+      ]
+    },
+    {
+      "seif": "13",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Vœu d'interdiction (Kounam) sur le Tallit",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "יג. מי שאסר טליתו בקונם לכל העולם לשלשים יום, וחל יום שלשים בשבת קודש, ובערב שבת הניח בו בעליו ציציות ולבשו בשבת קודש, אין בזה משום תעשה ולא מן העשוי, וכן עיקר לדינא.",
+        "hebreu_avec_voyelles": "יג. מִי שֶׁאָסַר טַלִּיתוֹ בְּקוֹנָם לְכָל הָעוֹלָם לִשְׁלֹשִׁים יוֹם, וְחָל יוֹם שְׁלֹשִׁים בְּשַׁבָּת קֹדֶשׁ, וּבְעֶרֶב שַׁבָּת הִנִּיחַ בּוֹ בְּעָלָיו צִיצִיּוֹת וּלְבָשׁוֹ בְּשַׁבָּת קֹדֶשׁ, אֵין בָּזֶה מִשּׁוּם תַּעֲשֶׂה וְלֹא מִן הָעָשׂוּי, וְכֵן עִקָּר לַדִּינָא.",
+        "francais": "13. Celui qui a fait un vœu d'interdiction (Kounam) sur son Tallit pour 30 jours et que le 30ème jour tombe un Chabbat : s'il a installé des Tsitsiot la veille de Chabbat et qu'il le revêt le jour du Chabbat, cela demeure valide et ne contrevient pas au principe Ta'assé VeLo Min Ha'Assouï."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "יג.",
+          "hebreu_voyelles": "יג.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מי",
+          "hebreu_voyelles": "מִי",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שאסר",
+          "hebreu_voyelles": "שֶׁאָסַר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "טליתו",
+          "hebreu_voyelles": "טַלִּיתוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "בקונם",
+          "hebreu_voyelles": "בְּקוֹנָם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "לכל",
+          "hebreu_voyelles": "לְכָל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "העולם",
+          "hebreu_voyelles": "הָעוֹלָם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "לשלשים",
+          "hebreu_voyelles": "לִשְׁלֹשִׁים",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "יום,",
+          "hebreu_voyelles": "יוֹם,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "וחל",
+          "hebreu_voyelles": "וְחָל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "יום",
+          "hebreu_voyelles": "יוֹם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "שלשים",
+          "hebreu_voyelles": "שְׁלֹשִׁים",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "קודש,",
+          "hebreu_voyelles": "קֹדֶשׁ,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "ובערב",
+          "hebreu_voyelles": "וּבְעֶרֶב",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "הניח",
+          "hebreu_voyelles": "הִנִּיחַ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "בו",
+          "hebreu_voyelles": "בּוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "בעליו",
+          "hebreu_voyelles": "בְּעָלָיו",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "ציציות",
+          "hebreu_voyelles": "צִיצִיּוֹת",
+          "francais_mot": "Tsitsiot",
+          "expression_contexte": "Tsitsiot"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "ולבשו",
+          "hebreu_voyelles": "וּלְבָשׁוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "קודש,",
+          "hebreu_voyelles": "קֹדֶשׁ,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "משום",
+          "hebreu_voyelles": "מִשּׁוּם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "תעשה",
+          "hebreu_voyelles": "תַּעֲשֶׂה",
+          "francais_mot": "Tu feras",
+          "expression_contexte": "Tu feras"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "ולא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "מן",
+          "hebreu_voyelles": "מִן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "העשוי,",
+          "hebreu_voyelles": "הָעָשׂוּי,",
+          "francais_mot": "Le fait accompli",
+          "expression_contexte": "Le fait accompli"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "וכן",
+          "hebreu_voyelles": "וְכֵן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "עיקר",
+          "hebreu_voyelles": "עִקָּר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "לדינא.",
+          "hebreu_voyelles": "לַדִּינָא.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        }
+      ]
+    },
+    {
+      "seif": "14",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Forme carrée obligatoire des coins",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "יד. צריך שהכנף יהיה מרובע, ולא עגול, דאין עיגול נקרא כנף.",
+        "hebreu_avec_voyelles": "יד. צָרִיךְ שֶׁהַכָּנָף יִהְיֶה מְרֻבָּע, וְלֹא עָגֹל, דְּאֵין עִגּוּל נִקְרָא כָּנָף.",
+        "francais": "14. Le coin du vêtement doit obligatoirement être carré et non arrondi, car une forme arrondie n'est pas appelée coin (Kanaph) en Halakha."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "יד.",
+          "hebreu_voyelles": "יד.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שהכנף",
+          "hebreu_voyelles": "שֶׁהַכָּנָף",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "יהיה",
+          "hebreu_voyelles": "יִהְיֶה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "מרובע,",
+          "hebreu_voyelles": "מְרֻבָּע,",
+          "francais_mot": "Carré",
+          "expression_contexte": "Carré"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "ולא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "עגול,",
+          "hebreu_voyelles": "עָגֹל,",
+          "francais_mot": "Arrondi",
+          "expression_contexte": "Arrondi"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "דאין",
+          "hebreu_voyelles": "דְּאֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "עיגול",
+          "hebreu_voyelles": "עִגּוּל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "נקרא",
+          "hebreu_voyelles": "נִקְרָא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "כנף.",
+          "hebreu_voyelles": "כָּנָף.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        }
+      ]
+    },
+    {
+      "seif": "15",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Vêtement ouvert sur les côtés en bas",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "טו. בגד שיש לו ד' כנפות ופתוח מהצד לצד מטה, ולמעלה הוא סתום, אם רובו סתום פטור מציצית, ואם רובו פתוח חייב.",
+        "hebreu_avec_voyelles": "טו. בֶּגֶד שֶׁיֵּשׁ לוֹ ד' כַּנְפוֹת וּפָתוּחַ מֵהַצַּד לְצַד מַטָּה, וּלְמַעְלָה הוּא סָתוּם, אִם רֻבּוֹ סָתוּם פָּטוּר מִצִּיצִית, וְאִם רֻבּוֹ פָּתוּחַ חַיָּב.",
+        "francais": "15. Un vêtement possédant 4 coins qui est ouvert sur les côtés dans sa partie inférieure et fermé dans sa partie supérieure : si la majeure partie est fermée, il est exempt ; si la majeure partie est ouverte, il est soumis au Tsitsit."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "טו.",
+          "hebreu_voyelles": "טו.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "בגד",
+          "hebreu_voyelles": "בֶּגֶד",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שיש",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "כנפות",
+          "hebreu_voyelles": "כַּנְפוֹת",
+          "francais_mot": "Coins",
+          "expression_contexte": "Coins"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "ופתוח",
+          "hebreu_voyelles": "וּפָתוּחַ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "מהצד",
+          "hebreu_voyelles": "מֵהַצַּד",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "לצד",
+          "hebreu_voyelles": "לְצַד",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "מטה,",
+          "hebreu_voyelles": "מַטָּה,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "ולמעלה",
+          "hebreu_voyelles": "וּלְמַעְלָה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "הוא",
+          "hebreu_voyelles": "הוּא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "סתום,",
+          "hebreu_voyelles": "סָתוּם,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "רובו",
+          "hebreu_voyelles": "רֻבּוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "סתום",
+          "hebreu_voyelles": "סָתוּם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "פטור",
+          "hebreu_voyelles": "פָּטוּר",
+          "francais_mot": "Exempt",
+          "expression_contexte": "Exempt"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "מציצית,",
+          "hebreu_voyelles": "מִצִּיצִית,",
+          "francais_mot": "De Tsitsit",
+          "expression_contexte": "De Tsitsit"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "ואם",
+          "hebreu_voyelles": "וְאִם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "רובו",
+          "hebreu_voyelles": "רֻבּוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "פתוח",
+          "hebreu_voyelles": "פָּתוּחַ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "חייב.",
+          "hebreu_voyelles": "חַיָּב.",
+          "francais_mot": "Soumis / Obligé",
+          "expression_contexte": "Soumis"
+        }
+      ]
+    },
+    {
+      "seif": "16",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Vêtement à moitié ouvert et à moitié fermé",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "טז. בגד שחציו פתוח וחציו סתום יש להטיל בו ציצית לחומרא, אך אין לברך עליו, ואין יוצאין בו בשבת.",
+        "hebreu_avec_voyelles": "טז. בֶּגֶד שֶׁחֶצְיוֹ פָּתוּחַ וְחֶצְיוֹ סָתוּם יֵשׁ לְהַטִּיל בּוֹ צִיצִית לַחֻמְרָא, אַךְ אֵין לְבָרֵךְ עָלָיו, וְאֵין יוֹצְאִין בּוֹ בַּשַּׁבָּת.",
+        "francais": "16. Un vêtement exactement à moitié ouvert et à moitié fermé : par rigueur (LeHoumra), on y mettra des Tsitsiot, mais on ne récitera pas de bénédiction et on ne sortira pas avec dans le domaine public le Chabbat."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "טז.",
+          "hebreu_voyelles": "טז.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "בגד",
+          "hebreu_voyelles": "בֶּגֶד",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שחציו",
+          "hebreu_voyelles": "שֶׁחֶצְיוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "פתוח",
+          "hebreu_voyelles": "פָּתוּחַ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "וחציו",
+          "hebreu_voyelles": "וְחֶצְיוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "סתום",
+          "hebreu_voyelles": "סָתוּם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "להטיל",
+          "hebreu_voyelles": "לְהַטִּיל",
+          "francais_mot": "Mettre",
+          "expression_contexte": "Mettre",
+          "infinitif": "לְהַטִּיל = Attacher"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "בו",
+          "hebreu_voyelles": "בּוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "ציצית",
+          "hebreu_voyelles": "צִיצִית",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "לחומרא,",
+          "hebreu_voyelles": "לַחֻמְרָא,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "אך",
+          "hebreu_voyelles": "אַךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "לברך",
+          "hebreu_voyelles": "לְבָרֵךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "עליו,",
+          "hebreu_voyelles": "עָלָיו,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "יוצאין",
+          "hebreu_voyelles": "יוֹצְאִין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "בו",
+          "hebreu_voyelles": "בּוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "בשבת.",
+          "hebreu_voyelles": "בַּשַּׁבָּת.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        }
+      ]
+    },
+    {
+      "seif": "17",
+      "sujet": "דיני כנפות הטלית",
+      "sujet_fr": "Chapitre 10 - Lois des coins du Tallit (Texte Officiel Yalkout Yossef)",
+      "titre_seif": "Exemption de la serviette de bain (Magavet)",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "יז. המתעטף במגבת, אין צריך להטיל בה ציציות, אחר שאין העיטוף נעשה לשם הנאת לבישה, אלא עיקר המגבת נועדה לניגוב.",
+        "hebreu_avec_voyelles": "יז. הַמִּתְעַטֵּף בְּמַגֶּבֶת, אֵין צָרִיךְ לְהַטִּיל בָּהּ צִיצִיּוֹת, אַחַר שֶׁאֵין הָעִיטוּף נַעֲשָׂה לְשֵׁם הֲנָאַת לְבִישָׁה, אֶלָּא עִקַּר הַמַּגֶּבֶת נוֹעֲדָה לְנִגּוּב.",
+        "francais": "17. Celui qui s'enveloppe dans une serviette de bain n'a pas besoin d'y mettre des Tsitsiot, car l'enveloppement n'est pas fait dans l'intention de s'habiller mais uniquement pour s'essuyer."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "יז.",
+          "hebreu_voyelles": "יז.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "המתעטף",
+          "hebreu_voyelles": "הַמִּתְעַטֵּף",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "במגבת,",
+          "hebreu_voyelles": "בְּמַגֶּבֶת,",
+          "francais_mot": "Serviette de bain",
+          "expression_contexte": "Serviette de bain"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "להטיל",
+          "hebreu_voyelles": "לְהַטִּיל",
+          "francais_mot": "Mettre",
+          "expression_contexte": "Mettre",
+          "infinitif": "לְהַטִּיל = Attacher"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "ציציות,",
+          "hebreu_voyelles": "צִיצִיּוֹת,",
+          "francais_mot": "Tsitsiot",
+          "expression_contexte": "Tsitsiot"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "אחר",
+          "hebreu_voyelles": "אַחַר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "העיטוף",
+          "hebreu_voyelles": "הָעִיטוּף",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "נעשה",
+          "hebreu_voyelles": "נַעֲשָׂה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "לשם",
+          "hebreu_voyelles": "לְשֵׁם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "הנאת",
+          "hebreu_voyelles": "הֲנָאַת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "לבישה,",
+          "hebreu_voyelles": "לְבִישָׁה,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "עיקר",
+          "hebreu_voyelles": "עִקַּר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "המגבת",
+          "hebreu_voyelles": "הַמַּגֶּבֶת",
+          "francais_mot": "Serviette de bain",
+          "expression_contexte": "Serviette de bain"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "נועדה",
+          "hebreu_voyelles": "נוֹעֲדָה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "לניגוב.",
+          "hebreu_voyelles": "לְנִגּוּב.",
+          "francais_mot": "Pour s'essuyer",
+          "expression_contexte": "Pour s'essuyer",
+          "infinitif": "לְנַגֵּב = Essuyer"
+        }
+      ]
+    }
+  ]
+}

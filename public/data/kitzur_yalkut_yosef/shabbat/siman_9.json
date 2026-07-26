@@ -1,0 +1,2118 @@
+{
+  "siman": "9",
+  "halakhot": [
+    {
+      "seif": "1",
+      "sujet": "הלכות לבישת הטלית וברכתה",
+      "sujet_fr": "Chapitre 9 - Lois du port du Tallit, de sa bénédiction et de la kavanah",
+      "titre_seif": "Intention spirituelle (Kavanah) lors de l'enveloppement",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "א. כשמתעטף בציצית יתכוון שצונו הקדוש ברוך הוא להתעטף בציצית, כדי שנזכור כל מצותיו לעשותם, כדכתיב: ''וזכרתם את כל מצות ה' ועשיתם אותם''.",
+        "hebreu_avec_voyelles": "א. כְּשֶׁמִּתְעַטֵּף בַּצִּיצִית יִתְכַּוֵּן שֶׁצִּוָּנוּ הַקָּדוֹשׁ בָּרוּךְ הוּא לְהִתְעַטֵּף בַּצִּיצִית, כְּדֵי שֶׁנִּזְכֹּר כָּל מִצְוֹתָיו לַעֲשׂוֹתָם, כְּדִכְתִיב: ''וּזְכַרְתֶּם אֶת כָּל מִצְוֹת ה' וַעֲשִׂיתֶם אֹתָם''.",
+        "francais": "1. Lorsqu'on s'enveloppe du Tsitsit, on aura l'intention que le Saint béni soit-Il nous a ordonné de nous envelopper du Tsitsit afin que nous nous rappelions tous Ses commandements pour les accomplir, comme il est écrit : « Et vous vous rappellerez toutes les Mitsvot d'Hashem et vous les accomplirez »."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "א.",
+          "hebreu_voyelles": "א.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "כשמתעטף",
+          "hebreu_voyelles": "כְּשֶׁמִּתְעַטֵּף",
+          "francais_mot": "Lorsqu'il s'enveloppe",
+          "expression_contexte": "Lorsqu'il s'enveloppe",
+          "infinitif": "לְהִתְעַטֵּף = S'envelopper"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "בציצית",
+          "hebreu_voyelles": "בַּצִּיצִית",
+          "francais_mot": "Dans le Tsitsit",
+          "expression_contexte": "Dans le Tsitsit"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "יתכוון",
+          "hebreu_voyelles": "יִתְכַּוֵּן",
+          "francais_mot": "Aura l'intention",
+          "expression_contexte": "Aura l'intention",
+          "infinitif": "לְהִתְכַּוֵּן = Avoir l'intention / Penser"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "שצונו",
+          "hebreu_voyelles": "שֶׁצִּוָּנוּ",
+          "francais_mot": "Qu'Il nous a ordonné",
+          "expression_contexte": "Qu'Il nous a ordonné",
+          "infinitif": "לְצַוּוֹת = Ordonner"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "הקדוש",
+          "hebreu_voyelles": "הַקָּדוֹשׁ",
+          "francais_mot": "Le Saint",
+          "expression_contexte": "Le Saint"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "ברוך",
+          "hebreu_voyelles": "בָּרוּךְ",
+          "francais_mot": "Béni soit",
+          "expression_contexte": "Béni soit"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "הוא",
+          "hebreu_voyelles": "הוּא",
+          "francais_mot": "Il",
+          "expression_contexte": "Il"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "להתעטף",
+          "hebreu_voyelles": "לְהִתְעַטֵּף",
+          "francais_mot": "De s'envelopper",
+          "expression_contexte": "De s'envelopper",
+          "infinitif": "לְהִתְעַטֵּף = S'envelopper"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "בציצית,",
+          "hebreu_voyelles": "בַּצִּיצִית,",
+          "francais_mot": "Dans le Tsitsit",
+          "expression_contexte": "Dans le Tsitsit"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "Afin de",
+          "expression_contexte": "Afin de"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "שנזכור",
+          "hebreu_voyelles": "שֶׁנִּזְכֹּר",
+          "francais_mot": "Que nous nous rappelions",
+          "expression_contexte": "Que nous nous rappelions",
+          "infinitif": "לִזְכֹּר = Se rappeler"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "Toutes / Tout",
+          "expression_contexte": "Toutes"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "מצותיו",
+          "hebreu_voyelles": "מִצְוֹתָיו",
+          "francais_mot": "Ses Mitsvot",
+          "expression_contexte": "Ses Mitsvot"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "לעשותם,",
+          "hebreu_voyelles": "לַעֲשׂוֹתָם,",
+          "francais_mot": "Pour les accomplir",
+          "expression_contexte": "Pour les accomplir",
+          "infinitif": "לַעֲשׂוֹת = Faire / Accomplir"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "כדכתיב:",
+          "hebreu_voyelles": "כְּדִכְתִיב:",
+          "francais_mot": "Comme il est écrit",
+          "expression_contexte": "Comme il est écrit"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "''וזכרתם",
+          "hebreu_voyelles": "''וּזְכַרְתֶּם",
+          "francais_mot": "Et vous vous rappellerez",
+          "expression_contexte": "Et vous vous rappellerez",
+          "infinitif": "לִזְכֹּר = Se rappeler"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[Particule COD]",
+          "expression_contexte": "[Accusatif]"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "Toutes / Tout",
+          "expression_contexte": "Toutes"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "מצות",
+          "hebreu_voyelles": "מִצְוֹת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "ה'",
+          "hebreu_voyelles": "ה'",
+          "francais_mot": "Hashem (D.ieu)",
+          "expression_contexte": "Hashem (D.ieu)"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "ועשיתם",
+          "hebreu_voyelles": "וַעֲשִׂיתֶם",
+          "francais_mot": "Et vous les accomplirez",
+          "expression_contexte": "Et vous les accomplirez",
+          "infinitif": "לַעֲשׂוֹת = Faire"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "אותם''.",
+          "hebreu_voyelles": "אֹתָם''.",
+          "francais_mot": "Eux / Les",
+          "expression_contexte": "Les"
+        }
+      ]
+    },
+    {
+      "seif": "2",
+      "sujet": "הלכות לבישת הטלית וברכתה",
+      "sujet_fr": "Chapitre 9 - Lois du port du Tallit, de sa bénédiction et de la kavanah",
+      "titre_seif": "Récitation de la bénédiction en position debout",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ב. צריך לברך על הטלית כשהוא עומד, שכל המצות מברכים עליהן מעומד. ואם ברך מיושב, יצא, שאין העמידה מעכבת בדיעבד.",
+        "hebreu_avec_voyelles": "ב. צָרִיךְ לְבָרֵךְ עַל הַטַּלִּית כְּשֶׁהוּא עוֹמֵד, שֶׁכָּל הַמִּצְוֹת מְבָרְכִים עֲלֵיהֶן מֵעֻמָּד. וְאִם בֵּרַךְ מִיֻּשָׁב, יָצָא, שֶׁאֵין הָעֲמִידָה מְעַכֶּבֶת בְּדִיעֲבַד.",
+        "francais": "2. Il faut réciter la bénédiction sur le Tallit en position debout, car toutes les bénédictions sur les Mitsvot se récitent debout. S'il a récité la bénédiction assis, il est quitte a posteriori, car la position debout n'est pas une condition invalidante."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ב.",
+          "hebreu_voyelles": "ב.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "Il faut",
+          "expression_contexte": "Il faut"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לברך",
+          "hebreu_voyelles": "לְבָרֵךְ",
+          "francais_mot": "Bénir / Réciter",
+          "expression_contexte": "Bénir",
+          "infinitif": "לְבָרֵךְ = Bénir"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "Sur",
+          "expression_contexte": "Sur"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "Le Tallit",
+          "expression_contexte": "Le Tallit"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "כשהוא",
+          "hebreu_voyelles": "כְּשֶׁהוּא",
+          "francais_mot": "Lorsqu'il est",
+          "expression_contexte": "Lorsqu'il est"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "עומד,",
+          "hebreu_voyelles": "עוֹמֵד,",
+          "francais_mot": "Debout",
+          "expression_contexte": "Debout",
+          "infinitif": "לַעֲמֹד = Être debout / Se tenir"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "שכל",
+          "hebreu_voyelles": "שֶׁכָּל",
+          "francais_mot": "Car toutes",
+          "expression_contexte": "Car toutes"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "המצות",
+          "hebreu_voyelles": "הַמִּצְוֹת",
+          "francais_mot": "Les Mitsvot",
+          "expression_contexte": "Les Mitsvot"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "מברכים",
+          "hebreu_voyelles": "מְבָרְכִים",
+          "francais_mot": "On récite la bénédiction",
+          "expression_contexte": "On bénit",
+          "infinitif": "לְבָרֵךְ = Bénir"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "עליהן",
+          "hebreu_voyelles": "עֲלֵיהֶן",
+          "francais_mot": "Sur elles",
+          "expression_contexte": "Sur elles"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "מעומד.",
+          "hebreu_voyelles": "מֵעֻמָּד.",
+          "francais_mot": "Debout",
+          "expression_contexte": "Debout"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "ואם",
+          "hebreu_voyelles": "וְאִם",
+          "francais_mot": "Et si",
+          "expression_contexte": "Et si"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ברך",
+          "hebreu_voyelles": "בֵּרַךְ",
+          "francais_mot": "A béni",
+          "expression_contexte": "A béni"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "מיושב,",
+          "hebreu_voyelles": "מִיֻּשָׁב,",
+          "francais_mot": "Assis",
+          "expression_contexte": "Assis",
+          "infinitif": "לָשֶׁבֶת = Être assis"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "יצא,",
+          "hebreu_voyelles": "יָצָא,",
+          "francais_mot": "Est quitte",
+          "expression_contexte": "Est quitte",
+          "infinitif": "לָצֵאת = Être quitte"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "Car non",
+          "expression_contexte": "Car non"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "העמידה",
+          "hebreu_voyelles": "הָעֲמִידָה",
+          "francais_mot": "La station debout",
+          "expression_contexte": "La station debout"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "מעכבת",
+          "hebreu_voyelles": "מְעַכֶּבֶת",
+          "francais_mot": "N'invalide pas / Empêche pas",
+          "expression_contexte": "N'invalide pas"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "בדיעבד.",
+          "hebreu_voyelles": "בְּדִיעֲבַד.",
+          "francais_mot": "A posteriori",
+          "expression_contexte": "A posteriori"
+        }
+      ]
+    },
+    {
+      "seif": "3",
+      "sujet": "הלכות לבישת הטלית וברכתה",
+      "sujet_fr": "Chapitre 9 - Lois du port du Tallit, de sa bénédiction et de la kavanah",
+      "titre_seif": "Revêtir le Tallit avant d'entrer à la synagogue",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ג. נוהגים ללבוש טלית גדול קודם שנכנסים לבית הכנסת או מיד כשנכנסים, כדי להיכנס לבית הכנסת עטוף במצוה. ואין לברך על הטלית אלא כשהוא נקי כראוי.",
+        "hebreu_avec_voyelles": "ג. נוֹהֲגִים לִלְבֹּשׁ טַלִּית גָּדוֹל קֹדֶם שֶׁנִּכְנָסִים לְבֵית הַכְּנֶסֶת אוֹ מִיָּד כְּשֶׁנִּכְנָסִים, כְּדֵי לְהִכָּנֵס לְבֵית הַכְּנֶסֶת עָטוּף בַּמִּצְוָה. וְאֵין לְבָרֵךְ עַל הַטַּלִּית אֶלָּא כְּשֶׁהוּא נָקִי כָּרָאוּי.",
+        "francais": "3. L'usage est de revêtir le Tallit Gadol avant d'entrer à la synagogue ou dès qu'on y pénètre, afin d'entrer dans la maison de prière enveloppé de la Mitsva. On ne récite la bénédiction sur le Tallit que lorsque le corps et le lieu sont convenablement propres."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ג.",
+          "hebreu_voyelles": "ג.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "נוהגים",
+          "hebreu_voyelles": "נוֹהֲגִים",
+          "francais_mot": "Ont la coutume",
+          "expression_contexte": "Ont la coutume",
+          "infinitif": "לִנְהֹג = Avoir pour coutume"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "ללבוש",
+          "hebreu_voyelles": "לִלְבֹּשׁ",
+          "francais_mot": "De porter / revêtir",
+          "expression_contexte": "De revêtir",
+          "infinitif": "לִלְבֹּשׁ = Revêtir"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "גדול",
+          "hebreu_voyelles": "גָּדוֹל",
+          "francais_mot": "Grand (Gadol)",
+          "expression_contexte": "Gadol"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "קודם",
+          "hebreu_voyelles": "קֹדֶם",
+          "francais_mot": "Avant",
+          "expression_contexte": "Avant"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "שנכנסים",
+          "hebreu_voyelles": "שֶׁנִּכְנָסִים",
+          "francais_mot": "Qu'on entre",
+          "expression_contexte": "Qu'on entre",
+          "infinitif": "לְהִכָּנֵס = Entrer"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "לבית",
+          "hebreu_voyelles": "לְבֵית",
+          "francais_mot": "Dans la maison de",
+          "expression_contexte": "Dans la maison de"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "הכנסת",
+          "hebreu_voyelles": "הַכְּנֶסֶת",
+          "francais_mot": "La synagogue",
+          "expression_contexte": "La synagogue"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "Ou",
+          "expression_contexte": "Ou"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "מיד",
+          "hebreu_voyelles": "מִיָּד",
+          "francais_mot": "Immédiatement",
+          "expression_contexte": "Immédiatement"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "כשנכנסים,",
+          "hebreu_voyelles": "כְּשֶׁנִּכְנָסִים,",
+          "francais_mot": "Lorsqu'on entre",
+          "expression_contexte": "Lorsqu'on entre"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "Afin de",
+          "expression_contexte": "Afin de"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "להיכנס",
+          "hebreu_voyelles": "לְהִכָּנֵס",
+          "francais_mot": "D'entrer",
+          "expression_contexte": "D'entrer",
+          "infinitif": "לְהִכָּנֵס = Entrer"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "לבית",
+          "hebreu_voyelles": "לְבֵית",
+          "francais_mot": "Dans la maison de",
+          "expression_contexte": "Dans la maison de"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "הכנסת",
+          "hebreu_voyelles": "הַכְּנֶסֶת",
+          "francais_mot": "La synagogue",
+          "expression_contexte": "La synagogue"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "עטוף",
+          "hebreu_voyelles": "עָטוּף",
+          "francais_mot": "Enveloppé",
+          "expression_contexte": "Enveloppé"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "במצוה.",
+          "hebreu_voyelles": "בַּמִּצְוָה.",
+          "francais_mot": "Dans la Mitsva",
+          "expression_contexte": "Dans la Mitsva"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "לברך",
+          "hebreu_voyelles": "לְבָרֵךְ",
+          "francais_mot": "Bénir / Réciter",
+          "expression_contexte": "Bénir",
+          "infinitif": "לְבָרֵךְ = Bénir"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "Sur",
+          "expression_contexte": "Sur"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "Le Tallit",
+          "expression_contexte": "Le Tallit"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "Mais / Que",
+          "expression_contexte": "Que"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "כשהוא",
+          "hebreu_voyelles": "כְּשֶׁהוּא",
+          "francais_mot": "Lorsqu'il est",
+          "expression_contexte": "Lorsqu'il est"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "נקי",
+          "hebreu_voyelles": "נָקִי",
+          "francais_mot": "Propre",
+          "expression_contexte": "Propre"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "כראוי.",
+          "hebreu_voyelles": "כָּרָאוּי.",
+          "francais_mot": "Convenablement",
+          "expression_contexte": "Convenablement"
+        }
+      ]
+    },
+    {
+      "seif": "4",
+      "sujet": "הלכות לבישת הטלית וברכתה",
+      "sujet_fr": "Chapitre 9 - Lois du port du Tallit, de sa bénédiction et de la kavanah",
+      "titre_seif": "Inspection et séparation des franges du Tsitsit",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ד. קודם שיברך יבדוק את החוטים ויפרידם זה מזה, כדי שיוכל לקיים מצות ציצית כהלכתה ולא יסתבכו החוטים אלו באלו.",
+        "hebreu_avec_voyelles": "ד. קֹדֶם שֶׁיְּבָרֵךְ יִבְדֹּק אֶת הַחוּטִים וִיפָרִידָם זֶה מִזֶּה, כְּדֵי שֶׁיּוּכַל לְקַיֵּם מִצְוַת צִיצִית כְּהִלְכָתָהּ וְלֹא יִסְתַּבְּכוּ הַחוּטִים אֵלּוּ בָּאֵלּוּ.",
+        "francais": "4. Avant de réciter la bénédiction, on inspectera les fils et on les séparera les uns des autres afin de pouvoir accomplir la Mitsva du Tsitsit selon la règle, évitant que les franges ne s'emmêlent entre elles."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ד.",
+          "hebreu_voyelles": "ד.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "קודם",
+          "hebreu_voyelles": "קֹדֶם",
+          "francais_mot": "Avant",
+          "expression_contexte": "Avant"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שיברך",
+          "hebreu_voyelles": "שֶׁיְּבָרֵךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "יבדוק",
+          "hebreu_voyelles": "יִבְדֹּק",
+          "francais_mot": "Inspectera",
+          "expression_contexte": "Inspectera",
+          "infinitif": "לִבְדֹּק = Inspecter / Vérifier"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[Particule COD]",
+          "expression_contexte": "[Accusatif]"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "החוטים",
+          "hebreu_voyelles": "הַחוּטִים",
+          "francais_mot": "Les fils",
+          "expression_contexte": "Les fils"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "ויפרידם",
+          "hebreu_voyelles": "וִיפָרִידָם",
+          "francais_mot": "Et les séparera",
+          "expression_contexte": "Et les séparera",
+          "infinitif": "לְהַפְרִיד = Séparer"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "זה",
+          "hebreu_voyelles": "זֶה",
+          "francais_mot": "Ce / Cet",
+          "expression_contexte": "Cet"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "מזה,",
+          "hebreu_voyelles": "מִזֶּה,",
+          "francais_mot": "De celui-ci",
+          "expression_contexte": "De celui-ci"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "Afin de",
+          "expression_contexte": "Afin de"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "שיוכל",
+          "hebreu_voyelles": "שֶׁיּוּכַל",
+          "francais_mot": "Afin qu'il puisse",
+          "expression_contexte": "Afin qu'il puisse",
+          "infinitif": "לִיכֹל = Pouvoir"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "לקיים",
+          "hebreu_voyelles": "לְקַיֵּם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "מצות",
+          "hebreu_voyelles": "מִצְוַת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ציצית",
+          "hebreu_voyelles": "צִיצִית",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "כהלכתה",
+          "hebreu_voyelles": "כְּהִלְכָתָהּ",
+          "francais_mot": "Selon sa règle halakhique",
+          "expression_contexte": "Selon la règle"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "ולא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "Et ne pas",
+          "expression_contexte": "Et ne pas"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "יסתבכו",
+          "hebreu_voyelles": "יִסְתַּבְּכוּ",
+          "francais_mot": "S'emmêleront",
+          "expression_contexte": "S'emmêleront",
+          "infinitif": "לְהִסְתַּבֵּךְ = S'emmêler"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "החוטים",
+          "hebreu_voyelles": "הַחוּטִים",
+          "francais_mot": "Les fils",
+          "expression_contexte": "Les fils"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "אלו",
+          "hebreu_voyelles": "אֵלּוּ",
+          "francais_mot": "Ces",
+          "expression_contexte": "Ces"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "באלו.",
+          "hebreu_voyelles": "בָּאֵלּוּ.",
+          "francais_mot": "Dans celles-ci",
+          "expression_contexte": "Dans celles-ci"
+        }
+      ]
+    },
+    {
+      "seif": "5",
+      "sujet": "הלכות לבישת הטלית וברכתה",
+      "sujet_fr": "Chapitre 9 - Lois du port du Tallit, de sa bénédiction et de la kavanah",
+      "titre_seif": "Interdiction d'interruption orale pendant la bénédiction",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ה. לאחר שבערך על הטלית לא יפסיק בדיבור עד שיסים את העטיפה, ואם הפסיק בדברים שאינם מענין העטיפה, יחזור ויברך.",
+        "hebreu_avec_voyelles": "ה. לְאַחַר שֶׁבֵּרַךְ עַל הַטַּלִּית לֹא יַפְסִיק בְּדִבּוּר עַד שֶׁיְּסַיֵּם אֶת הָעֲטִיפָה, וְאִם הִפְסִיק בִּדְבָרִים שֶׁאֵינָם מֵעִנְיַן הָעֲטִיפָה, יַחֲזֹר וִיבָרֵךְ.",
+        "francais": "5. Après avoir récité la bénédiction sur le Tallit, on ne s'interrompra pas par la parole avant d'avoir achevé l'enveloppement. Si l'on s'est interrompu par des paroles étrangères à la Mitsva, il faut réciter à nouveau la bénédiction."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ה.",
+          "hebreu_voyelles": "ה.",
+          "francais_mot": "Hashem (D.ieu)",
+          "expression_contexte": "Hashem (D.ieu)"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "לאחר",
+          "hebreu_voyelles": "לְאַחַר",
+          "francais_mot": "Après",
+          "expression_contexte": "Après"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שבערך",
+          "hebreu_voyelles": "שֶׁבֵּרַךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "Sur",
+          "expression_contexte": "Sur"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "Le Tallit",
+          "expression_contexte": "Le Tallit"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "לא",
+          "hebreu_voyelles": "לֹא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "יפסיק",
+          "hebreu_voyelles": "יַפְסִיק",
+          "francais_mot": "S'interrompra",
+          "expression_contexte": "S'interrompra",
+          "infinitif": "לְהַפְסִיק = S'interrompre"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "בדיבור",
+          "hebreu_voyelles": "בְּדִבּוּר",
+          "francais_mot": "Par la parole",
+          "expression_contexte": "Par la parole"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "עד",
+          "hebreu_voyelles": "עַד",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "שיסים",
+          "hebreu_voyelles": "שֶׁיְּסַיֵּם",
+          "francais_mot": "Qu'il termine",
+          "expression_contexte": "Qu'il termine",
+          "infinitif": "לְסַיֵּם = Terminer"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[Particule COD]",
+          "expression_contexte": "[Accusatif]"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "העטיפה,",
+          "hebreu_voyelles": "הָעֲטִיפָה,",
+          "francais_mot": "L'enveloppement",
+          "expression_contexte": "L'enveloppement"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "ואם",
+          "hebreu_voyelles": "וְאִם",
+          "francais_mot": "Et si",
+          "expression_contexte": "Et si"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "הפסיק",
+          "hebreu_voyelles": "הִפְסִיק",
+          "francais_mot": "S'est interrompu",
+          "expression_contexte": "S'est interrompu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "בדברים",
+          "hebreu_voyelles": "בִּדְבָרִים",
+          "francais_mot": "Par des paroles",
+          "expression_contexte": "Par des paroles"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "שאינם",
+          "hebreu_voyelles": "שֶׁאֵינָם",
+          "francais_mot": "Qui ne sont pas",
+          "expression_contexte": "Qui ne sont pas"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "מענין",
+          "hebreu_voyelles": "מֵעִנְיַן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "העטיפה,",
+          "hebreu_voyelles": "הָעֲטִיפָה,",
+          "francais_mot": "L'enveloppement",
+          "expression_contexte": "L'enveloppement"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "יחזור",
+          "hebreu_voyelles": "יַחֲזֹר",
+          "francais_mot": "Répétera / Récitera à nouveau",
+          "expression_contexte": "Répétera",
+          "infinitif": "לַחֲזֹר = Répéter / Revenir"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "ויברך.",
+          "hebreu_voyelles": "וִיבָרֵךְ.",
+          "francais_mot": "Et bénira",
+          "expression_contexte": "Et bénira"
+        }
+      ]
+    },
+    {
+      "seif": "6",
+      "sujet": "הלכות לבישת הטלית וברכתה",
+      "sujet_fr": "Chapitre 9 - Lois du port du Tallit, de sa bénédiction et de la kavanah",
+      "titre_seif": "Procédure exacte d'enveloppement (Atifa)",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ו. סדר עטיפת הטלית: יכסה ראשו ורובו בטלית, וירחיק הציציות מפניו, ויזרוק שתי כנפות לצד שמאל לאחוריו, וישהה עטוף ראשו מעט, ואחר כך יורידנה על כתפיו.",
+        "hebreu_avec_voyelles": "ו. סֵדֶר עֲטִיפַת הַטַּלִּית: יְכַסֶּה רֹאשׁוֹ וְרוּבּוֹ בַּטַּלִּית, וְיַרְחִיק הַצִּיצִיּוֹת מִפָּנָיו, וְיִזְרֹק שְׁתֵּי כַּנְפוֹת לְצַד שְׁמֹאל לְאַחֲרָיו, וְיִשְׁהֶה עָטוּף רֹאשׁוֹ מְעַט, וְאַחַר כָּךְ יוֹרִידֶנָּה עַל כְּתֵפָיו.",
+        "francais": "6. L'ordre de l'enveloppement du Tallit : on se couvrira la tête et la majeure partie du corps avec le Tallit, on éloignera les franges de son visage, on rejettera deux coins par-dessus l'épaule gauche vers l'arrière, on restera ainsi la tête couverte un bref instant, puis on le rabaissera sur ses épaules."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ו.",
+          "hebreu_voyelles": "ו.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "סדר",
+          "hebreu_voyelles": "סֵדֶר",
+          "francais_mot": "L'ordre de",
+          "expression_contexte": "L'ordre de"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "עטיפת",
+          "hebreu_voyelles": "עֲטִיפַת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "הטלית:",
+          "hebreu_voyelles": "הַטַּלִּית:",
+          "francais_mot": "Le Tallit",
+          "expression_contexte": "Le Tallit"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "יכסה",
+          "hebreu_voyelles": "יְכַסֶּה",
+          "francais_mot": "Couvrira",
+          "expression_contexte": "Couvrira"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "ראשו",
+          "hebreu_voyelles": "רֹאשׁוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "ורובו",
+          "hebreu_voyelles": "וְרוּבּוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "בטלית,",
+          "hebreu_voyelles": "בַּטַּלִּית,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "וירחיק",
+          "hebreu_voyelles": "וְיַרְחִיק",
+          "francais_mot": "Et éloignera",
+          "expression_contexte": "Et éloignera",
+          "infinitif": "לְהַרְחִיק = Éloigner"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "הציציות",
+          "hebreu_voyelles": "הַצִּיצִיּוֹת",
+          "francais_mot": "Les franges",
+          "expression_contexte": "Les franges"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "מפניו,",
+          "hebreu_voyelles": "מִפָּנָיו,",
+          "francais_mot": "De son visage",
+          "expression_contexte": "De son visage"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "ויזרוק",
+          "hebreu_voyelles": "וְיִזְרֹק",
+          "francais_mot": "Et rejettera",
+          "expression_contexte": "Et rejettera",
+          "infinitif": "לִזְרֹק = Rejeter / Lancer"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "שתי",
+          "hebreu_voyelles": "שְׁתֵּי",
+          "francais_mot": "Deux",
+          "expression_contexte": "Deux"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "כנפות",
+          "hebreu_voyelles": "כַּנְפוֹת",
+          "francais_mot": "Coins",
+          "expression_contexte": "Coins"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "לצד",
+          "hebreu_voyelles": "לְצַד",
+          "francais_mot": "Du côté de",
+          "expression_contexte": "Du côté de"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "שמאל",
+          "hebreu_voyelles": "שְׁמֹאל",
+          "francais_mot": "Gauche",
+          "expression_contexte": "Gauche"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "לאחוריו,",
+          "hebreu_voyelles": "לְאַחֲרָיו,",
+          "francais_mot": "Vers son arrière",
+          "expression_contexte": "Vers son arrière"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "וישהה",
+          "hebreu_voyelles": "וְיִשְׁהֶה",
+          "francais_mot": "Et restera",
+          "expression_contexte": "Et restera",
+          "infinitif": "לִשְׁהוֹת = Rester / Patienter"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "עטוף",
+          "hebreu_voyelles": "עָטוּף",
+          "francais_mot": "Enveloppé",
+          "expression_contexte": "Enveloppé"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "ראשו",
+          "hebreu_voyelles": "רֹאשׁוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "מעט,",
+          "hebreu_voyelles": "מְעַט,",
+          "francais_mot": "Un peu / Bref",
+          "expression_contexte": "Un peu"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "ואחר",
+          "hebreu_voyelles": "וְאַחַר",
+          "francais_mot": "Et après",
+          "expression_contexte": "Et après"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "כך",
+          "hebreu_voyelles": "כָּךְ",
+          "francais_mot": "Ainsi",
+          "expression_contexte": "Ainsi"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "יורידנה",
+          "hebreu_voyelles": "יוֹרִידֶנָּה",
+          "francais_mot": "La rabaissera",
+          "expression_contexte": "La rabaissera",
+          "infinitif": "לְהוֹרִיד = Rabaisser / Descendre"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "Sur",
+          "expression_contexte": "Sur"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "כתפיו.",
+          "hebreu_voyelles": "כְּתֵפָיו.",
+          "francais_mot": "Ses épaules",
+          "expression_contexte": "Ses épaules"
+        }
+      ]
+    },
+    {
+      "seif": "7",
+      "sujet": "הלכות לבישת הטלית וברכתה",
+      "sujet_fr": "Chapitre 9 - Lois du port du Tallit, de sa bénédiction et de la kavanah",
+      "titre_seif": "Tallit retiré brièvement et réitération de la bénédiction",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ז. מי שפשט טליתו על מנת ללובשה מיד, כגון שנכנס לבית הכסא, כשחוזר ולובשה אינו צריך לחזור ולברך, מפני שאין זו היסח הדעת.",
+        "hebreu_avec_voyelles": "ז. מִי שֶׁפָּשַׁט טַלִּיתוֹ עַל מְנָת לִלְבֹּשָׁהּ מִיָּד, כְּגוֹן שֶׁנִּכְנַס לְבֵית הַכִּסֵּא, כְּשֶׁחוֹזֵר וְלוֹבְשָׁהּ אֵינוֹ צָרִיךְ לַחֲזֹר וּלְבָרֵךְ, מִפְּנֵי שֶׁאֵין זוֹ הֶסֵּחַ הַדַּעַת.",
+        "francais": "7. Celui qui a retiré son Tallit dans l'intention de le remettre immédiatement, comme pour aller aux toilettes : lorsqu'il le revêt à nouveau, il n'a pas besoin de réciter une nouvelle bénédiction, car cela ne constitue pas une interruption d'attention (Hesah HaDa'at)."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ז.",
+          "hebreu_voyelles": "ז.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מי",
+          "hebreu_voyelles": "מִי",
+          "francais_mot": "Celui qui",
+          "expression_contexte": "Celui qui"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שפשט",
+          "hebreu_voyelles": "שֶׁפָּשַׁט",
+          "francais_mot": "Qui a retiré",
+          "expression_contexte": "Qui a retiré",
+          "infinitif": "לִפְשֹׁט = Retirer"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "טליתו",
+          "hebreu_voyelles": "טַלִּיתוֹ",
+          "francais_mot": "Son Tallit",
+          "expression_contexte": "Son Tallit"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "Sur",
+          "expression_contexte": "Sur"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "מנת",
+          "hebreu_voyelles": "מְנָת",
+          "francais_mot": "Intention / But",
+          "expression_contexte": "Intention"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "ללובשה",
+          "hebreu_voyelles": "לִלְבֹּשָׁהּ",
+          "francais_mot": "De le remettre",
+          "expression_contexte": "De le remettre",
+          "infinitif": "לִלְבֹּשׁ = Porter"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "מיד,",
+          "hebreu_voyelles": "מִיָּד,",
+          "francais_mot": "Immédiatement",
+          "expression_contexte": "Immédiatement"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "כגון",
+          "hebreu_voyelles": "כְּגוֹן",
+          "francais_mot": "Par exemple",
+          "expression_contexte": "Par exemple"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "שנכנס",
+          "hebreu_voyelles": "שֶׁנִּכְנַס",
+          "francais_mot": "Qu'il est entré",
+          "expression_contexte": "Qu'il est entré"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "לבית",
+          "hebreu_voyelles": "לְבֵית",
+          "francais_mot": "Dans la maison de",
+          "expression_contexte": "Dans la maison de"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "הכסא,",
+          "hebreu_voyelles": "הַכִּסֵּא,",
+          "francais_mot": "Aux toilettes",
+          "expression_contexte": "Aux toilettes"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "כשחוזר",
+          "hebreu_voyelles": "כְּשֶׁחוֹזֵר",
+          "francais_mot": "Lorsqu'il revient",
+          "expression_contexte": "Lorsqu'il revient",
+          "infinitif": "לַחֲזֹר = Revenir"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ולובשה",
+          "hebreu_voyelles": "וְלוֹבְשָׁהּ",
+          "francais_mot": "Et le revêt",
+          "expression_contexte": "Et le revêt"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "אינו",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "N'est pas",
+          "expression_contexte": "N'est pas"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "Il faut",
+          "expression_contexte": "Il faut"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "לחזור",
+          "hebreu_voyelles": "לַחֲזֹר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "ולברך,",
+          "hebreu_voyelles": "וּלְבָרֵךְ,",
+          "francais_mot": "Bénir / Réciter",
+          "expression_contexte": "Bénir",
+          "infinitif": "לְבָרֵךְ = Bénir"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "מפני",
+          "hebreu_voyelles": "מִפְּנֵי",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "Car non",
+          "expression_contexte": "Car non"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "זו",
+          "hebreu_voyelles": "זוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "היסח",
+          "hebreu_voyelles": "הֶסֵּחַ",
+          "francais_mot": "Interruption de",
+          "expression_contexte": "Interruption de"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "הדעת.",
+          "hebreu_voyelles": "הַדַּעַת.",
+          "francais_mot": "L'attention / L'esprit",
+          "expression_contexte": "L'attention"
+        }
+      ]
+    },
+    {
+      "seif": "8",
+      "sujet": "הלכות לבישת הטלית וברכתה",
+      "sujet_fr": "Chapitre 9 - Lois du port du Tallit, de sa bénédiction et de la kavanah",
+      "titre_seif": "Cas du Tallit glissé ou tombé du corps",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ח. אם נפלה הטלית כולה מעל גופו שלא ברצונו, כשחוזר להתעטף בה צריך לחזור ולברך. אך אם נשארה מקצתה על כתפיו, אינו מברך.",
+        "hebreu_avec_voyelles": "ח. אִם נָפְלָה הַטַּלִּית כֻּלָּהּ מֵעַל גּוּפוֹ שֶׁלֹּא בִּרְצוֹנוֹ, כְּשֶׁחוֹזֵר לְהִתְעַטֵּף בָּהּ צָרִיךְ לַחֲזֹר וּלְבָרֵךְ. אַךְ אִם נִשְׁאֲרָה מִקְצָתָהּ עַל כְּתֵפָיו, אֵינוֹ מְבָרֵךְ.",
+        "francais": "8. Si le Tallit a glissé et est tombé entièrement du corps contre sa volonté : lorsqu'on s'en enveloppe à nouveau, il faut réciter la bénédiction. Cependant, si une partie du Tallit est restée appuyée sur les épaules, on ne récite pas de nouvelle bénédiction."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ח.",
+          "hebreu_voyelles": "ח.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "Si",
+          "expression_contexte": "Si"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "נפלה",
+          "hebreu_voyelles": "נָפְלָה",
+          "francais_mot": "Est tombé",
+          "expression_contexte": "Est tombé",
+          "infinitif": "לִנְפֹּל = Tomber"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "Le Tallit",
+          "expression_contexte": "Le Tallit"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "כולה",
+          "hebreu_voyelles": "כֻּלָּהּ",
+          "francais_mot": "En totalité",
+          "expression_contexte": "En totalité"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "מעל",
+          "hebreu_voyelles": "מֵעַל",
+          "francais_mot": "Au-dessus de / De",
+          "expression_contexte": "De"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "גופו",
+          "hebreu_voyelles": "גּוּפוֹ",
+          "francais_mot": "Son corps",
+          "expression_contexte": "Son corps"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "Sans",
+          "expression_contexte": "Sans"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "ברצונו,",
+          "hebreu_voyelles": "בִּרְצוֹנוֹ,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "כשחוזר",
+          "hebreu_voyelles": "כְּשֶׁחוֹזֵר",
+          "francais_mot": "Lorsqu'il revient",
+          "expression_contexte": "Lorsqu'il revient",
+          "infinitif": "לַחֲזֹר = Revenir"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "להתעטף",
+          "hebreu_voyelles": "לְהִתְעַטֵּף",
+          "francais_mot": "De s'envelopper",
+          "expression_contexte": "De s'envelopper",
+          "infinitif": "לְהִתְעַטֵּף = S'envelopper"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "En lui",
+          "expression_contexte": "En lui"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "Il faut",
+          "expression_contexte": "Il faut"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "לחזור",
+          "hebreu_voyelles": "לַחֲזֹר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "ולברך.",
+          "hebreu_voyelles": "וּלְבָרֵךְ.",
+          "francais_mot": "Bénir / Réciter",
+          "expression_contexte": "Bénir",
+          "infinitif": "לְבָרֵךְ = Bénir"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "אך",
+          "hebreu_voyelles": "אַךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "Si",
+          "expression_contexte": "Si"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "נשארה",
+          "hebreu_voyelles": "נִשְׁאֲרָה",
+          "francais_mot": "Est restée",
+          "expression_contexte": "Est restée",
+          "infinitif": "לְהִשָּׁאֵר = Rester"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "מקצתה",
+          "hebreu_voyelles": "מִקְצָתָהּ",
+          "francais_mot": "Une partie de lui",
+          "expression_contexte": "Une partie"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "Sur",
+          "expression_contexte": "Sur"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "כתפיו,",
+          "hebreu_voyelles": "כְּתֵפָיו,",
+          "francais_mot": "Ses épaules",
+          "expression_contexte": "Ses épaules"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "אינו",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "N'est pas",
+          "expression_contexte": "N'est pas"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "מברך.",
+          "hebreu_voyelles": "מְבָרֵךְ.",
+          "francais_mot": "A béni",
+          "expression_contexte": "A béni"
+        }
+      ]
+    },
+    {
+      "seif": "9",
+      "sujet": "הלכות לבישת הטלית וברכתה",
+      "sujet_fr": "Chapitre 9 - Lois du port du Tallit, de sa bénédiction et de la kavanah",
+      "titre_seif": "Bénédiction sur un Tallit emprunté ou de la synagogue",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ט. המושאל טלית מחבירו לעלות לתורה, אינו מברך עליה, לפי שאינה שלו. אבל הלובש טלית של הקהל או טלית שאולה לתפלה כולו, מברך עליה.",
+        "hebreu_avec_voyelles": "ט. הַמֻּשְׁאָל טַלִּית מֵחֲבֵרוֹ לַעֲלוֹת לַתּוֹרָה, אֵינוֹ מְבָרֵךְ עָלֶיהָ, לְפִי שֶׁאֵינָהּ שֶׁלּוֹ. אֲבָל הַלּוֹבֵשׁ טַלִּית שֶׁל הַקָּהָל אוֹ טַלִּית שְׁאוּלָה לַתְּפִלָּה כֻּלּוֹ, מְבָרֵךְ עָלֶיהָ.",
+        "francais": "9. Celui qui emprunte le Tallit d'un ami uniquement pour monter à la Torah ne récite pas de bénédiction dessus, car il ne lui appartient pas pour un usage prolongé. En revanche, celui qui revêt le Tallit de la communauté ou un Tallit emprunté pour toute la prière doit réciter la bénédiction."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ט.",
+          "hebreu_voyelles": "ט.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "המושאל",
+          "hebreu_voyelles": "הַמֻּשְׁאָל",
+          "francais_mot": "Celui qui emprunte",
+          "expression_contexte": "Celui qui emprunte",
+          "infinitif": "לִשְׁאֹל = Emprunter"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "מחבירו",
+          "hebreu_voyelles": "מֵחֲבֵרוֹ",
+          "francais_mot": "De son ami",
+          "expression_contexte": "De son ami"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "לעלות",
+          "hebreu_voyelles": "לַעֲלוֹת",
+          "francais_mot": "Pour monter",
+          "expression_contexte": "Pour monter",
+          "infinitif": "לַעֲלוֹת = Monter"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "לתורה,",
+          "hebreu_voyelles": "לַתּוֹרָה,",
+          "francais_mot": "À la Torah",
+          "expression_contexte": "À la Torah"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "אינו",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "N'est pas",
+          "expression_contexte": "N'est pas"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "מברך",
+          "hebreu_voyelles": "מְבָרֵךְ",
+          "francais_mot": "A béni",
+          "expression_contexte": "A béni"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "עליה,",
+          "hebreu_voyelles": "עָלֶיהָ,",
+          "francais_mot": "Sur lui",
+          "expression_contexte": "Sur lui"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "לפי",
+          "hebreu_voyelles": "לְפִי",
+          "francais_mot": "Car",
+          "expression_contexte": "Car"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "שאינה",
+          "hebreu_voyelles": "שֶׁאֵינָהּ",
+          "francais_mot": "Qu'il n'est pas",
+          "expression_contexte": "Qu'il n'est pas"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "שלו.",
+          "hebreu_voyelles": "שֶׁלּוֹ.",
+          "francais_mot": "À lui",
+          "expression_contexte": "À lui"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "אבל",
+          "hebreu_voyelles": "אֲבָל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "הלובש",
+          "hebreu_voyelles": "הַלּוֹבֵשׁ",
+          "francais_mot": "Celui qui revêt",
+          "expression_contexte": "Celui qui revêt"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "הקהל",
+          "hebreu_voyelles": "הַקָּהָל",
+          "francais_mot": "La communauté",
+          "expression_contexte": "La communauté"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "Ou",
+          "expression_contexte": "Ou"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "שאולה",
+          "hebreu_voyelles": "שְׁאוּלָה",
+          "francais_mot": "Emprunté",
+          "expression_contexte": "Emprunté"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "לתפלה",
+          "hebreu_voyelles": "לַתְּפִלָּה",
+          "francais_mot": "Pour la prière",
+          "expression_contexte": "Pour la prière"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "כולו,",
+          "hebreu_voyelles": "כֻּלּוֹ,",
+          "francais_mot": "Toute entière",
+          "expression_contexte": "Toute entière"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "מברך",
+          "hebreu_voyelles": "מְבָרֵךְ",
+          "francais_mot": "A béni",
+          "expression_contexte": "A béni"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "עליה.",
+          "hebreu_voyelles": "עָלֶיהָ.",
+          "francais_mot": "Sur lui",
+          "expression_contexte": "Sur lui"
+        }
+      ]
+    },
+    {
+      "seif": "10",
+      "sujet": "הלכות לבישת הטלית וברכתה",
+      "sujet_fr": "Chapitre 9 - Lois du port du Tallit, de sa bénédiction et de la kavanah",
+      "titre_seif": "Port du Tallit Katan la nuit et acquittement le matin",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "י. הלובש טלית קטן בלילה, אינו מברך עליה. ואם נשאר לבוש בטלית קטן כל הלילה, בבוקר יברך על טלית גדול ויפטור את הטלית קטן.",
+        "hebreu_avec_voyelles": "י. הַלּוֹבֵשׁ טַלִּית קָטָן בַּלַּיְלָה, אֵינוֹ מְבָרֵךְ עָלֶיהָ. וְאִם נִשְׁאַר לָבוּשׁ בְּטַלִּית קָטָן כָּל הַלַּיְלָה, בַּבֹּקֶר יְבָרֵךְ עַל טַלִּית גָּדוֹל וְיִפְטוֹר אֶת הַטַּלִּית קָטָן.",
+        "francais": "10. Celui qui enfile un Tallit Katan la nuit ne récite pas de bénédiction. S'il est resté vêtu de son Tallit Katan toute la nuit, le matin venu, il récitera la bénédiction sur son Tallit Gadol et acquittera ainsi le Tallit Katan."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "י.",
+          "hebreu_voyelles": "י.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "הלובש",
+          "hebreu_voyelles": "הַלּוֹבֵשׁ",
+          "francais_mot": "Celui qui revêt",
+          "expression_contexte": "Celui qui revêt"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "קטן",
+          "hebreu_voyelles": "קָטָן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "בלילה,",
+          "hebreu_voyelles": "בַּלַּיְלָה,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "אינו",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "N'est pas",
+          "expression_contexte": "N'est pas"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "מברך",
+          "hebreu_voyelles": "מְבָרֵךְ",
+          "francais_mot": "A béni",
+          "expression_contexte": "A béni"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "עליה.",
+          "hebreu_voyelles": "עָלֶיהָ.",
+          "francais_mot": "Sur lui",
+          "expression_contexte": "Sur lui"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "ואם",
+          "hebreu_voyelles": "וְאִם",
+          "francais_mot": "Et si",
+          "expression_contexte": "Et si"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "נשאר",
+          "hebreu_voyelles": "נִשְׁאַר",
+          "francais_mot": "Est resté",
+          "expression_contexte": "Est resté",
+          "infinitif": "לְהִשָּׁאֵר = Rester"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "לבוש",
+          "hebreu_voyelles": "לָבוּשׁ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "בטלית",
+          "hebreu_voyelles": "בְּטַלִּית",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "קטן",
+          "hebreu_voyelles": "קָטָן",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "Toutes / Tout",
+          "expression_contexte": "Toutes"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "הלילה,",
+          "hebreu_voyelles": "הַלַּיְלָה,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "בבוקר",
+          "hebreu_voyelles": "בַּבֹּקֶר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "יברך",
+          "hebreu_voyelles": "יְבָרֵךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "Sur",
+          "expression_contexte": "Sur"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "גדול",
+          "hebreu_voyelles": "גָּדוֹל",
+          "francais_mot": "Grand (Gadol)",
+          "expression_contexte": "Gadol"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "ויפטור",
+          "hebreu_voyelles": "וְיִפְטוֹר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[Particule COD]",
+          "expression_contexte": "[Accusatif]"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "Le Tallit",
+          "expression_contexte": "Le Tallit"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "קטן.",
+          "hebreu_voyelles": "קָטָן.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        }
+      ]
+    },
+    {
+      "seif": "11",
+      "sujet": "הלכות לבישת הטלית וברכתה",
+      "sujet_fr": "Chapitre 9 - Lois du port du Tallit, de sa bénédiction et de la kavanah",
+      "titre_seif": "Couverture de la tête lors de la bénédiction",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "יא. לא יברך על הטלית כשהוא גלוי ראש, אלא יכסה ראשו בכיפה או בכובע, מפני שאסור להוציא שם שמים מפיו בגלוי ראש.",
+        "hebreu_avec_voyelles": "יא. לֹא יְבָרֵךְ עַל הַטַּלִּית כְּשֶׁהוּא גְּלוּי רֹאשׁ, אֶלָּא יְכַסֶּה רֹאשׁוֹ בְּכִפָּה אוֹ בְּכוֹבַע, מִפְּנֵי שֶׁאָסוּר לְהוֹצִיא שֵׁם שָׁמַיִם מִפִּיו בִּגְלוּי רֹאשׁ.",
+        "francais": "11. On ne récitera pas la bénédiction sur le Tallit la tête découverte ; on se couvrira la tête avec une Kippa ou un chapeau, car il est interdit de prononcer le Nom du Ciel la tête découverte."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "יא.",
+          "hebreu_voyelles": "יא.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "לא",
+          "hebreu_voyelles": "לֹא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "יברך",
+          "hebreu_voyelles": "יְבָרֵךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "Sur",
+          "expression_contexte": "Sur"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "Le Tallit",
+          "expression_contexte": "Le Tallit"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "כשהוא",
+          "hebreu_voyelles": "כְּשֶׁהוּא",
+          "francais_mot": "Lorsqu'il est",
+          "expression_contexte": "Lorsqu'il est"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "גלוי",
+          "hebreu_voyelles": "גְּלוּי",
+          "francais_mot": "Découvert",
+          "expression_contexte": "Découvert"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "ראש,",
+          "hebreu_voyelles": "רֹאשׁ,",
+          "francais_mot": "Tête",
+          "expression_contexte": "Tête"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "Mais / Que",
+          "expression_contexte": "Que"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "יכסה",
+          "hebreu_voyelles": "יְכַסֶּה",
+          "francais_mot": "Couvrira",
+          "expression_contexte": "Couvrira"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "ראשו",
+          "hebreu_voyelles": "רֹאשׁוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "בכיפה",
+          "hebreu_voyelles": "בְּכִפָּה",
+          "francais_mot": "Avec une Kippa",
+          "expression_contexte": "Avec une Kippa"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "Ou",
+          "expression_contexte": "Ou"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "בכובע,",
+          "hebreu_voyelles": "בְּכוֹבַע,",
+          "francais_mot": "Avec un chapeau",
+          "expression_contexte": "Avec un chapeau"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "מפני",
+          "hebreu_voyelles": "מִפְּנֵי",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "שאסור",
+          "hebreu_voyelles": "שֶׁאָסוּר",
+          "francais_mot": "Car il est interdit",
+          "expression_contexte": "Car il est interdit"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "להוציא",
+          "hebreu_voyelles": "לְהוֹצִיא",
+          "francais_mot": "De prononcer / sortir",
+          "expression_contexte": "De prononcer",
+          "infinitif": "לְהוֹצִיא = Prononcer / Sortir"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "שם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "Le Nom de",
+          "expression_contexte": "Le Nom de"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "שמים",
+          "hebreu_voyelles": "שָׁמַיִם",
+          "francais_mot": "Ciel (D.ieu)",
+          "expression_contexte": "Ciel"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "מפיו",
+          "hebreu_voyelles": "מִפִּיו",
+          "francais_mot": "De sa bouche",
+          "expression_contexte": "De sa bouche"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "בגלוי",
+          "hebreu_voyelles": "בִּגְלוּי",
+          "francais_mot": "Découvert",
+          "expression_contexte": "Découvert"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "ראש.",
+          "hebreu_voyelles": "רֹאשׁ.",
+          "francais_mot": "Tête",
+          "expression_contexte": "Tête"
+        }
+      ]
+    },
+    {
+      "seif": "12",
+      "sujet": "הלכות לבישת הטלית וברכתה",
+      "sujet_fr": "Chapitre 9 - Lois du port du Tallit, de sa bénédiction et de la kavanah",
+      "titre_seif": "La joie et la sainteté de l'enveloppement",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "יב. ישמח האדם בעשיית מצות ציצית, ויבין שעל ידי עטיפת הטלית הוא חוסה בצלא דמהימנותא וממשיך עליו קדושה ויראת שמים לכל היום.",
+        "hebreu_avec_voyelles": "יב. יִשְׂמַח הָאָדָם בַּעֲשִׂיַּת מִצְוַת צִיצִית, וְיָבִין שֶׁעַל יְדֵי עֲטִיפַת הַטַּלִּית הוּא חוֹסֶה בְּצִלָּא דִּמְהֵימְנוּתָא וּמַמְשִׁיךְ עָלָיו קְדֻשָּׁה וְיִרְאַת שָׁמַיִם לְכָל הַיּוֹם.",
+        "francais": "12. L'homme se réjouira d'accomplir la Mitsva du Tsitsit et comprendra que par l'enveloppement du Tallit, il s'abrite sous l'ombre de la Foi divine, attirant sur lui la sainteté et la crainte du Ciel pour toute la journée."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "יב.",
+          "hebreu_voyelles": "יב.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "ישמח",
+          "hebreu_voyelles": "יִשְׂמַח",
+          "francais_mot": "Se réjouira",
+          "expression_contexte": "Se réjouira",
+          "infinitif": "לִשְׂמֹחַ = Se réjouir"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "האדם",
+          "hebreu_voyelles": "הָאָדָם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בעשיית",
+          "hebreu_voyelles": "בַּעֲשִׂיַּת",
+          "francais_mot": "Dans l'accomplissement de",
+          "expression_contexte": "Dans l'accomplissement"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "מצות",
+          "hebreu_voyelles": "מִצְוַת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "ויבין",
+          "hebreu_voyelles": "וְיָבִין",
+          "francais_mot": "Et comprendra",
+          "expression_contexte": "Et comprendra",
+          "infinitif": "לְהָבִין = Comprendre"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "שעל",
+          "hebreu_voyelles": "שֶׁעַל",
+          "francais_mot": "Sur",
+          "expression_contexte": "Sur"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "ידי",
+          "hebreu_voyelles": "יְדֵי",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "עטיפת",
+          "hebreu_voyelles": "עֲטִיפַת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "Le Tallit",
+          "expression_contexte": "Le Tallit"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "הוא",
+          "hebreu_voyelles": "הוּא",
+          "francais_mot": "Il",
+          "expression_contexte": "Il"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "חוסה",
+          "hebreu_voyelles": "חוֹסֶה",
+          "francais_mot": "S'abrite",
+          "expression_contexte": "S'abrite",
+          "infinitif": "לַחֲסוֹת = S'abriter"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "בצלא",
+          "hebreu_voyelles": "בְּצִלָּא",
+          "francais_mot": "Sous l'ombre de",
+          "expression_contexte": "Sous l'ombre de"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "דמהימנותא",
+          "hebreu_voyelles": "דִּמְהֵימְנוּתָא",
+          "francais_mot": "La Foi (Araméen)",
+          "expression_contexte": "La Foi divine"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "וממשיך",
+          "hebreu_voyelles": "וּמַמְשִׁיךְ",
+          "francais_mot": "Et attire",
+          "expression_contexte": "Et attire",
+          "infinitif": "לִמְשֹׁךְ = Attirer / Tirer"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "עליו",
+          "hebreu_voyelles": "עָלָיו",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "קדושה",
+          "hebreu_voyelles": "קְדֻשָּׁה",
+          "francais_mot": "Sainteté",
+          "expression_contexte": "Sainteté"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "ויראת",
+          "hebreu_voyelles": "וְיִרְאַת",
+          "francais_mot": "Et crainte de",
+          "expression_contexte": "Et crainte de"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "שמים",
+          "hebreu_voyelles": "שָׁמַיִם",
+          "francais_mot": "Ciel (D.ieu)",
+          "expression_contexte": "Ciel"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "לכל",
+          "hebreu_voyelles": "לְכָל",
+          "francais_mot": "Toutes / Tout",
+          "expression_contexte": "Toutes"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "היום.",
+          "hebreu_voyelles": "הַיּוֹם.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        }
+      ]
+    }
+  ]
+}

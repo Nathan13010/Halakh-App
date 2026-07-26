@@ -1,0 +1,151 @@
+{
+  "siman": "16",
+  "halakhot": [
+    {
+      "seif": "1",
+      "sujet": "הלכות ציצית והטלית",
+      "sujet_fr": "Chapitre 16 - Lois du Tsitsit et du Tallit",
+      "titre_seif": "Dissimuler les Tsitsit au cimetière par respect des défunts",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "א. הנכנס לבית הקברות צריך לגרור או לכסות את ציציותיו, שלא ללגוג לכהים ולמתים שאינם יכולים לקיים עוד מצות.",
+        "hebreu_avec_voyelles": "א. הַנִּכְנָס לְבֵית הַקְּבָרוֹת צָרִיךְ לִגְרֹר אוֹ לְכַסּוֹת אֶת צִיצִיּוֹתָיו, שֶׁלֹּא לִלְגֹּג לַכֵּהִים וְלַמֵּתִים שֶׁאֵינָם יְכוֹלִים לְקַיֵּם עוֹד מִצְוֹת.",
+        "francais": "1. Celui qui entre dans un cimetière doit dissimuler ses franges de Tsitsit à l'intérieur de ses vêtements, afin de ne pas se moquer des défunts (Lo'eg LaRash) qui ne peuvent plus accomplir les Mitsvot."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "א.",
+          "hebreu_voyelles": "א.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "הנכנס",
+          "hebreu_voyelles": "הַנִּכְנָס",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לבית",
+          "hebreu_voyelles": "לְבֵית",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "הקברות",
+          "hebreu_voyelles": "הַקְּבָרוֹת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "לגרור",
+          "hebreu_voyelles": "לִגְרֹר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "לכסות",
+          "hebreu_voyelles": "לְכַסּוֹת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "ציציותיו,",
+          "hebreu_voyelles": "צִיצִיּוֹתָיו,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "ללגוג",
+          "hebreu_voyelles": "לִלְגֹּג",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "לכהים",
+          "hebreu_voyelles": "לַכֵּהִים",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ולמתים",
+          "hebreu_voyelles": "וְלַמֵּתִים",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "שאינם",
+          "hebreu_voyelles": "שֶׁאֵינָם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "יכולים",
+          "hebreu_voyelles": "יְכוֹלִים",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "לקיים",
+          "hebreu_voyelles": "לְקַיֵּם",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "עוד",
+          "hebreu_voyelles": "עוֹד",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "מצות.",
+          "hebreu_voyelles": "מִצְוֹת.",
+          "francais_mot": "Mitsvot",
+          "expression_contexte": "Mitsvot"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "siman": "18",
+  "halakhot": [
+    {
+      "seif": "1",
+      "sujet": "הלכות ציצית והטלית",
+      "sujet_fr": "Chapitre 18 - Lois du Tsitsit et du Tallit",
+      "titre_seif": "Priorité du Tallit sur les Tefillines (Ma'alin BaKodesh)",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "א. בכל בוקר יניח את הטלית תחילה ואחר כך יניח את התפילין, מפני שהציצית תדירה יותר, ותדיר ושאינו תדיר, תדיר קודם.",
+        "hebreu_avec_voyelles": "א. בְּכָל בֹּקֶר יַנִּיחַ אֶת הַטַּלִּית תְּחִלָּה וְאַחַר כָּךְ יַנִּיחַ אֶת הַתְּפִלִּין, מִפְּנֵי שֶׁהַצִּיצִית תְּדִירָה יוֹתֵר, וְתָדִיר וְשֶׁאֵינוֹ תָדִיר, תָדִיר קוֹדֵם.",
+        "francais": "1. Chaque matin, on revêtira d'abord le Tallit puis on mettra les Tefillines, car le Tsitsit est plus fréquent (Tadir) que le Tefillin, et la règle établit que ce qui est plus fréquent prime sur ce qui l'est moins."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "א.",
+          "hebreu_voyelles": "א.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "בכל",
+          "hebreu_voyelles": "בְּכָל",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "בוקר",
+          "hebreu_voyelles": "בֹּקֶר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "יניח",
+          "hebreu_voyelles": "יַנִּיחַ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "Tallit",
+          "expression_contexte": "Tallit"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "תחילה",
+          "hebreu_voyelles": "תְּחִלָּה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "ואחר",
+          "hebreu_voyelles": "וְאַחַר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "כך",
+          "hebreu_voyelles": "כָּךְ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "יניח",
+          "hebreu_voyelles": "יַנִּיחַ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "התפילין,",
+          "hebreu_voyelles": "הַתְּפִלִּין,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "מפני",
+          "hebreu_voyelles": "מִפְּנֵי",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "שהציצית",
+          "hebreu_voyelles": "שֶׁהַצִּיצִית",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "תדירה",
+          "hebreu_voyelles": "תְּדִירָה",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "יותר,",
+          "hebreu_voyelles": "יוֹתֵר,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "ותדיר",
+          "hebreu_voyelles": "וְתָדִיר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "ושאינו",
+          "hebreu_voyelles": "וְשֶׁאֵינוֹ",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "תדיר,",
+          "hebreu_voyelles": "תָדִיר,",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "תדיר",
+          "hebreu_voyelles": "תָדִיר",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "קודם.",
+          "hebreu_voyelles": "קוֹדֵם.",
+          "francais_mot": "Terme hébreu",
+          "expression_contexte": "Terme hébreu"
+        }
+      ]
+    }
+  ]
+}

@@ -82,11 +82,28 @@ function App() {
     setActiveBookId(book.id);
 
     try {
-      // Append a cache-busting timestamp to prevent the browser from caching old JSON data
-      const response = await fetch(`/data/${book.id}.json?t=${Date.now()}`);
+      const simanMatch = book.id.match(/(\d+)/);
+      const simanNum = simanMatch ? simanMatch[1] : '318';
+
+      const candidatePaths = [
+        `/data/${book.id}.json`,
+        `/data/siman_${simanNum}.json`,
+        `/data/kitzur_yalkut_yosef/shabbat/siman_${simanNum}.json`,
+      ];
+
+      let response = null;
+      for (const p of candidatePaths) {
+        try {
+          const res = await fetch(`${p}?t=${Date.now()}`);
+          if (res.ok) {
+            response = res;
+            break;
+          }
+        } catch { /* continue */ }
+      }
       
-      if (!response.ok) {
-        throw new Error(`Erreur de chargement local : ${response.status}`);
+      if (!response || !response.ok) {
+        throw new Error(`Erreur de chargement local pour le livre ${book.id}`);
       }
 
       const rawData = await response.json();
@@ -100,24 +117,85 @@ function App() {
 
       if (parsed.length === 0) throw new Error("JSON mal formé.");
 
-      const normalized = parsed.map(h => {
+      const cleanArabic = (str) => (str || '').replace(/[\u0600-\u06FF]/g, '');
+      const cleanPunct = (str) => (str || '').replace(/[.,'׳"״\u05F3\u05F4]/g, '').trim();
+
+      const HEBREW_LETTERS_MAP = {
+        1: 'א', 2: 'ב', 3: 'ג', 4: 'ד', 5: 'ה', 6: 'ו', 7: 'ז', 8: 'ח', 9: 'ט', 10: 'י',
+        11: 'יא', 12: 'יב', 13: 'יג', 14: 'יד', 15: 'טו', 16: 'טז', 17: 'יז', 18: 'יח', 19: 'יט', 20: 'כ',
+        21: 'כא', 22: 'כב', 23: 'כג', 24: 'כד', 25: 'כה', 26: 'כו', 27: 'כז', 28: 'כח', 29: 'כט', 30: 'ל',
+        31: 'לא', 32: 'לב', 33: 'לג', 34: 'לד', 35: 'לה', 36: 'לו', 37: 'לז', 38: 'לח', 39: 'לט', 40: 'מ',
+        41: 'מא', 42: 'מב', 43: 'מג', 44: 'מד', 45: 'מה', 46: 'מו', 47: 'מז', 48: 'מח', 49: 'מט', 50: 'נ',
+        51: 'נא', 52: 'נב', 53: 'נג', 54: 'נד', 55: 'נה', 56: 'נו', 57: 'נז', 58: 'נח', 59: 'נט', 60: 'ס',
+        61: 'סא', 62: 'סב', 63: 'סג', 64: 'סד', 65: 'סה', 66: 'סו', 67: 'סז', 68: 'סח', 69: 'סט', 70: 'ע',
+        71: 'עא', 72: 'עב', 73: 'עג', 74: 'עד', 75: 'עה', 76: 'עו', 77: 'עז', 78: 'עח', 79: 'עט', 80: 'פ',
+        81: 'פא', 82: 'פב', 83: 'פג', 84: 'פד', 85: 'פה', 86: 'פו', 87: 'פז', 88: 'פח', 89: 'פט', 90: 'צ',
+        91: 'צא', 92: 'צב', 93: 'צג', 94: 'צד', 95: 'צה', 96: 'צו', 97: 'צז', 98: 'צח', 99: 'צט', 100: 'ק',
+        101: 'קא', 102: 'קב', 103: 'קג', 104: 'קד', 105: 'קה', 106: 'קו', 107: 'קז', 108: 'קח', 109: 'קט', 110: 'קי',
+        111: 'קיא', 112: 'קיב', 113: 'קיג', 114: 'קיד', 115: 'קטו', 116: 'קטז', 117: 'קיז', 118: 'קיח', 119: 'קיט', 120: 'קכ',
+        121: 'קכא', 122: 'קכב', 123: 'קכג', 124: 'קכד', 125: 'קכה', 126: 'קכו', 127: 'קכז', 128: 'קכח', 129: 'קכט', 130: 'קל',
+        131: 'קלא', 132: 'קלב', 133: 'קלג', 134: 'קלד', 135: 'קלה', 136: 'קלו', 137: 'קלז', 138: 'קלח', 139: 'קלט', 140: 'קמ',
+        141: 'קמא', 142: 'קמב', 143: 'קמג', 144: 'קמד', 145: 'קמה', 146: 'קמו', 147: 'קמז', 148: 'קמח', 149: 'קמט', 150: 'קס',
+        151: 'קסא', 152: 'קסב', 153: 'קסג', 154: 'קסד', 155: 'קסה', 156: 'קסו', 157: 'קסז', 158: 'קסח', 159: 'קסט', 160: 'קע',
+        161: 'קעא', 162: 'קעב', 163: 'קעג', 164: 'קעד', 165: 'קעה', 166: 'קעו', 167: 'קעז', 168: 'קעח', 169: 'קעט', 170: 'קפ',
+        171: 'קפא', 172: 'קפב', 173: 'קפג', 174: 'קפד', 175: 'קפה', 176: 'קפו', 177: 'קפז', 178: 'קפח', 179: 'קפט', 180: 'קצ',
+        181: 'קצא', 182: 'קצב', 183: 'קצג', 184: 'קצד', 185: 'קצה', 186: 'קצו', 187: 'קצז', 188: 'קצח', 189: 'קצט', 190: 'ר',
+        191: 'רא', 192: 'רב', 193: 'רג'
+      };
+
+      const normalized = parsed.map((h, idx) => {
         const t = h.texte_integral || h.texteintegral || {};
-        const m = h.mots_alignes || h.motsalignes || [];
+        const seifNum = parseInt(h.seif || (idx + 1), 10) || (idx + 1);
+        const hebLetter = HEBREW_LETTERS_MAP[seifNum] || String(seifNum);
+        const hebBadge = `${hebLetter}.`;
+        const frBadge = `${seifNum}.`;
+
+        // Clean Arabic diacritics from texts
+        const rawHebBrut = cleanArabic(t.hebreu_sans_voyelles || t.hebreusansvoyelles || "");
+        const rawHebVoyelles = cleanArabic(t.hebreu_avec_voyelles || t.hebreuavecvoyelles || rawHebBrut);
+        const rawFr = (t.francais || "").trim();
+
+        // Use mots_alignes directly from JSON — DO NOT reconstruct by splitting text
+        let mots = (h.mots_alignes || h.motsalignes || []).map((m, i) => ({
+          id: i,
+          hebreu_brut: cleanArabic(m.hebreu_brut || m.hebreubrut || ''),
+          hebreu_voyelles: cleanArabic(m.hebreu_voyelles || m.hebreuvoyelles || m.hebreu_brut || ''),
+          francais_mot: m.francais_mot || m.francaismot || '',
+          expression_contexte: m.expression_contexte || m.expressioncontexte || '',
+          ...(m.infinitif ? { infinitif: m.infinitif } : {})
+        }));
+
+        // Safety net: ensure badge at position 0
+        if (mots.length > 0 && cleanPunct(mots[0].hebreu_brut) !== cleanPunct(hebLetter)) {
+          // Badge is missing — prepend it
+          mots.unshift({
+            id: 0,
+            hebreu_brut: hebBadge,
+            hebreu_voyelles: hebBadge,
+            francais_mot: frBadge,
+            expression_contexte: "Numéro du paragraphe"
+          });
+          mots.forEach((m, i) => { m.id = i; });
+        } else if (mots.length > 0) {
+          // Badge exists — ensure it has correct format
+          mots[0] = {
+            id: 0,
+            hebreu_brut: hebBadge,
+            hebreu_voyelles: hebBadge,
+            francais_mot: frBadge,
+            expression_contexte: "Numéro du paragraphe"
+          };
+        }
+
         return {
           ...h,
+          seif: String(seifNum),
           texte_integral: {
-            hebreu_sans_voyelles: t.hebreu_sans_voyelles || t.hebreusansvoyelles || "",
-            hebreu_avec_voyelles: t.hebreu_avec_voyelles || t.hebreuavecvoyelles || "",
-            francais: t.francais || ""
+            hebreu_sans_voyelles: rawHebBrut,
+            hebreu_avec_voyelles: rawHebVoyelles,
+            francais: rawFr
           },
-          mots_alignes: m.map(w => ({
-            id: w.id,
-            hebreu_brut: w.hebreu_brut || w.hebreubrut || "",
-            hebreu_voyelles: w.hebreu_voyelles || w.hebreuvoyelles || "",
-            francais_mot: w.francais_mot || w.francaismot || "",
-            expression_contexte: w.expression_contexte || w.expressioncontexte || "",
-            infinitif: w.infinitif || null
-          }))
+          mots_alignes: mots
         };
       });
 
@@ -231,9 +309,9 @@ function App() {
     <div className={`${theme} min-h-screen bg-zinc-50 dark:bg-[#0A0A0B] text-zinc-900 dark:text-[#E4E4E7] font-sans pb-20 md:pb-0 md:pt-20`}>
       {/* Header Mobile / Desktop Top Bar */}
       <header className="fixed top-0 left-0 right-0 h-16 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 z-40 flex items-center justify-between px-4 md:px-8">
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-full bg-amber-500/10 flex items-center justify-center text-amber-500 font-serif font-bold text-lg border border-amber-500/20">ש</div>
-          <span className="font-serif font-bold text-lg dark:text-zinc-100 hidden md:block">Mishné Mikra</span>
+        <div className="flex items-center gap-2.5">
+          <img src="/images/brand/logo_halakhapp.jpg" alt="Halakh'App Logo" className="w-8 h-8 rounded-xl object-cover border border-amber-500/30 shadow-sm" />
+          <span className="font-serif font-bold text-lg text-zinc-900 dark:text-zinc-100">Halakh'App</span>
         </div>
         <div className="flex items-center gap-4">
           {/* Global Streak Counter */}
@@ -286,18 +364,21 @@ function App() {
           <ReaderScreen
             bookTitle={activeBook.title}
             bookSubtitle={activeBook.subtitle}
-            chapterTitle="Siman 318"
+            chapterTitle={activeBook.chapters?.[0]?.title || "Siman"}
             paragraphs={paragraphs}
             currentParagraphIndex={currentParagraphIndex}
             onParagraphChange={handleParagraphChange}
             onBackToLibrary={() => setCurrentScreen("welcome")}
             favorites={favorites}
             onToggleFavorite={handleToggleFavorite}
+            books={BOOKS}
+            activeBookId={activeBookId}
+            onSelectBook={handleSelectBook}
           />
         )}
 
         {activeTab === "learning" && (
-          <LearningScreen xp={xp} onAddXp={handleAddXp} />
+          <LearningScreen xp={xp} onAddXp={handleAddXp} streak={streak} />
         )}
 
         {activeTab === "ai" && (
