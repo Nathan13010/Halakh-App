@@ -575,18 +575,14 @@ function saveOutput(outputFile, simanNum, simanLabel, halakhot) {
     halakhot: sorted,
   };
 
-  // 1. Écrit dans public/data/kitzur_yalkut_yosef/shabbat/siman_X.json
-  fs.writeFileSync(outputFile, JSON.stringify(output, null, 2), 'utf8');
-
-  // 2. Écrit dans public/data/siman_X.json et public/data/yalkout-X.json
+  // Écrit uniquement dans le fichier unique public/data/siman_X.json
   try {
     const rootDataDir = path.join(ROOT, 'public', 'data');
     fs.mkdirSync(rootDataDir, { recursive: true });
-    
     fs.writeFileSync(path.join(rootDataDir, `siman_${simanNum}.json`), JSON.stringify(output, null, 2), 'utf8');
-    fs.writeFileSync(path.join(rootDataDir, `yalkout-${simanNum}.json`), JSON.stringify(output, null, 2), 'utf8');
+    console.log(`\n💾 Fichier unique sauvegardé dans public/data/siman_${simanNum}.json`);
   } catch (e) {
-    /* ignore error */
+    console.error(`❌ Erreur sauvegarde public/data/siman_${simanNum}.json: ${e.message}`);
   }
 }
 

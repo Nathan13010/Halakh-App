@@ -307,16 +307,11 @@ SIMANIM_DATA.forEach((sData) => {
 
   const jsonStr = JSON.stringify(outputObj, null, 2);
 
-  const out1 = path.join(ROOT, 'public', 'data', 'kitzur_yalkut_yosef', 'shabbat', `siman_${simanNum}.json`);
-  const out2 = path.join(ROOT, 'public', 'data', `siman_${simanNum}.json`);
-  const out3 = path.join(ROOT, 'public', 'data', `yalkout-${simanNum}.json`);
+  const targetFile = path.join(ROOT, 'public', 'data', `siman_${simanNum}.json`);
+  fs.mkdirSync(path.dirname(targetFile), { recursive: true });
+  fs.writeFileSync(targetFile, jsonStr, 'utf8');
 
-  fs.mkdirSync(path.dirname(out1), { recursive: true });
-  fs.writeFileSync(out1, jsonStr, 'utf8');
-  fs.writeFileSync(out2, jsonStr, 'utf8');
-  fs.writeFileSync(out3, jsonStr, 'utf8');
-
-  console.log(`✅ Siman ${simanNum} built successfully with ${halakhot.length} Seifim across all 3 paths!`);
+  console.log(`✅ Siman ${simanNum} built successfully with ${halakhot.length} Seifim in public/data/siman_${simanNum}.json`);
 });
 
 console.log("🎉 All Simanim 10 to 20 built successfully!");

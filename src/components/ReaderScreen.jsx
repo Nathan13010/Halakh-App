@@ -40,7 +40,7 @@ const ParagraphCard = React.memo(({
   fontSize,
   searchQuery,
   hoveredWordId,
-  popupWordId,
+  popup,
   isFirstOfSubject,
   currentSubjectTitle,
   availableSeifCount,
@@ -50,29 +50,75 @@ const ParagraphCard = React.memo(({
   setHoveredWordId,
   wordRefs
 }) => {
-  // Pre-calculate fluent French mapping ONCE per paragraph
+  const normalizeFrWord = (str) => {
+    return (str || "")
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9]/g, "");
+  };
+
+  const getWordStems = (str) => {
+    const tokens = (str || "").split(/\s+/).map(normalizeFrWord).filter(Boolean);
+    const stems = new Set();
+    tokens.forEach(w => {
+      stems.add(w);
+      if (w.length >= 4) {
+        stems.add(w.slice(0, Math.min(w.length, 5)));
+        stems.add(w.slice(0, Math.min(w.length, 6)));
+      }
+    });
+    return stems;
+  };
+
+const FRENCH_STOP_WORDS = new Set([
+  'de', 'du', 'des', 'la', 'le', 'les', 'en', 'un', 'une', 'a', 'et', 'par', 'd', 'l',
+  'est', 'il', 'que', 'qui', 'sur', 'dans', 'pour', 'pas', 'ne', 'si', 'car', 'ce', 'ces'
+]);
+
+  // Pre-calculate fluent French mapping ONCE per paragraph with smart fuzzy stemming & stop-word filtering
   const fluentMapping = React.useMemo(() => {
     if (!p || !p.texte_integral || !p.texte_integral.francais) return [];
 
     const tokens = p.texte_integral.francais.split(/\s+/);
     const mots = p.mots_alignes || [];
-    const cleanMots = mots.map(m => ({
-      mot: m,
-      words: new Set([...cleanStr(m.francais_mot), ...cleanStr(m.expression_contexte)])
-    }));
+    const cleanMots = mots.map(m => {
+      const rawText = `${m.francais_mot || ''} ${m.expression_contexte || ''}`;
+      return {
+        mot: m,
+        words: getWordStems(rawText),
+        rawNormalized: normalizeFrWord(rawText)
+      };
+    });
 
     let lastM = 0;
     return tokens.map(token => {
-      const cleanToken = token.toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()\[\]"']/g, "");
-      if (!cleanToken) return null;
+      const normToken = normalizeFrWord(token);
+      if (!normToken || normToken.length <= 1) return null;
+
+      const isStopWord = FRENCH_STOP_WORDS.has(normToken);
       const candidates = [];
+      const tokenStem5 = normToken.slice(0, Math.min(normToken.length, 5));
+
       cleanMots.forEach((cm, mIndex) => {
-        if (cm.words.has(cleanToken)) {
-          candidates.push({ index: mIndex, mot: cm.mot });
+        if (isStopWord) {
+          if (cm.words.has(normToken) && cm.words.size <= 2) {
+            candidates.push({ index: mIndex, mot: cm.mot, priority: 3 });
+          }
+        } else {
+          if (cm.words.has(normToken) || cm.words.has(tokenStem5)) {
+            candidates.push({ index: mIndex, mot: cm.mot, priority: 1 });
+          } else if (normToken.length >= 4 && cm.rawNormalized.includes(normToken.slice(0, 4))) {
+            candidates.push({ index: mIndex, mot: cm.mot, priority: 2 });
+          }
         }
       });
+
       if (candidates.length > 0) {
-        candidates.sort((a, b) => Math.abs(a.index - lastM) - Math.abs(b.index - lastM));
+        candidates.sort((a, b) => {
+          if (a.priority !== b.priority) return a.priority - b.priority;
+          return Math.abs(a.index - lastM) - Math.abs(b.index - lastM);
+        });
         lastM = candidates[0].index;
         return candidates[0].mot;
       }
@@ -90,7 +136,7 @@ const ParagraphCard = React.memo(({
       const matchedWord = fluentMapping[idx];
       const matchedWordKey = matchedWord ? `${pIndex}-${matchedWord.id}` : null;
       const isHovered = matchedWordKey && hoveredWordId === matchedWordKey;
-      const isPopupSelected = popupWordId && matchedWord && popupWordId === matchedWord.id;
+      const isPopupSelected = popup && popup.show && popup.paragraphIndex === pIndex && matchedWord && popup.word && popup.word.id === matchedWord.id;
 
       const handlePointerDown = (e) => {
         e.preventDefault();
@@ -98,9 +144,9 @@ const ParagraphCard = React.memo(({
           id: `fluent-${word.toLowerCase().replace(/[^\w]/g, "")}-${idx}`,
           hebreu_voyelles: "—",
           francais_mot: word,
-          expression_contexte: "Ce terme fait partie de la traduction fluide globale."
+          expression_contexte: ""
         };
-        onWordClick(wordObj, wordId);
+        onWordClick(wordObj, wordId, pIndex);
       };
 
       return (
@@ -113,7 +159,7 @@ const ParagraphCard = React.memo(({
             onPointerDown={handlePointerDown}
             className={`clickable-word inline-block px-0.5 rounded cursor-pointer transition-colors border-b-2 ${
               isHovered || isPopupSelected
-                ? 'text-amber-500 bg-amber-500/10 border-amber-500'
+                ? 'text-amber-500 bg-amber-500/10 border-amber-500 font-semibold'
                 : 'text-zinc-200 hover:bg-amber-500/10 border-transparent'
             }`}
           >
@@ -188,6 +234,7 @@ const ParagraphCard = React.memo(({
               const wordId = `m1-p${pIndex}-${word.id}-${idx}`;
               const hoverKey = `${pIndex}-${word.id}`;
               const isHovered = hoveredWordId === hoverKey;
+              const isPopupSelected = popup && popup.show && popup.paragraphIndex === pIndex && popup.word && popup.word.id === word.id;
               const isKeyMatched = searchQuery.trim() && (word.hebreu_brut || '').toLowerCase().includes(searchQuery.toLowerCase().trim());
               return (
                 <span
@@ -195,9 +242,9 @@ const ParagraphCard = React.memo(({
                   ref={el => { if (el) wordRefs.current[wordId] = el; }}
                   onMouseEnter={() => setHoveredWordId(hoverKey)}
                   onMouseLeave={() => setHoveredWordId(null)}
-                  onPointerDown={(e) => { e.preventDefault(); onWordClick(word, wordId); }}
+                  onPointerDown={(e) => { e.preventDefault(); onWordClick(word, wordId, pIndex); }}
                   className={`clickable-word inline-block px-1.5 py-0.5 mx-0.5 rounded cursor-pointer transition-colors border-b-2 ${
-                    isHovered ? 'text-amber-500 bg-amber-500/10 border-amber-500' : isKeyMatched ? 'bg-amber-500/20 text-yellow-200 border-amber-500/50' : 'text-zinc-100 hover:bg-amber-500/10 border-transparent'
+                    isHovered || isPopupSelected ? 'text-amber-500 bg-amber-500/10 border-amber-500 font-semibold' : isKeyMatched ? 'bg-amber-500/20 text-yellow-200 border-amber-500/50' : 'text-zinc-100 hover:bg-amber-500/10 border-transparent'
                   }`}
                 >
                   {word.hebreu_brut || word.hebreu_voyelles || word.mot_hebreu}
@@ -214,6 +261,7 @@ const ParagraphCard = React.memo(({
               const wordId = `m2-p${pIndex}-${word.id}-${idx}`;
               const hoverKey = `${pIndex}-${word.id}`;
               const isHovered = hoveredWordId === hoverKey;
+              const isPopupSelected = popup && popup.show && popup.paragraphIndex === pIndex && popup.word && popup.word.id === word.id;
               const isKeyMatched = searchQuery.trim() && ((word.hebreu_voyelles || word.mot_hebreu || '').toLowerCase().includes(searchQuery.toLowerCase().trim()) || (word.hebreu_brut || '').toLowerCase().includes(searchQuery.toLowerCase().trim()));
               return (
                 <span
@@ -221,9 +269,9 @@ const ParagraphCard = React.memo(({
                   ref={el => { if (el) wordRefs.current[wordId] = el; }}
                   onMouseEnter={() => setHoveredWordId(hoverKey)}
                   onMouseLeave={() => setHoveredWordId(null)}
-                  onPointerDown={(e) => { e.preventDefault(); onWordClick(word, wordId); }}
+                  onPointerDown={(e) => { e.preventDefault(); onWordClick(word, wordId, pIndex); }}
                   className={`clickable-word inline-block px-1.5 py-0.5 mx-0.5 rounded cursor-pointer transition-colors border-b-2 ${
-                    isHovered ? 'text-amber-500 bg-amber-500/10 border-amber-500' : isKeyMatched ? 'bg-amber-500/20 text-yellow-200 border-amber-500/50' : 'text-zinc-100 hover:bg-amber-500/10 border-transparent'
+                    isHovered || isPopupSelected ? 'text-amber-500 bg-amber-500/10 border-amber-500 font-semibold' : isKeyMatched ? 'bg-amber-500/20 text-yellow-200 border-amber-500/50' : 'text-zinc-100 hover:bg-amber-500/10 border-transparent'
                   }`}
                 >
                   {word.hebreu_voyelles || word.mot_hebreu || word.hebreu_brut}
@@ -243,6 +291,7 @@ const ParagraphCard = React.memo(({
                   const wordId = `m3-heb-p${pIndex}-${word.id}-${idx}`;
                   const hoverKey = `${pIndex}-${word.id}`;
                   const isHovered = hoveredWordId === hoverKey;
+                  const isPopupSelected = popup && popup.show && popup.paragraphIndex === pIndex && popup.word && popup.word.id === word.id;
                   const isKeyMatched = searchQuery.trim() && ((word.hebreu_voyelles || word.mot_hebreu || '').toLowerCase().includes(searchQuery.toLowerCase().trim()) || (word.hebreu_brut || '').toLowerCase().includes(searchQuery.toLowerCase().trim()));
                   return (
                     <span
@@ -250,9 +299,9 @@ const ParagraphCard = React.memo(({
                       ref={el => { if (el) wordRefs.current[wordId] = el; }}
                       onMouseEnter={() => setHoveredWordId(hoverKey)}
                       onMouseLeave={() => setHoveredWordId(null)}
-                      onPointerDown={() => onWordClick(word, wordId)}
+                      onPointerDown={() => onWordClick(word, wordId, pIndex)}
                       className={`clickable-word inline-block px-1.5 py-0.5 mx-0.5 rounded cursor-pointer transition-colors border-b-2 ${
-                        isHovered ? 'text-amber-500 bg-amber-500/10 border-amber-500' : isKeyMatched ? 'bg-amber-500/20 text-yellow-200 border-amber-500/50' : 'text-zinc-100 hover:bg-amber-500/10 border-transparent'
+                        isHovered || isPopupSelected ? 'text-amber-500 bg-amber-500/10 border-amber-500 font-semibold' : isKeyMatched ? 'bg-amber-500/20 text-yellow-200 border-amber-500/50' : 'text-zinc-100 hover:bg-amber-500/10 border-transparent'
                       }`}
                     >
                       {word.hebreu_voyelles || word.mot_hebreu || word.hebreu_brut}
@@ -284,6 +333,15 @@ const ParagraphCard = React.memo(({
     </div>
   );
 });
+
+const cleanSujetTitle = (str) => {
+  if (!str) return 'Général';
+  return str
+    .replace(/\s*\([^)]*yalkut\.info[^)]*\)/gi, '')
+    .replace(/\s*\([^)]*Texte Officiel[^)]*\)/gi, '')
+    .replace(/^Chapitre\s+\d+\s*[-–:]\s*/i, '')
+    .trim();
+};
 
 // ─── Composant Principal ReaderScreen ────────────────────────────────────────
 const ReaderScreen = ({
@@ -347,7 +405,8 @@ const ReaderScreen = ({
   const uniqueSubjects = React.useMemo(() => {
     const map = new Map();
     (paragraphs || []).forEach((p, index) => {
-      const title = (p.sujet_fr || p.sujet || 'Général').trim();
+      const rawTitle = p.sujet_fr || p.sujet || 'Général';
+      const title = cleanSujetTitle(rawTitle);
       if (!map.has(title)) {
         map.set(title, {
           title,
@@ -389,7 +448,7 @@ const ReaderScreen = ({
     return { displayedItems: [], availableSeifOptions: [] };
   }, [paragraphs, selectedSubjectTitle, uniqueSubjects]);
 
-  const handleWordClick = (word, wordId) => {
+  const handleWordClick = (word, wordId, pIndex) => {
     const wordElement = wordRefs.current[wordId];
     if (!wordElement) return;
 
@@ -406,6 +465,7 @@ const ReaderScreen = ({
 
     setPopup({
       word,
+      paragraphIndex: pIndex,
       left,
       top,
       show: true,
@@ -578,7 +638,7 @@ const ReaderScreen = ({
             <div className="flex items-center gap-3">
               <label className="text-[10px] uppercase tracking-widest text-emerald-400 font-bold">Sujet / Thème</label>
               <select
-                value={selectedSubjectTitle}
+                value={selectedSubjectTitle === 'ALL' && uniqueSubjects.length === 1 ? uniqueSubjects[0]?.title : selectedSubjectTitle}
                 onChange={(e) => {
                   const val = e.target.value;
                   setSelectedSubjectTitle(val);
@@ -589,7 +649,9 @@ const ReaderScreen = ({
                 }}
                 className="bg-zinc-800 border border-zinc-700 rounded px-2.5 py-1 text-xs font-semibold text-emerald-300 focus:outline-none focus:border-emerald-500/50 cursor-pointer max-w-xs truncate"
               >
-                <option value="ALL">Tous les sujets ({paragraphs.length} Seifim)</option>
+                {uniqueSubjects.length > 1 && (
+                  <option value="ALL">Tous les sujets ({paragraphs.length} Seifim)</option>
+                )}
                 {uniqueSubjects.map((s, idx) => (
                   <option key={idx} value={s.title}>
                     {s.title} ({s.items.length} Seïf{s.items.length > 1 ? 's' : ''})
@@ -769,7 +831,7 @@ const ReaderScreen = ({
                     fontSize={fontSize}
                     searchQuery={searchQuery}
                     hoveredWordId={hoveredWordId}
-                    popupWordId={popup && popup.show && popup.word ? popup.word.id : null}
+                    popup={popup}
                     isFirstOfSubject={isFirstOfSubject}
                     currentSubjectTitle={currentSubjectTitle}
                     availableSeifCount={availableSeifOptions.length}

@@ -1,0 +1,3316 @@
+{
+  "_meta": {
+    "source": "entree.txt (texte pré-vocalisé)",
+    "siman": 109,
+    "siman_hebrew": "109",
+    "generated_at": "2026-07-28T20:49:24.830Z",
+    "total_seifim": 6
+  },
+  "halakhot": [
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "סימן קט - יחיד אומר קדושה עם הש''צ",
+      "sujet_he": "סימן קט - יחיד אומר קדושה עם הש''צ",
+      "sujet_fr": "Siman 109 - Réciter la Kédoucha avec l'officiant",
+      "titre_seif": "Dire la Kédoucha avec l'officiant",
+      "siman": "109",
+      "seif": "1",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "א. המתפלל תפלת שמונה עשרה עם חזרת השליח צבור, כשיגיע לסוף ברכת מחיה המתים, אומר עם השליח צבור כל נוסח הקדושה, נקדישך ונעריצך וכו', עד סוף הקדושה. והוא הדין אם מתפלל מוסף עם חזרת השליח צבור, אומר עמו ''כתר יתנו לך וכו''' עד הסוף. והוא הדין למי שמתפלל תפלת שמונה עשרה [ביחידות, או עם מנין אחר], וכשהגיע לסוף ברכת מחיה המתים, שמע קדושה ממנין אחר, יענה עמהם, אף על פי שעתיד לומר קדושה אחר כך בחזרת השליח ציבור, או שכבר אמר קדושה קודם לכן, מכל מקום צריך להפסיק ולומר קדושה עם הציבור. [שארית יוסף חלק ג' עמוד פו. ילקוט יוסף סימן קט הערה א. במהדורת תשס''ד תפלה כרך א' עמוד תריג]",
+        "hebreu_avec_voyelles": "א. הַמִּתְפַּלֵּל תְּפִלַּת שְׁמוֹנֶה עֶשְׂרֵה עִם חֲזָרַת הַשְׁלִיחַ צִבּוּר, כְּשֶׁיַּגִּיעַ לְסוֹף בִּרְכַּת מְחַיֶּה הַמֵּתִים, אוֹמֵר עִם הַשְׁלִיחַ צִבּוּר כָּל נוֹסַח הַקְּדוּשָּׁה, נַקְדִּישְׁךָ וְנַעֲרִיצְךָ וְכוּ', עַד סוֹף הַקְּדוּשָּׁה. וְהוּא הַדִּין אִם מִתְפַּלֵּל מוּסָף עִם חֲזָרַת הַשְׁלִיחַ צִבּוּר, אוֹמֵר עִמּוֹ ''כֶּתֶר יִתְּנוּ לְךָ וְכוּ''' עַד הַסּוֹף. וְהוּא הַדִּין לְמִי שֶׁמִּתְפַּלֵּל תְּפִלַּת שְׁמוֹנֶה עֶשְׂרֵה [בִּיחִידוּת, אוֹ עִם מִנְיָן אַחֵר], וּכְשֶׁהִגִּיעַ לְסוֹף בִּרְכַּת מְחַיֶּה הַמֵּתִים, שָׁמַע קְדוּשָּׁה מִמִּנְיָן אַחֵר, יַעֲנֶה עִמָּהֶם, אַף עַל פִּי שֶׁעָתִיד לוֹמַר קְדוּשָּׁה אַחַר כָּךְ בַּחֲזָרַת הַשְׁלִיחַ צִיבּוּר, אוֹ שֶׁכְּבָר אָמַר קְדוּשָּׁה קוֹדֶם לָכֵן, מִכָּל מָקוֹם צָרִיךְ לְהַפְסִיק וְלוֹמַר קְדוּשָּׁה עִם הַצִּיבּוּר. [שְׁאֵרִית יוֹסֵף חֵלֶק ג' עַמּוּד פו. יַלְקוּט יוֹסֵף סִימָן קט הֶעָרָה א. בְּמַהֲדוּרַת תשס''ד תְּפִלָּה כֶּרֶךְ א' עַמּוּד תריג]",
+        "francais": "1. Celui qui prie la Amida en même temps que la répétition de l'officiant, lorsqu'il arrive à la fin de la bénédiction \"Mehayé Hamétim\", dit avec l'officiant tout le texte de la Kédoucha, \"Nakdichakh Vénaaritsakh etc.\", jusqu'à la fin de la Kédoucha. Il en est de même s'il prie Moussaf avec la répétition de l'officiant, il dit avec lui \"Kéter Yitnou Lékha etc.\" jusqu'à la fin. Il en est de même pour celui qui prie la Amida [seul, ou avec un autre Minyane], et lorsqu'il arrive à la fin de la bénédiction \"Mehayé Hamétim\", il entend la Kédoucha d'un autre Minyane, il devra y répondre avec eux, bien qu'il s'apprête à dire la Kédoucha plus tard lors de la répétition de son officiant, ou même s'il a déjà dit la Kédoucha auparavant. Dans tous les cas, il doit s'interrompre et dire la Kédoucha avec le public. [Cheérit Yossef tome 3 page 86. Yalkout Yossef chapitre 109 note 1. Édition 5764 Tefila tome 1 page 613]"
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "א.",
+          "hebreu_voyelles": "א.",
+          "francais_mot": "1.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "המתפלל",
+          "hebreu_voyelles": "הַמִּתְפַּלֵּל",
+          "francais_mot": "Celui qui prie",
+          "expression_contexte": "Qui récite la prière de la Amida",
+          "infinitif": "לְהִתְפַּלֵּל = Prier"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "תפלת",
+          "hebreu_voyelles": "תְּפִלַּת",
+          "francais_mot": "la prière de",
+          "expression_contexte": "Prière silencieuse"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "שמונה",
+          "hebreu_voyelles": "שְׁמוֹנֶה",
+          "francais_mot": "dix-",
+          "expression_contexte": "Premier mot du nom de la prière (18)"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "עשרה",
+          "hebreu_voyelles": "עֶשְׂרֵה",
+          "francais_mot": "-huit",
+          "expression_contexte": "Deuxième mot du nom de la prière (Amida)"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "עם",
+          "hebreu_voyelles": "עִם",
+          "francais_mot": "avec",
+          "expression_contexte": "En même temps que"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "חזרת",
+          "hebreu_voyelles": "חֲזָרַת",
+          "francais_mot": "la répétition de",
+          "expression_contexte": "Répétition publique par l'officiant"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "השליח",
+          "hebreu_voyelles": "הַשְׁלִיחַ",
+          "francais_mot": "l'officiant",
+          "expression_contexte": "L'officiant (Chalia'h Tsibour)"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "צבור,",
+          "hebreu_voyelles": "צִבּוּר,",
+          "francais_mot": "de la communauté,",
+          "expression_contexte": "De la communauté (Chalia'h Tsibour)"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "כשיגיע",
+          "hebreu_voyelles": "כְּשֶׁיַּגִּיעַ",
+          "francais_mot": "lorsqu'il arrive",
+          "expression_contexte": "Moment où le fidèle parvient à cette étape",
+          "infinitif": "לְהַגִּיעַ = Arriver"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "לסוף",
+          "hebreu_voyelles": "לְסוֹף",
+          "francais_mot": "à la fin de",
+          "expression_contexte": "Au terme de la bénédiction"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "ברכת",
+          "hebreu_voyelles": "בִּרְכַּת",
+          "francais_mot": "la bénédiction de",
+          "expression_contexte": "Bénédiction de la Amida"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "מחיה",
+          "hebreu_voyelles": "מְחַיֶּה",
+          "francais_mot": "Qui ressuscite",
+          "expression_contexte": "Nom de la deuxième bénédiction de la Amida"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "המתים,",
+          "hebreu_voyelles": "הַמֵּתִים,",
+          "francais_mot": "les morts,",
+          "expression_contexte": "Fin du titre de la 2e bénédiction"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "אומר",
+          "hebreu_voyelles": "אוֹמֵר",
+          "francais_mot": "dit",
+          "expression_contexte": "Récite à voix haute",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "עם",
+          "hebreu_voyelles": "עִם",
+          "francais_mot": "avec",
+          "expression_contexte": "Ensemble avec"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "השליח",
+          "hebreu_voyelles": "הַשְׁלִיחַ",
+          "francais_mot": "l'officiant",
+          "expression_contexte": "L'officiant (Chalia'h Tsibour)"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "צבור",
+          "hebreu_voyelles": "צִבּוּר",
+          "francais_mot": "de la communauté",
+          "expression_contexte": "De la communauté (Chalia'h Tsibour)"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "tout",
+          "expression_contexte": "L'ensemble de la formula"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "נוסח",
+          "hebreu_voyelles": "נוֹסַח",
+          "francais_mot": "le texte de",
+          "expression_contexte": "La version textuelle liturgique"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "הקדושה,",
+          "hebreu_voyelles": "הַקְּדוּשָּׁה,",
+          "francais_mot": "la Kédoucha,",
+          "expression_contexte": "La prière de sanctification"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "נקדישך",
+          "hebreu_voyelles": "נַקְדִּישְׁךָ",
+          "francais_mot": "Nous te sanctifierons",
+          "expression_contexte": "Premiers mots du texte de la Kédoucha (rite séfarade)"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "ונעריצך",
+          "hebreu_voyelles": "וְנַעֲרִיצְךָ",
+          "francais_mot": "et te révérerons",
+          "expression_contexte": "Suite du texte de la Kédoucha"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "וכו',",
+          "hebreu_voyelles": "וְכוּ',",
+          "francais_mot": "etc.,",
+          "expression_contexte": "Abréviation signifiant « et le reste »"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "עד",
+          "hebreu_voyelles": "עַד",
+          "francais_mot": "jusqu'à",
+          "expression_contexte": "Limite temporelle ou textuelle"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "סוף",
+          "hebreu_voyelles": "סוֹף",
+          "francais_mot": "la fin de",
+          "expression_contexte": "Le terme"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "הקדושה.",
+          "hebreu_voyelles": "הַקְּדוּשָּׁה.",
+          "francais_mot": "la Kédoucha.",
+          "expression_contexte": "Fin du passage de la Kédoucha"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "והוא",
+          "hebreu_voyelles": "וְהוּא",
+          "francais_mot": "Et c'est",
+          "expression_contexte": "Expression introduisant une équivalence halakhique"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "הדין",
+          "hebreu_voyelles": "הַדִּין",
+          "francais_mot": "la règle",
+          "expression_contexte": "La loi applicable"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": "Condition"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "מתפלל",
+          "hebreu_voyelles": "מִתְפַּלֵּל",
+          "francais_mot": "il prie",
+          "expression_contexte": "S'il est en train de prier",
+          "infinitif": "לְהִתְפַּלֵּל = Prier"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "מוסף",
+          "hebreu_voyelles": "מוּסָף",
+          "francais_mot": "Moussaf",
+          "expression_contexte": "Prière supplementaire de Chabbat et fêtes"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "עם",
+          "hebreu_voyelles": "עִם",
+          "francais_mot": "avec",
+          "expression_contexte": "Pendant"
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "חזרת",
+          "hebreu_voyelles": "חֲזָרַת",
+          "francais_mot": "la répétition de",
+          "expression_contexte": "Répétition de Moussaf"
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "השליח",
+          "hebreu_voyelles": "הַשְׁלִיחַ",
+          "francais_mot": "l'officiant",
+          "expression_contexte": "L'officiant (Chalia'h Tsibour)"
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "צבור,",
+          "hebreu_voyelles": "צִבּוּר,",
+          "francais_mot": "de la communauté,",
+          "expression_contexte": "De la communauté (Chalia'h Tsibour)"
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "אומר",
+          "hebreu_voyelles": "אוֹמֵר",
+          "francais_mot": "il dit",
+          "expression_contexte": "Il récite",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "עמו",
+          "hebreu_voyelles": "עִמּוֹ",
+          "francais_mot": "avec lui",
+          "expression_contexte": "Ensemble avec l'officiant"
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "''כתר",
+          "hebreu_voyelles": "''כֶּתֶר",
+          "francais_mot": "« Couronne",
+          "expression_contexte": "Début de la Kédoucha de Moussaf (rite séfarade)"
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "יתנו",
+          "hebreu_voyelles": "יִתְּנוּ",
+          "francais_mot": "ils donneront",
+          "expression_contexte": "Texte de la Kédoucha de Moussaf",
+          "infinitif": "לָתֵת = Donner"
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "לך",
+          "hebreu_voyelles": "לְךָ",
+          "francais_mot": "à Toi",
+          "expression_contexte": "Adressé à Dieu"
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "וכו'''",
+          "hebreu_voyelles": "וְכוּ'''",
+          "francais_mot": "etc. »",
+          "expression_contexte": "Et la suite du texte"
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "עד",
+          "hebreu_voyelles": "עַד",
+          "francais_mot": "jusqu'à",
+          "expression_contexte": "Jusqu'au bout"
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "הסוף.",
+          "hebreu_voyelles": "הַסּוֹף.",
+          "francais_mot": "la fin.",
+          "expression_contexte": "La fin du texte de la Kédoucha"
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "והוא",
+          "hebreu_voyelles": "וְהוּא",
+          "francais_mot": "Et c'est",
+          "expression_contexte": "Transition vers un autre cas similaire"
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "הדין",
+          "hebreu_voyelles": "הַדִּין",
+          "francais_mot": "la règle",
+          "expression_contexte": "La même décision halakhique"
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "למי",
+          "hebreu_voyelles": "לְמִי",
+          "francais_mot": "pour celui",
+          "expression_contexte": "S'applique à la personne qui"
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "שמתפלל",
+          "hebreu_voyelles": "שֶׁמִּתְפַּלֵּל",
+          "francais_mot": "qui prie",
+          "expression_contexte": "Qui fait sa prière",
+          "infinitif": "לְהִתְפַּלֵּל = Prier"
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "תפלת",
+          "hebreu_voyelles": "תְּפִלַּת",
+          "francais_mot": "la prière de",
+          "expression_contexte": "Récitation de l'Amida"
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "שמונה",
+          "hebreu_voyelles": "שְׁמוֹנֶה",
+          "francais_mot": "dix-",
+          "expression_contexte": "Partie de 18"
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "עשרה",
+          "hebreu_voyelles": "עֶשְׂרֵה",
+          "francais_mot": "-huit",
+          "expression_contexte": "Prière des 18 bénédictions"
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "[ביחידות,",
+          "hebreu_voyelles": "[בִּיחִידוּת,",
+          "francais_mot": "[seul,",
+          "expression_contexte": "Prier sans assemblée"
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": "Alternative"
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "עם",
+          "hebreu_voyelles": "עִם",
+          "francais_mot": "avec",
+          "expression_contexte": "Au sein de"
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "מנין",
+          "hebreu_voyelles": "מִנְיָן",
+          "francais_mot": "un Minyane",
+          "expression_contexte": "Quorum de prière de 10 hommes"
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "אחר],",
+          "hebreu_voyelles": "אַחֵר],",
+          "francais_mot": "autre],",
+          "expression_contexte": "Un autre groupe à proximité"
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "וכשהגיע",
+          "hebreu_voyelles": "וּכְשֶׁהִגִּיעַ",
+          "francais_mot": "et lorsqu'il est arrivé",
+          "expression_contexte": "Quand il atteint cette étape",
+          "infinitif": "לְהַגִּיעַ = Arriver"
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "לסוף",
+          "hebreu_voyelles": "לְסוֹף",
+          "francais_mot": "à la fin de",
+          "expression_contexte": "À la conclusion"
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "ברכת",
+          "hebreu_voyelles": "בִּרְכַּת",
+          "francais_mot": "la bénédiction de",
+          "expression_contexte": "Bénédiction spécifique"
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "מחיה",
+          "hebreu_voyelles": "מְחַיֶּה",
+          "francais_mot": "Qui ressuscite",
+          "expression_contexte": "Deuxième bénédiction de l'Amida"
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "המתים,",
+          "hebreu_voyelles": "הַמֵּתִים,",
+          "francais_mot": "les morts,",
+          "expression_contexte": "Titre de la bénédiction"
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "שמע",
+          "hebreu_voyelles": "שָׁמַע",
+          "francais_mot": "il a entendu",
+          "expression_contexte": "Il entend à cet instant précis",
+          "infinitif": "לִשְׁמֹעַ = Entendre"
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "קדושה",
+          "hebreu_voyelles": "קְדוּשָּׁה",
+          "francais_mot": "la Kédoucha",
+          "expression_contexte": "La prière de sanctification d'un autre groupe"
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "ממנין",
+          "hebreu_voyelles": "מִמִּנְיָן",
+          "francais_mot": "d'un Minyane",
+          "expression_contexte": "Provenant d'une autre assemblée"
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "אחר,",
+          "hebreu_voyelles": "אַחֵר,",
+          "francais_mot": "autre,",
+          "expression_contexte": "Un groupe voisin"
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "יענה",
+          "hebreu_voyelles": "יַעֲנֶה",
+          "francais_mot": "il devra répondre",
+          "expression_contexte": "Obligation de réponde à la Kédoucha",
+          "infinitif": "לַעֲנוֹת = Répondre"
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "עמהם,",
+          "hebreu_voyelles": "עִמָּהֶם,",
+          "francais_mot": "avec eux,",
+          "expression_contexte": "En se joignant à eux"
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "אף",
+          "hebreu_voyelles": "אַף",
+          "francais_mot": "bien",
+          "expression_contexte": "Premier mot de la locution « bien que »"
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": "Deuxième mot de la locution « bien que »"
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "פי",
+          "hebreu_voyelles": "פִּי",
+          "francais_mot": "que",
+          "expression_contexte": "Troisième mot de la locution « bien que » (אף על פי)"
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "שעתיד",
+          "hebreu_voyelles": "שֶׁעָתִיד",
+          "francais_mot": "qu'il est destiné à",
+          "expression_contexte": "Même s'il va plus tard dire la Kédoucha"
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "לומר",
+          "hebreu_voyelles": "לוֹמַר",
+          "francais_mot": "dire",
+          "expression_contexte": "Réciter ultérieurement"
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "קדושה",
+          "hebreu_voyelles": "קְדוּשָּׁה",
+          "francais_mot": "la Kédoucha",
+          "expression_contexte": "Prière de sanctification"
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "אחר",
+          "hebreu_voyelles": "אַחַר",
+          "francais_mot": "après",
+          "expression_contexte": "Premier mot de « plus tard »"
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "כך",
+          "hebreu_voyelles": "כָּךְ",
+          "francais_mot": "cela",
+          "expression_contexte": "Deuxième mot de « plus tard » (אחר כך)"
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "בחזרת",
+          "hebreu_voyelles": "בַּחֲזָרַת",
+          "francais_mot": "dans la répétition de",
+          "expression_contexte": "Lors de la répétition propre à son groupe"
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "השליח",
+          "hebreu_voyelles": "הַשְׁלִיחַ",
+          "francais_mot": "l'officiant",
+          "expression_contexte": "L'officiant (Chalia'h Tsibour)"
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "ציבור,",
+          "hebreu_voyelles": "צִיבּוּר,",
+          "francais_mot": "de la communauté,",
+          "expression_contexte": "De la communauté (Chalia'h Tsibour)"
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": "Autre hypothèse"
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "שכבר",
+          "hebreu_voyelles": "שֶׁכְּבָר",
+          "francais_mot": "qu'il a déjà",
+          "expression_contexte": "Même s'il a déjà accompli cela"
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "אמר",
+          "hebreu_voyelles": "אָמַר",
+          "francais_mot": "dit",
+          "expression_contexte": "Déjà récite",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "קדושה",
+          "hebreu_voyelles": "קְדוּשָּׁה",
+          "francais_mot": "la Kédoucha",
+          "expression_contexte": "La prière de sanctification"
+        },
+        {
+          "id": 82,
+          "hebreu_brut": "קודם",
+          "hebreu_voyelles": "קוֹדֶם",
+          "francais_mot": "avant",
+          "expression_contexte": "Premier mot de « auparavant »"
+        },
+        {
+          "id": 83,
+          "hebreu_brut": "לכן,",
+          "hebreu_voyelles": "לָכֵן,",
+          "francais_mot": "cela,",
+          "expression_contexte": "Deuxième mot de « auparavant » (קודם לכן)"
+        },
+        {
+          "id": 84,
+          "hebreu_brut": "מכל",
+          "hebreu_voyelles": "מִכָּל",
+          "francais_mot": "de tout",
+          "expression_contexte": "Premier mot de « de toute façon »"
+        },
+        {
+          "id": 85,
+          "hebreu_brut": "מקום",
+          "hebreu_voyelles": "מָקוֹם",
+          "francais_mot": "endroit",
+          "expression_contexte": "Deuxième mot de « de toute façon / néanmoins » (מכל מקום)"
+        },
+        {
+          "id": 86,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "il doit",
+          "expression_contexte": "Obligation halakhique"
+        },
+        {
+          "id": 87,
+          "hebreu_brut": "להפסיק",
+          "hebreu_voyelles": "לְהַפְסִיק",
+          "francais_mot": "s'interrompre",
+          "expression_contexte": "Faire une pause dans sa prière"
+        },
+        {
+          "id": 88,
+          "hebreu_brut": "ולומר",
+          "hebreu_voyelles": "וְלוֹמַר",
+          "francais_mot": "et dire",
+          "expression_contexte": "Et réciter la Kédoucha"
+        },
+        {
+          "id": 89,
+          "hebreu_brut": "קדושה",
+          "hebreu_voyelles": "קְדוּשָּׁה",
+          "francais_mot": "la Kédoucha",
+          "expression_contexte": "Sanctification"
+        },
+        {
+          "id": 90,
+          "hebreu_brut": "עם",
+          "hebreu_voyelles": "עִם",
+          "francais_mot": "avec",
+          "expression_contexte": "En association avec"
+        },
+        {
+          "id": 91,
+          "hebreu_brut": "הציבור.",
+          "hebreu_voyelles": "הַצִּיבּוּר.",
+          "francais_mot": "le public.",
+          "expression_contexte": "L'assemblée en prière"
+        },
+        {
+          "id": 92,
+          "hebreu_brut": "[שארית",
+          "hebreu_voyelles": "[שְׁאֵרִית",
+          "francais_mot": "[Cheérit",
+          "expression_contexte": "Premier mot de la référence du livre Cheérit Yossef"
+        },
+        {
+          "id": 93,
+          "hebreu_brut": "יוסף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": "Nom du livre de Halakha"
+        },
+        {
+          "id": 94,
+          "hebreu_brut": "חלק",
+          "hebreu_voyelles": "חֵלֶק",
+          "francais_mot": "tome",
+          "expression_contexte": "Volume du livre"
+        },
+        {
+          "id": 95,
+          "hebreu_brut": "ג'",
+          "hebreu_voyelles": "ג'",
+          "francais_mot": "3",
+          "expression_contexte": "Tome 3 (lettre Gimmel)"
+        },
+        {
+          "id": 96,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": "Numéro de page"
+        },
+        {
+          "id": 97,
+          "hebreu_brut": "פו.",
+          "hebreu_voyelles": "פו.",
+          "francais_mot": "86.",
+          "expression_contexte": "Page 86 (lettres Pé-Vav)"
+        },
+        {
+          "id": 98,
+          "hebreu_brut": "ילקוט",
+          "hebreu_voyelles": "יַלְקוּט",
+          "francais_mot": "Yalkout",
+          "expression_contexte": "Premier mot du livre Yalkout Yossef"
+        },
+        {
+          "id": 99,
+          "hebreu_brut": "יוסף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": "Deuxième mot du titre Yalkout Yossef"
+        },
+        {
+          "id": 100,
+          "hebreu_brut": "סימן",
+          "hebreu_voyelles": "סִימָן",
+          "francais_mot": "chapitre",
+          "expression_contexte": "Section du Choul'han Aroukh"
+        },
+        {
+          "id": 101,
+          "hebreu_brut": "קט",
+          "hebreu_voyelles": "קט",
+          "francais_mot": "109",
+          "expression_contexte": "Chapitre 109 (Kouf-Tet)"
+        },
+        {
+          "id": 102,
+          "hebreu_brut": "הערה",
+          "hebreu_voyelles": "הֶעָרָה",
+          "francais_mot": "note",
+          "expression_contexte": "Note de bas de page"
+        },
+        {
+          "id": 103,
+          "hebreu_brut": "א.",
+          "hebreu_voyelles": "א.",
+          "francais_mot": "1.",
+          "expression_contexte": "Note 1 (Aleph)"
+        },
+        {
+          "id": 104,
+          "hebreu_brut": "במהדורת",
+          "hebreu_voyelles": "בְּמַהֲדוּרַת",
+          "francais_mot": "dans l'édition de",
+          "expression_contexte": "Réfère à une édition spécifique"
+        },
+        {
+          "id": 105,
+          "hebreu_brut": "תשס''ד",
+          "hebreu_voyelles": "תשס''ד",
+          "francais_mot": "5764",
+          "expression_contexte": "Année hébraïque 5764 (2003-2004)"
+        },
+        {
+          "id": 106,
+          "hebreu_brut": "תפלה",
+          "hebreu_voyelles": "תְּפִלָּה",
+          "francais_mot": "Tefila",
+          "expression_contexte": "Volume dédié aux lois de la prière"
+        },
+        {
+          "id": 107,
+          "hebreu_brut": "כרך",
+          "hebreu_voyelles": "כֶּרֶךְ",
+          "francais_mot": "tome",
+          "expression_contexte": "Volume de la série"
+        },
+        {
+          "id": 108,
+          "hebreu_brut": "א'",
+          "hebreu_voyelles": "א'",
+          "francais_mot": "1",
+          "expression_contexte": "Tome 1 (Aleph)"
+        },
+        {
+          "id": 109,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": "Numéro de page"
+        },
+        {
+          "id": 110,
+          "hebreu_brut": "תריג]",
+          "hebreu_voyelles": "תריג]",
+          "francais_mot": "613]",
+          "expression_contexte": "Page 613 (Tav-Resh-Yud-Gimmel)"
+        }
+      ],
+      "_globalId": 1
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "סימן קט - יחיד אומר קדושה עם הש''צ",
+      "sujet_he": "סימן קט - יחיד אומר קדושה עם הש''צ",
+      "sujet_fr": "Siman 109 - Réciter la Kédoucha avec l'officiant",
+      "titre_seif": "Entendre une Kédoucha d'un autre office",
+      "siman": "109",
+      "seif": "2",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ב. אולם אם היה מתפלל שחרית, ובסוף ברכת מחיה המתים שמע ממנין אחר שאומרים קדושת מוסף, כתר יתנו לך וכו', אינו רשאי להפסיק ולומר עמהם, שאין כל הקדושות שוות, אלא ישתוק ויכוין למה שאומר השליח צבור, שהשומע כעונה. [והאשכנזים נהגו לענות קדושת כתר בכיוצא בזה]. וכל שכן אם שומע קדושת יוצר או קדושת ובא לציון, שאינו רשאי להפסיק ולענות עם הצבור. [שאר''י ח''ג עמוד פז. ילקו''י סי' קט הערה ב. במהדורת תשס''ד תפלה כרך א' עמוד תרטו]",
+        "hebreu_avec_voyelles": "ב. אוּלָם אִם הָיָה מִתְפַּלֵּל שַׁחֲרִית, וּבְסוֹף בִּרְכַּת מְחַיֶּה הַמֵּתִים שָׁמַע מִמִּנְיַן אַחֵר שֶׁאוֹמְרִים קְדוּשַּׁת מוּסָף, כֶּתֶר יִתְּנוּ לְךָ וְכוּ', אֵינוֹ רַשַּׁאי לְהַפְסִיק וְלוֹמַר עִמָּהֶם, שֶׁאֵין כָּל הַקְּדוּשּׁוֹת שָׁווֹת, אֶלָּא יִשְׁתּוֹק וִיכַוֵּין לְמַה שֶׁאוֹמֵר הַשְׁלִיחַ צִבּוּר, שֶׁהַשּׁוֹמֵעַ כְּעוֹנֶה. [וְהָאַשְׁכְּנַזִּים נָהֲגוּ לַעֲנוֹת קְדוּשַּׁת כֶּתֶר בְּכַיּוֹצֵא בָּזֶה]. וְכָל שֶׁכֵּן אִם שׁוֹמֵעַ קְדוּשַּׁת יוֹצֵר אוֹ קְדוּשַּׁת וּבָא לְצִיּוֹן, שֶׁאֵינוֹ רַשַּׁאי לְהַפְסִיק וְלַעֲנוֹת עִם הַצִּבּוּר. [שְׁאָר''י ח''ג עַמּוּד פז. יַלְקוּ''י סִי' קט הֶעָרָה ב. בְּמַהֲדוּרַת תשס''ד תְּפִלָּה כֶּרֶךְ א' עַמּוּד תרטו]",
+        "francais": "2. Cependant, s'il priait Chaharit, et qu'à la fin de la bénédiction \"Mehayé Hamétim\" il entend d'un autre Minyane la Kédoucha de Moussaf (\"Kéter Yitnou Lékha etc.\"), il n'est pas autorisé à s'interrompre pour la dire avec eux, car toutes les Kédouchot ne sont pas identiques. Il devra plutôt se taire et écouter attentivement ce que dit l'officiant, car celui qui écoute est considéré comme s'il répondait. [Les Ashkénazes ont l'habitude de répondre à la Kédoucha de Kéter dans un tel cas]. À plus forte raison s'il entend la Kédoucha de Yotser ou de Ouba Letsion, il n'est pas autorisé à s'interrompre pour répondre avec le public. [Cheérit Yossef tome 3 page 87. Yalkout Yossef chap. 109 note 2. Édition 5764 Tefila tome 1 page 615]"
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ב.",
+          "hebreu_voyelles": "ב.",
+          "francais_mot": "2.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "אולם",
+          "hebreu_voyelles": "אוּלָם",
+          "francais_mot": "Cependant",
+          "expression_contexte": "Marque une nuance ou une exception"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": "Conditionnel"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "היה",
+          "hebreu_voyelles": "הָיָה",
+          "francais_mot": "était",
+          "expression_contexte": "Auxiliaire indiquant une action passée",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "מתפלל",
+          "hebreu_voyelles": "מִתְפַּלֵּל",
+          "francais_mot": "en train de prier",
+          "expression_contexte": "Participe présent du verbe prier",
+          "infinitif": "לְהִתְפַּלֵּל = Prier"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "שחרית,",
+          "hebreu_voyelles": "שַׁחֲרִית,",
+          "francais_mot": "Chaharit,",
+          "expression_contexte": "La prière du matin"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "ובסוף",
+          "hebreu_voyelles": "וּבְסוֹף",
+          "francais_mot": "et à la fin de",
+          "expression_contexte": "Préposition composée de 'et', 'dans' et 'fin'"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "ברכת",
+          "hebreu_voyelles": "בִּרְכַּת",
+          "francais_mot": "la bénédiction de",
+          "expression_contexte": "Forme construite de bénédiction"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "מחיה",
+          "hebreu_voyelles": "מְחַיֶּה",
+          "francais_mot": "qui ressuscite",
+          "expression_contexte": "Deuxième bénédiction de la Amida"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "המתים",
+          "hebreu_voyelles": "הַמֵּתִים",
+          "francais_mot": "les morts",
+          "expression_contexte": "Suite de la bénédiction Mehayé Hamétim"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "שמע",
+          "hebreu_voyelles": "שָׁמַע",
+          "francais_mot": "il entend",
+          "expression_contexte": "Verbe entendre au passé/présent narratif",
+          "infinitif": "לִשְׁמֹעַ = Entendre"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "ממנין",
+          "hebreu_voyelles": "מִמִּנְיַן",
+          "francais_mot": "d'un Minyane",
+          "expression_contexte": "Groupe de dix hommes priant ensemble"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "אחר",
+          "hebreu_voyelles": "אַחֵר",
+          "francais_mot": "autre",
+          "expression_contexte": "Adjectif qualifiant le Minyane"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "שאומרים",
+          "hebreu_voyelles": "שֶׁאוֹמְרִים",
+          "francais_mot": "qu'ils disent",
+          "expression_contexte": "Participe pluriel introduisant une citation",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "קדושת",
+          "hebreu_voyelles": "קְדוּשַּׁת",
+          "francais_mot": "la Kédoucha de",
+          "expression_contexte": "Prière de sanctification commune"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "מוסף,",
+          "hebreu_voyelles": "מוּסָף,",
+          "francais_mot": "Moussaf,",
+          "expression_contexte": "Prière supplémentaire de Chabbat et fêtes"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "כתר",
+          "hebreu_voyelles": "כֶּתֶר",
+          "francais_mot": "Couronne",
+          "expression_contexte": "Nom de la Kédoucha selon le rite séfarade pour Moussaf"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "יתנו",
+          "hebreu_voyelles": "יִתְּנוּ",
+          "francais_mot": "ils donneront",
+          "expression_contexte": "Premier mot du texte de la Kédoucha Kéter",
+          "infinitif": "לָתֵת = Donner"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "לך",
+          "hebreu_voyelles": "לְךָ",
+          "francais_mot": "à Toi",
+          "expression_contexte": "S'adresse à Dieu"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "וכו',",
+          "hebreu_voyelles": "וְכוּ',",
+          "francais_mot": "etc.,",
+          "expression_contexte": "Abréviation pour 'et le reste'"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "אינו",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "il n'est pas",
+          "expression_contexte": "Négation se rapportant au sujet"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "רשאי",
+          "hebreu_voyelles": "רַשַּׁאי",
+          "francais_mot": "autorisé",
+          "expression_contexte": "Statut halakhique de permission"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "להפסיק",
+          "hebreu_voyelles": "לְהַפְסִיק",
+          "francais_mot": "à s'interrompre",
+          "expression_contexte": "Faire une pause dans sa prière"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "ולומר",
+          "hebreu_voyelles": "וְלוֹמַר",
+          "francais_mot": "et à dire",
+          "expression_contexte": "Verbe à l'infinitif"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "עמהם,",
+          "hebreu_voyelles": "עִמָּהֶם,",
+          "francais_mot": "avec eux,",
+          "expression_contexte": "Préposition avec pronom pluriel"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "car il n'y a pas / ne sont pas",
+          "expression_contexte": "Introduit la raison halakhique"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "toutes",
+          "expression_contexte": "Quantificateur universal"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "הקדושות",
+          "hebreu_voyelles": "הַקְּדוּשּׁוֹת",
+          "francais_mot": "les Kédouchot",
+          "expression_contexte": "Pluriel des prières de sanctification"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "שוות,",
+          "hebreu_voyelles": "שָׁווֹת,",
+          "francais_mot": "équivalentes,",
+          "expression_contexte": "Elles n'ont pas le même niveau de gravité ou de statut"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "mais plutôt",
+          "expression_contexte": "Adverbe d'opposition directive"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "ישתוק",
+          "hebreu_voyelles": "יִשְׁתּוֹק",
+          "francais_mot": "il se taira",
+          "expression_contexte": "Instruction d'interrompre sa récitation orale",
+          "infinitif": "לִשְׁתֹּק = Se taire"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "ויכוין",
+          "hebreu_voyelles": "וִיכַוֵּין",
+          "francais_mot": "et écoutera attentivement",
+          "expression_contexte": "Avoir l'intention de s'acquitter par l'écoute",
+          "infinitif": "לְכַוֵּן = Penser / Avoir l'intention / Écouter attentivement"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "למה",
+          "hebreu_voyelles": "לְמַה",
+          "francais_mot": "à ce",
+          "expression_contexte": "Indique l'objet de la concentration"
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "שאומר",
+          "hebreu_voyelles": "שֶׁאוֹמֵר",
+          "francais_mot": "que dit",
+          "expression_contexte": "Action de l'officiant",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "השליח",
+          "hebreu_voyelles": "הַשְׁלִיחַ",
+          "francais_mot": "l'officiant",
+          "expression_contexte": "L'officiant (Chalia'h Tsibour)"
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "צבור,",
+          "hebreu_voyelles": "צִבּוּר,",
+          "francais_mot": "de la communauté,",
+          "expression_contexte": "De la communauté (Chalia'h Tsibour)"
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "שהשומע",
+          "hebreu_voyelles": "שֶׁהַשּׁוֹמֵעַ",
+          "francais_mot": "car celui qui écoute",
+          "expression_contexte": "Principe halakhique 'Chomé'a ké'oné'"
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "כעונה.",
+          "hebreu_voyelles": "כְּעוֹנֶה.",
+          "francais_mot": "est comme s'il répondait.",
+          "expression_contexte": "L'écoute attentive vaut récitation",
+          "infinitif": "לַעֲנוֹת = Répondre"
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "[והאשכנזים",
+          "hebreu_voyelles": "[וְהָאַשְׁכְּנַזִּים",
+          "francais_mot": "[Et les Ashkénazes",
+          "expression_contexte": "Note de coutume spécifique au rite ashkénaze"
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "נהגו",
+          "hebreu_voyelles": "נָהֲגוּ",
+          "francais_mot": "ont l'habitude",
+          "expression_contexte": "Indique une coutume (Minhag)",
+          "infinitif": "לִנְהֹג = Avoir l'habitude / Se conduire"
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "לענות",
+          "hebreu_voyelles": "לַעֲנוֹת",
+          "francais_mot": "de répondre",
+          "expression_contexte": "Prononcer les mots de la réplique"
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "קדושת",
+          "hebreu_voyelles": "קְדוּשַּׁת",
+          "francais_mot": "la Kédoucha de",
+          "expression_contexte": "Sanctification"
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "כתר",
+          "hebreu_voyelles": "כֶּתֶר",
+          "francais_mot": "Kéter",
+          "expression_contexte": "Kédoucha de Moussaf"
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "בכיוצא",
+          "hebreu_voyelles": "בְּכַיּוֹצֵא",
+          "francais_mot": "dans un cas similaire",
+          "expression_contexte": "Expression rabbinique pour 'de la sorte'"
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "בזה].",
+          "hebreu_voyelles": "בָּזֶה].",
+          "francais_mot": "à ceci].",
+          "expression_contexte": "Fin de la note explicative"
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "וכל",
+          "hebreu_voyelles": "וְכָל",
+          "francais_mot": "Et à plus",
+          "expression_contexte": "Début de l'expression Kal Vahomer"
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "שכן",
+          "hebreu_voyelles": "שֶׁכֵּן",
+          "francais_mot": "forte raison",
+          "expression_contexte": "Suite de l'expression 'Kal Chéken'"
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": "Condition"
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "שומע",
+          "hebreu_voyelles": "שׁוֹמֵעַ",
+          "francais_mot": "il entend",
+          "expression_contexte": "Participe présent",
+          "infinitif": "לִשְׁמֹעַ = Entendre"
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "קדושת",
+          "hebreu_voyelles": "קְדוּשַּׁת",
+          "francais_mot": "la Kédoucha de",
+          "expression_contexte": "Prière de sanctification"
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "יוצר",
+          "hebreu_voyelles": "יוֹצֵר",
+          "francais_mot": "Yotser",
+          "expression_contexte": "Kédoucha dans la bénédiction de Birkat Kériat Chema"
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": "Conjonction alternative"
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "קדושת",
+          "hebreu_voyelles": "קְדוּשַּׁת",
+          "francais_mot": "la Kédoucha de",
+          "expression_contexte": "Sanctification"
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "ובא",
+          "hebreu_voyelles": "וּבָא",
+          "francais_mot": "Ouba",
+          "expression_contexte": "Premier mot de la prière 'Ouba Letsion'"
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "לציון,",
+          "hebreu_voyelles": "לְצִיּוֹן,",
+          "francais_mot": "Letsion,",
+          "expression_contexte": "Nom de la prière de Kédoucha Désiidra"
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "שאינו",
+          "hebreu_voyelles": "שֶׁאֵינוֹ",
+          "francais_mot": "qu'il n'est pas",
+          "expression_contexte": "Proposition négative"
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "רשאי",
+          "hebreu_voyelles": "רַשַּׁאי",
+          "francais_mot": "autorisé",
+          "expression_contexte": "Interdiction de faire une pause"
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "להפסיק",
+          "hebreu_voyelles": "לְהַפְסִיק",
+          "francais_mot": "à s'interrompre",
+          "expression_contexte": "S'arrêter au milieu de sa prière"
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "ולענות",
+          "hebreu_voyelles": "וְלַעֲנוֹת",
+          "francais_mot": "et à répondre",
+          "expression_contexte": "Répondre avec l'assemblée"
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "עם",
+          "hebreu_voyelles": "עִם",
+          "francais_mot": "avec",
+          "expression_contexte": "Préposition d'accompagnement"
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "הצבור.",
+          "hebreu_voyelles": "הַצִּבּוּר.",
+          "francais_mot": "le public.",
+          "expression_contexte": "L'assemblée des fidèles"
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "[שאר''י",
+          "hebreu_voyelles": "[שְׁאָר''י",
+          "francais_mot": "[Cheérit Yossef",
+          "expression_contexte": "Nom de l'ouvrage halakhique en acronyme"
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "ח''ג",
+          "hebreu_voyelles": "ח''ג",
+          "francais_mot": "tome 3",
+          "expression_contexte": "Abréviation pour 'Hélek Guimel' (Troisième partie)"
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": "Indication de référence"
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "פז.",
+          "hebreu_voyelles": "פז.",
+          "francais_mot": "87.",
+          "expression_contexte": "Numéro de page en lettres hébraïques (87)"
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "ילקו''י",
+          "hebreu_voyelles": "יַלְקוּ''י",
+          "francais_mot": "Yalkout Yossef",
+          "expression_contexte": "Acronyme du code de loi halakhique"
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "סי'",
+          "hebreu_voyelles": "סִי'",
+          "francais_mot": "chap.",
+          "expression_contexte": "Abréviation pour Siman (chapitre)"
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "קט",
+          "hebreu_voyelles": "קט",
+          "francais_mot": "109",
+          "expression_contexte": "Numéro du chapitre (109)"
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "הערה",
+          "hebreu_voyelles": "הֶעָרָה",
+          "francais_mot": "note",
+          "expression_contexte": "Note de bas de page"
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "ב.",
+          "hebreu_voyelles": "ב.",
+          "francais_mot": "2.",
+          "expression_contexte": "Numéro de la note (2)"
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "במהדורת",
+          "hebreu_voyelles": "בְּמַהֲדוּרַת",
+          "francais_mot": "Dans l'édition de",
+          "expression_contexte": "Référence à l'année d'édition"
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "תשס''ד",
+          "hebreu_voyelles": "תשס''ד",
+          "francais_mot": "5764",
+          "expression_contexte": "Année du calendrier hébraïque (2003-2004)"
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "תפלה",
+          "hebreu_voyelles": "תְּפִלָּה",
+          "francais_mot": "Tefila",
+          "expression_contexte": "Volume sur les lois de la prière"
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "כרך",
+          "hebreu_voyelles": "כֶּרֶךְ",
+          "francais_mot": "volume",
+          "expression_contexte": "Tome"
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "א'",
+          "hebreu_voyelles": "א'",
+          "francais_mot": "1",
+          "expression_contexte": "Premier tome"
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": "Indication de page"
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "תרטו]",
+          "hebreu_voyelles": "תרטו]",
+          "francais_mot": "615]",
+          "expression_contexte": "Numéro de page en lettres hébraïques (615)"
+        }
+      ],
+      "_globalId": 2
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "סימן קט - יחיד אומר קדושה עם הש''צ",
+      "sujet_he": "סימן קט - יחיד אומר קדושה עם הש''צ",
+      "sujet_fr": "Siman 109 - Réciter la Kédoucha avec l'officiant",
+      "titre_seif": "Entendre Kédoucha de Minha pendant Arvit",
+      "siman": "109",
+      "seif": "3",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ג. וכן המתפלל ערבית מבעוד יום, לאחר פלג המנחה, וכשהגיע לסוף ברכת מחיה המתים שמע קדושה של מנחה, אינו רשאי להפסיק לענות עמהם, אלא ישתוק וישמע ויכוין למה שאומר השליח צבור. [שאר''י ח''ג עמו' פז. ילקו''י סי' קט הערה ג. במהדורת תשס''ד תפלה א עמו' תרטו]",
+        "hebreu_avec_voyelles": "ג. וְכֵן הַמִּתְפַּלֵּל עַרְבִית מִבְּעוֹד יוֹם, לְאַחַר פְּלַג הַמִּנְחָה, וּכְשֶׁהִגִּיעַ לְסוֹף בִּרְכַּת מְחַיֶּה הַמֵּתִים שָׁמַע קְדוּשָּׁה שֶׁל מִנְחָה, אֵינוֹ רַשַּׁאי לְהַפְסִיק לַעֲנוֹת עִמָּהֶם, אֶלָּא יִשְׁתּוֹק וְיִשְׁמַע וִיכַוֵּין לְמַה שֶׁאוֹמֵר הַשְׁלִיחַ צִבּוּר. [שְׁאָר''י ח''ג עַמּוֹ' פז. יַלְקוּ''י סִי' קט הֶעָרָה ג. בְּמַהֲדוּרַת תשס''ד תְּפִלָּה א עַמּוֹ' תרטו]",
+        "francais": "3. De même, celui qui prie Arvit alors qu'il fait encore jour, après le Plag HaMinha, et qui en arrivant à la fin de la bénédiction \"Mehayé Hamétim\" entend la Kédoucha de Minha, n'est pas autorisé à s'interrompre pour y répondre avec eux. Il devra plutôt se taire, écouter et se concentrer sur ce que dit l'officiant. [Cheérit Yossef tome 3 page 87. Yalkout Yossef chap. 109 note 3. Édition 5764 Tefila 1 page 615]"
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ג.",
+          "hebreu_voyelles": "ג.",
+          "francais_mot": "3.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "וכן",
+          "hebreu_voyelles": "וְכֵן",
+          "francais_mot": "De même",
+          "expression_contexte": "Expression de continuité"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "המתפלל",
+          "hebreu_voyelles": "הַמִּתְפַּלֵּל",
+          "francais_mot": "celui qui prie",
+          "expression_contexte": "Participe présent du verbe prier avec article défini",
+          "infinitif": "לְהִתְפַּלֵּל = Prier"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "ערבית",
+          "hebreu_voyelles": "עַרְבִית",
+          "francais_mot": "Arvit",
+          "expression_contexte": "La prière du soir"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "מבעוד",
+          "hebreu_voyelles": "מִבְּעוֹד",
+          "francais_mot": "alors qu'il fait encore",
+          "expression_contexte": "Indique une action accomplie pendant qu'une condition subsiste"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "יום,",
+          "hebreu_voyelles": "יוֹם,",
+          "francais_mot": "jour,",
+          "expression_contexte": "Pendant la journée"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "לאחר",
+          "hebreu_voyelles": "לְאַחַר",
+          "francais_mot": "après",
+          "expression_contexte": "Préposition temporelle"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "פלג",
+          "hebreu_voyelles": "פְּלַג",
+          "francais_mot": "le Plag",
+          "expression_contexte": "La moitié de (Plag HaMinha)"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "המנחה,",
+          "hebreu_voyelles": "הַמִּנְחָה,",
+          "francais_mot": "de Minha,",
+          "expression_contexte": "La prière de l'après-midi"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "וכשהגיע",
+          "hebreu_voyelles": "וּכְשֶׁהִגִּיעַ",
+          "francais_mot": "et quand il arrive",
+          "expression_contexte": "Verbe arriver au passé avec prépositions",
+          "infinitif": "לְהַגִּיעַ = Arriver / Atteindre"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "לסוף",
+          "hebreu_voyelles": "לְסוֹף",
+          "francais_mot": "à la fin de",
+          "expression_contexte": "Indique la limite/fin"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "ברכת",
+          "hebreu_voyelles": "בִּרְכַּת",
+          "francais_mot": "la bénédiction de",
+          "expression_contexte": "Forme construite de bénédiction"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "מחיה",
+          "hebreu_voyelles": "מְחַיֶּה",
+          "francais_mot": "Qui ressuscite",
+          "expression_contexte": "Participe présent du verbe ressusciter",
+          "infinitif": "לְהַחֲיוֹת = Faire vivre / Ressusciter"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "המתים",
+          "hebreu_voyelles": "הַמֵּתִים",
+          "francais_mot": "les morts",
+          "expression_contexte": "Deuxième bénédiction de la Amida"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "שמע",
+          "hebreu_voyelles": "שָׁמַע",
+          "francais_mot": "entend",
+          "expression_contexte": "Verbe entendre au passé/présent narratif",
+          "infinitif": "לִשְׁמֹעַ = Entendre / Écouter"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "קדושה",
+          "hebreu_voyelles": "קְדוּשָּׁה",
+          "francais_mot": "la Kédoucha",
+          "expression_contexte": "Prière de sanctification récitee par l'assemblée"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": "Particule de relation"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "מנחה,",
+          "hebreu_voyelles": "מִנְחָה,",
+          "francais_mot": "Minha,",
+          "expression_contexte": "La prière de l'après-midi"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "אינו",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "il n'est pas",
+          "expression_contexte": "Négation grammaticale avec pronom"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "רשאי",
+          "hebreu_voyelles": "רַשַּׁאי",
+          "francais_mot": "autorisé",
+          "expression_contexte": "Avoir la permission selon la Halakha"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "להפסיק",
+          "hebreu_voyelles": "לְהַפְסִיק",
+          "francais_mot": "à s'interrompre",
+          "expression_contexte": "Forme infinitive du verbe interrompre"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "לענות",
+          "hebreu_voyelles": "לַעֲנוֹת",
+          "francais_mot": "pour répondre",
+          "expression_contexte": "Forme infinitive du verbe répondre"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "עמהם,",
+          "hebreu_voyelles": "עִמָּהֶם,",
+          "francais_mot": "avec eux,",
+          "expression_contexte": "Préposition avec pronom pluriel"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "mais plutôt",
+          "expression_contexte": "Conjonction d'opposition"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "ישתוק",
+          "hebreu_voyelles": "יִשְׁתּוֹק",
+          "francais_mot": "se taira",
+          "expression_contexte": "Verbe se taire au futur à valeur d'injonction",
+          "infinitif": "לִשְׁתֹּק = Se taire"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "וישמע",
+          "hebreu_voyelles": "וְיִשְׁמַע",
+          "francais_mot": "et écoutera",
+          "expression_contexte": "Verbe écouter au futur",
+          "infinitif": "לִשְׁמֹעַ = Écouter / Entendre"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "ויכוין",
+          "hebreu_voyelles": "וִיכַוֵּין",
+          "francais_mot": "et se concentrera",
+          "expression_contexte": "Verbe se concentrer au futur",
+          "infinitif": "לְכַוֵּן = Se concentrer / Avoir l'intention"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "למה",
+          "hebreu_voyelles": "לְמַה",
+          "francais_mot": "sur ce",
+          "expression_contexte": "Préposition relative (à ce que)"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "שאומר",
+          "hebreu_voyelles": "שֶׁאוֹמֵר",
+          "francais_mot": "que dit",
+          "expression_contexte": "Verbe dire au participe présent",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "השליח",
+          "hebreu_voyelles": "הַשְׁלִיחַ",
+          "francais_mot": "l'officiant",
+          "expression_contexte": "L'officiant (Chalia'h Tsibour)"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "צבור.",
+          "hebreu_voyelles": "צִבּוּר.",
+          "francais_mot": "de la communauté.",
+          "expression_contexte": "De la communauté (Chalia'h Tsibour)"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "[שאר''י",
+          "hebreu_voyelles": "[שְׁאָר''י",
+          "francais_mot": "[Cheérit Yossef",
+          "expression_contexte": "Acronyme du titre de l'ouvrage"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "ח''ג",
+          "hebreu_voyelles": "ח''ג",
+          "francais_mot": "tome 3",
+          "expression_contexte": "Abréviation de Hélek Guimel"
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "עמו'",
+          "hebreu_voyelles": "עַמּוֹ'",
+          "francais_mot": "page",
+          "expression_contexte": "Abréviation d'Amoud (page)"
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "פז.",
+          "hebreu_voyelles": "פז.",
+          "francais_mot": "87.",
+          "expression_contexte": "Valeur numérique 87"
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "ילקו''י",
+          "hebreu_voyelles": "יַלְקוּ''י",
+          "francais_mot": "Yalkout Yossef",
+          "expression_contexte": "Acronyme de l'ouvrage halakhique"
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "סי'",
+          "hebreu_voyelles": "סִי'",
+          "francais_mot": "chap.",
+          "expression_contexte": "Abréviation de Siman (chapitre)"
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "קט",
+          "hebreu_voyelles": "קט",
+          "francais_mot": "109",
+          "expression_contexte": "Valeur numérique 109"
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "הערה",
+          "hebreu_voyelles": "הֶעָרָה",
+          "francais_mot": "note",
+          "expression_contexte": "Note de bas de page"
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "ג.",
+          "hebreu_voyelles": "ג.",
+          "francais_mot": "3.",
+          "expression_contexte": "Lettre Guimel valant 3"
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "במהדורת",
+          "hebreu_voyelles": "בְּמַהֲדוּרַת",
+          "francais_mot": "Édition",
+          "expression_contexte": "Dans l'édition de"
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "תשס''ד",
+          "hebreu_voyelles": "תשס''ד",
+          "francais_mot": "5764",
+          "expression_contexte": "Année selon le calendrier hébraïque"
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "תפלה",
+          "hebreu_voyelles": "תְּפִלָּה",
+          "francais_mot": "Tefila",
+          "expression_contexte": "Nom du volume"
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "א",
+          "hebreu_voyelles": "א",
+          "francais_mot": "1",
+          "expression_contexte": "Tome 1"
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "עמו'",
+          "hebreu_voyelles": "עַמּוֹ'",
+          "francais_mot": "page",
+          "expression_contexte": "Abréviation d'Amoud"
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "תרטו]",
+          "hebreu_voyelles": "תרטו]",
+          "francais_mot": "615]",
+          "expression_contexte": "Valeur numérique 615"
+        }
+      ],
+      "_globalId": 3
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "סימן קט - יחיד אומר קדושה עם הש''צ",
+      "sujet_he": "סימן קט - יחיד אומר קדושה עם הש''צ",
+      "sujet_fr": "Siman 109 - Réciter la Kédoucha avec l'officiant",
+      "titre_seif": "Commencer la Amida avant la Kédoucha",
+      "siman": "109",
+      "seif": "4",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ד. הנכנס לבית הכנסת ומצא צבור מתפללין, אם יכול להתחיל ולגמור קודם שיגיע השליח צבור לקדושה או לקדיש, יתפלל. ואם לאו אל יתפלל אם אין השעה עוברת. ולכן אין נכון לנהוג להאריך בקביעות בתפלת השמונה עשרה ולהפסיד על ידי כך עניית קדושה עם הצבור, ואף שעושה כן לצורך הכוונה, הנה על כיוצא בזה יש להמליץ ותפלתם מהרה תקבל ברצון, ויש לו,להרגיל את עצמו לכוין במהרה פירוש המלים, כדי להספיק לענות קדושה. [ילקו''י שם, עמוד תרטו]",
+        "hebreu_avec_voyelles": "ד. הַנִּכְנָס לְבֵית הַכְּנֶסֶת וּמָצָא צִבּוּר מִתְפַּלְּלִין, אִם יָכוֹל לְהַתְחִיל וְלִגְמוֹר קוֹדֶם שֶׁיַּגִּיעַ הַשְׁלִיחַ צִבּוּר לִקְדוּשָּׁה אוֹ לְקַדִּישׁ, יִתְפַּלֵּל. וְאִם לָאו אַל יִתְפַּלֵּל אִם אֵין הַשָּׁעָה עוֹבֶרֶת. וְלָכֵן אֵין נָכוֹן לִנְהוֹג לְהַאֲרִיךְ בִּקְבִיעוּת בִּתְפִלַּת הַשְּׁמוֹנֶה עֶשְׂרֵה וּלְהַפְסִיד עַל יְדֵי כָּךְ עֲנִיַּית קְדוּשָּׁה עִם הַצִּבּוּר, וְאַף שֶׁעוֹשֶׂה כֵּן לְצוֹרֶךְ הַכַּוָּונָה, הִנֵּה עַל כַּיּוֹצֵא בָּזֶה יֵשׁ לְהַמְלִיץ וּתְפִלָּתָם מְהֵרָה תְּקַבֵּל בְּרָצוֹן, וְיֵשׁ לוֹ,לְהַרְגִּיל אֶת עַצְמוֹ לְכַוֵּין בִּמְהֵרָה פֵּירוּשׁ הַמִּלִּים, כְּדֵי לְהַסְפִּיק לַעֲנוֹת קְדוּשָּׁה. [יַלְקוּ''י שָׁם, עַמּוּד תרטו]",
+        "francais": "4. Celui qui entre à la synagogue et trouve la congrégation en train de prier, s'il peut commencer et terminer avant que l'officiant n'arrive à la Kédoucha ou au Kaddish, il priera. Sinon, il ne priera pas, à moins que l'heure limite de la prière ne soit sur le point de passer. C'est pourquoi il n'est pas correct de prendre l'habitude de prolonger systématiquement la prière de la Amida et de perdre ainsi l'occasion de répondre à la Kédoucha avec le public. Même s'il le fait pour des besoins de concentration, on peut recommander sur ce point \"et que leur prière soit promptement acceptée avec ferveur\", et il doit s'habituer à se concentrer rapidement sur le sens des mots, afin d'avoir le temps de répondre à la Kédoucha. [Yalkout Yossef là-bas, page 615]"
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ד.",
+          "hebreu_voyelles": "ד.",
+          "francais_mot": "4.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "הנכנס",
+          "hebreu_voyelles": "הַנִּכְנָס",
+          "francais_mot": "Celui qui entre",
+          "expression_contexte": "Celui qui entre dans un lieu de prière"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לבית",
+          "hebreu_voyelles": "לְבֵית",
+          "francais_mot": "dans la maison de",
+          "expression_contexte": "Indique la destination"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "הכנסת",
+          "hebreu_voyelles": "הַכְּנֶסֶת",
+          "francais_mot": "la synagogue",
+          "expression_contexte": "Littéralement : la maison d'assemblée"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "ומצא",
+          "hebreu_voyelles": "וּמָצָא",
+          "francais_mot": "et trouve",
+          "expression_contexte": "Constater une situation en arrivant",
+          "infinitif": "לִמְצוֹא = Trouver"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "צבור",
+          "hebreu_voyelles": "צִבּוּר",
+          "francais_mot": "la congrégation",
+          "expression_contexte": "L'assemblée des fidèles (minyan)"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "מתפללין,",
+          "hebreu_voyelles": "מִתְפַּלְּלִין,",
+          "francais_mot": "en train de prier,",
+          "expression_contexte": "Forme aramaïsante signifiant prier au présent",
+          "infinitif": "לְהִתְפַּלֵּל = Prier"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": "Introduction d'une condition"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "יכול",
+          "hebreu_voyelles": "יָכוֹל",
+          "francais_mot": "il peut",
+          "expression_contexte": "Capacité ou possibilité de le faire",
+          "infinitif": "לִהְיוֹת יָכוֹל = Pouvoir"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "להתחיל",
+          "hebreu_voyelles": "לְהַתְחִיל",
+          "francais_mot": "commencer",
+          "expression_contexte": "Débuter la prière de la Amida"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "ולגמור",
+          "hebreu_voyelles": "וְלִגְמוֹר",
+          "francais_mot": "et terminer",
+          "expression_contexte": "Achever sa prière personnelle"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "קודם",
+          "hebreu_voyelles": "קוֹדֶם",
+          "francais_mot": "avant",
+          "expression_contexte": "Antériorité dans le temps"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "שיגיע",
+          "hebreu_voyelles": "שֶׁיַּגִּיעַ",
+          "francais_mot": "que n'arrive",
+          "expression_contexte": "Atteindre un passage précis de la prière",
+          "infinitif": "לְהַגִּיעַ = Arriver"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "השליח",
+          "hebreu_voyelles": "הַשְׁלִיחַ",
+          "francais_mot": "l'officiant",
+          "expression_contexte": "L'officiant (Chalia'h Tsibour)"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "צבור",
+          "hebreu_voyelles": "צִבּוּר",
+          "francais_mot": "de la communauté",
+          "expression_contexte": "De la communauté (Chalia'h Tsibour)"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "לקדושה",
+          "hebreu_voyelles": "לִקְדוּשָּׁה",
+          "francais_mot": "à la Kédoucha",
+          "expression_contexte": "Répétition sanctifiée par le public"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": "Alternative"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "לקדיש,",
+          "hebreu_voyelles": "לְקַדִּישׁ,",
+          "francais_mot": "au Kaddish,",
+          "expression_contexte": "Récitation du Kaddish par l'officiant"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "יתפלל.",
+          "hebreu_voyelles": "יִתְפַּלֵּל.",
+          "francais_mot": "il priera.",
+          "expression_contexte": "Il peut alors commencer la Amida",
+          "infinitif": "לְהִתְפַּלֵּל = Prier"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "ואם",
+          "hebreu_voyelles": "וְאִם",
+          "francais_mot": "et si",
+          "expression_contexte": "Introduction du cas contraire"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "לאו",
+          "hebreu_voyelles": "לָאו",
+          "francais_mot": "non",
+          "expression_contexte": "Terme araméen signifiant 'sinon'"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "אל",
+          "hebreu_voyelles": "אַל",
+          "francais_mot": "ne... pas",
+          "expression_contexte": "Forme d'interdiction"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "יתפלל",
+          "hebreu_voyelles": "יִתְפַּלֵּל",
+          "francais_mot": "qu'il ne prie pas",
+          "expression_contexte": "Il ne doit pas s'engager dans la prière",
+          "infinitif": "לְהִתְפַּלֵּל = Prier"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "à moins que",
+          "expression_contexte": "Condition d'exception"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "il n'y a pas",
+          "expression_contexte": "Négation de situation"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "השעה",
+          "hebreu_voyelles": "הַשָּׁעָה",
+          "francais_mot": "l'heure",
+          "expression_contexte": "L'heure limite (Zman Tefilla)"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "עוברת.",
+          "hebreu_voyelles": "עוֹבֶרֶת.",
+          "francais_mot": "ne passe.",
+          "expression_contexte": "L'heure réglementaire qui s'écoule",
+          "infinitif": "לַעֲבוֹר = Passer"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "ולכן",
+          "hebreu_voyelles": "וְלָכֵן",
+          "francais_mot": "et c'est pourquoi",
+          "expression_contexte": "Diction de conséquence"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "il n'est pas",
+          "expression_contexte": "Négation d'advenance"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "נכון",
+          "hebreu_voyelles": "נָכוֹן",
+          "francais_mot": "correct",
+          "expression_contexte": "Approprié selon la règle"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "לנהוג",
+          "hebreu_voyelles": "לִנְהוֹג",
+          "francais_mot": "d'avoir pour habitude",
+          "expression_contexte": "Prendre une coutume personnelle"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "להאריך",
+          "hebreu_voyelles": "לְהַאֲרִיךְ",
+          "francais_mot": "de prolonger",
+          "expression_contexte": "Rendre la prière plus longue"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "בקביעות",
+          "hebreu_voyelles": "בִּקְבִיעוּת",
+          "francais_mot": "systématiquement",
+          "expression_contexte": "De manière fixe et continue"
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "בתפלת",
+          "hebreu_voyelles": "בִּתְפִלַּת",
+          "francais_mot": "dans la prière de",
+          "expression_contexte": "Désigne la Amida"
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "השמונה",
+          "hebreu_voyelles": "הַשְּׁמוֹנֶה",
+          "francais_mot": "les dix-",
+          "expression_contexte": "Première partie de Shemoneh Esreh (18)"
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "עשרה",
+          "hebreu_voyelles": "עֶשְׂרֵה",
+          "francais_mot": "-huit",
+          "expression_contexte": "Deuxième partie du chiffre 18"
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "ולהפסיד",
+          "hebreu_voyelles": "וּלְהַפְסִיד",
+          "francais_mot": "et de manquer",
+          "expression_contexte": "Perdre le bénéfice d'une réponse publique"
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "par",
+          "expression_contexte": "Composant de la locution 'par cela'"
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "ידי",
+          "hebreu_voyelles": "יְדֵי",
+          "francais_mot": "le biais de",
+          "expression_contexte": "Moyen d'action (al yedey)"
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "כך",
+          "hebreu_voyelles": "כָּךְ",
+          "francais_mot": "cela",
+          "expression_contexte": "Désigne l'action précédente"
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "עניית",
+          "hebreu_voyelles": "עֲנִיַּית",
+          "francais_mot": "la réponse à",
+          "expression_contexte": "Le fait de répondre aux bénédictions"
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "קדושה",
+          "hebreu_voyelles": "קְדוּשָּׁה",
+          "francais_mot": "la Kédoucha",
+          "expression_contexte": "Sanctification faite à voix haute"
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "עם",
+          "hebreu_voyelles": "עִם",
+          "francais_mot": "avec",
+          "expression_contexte": "Ensemble avec"
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "הצבור,",
+          "hebreu_voyelles": "הַצִּבּוּר,",
+          "francais_mot": "la communauté,",
+          "expression_contexte": "L'assemblée du minyan"
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "ואף",
+          "hebreu_voyelles": "וְאַף",
+          "francais_mot": "et même",
+          "expression_contexte": "Concession"
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "שעושה",
+          "hebreu_voyelles": "שֶׁעוֹשֶׂה",
+          "francais_mot": "qu'il agit",
+          "expression_contexte": "Faire une action",
+          "infinitif": "לַעֲשׂוֹת = Faire"
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "כן",
+          "hebreu_voyelles": "כֵּן",
+          "francais_mot": "ainsi",
+          "expression_contexte": "De cette manière"
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "לצורך",
+          "hebreu_voyelles": "לְצוֹרֶךְ",
+          "francais_mot": "pour le besoin de",
+          "expression_contexte": "Dans le but de"
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "הכוונה,",
+          "hebreu_voyelles": "הַכַּוָּונָה,",
+          "francais_mot": "la concentration,",
+          "expression_contexte": "L'intention profonde de la prière"
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "הנה",
+          "hebreu_voyelles": "הִנֵּה",
+          "francais_mot": "voici que",
+          "expression_contexte": "Attirer l'attention sur une constatation"
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": "À propos de"
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "כיוצא",
+          "hebreu_voyelles": "כַּיּוֹצֵא",
+          "francais_mot": "un cas semblable",
+          "expression_contexte": "Locution 'kayotse bo' (ce qui ressemble)"
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "à ceci",
+          "expression_contexte": "Réfère au cas présent"
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il y a lieu",
+          "expression_contexte": "Il convient de"
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "להמליץ",
+          "hebreu_voyelles": "לְהַמְלִיץ",
+          "francais_mot": "d'appliquer l'expression",
+          "expression_contexte": "Citer un verset ou une formule adaptée"
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "ותפלתם",
+          "hebreu_voyelles": "וּתְפִלָּתָם",
+          "francais_mot": "et que leur prière",
+          "expression_contexte": "Citation d'un souhait traditionnel"
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "מהרה",
+          "hebreu_voyelles": "מְהֵרָה",
+          "francais_mot": "promptement",
+          "expression_contexte": "Sans délai"
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "תקבל",
+          "hebreu_voyelles": "תְּקַבֵּל",
+          "francais_mot": "soit acceptée",
+          "expression_contexte": "Soit reçue favorablement",
+          "infinitif": "לְקַבֵּל = Recevoir / Être accepté"
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "ברצון,",
+          "hebreu_voyelles": "בְּרָצוֹן,",
+          "francais_mot": "avec ferveur,",
+          "expression_contexte": "Dans l'agrément divin"
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "ויש",
+          "hebreu_voyelles": "וְיֵשׁ",
+          "francais_mot": "et il doit",
+          "expression_contexte": "Obligation ou recommandation"
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "לו,להרגיל",
+          "hebreu_voyelles": "לוֹ,לְהַרְגִּיל",
+          "francais_mot": "à lui, d'habituer",
+          "expression_contexte": "Il lui appartient de prendre l'habitude",
+          "infinitif": "לְהַרְגִּיל = Habituer"
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "(COD)",
+          "expression_contexte": "Marqueur de l'objet direct"
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "עצמו",
+          "hebreu_voyelles": "עַצְמוֹ",
+          "francais_mot": "lui-même",
+          "expression_contexte": "Forme réfléchie"
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "לכוין",
+          "hebreu_voyelles": "לְכַוֵּין",
+          "francais_mot": "à se concentrer",
+          "expression_contexte": "Penser à la signification des mots"
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "במהרה",
+          "hebreu_voyelles": "בִּמְהֵרָה",
+          "francais_mot": "rapidement",
+          "expression_contexte": "De façon véloce"
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "פירוש",
+          "hebreu_voyelles": "פֵּירוּשׁ",
+          "francais_mot": "au sens de",
+          "expression_contexte": "La traduction ou la signification"
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "המלים,",
+          "hebreu_voyelles": "הַמִּלִּים,",
+          "francais_mot": "des mots,",
+          "expression_contexte": "Les paroles de la prière"
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "afin de",
+          "expression_contexte": "Introduction du but"
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "להספיק",
+          "hebreu_voyelles": "לְהַסְפִּיק",
+          "francais_mot": "d'avoir le temps",
+          "expression_contexte": "Être en mesure de suivre le rythme"
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "לענות",
+          "hebreu_voyelles": "לַעֲנוֹת",
+          "francais_mot": "de répondre à",
+          "expression_contexte": "Dire Amen et répondre aux phrases clés"
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "קדושה.",
+          "hebreu_voyelles": "קְדוּשָּׁה.",
+          "francais_mot": "la Kédoucha.",
+          "expression_contexte": "La prière de la Kédoucha"
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "[ילקו''י",
+          "hebreu_voyelles": "[יַלְקוּ''י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": "Abréviation de l'ouvrage halakhique Yalkout Yossef"
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "שם,",
+          "hebreu_voyelles": "שָׁם,",
+          "francais_mot": "là-bas,",
+          "expression_contexte": "Au même endroit du livre"
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": "Numéro de la page"
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "תרטו]",
+          "hebreu_voyelles": "תרטו]",
+          "francais_mot": "615]",
+          "expression_contexte": "Valeur numérique hébraïque (Tav-Resh-Tet-Vav = 615)"
+        }
+      ],
+      "_globalId": 4
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "סימן קט - יחיד אומר קדושה עם הש''צ",
+      "sujet_he": "סימן קט - יחיד אומר קדושה עם הש''צ",
+      "sujet_fr": "Siman 109 - Réciter la Kédoucha avec l'officiant",
+      "titre_seif": "Ne pas omettre les ajouts de prière",
+      "siman": "109",
+      "seif": "5",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ה. אין לדלג נוסח על הנסים בחנוכה ובפורים, או לקצרו, כדי להספיק ולענות קדיש או קדושה עם הצבור. והוא הדין בליל ראש חודש, שאין לדלג על אמירת יעלה ויבא משום כך, או בתענית צבור שאין לדלג על אמירת עננו בשביל להספיק להגיע לקדושה. [ילקוט יוסף סימן קט הערה ה'. שם, עמוד תרטז]",
+        "hebreu_avec_voyelles": "ה. אֵין לְדַלֵּג נוֹסַח עַל הַנִּסִּים בַּחֲנוּכָּה וּבְפוּרִים, אוֹ לְקַצְּרוֹ, כְּדֵי לְהַסְפִּיק וְלַעֲנוֹת קַדִּישׁ אוֹ קְדוּשָּׁה עִם הַצִּבּוּר. וְהוּא הַדִּין בְּלֵיל רֹאשׁ חוֹדֶשׁ, שֶׁאֵין לְדַלֵּג עַל אֲמִירַת יַעֲלֶה וְיָבֹא מִשּׁוּם כָּךְ, אוֹ בְּתַעֲנִית צִבּוּר שֶׁאֵין לְדַלֵּג עַל אֲמִירַת עֲנֵנוּ בִּשְׁבִיל לְהַסְפִּיק לְהַגִּיעַ לִקְדוּשָּׁה. [יַלְקוּט יוֹסֵף סִימָן קט הֶעָרָה ה'. שָׁם, עַמּוּד תרטז]",
+        "francais": "5. On ne doit pas omettre le texte de \"Al HaNissim\" à Hanoucca et à Pourim, ni le raccourcir, dans le but d'avoir le temps de répondre au Kaddish ou à la Kédoucha avec le public. Il en est de même la nuit de Roch Hodech, où l'on ne doit pas sauter la récitation de \"Yaalé Véyavo\" pour cette raison, ou lors d'un jeûne public où l'on ne doit pas sauter la récitation de \"Anénou\" pour avoir le temps d'arriver à la Kédoucha. [Yalkout Yossef chapitre 109 note 5. Là-bas, page 616]"
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ה.",
+          "hebreu_voyelles": "ה.",
+          "francais_mot": "5.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "on ne doit pas",
+          "expression_contexte": "S'utilise pour exprimer une interdiction dans ce contexte"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לדלג",
+          "hebreu_voyelles": "לְדַלֵּג",
+          "francais_mot": "omettre",
+          "expression_contexte": "Sauter une partie du texte de la prière"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "נוסח",
+          "hebreu_voyelles": "נוֹסַח",
+          "francais_mot": "le texte de",
+          "expression_contexte": "La formule rituelle de prière"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "Al",
+          "expression_contexte": "Premier mot du texte Al HaNissim"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "הנסים",
+          "hebreu_voyelles": "הַנִּסִּים",
+          "francais_mot": "HaNissim",
+          "expression_contexte": "Les miracles (prière d'action de grâce)"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "בחנוכה",
+          "hebreu_voyelles": "בַּחֲנוּכָּה",
+          "francais_mot": "à Hanoucca",
+          "expression_contexte": "Fête des lumières"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "ובפורים,",
+          "hebreu_voyelles": "וּבְפוּרִים,",
+          "francais_mot": "et à Pourim,",
+          "expression_contexte": "Fête commémorant la délivrance en Perse"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ni",
+          "expression_contexte": "Conjonction de coordination"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "לקצרו,",
+          "hebreu_voyelles": "לְקַצְּרוֹ,",
+          "francais_mot": "le raccourcir,",
+          "expression_contexte": "Abréger la récitation du texte"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "dans le but de",
+          "expression_contexte": "Afin de"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "להספיק",
+          "hebreu_voyelles": "לְהַסְפִּיק",
+          "francais_mot": "d'avoir le temps",
+          "expression_contexte": "Réussir à rattraper la communauté"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "ולענות",
+          "hebreu_voyelles": "וְלַעֲנוֹת",
+          "francais_mot": "et de répondre",
+          "expression_contexte": "Réciter les réponses liturgiques"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "קדיש",
+          "hebreu_voyelles": "קַדִּישׁ",
+          "francais_mot": "au Kaddish",
+          "expression_contexte": "Prière de sanctification du Nom divin"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": "Conjonction"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "קדושה",
+          "hebreu_voyelles": "קְדוּשָּׁה",
+          "francais_mot": "à la Kédoucha",
+          "expression_contexte": "Sanctification lors de la répétition de la Amida"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "עם",
+          "hebreu_voyelles": "עִם",
+          "francais_mot": "avec",
+          "expression_contexte": "Ensemble avec"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "הצבור.",
+          "hebreu_voyelles": "הַצִּבּוּר.",
+          "francais_mot": "le public.",
+          "expression_contexte": "L'assemblée des fidèles"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "והוא",
+          "hebreu_voyelles": "וְהוּא",
+          "francais_mot": "Et il en est",
+          "expression_contexte": "Formule établissant une équivalence de loi"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "הדין",
+          "hebreu_voyelles": "הַדִּין",
+          "francais_mot": "de même",
+          "expression_contexte": "La règle halakhique"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "בליל",
+          "hebreu_voyelles": "בְּלֵיל",
+          "francais_mot": "la nuit de",
+          "expression_contexte": "Le soir du début du mois"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "ראש",
+          "hebreu_voyelles": "רֹאשׁ",
+          "francais_mot": "Roch",
+          "expression_contexte": "Tête / Début"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "חודש,",
+          "hebreu_voyelles": "חוֹדֶשׁ,",
+          "francais_mot": "Hodech,",
+          "expression_contexte": "Mois hébraïque"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "où l'on ne doit pas",
+          "expression_contexte": "Prohibition de sauter ce passage"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "לדלג",
+          "hebreu_voyelles": "לְדַלֵּג",
+          "francais_mot": "sauter",
+          "expression_contexte": "Omettre de dire"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": "Concernant"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "אמירת",
+          "hebreu_voyelles": "אֲמִירַת",
+          "francais_mot": "la récitation de",
+          "expression_contexte": "L'action de dire la prière"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "יעלה",
+          "hebreu_voyelles": "יַעֲלֶה",
+          "francais_mot": "Yaalé",
+          "expression_contexte": "Première partie de la prière de Roch Hodech",
+          "infinitif": "לַעֲלוֹת = Monter"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "ויבא",
+          "hebreu_voyelles": "וְיָבֹא",
+          "francais_mot": "Véyavo",
+          "expression_contexte": "Seconde partie de la prière de Roch Hodech",
+          "infinitif": "לָבוֹא = Venir"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "משום",
+          "hebreu_voyelles": "מִשּׁוּם",
+          "francais_mot": "pour",
+          "expression_contexte": "À cause de"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "כך,",
+          "hebreu_voyelles": "כָּךְ,",
+          "francais_mot": "cette raison,",
+          "expression_contexte": "Ce motif précis"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": "Autre cas de figure"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "בתענית",
+          "hebreu_voyelles": "בְּתַעֲנִית",
+          "francais_mot": "lors d'un jeûne",
+          "expression_contexte": "Jour de deuil ou de supplication"
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "צבור",
+          "hebreu_voyelles": "צִבּוּר",
+          "francais_mot": "public",
+          "expression_contexte": "Jeûne communautaire décrété"
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "où l'on ne doit pas",
+          "expression_contexte": "Interdiction halakhique"
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "לדלג",
+          "hebreu_voyelles": "לְדַלֵּג",
+          "francais_mot": "sauter",
+          "expression_contexte": "Omettre de dire"
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": "Concernant"
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "אמירת",
+          "hebreu_voyelles": "אֲמִירַת",
+          "francais_mot": "la récitation de",
+          "expression_contexte": "L'action de dire"
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "עננו",
+          "hebreu_voyelles": "עֲנֵנוּ",
+          "francais_mot": "Anénou",
+          "expression_contexte": "Prière spécifique ajoutée lors d'un jeûne",
+          "infinitif": "לַעֲנוֹת = Répondre"
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "בשביל",
+          "hebreu_voyelles": "בִּשְׁבִיל",
+          "francais_mot": "pour",
+          "expression_contexte": "Dans l'intention de"
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "להספיק",
+          "hebreu_voyelles": "לְהַסְפִּיק",
+          "francais_mot": "avoir le temps",
+          "expression_contexte": "Avoir le délai nécessaire"
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "להגיע",
+          "hebreu_voyelles": "לְהַגִּיעַ",
+          "francais_mot": "d'arriver",
+          "expression_contexte": "Parvenir au même point que l'officiant"
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "לקדושה.",
+          "hebreu_voyelles": "לִקְדוּשָּׁה.",
+          "francais_mot": "à la Kédoucha.",
+          "expression_contexte": "Moment solennel de la répétition"
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "[ילקוט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": "Nom de l'ouvrage de référence halakhique"
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "יוסף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": "Nom de l'auteur / ouvrage"
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "סימן",
+          "hebreu_voyelles": "סִימָן",
+          "francais_mot": "chapitre",
+          "expression_contexte": "Section du code de lois"
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "קט",
+          "hebreu_voyelles": "קט",
+          "francais_mot": "109",
+          "expression_contexte": "Numéro du chapitre en chiffres hébraïques"
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "הערה",
+          "hebreu_voyelles": "הֶעָרָה",
+          "francais_mot": "note",
+          "expression_contexte": "Note explicative"
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "ה'.",
+          "hebreu_voyelles": "ה'.",
+          "francais_mot": "5.",
+          "expression_contexte": "Numéro de la note (lettre He)"
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "שם,",
+          "hebreu_voyelles": "שָׁם,",
+          "francais_mot": "Là-bas,",
+          "expression_contexte": "Ibidem / Dans la même source"
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": "Page du livre"
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "תרטז]",
+          "hebreu_voyelles": "תרטז]",
+          "francais_mot": "616]",
+          "expression_contexte": "Numéro de page en lettres hébraïques"
+        }
+      ],
+      "_globalId": 5
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "סימן קט - יחיד אומר קדושה עם הש''צ",
+      "sujet_he": "סימן קט - יחיד אומר קדושה עם הש''צ",
+      "sujet_fr": "Siman 109 - Réciter la Kédoucha avec l'officiant",
+      "titre_seif": "Finir la prière pour la bénédiction lunaire",
+      "siman": "109",
+      "seif": "6",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ו. מי שמאריך בתפלתו באופן שהצבור מסיימים להתפלל ערבית, והוא עדיין בתפלתו, ובליל ח' לחודש שהצבור מברך ברכת הלבנה, מפסיד אמירת הברכה ברוב עם, יש לו להשתדל להתרגל לכוין מהר, כדי שיסיים את התפלה ויאמר ברכת הלבנה עם הצבור ברוב עם. אבל אם הצבור מתפלל יותר מדאי במהירות, והוא מתעכב לצורך כוונה הכרחית בביאור המלים, אין בכך כלום שמפסיד אמירת ברכת הלבנה ברוב עם, אחר דתפלה בלא כוונה כגוף בלא נשמה. ומכל מקום ישתדל להתרגל לכוין מהר גם כדי להרויח עניית קדיש, וכמבואר בסעיף הקודם. [ילקו''י שם עמ' תריז]",
+        "hebreu_avec_voyelles": "ו. מִי שֶׁמַּאֲרִיךְ בִּתְפִלָּתוֹ בְּאוֹפֶן שֶׁהַצִּבּוּר מְסַיְּימִים לְהִתְפַּלֵּל עַרְבִית, וְהוּא עֲדַיִין בִּתְפִלָּתוֹ, וּבְלֵיל ח' לַחוֹדֶשׁ שֶׁהַצִּבּוּר מְבָרֵךְ בִּרְכַּת הַלְּבָנָה, מַפְסִיד אֲמִירַת הַבְּרָכָה בְּרוֹב עַם, יֵשׁ לוֹ לְהִשְׁתַּדֵּל לְהִתְרַגֵּל לְכַוֵּין מַהֵר, כְּדֵי שֶׁיְּסַיֵּים אֶת הַתְּפִלָּה וְיֹאמַר בִּרְכַּת הַלְּבָנָה עִם הַצִּבּוּר בְּרוֹב עַם. אֲבָל אִם הַצִּבּוּר מִתְפַּלֵּל יוֹתֵר מִדַּאי בִּמְהִירוּת, וְהוּא מִתְעַכֵּב לְצוֹרֶךְ כַּוָּונָה הֶכְרֵחִית בְּבֵיאוּר הַמִּלִּים, אֵין בְּכָךְ כְּלוּם שֶׁמַּפְסִיד אֲמִירַת בִּרְכַּת הַלְּבָנָה בְּרוֹב עַם, אַחַר דִּתְפִלָּה בְּלֹא כַּוָּונָה כְּגוּף בְּלֹא נְשָׁמָה. וּמִכָּל מָקוֹם יִשְׁתַּדֵּל לְהִתְרַגֵּל לְכַוֵּין מַהֵר גַּם כְּדֵי לְהַרְוִיחַ עֲנִיַּית קַדִּישׁ, וְכַמְּבוֹאָר בִּסְעִיף הַקּוֹדֵם. [יַלְקוּ''י שָׁם עמ' תריז]",
+        "francais": "6. Celui qui prolonge sa prière de sorte que le public termine de prier Arvit alors qu'il est encore dans sa prière, et qui, la nuit du huitième jour du mois où le public récite la bénédiction de la lune, manque l'occasion de réciter la bénédiction au sein d'une multitude (Bérov Am), devra s'efforcer de s'habituer à se concentrer rapidement, afin de terminer la prière et de dire la bénédiction de la lune avec le public en grand rassemblement. Cependant, si le public prie beaucoup trop vite, et qu'il s'attarde en raison d'une concentration indispensable sur le sens des mots, ce n'est pas grave s'il manque la récitation de la bénédiction de la lune en multitude, car une prière sans concentration est comme un corps sans âme. Néanmoins, il s'efforcera de s'habituer à se concentrer rapidement aussi pour gagner le mérite de répondre au Kaddish, comme expliqué au paragraphe précédent. [Yalkout Yossef là-bas page 617]"
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ו.",
+          "hebreu_voyelles": "ו.",
+          "francais_mot": "6.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מי",
+          "hebreu_voyelles": "מִי",
+          "francais_mot": "Celui qui",
+          "expression_contexte": "Pronom désignant une personne."
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שמאריך",
+          "hebreu_voyelles": "שֶׁמַּאֲרִיךְ",
+          "francais_mot": "qui prolonge",
+          "expression_contexte": "Qui rallonge sa prière.",
+          "infinitif": "לְהַאֲרִיךְ = Prolonger"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בתפלתו",
+          "hebreu_voyelles": "בִּתְפִלָּתוֹ",
+          "francais_mot": "sa prière",
+          "expression_contexte": "Dans sa prière personnelle."
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "באופן",
+          "hebreu_voyelles": "בְּאוֹפֶן",
+          "francais_mot": "de sorte",
+          "expression_contexte": "De telle manière."
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "שהצבור",
+          "hebreu_voyelles": "שֶׁהַצִּבּוּר",
+          "francais_mot": "que le public",
+          "expression_contexte": "Que la communauté des fidèles."
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "מסיימים",
+          "hebreu_voyelles": "מְסַיְּימִים",
+          "francais_mot": "termine",
+          "expression_contexte": "Achève la prière.",
+          "infinitif": "לְסַיֵּים = Terminer"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "להתפלל",
+          "hebreu_voyelles": "לְהִתְפַּלֵּל",
+          "francais_mot": "de prier",
+          "expression_contexte": "Infinitif du verbe prier."
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "ערבית,",
+          "hebreu_voyelles": "עַרְבִית,",
+          "francais_mot": "Arvit,",
+          "expression_contexte": "La prière du soir."
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "והוא",
+          "hebreu_voyelles": "וְהוּא",
+          "francais_mot": "alors qu'il",
+          "expression_contexte": "Tandis que lui-même."
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "עדיין",
+          "hebreu_voyelles": "עֲדַיִין",
+          "francais_mot": "est encore",
+          "expression_contexte": "Toujours en train de."
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "בתפלתו,",
+          "hebreu_voyelles": "בִּתְפִלָּתוֹ,",
+          "francais_mot": "dans sa prière,",
+          "expression_contexte": "En train de prier."
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "ובליל",
+          "hebreu_voyelles": "וּבְלֵיל",
+          "francais_mot": "et la nuit du",
+          "expression_contexte": "Et lors de la nuit."
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ח'",
+          "hebreu_voyelles": "ח'",
+          "francais_mot": "huitième jour",
+          "expression_contexte": "Le 8 du mois hébraïque."
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "לחודש",
+          "hebreu_voyelles": "לַחוֹדֶשׁ",
+          "francais_mot": "du mois",
+          "expression_contexte": "Du mois lunaire."
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "שהצבור",
+          "hebreu_voyelles": "שֶׁהַצִּבּוּר",
+          "francais_mot": "où le public",
+          "expression_contexte": "Quand la communauté."
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "מברך",
+          "hebreu_voyelles": "מְבָרֵךְ",
+          "francais_mot": "récite la bénédiction",
+          "expression_contexte": "Prononce la bénédiction.",
+          "infinitif": "לְבָרֵךְ = Bénir / Réciter une bénédiction"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "ברכת",
+          "hebreu_voyelles": "בִּרְכַּת",
+          "francais_mot": "de",
+          "expression_contexte": "Bénédiction de."
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "הלבנה,",
+          "hebreu_voyelles": "הַלְּבָנָה,",
+          "francais_mot": "la lune,",
+          "expression_contexte": "Birkat Halevana."
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "מפסיד",
+          "hebreu_voyelles": "מַפְסִיד",
+          "francais_mot": "manque",
+          "expression_contexte": "Perd l'opportunité de.",
+          "infinitif": "לְהַפְסִיד = Perdre / Manquer"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "אמירת",
+          "hebreu_voyelles": "אֲמִירַת",
+          "francais_mot": "la récitation de",
+          "expression_contexte": "Le fait de dire."
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "הברכה",
+          "hebreu_voyelles": "הַבְּרָכָה",
+          "francais_mot": "la bénédiction",
+          "expression_contexte": "La bénédiction lunaire."
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "ברוב",
+          "hebreu_voyelles": "בְּרוֹב",
+          "francais_mot": "au sein d'une",
+          "expression_contexte": "En présence d'un grand nombre."
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "עם,",
+          "hebreu_voyelles": "עַם,",
+          "francais_mot": "multitude,",
+          "expression_contexte": "Le peuple (Berov am)."
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il y a",
+          "expression_contexte": "Il convient."
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "pour lui",
+          "expression_contexte": "Il doit (יש לו = il doit)."
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "להשתדל",
+          "hebreu_voyelles": "לְהִשְׁתַּדֵּל",
+          "francais_mot": "de s'efforcer",
+          "expression_contexte": "Faire un effort."
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "להתרגל",
+          "hebreu_voyelles": "לְהִתְרַגֵּל",
+          "francais_mot": "de s'habituer",
+          "expression_contexte": "Prendre l'habitude."
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "לכוין",
+          "hebreu_voyelles": "לְכַוֵּין",
+          "francais_mot": "à se concentrer",
+          "expression_contexte": "Avoir l'intention/kavanah."
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "מהר,",
+          "hebreu_voyelles": "מַהֵר,",
+          "francais_mot": "rapidement,",
+          "expression_contexte": "Plus vite."
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "afin",
+          "expression_contexte": "Pour que."
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "שיסיים",
+          "hebreu_voyelles": "שֶׁיְּסַיֵּים",
+          "francais_mot": "qu'il termine",
+          "expression_contexte": "Afin de finir.",
+          "infinitif": "לְסַיֵּים = Terminer"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[C.O.D.]",
+          "expression_contexte": "Particule introduisant le COD."
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "התפלה",
+          "hebreu_voyelles": "הַתְּפִלָּה",
+          "francais_mot": "la prière",
+          "expression_contexte": "La Tefilla."
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "ויאמר",
+          "hebreu_voyelles": "וְיֹאמַר",
+          "francais_mot": "et de dire",
+          "expression_contexte": "Et réciter.",
+          "infinitif": "לוֹמַר = Dire / Réciter"
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "ברכת",
+          "hebreu_voyelles": "בִּרְכַּת",
+          "francais_mot": "la bénédiction de",
+          "expression_contexte": "Forme construite."
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "הלבנה",
+          "hebreu_voyelles": "הַלְּבָנָה",
+          "francais_mot": "la lune",
+          "expression_contexte": "La bénédiction de la lune."
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "עם",
+          "hebreu_voyelles": "עִם",
+          "francais_mot": "avec",
+          "expression_contexte": "En compagnie de."
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "הצבור",
+          "hebreu_voyelles": "הַצִּבּוּר",
+          "francais_mot": "le public",
+          "expression_contexte": "La communauté."
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "ברוב",
+          "hebreu_voyelles": "בְּרוֹב",
+          "francais_mot": "en grand",
+          "expression_contexte": "En assemblée."
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "עם.",
+          "hebreu_voyelles": "עַם.",
+          "francais_mot": "rassemblement.",
+          "expression_contexte": "Multitude du peuple."
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "אבל",
+          "hebreu_voyelles": "אֲבָל",
+          "francais_mot": "Cependant,",
+          "expression_contexte": "Mais."
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": "Condition."
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "הצבור",
+          "hebreu_voyelles": "הַצִּבּוּר",
+          "francais_mot": "le public",
+          "expression_contexte": "La communauté."
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "מתפלל",
+          "hebreu_voyelles": "מִתְפַּלֵּל",
+          "francais_mot": "prie",
+          "expression_contexte": "Récite les prières.",
+          "infinitif": "לְהִתְפַּלֵּל = Prier"
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "יותר",
+          "hebreu_voyelles": "יוֹתֵר",
+          "francais_mot": "plus",
+          "expression_contexte": "Annonce l'excès."
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "מדאי",
+          "hebreu_voyelles": "מִדַּאי",
+          "francais_mot": "trop",
+          "expression_contexte": "Yoter midai = beaucoup trop."
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "במהירות,",
+          "hebreu_voyelles": "בִּמְהִירוּת,",
+          "francais_mot": "vite,",
+          "expression_contexte": "Avec précipitation."
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "והוא",
+          "hebreu_voyelles": "וְהוּא",
+          "francais_mot": "et qu'il",
+          "expression_contexte": "Et l'individu."
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "מתעכב",
+          "hebreu_voyelles": "מִתְעַכֵּב",
+          "francais_mot": "s'attarde",
+          "expression_contexte": "Prend du temps.",
+          "infinitif": "לְהִתְעַכֵּב = S'attarder / Tarder"
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "לצורך",
+          "hebreu_voyelles": "לְצוֹרֶךְ",
+          "francais_mot": "en raison d'une",
+          "expression_contexte": "Pour le besoin de."
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "כוונה",
+          "hebreu_voyelles": "כַּוָּונָה",
+          "francais_mot": "concentration",
+          "expression_contexte": "Intention sacrée (Kavanah)."
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "הכרחית",
+          "hebreu_voyelles": "הֶכְרֵחִית",
+          "francais_mot": "indispensable",
+          "expression_contexte": "Nécessaire."
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "בביאור",
+          "hebreu_voyelles": "בְּבֵיאוּר",
+          "francais_mot": "sur le sens de",
+          "expression_contexte": "Dans l'explication."
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "המלים,",
+          "hebreu_voyelles": "הַמִּלִּים,",
+          "francais_mot": "mots,",
+          "expression_contexte": "Les paroles de la tefilla."
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "il n'y a",
+          "expression_contexte": "Négation."
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "בכך",
+          "hebreu_voyelles": "בְּכָךְ",
+          "francais_mot": "en cela",
+          "expression_contexte": "Dans ce cas."
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "כלום",
+          "hebreu_voyelles": "כְּלוּם",
+          "francais_mot": "rien de grave",
+          "expression_contexte": "Ein bekakh kloum = ce n'est pas un problème."
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "שמפסיד",
+          "hebreu_voyelles": "שֶׁמַּפְסִיד",
+          "francais_mot": "s'il manque",
+          "expression_contexte": "Même s'il perd la bénédiction collective.",
+          "infinitif": "לְהַפְסִיד = Perdre / Manquer"
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "אמירת",
+          "hebreu_voyelles": "אֲמִירַת",
+          "francais_mot": "la récitation de",
+          "expression_contexte": "Le fait de dire."
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "ברכת",
+          "hebreu_voyelles": "בִּרְכַּת",
+          "francais_mot": "la bénédiction de",
+          "expression_contexte": "Bénédiction."
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "הלבנה",
+          "hebreu_voyelles": "הַלְּבָנָה",
+          "francais_mot": "la lune",
+          "expression_contexte": "Birkat Halevana."
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "ברוב",
+          "hebreu_voyelles": "בְּרוֹב",
+          "francais_mot": "en",
+          "expression_contexte": "En grand nombre."
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "עם,",
+          "hebreu_voyelles": "עַם,",
+          "francais_mot": "multitude,",
+          "expression_contexte": "Rassemblement."
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "אחר",
+          "hebreu_voyelles": "אַחַר",
+          "francais_mot": "car",
+          "expression_contexte": "Ahar de... = étant donné que."
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "דתפלה",
+          "hebreu_voyelles": "דִּתְפִלָּה",
+          "francais_mot": "une prière",
+          "expression_contexte": "Une tefilla."
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "בלא",
+          "hebreu_voyelles": "בְּלֹא",
+          "francais_mot": "sans",
+          "expression_contexte": "Dépourvue de."
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "כוונה",
+          "hebreu_voyelles": "כַּוָּונָה",
+          "francais_mot": "concentration",
+          "expression_contexte": "Intention de cœur."
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "כגוף",
+          "hebreu_voyelles": "כְּגוּף",
+          "francais_mot": "est comme un corps",
+          "expression_contexte": "Metaphore talmudique classique."
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "בלא",
+          "hebreu_voyelles": "בְּלֹא",
+          "francais_mot": "sans",
+          "expression_contexte": "Privé de."
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "נשמה.",
+          "hebreu_voyelles": "נְשָׁמָה.",
+          "francais_mot": "âme.",
+          "expression_contexte": "Le souffle spirituel."
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "ומכל",
+          "hebreu_voyelles": "וּמִכָּל",
+          "francais_mot": "Et de toute",
+          "expression_contexte": "Forme l'expression Umikol makom."
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "מקום",
+          "hebreu_voyelles": "מָקוֹם",
+          "francais_mot": "façon",
+          "expression_contexte": "Néanmoins / Quoi qu'il en soit."
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "ישתדל",
+          "hebreu_voyelles": "יִשְׁתַּדֵּל",
+          "francais_mot": "il s'efforcera",
+          "expression_contexte": "Faire tous les efforts.",
+          "infinitif": "לְהִשְׁתַּדֵּל = S'efforcer"
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "להתרגל",
+          "hebreu_voyelles": "לְהִתְרַגֵּל",
+          "francais_mot": "de s'habituer",
+          "expression_contexte": "S'entraîner."
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "לכוין",
+          "hebreu_voyelles": "לְכַוֵּין",
+          "francais_mot": "à se concentrer",
+          "expression_contexte": "Avoir de la kavanah."
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "מהר",
+          "hebreu_voyelles": "מַהֵר",
+          "francais_mot": "rapidement",
+          "expression_contexte": "Plus vite."
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "גם",
+          "hebreu_voyelles": "גַּם",
+          "francais_mot": "aussi",
+          "expression_contexte": "Également."
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "afin de",
+          "expression_contexte": "Pour."
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "להרויח",
+          "hebreu_voyelles": "לְהַרְוִיחַ",
+          "francais_mot": "gagner le mérite de",
+          "expression_contexte": "Bénéficier de."
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "עניית",
+          "hebreu_voyelles": "עֲנִיַּית",
+          "francais_mot": "répondre au",
+          "expression_contexte": "Le fait d'amener une réponse."
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "קדיש,",
+          "hebreu_voyelles": "קַדִּישׁ,",
+          "francais_mot": "Kaddish,",
+          "expression_contexte": "Prière de sanctification."
+        },
+        {
+          "id": 82,
+          "hebreu_brut": "וכמבואר",
+          "hebreu_voyelles": "וְכַמְּבוֹאָר",
+          "francais_mot": "et comme expliqué",
+          "expression_contexte": "Comme il a été clarifié."
+        },
+        {
+          "id": 83,
+          "hebreu_brut": "בסעיף",
+          "hebreu_voyelles": "בִּסְעִיף",
+          "francais_mot": "au paragraphe",
+          "expression_contexte": "Dans le seif."
+        },
+        {
+          "id": 84,
+          "hebreu_brut": "הקודם.",
+          "hebreu_voyelles": "הַקּוֹדֵם.",
+          "francais_mot": "précédent.",
+          "expression_contexte": "Paragraphe antérieur."
+        },
+        {
+          "id": 85,
+          "hebreu_brut": "[ילקו''י",
+          "hebreu_voyelles": "[יַלְקוּ''י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": "Nom de l'ouvrage halakhique."
+        },
+        {
+          "id": 86,
+          "hebreu_brut": "שם",
+          "hebreu_voyelles": "שָׁם",
+          "francais_mot": "là-bas",
+          "expression_contexte": "In loco (au même endroit)."
+        },
+        {
+          "id": 87,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "page",
+          "expression_contexte": "Abréviation de amoud (page)."
+        },
+        {
+          "id": 88,
+          "hebreu_brut": "תריז]",
+          "hebreu_voyelles": "תריז]",
+          "francais_mot": "617]",
+          "expression_contexte": "Numéro de page en valeur numérique."
+        }
+      ],
+      "_globalId": 6
+    }
+  ]
+}

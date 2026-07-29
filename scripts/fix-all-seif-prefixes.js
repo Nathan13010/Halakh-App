@@ -99,6 +99,12 @@ export function fixSeif(h, fallbackIdx, subjectMap) {
     frText = `${frBadge} ${frText}`;
   }
 
+  // NLP Corrections & Normalization
+  const removeNikkoud = (str) => (str || '').replace(/[\u0591-\u05C7]/g, '');
+  const cleanDuplicateDiacritics = (str) => (str || '').replace(/([\u0591-\u05C7])\1+/g, '$1');
+
+  hebVoyelles = cleanDuplicateDiacritics(hebVoyelles).replace(/עִמּוֹ'/g, "עַמּוֹ'");
+
   h.texte_integral = {
     hebreu_sans_voyelles: hebBrut,
     hebreu_avec_voyelles: hebVoyelles,
@@ -131,9 +137,21 @@ export function fixSeif(h, fallbackIdx, subjectMap) {
     expression_contexte: 'Numéro du paragraphe'
   });
 
-  // Re-index
-  mots.forEach((m, idx) => { m.id = idx; });
+  // Re-index, clean diacritics, fix עמו', and enforce strict hebreu_brut
+  mots.forEach((m, idx) => {
+    m.id = idx;
+    if (idx > 0) {
+      m.hebreu_voyelles = cleanDuplicateDiacritics(m.hebreu_voyelles);
+      if (m.hebreu_voyelles === "עִמּוֹ'" && (m.francais_mot === 'page' || (m.expression_contexte && m.expression_contexte.includes('page')))) {
+        m.hebreu_voyelles = "עַמּוֹ'";
+      }
+      m.hebreu_brut = removeNikkoud(m.hebreu_voyelles);
+    }
+  });
   h.mots_alignes = mots;
+
+  // Re-sync hebreu_sans_voyelles to guarantee 100% match
+  h.texte_integral.hebreu_sans_voyelles = mots.map(m => m.hebreu_brut).join(' ');
 }
 
 const findFiles = (dir) => {

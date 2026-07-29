@@ -44,10 +44,15 @@ function App() {
         const savedBook = BOOKS.find(b => b.id === bookId);
         if (savedBook && savedBook.isUnlocked) {
           handleLoadBook(savedBook, paragraphIndex, true);
+        } else if (BOOKS[0] && BOOKS[0].isUnlocked) {
+          handleLoadBook(BOOKS[0], 0, true);
         }
       } catch (e) {
         console.error(e);
+        if (BOOKS[0] && BOOKS[0].isUnlocked) handleLoadBook(BOOKS[0], 0, true);
       }
+    } else if (BOOKS[0] && BOOKS[0].isUnlocked) {
+      handleLoadBook(BOOKS[0], 0, true);
     }
     // Load gamification data
     const storedStreak = localStorage.getItem("mishne_mikra_streak");
@@ -86,9 +91,8 @@ function App() {
       const simanNum = simanMatch ? simanMatch[1] : '318';
 
       const candidatePaths = [
-        `/data/${book.id}.json`,
         `/data/siman_${simanNum}.json`,
-        `/data/kitzur_yalkut_yosef/shabbat/siman_${simanNum}.json`,
+        `/data/${book.id}.json`,
       ];
 
       let response = null;
@@ -107,13 +111,25 @@ function App() {
       }
 
       const rawData = await response.json();
-      let parsed = [];
-      if (Array.isArray(rawData)) {
-        parsed = rawData;
-      } else if (rawData && typeof rawData === "object") {
-        const foundArr = Object.values(rawData).find(v => Array.isArray(v));
-        parsed = foundArr ? foundArr : Object.values(rawData).filter(v => v && v.texte_integral);
-      }
+      const flattenHalakhot = (arr) => {
+        let result = [];
+        (arr || []).forEach(item => {
+          if (item && item.halakhot && Array.isArray(item.halakhot)) {
+            result.push(...flattenHalakhot(item.halakhot));
+          } else if (item && (item.texte_integral || item.seif)) {
+            result.push(item);
+          }
+        });
+        return result;
+      };
+
+      const initialArray = Array.isArray(rawData)
+        ? rawData
+        : (rawData && rawData.halakhot && Array.isArray(rawData.halakhot))
+          ? rawData.halakhot
+          : (Object.values(rawData || {}).find(v => Array.isArray(v)) || []);
+
+      parsed = flattenHalakhot(initialArray);
 
       if (parsed.length === 0) throw new Error("JSON mal formé.");
 
