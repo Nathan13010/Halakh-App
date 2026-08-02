@@ -38,7 +38,7 @@ function getHebrewLetter(seifNum) {
 }
 
 function cleanStr(str) {
-  return (str || '').replace(/[.,\/#!$%\^&\*;:{}=\-_`~()"'׳״\u05F3\u05F4]/g, '').trim();
+  return (str || '').replace(/[.,\/#!$%\^&\*;:{}=\-_`~()"'׳״\u05F3\u05F4\u0591-\u05C7]/g, '').trim();
 }
 
 function removeDuplicateBadges(mots, seifNum) {
@@ -145,7 +145,7 @@ export function fixSeif(h, fallbackIdx, subjectMap) {
       if (m.hebreu_voyelles === "עִמּוֹ'" && (m.francais_mot === 'page' || (m.expression_contexte && m.expression_contexte.includes('page')))) {
         m.hebreu_voyelles = "עַמּוֹ'";
       }
-      m.hebreu_brut = removeNikkoud(m.hebreu_voyelles);
+      // m.hebreu_brut = removeNikkoud(m.hebreu_voyelles); // 🛑 Ne plus écraser pour préserver le Ktiv Male
     }
   });
   h.mots_alignes = mots;

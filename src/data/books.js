@@ -5,14 +5,14 @@ export const FALLBACK_PARAGRAPHS = [
     "sujet_fr": "Lois du réveil du matin",
     "titre_seif": "Se lever avec force et courage",
     "texte_integral": {
-      "hebreu_sans_voyelles": "א. שנינו במסכת אבות יהודה בן תימא אומר, הוי עז כנמר, וקל כנשר, ורץ כצבי, וגבור כארי, לעשות רצון אביך שבשמים. ולמדו מכאן ארבעה דברים בעבודת הבורא, הוי עז כנמר, כי כאשר יעשה אדם מצוה לא יתביש מפני בני אדם המלעיגים עליו. וקל כנשר, למהר לעצם עיניו מראות ברע, כי ראית העינים היא תחלת העברה. ורץ כצבי, שהרגלים ירוצו לדבר טוב. וגבור כארי, זו גבורת הלב לנצח היצר. ולכן יתגבר כארי לעמוד בבוקר לעבודת בוראו, שיהא הוא מעורר השחר. ועל כל פנים לא יאחר זמן תפלה וקריאת שמע. ואף על פי שהמקים את מצוות ה' אין לו להתביש מפני המלעיגים עליו, מכל מקום לא יתקוטט ויריב עמהם, גם כדי שלא יתרגל למדת העזות המגנה מאד.",
+      "hebreu_sans_voyelles": "א שנינו במסכת אבות יהודה בן תימא אומר, הוי עז כנמר, וקל כנשר, ורץ כצבי, וגבור כארי, לעשות רצון אביך שבשמים. ולמדו מכאן ארבעה דברים בעבודת הבורא, הוי עז כנמר, כי כאשר יעשה אדם מצוה לא יתבייש מפני בני אדם המלעיגים עליו. וקל כנשר, למהר לעצום עיניו מראות ברע, כי ראיית העינים היא תחלת העבירה. ורץ כצבי, שהרגלים ירוצו לדבר טוב. וגבור כארי, זו גבורת הלב לנצח היצר. ולכן יתגבר כארי לעמוד בבוקר לעבודת בוראו, שיהא הוא מעורר השחר. ועל כל פנים לא יאחר זמן תפלה וקריאת שמע. [ועיקר הגבורה הוא בלב, להתגבר על יצרו לנצחו, כגבור המתגבר על שונאו לנצחו ולהפילו לארץ. וכך צריך כל אדם להתגבר על יצרו כארי לקום משינתו לעבודת בוראו]. [ילקו\"י על הלכות השכמת הבוקר, מהדורת תשס\"ד עמוד נז. וילקוט יוסף שארית יוסף חלק א', עמוד א']. ואף על פי שהמקיים את מצוות ה' אין לו להתבייש מפני המלעיגים עליו, מכל מקום לא יתקוטט ויריב עמהם, גם כדי שלא יתרגל למדת העזות המגונה מאד. [ואם מטרתו להשפיע על עניני הקהלה בעניני התורה והמצוות, וניסה בדרכי שלום ולא הצליח, אזי מותר להעיז פניו ולריב עמם להפר עצתם]. [שארית יוסף חלק א' עמוד ג'. ילקו\"י מהדורת תשס\"ד, עמוד צו].",
       "hebreu_avec_voyelles": "א. שָׁנִינוּ בְּמַסֶּכֶת אָבוֹת יְהוּדָה בֶּן תֵּימָא אוֹמֵר, הָוֵי עַז כַּנָּמֵר, וְקַל כַּנֶּשֶׁר, וְרָץ כַּצְּבִי, וְגִבּוֹר כַּאֲרִי, לַעֲשׂוֹת רְצוֹן אָבִיךָ שֶׁבַּשָּׁמַיִם. וְלָמְדוּ מִכָּאן אַרְבָּעָה דְּבָרִים בַּעֲבוֹדַת הַבּוֹרֵא, הָוֵי עַז כַּנָּמֵר, כִּי כַּאֲשֶׁר יַעֲשֶׂה אָדָם מִצְוָה לֹא יִתְבַּיֵּשׁ מִפְּנֵי בְּנֵי אָדָם הַמַּלְעִיגִים עָלָיו. וְקַל כַּנֶּשֶׁר, לְמַהֵר לַעֲצֹם עֵינָיו מַרְאוֹת בְּרַע, כִּי רְאִיַּת הָעֵינַיִם הִיא תְּחִלַּת הָעֲבֵרָה. וְרָץ כַּצְּבִי, שֶׁהָרַגְלַיִם יָרוּצוּ לְדָבָר טוֹב. וְגִבּוֹר כַּאֲרִי, זוֹ גְּבוּרַת הַלֵּב לְנַצֵּחַ הַיֵּצֶר. וְלָכֵן יִתְגַּבֵּר כַּאֲרִי לַעֲמוֹד בַּבּוֹקֵר לַעֲבוֹדַת בּוֹרְאוֹ, שֶׁיְּהֵא הוּא מְעוֹרֵר הַשַּׁחַר. וְעַל כָּל פָּנִים לֹא יְאַחֵר זְמַן תְּפִלָּה וּקְרִיאַת שְׁמַע. וְאַף עַל פִּי שֶׁהַמְקַיֵּם אֶת מִצְווֹת ה' אֵין לוֹ לְהִתְבַּיֵּשׁ מִפְּנֵי הַמַּלְעִיגִים עָלָיו, מִכָּל מָקוֹם לֹא יִתְקוֹטֵט וְיָרִיב עִמָּהֶם, גַּם כְּדֵי שֶׁלֹּא יִתְרַגֵּל לְמִדַּת הָעַזּוּת הַמְגֻנֶּה מְאֹד.",
       "francais": "1. Nous avons appris dans le traité Avot : Yehouda ben Téma disait : « Sois fort comme le léopard, léger comme l'aigle, rapide comme le cerf et courageux comme le lion, pour faire la volonté de ton Père qui est aux cieux. » Et on en a déduit quatre choses pour le service du Créateur. « Sois fort comme le léopard », car lorsqu’un homme accomplit une Mitsva, il ne doit pas avoir honte des gens qui se moquent de lui. « Léger comme un aigle », pour se dépêcher de fermer les yeux afin de ne pas voir le mal, car la vue des yeux est le commencement du péché. « Rapide comme un cerf », pour que les jambes courent vers une bonne chose. « Et courageux comme un lion », c'est le courage du cœur pour vaincre le penchant. C’est pourquoi, il se renforcera comme un lion pour se lever le matin au service de son Créateur, afin que ce soit lui qui éveille l'aube. En tout cas, il ne retardera pas l'heure de la prière et de la lecture du Chema. Et bien que celui qui accomplit les commandements de Dieu n'ait pas à avoir honte de ceux qui se moquent de lui, de toute façon, il ne se querellera pas et ne se disputera pas avec eux, afin de ne pas s'habituer au vilain défaut de l'effronterie."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "א.",
+        "hebreu_brut": "א",
         "hebreu_voyelles": "א.",
         "francais_mot": "1.",
         "expression_contexte": "1."
@@ -264,7 +264,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 37,
-        "hebreu_brut": "יתביש",
+        "hebreu_brut": "יתבייש",
         "hebreu_voyelles": "יִתְבַּיֵּשׁ",
         "francais_mot": "avoir honte",
         "expression_contexte": "avoir honte"
@@ -327,7 +327,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 46,
-        "hebreu_brut": "לעצם",
+        "hebreu_brut": "לעצום",
         "hebreu_voyelles": "לַעֲצֹם",
         "francais_mot": "de fermer",
         "expression_contexte": "de fermer"
@@ -362,7 +362,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 51,
-        "hebreu_brut": "ראית",
+        "hebreu_brut": "ראיית",
         "hebreu_voyelles": "רְאִיַּת",
         "francais_mot": "la vision",
         "expression_contexte": "la vision"
@@ -390,7 +390,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 55,
-        "hebreu_brut": "העברה.",
+        "hebreu_brut": "העבירה.",
         "hebreu_voyelles": "הָעֲבֵרָה.",
         "francais_mot": "de la faute.",
         "expression_contexte": "de la faute."
@@ -649,7 +649,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 92,
-        "hebreu_brut": "שהמקים",
+        "hebreu_brut": "שהמקיים",
         "hebreu_voyelles": "שֶׁהַמְקַיֵּם",
         "francais_mot": "celui qui accomplit",
         "expression_contexte": "celui qui accomplit"
@@ -691,7 +691,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 98,
-        "hebreu_brut": "להתביש",
+        "hebreu_brut": "להתבייש",
         "hebreu_voyelles": "לְהִתְבַּיֵּשׁ",
         "francais_mot": "à avoir honte",
         "expression_contexte": "à avoir honte"
@@ -803,7 +803,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 114,
-        "hebreu_brut": "המגנה",
+        "hebreu_brut": "המגונה",
         "hebreu_voyelles": "הַמְגֻנֶּה",
         "francais_mot": "méprisable",
         "expression_contexte": "méprisable"
@@ -815,7 +815,9 @@ export const FALLBACK_PARAGRAPHS = [
         "francais_mot": "beaucoup.",
         "expression_contexte": "beaucoup."
       }
-    ]
+    ],
+    "id": "p1",
+    "numero": "1"
   },
   {
     "seif": "2",
@@ -823,14 +825,14 @@ export const FALLBACK_PARAGRAPHS = [
     "sujet_fr": "Lois du réveil du matin",
     "titre_seif": "L'empressement pour les Mitsvot",
     "texte_integral": {
-      "hebreu_sans_voyelles": "ב. צריך האדם שיהיה אצלו בטבע והרגל תמידי לרוץ לדבר מצוה, ויש המאחרים בשנתם, ומתעכבים בביתם, ואחר כך רצים לבית הכנסת, ואין זו מדת הזריזות, דאף שרואים אותם רצים ומזדרזים, זה מפני שאחרו להשכים קום, ולכן רצים להספיק להגיע לתפלה בבית הכנסת. ולעולם יהא אדם זריז לתפלה ולתורה, ואל ימשך אחר השנה והתענוגות, ואל יפתהו יצרו להתרשל בגלל עשרו ונכסיו, שהכל חולף ואבד, ואלו תורה ושכרה עומדים לעד.",
+      "hebreu_sans_voyelles": "ב צריך האדם שיהיה אצלו בטבע והרגל תמידי לרוץ לדבר מצוה, ויש המאחרים בשינתם, ומתעכבים בביתם, ואחר כך רצים לבית הכנסת, ואין זו מדת הזריזות, דאף שרואים אותם רצים ומזדרזים, זה מפני שאיחרו להשכים קום, ולכן רצים להספיק להגיע לתפלה בבית הכנסת. ולעולם יהא אדם זריז לתפלה ולתורה, ואל ימשך אחר השינה והתענוגות, ואל יפתהו יצרו להתרשל בגלל עשרו ונכסיו, שהכל חולף ואבד, ואילו תורה ושכרה עומדים לעד. [ילקו\"י הל' השכמת הבוקר, עמ' סב. ושם בענין הזריזות לקיום המצוות].",
       "hebreu_avec_voyelles": "ב. צָרִיךְ הָאָדָם שֶׁיִּהְיֶה אֶצְלוֹ בְּטֶבַע וְהָרֶגֶל תְּמִידִי לָרוּץ לִדְבַר מִצְוָה, וְיֵשׁ הַמְאַחֲרִים בִּשְׁנָתָם, וּמִתְעַכְּבִים בְּבֵיתָם, וְאַחַר כָּךְ רָצִים לְבֵית הַכְּנֶסֶת, וְאֵין זוֹ מִדַּת הַזְּרִיזוּת, דְּאַף שֶׁרוֹאִים אוֹתָם רָצִים וּמִזְדָּרְזִים, זֶה מִפְּנֵי שֶׁאִחֲרוּ לְהַשְׁכִּים קוּם, וְלָכֵן רָצִים לְהַסְפִּיק לְהַגִּיעַ לִתְפִלָּה בְּבֵית הַכְּנֶסֶת. וּלְעוֹלָם יְהֵא אָדָם זָרִיז לִתְפִלָּה וְלַתּוֹרָה, וְאַל יִמָּשֵׁךְ אַחַר הַשֵּׁנָה וְהַתַּעֲנוּגוֹת, וְאַל יַפְתֵּהוּ יִצְרוֹ לְהִתְרַשֵּׁל בִּגְלַל עָשְׁרוֹ וּנְכָסָיו, שֶׁהַכֹּל חוֹלֵף וְאָבַד, וְאֵלּוּ תּוֹרָה וּשְׂכָרָהּ עוֹמְדִים לָעַד.",
       "francais": "2. L'homme doit faire en sorte que ce soit chez lui une nature et une habitude constante de courir pour accomplir une Mitsva. Certains s'attardent dans leur sommeil et traînent chez eux, puis courent ensuite à la synagogue. Ce n'est pas là la qualité de l'empressement (Zrizout) ; car bien qu'on les voie courir et se presser, c'est uniquement parce qu'ils ont retardé leur lever, et courent donc pour rattraper le temps et arriver à la prière à la synagogue. Un homme doit toujours être empressé pour la prière et la Torah. Il ne doit pas se laisser entraîner par le sommeil et les plaisirs, ni laisser son mauvais penchant le séduire à la négligence à cause de sa richesse et de ses biens, car tout est éphémère et voué à disparaître, tandis que la Torah et sa récompense subsistent éternellement."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "ב.",
+        "hebreu_brut": "ב",
         "hebreu_voyelles": "ב.",
         "francais_mot": "2.",
         "expression_contexte": "2."
@@ -921,7 +923,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 14,
-        "hebreu_brut": "בשנתם,",
+        "hebreu_brut": "בשינתם,",
         "hebreu_voyelles": "בִּשְׁנָתָם,",
         "francais_mot": "dans leur sommeil,",
         "expression_contexte": "dans leur sommeil,"
@@ -1054,7 +1056,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 33,
-        "hebreu_brut": "שאחרו",
+        "hebreu_brut": "שאיחרו",
         "hebreu_voyelles": "שֶׁאִחֲרוּ",
         "francais_mot": "qu'ils ont retardé",
         "expression_contexte": "qu'ils ont retardé"
@@ -1187,7 +1189,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 52,
-        "hebreu_brut": "השנה",
+        "hebreu_brut": "השינה",
         "hebreu_voyelles": "הַשֵּׁנָה",
         "francais_mot": "le sommeil",
         "expression_contexte": "le sommeil"
@@ -1271,7 +1273,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 64,
-        "hebreu_brut": "ואלו",
+        "hebreu_brut": "ואילו",
         "hebreu_voyelles": "וְאֵלּוּ",
         "francais_mot": "alors que",
         "expression_contexte": "alors que"
@@ -1304,7 +1306,9 @@ export const FALLBACK_PARAGRAPHS = [
         "francais_mot": "pour toujours.",
         "expression_contexte": "pour toujours."
       }
-    ]
+    ],
+    "id": "p2",
+    "numero": "2"
   },
   {
     "seif": "3",
@@ -1312,14 +1316,14 @@ export const FALLBACK_PARAGRAPHS = [
     "sujet_fr": "Lois du réveil du matin",
     "titre_seif": "Préparation à la prière",
     "texte_integral": {
-      "hebreu_sans_voyelles": "ג. צריך להקדים לקום בבוקר כדי שיספיק להכין את עצמו להתפלל בצבור ובנקיות, שלא יפסיד זמן תפלה. ונהגו בכמה קהלות ישראל, שהשמש הולך בבוקר ודופק בדלת או בחלון לעורר הישנים לתפלה ועבודת ה'.",
+      "hebreu_sans_voyelles": "ג צריך להקדים לקום בבוקר כדי שיספיק להכין את עצמו להתפלל בצבור ובנקיות, שלא יפסיד זמן תפלה. ונהגו בכמה קהלות ישראל, שהשמש הולך בבוקר ודופק בדלת או בחלון לעורר הישנים לתפלה ועבודת ה'. [ילקו\"י הל' השכמת הבוקר מהדור' תשס\"ד עמ' סג].",
       "hebreu_avec_voyelles": "ג. צָרִיךְ לְהַקְדִּים לָקוּם בַּבּוֹקֵר כְּדֵי שֶׁיַּסְפִּיק לְהָכִין אֶת עַצְמוֹ לְהִתְפַּלֵּל בְּצִבּוּר וּבִנְקִיּוּת, שֶׁלֹּא יַפְסִיד זְמַן תְּפִלָּה. וְנָהֲגוּ בְּכַמָּה קְהִלּוֹת יִשְׂרָאֵל, שֶׁהַשַּׁמָּשׁ הוֹלֵךְ בַּבּוֹקֵר וְדוֹפֵק בַּדֶּלֶת אוֹ בַּחַלּוֹן לְעוֹרֵר הַיְשָׁנִים לִתְפִלָּה וַעֲבוֹדַת ה'.",
       "francais": "3. Il faut se lever tôt le matin afin d'avoir le temps de se préparer à prier en public et dans la propreté, pour ne pas rater l'heure de la prière. Il était de coutume dans certaines communautés d'Israël que le bedeau (chamach) passe le matin frapper aux portes ou aux fenêtres pour réveiller les dormeurs pour la prière et le service de Dieu."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "ג.",
+        "hebreu_brut": "ג",
         "hebreu_voyelles": "ג.",
         "francais_mot": "3.",
         "expression_contexte": "3."
@@ -1548,7 +1552,9 @@ export const FALLBACK_PARAGRAPHS = [
         "francais_mot": "de D.",
         "expression_contexte": "de D."
       }
-    ]
+    ],
+    "id": "p3",
+    "numero": "3"
   },
   {
     "seif": "4",
@@ -1556,14 +1562,14 @@ export const FALLBACK_PARAGRAPHS = [
     "sujet_fr": "Lois du réveil du matin",
     "titre_seif": "La juste mesure du sommeil",
     "texte_integral": {
-      "hebreu_sans_voyelles": "ד. אל יחשב האדם על השנה שכל מה שתהיה ברבוי, יש בה תועלת לגוף, שהרי הסכימו הרופאים המבהקים שלא ישן אדם פחות משש שעות, ולא יותר משמונה שעות. ויותר מזה מזיק לבריאות. ואמרו בגמרא: שנה לצדיקים רע להם ורע לעולם. שהתורה שהן עוסקים בה מגנה על הדור, וכשהן מתבטלין פורענות באה לעולם. ועוד אמרו בגמרא תלמידי חכמים העוסקים בתורה בלילה, מעלה עליהן הכתוב כאילו עוסקים בעבודת הקרבנות. ועוד אמרו בירושלמי היגע בתלמודו בצנעא , לא במהרה הוא שוכח. והרמב''ם כתב: אף שמצוה ללמוד ביום ובלילה, אין אדם לומד רוב חכמתו אלא בלילה. לפיכך מי שרצה לזכות בכתר התורה, יזהר בכל לילותיו, ולא יאבד אפילו אחד מהם בשינה ואכילה ושיחה, אלא בתורה ודברי חכמה.",
+      "hebreu_sans_voyelles": "ד אל יחשוב האדם על השינה שכל מה שתהיה בריבוי, יש בה תועלת לגוף, שהרי הסכימו הרופאים המובהקים שלא ישן אדם פחות משש שעות, ולא יותר משמונה שעות. ויותר מזה מזיק לבריאות. ואמרו בגמרא: שינה לצדיקים רע להם ורע לעולם. שהתורה שהן עוסקים בה מגינה על הדור, וכשהן מתבטלין פורענות באה לעולם. ועוד אמרו בגמרא תלמידי חכמים העוסקים בתורה בלילה, מעלה עליהן הכתוב כאילו עוסקים בעבודת הקרבנות. ועוד אמרו בירושלמי היגע בתלמודו בצינעא [בלילה], לא במהרה הוא שוכח. והרמב\"ם כתב: אף שמצוה ללמוד ביום ובלילה, אין אדם לומד רוב חכמתו אלא בלילה. לפיכך מי שרצה לזכות בכתר התורה, יזהר בכל לילותיו, ולא יאבד אפילו אחד מהם בשינה ואכילה ושיחה, אלא בתורה ודברי חכמה. [ילקו\"י מהדורת תשס\"ד, הל' השכמת הבוקר עמוד סד. ושם מאמרי חז\"ל בשבח לימוד התורה בלילה].",
       "hebreu_avec_voyelles": "ד. אַל יַחְשֹׁב הָאָדָם עַל הַשֵּׁנָה שֶׁכָּל מַה שֶׁתִּהְיֶה בְּרִבּוּי, יֵשׁ בָּהּ תּוֹעֶלֶת לַגּוּף, שֶׁהֲרֵי הִסְכִּימוּ הָרוֹפְאִים הַמֻּבְהָקִים שֶׁלֹּא יָשַׁן אָדָם פָּחוֹת מִשֵּׁשׁ שָׁעוֹת, וְלֹא יוֹתֵר מִשְּׁמוֹנָה שָׁעוֹת. וְיוֹתֵר מִזֶּה מַזִּיק לִבְרִיאוּת. וְאָמְרוּ בַּגְּמָרָא: שֵׁנָה לַצַּדִּיקִים רַע לָהֶם וְרַע לָעוֹלָם. שֶׁהַתּוֹרָה שֶׁהֵן עוֹסְקִים בָּהּ מְגִנָּה עַל הַדּוֹר, וּכְשֶׁהֵן מִתְבַּטְּלִין פּוּרְעָנוּת בָּאָה לָעוֹלָם. וְעוֹד אָמְרוּ בַּגְּמָרָא תַּלְמִידֵי חֲכָמִים הָעוֹסְקִים בְּתוֹרָה בַּלַּיְלָה, מַעֲלֶה עֲלֵיהֶן הַכָּתוּב כְּאִילּוּ עוֹסְקִים בַּעֲבוֹדַת הַקָּרְבָּנוֹת. וְעוֹד אָמְרוּ בִּירוּשַׁלְמִי הַיָּגֵעַ בְּתַלְמוּדוֹ בְּצִנְעָא , לֹא בִּמְהֵרָה הוּא שׁוֹכֵחַ. וְהָרַמְבַּ''ם כָּתַב: אַף שֶׁמִּצְוָה לִלְמוֹד בַּיּוֹם וּבַלַּיְלָה, אֵין אָדָם לוֹמֵד רוֹב חָכְמָתוֹ אֶלָּא בַּלַּיְלָה. לְפִיכָךְ מִי שֶׁרָצָה לִזְכּוֹת בְּכֶתֶר הַתּוֹרָה, יִזָּהֵר בְּכָל לֵילוֹתָיו, וְלֹא יְאַבֵּד אֲפִילּוּ אֶחָד מֵהֶם בְּשֵׁינָה וַאֲכִילָה וְשִׂיחָה, אֶלָּא בַּתּוֹרָה וְדִבְרֵי חָכְמָה.",
       "francais": "4. L'homme ne doit pas penser que plus il dormira, plus cela sera bénéfique pour son corps. En effet, les médecins experts s'accordent à dire qu'un homme ne doit pas dormir moins de six heures, ni plus de huit heures. Dormir plus que cela nuit à la santé. Nos Sages ont dit dans la Guemara : « Le sommeil des justes est mauvais pour eux et mauvais pour le monde. » Car la Torah qu'ils étudient protège la génération, et lorsqu'ils s'interrompent de l'étudier, le malheur vient au monde. La Guemara dit aussi que le texte considère les érudits qui étudient la Torah la nuit comme s'ils accomplissaient le service des sacrifices. Le Talmud de Jérusalem ajoute que celui qui peine dans son étude en privé ne l'oublie pas de sitôt. Maïmonide a écrit : bien que ce soit une mitsva d'étudier le jour et la nuit, un homme n'acquiert la majeure partie de sa sagesse que la nuit. Par conséquent, celui qui veut mériter la couronne de la Torah veillera sur toutes ses nuits et n'en perdra aucune dans le sommeil, la nourriture et les conversations futiles, mais les consacrera à la Torah et aux paroles de sagesse."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "ד.",
+        "hebreu_brut": "ד",
         "hebreu_voyelles": "ד.",
         "francais_mot": "4.",
         "expression_contexte": "4."
@@ -1577,7 +1583,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 3,
-        "hebreu_brut": "יחשב",
+        "hebreu_brut": "יחשוב",
         "hebreu_voyelles": "יַחְשֹׁב",
         "francais_mot": "penser",
         "expression_contexte": "penser"
@@ -1598,7 +1604,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 6,
-        "hebreu_brut": "השנה",
+        "hebreu_brut": "השינה",
         "hebreu_voyelles": "הַשֵּׁנָה",
         "francais_mot": "du sommeil",
         "expression_contexte": "du sommeil"
@@ -1626,7 +1632,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 10,
-        "hebreu_brut": "ברבוי,",
+        "hebreu_brut": "בריבוי,",
         "hebreu_voyelles": "בְּרִבּוּי,",
         "francais_mot": "en abondance,",
         "expression_contexte": "en abondance,"
@@ -1682,7 +1688,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 18,
-        "hebreu_brut": "המבהקים",
+        "hebreu_brut": "המובהקים",
         "hebreu_voyelles": "הַמֻּבְהָקִים",
         "francais_mot": "experts",
         "expression_contexte": "experts"
@@ -1801,7 +1807,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 35,
-        "hebreu_brut": "שנה",
+        "hebreu_brut": "שינה",
         "hebreu_voyelles": "שֵׁנָה",
         "francais_mot": "Le sommeil",
         "expression_contexte": "Le sommeil"
@@ -1871,7 +1877,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 45,
-        "hebreu_brut": "מגנה",
+        "hebreu_brut": "מגינה",
         "hebreu_voyelles": "מְגִנָּה",
         "francais_mot": "protège",
         "expression_contexte": "protège"
@@ -2067,14 +2073,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 73,
-        "hebreu_brut": "בצנעא",
+        "hebreu_brut": "בצינעא",
         "hebreu_voyelles": "בְּצִנְעָא",
         "francais_mot": "en privé",
         "expression_contexte": "en privé"
       },
       {
         "id": 74,
-        "hebreu_brut": ",",
+        "hebreu_brut": "[בלילה],",
         "hebreu_voyelles": ",",
         "francais_mot": "(virgule)",
         "expression_contexte": "(virgule)"
@@ -2109,7 +2115,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 79,
-        "hebreu_brut": "והרמב''ם",
+        "hebreu_brut": "והרמב\"ם",
         "hebreu_voyelles": "וְהָרַמְבַּ''ם",
         "francais_mot": "Et Maïmonide",
         "expression_contexte": "Et Maïmonide"
@@ -2352,7 +2358,9 @@ export const FALLBACK_PARAGRAPHS = [
         "francais_mot": "de sagesse.",
         "expression_contexte": "de sagesse."
       }
-    ]
+    ],
+    "id": "p4",
+    "numero": "4"
   },
   {
     "seif": "5",
@@ -2360,14 +2368,14 @@ export const FALLBACK_PARAGRAPHS = [
     "sujet_fr": "Lois du réveil du matin",
     "titre_seif": "Le sommeil pendant la journée",
     "texte_integral": {
-      "hebreu_sans_voyelles": "ה. ראוי לו לאדם להמנע משנה ביום, משום בטול תורה. אולם אם על ידי שישן מעט ביום יוכל ללמוד בלילה עד שעה מאוחרת יותר, או שיוכל ללמוד יותר ברכוז ובעיון, מותר לישון ביום. אך לא ירבה בשינה. וכן בשבת מותר לישון ביום.",
+      "hebreu_sans_voyelles": "ה ראוי לו לאדם להמנע משינה ביום, משום ביטול תורה. אולם אם על ידי שישן מעט ביום יוכל ללמוד בלילה עד שעה מאוחרת יותר, או שיוכל ללמוד יותר בריכוז ובעיון, מותר לישון ביום. אך לא ירבה בשינה. [ואמנם על פי הקבלה יש להמנע מלישון ביום]. וכן בשבת מותר לישון ביום. [ילקו\"י על הלכות השכמת הבוקר, מהדורת תשס\"ד, עמוד עב].",
       "hebreu_avec_voyelles": "ה. רָאוּי לוֹ לְאָדָם לְהִמָּנַע מִשֵּׁנָה בַּיּוֹם, מִשּׁוּם בִּטּוּל תּוֹרָה. אוּלָם אִם עַל יְדֵי שֶׁיָּשֵׁן מְעַט בַּיּוֹם יוּכַל לִלְמוֹד בַּלַּיְלָה עַד שָׁעָה מְאוּחֶרֶת יוֹתֵר, אוֹ שֶׁיּוּכַל לִלְמוֹד יוֹתֵר בְּרִכּוּז וּבְעִיּוּן, מוֹתָר לִישׁוֹן בַּיּוֹם. אַךְ לֹא יַרְבֶּה בְּשֵׁינָה. וְכֵן בְּשַׁבָּת מוֹתָר לִישׁוֹן בַּיּוֹם.",
       "francais": "5. Il convient à l'homme de s'abstenir de dormir la journée afin de ne pas perdre de temps d'étude de la Torah. Cependant, si le fait de dormir un peu la journée lui permet d'étudier la nuit jusqu'à une heure plus tardive, ou s'il pourra étudier avec plus de concentration et d'approfondissement, il lui est alors permis de dormir de jour. Mais il ne devra pas dormir excessivement. De même, pendant le Chabbat, il est permis de dormir la journée."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "ה.",
+        "hebreu_brut": "ה",
         "hebreu_voyelles": "ה.",
         "francais_mot": "5.",
         "expression_contexte": "5."
@@ -2402,7 +2410,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 6,
-        "hebreu_brut": "משנה",
+        "hebreu_brut": "משינה",
         "hebreu_voyelles": "מִשֵּׁנָה",
         "francais_mot": "du sommeil",
         "expression_contexte": "du sommeil"
@@ -2423,7 +2431,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 9,
-        "hebreu_brut": "בטול",
+        "hebreu_brut": "ביטול",
         "hebreu_voyelles": "בִּטּוּל",
         "francais_mot": "perte",
         "expression_contexte": "perte"
@@ -2563,7 +2571,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 29,
-        "hebreu_brut": "ברכוז",
+        "hebreu_brut": "בריכוז",
         "hebreu_voyelles": "בְּרִכּוּז",
         "francais_mot": "avec concentration",
         "expression_contexte": "avec concentration"
@@ -2659,22 +2667,23 @@ export const FALLBACK_PARAGRAPHS = [
         "francais_mot": "le jour.",
         "expression_contexte": "le jour."
       }
-    ]
+    ],
+    "id": "p5",
+    "numero": "5"
   },
   {
+    "id": "p6",
     "seif": "6",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
-    "titre_seif": "L'horaire idéal pour dormir et étudier",
+    "numero": "6",
     "texte_integral": {
-      "hebreu_sans_voyelles": "ו. יש אומרים שראוי לו לאדם לישן בחצי הראשון של הלילה, ויעסק בתורה בחצי השני של הלילה, ויש בזה תועלת לאדם הן מצד בריאות גופו, והן מצד הרוחניות בתקון הנפש, אולם בתלמוד שלנו ובדברי הרמב\"ם מבאר, שהשנה בסוף הלילה, בזמן עמוה\"ש, מועילה לבריאות הגוף, ולכן אם רצה ללמד בתחלת הלילה, ולישן בחצי השני של הלילה, יכול לעשות כן. ואם אפשר טוב שילמד סמוך לשקיעת החמה עד אחר צאת הכוכבים, ובבקר סמוך לעלות השחר עד אחר עלות השחר, כדי לחבר היום ללילה בלמוד התורה, ולקים \"והגית בו יומם ולילה\". ומכל מקום רבים אינם נוהגים כן, ואינם מחברים יום ללילה כנז', שסמכו על הגמרא שלנו החולקת בזה על הירושלמי. ובלבד שיעסק בתורה ביום ובלילה. [ילקו\"י על הל' השכמת הבקר, מהדורת תשס\"ד, עמוד עה].",
+      "hebreu_sans_voyelles": "ו יש אומרים שראוי לו לאדם לישון בחצי הראשון של הלילה, ויעסוק בתורה בחצי השני של הלילה, ויש בזה תועלת לאדם הן מצד בריאות גופו, והן מצד הרוחניות בתיקון הנפש, אולם בתלמוד שלנו ובדברי הרמב\"ם מבואר, שהשינה בסוף הלילה, בזמן עמוה\"ש, מועילה לבריאות הגוף, ולכן אם רצה ללמוד בתחלת הלילה, ולישון בחצי השני של הלילה, יכול לעשות כן. ואם אפשר טוב שילמד סמוך לשקיעת החמה עד אחר צאת הכוכבים, ובבוקר סמוך לעלות השחר עד אחר עלות השחר, כדי לחבר היום ללילה בלימוד התורה, ולקיים \"והגית בו יומם ולילה\". ומכל מקום רבים אינם נוהגים כן, ואינם מחברים יום ללילה כנז', שסמכו על הגמרא שלנו החולקת בזה על הירושלמי. ובלבד שיעסוק בתורה ביום ובלילה. [ילקו\"י על הל' השכמת הבוקר, מהדורת תשס\"ד, עמוד עה].",
       "hebreu_avec_voyelles": "ו. יֵשׁ אוֹמְרִים שֶׁרָאוּי לוֹ לָאָדָם לִישֹׁן בַּחֲצִי הָרִאשׁוֹן שֶׁל הַלַּיְלָה, וְיַעֲסֹק בַּתּוֹרָה בַּחֲצִי הַשֵּׁנִי שֶׁל הַלַּיְלָה, וְיֵשׁ בָּזֶה תּוֹעֶלֶת לָאָדָם הֵן מִצַּד בְּרִיאוּת גּוּפוֹ, וְהֵן מִצַּד הָרוּחָנִיּוּת בְּתִקּוּן הַנֶּפֶשׁ, אוּלָם בַּתַּלְמוּד שֶׁלָּנוּ וּבְדִבְרֵי הָרַמְבַּ\"ם מְבֹאָר, שֶׁהַשֵּׁנָה בְּסוֹף הַלַּיְלָה, בִּזְמַן עמוה\"ש, מוֹעִילָה לִבְרִיאוּת הַגּוּף, וְלָכֵן אִם רָצָה לִלְמֹד בִּתְחִלַּת הַלַּיְלָה, וְלִישֹׁן בַּחֲצִי הַשֵּׁנִי שֶׁל הַלַּיְלָה, יָכוֹל לַעֲשׂוֹת כֵּן. וְאִם אֶפְשָׁר טוֹב שֶׁיִּלְמַד סָמוּךְ לִשְׁקִיעַת הַחַמָּה עַד אַחַר צֵאת הַכּוֹכָבִים, וּבַבֹּקֶר סָמוּךְ לַעֲלוֹת הַשַּׁחַר עַד אַחַר עֲלוֹת הַשַּׁחַר, כְּדֵי לְחַבֵּר הַיּוֹם לַלַּיְלָה בְּלִמּוּד הַתּוֹרָה, וּלְקַיֵּם \"וְהָגִיתָ בּוֹ יוֹמָם וָלַיְלָה\". וּמִכׇּל מָקוֹם רַבִּים אֵינָם נוֹהֲגִים כֵּן, וְאֵינָם מְחַבְּרִים יוֹם לַלַּיְלָה כנז', שֶׁסָּמְכוּ עַל הַגְּמָרָא שֶׁלָּנוּ הַחוֹלֶקֶת בָּזֶה עַל הַיְּרוּשַׁלְמִי. וּבִלְבַד שֶׁיַּעֲסֹק בַּתּוֹרָה בַּיּוֹם וּבַלַּיְלָה. [ילקו\"י עַל הֵל' הַשְׁכָּמַת הַבֹּקֶר, מַהֲדוּרַת תשס\"ד, עַמּוּד עה].",
       "francais": "6. Certains disent qu'il convient à l'homme de dormir pendant la première moitié de la nuit, et d'étudier la Torah pendant la seconde moitié. Cela est bénéfique tant pour la santé du corps que pour la spiritualité et la réparation de l'âme. Cependant, dans notre Talmud et selon le Rambam, il est expliqué que le sommeil de fin de nuit, à l'approche de l'aube, est celui qui est bénéfique pour le corps. C'est pourquoi, s'il préfère étudier en début de nuit et dormir en seconde moitié, il y est autorisé. Si possible, il est bon d'étudier du coucher du soleil jusqu'à la sortie des étoiles, puis le matin avant et après l'aube, afin de joindre le jour et la nuit par l'étude de la Torah. Beaucoup ne le font toutefois pas, s'appuyant sur notre Guemara. L'essentiel est d'étudier de jour comme de nuit."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "ו.",
+        "hebreu_brut": "ו",
         "hebreu_voyelles": "ו.",
         "francais_mot": "6.",
         "expression_contexte": "6."
@@ -2716,7 +2725,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 7,
-        "hebreu_brut": "לישן",
+        "hebreu_brut": "לישון",
         "hebreu_voyelles": "לִישֹׁן",
         "francais_mot": "de dormir",
         "expression_contexte": "à l'homme de dormir dans la moitié"
@@ -2751,7 +2760,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 12,
-        "hebreu_brut": "ויעסק",
+        "hebreu_brut": "ויעסוק",
         "hebreu_voyelles": "וְיַעֲסֹק",
         "francais_mot": "et qu'il étudie",
         "expression_contexte": "la nuit, et qu'il étudie la Torah"
@@ -2870,7 +2879,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 29,
-        "hebreu_brut": "בתקון",
+        "hebreu_brut": "בתיקון",
         "hebreu_voyelles": "בְּתִקּוּן",
         "francais_mot": "pour la réparation",
         "expression_contexte": "de la spiritualité pour la réparation de l'âme,"
@@ -2919,14 +2928,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 36,
-        "hebreu_brut": "מבאר,",
+        "hebreu_brut": "מבואר,",
         "hebreu_voyelles": "מְבֹאָר,",
         "francais_mot": "il est expliqué,",
         "expression_contexte": "du Rambam il est expliqué, que le sommeil"
       },
       {
         "id": 37,
-        "hebreu_brut": "שהשנה",
+        "hebreu_brut": "שהשינה",
         "hebreu_voyelles": "שֶׁהַשֵּׁנָה",
         "francais_mot": "que le sommeil",
         "expression_contexte": "il est expliqué, que le sommeil à la fin"
@@ -3003,7 +3012,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 48,
-        "hebreu_brut": "ללמד",
+        "hebreu_brut": "ללמוד",
         "hebreu_voyelles": "לִלְמֹד",
         "francais_mot": "étudier",
         "expression_contexte": "il a voulu étudier au début"
@@ -3024,7 +3033,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 51,
-        "hebreu_brut": "ולישן",
+        "hebreu_brut": "ולישון",
         "hebreu_voyelles": "וְלִישֹׁן",
         "francais_mot": "et dormir",
         "expression_contexte": "de la nuit, et dormir dans la moitié"
@@ -3157,7 +3166,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 70,
-        "hebreu_brut": "ובבקר",
+        "hebreu_brut": "ובבוקר",
         "hebreu_voyelles": "וּבַבֹּקֶר",
         "francais_mot": "et le matin",
         "expression_contexte": "des étoiles, et le matin près"
@@ -3241,7 +3250,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 82,
-        "hebreu_brut": "בלמוד",
+        "hebreu_brut": "בלימוד",
         "hebreu_voyelles": "בְּלִמּוּד",
         "francais_mot": "par l'étude",
         "expression_contexte": "à la nuit par l'étude de la Torah,"
@@ -3255,7 +3264,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 84,
-        "hebreu_brut": "ולקים",
+        "hebreu_brut": "ולקיים",
         "hebreu_voyelles": "וּלְקַיֵּם",
         "francais_mot": "et d'accomplir",
         "expression_contexte": "de la Torah, et d'accomplir \"Tu la méditeras"
@@ -3430,7 +3439,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 109,
-        "hebreu_brut": "שיעסק",
+        "hebreu_brut": "שיעסוק",
         "hebreu_voyelles": "שֶׁיַּעֲסֹק",
         "francais_mot": "qu'il étudie",
         "expression_contexte": "Pourvu qu'il étudie la Torah"
@@ -3486,7 +3495,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 117,
-        "hebreu_brut": "הבקר,",
+        "hebreu_brut": "הבוקר,",
         "hebreu_voyelles": "הַבֹּקֶר,",
         "francais_mot": "matinal,",
         "expression_contexte": "le réveil matinal, édition"
@@ -3519,22 +3528,24 @@ export const FALLBACK_PARAGRAPHS = [
         "francais_mot": "75].",
         "expression_contexte": "page 75]."
       }
-    ]
+    ],
+    "titre_seif": "L'horaire idéal pour dormir et étudier",
+    "sujet": "הלכות השכמת הבוקר",
+    "sujet_fr": "Lois du réveil du matin"
   },
   {
+    "id": "p7",
     "seif": "7",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
-    "titre_seif": "Étudier tard dans la nuit",
+    "numero": "7",
     "texte_integral": {
-      "hebreu_sans_voyelles": "ז. הלומד תורה בלילה עד שעה מאוחרת, ועל ידי כך קים ספק אם יוכל לקום להתפלל קדם שיעבר זמן קריאת שמע ותפלה, יש לו להפסיק מלמודו, ויסדר זמן למודו באפן שלא יאחר זמן קריאת שמע ותפלה. אבל אם רוצה להתאחר מלישן ולעסק בלמוד התורה, ועקב כך יבטל רק תפלה בהנץ החמה, רשאי לנהג כן, כל שהדבר גורם לו לחזוק ההתמדה בלמוד התורה. ובלבד שלא יתאחר מזמן קריאת שמע ותפלה. ואם על ידי שילמד עד שעת לילה מאוחרת יצטרך לקום מאוחר, באפן שיבטל זמן קריאת שמע לפי זמן המגן אברהם, ויצטרך לסמך על זמן קריאת שמע של הגר\"א, המיקל בזה לצרך למוד תורה יש לו על מה לסמך. [ואין לחוש בזה לחלול ה']. ואמנם מי שאינו טרוד בלמוד התורה, מצוה מן המובחר להשתדל מאד להתפלל בהנץ החמה בכל יום, שיש לזה חשיבות גדולה. [ילקו\"י על הלכות השכמת הבקר, מהדורת תשס\"ד, עמ' עז].",
+      "hebreu_sans_voyelles": "ז הלומד תורה בלילה עד שעה מאוחרת, ועל ידי כך קיים ספק אם יוכל לקום להתפלל קודם שיעבור זמן קריאת שמע ותפלה, יש לו להפסיק מלימודו, ויסדר זמן לימודו באופן שלא יאחר זמן קריאת שמע ותפלה. אבל אם רוצה להתאחר מלישון ולעסוק בלימוד התורה, ועקב כך יבטל רק תפלה בהנץ החמה, רשאי לנהוג כן, כל שהדבר גורם לו לחיזוק ההתמדה בלימוד התורה. ובלבד שלא יתאחר מזמן קריאת שמע ותפלה. ואם על ידי שילמד עד שעת לילה מאוחרת יצטרך לקום מאוחר, באופן שיבטל זמן קריאת שמע לפי זמן המגן אברהם, ויצטרך לסמוך על זמן קריאת שמע של הגר\"א, המיקל בזה לצורך לימוד תורה יש לו על מה לסמוך. [ואין לחוש בזה לחילול ה']. ואמנם מי שאינו טרוד בלימוד התורה, מצוה מן המובחר להשתדל מאד להתפלל בהנץ החמה בכל יום, שיש לזה חשיבות גדולה. [ילקו\"י על הלכות השכמת הבוקר, מהדורת תשס\"ד, עמ' עז].",
       "hebreu_avec_voyelles": "ז. הַלּוֹמֵד תּוֹרָה בַּלַּיְלָה עַד שָׁעָה מְאוּחֶרֶת, וְעַל יְדֵי כָּךְ קַיָּם סָפֵק אִם יוּכַל לָקוּם לְהִתְפַּלֵּל קֹדֶם שֶׁיַּעֲבֹר זְמַן קְרִיאַת שְׁמַע וּתְפִלָּה, יֵשׁ לוֹ לְהַפְסִיק מִלִּמּוּדוֹ, וִיסַדֵּר זְמַן לִמּוּדוֹ בְּאֹפֶן שֶׁלֹּא יְאַחֵר זְמַן קְרִיאַת שְׁמַע וּתְפִלָּה. אֲבָל אִם רוֹצֶה לְהִתְאַחֵר מִלִּישֹׁן וְלַעֲסֹק בְּלִמּוּד הַתּוֹרָה, וְעֵקֶב כָּךְ יְבַטֵּל רַק תְּפִלָּה בְּהָנֵץ הַחַמָּה, רַשַּׁאי לִנְהֹג כֵּן, כׇּל שֶׁהַדָּבָר גּוֹרֵם לוֹ לְחִזּוּק הַהַתְמָדָה בְּלִמּוּד הַתּוֹרָה. וּבִלְבַד שֶׁלֹּא יִתְאַחֵר מִזְּמַן קְרִיאַת שְׁמַע וּתְפִלָּה. וְאִם עַל יְדֵי שֶׁיִּלְמַד עַד שְׁעַת לַיְלָה מְאוּחֶרֶת יִצְטָרֵךְ לָקוּם מְאוּחָר, בְּאֹפֶן שֶׁיְּבַטֵּל זְמַן קְרִיאַת שְׁמַע לְפִי זְמַן הַמָּגֵן אַבְרָהָם, וְיִצְטָרֵךְ לִסְמֹךְ עַל זְמַן קְרִיאַת שְׁמַע שֶׁל הַגְּרָ\"א, הַמֵּיקֵל בָּזֶה לְצֹרֶךְ לִמּוּד תּוֹרָה יֵשׁ לוֹ עַל מַה לִסְמֹךְ. [וְאֵין לָחוּשׁ בָּזֶה לְחִלּוּל ה']. וְאׇמְנָם מִי שֶׁאֵינוֹ טָרוּד בְּלִמּוּד הַתּוֹרָה, מִצְוָה מִן הַמּוּבְחָר לְהִשְׁתַּדֵּל מְאֹד לְהִתְפַּלֵּל בְּהָנֵץ הַחַמָּה בְּכׇל יוֹם, שֶׁיֵּשׁ לָזֶה חֲשִׁיבוּת גְּדוֹלָה. [ילקו\"י עַל הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר, מַהֲדוּרַת תשס\"ד, עמ' עז].",
       "francais": "7. Celui qui étudie la Torah tard la nuit et risque de ne pas se réveiller à temps pour lire le Chema et prier, doit s'arrêter d'étudier et réorganiser son temps. Mais s'il étudie tard et manque seulement la prière au lever du soleil (Nets), il y est autorisé si cela renforce son assiduité, à condition de ne pas rater l'heure limite du Chema. S'il doit se fier à l'horaire plus tardif du Gaon de Vilna au lieu du Magen Avraham pour l'heure du Chema en raison de son étude nocturne, il a sur qui s'appuyer. Toutefois, celui qui n'est pas absorbé par l'étude se doit de faire le maximum pour prier au lever du soleil (Nets) chaque jour."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "ז.",
+        "hebreu_brut": "ז",
         "hebreu_voyelles": "ז.",
         "francais_mot": "7.",
         "expression_contexte": "7."
@@ -3604,7 +3615,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 11,
-        "hebreu_brut": "קים",
+        "hebreu_brut": "קיים",
         "hebreu_voyelles": "קַיָּם",
         "francais_mot": "il existe",
         "expression_contexte": "de cela il existe un doute"
@@ -3646,14 +3657,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 17,
-        "hebreu_brut": "קדם",
+        "hebreu_brut": "קודם",
         "hebreu_voyelles": "קֹדֶם",
         "francais_mot": "avant",
         "expression_contexte": "pour prier avant que ne passe"
       },
       {
         "id": 18,
-        "hebreu_brut": "שיעבר",
+        "hebreu_brut": "שיעבור",
         "hebreu_voyelles": "שֶׁיַּעֲבֹר",
         "francais_mot": "que ne passe",
         "expression_contexte": "avant que ne passe l'heure"
@@ -3709,7 +3720,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 26,
-        "hebreu_brut": "מלמודו,",
+        "hebreu_brut": "מלימודו,",
         "hebreu_voyelles": "מִלִּמּוּדוֹ,",
         "francais_mot": "son étude,",
         "expression_contexte": "d'interrompre son étude, et qu'il organise"
@@ -3730,14 +3741,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 29,
-        "hebreu_brut": "למודו",
+        "hebreu_brut": "לימודו",
         "hebreu_voyelles": "לִמּוּדוֹ",
         "francais_mot": "de son étude",
         "expression_contexte": "le temps de son étude de façon"
       },
       {
         "id": 30,
-        "hebreu_brut": "באפן",
+        "hebreu_brut": "באופן",
         "hebreu_voyelles": "בְּאֹפֶן",
         "francais_mot": "de façon",
         "expression_contexte": "de son étude de façon à ce qu'il ne"
@@ -3814,21 +3825,21 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 41,
-        "hebreu_brut": "מלישן",
+        "hebreu_brut": "מלישון",
         "hebreu_voyelles": "מִלִּישֹׁן",
         "francais_mot": "de dormir",
         "expression_contexte": "retarder de dormir et s'occuper"
       },
       {
         "id": 42,
-        "hebreu_brut": "ולעסק",
+        "hebreu_brut": "ולעסוק",
         "hebreu_voyelles": "וְלַעֲסֹק",
         "francais_mot": "et s'occuper",
         "expression_contexte": "de dormir et s'occuper par l'étude"
       },
       {
         "id": 43,
-        "hebreu_brut": "בלמוד",
+        "hebreu_brut": "בלימוד",
         "hebreu_voyelles": "בְּלִמּוּד",
         "francais_mot": "par l'étude",
         "expression_contexte": "et s'occuper par l'étude de la Torah,"
@@ -3898,7 +3909,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 53,
-        "hebreu_brut": "לנהג",
+        "hebreu_brut": "לנהוג",
         "hebreu_voyelles": "לִנְהֹג",
         "francais_mot": "à se comporter",
         "expression_contexte": "il est autorisé à se comporter ainsi,"
@@ -3940,7 +3951,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 59,
-        "hebreu_brut": "לחזוק",
+        "hebreu_brut": "לחיזוק",
         "hebreu_voyelles": "לְחִזּוּק",
         "francais_mot": "un renforcement",
         "expression_contexte": "pour lui un renforcement de l'assiduité"
@@ -3954,7 +3965,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 61,
-        "hebreu_brut": "בלמוד",
+        "hebreu_brut": "בלימוד",
         "hebreu_voyelles": "בְּלִמּוּד",
         "francais_mot": "par l'étude",
         "expression_contexte": "de l'assiduité par l'étude de la Torah."
@@ -4094,7 +4105,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 81,
-        "hebreu_brut": "באפן",
+        "hebreu_brut": "באופן",
         "hebreu_voyelles": "בְּאֹפֶן",
         "francais_mot": "de façon",
         "expression_contexte": "tard, de façon qu'il annulera"
@@ -4164,7 +4175,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 91,
-        "hebreu_brut": "לסמך",
+        "hebreu_brut": "לסמוך",
         "hebreu_voyelles": "לִסְמֹךְ",
         "francais_mot": "s'appuyer",
         "expression_contexte": "et il devra s'appuyer sur"
@@ -4227,14 +4238,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 100,
-        "hebreu_brut": "לצרך",
+        "hebreu_brut": "לצורך",
         "hebreu_voyelles": "לְצֹרֶךְ",
         "francais_mot": "pour les besoins",
         "expression_contexte": "sur cela pour les besoins de l'étude"
       },
       {
         "id": 101,
-        "hebreu_brut": "למוד",
+        "hebreu_brut": "לימוד",
         "hebreu_voyelles": "לִמּוּד",
         "francais_mot": "de l'étude",
         "expression_contexte": "pour les besoins de l'étude de la Torah"
@@ -4276,7 +4287,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 107,
-        "hebreu_brut": "לסמך.",
+        "hebreu_brut": "לסמוך.",
         "hebreu_voyelles": "לִסְמֹךְ.",
         "francais_mot": "s'appuyer.",
         "expression_contexte": "quoi s'appuyer. [Et il n'y a pas"
@@ -4304,7 +4315,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 111,
-        "hebreu_brut": "לחלול",
+        "hebreu_brut": "לחילול",
         "hebreu_voyelles": "לְחִלּוּל",
         "francais_mot": "à une profanation",
         "expression_contexte": "par cela à une profanation de D.]."
@@ -4346,7 +4357,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 117,
-        "hebreu_brut": "בלמוד",
+        "hebreu_brut": "בלימוד",
         "hebreu_voyelles": "בְּלִמּוּד",
         "francais_mot": "par l'étude",
         "expression_contexte": "préoccupé par l'étude de la Torah,"
@@ -4486,7 +4497,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 137,
-        "hebreu_brut": "הבקר,",
+        "hebreu_brut": "הבוקר,",
         "hebreu_voyelles": "הַבֹּקֶר,",
         "francais_mot": "matinal,",
         "expression_contexte": "le réveil matinal, édition"
@@ -4519,22 +4530,24 @@ export const FALLBACK_PARAGRAPHS = [
         "francais_mot": "77].",
         "expression_contexte": "page 77]."
       }
-    ]
+    ],
+    "titre_seif": "Étudier tard dans la nuit",
+    "sujet": "הלכות השכמת הבוקר",
+    "sujet_fr": "Lois du réveil du matin"
   },
   {
+    "id": "p8",
     "seif": "8",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
-    "titre_seif": "Se lever avec vivacité et éviter la paresse",
+    "numero": "8",
     "texte_integral": {
-      "hebreu_sans_voyelles": "ח. כאשר יתעורר משנתו ימתין מעט, ויקום בזריזות לעבודת בוראו יתברך ויתעלה, כי לכך נברא האדם. אך לא יעמוד בפתאומיות מיד אחר השנה, כי הדבר מזיק לבריאות. ואף אם הוא קם מיד לעבודת הבורא ולתפלה, או לשאר דבר מצוה, גם בזה ישהה מעט ואחר כך יקום. ואמנם הסכנה היא דוקא בעומד על רגליו מיד, אבל בקם ממטתו להתלבש וכדו', ואינו עומד על רגליו אלא נשאר יושב על מטתו, אין בכך סכנה. ועל כל פנים אל ישכב על מטתו ויפנה לבו לבטלה, וכבר הזהיר שלמה המלך ע\"ה: עד מתי עצל תשכב, מתי תקום משנתך. וגדולי המקובלים היו נזהרים מלדבר דברי חול קדם שיתחילו הזמירות. [ילקו\"י על הלכות השכמת הבקר, מהדורת תשס\"ד, עמוד פז].",
+      "hebreu_sans_voyelles": "ח כאשר יתעורר משנתו ימתין מעט, ויקום בזריזות לעבודת בוראו יתברך ויתעלה, כי לכך נברא האדם. אך לא יעמוד בפתאומיות מיד אחר השינה, כי הדבר מזיק לבריאות. ואף אם הוא קם מיד לעבודת הבורא ולתפלה, או לשאר דבר מצוה, גם בזה ישהה מעט ואחר כך יקום. ואמנם הסכנה היא דוקא בעומד על רגליו מיד, אבל בקם ממטתו להתלבש וכדו', ואינו עומד על רגליו אלא נשאר יושב על מטתו, אין בכך סכנה. ועל כל פנים אל ישכב על מטתו ויפנה לבו לבטלה, וכבר הזהיר שלמה המלך ע\"ה: עד מתי עצל תשכב, מתי תקום משנתך. וגדולי המקובלים היו נזהרים מלדבר דברי חול קודם שיתחילו הזמירות. [ילקו\"י על הלכות השכמת הבוקר, מהדורת תשס\"ד, עמוד פז].",
       "hebreu_avec_voyelles": "ח. כַּאֲשֶׁר יִתְעוֹרֵר מִשְּׁנָתוֹ יַמְתִּין מְעַט, וְיָקוּם בִּזְרִיזוּת לַעֲבוֹדַת בּוֹרְאוֹ יִתְבָּרֵךְ וְיִתְעַלֶּה, כִּי לְכָךְ נִבְרָא הָאָדָם. אַךְ לֹא יַעֲמוֹד בְּפִתְאוֹמִיּוּת מִיָּד אַחַר הַשֵּׁנָה, כִּי הַדָּבָר מַזִּיק לִבְרִיאוּת. וְאַף אִם הוּא קָם מִיָּד לַעֲבוֹדַת הַבּוֹרֵא וְלִתְפִלָּה, אוֹ לִשְׁאָר דְּבַר מִצְוָה, גַּם בָּזֶה יִשְׁהֶה מְעַט וְאַחַר כָּךְ יָקוּם. וְאׇמְנָם הַסַּכָּנָה הִיא דַּוְקָא בְּעוֹמֵד עַל רַגְלָיו מִיָּד, אֲבָל בְּקָם מִמִּטָּתוֹ לְהִתְלַבֵּשׁ וְכַדּוּ', וְאֵינוֹ עוֹמֵד עַל רַגְלָיו אֶלָּא נִשְׁאַר יוֹשֵׁב עַל מִטָּתוֹ, אֵין בְּכָךְ סַכָּנָה. וְעַל כׇּל פָּנִים אַל יִשְׁכַּב עַל מִטָּתוֹ וְיִפְנֶה לִבּוֹ לְבַטָּלָה, וּכְבָר הִזְהִיר שְׁלֹמֹה הַמֶּלֶךְ ע\"ה: עַד מָתַי עָצֵל תִּשְׁכָּב, מָתַי תָּקוּם מִשְׁנָתְךָ. וּגְדוֹלֵי הַמְקוּבָּלִים הָיוּ נִזְהָרִים מִלְּדַבֵּר דִּבְרֵי חוֹל קֹדֶם שֶׁיַּתְחִילוּ הַזְּמִירוֹת. [ילקו\"י עַל הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר, מַהֲדוּרַת תשס\"ד, עַמּוּד פז].",
       "francais": "8. Lorsqu'il se réveille de son sommeil, il patientera un instant, puis se lèvera avec empressement pour le service de son Créateur, car c'est pour cela que l'homme a été créé. Toutefois, il ne se tiendra pas debout brusquement juste après le sommeil, car cela nuit à la santé. Même pour se lever pour la prière ou une mitsva, il doit patienter un peu avant de se lever. Le danger réside uniquement dans le fait de se lever sur ses pieds immédiatement ; s'asseoir sur son lit pour s'habiller ne comporte aucun risque. Cependant, il ne doit pas rester allongé oisivement. Les grands cabalistes veillaient à ne pas prononcer de paroles profanes avant d'avoir commencé les cantiques."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "ח.",
+        "hebreu_brut": "ח",
         "hebreu_voyelles": "ח.",
         "francais_mot": "8.",
         "expression_contexte": "8."
@@ -4688,7 +4701,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 23,
-        "hebreu_brut": "השנה,",
+        "hebreu_brut": "השינה,",
         "hebreu_voyelles": "הַשֵּׁנָה,",
         "francais_mot": "le sommeil,",
         "expression_contexte": "après le sommeil, car"
@@ -5234,7 +5247,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 101,
-        "hebreu_brut": "קדם",
+        "hebreu_brut": "קודם",
         "hebreu_voyelles": "קֹדֶם",
         "francais_mot": "avant",
         "expression_contexte": "profanes avant qu'ils ne commencent"
@@ -5283,7 +5296,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 108,
-        "hebreu_brut": "הבקר,",
+        "hebreu_brut": "הבוקר,",
         "hebreu_voyelles": "הַבֹּקֶר,",
         "francais_mot": "matinal,",
         "expression_contexte": "le réveil matinal, édition"
@@ -5316,22 +5329,24 @@ export const FALLBACK_PARAGRAPHS = [
         "francais_mot": "87].",
         "expression_contexte": "page 87]."
       }
-    ]
+    ],
+    "titre_seif": "Se lever avec vivacité et éviter la paresse",
+    "sujet": "הלכות השכמת הבוקר",
+    "sujet_fr": "Lois du réveil du matin"
   },
   {
+    "id": "p9",
     "seif": "9",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
-    "titre_seif": "Le Modé Ani dès le réveil",
+    "numero": "9",
     "texte_integral": {
-      "hebreu_sans_voyelles": "ט. מיד כשיעור משנתו יעיד על עצמו אמונתו בבורא יתברך, ויאמר: \"מודה אני לפניך וכו'\". ויפסיק בין תבת בחמלה, לרבה אמונתך. ואף שעדין לא נטל ידיו ויש עליהם רוח רעה, אפלו הכי מותר לומר מודה אני. וגם אם יש לכלוך בחדר ואי אפשר לומר שם דברי תורה, אפלו הכי יאמר נוסח מודה אני. והאשה אומרת מודה אני [הדל\"ת בקמץ]. ויש המקפידים לטל ידיהם מיד עם הקיצם משנתם, קדם שילבשו את מלבושיהם, ומעקר הדין על פי הגמרא והפוסקים מותר ללבש את המלבושים קדם הנטילה, ולילך להתפנות לצרכיו, ואחר כך יטל ידיו. והמחמיר כהזוה\"ק לטל ידיו עם הקיצו משנתו, תבוא עליו ברכה. [שו\"ת יביע אומר ח\"ה סי' א', ובתוספת בילקוט יוסף החדש, מהדורת תשס\"ד, ספר על הלכות השכמת הבקר עמוד פח, ומהדורת תשמ\"ה, עמוד ז', ושאר\"י עמו' ב].",
+      "hebreu_sans_voyelles": "ט מיד כשיעור משנתו יעיד על עצמו אמונתו בבורא יתברך, ויאמר: \"מודה אני לפניך וכו\"'. ויפסיק בין תיבת בחמלה, לרבה אמונתך. ואף שעדיין לא נטל ידיו ויש עליהם רוח רעה, אפילו הכי מותר לומר מודה אני. וגם אם יש לכלוך בחדר ואי אפשר לומר שם דברי תורה, אפילו הכי יאמר נוסח מודה אני. והאשה אומרת מודָה אני [הדל\"ת בקמץ]. ויש המקפידים ליטול ידיהם מיד עם הקיצם משינתם, קודם שילבשו את מלבושיהם, ומעיקר הדין על פי הגמרא והפוסקים מותר ללבוש את המלבושים קודם הנטילה, ולילך להתפנות לצרכיו, ואחר כך יטול ידיו. והמחמיר כהזוה\"ק ליטול ידיו עם הקיצו משינתו, תבוא עליו ברכה. [שו\"ת יביע אומר ח\"ה סי' א', ובתוספת בילקוט יוסף החדש, מהדורת תשס\"ד, ספר על הלכות השכמת הבוקר עמוד פח, ומהדורת תשמ\"ה, עמוד ז', ושאר\"י עמו' ב].",
       "hebreu_avec_voyelles": "ט. מִיָּד כְּשֶׁיֵּעוֹר מִשְּׁנָתוֹ יָעִיד עַל עַצְמוֹ אֱמוּנָתוֹ בְּבוֹרֵא יִתְבָּרֵךְ, וְיֹאמַר: \"מוֹדֶה אֲנִי לְפָנֶיךָ וְכוּ'\". וְיַפְסִיק בֵּין תֵּבַת בְּחֶמְלָה, לְרַבָּה אֱמוּנָתֶךָ. וְאַף שֶׁעֲדַיִן לֹא נָטַל יָדָיו וְיֵשׁ עֲלֵיהֶם רוּחַ רָעָה, אֲפִלּוּ הָכִי מוּתָּר לוֹמַר מוֹדֶה אֲנִי. וְגַם אִם יֵשׁ לִכְלוּךְ בַּחֶדֶר וְאִי אֶפְשָׁר לוֹמַר שָׁם דִבְרֵי תוֹרָה, אֲפִלּוּ הָכִי יֹאמַר נוּסַּח מוֹדֶה אֲנִי. וְהָאִשָּׁה אוֹמֶרֶת מוֹדָה אֲנִי [הַדָּלֶ\"ת בְּקָמַץ]. וְיֵשׁ הַמַּקְפִּידִים לִטֹּל יְדֵיהֶם מִיָּד עִם הֱקִיצָם מִשִּׁנְתָּם, קֹדֶם שֶׁיִּלְבְּשׁוּ אֶת מַלְבּוּשֵׁיהֶם, וּמֵעִקַּר הַדִּין עַל פִּי הַגְּמָרָא וְהַפּוֹסְקִים מוּתָּר לִלְבֹּשׁ אֶת הַמַּלְבּוּשִׁים קֹדֶם הַנְּטִילָה, וְלֵילֵךְ לְהִתְפַּנּוֹת לִצְרָכָיו, וְאַחַר כָּךְ יִטֹּל יָדָיו. וְהַמַּחְמִיר כהזוה\"ק לִטֹּל יָדָיו עִם הֱקִיצוֹ מִשִּׁנְתּוֹ, תָּבוֹא עָלָיו בְּרָכָה. [שׁוּ\"ת יַבִּיעַ אוֹמֵר ח\"ה סִי' א', וּבְתוֹסֶפֶת בְּיַלְקוּט יוֹסֵף הֶחָדָשׁ, מַהֲדוּרַת תשס\"ד, סֵפֶר עַל הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר עַמּוּד פח, וּמַהֲדוּרַת תשמ\"ה, עַמּוּד ז', ושאר\"י עִמּוֹ' ב].",
       "francais": "9. Dès son réveil, il témoignera de sa foi envers le Créateur et récitera le Modé Ani. Il marquera une pause entre le mot 'bechemla' (avec miséricorde) et 'rabba emounatekha' (grande est Ta fidélité). Bien qu'il n'ait pas encore fait Nétilat Yadaïm et qu'un esprit d'impureté repose sur ses mains, ou que la chambre ne soit pas propre pour étudier la Torah, il est tout de même permis de dire le Modé Ani. La femme dira \"Modah Ani\". Certains veillent à se laver les mains immédiatement avant même de s'habiller, mais selon la stricte loi, on peut s'habiller et aller aux toilettes avant de faire l'ablution. Celui qui est strict selon le Zohar sera béni."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "ט.",
+        "hebreu_brut": "ט",
         "hebreu_voyelles": "ט.",
         "francais_mot": "9.",
         "expression_contexte": "9."
@@ -5429,7 +5444,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 15,
-        "hebreu_brut": "וכו'\".",
+        "hebreu_brut": "וכו\"'.",
         "hebreu_voyelles": "וְכוּ'\".",
         "francais_mot": "etc.\".",
         "expression_contexte": "devant Toi etc.\". Et il fera une pause"
@@ -5450,7 +5465,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 18,
-        "hebreu_brut": "תבת",
+        "hebreu_brut": "תיבת",
         "hebreu_voyelles": "תֵּבַת",
         "francais_mot": "le mot",
         "expression_contexte": "entre le mot avec miséricorde,"
@@ -5485,7 +5500,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 23,
-        "hebreu_brut": "שעדין",
+        "hebreu_brut": "שעדיין",
         "hebreu_voyelles": "שֶׁעֲדַיִן",
         "francais_mot": "que jusqu'à présent",
         "expression_contexte": "Et bien que jusqu'à présent il n'a pas"
@@ -5541,7 +5556,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 31,
-        "hebreu_brut": "אפלו",
+        "hebreu_brut": "אפילו",
         "hebreu_voyelles": "אֲפִלּוּ",
         "francais_mot": "même",
         "expression_contexte": "mauvais, même ainsi"
@@ -5660,7 +5675,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 48,
-        "hebreu_brut": "אפלו",
+        "hebreu_brut": "אפילו",
         "hebreu_voyelles": "אֲפִלּוּ",
         "francais_mot": "même",
         "expression_contexte": "de Torah, même ainsi"
@@ -5716,7 +5731,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 56,
-        "hebreu_brut": "מודה",
+        "hebreu_brut": "מודָה",
         "hebreu_voyelles": "מוֹדָה",
         "francais_mot": "Je reconnais (au féminin)",
         "expression_contexte": "dit Je reconnais (au féminin) moi"
@@ -5758,7 +5773,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 62,
-        "hebreu_brut": "לטל",
+        "hebreu_brut": "ליטול",
         "hebreu_voyelles": "לִטֹּל",
         "francais_mot": "de laver",
         "expression_contexte": "qui sont méticuleux de laver leurs mains"
@@ -5793,14 +5808,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 67,
-        "hebreu_brut": "משנתם,",
+        "hebreu_brut": "משינתם,",
         "hebreu_voyelles": "מִשִּׁנְתָּם,",
         "francais_mot": "de leur sommeil,",
         "expression_contexte": "leur réveil de leur sommeil, avant"
       },
       {
         "id": 68,
-        "hebreu_brut": "קדם",
+        "hebreu_brut": "קודם",
         "hebreu_voyelles": "קֹדֶם",
         "francais_mot": "avant",
         "expression_contexte": "de leur sommeil, avant qu'ils ne portent"
@@ -5828,7 +5843,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 72,
-        "hebreu_brut": "ומעקר",
+        "hebreu_brut": "ומעיקר",
         "hebreu_voyelles": "וּמֵעִקַּר",
         "francais_mot": "et du principe",
         "expression_contexte": "leurs vêtements, et du principe de la loi"
@@ -5877,7 +5892,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 79,
-        "hebreu_brut": "ללבש",
+        "hebreu_brut": "ללבוש",
         "hebreu_voyelles": "לִלְבֹּשׁ",
         "francais_mot": "de porter",
         "expression_contexte": "il est permis de porter (particule)"
@@ -5898,7 +5913,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 82,
-        "hebreu_brut": "קדם",
+        "hebreu_brut": "קודם",
         "hebreu_voyelles": "קֹדֶם",
         "francais_mot": "avant",
         "expression_contexte": "les vêtements avant l'ablution,"
@@ -5947,7 +5962,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 89,
-        "hebreu_brut": "יטל",
+        "hebreu_brut": "יטול",
         "hebreu_voyelles": "יִטֹּל",
         "francais_mot": "il lavera",
         "expression_contexte": "ainsi il lavera ses mains."
@@ -5975,7 +5990,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 93,
-        "hebreu_brut": "לטל",
+        "hebreu_brut": "ליטול",
         "hebreu_voyelles": "לִטֹּל",
         "francais_mot": "de laver",
         "expression_contexte": "comme le Zohar Saint de laver ses mains"
@@ -6003,7 +6018,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 97,
-        "hebreu_brut": "משנתו,",
+        "hebreu_brut": "משינתו,",
         "hebreu_voyelles": "מִשִּׁנְתּוֹ,",
         "francais_mot": "de son sommeil,",
         "expression_contexte": "son réveil de son sommeil, viendra"
@@ -6143,7 +6158,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 117,
-        "hebreu_brut": "הבקר",
+        "hebreu_brut": "הבוקר",
         "hebreu_voyelles": "הַבֹּקֶר",
         "francais_mot": "matinal",
         "expression_contexte": "le réveil matinal page"
@@ -6211,29 +6226,31 @@ export const FALLBACK_PARAGRAPHS = [
         "francais_mot": "2].",
         "expression_contexte": "page 2]."
       }
-    ]
+    ],
+    "titre_seif": "Le Modé Ani dès le réveil",
+    "sujet": "הלכות השכמת הבוקר",
+    "sujet_fr": "Lois du réveil du matin"
   },
   {
+    "id": "p10",
     "seif": "10",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
-    "titre_seif": "Consacrer le début de sa journée à Dieu",
+    "numero": "10",
     "texte_integral": {
-      "hebreu_sans_voyelles": "י. עקר היום הוא הראשית וההתחלה, ולכן ראוי שיקדיש ראשית היום בעמדו בבקר לעבודת השי\"ת. וגם מחשבתו הראשונה תהיה לחשב בגדלות הבורא יתברך, ובחסדו שעשה לו במה שהחזיר לו נשמתו. וגם הליכה ראשונה שלו תהיה לעבודת השי\"ת, והדבור הראשון יהיה בדברי תורה ותפלה, ועשיה ראשונה תהיה לשם השי\"ת, ואז הכל נגרר אחר ההתחלה. [ילקו\"י על הל' השכמת הבקר, מהדורת תשס\"ד, עמוד צב].",
+      "hebreu_sans_voyelles": "י עיקר היום הוא הראשית וההתחלה, ולכן ראוי שיקדיש ראשית היום בעמדו בבוקר לעבודת השי\"ת. וגם מחשבתו הראשונה תהיה לחשוב בגדלות הבורא יתברך, ובחסדו שעשה לו במה שהחזיר לו נשמתו. וגם הליכה ראשונה שלו תהיה לעבודת השי\"ת, והדיבור הראשון יהיה בדברי תורה ותפלה, ועשייה ראשונה תהיה לשם השי\"ת, ואז הכל נגרר אחר ההתחלה. [ילקו\"י על הל' השכמת הבוקר, מהדורת תשס\"ד, עמוד צב].",
       "hebreu_avec_voyelles": "י. עִקַּר הַיּוֹם הוּא הָרָאשִׁית וְהַהַתְחָלָה, וְלָכֵן רָאוּי שֶׁיַּקְדִּישׁ רֵאשִׁית הַיּוֹם בְּעׇמְדוֹ בַּבֹּקֶר לַעֲבוֹדַת השי\"ת. וְגַם מַחְשַׁבְתּוֹ הָרִאשׁוֹנָה תִּהְיֶה לַחְשֹׁב בְּגַדְלוּת הַבּוֹרֵא יִתְבָּרֵךְ, וּבְחַסְדּוֹ שֶׁעָשָׂה לוֹ בַּמֶּה שֶׁהֶחֱזִיר לוֹ נִשְׁמָתוֹ. וְגַם הֲלִיכָה רִאשׁוֹנָה שֶׁלּוֹ תִּהְיֶה לַעֲבוֹדַת השי\"ת, וְהַדִּבּוּר הָרִאשׁוֹן יִהְיֶה בְּדִבְרֵי תּוֹרָה וּתְפִלָּה, וַעֲשִׂיָּה רִאשׁוֹנָה תִּהְיֶה לְשֵׁם השי\"ת, וְאָז הַכֹּל נִגְרָר אַחַר הַהַתְחָלָה. [ילקו\"י עַל הֵל' הַשְׁכָּמַת הַבֹּקֶר, מַהֲדוּרַת תשס\"ד, עַמּוּד צב].",
       "francais": "10. L'essentiel du jour réside dans son commencement. C'est pourquoi il convient de consacrer le début de sa journée, dès le lever matin, au service de Dieu. Sa toute première pensée sera pour la grandeur du Créateur et pour la bonté qu'Il lui a témoignée en lui restituant son âme. De même, sa première marche, sa première parole et sa première action devront être orientées vers l'étude, la prière et le service divin, car tout découle du commencement."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "י.",
+        "hebreu_brut": "י",
         "hebreu_voyelles": "י.",
         "francais_mot": "10.",
         "expression_contexte": "10."
       },
       {
         "id": 2,
-        "hebreu_brut": "עקר",
+        "hebreu_brut": "עיקר",
         "hebreu_voyelles": "עִקַּר",
         "francais_mot": "L'essentiel",
         "expression_contexte": "L'essentiel du jour"
@@ -6310,7 +6327,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 13,
-        "hebreu_brut": "בבקר",
+        "hebreu_brut": "בבוקר",
         "hebreu_voyelles": "בַּבֹּקֶר",
         "francais_mot": "le matin",
         "expression_contexte": "en se levant le matin pour le service"
@@ -6359,7 +6376,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 20,
-        "hebreu_brut": "לחשב",
+        "hebreu_brut": "לחשוב",
         "hebreu_voyelles": "לַחְשֹׁב",
         "francais_mot": "de penser",
         "expression_contexte": "sera de penser à la grandeur"
@@ -6485,7 +6502,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 38,
-        "hebreu_brut": "והדבור",
+        "hebreu_brut": "והדיבור",
         "hebreu_voyelles": "וְהַדִּבּוּר",
         "francais_mot": "et la parole",
         "expression_contexte": "de D., et la parole la première"
@@ -6527,7 +6544,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 44,
-        "hebreu_brut": "ועשיה",
+        "hebreu_brut": "ועשייה",
         "hebreu_voyelles": "וַעֲשִׂיָּה",
         "francais_mot": "et l'action",
         "expression_contexte": "et de prière, et l'action la première"
@@ -6625,7 +6642,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 58,
-        "hebreu_brut": "הבקר,",
+        "hebreu_brut": "הבוקר,",
         "hebreu_voyelles": "הַבֹּקֶר,",
         "francais_mot": "matinal,",
         "expression_contexte": "le réveil matinal, édition"
@@ -6658,22 +6675,27 @@ export const FALLBACK_PARAGRAPHS = [
         "francais_mot": "92].",
         "expression_contexte": "page 92]."
       }
-    ]
+    ],
+    "titre_seif": "Consacrer le début de sa journée à Dieu",
+    "sujet": "הלכות השכמת הבוקר",
+    "sujet_fr": "Lois du réveil du matin"
   },
   {
-    "seif": "11",
+    "id": "p11",
+    "numero": "11",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "11",
     "titre_seif": "Le Modé Ani pour les enfants",
     "texte_integral": {
-      "hebreu_sans_voyelles": "י\"א. קטן היודע לדבר, טוב ונכון להרגילו לומר בקומו משנתו, \"מודה אני לפניך וכו'\". ולחנכו לטל ידיו. [ילקוט יוסף על הלכות השכמת הבקר, מהדורת תשס\"ד, עמוד צג].",
+      "hebreu_sans_voyelles": "יא קטן היודע לדבר, טוב ונכון להרגילו לומר בקומו משנתו, \"מודה אני לפניך וכו\"'. ולחנכו ליטול ידיו. [ילקוט יוסף על הלכות השכמת הבוקר, מהדורת תשס\"ד, עמוד צג].",
       "hebreu_avec_voyelles": "י\"א. קָטָן הַיּוֹדֵעַ לְדַבֵּר, טוֹב וְנָכוֹן לְהַרְגִּילוֹ לוֹמַר בְּקוּמוֹ מִשְּׁנָתוֹ, \"מוֹדֶה אֲנִי לְפָנֶיךָ וְכוּ'\". וּלְחַנְּכוֹ לִטֹּל יָדָיו. [יַלְקוּט יוֹסֵף עַל הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר, מַהֲדוּרַת תשס\"ד, עַמּוּד צג].",
       "francais": "11. Pour un enfant mineur qui sait parler, il est bon et juste de l'habituer à dire en se levant de son sommeil : « Modé Ani Lefanékha etc. ». Et de l'éduquer à se laver les mains. [Yalkout Yossef sur les lois du réveil matinal, édition 5764, page 93]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "י\"א.",
+        "hebreu_brut": "יא",
         "hebreu_voyelles": "י\"א.",
         "francais_mot": "11.",
         "expression_contexte": "11. Un mineur"
@@ -6764,7 +6786,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 14,
-        "hebreu_brut": "וכו'\".",
+        "hebreu_brut": "וכו\"'.",
         "hebreu_voyelles": "וְכוּ'\".",
         "francais_mot": "etc.\".",
         "expression_contexte": "devant Toi etc.\". Et de l'éduquer"
@@ -6778,7 +6800,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 16,
-        "hebreu_brut": "לטל",
+        "hebreu_brut": "ליטול",
         "hebreu_voyelles": "לִטֹּל",
         "francais_mot": "à laver",
         "expression_contexte": "Et de l'éduquer à laver ses mains."
@@ -6827,7 +6849,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 23,
-        "hebreu_brut": "הבקר,",
+        "hebreu_brut": "הבוקר,",
         "hebreu_voyelles": "הַבֹּקֶר,",
         "francais_mot": "matinal,",
         "expression_contexte": "le réveil matinal, édition"
@@ -6863,19 +6885,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "12",
+    "id": "p12",
+    "numero": "12",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "12",
     "titre_seif": "Garder Dieu à l'esprit en permanence",
     "texte_integral": {
-      "hebreu_sans_voyelles": "י\"ב. מה שאמר דוד המלך ע\"ה (תהלים טז, ח): \"שויתי ה' לנגדי תמיד\", זה כלל גדול בתורה ובמעלות הצדיקים, ולכן על כל אחד לשים על לבו שהמלך הגדול הקדוש ברוך הוא, אשר מלא כל הארץ כבודו, עומד עליו ורואה במעשיו, וכמו שנאמר: \"אם יסתר איש במסתרים ואני לא אראנו נאם ה'\". ומיד יגיע אליו היראה וההכנעה מפני השם יתברך, ויבוש ממנו. [ילקו\"י שם, מהדורת תשס\"ד, עמ' צד].",
+      "hebreu_sans_voyelles": "יב מה שאמר דוד המלך ע\"ה (תהלים טז, ח): \"שויתי ה' לנגדי תמיד\", זה כלל גדול בתורה ובמעלות הצדיקים, ולכן על כל אחד לשים על לבו שהמלך הגדול הקדוש ברוך הוא, אשר מלוא כל הארץ כבודו, עומד עליו ורואה מעשיו, כמו שנאמר אם יסתר איש במסתרים ואני לא אראנו נאם ה'. וכאשר יחשוב כן בלבו מיד יגיע אליו היראה וההכנעה מפני ה' יתברך, ויתבייש ממנו תמיד, ותהיה התנהגותו שונה לטובה. [ואם לא תגיע אליו היראה מיד, יעמיק הרבה בענין זה, עד שיגיע אליו היראה. וגם ישוב בתשובה שלימה על כל עוונותיו, שהם המונעים ממנו מהגיע אליו היראה, כמו שנאמר \"עונותיכם היו מבדילים וגו\"']. וגם כשהוא לבדו ידע לפני מי הוא עומד. [ילקו\"י, מהדורת תשס\"ד, הל' השכמת הבוקר, עמ' צד. שאר\"י ח\"א עמוד ג'].",
       "hebreu_avec_voyelles": "י\"ב. מַה שֶׁאָמַר דָּוִד הַמֶּלֶךְ ע\"ה (תְּהִלִּים טז, ח): \"שִׁוִּיתִי ה' לְנֶגְדִּי תָמִיד\", זֶה כְּלָל גָּדוֹל בַּתּוֹרָה וּבְמַעֲלוֹת הַצַּדִּיקִים, וְלָכֵן עַל כׇּל אֶחָד לָשִׂים עַל לִבּוֹ שֶׁהַמֶּלֶךְ הַגָּדוֹל הַקָּדוֹשׁ בָּרוּךְ הוּא, אֲשֶׁר מְלֹא כׇל הָאָרֶץ כְּבוֹדוֹ, עוֹמֵד עָלָיו וְרוֹאֶה בְּמַעֲשָׂיו, וּכְמוֹ שֶׁנֶּאֱמַר: \"אִם יִסָּתֵר אִישׁ בַּמִּסְתָּרִים וַאֲנִי לֹא אֶרְאֶנּוּ נְאֻם ה'\". וּמִיָּד יַגִּיעַ אֵלָיו הַיִּרְאָה וְהַהַכְנָעָה מִפְּנֵי הַשֵּׁם יִתְבָּרַךְ, וְיֵבוֹשׁ מִמֶּנּוּ. [ילקו\"י שָׁם, מַהֲדוּרַת תשס\"ד, עמ' צַד].",
       "francais": "12. Ce qu'a dit le Roi David, que la paix soit sur lui (Psaumes 16:8) : « J'ai placé Dieu devant moi constamment », est un grand principe dans la Torah et dans les vertus des justes. Par conséquent, chacun doit prendre à cœur que le grand Roi, le Saint béni soit-Il, dont la gloire remplit toute la terre, se tient au-dessus de lui et voit ses actions, comme il est dit : « Si un homme se cache dans des cachettes, ne le verrai-Je pas, dit l'Éternel ». Et immédiatement, la crainte et la soumission devant le Nom béni lui parviendront, et il aura honte devant Lui. [Yalkout Yossef là-bas, édition 5764, page 94]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "י\"ב.",
+        "hebreu_brut": "יב",
         "hebreu_voyelles": "י\"ב.",
         "francais_mot": "12.",
         "expression_contexte": "12. Ce"
@@ -7099,7 +7123,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 33,
-        "hebreu_brut": "מלא",
+        "hebreu_brut": "מלוא",
         "hebreu_voyelles": "מְלֹא",
         "francais_mot": "remplit",
         "expression_contexte": "que remplit toute"
@@ -7148,28 +7172,28 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 40,
-        "hebreu_brut": "במעשיו,",
+        "hebreu_brut": "מעשיו,",
         "hebreu_voyelles": "בְּמַעֲשָׂיו,",
         "francais_mot": "dans ses actions,",
         "expression_contexte": "et voit dans ses actions, et comme ce"
       },
       {
         "id": 41,
-        "hebreu_brut": "וכמו",
+        "hebreu_brut": "כמו",
         "hebreu_voyelles": "וּכְמוֹ",
         "francais_mot": "et comme ce",
         "expression_contexte": "dans ses actions, et comme ce qui est dit :"
       },
       {
         "id": 42,
-        "hebreu_brut": "שנאמר:",
+        "hebreu_brut": "שנאמר",
         "hebreu_voyelles": "שֶׁנֶּאֱמַר:",
         "francais_mot": "qui est dit :",
         "expression_contexte": "et comme ce qui est dit : \"Si"
       },
       {
         "id": 43,
-        "hebreu_brut": "\"אם",
+        "hebreu_brut": "אם",
         "hebreu_voyelles": "\"אִם",
         "francais_mot": "\"Si",
         "expression_contexte": "qui est dit : \"Si se cachera"
@@ -7225,14 +7249,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 51,
-        "hebreu_brut": "ה'\".",
+        "hebreu_brut": "ה'.",
         "hebreu_voyelles": "ה'\".",
         "francais_mot": "Et immédiatement",
         "expression_contexte": "l'Éternel\". Et immédiatement arrivera"
       },
       {
         "id": 52,
-        "hebreu_brut": "ומיד",
+        "hebreu_brut": "וכאשר",
         "hebreu_voyelles": "וּמִיָּד",
         "francais_mot": "arrivera",
         "expression_contexte": "Et immédiatement arrivera à lui"
@@ -7274,7 +7298,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 58,
-        "hebreu_brut": "השם",
+        "hebreu_brut": "ה'",
         "hebreu_voyelles": "הַשֵּׁם",
         "francais_mot": "le Nom",
         "expression_contexte": "la face (de) le Nom qu'Il soit béni,"
@@ -7288,21 +7312,21 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 60,
-        "hebreu_brut": "ויבוש",
+        "hebreu_brut": "ויתבייש",
         "hebreu_voyelles": "וְיֵבוֹשׁ",
         "francais_mot": "et il aura honte",
         "expression_contexte": "qu'Il soit béni, et il aura honte de Lui."
       },
       {
         "id": 61,
-        "hebreu_brut": "ממנו.",
+        "hebreu_brut": "ממנו",
         "hebreu_voyelles": "מִמֶּנּוּ.",
         "francais_mot": "de Lui.",
         "expression_contexte": "et il aura honte de Lui. [Yalkout Yossef"
       },
       {
         "id": 62,
-        "hebreu_brut": "[ילקו\"י",
+        "hebreu_brut": "[ילקו\"י,",
         "hebreu_voyelles": "[ילקו\"י",
         "francais_mot": "[Yalkout Yossef",
         "expression_contexte": "de Lui. [Yalkout Yossef là-bas,"
@@ -7337,7 +7361,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 67,
-        "hebreu_brut": "צד].",
+        "hebreu_brut": "צד.",
         "hebreu_voyelles": "צַד].",
         "francais_mot": "94].",
         "expression_contexte": "page 94]."
@@ -7345,19 +7369,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "13",
+    "id": "p13",
+    "numero": "13",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "13",
     "titre_seif": "Ségoulot pour renforcer la crainte du Ciel",
     "texte_integral": {
-      "hebreu_sans_voyelles": "י\"ג. הסגולות הנכונות לחזוק האדם ביראת שמים, שיהיה מצוי הרבה בבית הכנסת ובבית המדרש. וכן לבקש שלום. ולהזהר לקים מצות עשה של מפני שיבה תקום. וכן לתן מעשר. וכן להיות נושא ונותן באמונה. [ילקו\"י הל' השכמת הבקר עמוד צו].",
+      "hebreu_sans_voyelles": "יג הסגולות הנכונות לחיזוק האדם ביראת שמים, שיהיה מצוי הרבה בבית הכנסת ובבית המדרש. וכן לבקש שלום. ולהזהר לקיים מצות עשה של מפני שיבה תקום. וכן ליתן מעשר. ולעסוק בתורה בתמידות, מידי יום. ולהיות עניו ושפל. ולהחזיק בביתו ספרי פוסקים הלכה ומוסר. ולחשוב באכילה בשבת שהיא לכבוד שבת. ולמעט בדיבור ולהרבות בשתיקה. וגם יתפלל להשי\"ת שיחזקהו ביראת ה' טהורה. [ילקוט יוסף שם עמוד צו].",
       "hebreu_avec_voyelles": "י\"ג. הַסְּגוּלוֹת הַנְּכוֹנוֹת לְחִזּוּק הָאָדָם בְּיִרְאַת שָׁמַיִם, שֶׁיִּהְיֶה מָצוּי הַרְבֵּה בְּבֵית הַכְּנֶסֶת וּבְבֵית הַמִּדְרָשׁ. וְכֵן לְבַקֵּשׁ שָׁלוֹם. וּלְהִזָּהֵר לְקַיֵּם מִצְוַת עֲשֵׂה שֶׁל מִפְּנֵי שֵׂיבָה תָּקוּם. וְכֵן לִתֵּן מַעֲשֵׂר. וְכֵן לִהְיוֹת נוֹשֵׂא וְנוֹתֵן בֶּאֱמוּנָה. [ילקו\"י הֵל' הַשְׁכָּמַת הַבֹּקֶר עַמּוּד צו].",
       "francais": "13. Les remèdes appropriés pour renforcer l'homme dans la crainte du Ciel sont : d'être présent fréquemment à la synagogue et à la maison d'étude. Et de même, de rechercher la paix. Et de faire attention à accomplir le commandement positif de « tu te lèveras devant les cheveux blancs ». Et de même, de donner la dîme. Et de même, de mener ses affaires avec honnêteté. [Yalkout Yossef, lois du réveil matinal, page 96]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "י\"ג.",
+        "hebreu_brut": "יג",
         "hebreu_voyelles": "י\"ג.",
         "francais_mot": "13.",
         "expression_contexte": "13. Les remèdes"
@@ -7378,7 +7404,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 4,
-        "hebreu_brut": "לחזוק",
+        "hebreu_brut": "לחיזוק",
         "hebreu_voyelles": "לְחִזּוּק",
         "francais_mot": "pour le renforcement (de)",
         "expression_contexte": "appropriés pour le renforcement (de) l'homme"
@@ -7483,7 +7509,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 19,
-        "hebreu_brut": "לקים",
+        "hebreu_brut": "לקיים",
         "hebreu_voyelles": "לְקַיֵּם",
         "francais_mot": "pour accomplir",
         "expression_contexte": "Et de faire attention pour accomplir le commandement (de)"
@@ -7539,7 +7565,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 27,
-        "hebreu_brut": "לתן",
+        "hebreu_brut": "ליתן",
         "hebreu_voyelles": "לִתֵּן",
         "francais_mot": "de donner",
         "expression_contexte": "Et de même de donner la dîme."
@@ -7553,63 +7579,63 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 29,
-        "hebreu_brut": "וכן",
+        "hebreu_brut": "ולעסוק",
         "hebreu_voyelles": "וְכֵן",
         "francais_mot": "Et de même",
         "expression_contexte": "la dîme. Et de même d'être"
       },
       {
         "id": 30,
-        "hebreu_brut": "להיות",
+        "hebreu_brut": "בתורה",
         "hebreu_voyelles": "לִהְיוֹת",
         "francais_mot": "d'être",
         "expression_contexte": "Et de même d'être portant"
       },
       {
         "id": 31,
-        "hebreu_brut": "נושא",
+        "hebreu_brut": "בתמידות,",
         "hebreu_voyelles": "נוֹשֵׂא",
         "francais_mot": "portant",
         "expression_contexte": "d'être portant et donnant (négociant)"
       },
       {
         "id": 32,
-        "hebreu_brut": "ונותן",
+        "hebreu_brut": "מידי",
         "hebreu_voyelles": "וְנוֹתֵן",
         "francais_mot": "et donnant (négociant)",
         "expression_contexte": "portant et donnant (négociant) avec foi (honnêteté)."
       },
       {
         "id": 33,
-        "hebreu_brut": "באמונה.",
+        "hebreu_brut": "יום.",
         "hebreu_voyelles": "בֶּאֱמוּנָה.",
         "francais_mot": "avec foi (honnêteté).",
         "expression_contexte": "et donnant (négociant) avec foi (honnêteté). [Yalkout Yossef"
       },
       {
         "id": 34,
-        "hebreu_brut": "[ילקו\"י",
+        "hebreu_brut": "ולהיות",
         "hebreu_voyelles": "[ילקו\"י",
         "francais_mot": "[Yalkout Yossef",
         "expression_contexte": "avec foi (honnêteté). [Yalkout Yossef lois (de)"
       },
       {
         "id": 35,
-        "hebreu_brut": "הל'",
+        "hebreu_brut": "עניו",
         "hebreu_voyelles": "הֵל'",
         "francais_mot": "lois (de)",
         "expression_contexte": "[Yalkout Yossef lois (de) le réveil"
       },
       {
         "id": 36,
-        "hebreu_brut": "השכמת",
+        "hebreu_brut": "ושפל.",
         "hebreu_voyelles": "הַשְׁכָּמַת",
         "francais_mot": "le réveil",
         "expression_contexte": "lois (de) le réveil matinal"
       },
       {
         "id": 37,
-        "hebreu_brut": "הבקר",
+        "hebreu_brut": "ולהחזיק",
         "hebreu_voyelles": "הַבֹּקֶר",
         "francais_mot": "matinal",
         "expression_contexte": "le réveil matinal page"
@@ -7631,19 +7657,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "14",
+    "id": "p14",
+    "numero": "14",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "14",
     "titre_seif": "Ne pas se quereller avec les moqueurs",
     "texte_integral": {
-      "hebreu_sans_voyelles": "י\"ד. כבר נתבאר [בסעיף א] שהמקים את מצוות ה' אין לו להתביש מפני בני אדם המלעיגים עליו, אך לא יתקוטט ויריב עמהם, גם כדי שלא יתרגל למדת העזות המגנה מאד. [ומה שכתבנו בסעיף א' שמותר להעיז פניו כדי להחזירם למוטב, זהו דוקא באפן שעשה הכל בדרכי נעם ולא הועיל]. [ילקו\"י שם עמוד צח].",
+      "hebreu_sans_voyelles": "יד כבר נתבאר [בסעיף א] שהמקיים את מצוות ה' אין לו להתבייש מפני בני אדם המלעיגים עליו, אך לא יתקוטט ויריב עמהם, גם כדי שלא יתרגל למדת העזות המגונה מאד. [ואם מטרתו להשפיע על ענייני הקהלה בעניני התורה והמצוות, וניסה בדרכי שלום ולא הצליח אזי מותר להעיז פניו ולריב עמם להפר עצתם]. [שארית יוסף חלק א' עמוד ג', ילקו\"י מהדורת תשס\"ד, עמוד צו].",
       "hebreu_avec_voyelles": "י\"ד. כְּבָר נִתְבָּאֵר [בִּסְעִיף א] שֶׁהַמְקַיֵּם אֶת מִצְווֹת ה' אֵין לוֹ לְהִתְבַּיֵּשׁ מִפְּנֵי בְּנֵי אָדָם הַמַּלְעִיגִים עָלָיו, אַךְ לֹא יִתְקוֹטֵט וְיָרִיב עִמָּהֶם, גַּם כְּדֵי שֶׁלֹּא יִתְרַגֵּל לְמִדַּת הָעַזּוּת הַמְגֻנֶּה מְאֹד. [וּמַה שֶׁכָּתַבְנוּ בִּסְעִיף א' שֶׁמּוּתָּר לְהָעִיז פָּנָיו כְּדֵי לְהַחֲזִירָם לְמוּטָב, זֶהוּ דַּוְקָא בְּאֹפֶן שֶׁעָשָׂה הַכֹּל בְּדַרְכֵי נֹעַם וְלֹא הוֹעִיל]. [ילקו\"י שָׁם עַמּוּד צח].",
       "francais": "14. Il a déjà été expliqué [au paragraphe 1] que celui qui accomplit les commandements de Dieu ne doit pas avoir honte des personnes qui se moquent de lui, mais il ne doit pas se quereller et se disputer avec eux, afin de ne pas s'habituer au vilain défaut de l'effronterie. [Et ce que nous avons écrit au paragraphe 1 qu'il est permis d'être effronté afin de les ramener au bien, cela s'applique uniquement s'il a tout fait par des voies pacifiques et que cela n'a pas été utile]. [Yalkout Yossef là-bas, page 98]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "י\"ד.",
+        "hebreu_brut": "יד",
         "hebreu_voyelles": "י\"ד.",
         "francais_mot": "14.",
         "expression_contexte": "14. Déjà"
@@ -7678,7 +7706,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 6,
-        "hebreu_brut": "שהמקים",
+        "hebreu_brut": "שהמקיים",
         "hebreu_voyelles": "שֶׁהַמְקַיֵּם",
         "francais_mot": "que celui qui accomplit",
         "expression_contexte": "1] que celui qui accomplit (particule)"
@@ -7720,7 +7748,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 12,
-        "hebreu_brut": "להתביש",
+        "hebreu_brut": "להתבייש",
         "hebreu_voyelles": "לְהִתְבַּיֵּשׁ",
         "francais_mot": "de (à) avoir honte",
         "expression_contexte": "pour lui de (à) avoir honte de la face (de)"
@@ -7839,7 +7867,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 29,
-        "hebreu_brut": "המגנה",
+        "hebreu_brut": "המגונה",
         "hebreu_voyelles": "הַמְגֻנֶּה",
         "francais_mot": "méprisable",
         "expression_contexte": "de l'effronterie méprisable beaucoup."
@@ -7853,35 +7881,35 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 31,
-        "hebreu_brut": "[ומה",
+        "hebreu_brut": "[ואם",
         "hebreu_voyelles": "[וּמַה",
         "francais_mot": "[Et ce",
         "expression_contexte": "beaucoup. [Et ce que nous avons écrit"
       },
       {
         "id": 32,
-        "hebreu_brut": "שכתבנו",
+        "hebreu_brut": "מטרתו",
         "hebreu_voyelles": "שֶׁכָּתַבְנוּ",
         "francais_mot": "que nous avons écrit",
         "expression_contexte": "[Et ce que nous avons écrit au paragraphe"
       },
       {
         "id": 33,
-        "hebreu_brut": "בסעיף",
+        "hebreu_brut": "להשפיע",
         "hebreu_voyelles": "בִּסְעִיף",
         "francais_mot": "au paragraphe",
         "expression_contexte": "que nous avons écrit au paragraphe 1"
       },
       {
         "id": 34,
-        "hebreu_brut": "א'",
+        "hebreu_brut": "על",
         "hebreu_voyelles": "א'",
         "francais_mot": "1",
         "expression_contexte": "au paragraphe 1 qu'il est permis"
       },
       {
         "id": 35,
-        "hebreu_brut": "שמותר",
+        "hebreu_brut": "ענייני",
         "hebreu_voyelles": "שֶׁמּוּתָּר",
         "francais_mot": "qu'il est permis",
         "expression_contexte": "1 qu'il est permis de rendre effrontée"
@@ -7902,70 +7930,70 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 38,
-        "hebreu_brut": "כדי",
+        "hebreu_brut": "ולריב",
         "hebreu_voyelles": "כְּדֵי",
         "francais_mot": "afin",
         "expression_contexte": "sa face afin de les faire revenir"
       },
       {
         "id": 39,
-        "hebreu_brut": "להחזירם",
+        "hebreu_brut": "עמם",
         "hebreu_voyelles": "לְהַחֲזִירָם",
         "francais_mot": "de les faire revenir",
         "expression_contexte": "afin de les faire revenir au bien,"
       },
       {
         "id": 40,
-        "hebreu_brut": "למוטב,",
+        "hebreu_brut": "להפר",
         "hebreu_voyelles": "לְמוּטָב,",
         "francais_mot": "au bien,",
         "expression_contexte": "de les faire revenir au bien, ceci est"
       },
       {
         "id": 41,
-        "hebreu_brut": "זהו",
+        "hebreu_brut": "עצתם].",
         "hebreu_voyelles": "זֶהוּ",
         "francais_mot": "ceci est",
         "expression_contexte": "au bien, ceci est précisément"
       },
       {
         "id": 42,
-        "hebreu_brut": "דוקא",
+        "hebreu_brut": "[שארית",
         "hebreu_voyelles": "דַּוְקָא",
         "francais_mot": "précisément",
         "expression_contexte": "ceci est précisément de façon"
       },
       {
         "id": 43,
-        "hebreu_brut": "באפן",
+        "hebreu_brut": "יוסף",
         "hebreu_voyelles": "בְּאֹפֶן",
         "francais_mot": "de façon",
         "expression_contexte": "précisément de façon qu'il a fait"
       },
       {
         "id": 44,
-        "hebreu_brut": "שעשה",
+        "hebreu_brut": "חלק",
         "hebreu_voyelles": "שֶׁעָשָׂה",
         "francais_mot": "qu'il a fait",
         "expression_contexte": "de façon qu'il a fait tout"
       },
       {
         "id": 45,
-        "hebreu_brut": "הכל",
+        "hebreu_brut": "א'",
         "hebreu_voyelles": "הַכֹּל",
         "francais_mot": "tout",
         "expression_contexte": "qu'il a fait tout par des voies (de)"
       },
       {
         "id": 46,
-        "hebreu_brut": "בדרכי",
+        "hebreu_brut": "עמוד",
         "hebreu_voyelles": "בְּדַרְכֵי",
         "francais_mot": "par des voies (de)",
         "expression_contexte": "tout par des voies (de) plaisir (pacifiques)"
       },
       {
         "id": 47,
-        "hebreu_brut": "נעם",
+        "hebreu_brut": "ג',",
         "hebreu_voyelles": "נֹעַם",
         "francais_mot": "plaisir (pacifiques)",
         "expression_contexte": "par des voies (de) plaisir (pacifiques) et qu'il n'a pas"
@@ -7986,14 +8014,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 50,
-        "hebreu_brut": "[ילקו\"י",
+        "hebreu_brut": "ילקו\"י",
         "hebreu_voyelles": "[ילקו\"י",
         "francais_mot": "[Yalkout Yossef",
         "expression_contexte": "été utile]. [Yalkout Yossef là-bas"
       },
       {
         "id": 51,
-        "hebreu_brut": "שם",
+        "hebreu_brut": "מהדורת",
         "hebreu_voyelles": "שָׁם",
         "francais_mot": "là-bas",
         "expression_contexte": "[Yalkout Yossef là-bas page"
@@ -8007,7 +8035,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 53,
-        "hebreu_brut": "צח].",
+        "hebreu_brut": "צו].",
         "hebreu_voyelles": "צח].",
         "francais_mot": "98].",
         "expression_contexte": "page 98]."
@@ -8015,19 +8043,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "15",
+    "id": "p15",
+    "numero": "15",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "15",
     "titre_seif": "Porter le Talit et les Téfilines en public",
     "texte_integral": {
-      "hebreu_sans_voyelles": "ט\"ו. הדר במקום של גוים, ואם ילך ברחוב לבית הכנסת כשהוא מעטר בטלית ותפלין, הדבר יעורר את רגזם של הגויים, ראוי לו להמנע מכך. [ילקו\"י שם עמוד צט].",
+      "hebreu_sans_voyelles": "טו הדר במקום של גוים, ואם ילך ברחוב לבית הכנסת כשהוא מעוטר בטלית ותפילין, הדבר יעורר את רוגזם של הגויים, ראוי לו להמנע מכך. [ילקו\"י שם עמוד צט].",
       "hebreu_avec_voyelles": "ט\"ו. הַדָּר בְּמָקוֹם שֶׁל גּוֹיִם, וְאִם יֵלֵךְ בָּרְחוֹב לְבֵית הַכְּנֶסֶת כְּשֶׁהוּא מְעֻטָּר בְּטַלִּית וּתְפִלִּין, הַדָּבָר יְעוֹרֵר אֶת רׇגְזָם שֶׁל הַגּוֹיִים, רָאוּי לוֹ לְהִמָּנַע מִכָּךְ. [ילקו\"י שָׁם עַמּוּד צט].",
       "francais": "15. Celui qui habite dans un endroit de non-Juifs, et que s'il marche dans la rue vers la synagogue en étant couronné du talit et des tefilin, la chose éveillera la colère des non-Juifs, il convient pour lui de s'abstenir de cela. [Yalkout Yossef là-bas, page 99]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "ט\"ו.",
+        "hebreu_brut": "טו",
         "hebreu_voyelles": "ט\"ו.",
         "francais_mot": "15.",
         "expression_contexte": "15. Celui qui habite"
@@ -8104,7 +8134,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 12,
-        "hebreu_brut": "מעטר",
+        "hebreu_brut": "מעוטר",
         "hebreu_voyelles": "מְעֻטָּר",
         "francais_mot": "couronné",
         "expression_contexte": "quand il est couronné du talit"
@@ -8118,7 +8148,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 14,
-        "hebreu_brut": "ותפלין,",
+        "hebreu_brut": "ותפילין,",
         "hebreu_voyelles": "וּתְפִלִּין,",
         "francais_mot": "et des tefilin,",
         "expression_contexte": "du talit et des tefilin, la chose"
@@ -8146,7 +8176,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 18,
-        "hebreu_brut": "רגזם",
+        "hebreu_brut": "רוגזם",
         "hebreu_voyelles": "רׇגְזָם",
         "francais_mot": "la colère",
         "expression_contexte": "(particule) la colère de"
@@ -8224,19 +8254,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "16",
+    "id": "p16",
+    "numero": "16",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "16",
     "titre_seif": "Accomplir les Mitsvot en secret",
     "texte_integral": {
-      "hebreu_sans_voyelles": "ט\"ז. ומכל מקום על האדם להסתיר ולהצניע את מעשיו הטובים ככל שיוכל. ששכר העובד את ה' בסתר הוא על ידי הקדוש ברוך הוא עצמו, ושכר העושים בפרהסיא הוא על ידי המלאכים. [ילקוט יוסף על הלכות השכמת הבקר, מהדורת תשס\"ד, עמוד צט].",
+      "hebreu_sans_voyelles": "טז ומכל מקום על האדם להסתיר ולהצניע את מעשיו הטובים ככל שיוכל. ששכר העובד את ה' בסתר הוא על ידי הקדוש ברוך הוא עצמו, ושכר העושים בפרהסיא הוא על ידי המלאכים. [ילקוט יוסף על הלכות השכמת הבוקר, מהדורת תשס\"ד, עמוד צט].",
       "hebreu_avec_voyelles": "ט\"ז. וּמִכׇּל מָקוֹם עַל הָאָדָם לְהַסְתִּיר וּלְהַצְנִיעַ אֶת מַעֲשָׂיו הַטּוֹבִים כְּכׇל שֶׁיּוּכַל. שֶׁשְּׂכַר הָעוֹבֵד אֶת ה' בַּסֵּתֶר הוּא עַל יְדֵי הַקָּדוֹשׁ בָּרוּךְ הוּא עַצְמוֹ, וּשְׂכַר הָעוֹשִׂים בְּפַרְהֶסְיָא הוּא עַל יְדֵי הַמַּלְאָכִים. [יַלְקוּט יוֹסֵף עַל הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר, מַהֲדוּרַת תשס\"ד, עַמּוּד צט].",
       "francais": "16. De toute façon, l'homme doit cacher et dissimuler ses bonnes actions autant qu'il le peut. Car la récompense de celui qui sert Dieu en secret est donnée par le Saint béni soit-Il Lui-même, tandis que la récompense de ceux qui agissent en public est donnée par les anges. [Yalkout Yossef sur les lois du réveil matinal, édition 5764, page 99]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "ט\"ז.",
+        "hebreu_brut": "טז",
         "hebreu_voyelles": "ט\"ז.",
         "francais_mot": "16.",
         "expression_contexte": "16. Et de toute façon"
@@ -8488,7 +8520,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 37,
-        "hebreu_brut": "הבקר,",
+        "hebreu_brut": "הבוקר,",
         "hebreu_voyelles": "הַבֹּקֶר,",
         "francais_mot": "matinal,",
         "expression_contexte": "le réveil matinal, édition"
@@ -8524,19 +8556,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "17",
+    "id": "p17",
+    "numero": "17",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "17",
     "titre_seif": "Modifier ses paroles par humilité",
     "texte_integral": {
-      "hebreu_sans_voyelles": "י\"ז. העושה מצוה או דבר חסידות, ורוצה לשנות בדבורו משום ענוה, או שלא יחשב כיהרא, מותר לו לשנות, כדי לקים והצנע לכת עם אלהיך. [ילקו\"י שם עמוד קא. שאר\"י ח\"א עמ' ד'].",
+      "hebreu_sans_voyelles": "יז העושה מצוה או דבר חסידות, ורוצה לשנות בדיבורו משום ענוה, או שלא יחשב כיוהרא, מותר לו לשנות, כדי לקיים והצנע לכת עם אלהיך. [ילקו\"י שם עמוד קא. שאר\"י ח\"א עמ' ד'].",
       "hebreu_avec_voyelles": "י\"ז. הָעוֹשֶׂה מִצְוָה אוֹ דְּבַר חֲסִידוּת, וְרוֹצֶה לְשַׁנּוֹת בְּדִבּוּרוֹ מִשּׁוּם עֲנָוָה, אוֹ שֶׁלֹּא יֵחָשֵׁב כְּיֻהֲרָא, מוּתָּר לוֹ לְשַׁנּוֹת, כְּדֵי לְקַיֵּם וְהַצְנֵעַ לֶכֶת עִם אֱלֹהֶיךָ. [ילקו\"י שָׁם עַמּוּד קא. שאר\"י ח\"א עמ' ד'].",
       "francais": "17. Celui qui accomplit une Mitsva ou un acte de piété, et qui souhaite modifier ses paroles par humilité, ou afin de ne pas paraître orgueilleux, il lui est permis de modifier, afin d'accomplir « et marche humblement avec ton Dieu ». [Yalkout Yossef là-bas, page 101. Che'ar Yossef tome 1, page 4]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "י\"ז.",
+        "hebreu_brut": "יז",
         "hebreu_voyelles": "י\"ז.",
         "francais_mot": "17.",
         "expression_contexte": "17. Celui qui fait"
@@ -8592,7 +8626,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 9,
-        "hebreu_brut": "בדבורו",
+        "hebreu_brut": "בדיבורו",
         "hebreu_voyelles": "בְּדִבּוּרוֹ",
         "francais_mot": "dans ses paroles",
         "expression_contexte": "modifier dans ses paroles en raison de"
@@ -8634,7 +8668,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 15,
-        "hebreu_brut": "כיהרא,",
+        "hebreu_brut": "כיוהרא,",
         "hebreu_voyelles": "כְּיֻהֲרָא,",
         "francais_mot": "comme orgueilleux,",
         "expression_contexte": "il soit considéré comme orgueilleux, il est permis"
@@ -8669,7 +8703,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 20,
-        "hebreu_brut": "לקים",
+        "hebreu_brut": "לקיים",
         "hebreu_voyelles": "לְקַיֵּם",
         "francais_mot": "d'accomplir",
         "expression_contexte": "afin d'accomplir et marche humblement"
@@ -8761,26 +8795,28 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "18",
+    "id": "p18",
+    "numero": "18",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "18",
     "titre_seif": "Accepter l'amour de Dieu avant la prière",
     "texte_integral": {
-      "hebreu_sans_voyelles": "י\"ח. קדם תפלת שחרית צריך אדם לקבל עליו אהבת ה', ובזה מקים \"ובו תדבק\", וכמו שאמרו חכמים ואתם הדבקים בה' וגו', וכי אפשר לו לאדם להדבק בשכינה, אלא הדבק במצוותיו. ולכן יקדיש את מחשבתו הראשונה להקב\"ה, ואחר כך יהיו כל מעשיו לטובה. [ילקו\"י שם עמוד קג].",
+      "hebreu_sans_voyelles": "יח קודם תפלת שחרית צריך אדם לקבל עליו אהבת ה', ובזה מקיים \"ובו תדבק\", וכמו שאמרו חכמים ואתם הדבקים בה' וגו', וכי אפשר לו לאדם להידבק בשכינה, אלא הדבק במצוותיו. ולכן יקדיש את מחשבתו הראשונה להקב\"ה, ואחר כך יהיו כל מעשיו לטובה. [ילקו\"י שם עמוד קג].",
       "hebreu_avec_voyelles": "י\"ח. קֹדֶם תְּפִלַּת שַׁחֲרִית צָרִיךְ אָדָם לְקַבֵּל עָלָיו אַהֲבַת ה', וּבָזֶה מְקַיֵּם \"וּבוֹ תִּדְבַּק\", וּכְמוֹ שֶׁאָמְרוּ חֲכָמִים וְאַתֶּם הַדְּבֵקִים בָּהּ' וְגוֹ', וְכִי אֶפְשָׁר לוֹ לְאָדָם לְהִדָּבֵק בַּשְּׁכִינָה, אֶלָּא הִדָּבֵק בְּמִצְווֹתָיו. וְלָכֵן יַקְדִּישׁ אֶת מַחְשַׁבְתּוֹ הָרִאשׁוֹנָה להקב\"ה, וְאַחַר כָּךְ יִהְיוּ כׇּל מַעֲשָׂיו לְטוֹבָה. [ילקו\"י שָׁם עַמּוּד קג].",
       "francais": "18. Avant la prière du matin, l'homme doit accepter sur lui l'amour de Dieu, et par cela il accomplit « et à Lui tu t'attacheras ». Et comme l'ont dit les Sages : « Et vous qui êtes attachés à Dieu etc. », est-il possible pour l'homme de s'attacher à la Présence Divine ? Mais plutôt, attache-toi à Ses commandements. C'est pourquoi il consacrera sa première pensée au Saint béni soit-Il, et ensuite toutes ses actions seront pour le bien. [Yalkout Yossef là-bas, page 103]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "י\"ח.",
+        "hebreu_brut": "יח",
         "hebreu_voyelles": "י\"ח.",
         "francais_mot": "18.",
         "expression_contexte": "18. Avant"
       },
       {
         "id": 2,
-        "hebreu_brut": "קדם",
+        "hebreu_brut": "קודם",
         "hebreu_voyelles": "קֹדֶם",
         "francais_mot": "Avant",
         "expression_contexte": "18. Avant la prière (de)"
@@ -8850,7 +8886,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 12,
-        "hebreu_brut": "מקים",
+        "hebreu_brut": "מקיים",
         "hebreu_voyelles": "מְקַיֵּם",
         "francais_mot": "il accomplit",
         "expression_contexte": "et par cela il accomplit \"et à Lui"
@@ -8948,7 +8984,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 26,
-        "hebreu_brut": "להדבק",
+        "hebreu_brut": "להידבק",
         "hebreu_voyelles": "לְהִדָּבֵק",
         "francais_mot": "de s'attacher",
         "expression_contexte": "pour l'homme de s'attacher à la Présence Divine,"
@@ -9096,19 +9132,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "19",
+    "id": "p19",
+    "numero": "19",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "19",
     "titre_seif": "Aimer son prochain avant la prière",
     "texte_integral": {
-      "hebreu_sans_voyelles": "י\"ט. נהגו לומר בכל בקר קדם התפלה, \"הרני מקבל עלי מצות עשה של ואהבת לרעך כמוך וכו'\". ועל ידי זה תפלתו תהיה כלולה בכלל תפלות כל ישראל, ותעשה פרי למעלה, אף שלא כון כל כך. [ועל ידי שיאהב את חברו ממילא לא יגנב את ממונו, לא יונהו בממון או בדברים, ולא ישיג גבולו, ולא יגרם נזק לממונו, ויקפיד בדברים שבין אדם לחברו]. [ילקוט יוסף על הלכות השכמת הבקר, עמ' קד. ושם בהערה אריכות בענין מצוות שבין אדם לחברו, ודברי מוסר לחזוק המדות, וראה עוד בזה בסי' נג].",
+      "hebreu_sans_voyelles": "יט נהגו לומר בכל בוקר קודם התפלה, \"הריני מקבל עלי מצות עשה של ואהבת לרעך כמוך וכו\"'. ועל ידי זה תפלתו תהיה כלולה בכלל תפלות כל ישראל, ותעשה פרי למעלה, אף שלא כיוון כל כך. [ועל ידי שיאהב את חבירו ממילא לא יגנוב את ממונו, לא יונהו בממון או בדברים, ולא ישיג גבולו, ולא יגרום נזק לממונו, ויקפיד בדברים שבין אדם לחבירו]. [ילקוט יוסף על הלכות השכמת הבוקר, עמ' קד. ושם בהערה אריכות בענין מצוות שבין אדם לחבירו, ודברי מוסר לחיזוק המדות, וראה עוד בזה בסי' נג].",
       "hebreu_avec_voyelles": "י\"ט. נָהֲגוּ לוֹמַר בְּכׇל בֹּקֶר קֹדֶם הַתְּפִלָּה, \"הֲרֵנִי מְקַבֵּל עָלַי מִצְוַת עֲשֵׂה שֶׁל וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ וְכוּ'\". וְעַל יְדֵי זֶה תְּפִלָּתוֹ תִּהְיֶה כְּלוּלָה בִּכְלַל תְּפִלּוֹת כׇּל יִשְׂרָאֵל, וְתַעֲשֶׂה פְּרִי לְמַעְלָה, אַף שֶׁלֹּא כִּוֵּן כׇּל כָּךְ. [וְעַל יְדֵי שֶׁיֶּאֱהַב אֶת חֲבֵרוֹ מִמֵּילָא לֹא יִגְנֹב אֶת מָמוֹנוֹ, לֹא יוֹנֵהוּ בְּמָמוֹן אוֹ בִּדְבָרִים, וְלֹא יַשִּׂיג גְּבוּלוֹ, וְלֹא יִגְרֹם נֶזֶק לְמָמוֹנוֹ, וְיַקְפִּיד בִּדְבָרִים שֶׁבֵּין אָדָם לַחֲבֵרוֹ]. [יַלְקוּט יוֹסֵף עַל הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר, עמ' קד. וְשָׁם בַּהֶעָרָה אֲרִיכוּת בְּעִנְיַן מִצְווֹת שֶׁבֵּין אָדָם לַחֲבֵרוֹ, וְדִבְרֵי מוּסָר לְחִזּוּק הַמִּדּוֹת, וּרְאֵה עוֹד בָּזֶה בְּסִי' נג].",
       "francais": "19. On a pris l'habitude de dire chaque matin avant la prière : « J'accepte sur moi le commandement positif de tu aimeras ton prochain comme toi-même etc. ». Et grâce à cela, sa prière sera incluse dans l'ensemble des prières de tout Israël, et portera des fruits en Haut, même s'il n'a pas eu une intention parfaite. [Et grâce au fait qu'il aimera son prochain, de fait il ne volera pas son argent, ne le trompera pas en affaires ou en paroles, n'empiétera pas sur ses limites, ne causera pas de dommage à ses biens, et sera attentif aux choses entre l'homme et son prochain]. [Yalkout Yossef sur les lois du réveil matinal, page 104. Et là-bas en note une longue discussion sur les commandements entre l'homme et son prochain, des paroles de morale pour le renforcement des vertus, et voir encore à ce sujet au Siman 53]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "י\"ט.",
+        "hebreu_brut": "יט",
         "hebreu_voyelles": "י\"ט.",
         "francais_mot": "19.",
         "expression_contexte": "19. On a l'habitude"
@@ -9136,14 +9174,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 5,
-        "hebreu_brut": "בקר",
+        "hebreu_brut": "בוקר",
         "hebreu_voyelles": "בֹּקֶר",
         "francais_mot": "matin",
         "expression_contexte": "chaque matin avant"
       },
       {
         "id": 6,
-        "hebreu_brut": "קדם",
+        "hebreu_brut": "קודם",
         "hebreu_voyelles": "קֹדֶם",
         "francais_mot": "avant",
         "expression_contexte": "matin avant la prière,"
@@ -9157,7 +9195,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 8,
-        "hebreu_brut": "\"הרני",
+        "hebreu_brut": "\"הריני",
         "hebreu_voyelles": "\"הֲרֵנִי",
         "francais_mot": "\"Me voici",
         "expression_contexte": "la prière, \"Me voici acceptant"
@@ -9220,7 +9258,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 17,
-        "hebreu_brut": "וכו'\".",
+        "hebreu_brut": "וכו\"'.",
         "hebreu_voyelles": "וְכוּ'\".",
         "francais_mot": "etc.\".",
         "expression_contexte": "comme toi-même etc.\". Et grâce à"
@@ -9332,7 +9370,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 33,
-        "hebreu_brut": "כון",
+        "hebreu_brut": "כיוון",
         "hebreu_voyelles": "כִּוֵּן",
         "francais_mot": "eu l'intention (de)",
         "expression_contexte": "s'il n'a pas eu l'intention (de) tout"
@@ -9381,7 +9419,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 40,
-        "hebreu_brut": "חברו",
+        "hebreu_brut": "חבירו",
         "hebreu_voyelles": "חֲבֵרוֹ",
         "francais_mot": "son prochain",
         "expression_contexte": "(particule) son prochain de fait"
@@ -9402,7 +9440,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 43,
-        "hebreu_brut": "יגנב",
+        "hebreu_brut": "יגנוב",
         "hebreu_voyelles": "יִגְנֹב",
         "francais_mot": "volera (pas)",
         "expression_contexte": "il ne volera (pas) (particule)"
@@ -9486,7 +9524,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 55,
-        "hebreu_brut": "יגרם",
+        "hebreu_brut": "יגרום",
         "hebreu_voyelles": "יִגְרֹם",
         "francais_mot": "causera (pas)",
         "expression_contexte": "et il ne causera (pas) de dommage"
@@ -9535,7 +9573,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 62,
-        "hebreu_brut": "לחברו].",
+        "hebreu_brut": "לחבירו].",
         "hebreu_voyelles": "לַחֲבֵרוֹ].",
         "francais_mot": "et son prochain].",
         "expression_contexte": "l'homme et son prochain]. [Yalkout"
@@ -9577,7 +9615,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 68,
-        "hebreu_brut": "הבקר,",
+        "hebreu_brut": "הבוקר,",
         "hebreu_voyelles": "הַבֹּקֶר,",
         "francais_mot": "matinal,",
         "expression_contexte": "le réveil matinal, page"
@@ -9647,7 +9685,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 78,
-        "hebreu_brut": "לחברו,",
+        "hebreu_brut": "לחבירו,",
         "hebreu_voyelles": "לַחֲבֵרוֹ,",
         "francais_mot": "et son prochain,",
         "expression_contexte": "l'homme et son prochain, et des paroles (de)"
@@ -9668,7 +9706,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 81,
-        "hebreu_brut": "לחזוק",
+        "hebreu_brut": "לחיזוק",
         "hebreu_voyelles": "לְחִזּוּק",
         "francais_mot": "pour le renforcement (de)",
         "expression_contexte": "morale pour le renforcement (de) les vertus,"
@@ -9718,19 +9756,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "20",
+    "id": "p20",
+    "numero": "20",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "20",
     "titre_seif": "Peu de supplications avec intention valent mieux que beaucoup sans",
     "texte_integral": {
-      "hebreu_sans_voyelles": "כ. טוב מעט תחנונים בכונה מהרבות בלא כונה. [ולכן מי שיש לו אנס שאינו יכול להאריך בתחנונים, וממעט בהם ואומרם בכונה, נחשב לפני הקדוש ברוך הוא כמו אותו שיש לו פנאי ומאריך בתחנונים בכונה]. ואחד המרבה ואחד הממעיט ובלבד שיכון לבו לשמים. ואמנם כל מי שבידו האפשרות להרבות בתורה ובמצוות, לא שיך לומר בו אחד המרבה ואחד הממעיט וכו'. ומה שמצינו תלמידי חכמים שישנים בלילה היטב, וכן מרבים באכילה ושתיה, עושים כן כדי שיהיה להם כח ללמד תורה בעיון, ובהבנה ישרה. ואותם המנדדים שנה מעיניהם, ואחר כך לומדים שלא בעמק העיון, אין זו הדרך הנכונה. [ילקוט יוסף על הלכות השכמת הבקר, עמ' קיא].",
+      "hebreu_sans_voyelles": "כ טוב מעט תחנונים בכוונה מהרבות בלא כוונה. [ולכן מי שיש לו אונס שאינו יכול להאריך בתחנונים, וממעט בהם ואומרם בכוונה, נחשב לפני הקדוש ברוך הוא כמו אותו שיש לו פנאי ומאריך בתחנונים בכוונה]. ואחד המרבה ואחד הממעיט ובלבד שיכוין לבו לשמים. ואמנם כל מי שבידו האפשרות להרבות בתורה ובמצוות, לא שייך לומר בו אחד המרבה ואחד הממעיט וכו'. ומה שמצינו תלמידי חכמים שישנים בלילה היטב, וכן מרבים באכילה ושתיה, עושים כן כדי שיהיה להם כח ללמוד תורה בעיון, ובהבנה ישרה. ואותם המנדדים שינה מעיניהם, ואחר כך לומדים שלא בעומק העיון, אין זו הדרך הנכונה. [ילקוט יוסף על הלכות השכמת הבוקר, עמ' קיא].",
       "hebreu_avec_voyelles": "כ. טוֹב מְעַט תַּחֲנוּנִים בְּכַוָּנָה מֵהָרַבּוֹת בְּלֹא כַּוָּנָה. [וְלָכֵן מִי שֶׁיֵּשׁ לוֹ אֹנֶס שֶׁאֵינוֹ יָכוֹל לְהַאֲרִיךְ בְּתַחֲנוּנִים, וּמְמַעֵט בָּהֶם וְאוֹמְרָם בְּכַוָּנָה, נֶחְשָׁב לִפְנֵי הַקָּדוֹשׁ בָּרוּךְ הוּא כְּמוֹ אוֹתוֹ שֶׁיֵּשׁ לוֹ פְּנַאי וּמַאֲרִיךְ בְּתַחֲנוּנִים בְּכַוָּנָה]. וְאֶחָד הַמַּרְבֶּה וְאֶחָד הַמַּמְעִיט וּבִלְבַד שֶׁיְּכַוֵּן לִבּוֹ לַשָּׁמַיִם. וְאׇמְנָם כׇּל מִי שֶׁבְּיָדוֹ הָאֶפְשָׁרוּת לְהַרְבּוֹת בַּתּוֹרָה וּבְמִצְווֹת, לֹא שַׁיָּךְ לוֹמַר בּוֹ אֶחָד הַמַּרְבֶּה וְאֶחָד הַמַּמְעִיט וְכוּ'. וּמַה שֶׁמָּצִינוּ תַּלְמִידֵי חֲכָמִים שֶׁיְּשֵׁנִים בַּלַּיְלָה הֵיטֵב, וְכֵן מַרְבִּים בַּאֲכִילָה וּשְׁתִיָּה, עוֹשִׂים כֵּן כְּדֵי שֶׁיִּהְיֶה לָהֶם כֹּחַ לִלְמֹד תּוֹרָה בְּעִיּוּן, וּבַהֲבָנָה יְשָׁרָה. וְאוֹתָם הַמְנַדְּדִים שֵׁנָה מֵעֵינֵיהֶם, וְאַחַר כָּךְ לוֹמְדִים שֶׁלֹּא בְּעֹמֶק הָעִיּוּן, אֵין זוֹ הַדֶּרֶךְ הַנְּכוֹנָה. [יַלְקוּט יוֹסֵף עַל הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר, עמ' קיא].",
       "francais": "20. Peu de supplications avec intention valent mieux que beaucoup sans intention. [C'est pourquoi, celui qui est contraint et ne peut pas s'étendre dans les supplications, et qui les réduit en les disant avec intention, est considéré devant le Saint béni soit-Il comme celui qui a du temps libre et s'étend dans les supplications avec intention]. Que l'on fasse beaucoup ou peu, pourvu que l'on dirige son cœur vers le Ciel. Cependant, quiconque a la possibilité de multiplier la Torah et les Mitsvot, on ne peut pas dire à son sujet « que l'on fasse beaucoup ou peu » etc. Et ce que l'on trouve que des Sages dormaient bien la nuit, et de même mangeaient et buvaient abondamment, ils faisaient ainsi afin d'avoir la force d'étudier la Torah en profondeur, et avec une compréhension juste. Et ceux qui chassent le sommeil de leurs yeux, et qui ensuite étudient sans profondeur d'analyse, ce n'est pas la bonne voie. [Yalkout Yossef sur les lois du réveil matinal, page 111]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "כ.",
+        "hebreu_brut": "כ",
         "hebreu_voyelles": "כ.",
         "francais_mot": "20.",
         "expression_contexte": "20. Peu (de)"
@@ -9758,7 +9798,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 5,
-        "hebreu_brut": "בכונה",
+        "hebreu_brut": "בכוונה",
         "hebreu_voyelles": "בְּכַוָּנָה",
         "francais_mot": "avec intention",
         "expression_contexte": "supplications avec intention est mieux que beaucoup"
@@ -9779,7 +9819,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 8,
-        "hebreu_brut": "כונה.",
+        "hebreu_brut": "כוונה.",
         "hebreu_voyelles": "כַּוָּנָה.",
         "francais_mot": "intention.",
         "expression_contexte": "sans intention. [Et c'est pourquoi"
@@ -9814,7 +9854,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 13,
-        "hebreu_brut": "אנס",
+        "hebreu_brut": "אונס",
         "hebreu_voyelles": "אֹנֶס",
         "francais_mot": "une contrainte",
         "expression_contexte": "pour lui une contrainte qu'il ne (peut)"
@@ -9870,7 +9910,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 21,
-        "hebreu_brut": "בכונה,",
+        "hebreu_brut": "בכוונה,",
         "hebreu_voyelles": "בְּכַוָּנָה,",
         "francais_mot": "avec intention,",
         "expression_contexte": "et il les dit avec intention, il est considéré"
@@ -9961,7 +10001,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 34,
-        "hebreu_brut": "בכונה].",
+        "hebreu_brut": "בכוונה].",
         "hebreu_voyelles": "בְּכַוָּנָה].",
         "francais_mot": "avec intention].",
         "expression_contexte": "dans les supplications avec intention]. Et l'un"
@@ -10003,7 +10043,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 40,
-        "hebreu_brut": "שיכון",
+        "hebreu_brut": "שיכוין",
         "hebreu_voyelles": "שֶׁיְּכַוֵּן",
         "francais_mot": "il dirige",
         "expression_contexte": "et pourvu que il dirige son cœur"
@@ -10087,7 +10127,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 52,
-        "hebreu_brut": "שיך",
+        "hebreu_brut": "שייך",
         "hebreu_voyelles": "שַׁיָּךְ",
         "francais_mot": "possible",
         "expression_contexte": "il n'est pas possible de dire"
@@ -10262,7 +10302,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 77,
-        "hebreu_brut": "ללמד",
+        "hebreu_brut": "ללמוד",
         "hebreu_voyelles": "לִלְמֹד",
         "francais_mot": "d'étudier",
         "expression_contexte": "la force d'étudier la Torah"
@@ -10311,7 +10351,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 84,
-        "hebreu_brut": "שנה",
+        "hebreu_brut": "שינה",
         "hebreu_voyelles": "שֵׁנָה",
         "francais_mot": "le sommeil",
         "expression_contexte": "chassent le sommeil de leurs yeux,"
@@ -10353,7 +10393,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 90,
-        "hebreu_brut": "בעמק",
+        "hebreu_brut": "בעומק",
         "hebreu_voyelles": "בְּעֹמֶק",
         "francais_mot": "la profondeur (de)",
         "expression_contexte": "sans la profondeur (de) l'analyse,"
@@ -10430,7 +10470,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 101,
-        "hebreu_brut": "הבקר,",
+        "hebreu_brut": "הבוקר,",
         "hebreu_voyelles": "הַבֹּקֶר,",
         "francais_mot": "matinal,",
         "expression_contexte": "le réveil matinal, page"
@@ -10452,19 +10492,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "21",
+    "id": "p21",
+    "numero": "21",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "21",
     "titre_seif": "Volume de la voix pendant la prière",
     "texte_integral": {
-      "hebreu_sans_voyelles": "כא. מנהג האר\"י ז\"ל היה שלא להתפלל בקול רם, אפילו הזמירות, להורות על הכנעה ואימה ויראה לפני ה'. אך ביום שבת היה מרים מעט את קולו בנעימה לכבוד שבת. ויש נוהגים לומר את הזמירות וקריאת שמע וברכותיה בקול רם ובהתלהבות כדי לעורר הכוונה. והכל לפי מה-שהוא אדם, באופן שמתעורר לכוון. וכן לענין להתנועע בתפלה, שיש אנשים שעל-ידי שמתנענעים בתפלה מתעוררים לכוון, והוא על שם הפסוק \"כל עצמותי תאמרנה ה'\", ויש שגם בלא שמתנועעים יכולים לכוון היטב, ואז עדיף יותר שלא להתנועע. [ילקו\"י שם עמוד קיב].",
+      "hebreu_sans_voyelles": "כא מנהג האר\"י ז\"ל היה שלא להתפלל בקול רם, אפילו הזמירות, להורות על הכנעה ואימה ויראה לפני ה'. אך ביום שבת היה מרים מעט את קולו בנעימה לכבוד שבת. ולכן יש נוהגים לומר את הזמירות וקריאת שמע וברכותיה בקול רם ובהתלהבות כדי לעורר הכוונה. והכל לפי מה שהוא אדם, באופן שמתעורר לכוין. וכן לענין להתנועע בתפלה, שיש אנשים שעל ידי שמתנענעים בתפלה מתעורר לכוין, והוא על שם הפסוק כל עצמותי תאמרנה ה', ויש שגם בלא שמתנועעים יכולים לכוין היטב, ואז עדיף יותר שלא להתנועע. [ילקו\"י שם עמוד קיב].",
       "hebreu_avec_voyelles": "כָּא. מִנְהַג הָאֲרִ\"י זַ\"ל הָיָה שֶׁלֹּא לְהִתְפַּלֵּל בְּקוֹל רָם, אֲפִלּוּ הַזְּמִירוֹת, לְהוֹרוֹת עַל הַכְנָעָה וְאֵימָה וְיִרְאָה לִפְנֵי ה'. אַךְ בְּיוֹם שַׁבָּת הָיָה מֵרִים מְעַט אֶת קוֹלוֹ בִּנְעִימָה לִכְבוֹד שַׁבָּת. וְיֵשׁ נוֹהֲגִים לוֹמַר אֶת הַזְּמִירוֹת וּקְרִיאַת שְׁמַע וּבִרְכוֹתֶיהָ בְּקוֹל רָם וּבְהִתְלַהֲבוּת כְּדֵי לְעוֹרֵר הַכַּוָּנָה. וְהַכֹּל לְפִי מַה-שֶּׁהוּא אָדָם, בָּאוֹפַן שֶׁמִּתְעוֹרֵר לְכַוֵּן. וְכֵן לְעִנְיַן לְהִתְנוֹעֵעַ בַּתְּפִלָּה, שֶׁיֵּשׁ אֲנָשִׁים שֶׁעַל-יְדֵי שֶׁמִּתְנַעְנְעִים בַּתְּפִלָּה מִתְעוֹרְרִים לְכַוֵּן, וְהוּא עַל שֵׁם הַפָּסוּק \"כָּל עַצְמוֹתַי תֹּאמַרְנָה ה'\", וְיֵשׁ שֶׁגַּם בְּלֹא שֶׁמִּתְנוֹעֲעִים יְכוֹלִים לְכַוֵּן הֵיטֵב, וְאָז עָדִיף יוֹתֵר שֶׁלֹּא לְהִתְנוֹעֵעַ. [ילקו\"י שָׁם עַמּוּד קיב].",
       "francais": "21. La coutume du Ari (de mémoire bénie) était de ne pas prier à haute voix, même pour les Zemirot (cantiques), afin de manifester soumission, crainte et révérence devant l'Éternel. Cependant, le jour du Chabbat, il élevait légèrement la voix avec mélodie en l'honneur du Chabbat. Certains ont l'habitude de réciter les Zemirot, le Chema et ses bénédictions à haute voix et avec ferveur pour éveiller leur concentration. Tout dépend de chaque personne, selon ce qui l'aide à se concentrer. Il en va de même pour le balancement pendant la prière : certaines personnes arrivent à se concentrer en se balançant, en s'appuyant sur le verset \"Tous mes os diront : Éternel...\", tandis que d'autres arrivent très bien à se concentrer sans se balancer ; dans ce cas, il est préférable de ne pas se balancer. [Yalkout Yossef, là-bas page 112]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "כא.",
+        "hebreu_brut": "כא",
         "hebreu_voyelles": "כא.",
         "francais_mot": "21.",
         "expression_contexte": "21. La coutume"
@@ -10670,7 +10712,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 30,
-        "hebreu_brut": "ויש",
+        "hebreu_brut": "ולכן",
         "hebreu_voyelles": "וְיֵשׁ",
         "francais_mot": "Certains (il y a)",
         "expression_contexte": "Certains ont l'habitude"
@@ -10785,7 +10827,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 46,
-        "hebreu_brut": "מה-שהוא",
+        "hebreu_brut": "מה",
         "hebreu_voyelles": "מַה-שֶּׁהוּא",
         "francais_mot": "ce qu'est",
         "expression_contexte": "ce qu'est la personne,"
@@ -10814,7 +10856,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 50,
-        "hebreu_brut": "לכוון.",
+        "hebreu_brut": "לכוין.",
         "hebreu_voyelles": "לְכַוֵּן.",
         "francais_mot": "à se concentrer.",
         "expression_contexte": "Il en va de même",
@@ -10865,7 +10907,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 57,
-        "hebreu_brut": "שעל-ידי",
+        "hebreu_brut": "שעל",
         "hebreu_voyelles": "שֶׁעַל-יְדֵי",
         "francais_mot": "que par le fait",
         "expression_contexte": "qu'elles se balancent"
@@ -10887,7 +10929,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 60,
-        "hebreu_brut": "מתעוררים",
+        "hebreu_brut": "מתעורר",
         "hebreu_voyelles": "מִתְעוֹרְרִים",
         "francais_mot": "s'éveillent",
         "expression_contexte": "à se concentrer,",
@@ -10895,7 +10937,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 61,
-        "hebreu_brut": "לכוון,",
+        "hebreu_brut": "לכוין,",
         "hebreu_voyelles": "לְכַוֵּן,",
         "francais_mot": "à se concentrer,",
         "expression_contexte": "et cela s'appuie",
@@ -10931,7 +10973,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 66,
-        "hebreu_brut": "\"כל",
+        "hebreu_brut": "כל",
         "hebreu_voyelles": "\"כָּל",
         "francais_mot": "\"Tous",
         "expression_contexte": "mes os"
@@ -10953,7 +10995,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 69,
-        "hebreu_brut": "ה'\",",
+        "hebreu_brut": "ה',",
         "hebreu_voyelles": "ה'\",",
         "francais_mot": "Éternel\",",
         "expression_contexte": "tandis que d'autres"
@@ -10997,7 +11039,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 75,
-        "hebreu_brut": "לכוון",
+        "hebreu_brut": "לכוין",
         "hebreu_voyelles": "לְכַוֵּן",
         "francais_mot": "à se concentrer",
         "expression_contexte": "très bien,",
@@ -11077,19 +11119,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "22",
+    "id": "p22",
+    "numero": "22",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "22",
     "titre_seif": "Lecture quotidienne de la Parachat Haakedah",
     "texte_integral": {
-      "hebreu_sans_voyelles": "כב. טוב לומר בכל-יום פרשת העקדה כדי להזכיר זכות אבות לפני הקדוש ברוך-הוא, וגם להכניע את יצרו לעבודת ה', כמו שיצחק אבינו עליו השלום מסר את נפשו. ונכון מאד להשתדל לקרא את הפתיחה לפני התפלה, כי הפתיחה היא בעולם העשיה, ואם יקרא הפתיחה אחר התפלה, נמצא מהפך סדר העולמות. ואולם במנחה אין מנהגנו לומר פרשת העקדה, זולת ביום הכפורים. ומצוה מן המובחר שיתעטף בציצית ויניח תפילין קודם קריאת פרשת העקדה. אבל אם לא הגיע זמן טלית ותפילין, יכול לקרא פרשת העקדה ופסוק \"שמע ישראל\" דקרבנות גם בלא תפילין. [שארית יוסף חלק א' עמוד ט'. ילקו\"י הלכות השכמת הבוקר עמוד קיג].",
+      "hebreu_sans_voyelles": "כב טוב לומר בכל יום פרשת העקדה כדי להזכיר זכות אבות לפני הקב\"ה, וגם להכניע את יצרו לעבודת ה', כמו שיצחק אבינו ע\"ה מסר את נפשו. ונכון מאד להשתדל לקרוא את הפתיחה לפני התפלה, כי הפתיחה היא בעולם העשייה, ואם יקרא הפתיחה אחר התפלה נמצא מהפך סדר העולמות. ואולם במנחה אין מנהגינו לומר פרשת העקדה, זולת ביום הכפורים. ומצוה מן המובחר שיתעטף בציצית ויניח תפילין קודם קריאת פרשת העקדה. אבל אם לא הגיע זמן טלית ותפילין, יכול לקרוא פרשת העקדה וקריאת שמע דקרבנות גם בלא תפילין. [שארית יוסף ח\"א עמ' ט'. ילקו\"י על הל' השכמת הבוקר עמוד קיג].",
       "hebreu_avec_voyelles": "כָּב. טוֹב לוֹמַר בְּכָל-יוֹם פָּרָשַׁת הָעֲקֵדָה כְּדֵי לְהַזְכִּיר זְכוּת אָבוֹת לִפְנֵי הַקָּדוֹשׁ בָּרוּךְ-הוּא, וְגַם לְהַכְנִיעַ אֶת יִצְרוֹ לַעֲבוֹדַת ה', כְּמוֹ שֶׁיִּצְחָק אָבִינוּ עָלָיו הַשָּׁלוֹם מָסַר אֶת נַפְשׁוֹ. וְנָכוֹן מְאֹד לְהִשְׁתַּדֵּל לִקְרֹא אֶת הַפְּתִיחָה לִפְנֵי הַתְּפִלָּה, כִּי הַפְּתִיחָה הִיא בְּעוֹלַם הָעֲשִׂיָּה, וְאִם יִקְרָא הַפְּתִיחָה אַחַר הַתְּפִלָּה, נִמְצָא מְהַפֵּךְ סֵדֶר הָעוֹלָמוֹת. וְאוּלָם בְּמִנְחָה אֵין מִנְהָגֵנוּ לוֹמַר פָּרָשַׁת הָעֲקֵדָה, זוּלַת בְּיוֹם הַכִּפּוּרִים. וּמִצְוָה מִן הַמּוּבְחָר שֶׁיִּתְעַטֵּף בְּצִיצִית וְיָנִיחַ תְּפִלִּין קֹדֶם קְרִיאַת פָּרָשַׁת הָעֲקֵדָה. אֲבָל אִם לֹא הִגִּיעַ זְמַן טַלִּית וּתְפִלִּין, יָכוֹל לִקְרֹא פָּרָשַׁת הָעֲקֵדָה וּפָסוּק \"שְׁמַע יִשְׂרָאֵל\" דְּקָרְבָּנוֹת גַּם בְּלֹא תְּפִלִּין. [שְׁאֵרִית יוֹסֵף חֵלֶק א' עַמּוּד ט'. ילקו\"י הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר עַמּוּד קיג].",
       "francais": "22. Il est bon de réciter chaque jour le passage de la Ligature d'Isaac (Parachat Haakedah) afin de rappeler le mérite des Patriarches devant le Saint béni soit-Il, et aussi pour soumettre son penchant au service de Dieu, tout comme notre patriarche Isaac, que la paix soit sur lui, a fait don de sa vie. Il est très approprié de s'efforcer de lire l'introduction avant la prière, car l'introduction correspond au monde de l'Action (Assiya), et s'il la lit après la prière, il inverse l'ordre des mondes. Cependant, à Min'ha, notre coutume n'est pas de dire la Parachat Haakedah, à l'exception du jour de Kippour. La meilleure façon d'accomplir la mitsva est de s'envelopper du Talit avec les Tsitsit et de mettre les Téfiline avant de lire la Parachat Haakedah. Mais si l'heure du Talit et des Téfiline n'est pas encore arrivée, il peut lire la Parachat Haakedah et le verset \"Chema Israël\" des sacrifices même sans Téfiline. [Chéérit Yossef tome 1 page 9. Yalkout Yossef Lois du lever matinal page 113]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "כב.",
+        "hebreu_brut": "כב",
         "hebreu_voyelles": "כב.",
         "francais_mot": "22.",
         "expression_contexte": "22. Il est bon"
@@ -11111,7 +11155,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 4,
-        "hebreu_brut": "בכל-יום",
+        "hebreu_brut": "בכל",
         "hebreu_voyelles": "בְּכָל-יוֹם",
         "francais_mot": "chaque jour",
         "expression_contexte": "le passage (de) la Akéda"
@@ -11168,7 +11212,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 12,
-        "hebreu_brut": "הקדוש",
+        "hebreu_brut": "הקב\"ה,",
         "hebreu_voyelles": "הַקָּדוֹשׁ",
         "francais_mot": "le Saint",
         "expression_contexte": "béni soit-Il,"
@@ -11246,7 +11290,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 23,
-        "hebreu_brut": "עליו",
+        "hebreu_brut": "ע\"ה",
         "hebreu_voyelles": "עָלָיו",
         "francais_mot": "sur lui",
         "expression_contexte": "la paix"
@@ -11304,7 +11348,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 31,
-        "hebreu_brut": "לקרא",
+        "hebreu_brut": "לקרוא",
         "hebreu_voyelles": "לִקְרֹא",
         "francais_mot": "de lire",
         "expression_contexte": "l'introduction",
@@ -11368,7 +11412,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 40,
-        "hebreu_brut": "העשיה,",
+        "hebreu_brut": "העשייה,",
         "hebreu_voyelles": "הָעֲשִׂיָּה,",
         "francais_mot": "l'Action (Assiya),",
         "expression_contexte": "et si"
@@ -11404,7 +11448,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 45,
-        "hebreu_brut": "התפלה,",
+        "hebreu_brut": "התפלה",
         "hebreu_voyelles": "הַתְּפִלָּה,",
         "francais_mot": "la prière,",
         "expression_contexte": "il se trouve"
@@ -11462,7 +11506,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 53,
-        "hebreu_brut": "מנהגנו",
+        "hebreu_brut": "מנהגינו",
         "hebreu_voyelles": "מִנְהָגֵנוּ",
         "francais_mot": "notre coutume",
         "expression_contexte": "de dire"
@@ -11649,7 +11693,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 79,
-        "hebreu_brut": "לקרא",
+        "hebreu_brut": "לקרוא",
         "hebreu_voyelles": "לִקְרֹא",
         "francais_mot": "lire",
         "expression_contexte": "la Parachat",
@@ -11671,14 +11715,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 82,
-        "hebreu_brut": "ופסוק",
+        "hebreu_brut": "וקריאת",
         "hebreu_voyelles": "וּפָסוּק",
         "francais_mot": "et le verset",
         "expression_contexte": "\"Chema"
       },
       {
         "id": 83,
-        "hebreu_brut": "\"שמע",
+        "hebreu_brut": "שמע",
         "hebreu_voyelles": "\"שְׁמַע",
         "francais_mot": "\"Chema",
         "expression_contexte": "Israël\""
@@ -11734,14 +11778,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 91,
-        "hebreu_brut": "חלק",
+        "hebreu_brut": "ח\"א",
         "hebreu_voyelles": "חֵלֶק",
         "francais_mot": "tome",
         "expression_contexte": "1"
       },
       {
         "id": 92,
-        "hebreu_brut": "א'",
+        "hebreu_brut": "עמ'",
         "hebreu_voyelles": "א'",
         "francais_mot": "1",
         "expression_contexte": "page"
@@ -11769,7 +11813,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 96,
-        "hebreu_brut": "הלכות",
+        "hebreu_brut": "על",
         "hebreu_voyelles": "הִלְכוֹת",
         "francais_mot": "Lois du",
         "expression_contexte": "lever"
@@ -11805,26 +11849,28 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "23",
+    "id": "p23",
+    "numero": "23",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "23",
     "titre_seif": "Parachat Haakedah le Chabbat et Fêtes",
     "texte_integral": {
-      "hebreu_sans_voyelles": "כג. מנהגנו לומר פרשת העקדה בשחרית גם בשבת ויום טוב, ואין לשנות. [שאר\"י ח\"א עמ' י'. ילקו\"י שם עמ' קטו].",
+      "hebreu_sans_voyelles": "כג מנהגינו לומר פרשת העקדה גם בשבת ויום טוב, ואין לשנות. [שארית יוסף חלק א' עמוד י', ילקוט יוסף על הלכות השכמת הבוקר מהדורת תשס\"ד סימן א' עמ' קטו].",
       "hebreu_avec_voyelles": "כָּג. מִנְהָגֵנוּ לוֹמַר פָּרָשַׁת הָעֲקֵדָה בְּשַׁחֲרִית גַּם בְּשַׁבָּת וְיוֹם טוֹב, וְאֵין לְשַׁנּוֹת. [שאר\"י ח\"א עמ' י'. ילקו\"י שָׁם עמ' קטו].",
       "francais": "23. Notre coutume est de réciter la Parachat Haakedah lors de l'office de Cha'harit, y compris le Chabbat et les jours de fête (Yom Tov), et il ne faut pas modifier cette pratique. [Chéérit Yossef tome 1 page 10. Yalkout Yossef là-bas page 115]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "כג.",
+        "hebreu_brut": "כג",
         "hebreu_voyelles": "כג.",
         "francais_mot": "23.",
         "expression_contexte": "23. Notre coutume"
       },
       {
         "id": 2,
-        "hebreu_brut": "מנהגנו",
+        "hebreu_brut": "מנהגינו",
         "hebreu_voyelles": "מִנְהָגֵנוּ",
         "francais_mot": "Notre coutume",
         "expression_contexte": "Notre coutume est de réciter"
@@ -11903,42 +11949,42 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 13,
-        "hebreu_brut": "[שאר\"י",
+        "hebreu_brut": "[שארית",
         "hebreu_voyelles": "[שאר\"י",
         "francais_mot": "[Chéérit Yossef",
         "expression_contexte": "tome"
       },
       {
         "id": 14,
-        "hebreu_brut": "ח\"א",
+        "hebreu_brut": "יוסף",
         "hebreu_voyelles": "ח\"א",
         "francais_mot": "tome 1",
         "expression_contexte": "page"
       },
       {
         "id": 15,
-        "hebreu_brut": "עמ'",
+        "hebreu_brut": "חלק",
         "hebreu_voyelles": "עמ'",
         "francais_mot": "page",
         "expression_contexte": "10."
       },
       {
         "id": 16,
-        "hebreu_brut": "י'.",
+        "hebreu_brut": "י',",
         "hebreu_voyelles": "י'.",
         "francais_mot": "10.",
         "expression_contexte": "Yalkout Yossef"
       },
       {
         "id": 17,
-        "hebreu_brut": "ילקו\"י",
+        "hebreu_brut": "ילקוט",
         "hebreu_voyelles": "ילקו\"י",
         "francais_mot": "Yalkout Yossef",
         "expression_contexte": "là-bas"
       },
       {
         "id": 18,
-        "hebreu_brut": "שם",
+        "hebreu_brut": "יוסף",
         "hebreu_voyelles": "שָׁם",
         "francais_mot": "là-bas",
         "expression_contexte": "page"
@@ -11960,19 +12006,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "24",
+    "id": "p24",
+    "numero": "24",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "24",
     "titre_seif": "Arrivée tardive à la synagogue le Chabbat",
     "texte_integral": {
-      "hebreu_sans_voyelles": "כד. אולם המתאחר מלבוא בשבת לבית-הכנסת והוצרך לדלג חלק מתחלת התפלה כדי שיוכל להתפלל תפלה בצבור [תפלת הלחש או החזרה עם הצבור], יש אומרים שעדיף שידלג פרשת העקדה בשבת, ולא ידלג את המזמורים, ויש חולקים ואומרים שידלג המזמורים של שבת, ולא ידלג פרשת העקדה, כיון שהיא תדירה יותר. וכן עיקר לדינא. [שם עמוד קטז].",
+      "hebreu_sans_voyelles": "כד אולם המתאחר מלבוא בשבת לביהכ\"נ והוצרך לדלג חלק מתחלת התפלה כדי שיוכל להתפלל תפלה בצבור [תפלת הלחש או החזרה עם הצבור], יש אומרים שעדיף שידלג פרשת העקדה בשבת, ולא ידלג את המזמורים, ויש חולקים ואומרים שידלג המזמורים של שבת, ולא ידלג פרשת העקדה, כיון שהיא תדירה יותר. וכן עיקר לדינא. [שם עמוד קטז].",
       "hebreu_avec_voyelles": "כָּד. אוּלָם הַמִּתְאַחֵר מִלָּבוֹא בְּשַׁבָּת לְבֵית-הַכְּנֶסֶת וְהוּצְרַךְ לְדַלֵּג חֵלֶק מִתְּחִלַּת הַתְּפִלָּה כְּדֵי שֶׁיּוּכַל לְהִתְפַּלֵּל תְּפִלָּה בְּצִבּוּר [תְּפִלַּת הַלַּחַשׁ אוֹ הַחֲזָרָה עִם הַצִּבּוּר], יֵשׁ אוֹמְרִים שֶׁעָדִיף שֶׁיְּדַלֵּג פָּרָשַׁת הָעֲקֵדָה בְּשַׁבָּת, וְלֹא יְדַלֵּג אֶת הַמִּזְמוֹרִים, וְיֵשׁ חוֹלְקִים וְאוֹמְרִים שֶׁיְּדַלֵּג הַמִּזְמוֹרִים שֶׁל שַׁבָּת, וְלֹא יְדַלֵּג פָּרָשַׁת הָעֲקֵדָה, כֵּיוָן שֶׁהִיא תְּדִירָה יוֹתֵר. וְכֵן עִקָּר לְדִינָא. [שָׁם עַמּוּד קטז].",
       "francais": "24. Toutefois, celui qui arrive en retard à la synagogue le Chabbat et doit sauter une partie du début de l'office pour pouvoir prier avec la communauté [la prière silencieuse ou la répétition avec la communauté], certains décisionnaires affirment qu'il est préférable qu'il saute la Parachat Haakedah du Chabbat plutôt que de sauter les Psaumes. D'autres sont en désaccord et affirment qu'il doit sauter les Psaumes du Chabbat mais pas la Parachat Haakedah, puisqu'elle est plus fréquente. C'est cette dernière opinion qui est retenue pour la Halakha. [Là-bas page 116]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "כד.",
+        "hebreu_brut": "כד",
         "hebreu_voyelles": "כד.",
         "francais_mot": "24.",
         "expression_contexte": "24. Toutefois,"
@@ -12009,7 +12057,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 6,
-        "hebreu_brut": "לבית-הכנסת",
+        "hebreu_brut": "לביהכ\"נ",
         "hebreu_voyelles": "לְבֵית-הַכְּנֶסֶת",
         "francais_mot": "à la synagogue",
         "expression_contexte": "et doit (a eu besoin)"
@@ -12364,19 +12412,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "25",
+    "id": "p25",
+    "numero": "25",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "25",
     "titre_seif": "Verset suivant la Parachat Haakedah",
     "texte_integral": {
-      "hebreu_sans_voyelles": "כה. אחר אמירת פרשת העקדה אומרים פסוק \"ושחט אתו על ירך המזבח\" וגו', וכן מנהג הספרדים, והוא על-פי המדרש: אמר הקדוש ברוך-הוא, מעיד אני עלי שמים וארץ, בין עכו\"ם בין ישראל, בשעה שהן קוראין מקרא זה \"צפונה לפני ה'\", אני זוכר עקדת יצחק. [ואומרים פסוק \"ושחט אותו\" וגו' גם קודם \"איזהו מקומן\"]. [שארית יוסף חלק א' עמוד יג. ילקו\"י הלכות השכמת הבוקר תשס\"ד עמוד קטז].",
+      "hebreu_sans_voyelles": "כה אחר אמירת פרשת העקדה אומרים פסוק \"ושחט אותו על ירך המזבח וגו\"', וכן מנהג הספרדים, והוא על פי המדרש, אמר הקב\"ה מעיד אני עלי שמים וארץ בין עכו\"ם בין ישראל בשעה שהן קוראין מקרא זה צפונה לפני ה', אני זוכר עקידת יצחק. [ואומרים פסוק ושחט אותו וגו' גם קודם איזהו מקומן]. [שארית יוסף חלק א' עמוד יג. ילקוט יוסף על הלכות השכמת הבוקר מהדורת שנת תשס\"ד עמוד קטז].",
       "hebreu_avec_voyelles": "כָּה. אַחַר אֲמִירַת פָּרָשַׁת הָעֲקֵדָה אוֹמְרִים פָּסוּק \"וְשָׁחַט אֹתוֹ עַל יֶרֶךְ הַמִּזְבֵּחַ\" וְגוֹ', וְכֵן מִנְהַג הַסְּפָרַדִּים, וְהוּא עַל-פִּי הַמִּדְרָשׁ: אָמַר הַקָּדוֹשׁ בָּרוּךְ-הוּא, מֵעִיד אֲנִי עָלַי שָׁמַיִם וָאָרֶץ, בֵּין עַכּוּ\"ם בֵּין יִשְׂרָאֵל, בְּשָׁעָה שֶׁהֵן קוֹרְאִין מִקְרָא זֶה \"צָפוֹנָה לִפְנֵי ה'\", אֲנִי זוֹכֵר עֲקֵדַת יִצְחָק. [וְאוֹמְרִים פָּסוּק \"וְשָׁחַט אוֹתוֹ\" וְגוֹ' גַּם קוֹדֶם \"אֵיזֶהוּ מְקוֹמָן\"]. [שְׁאֵרִית יוֹסֵף חֵלֶק א' עַמּוּד יג. ילקו\"י הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר תשס\"ד עַמּוּד קטז].",
       "francais": "25. Après la récitation de la Parachat Haakedah, on récite le verset \"Il l'égorgera sur le côté de l'autel...\", telle est la coutume des Séfarades. Cela se fonde sur le Midrach : Le Saint béni soit-Il a dit : \"Je prends à témoin le ciel et la terre, que ce soit un non-Juif ou un Juif, au moment où ils lisent ce verset 'Tsafona lifné Hachem' (au nord devant l'Éternel), Je me souviens de la ligature d'Isaac.\" [On récite également le verset \"Il l'égorgera...\" avant le passage \"Ézéhou mekoman\"]. [Chéérit Yossef tome 1 page 13. Yalkout Yossef Lois du lever matinal éd. 2004 page 116]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "כה.",
+        "hebreu_brut": "כה",
         "hebreu_voyelles": "כה.",
         "francais_mot": "25.",
         "expression_contexte": "25. Après"
@@ -12434,7 +12484,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 9,
-        "hebreu_brut": "אתו",
+        "hebreu_brut": "אותו",
         "hebreu_voyelles": "אֹתוֹ",
         "francais_mot": "(le)",
         "expression_contexte": "sur"
@@ -12455,14 +12505,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 12,
-        "hebreu_brut": "המזבח\"",
+        "hebreu_brut": "המזבח",
         "hebreu_voyelles": "הַמִּזְבֵּחַ\"",
         "francais_mot": "l'autel\"",
         "expression_contexte": "telle est"
       },
       {
         "id": 13,
-        "hebreu_brut": "וגו',",
+        "hebreu_brut": "וגו\"',",
         "hebreu_voyelles": "וְגוֹ',",
         "francais_mot": "...",
         "expression_contexte": "telle est la coutume"
@@ -12497,14 +12547,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 18,
-        "hebreu_brut": "על-פי",
+        "hebreu_brut": "על",
         "hebreu_voyelles": "עַל-פִּי",
         "francais_mot": "se fonde sur",
         "expression_contexte": "le Midrach :"
       },
       {
         "id": 19,
-        "hebreu_brut": "המדרש:",
+        "hebreu_brut": "המדרש,",
         "hebreu_voyelles": "הַמִּדְרָשׁ:",
         "francais_mot": "le Midrach :",
         "expression_contexte": "a dit"
@@ -12519,7 +12569,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 21,
-        "hebreu_brut": "הקדוש",
+        "hebreu_brut": "הקב\"ה",
         "hebreu_voyelles": "הַקָּדוֹשׁ",
         "francais_mot": "Le Saint",
         "expression_contexte": "béni soit-Il,"
@@ -12562,7 +12612,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 27,
-        "hebreu_brut": "וארץ,",
+        "hebreu_brut": "וארץ",
         "hebreu_voyelles": "וָאָרֶץ,",
         "francais_mot": "et la terre,",
         "expression_contexte": "que ce soit"
@@ -12590,7 +12640,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 31,
-        "hebreu_brut": "ישראל,",
+        "hebreu_brut": "ישראל",
         "hebreu_voyelles": "יִשְׂרָאֵל,",
         "francais_mot": "un Juif,",
         "expression_contexte": "au moment"
@@ -12633,7 +12683,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 37,
-        "hebreu_brut": "\"צפונה",
+        "hebreu_brut": "צפונה",
         "hebreu_voyelles": "\"צָפוֹנָה",
         "francais_mot": "'Tsafona",
         "expression_contexte": "lifné"
@@ -12647,7 +12697,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 39,
-        "hebreu_brut": "ה'\",",
+        "hebreu_brut": "ה',",
         "hebreu_voyelles": "ה'\",",
         "francais_mot": "Hachem'",
         "expression_contexte": "Je"
@@ -12669,7 +12719,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 42,
-        "hebreu_brut": "עקדת",
+        "hebreu_brut": "עקידת",
         "hebreu_voyelles": "עֲקֵדַת",
         "francais_mot": "de la ligature",
         "expression_contexte": "d'Isaac.\""
@@ -12698,7 +12748,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 46,
-        "hebreu_brut": "\"ושחט",
+        "hebreu_brut": "ושחט",
         "hebreu_voyelles": "\"וְשָׁחַט",
         "francais_mot": "\"Il l'égorgera...\"",
         "expression_contexte": "également",
@@ -12706,7 +12756,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 47,
-        "hebreu_brut": "אותו\"",
+        "hebreu_brut": "אותו",
         "hebreu_voyelles": "אוֹתוֹ\"",
         "francais_mot": "(le)\"",
         "expression_contexte": "également"
@@ -12734,14 +12784,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 51,
-        "hebreu_brut": "\"איזהו",
+        "hebreu_brut": "איזהו",
         "hebreu_voyelles": "\"אֵיזֶהוּ",
         "francais_mot": "\"Ézéhou",
         "expression_contexte": "mekoman\"]."
       },
       {
         "id": 52,
-        "hebreu_brut": "מקומן\"].",
+        "hebreu_brut": "מקומן].",
         "hebreu_voyelles": "מְקוֹמָן\"].",
         "francais_mot": "mekoman\"].",
         "expression_contexte": "[Chéérit"
@@ -12790,7 +12840,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 59,
-        "hebreu_brut": "ילקו\"י",
+        "hebreu_brut": "ילקוט",
         "hebreu_voyelles": "ילקו\"י",
         "francais_mot": "Yalkout Yossef",
         "expression_contexte": "Lois du"
@@ -12840,19 +12890,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "26",
+    "id": "p26",
+    "numero": "26",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "26",
     "titre_seif": "Lecture quotidienne du sacrifice perpétuel",
     "texte_integral": {
-      "hebreu_sans_voyelles": "כו. טוב לומר בכל-יום פרשת התמיד. [ואמנם אמירת פרשת הקרבנות אינה חיוב גמור כמו כל-שאר התפלה, אלא מנהג הגון וטוב]. ואחר פרשת התמיד טוב לומר פרק \"איזהו מקומן\". [שם עמוד קיז].",
+      "hebreu_sans_voyelles": "כו טוב לומר בכל יום פרשת התמיד. [ואמנם אמירת פרשת הקרבנות אינה חיוב גמור כמו כל שאר התפלה, אלא מנהג הגון וטוב, שיתבעו על זה בשמים לפי מדרגת האדם]. ואחר פרשת התמיד טוב לומר פרק איזהו מקומן. [שם עמוד קיז].",
       "hebreu_avec_voyelles": "כָּו. טוֹב לוֹמַר בְּכָל-יוֹם פָּרָשַׁת הַתָּמִיד. [וְאָמְנָם אֲמִירַת פָּרָשַׁת הַקָּרְבָּנוֹת אֵינָהּ חִיּוּב גָּמוּר כְּמוֹ כָּל-שְׁאָר הַתְּפִלָּה, אֶלָּא מִנְהָג הָגוּן וְטוֹב]. וְאַחַר פָּרָשַׁת הַתָּמִיד טוֹב לוֹמַר פֶּרֶק \"אֵיזֶהוּ מְקוֹמָן\". [שָׁם עַמּוּד קיז].",
       "francais": "26. Il est bon de réciter chaque jour le passage du sacrifice perpétuel (Parachat Hatamid). [Cependant, la récitation du passage des sacrifices n'est pas une obligation absolue comme le reste de la prière, mais c'est une coutume juste et bonne]. Après la Parachat Hatamid, il est bon de réciter le chapitre \"Ézéhou mekoman\" (Quel est leur emplacement). [Là-bas page 117]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "כו.",
+        "hebreu_brut": "כו",
         "hebreu_voyelles": "כו.",
         "francais_mot": "26.",
         "expression_contexte": "26. Il est bon"
@@ -12874,7 +12926,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 4,
-        "hebreu_brut": "בכל-יום",
+        "hebreu_brut": "בכל",
         "hebreu_voyelles": "בְּכָל-יוֹם",
         "francais_mot": "chaque jour",
         "expression_contexte": "le passage"
@@ -12951,7 +13003,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 15,
-        "hebreu_brut": "כל-שאר",
+        "hebreu_brut": "כל",
         "hebreu_voyelles": "כָּל-שְׁאָר",
         "francais_mot": "tout le reste",
         "expression_contexte": "de la prière,"
@@ -12986,7 +13038,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 20,
-        "hebreu_brut": "וטוב].",
+        "hebreu_brut": "וטוב,",
         "hebreu_voyelles": "וְטוֹב].",
         "francais_mot": "et bonne].",
         "expression_contexte": "Après"
@@ -13036,14 +13088,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 27,
-        "hebreu_brut": "\"איזהו",
+        "hebreu_brut": "איזהו",
         "hebreu_voyelles": "\"אֵיזֶהוּ",
         "francais_mot": "\"Ézéhou",
         "expression_contexte": "mekoman\"."
       },
       {
         "id": 28,
-        "hebreu_brut": "מקומן\".",
+        "hebreu_brut": "מקומן.",
         "hebreu_voyelles": "מְקוֹמָן\".",
         "francais_mot": "mekoman\".",
         "expression_contexte": "[Là-bas"
@@ -13072,19 +13124,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "27",
+    "id": "p27",
+    "numero": "27",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "27",
     "titre_seif": "Sacrifices pour étudiants et érudits",
     "texte_integral": {
-      "hebreu_sans_voyelles": "כז. אף בני ישיבות ותלמידי חכמים ישתדלו לומר בכל-יום פרשת הקרבנות ו\"איזהו מקומן\". [ויש מי שכתב ללמד זכות על אותם תלמידי חכמים שאינם אומרים פרשת הקרבנות וכו', מאחר ועסוקים בלמוד התורה. אולם בימינו אין ראוי לסמך על סברא זו, וראוי לכל-תלמיד חכם, וכל-שכן לכל-בן ישיבה, לקרא בכל-יום פרשת העקדה וכל-סדר התפלה עם הקרבנות ו\"איזהו מקומן\"]. [שם עמוד קיז].",
+      "hebreu_sans_voyelles": "כז אף בני ישיבות ותלמידי חכמים ישתדלו לומר בכל יום פרשת הקרבנות ואיזהו מקומן. [ויש מי שכתב ללמד זכות על אותם תלמידי חכמים שאינם אומרים פרשת הקרבנות וכו', מאחר ועסוקים בלימוד התורה. אולם בימינו אין ראוי לסמוך על סברא זו, וראוי לכל תלמיד חכם וכל שכן לכל בן ישיבה לקרוא בכל יום פרשת העקדה וכל סדר התפלה עם הקרבנות ואיזהו מקומן]. [שם עמוד קיז].",
       "hebreu_avec_voyelles": "כָּז. אַף בְּנֵי יְשִׁיבוֹת וְתַלְמִידֵי חֲכָמִים יִשְׁתַּדְּלוּ לוֹמַר בְּכָל-יוֹם פָּרָשַׁת הַקָּרְבָּנוֹת וְ\"אֵיזֶהוּ מְקוֹמָן\". [וְיֵשׁ מִי שֶׁכָּתַב לְלַמֵּד זְכוּת עַל אוֹתָם תַּלְמִידֵי חֲכָמִים שֶׁאֵינָם אוֹמְרִים פָּרָשַׁת הַקָּרְבָּנוֹת וְכוּ', מֵאַחַר וַעֲסוּקִים בְּלִמּוּד הַתּוֹרָה. אוּלָם בְּיָמֵינוּ אֵין רָאוּי לִסְמֹךְ עַל סְבָרָא זוֹ, וְרָאוּי לְכָל-תַּלְמִיד חָכָם, וְכָל-שֶׁכֵּן לְכָל-בֶּן יְשִׁיבָה, לִקְרֹא בְּכָל-יוֹם פָּרָשַׁת הָעֲקֵדָה וְכָל-סֵדֶר הַתְּפִלָּה עִם הַקָּרְבָּנוֹת וְ\"אֵיזֶהוּ מְקוֹמָן\"]. [שָׁם עַמּוּד קיז].",
       "francais": "27. Même les étudiants en Yéchiva et les érudits en Torah s'efforceront de réciter chaque jour le passage des sacrifices et \"Ézéhou mekoman\". [Certains ont écrit pour justifier les érudits qui ne récitent pas la section des sacrifices, etc., au motif qu'ils sont occupés à l'étude de la Torah. Cependant, de nos jours, il ne convient pas de s'appuyer sur cet argument, et il sied à tout érudit, et à plus forte raison à tout étudiant en Yéchiva, de lire chaque jour la Parachat Haakedah et tout l'ordre de la prière avec les sacrifices et \"Ézéhou mekoman\"]. [Là-bas page 117]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "כז.",
+        "hebreu_brut": "כז",
         "hebreu_voyelles": "כז.",
         "francais_mot": "27.",
         "expression_contexte": "27. Même"
@@ -13142,7 +13196,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 9,
-        "hebreu_brut": "בכל-יום",
+        "hebreu_brut": "בכל",
         "hebreu_voyelles": "בְּכָל-יוֹם",
         "francais_mot": "chaque jour",
         "expression_contexte": "le passage"
@@ -13163,14 +13217,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 12,
-        "hebreu_brut": "ו\"איזהו",
+        "hebreu_brut": "ואיזהו",
         "hebreu_voyelles": "וְ\"אֵיזֶהוּ",
         "francais_mot": "et \"Ézéhou",
         "expression_contexte": "mekoman\"."
       },
       {
         "id": 13,
-        "hebreu_brut": "מקומן\".",
+        "hebreu_brut": "מקומן.",
         "hebreu_voyelles": "מְקוֹמָן\".",
         "francais_mot": "mekoman\".",
         "expression_contexte": "[Certains"
@@ -13293,7 +13347,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 30,
-        "hebreu_brut": "בלמוד",
+        "hebreu_brut": "בלימוד",
         "hebreu_voyelles": "בְּלִמּוּד",
         "francais_mot": "à l'étude",
         "expression_contexte": "de la Torah."
@@ -13335,7 +13389,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 36,
-        "hebreu_brut": "לסמך",
+        "hebreu_brut": "לסמוך",
         "hebreu_voyelles": "לִסְמֹךְ",
         "francais_mot": "de s'appuyer",
         "expression_contexte": "sur",
@@ -13371,42 +13425,42 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 41,
-        "hebreu_brut": "לכל-תלמיד",
+        "hebreu_brut": "לכל",
         "hebreu_voyelles": "לְכָל-תַּלְמִיד",
         "francais_mot": "à tout érudit",
         "expression_contexte": "érudit"
       },
       {
         "id": 42,
-        "hebreu_brut": "חכם,",
+        "hebreu_brut": "חכם",
         "hebreu_voyelles": "חָכָם,",
         "francais_mot": "érudit,",
         "expression_contexte": "et à plus forte raison"
       },
       {
         "id": 43,
-        "hebreu_brut": "וכל-שכן",
+        "hebreu_brut": "וכל",
         "hebreu_voyelles": "וְכָל-שֶׁכֵּן",
         "francais_mot": "et à plus forte raison",
         "expression_contexte": "à tout"
       },
       {
         "id": 44,
-        "hebreu_brut": "לכל-בן",
+        "hebreu_brut": "שכן",
         "hebreu_voyelles": "לְכָל-בֶּן",
         "francais_mot": "à tout étudiant",
         "expression_contexte": "en Yéchiva,"
       },
       {
         "id": 45,
-        "hebreu_brut": "ישיבה,",
+        "hebreu_brut": "ישיבה",
         "hebreu_voyelles": "יְשִׁיבָה,",
         "francais_mot": "en Yéchiva,",
         "expression_contexte": "de lire"
       },
       {
         "id": 46,
-        "hebreu_brut": "לקרא",
+        "hebreu_brut": "לקרוא",
         "hebreu_voyelles": "לִקְרֹא",
         "francais_mot": "de lire",
         "expression_contexte": "chaque jour",
@@ -13414,7 +13468,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 47,
-        "hebreu_brut": "בכל-יום",
+        "hebreu_brut": "בכל",
         "hebreu_voyelles": "בְּכָל-יוֹם",
         "francais_mot": "chaque jour",
         "expression_contexte": "la Parachat"
@@ -13435,7 +13489,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 50,
-        "hebreu_brut": "וכל-סדר",
+        "hebreu_brut": "וכל",
         "hebreu_voyelles": "וְכָל-סֵדֶר",
         "francais_mot": "et tout l'ordre",
         "expression_contexte": "de la prière"
@@ -13463,14 +13517,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 54,
-        "hebreu_brut": "ו\"איזהו",
+        "hebreu_brut": "ואיזהו",
         "hebreu_voyelles": "וְ\"אֵיזֶהוּ",
         "francais_mot": "et \"Ézéhou",
         "expression_contexte": "mekoman\"]."
       },
       {
         "id": 55,
-        "hebreu_brut": "מקומן\"].",
+        "hebreu_brut": "מקומן].",
         "hebreu_voyelles": "מְקוֹמָן\"].",
         "francais_mot": "mekoman\"].",
         "expression_contexte": "[Là-bas"
@@ -13499,19 +13553,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "28",
+    "id": "p28",
+    "numero": "28",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "28",
     "titre_seif": "Sacrifices les jours de Chabbat et Fêtes",
     "texte_integral": {
-      "hebreu_sans_voyelles": "כח. המנהג לומר הקרבנות ופרק \"איזהו מקומן\" גם בשבתות וימים טובים. [שארית יוסף חלק א' עמוד י'. ילקו\"י הלכות השכמת הבוקר מהדורת תשס\"ד, עמוד קיט].",
+      "hebreu_sans_voyelles": "כח המנהג לומר הקרבנות ופרק איזהו מקומן גם בשבתות ובימים טובים. [שארית יוסף חלק א' עמוד י'. ילקוט יוסף על הלכות השכמת הבוקר מהדורת תשס\"ד, עמוד קיט].",
       "hebreu_avec_voyelles": "כָּח. הַמִּנְהָג לוֹמַר הַקָּרְבָּנוֹת וּפֶרֶק \"אֵיזֶהוּ מְקוֹמָן\" גַּם בְּשַׁבָּתוֹת וְיָמִים טוֹבִים. [שְׁאֵרִית יוֹסֵף חֵלֶק א' עַמּוּד י'. ילקו\"י הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר מַהֲדוּרַת תשס\"ד, עַמּוּד קיט].",
       "francais": "28. La coutume est de réciter les passages des sacrifices et le chapitre \"Ézéhou mekoman\" également les jours de Chabbat et les jours de fête (Yamim Tovim). [Chéérit Yossef tome 1 page 10. Yalkout Yossef Lois du lever matinal éd. 2004, page 119]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "כח.",
+        "hebreu_brut": "כח",
         "hebreu_voyelles": "כח.",
         "francais_mot": "28.",
         "expression_contexte": "28. La coutume"
@@ -13547,14 +13603,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 6,
-        "hebreu_brut": "\"איזהו",
+        "hebreu_brut": "איזהו",
         "hebreu_voyelles": "\"אֵיזֶהוּ",
         "francais_mot": "\"Ézéhou",
         "expression_contexte": "mekoman\""
       },
       {
         "id": 7,
-        "hebreu_brut": "מקומן\"",
+        "hebreu_brut": "מקומן",
         "hebreu_voyelles": "מְקוֹמָן\"",
         "francais_mot": "mekoman\"",
         "expression_contexte": "également"
@@ -13575,7 +13631,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 10,
-        "hebreu_brut": "וימים",
+        "hebreu_brut": "ובימים",
         "hebreu_voyelles": "וְיָמִים",
         "francais_mot": "et les jours",
         "expression_contexte": "de fête"
@@ -13631,7 +13687,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 18,
-        "hebreu_brut": "ילקו\"י",
+        "hebreu_brut": "ילקוט",
         "hebreu_voyelles": "ילקו\"י",
         "francais_mot": "Yalkout Yossef",
         "expression_contexte": "Lois du"
@@ -13688,19 +13744,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "29",
+    "id": "p29",
+    "numero": "29",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "29",
     "titre_seif": "Réciter les sacrifices à la synagogue",
     "texte_integral": {
-      "hebreu_sans_voyelles": "כט. יש להשתדל לומר הקרבנות דוקא בבית-הכנסת, דומיא דהקרבת קרבנות בבית-המקדש. ואף אותם שלא נזהרים לקרא פרשת הקרבנות בכל-יום, מיהו בזמן מגפה וחלי רע בעולם, בר מנן, יזהרו לקרות פרשיות הקרבנות דבר יום ביומו, שהוא מסגל הרבה, ונכון לבו בטוח כי לא תאנה אליו רעה, שהוא משמר מכל-דבר רע. [שם עמוד קכ].",
+      "hebreu_sans_voyelles": "כט יש להשתדל לומר הקרבנות דוקא בבית הכנסת, דומיא דהקרבת קרבנות בבית המקדש. ואף שיש שלא נזהרים לקרוא פרשת הקרבנות בכל יום, מיהו בזמן מגפה וחולי רע בעולם ב\"מ, טוב לקרות פרשיות הקרבנות דבר יום ביומו, שהוא מסוגל הרבה, ונכון לבו בטוח כי לא תאונה אליו רעה, שהוא משומר מכל דבר רע. [שם עמוד קכ].",
       "hebreu_avec_voyelles": "כָּט. יֵשׁ לְהִשְׁתַּדֵּל לוֹמַר הַקָּרְבָּנוֹת דַּוְקָא בְּבֵית-הַכְּנֶסֶת, דּוּמְיָא דְּהַקְרָבַת קָרְבָּנוֹת בְּבֵית-הַמִּקְדָּשׁ. וְאַף אוֹתָם שֶׁלֹּא נִזְהָרִים לִקְרֹא פָּרָשַׁת הַקָּרְבָּנוֹת בְּכָל-יוֹם, מִיהוּ בִּזְמַן מַגֵּפָה וְחֹלִי רַע בָּעוֹלָם, בַּר מִנַּן, יִזָּהֲרוּ לִקְרוֹת פָּרָשִׁיּוֹת הַקָּרְבָּנוֹת דְּבַר יוֹם בְּיוֹמוֹ, שֶׁהוּא מְסֻגָּל הַרְבֵּה, וְנָכוֹן לִבּוֹ בָּטּוּחַ כִּי לֹא תְאֻנֶּה אֵלָיו רָעָה, שֶׁהוּא מְשֻׁמָּר מִכָּל-דָּבָר רַע. [שָׁם עַמּוּד קכ].",
       "francais": "29. Il faut s'efforcer de réciter les passages des sacrifices précisément à la synagogue, à l'instar de l'offrande des sacrifices dans le Temple. Même ceux qui ne veillent pas à lire la section des sacrifices tous les jours, prendront soin, en temps d'épidémie et de maladie grave dans le monde, qu'à Dieu ne plaise, de lire les passages des sacrifices chaque jour, car cela possède une grande vertu protectrice, et son cœur sera assuré qu'aucun mal ne lui arrivera, car il sera préservé de toute chose néfaste. [Là-bas page 120]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "כט.",
+        "hebreu_brut": "כט",
         "hebreu_voyelles": "כט.",
         "francais_mot": "29.",
         "expression_contexte": "29. Il faut"
@@ -13744,7 +13802,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 7,
-        "hebreu_brut": "בבית-הכנסת,",
+        "hebreu_brut": "בבית",
         "hebreu_voyelles": "בְּבֵית-הַכְּנֶסֶת,",
         "francais_mot": "à la synagogue,",
         "expression_contexte": "à l'instar"
@@ -13772,7 +13830,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 11,
-        "hebreu_brut": "בבית-המקדש.",
+        "hebreu_brut": "בבית",
         "hebreu_voyelles": "בְּבֵית-הַמִּקְדָּשׁ.",
         "francais_mot": "dans le Temple.",
         "expression_contexte": "Même"
@@ -13786,7 +13844,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 13,
-        "hebreu_brut": "אותם",
+        "hebreu_brut": "שיש",
         "hebreu_voyelles": "אוֹתָם",
         "francais_mot": "ceux",
         "expression_contexte": "qui ne"
@@ -13808,7 +13866,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 16,
-        "hebreu_brut": "לקרא",
+        "hebreu_brut": "לקרוא",
         "hebreu_voyelles": "לִקְרֹא",
         "francais_mot": "à lire",
         "expression_contexte": "la section",
@@ -13830,7 +13888,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 19,
-        "hebreu_brut": "בכל-יום,",
+        "hebreu_brut": "בכל",
         "hebreu_voyelles": "בְּכָל-יוֹם,",
         "francais_mot": "tous les jours,",
         "expression_contexte": "prendront soin (cependant)"
@@ -13858,7 +13916,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 23,
-        "hebreu_brut": "וחלי",
+        "hebreu_brut": "וחולי",
         "hebreu_voyelles": "וְחֹלִי",
         "francais_mot": "et de maladie",
         "expression_contexte": "grave"
@@ -13872,21 +13930,21 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 25,
-        "hebreu_brut": "בעולם,",
+        "hebreu_brut": "בעולם",
         "hebreu_voyelles": "בָּעוֹלָם,",
         "francais_mot": "dans le monde,",
         "expression_contexte": "qu'à Dieu ne plaise,"
       },
       {
         "id": 26,
-        "hebreu_brut": "בר",
+        "hebreu_brut": "ב\"מ,",
         "hebreu_voyelles": "בַּר",
         "francais_mot": "qu'à Dieu ne plaise (Bar",
         "expression_contexte": "qu'à Dieu ne plaise,"
       },
       {
         "id": 27,
-        "hebreu_brut": "מנן,",
+        "hebreu_brut": "טוב",
         "hebreu_voyelles": "מִנַּן,",
         "francais_mot": "minan),",
         "expression_contexte": "prendront soin"
@@ -13951,7 +14009,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 36,
-        "hebreu_brut": "מסגל",
+        "hebreu_brut": "מסוגל",
         "hebreu_voyelles": "מְסֻגָּל",
         "francais_mot": "possède une vertu",
         "expression_contexte": "grande,"
@@ -14000,7 +14058,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 43,
-        "hebreu_brut": "תאנה",
+        "hebreu_brut": "תאונה",
         "hebreu_voyelles": "תְאֻנֶּה",
         "francais_mot": "n'arrivera",
         "expression_contexte": "à lui",
@@ -14029,14 +14087,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 47,
-        "hebreu_brut": "משמר",
+        "hebreu_brut": "משומר",
         "hebreu_voyelles": "מְשֻׁמָּר",
         "francais_mot": "sera préservé",
         "expression_contexte": "de toute"
       },
       {
         "id": 48,
-        "hebreu_brut": "מכל-דבר",
+        "hebreu_brut": "מכל",
         "hebreu_voyelles": "מִכָּל-דָּבָר",
         "francais_mot": "de toute chose",
         "expression_contexte": "néfaste."
@@ -14072,19 +14130,21 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "30",
+    "id": "p30",
+    "numero": "30",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "30",
     "titre_seif": "Récitation des autres passages de sacrifices",
     "texte_integral": {
-      "hebreu_sans_voyelles": "ל. יש נוהגים לומר פרשת עולה ופרשת חטאת. ואין מנהגנו לאמרם, שסומכים על אמירת פרק \"איזהו מקומן\" שיש בו סדר כל-הקרבנות. ואין אומרים פרשת המנורה, שפרשה זו מצריכה עבודת המקדש, ובפרט דבתוך פרשת הקטרת אומרים פסוק \"והקטיר עליו\" וגו', ומזכירים הנרות. [שארית יוסף חלק א' עמוד טו, ועמוד יז. ילקו\"י הלכות השכמת הבוקר עמוד קכ].",
+      "hebreu_sans_voyelles": "ל יש נוהגים לומר פרשת עולה ופרשת חטאת. ואין מנהגינו לאומרם, שסומכים על אמירת פרק \"איזהו מקומן\" שיש בו סדר כל הקרבנות. ואין אומרים פרשת המנורה, שפרשה זו מצריכה עבודת המקדש, ובפרט דבתוך פרשת הקטורת אומרים פסוק והקטיר עליו וגו', ומזכירים הנרות. [שארית יוסף ח\"א עמ' טו, ועמ' יז. ילקו\"י הלכות השכמת הבוקר עמ' קכ].",
       "hebreu_avec_voyelles": "ל. יֵשׁ נוֹהֲגִים לוֹמַר פָּרָשַׁת עוֹלָה וּפָרָשַׁת חַטָּאת. וְאֵין מִנְהָגֵנוּ לְאָמְרָם, שֶׁסּוֹמְכִים עַל אֲמִירַת פֶּרֶק \"אֵיזֶהוּ מְקוֹמָן\" שֶׁיֵּשׁ בּוֹ סֵדֶר כָּל-הַקָּרְבָּנוֹת. וְאֵין אוֹמְרִים פָּרָשַׁת הַמְּנוֹרָה, שֶׁפָּרָשָׁה זוֹ מַצְרִיכָה עֲבוֹדַת הַמִּקְדָּשׁ, וּבִפְרָט דִּבְתוֹךְ פָּרָשַׁת הַקְּטֹרֶת אוֹמְרִים פָּסוּק \"וְהִקְטִיר עָלָיו\" וְגוֹ', וּמַזְכִּירִים הַנֵּרוֹת. [שְׁאֵרִית יוֹסֵף חֵלֶק א' עַמּוּד טו, וְעַמּוּד יז. ילקו\"י הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר עַמּוּד קכ].",
       "francais": "30. Certains ont la coutume de dire le passage de l'holocauste (Olah) et celui du sacrifice expiatoire (Hatat). Notre coutume n'est pas de les réciter, car nous nous appuyons sur la récitation du chapitre \"Ézéhou mekoman\" qui contient l'ordre de tous les sacrifices. De plus, nous ne récitons pas le passage de la Ménorah, car ce passage requiert le service du Temple ; d'autant plus qu'au sein de la lecture de l'encens, nous récitons déjà le verset \"Il y fera fumer...\" et nous y mentionnons les lampes. [Chéérit Yossef tome 1 page 15, et page 17. Yalkout Yossef Lois du lever matinal page 120]."
     },
     "mots_alignes": [
       {
         "id": 1,
-        "hebreu_brut": "ל.",
+        "hebreu_brut": "ל",
         "hebreu_voyelles": "ל.",
         "francais_mot": "30.",
         "expression_contexte": "30. Certains"
@@ -14149,14 +14209,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 10,
-        "hebreu_brut": "מנהגנו",
+        "hebreu_brut": "מנהגינו",
         "hebreu_voyelles": "מִנְהָגֵנוּ",
         "francais_mot": "Notre coutume",
         "expression_contexte": "de les réciter,"
       },
       {
         "id": 11,
-        "hebreu_brut": "לאמרם,",
+        "hebreu_brut": "לאומרם,",
         "hebreu_voyelles": "לְאָמְרָם,",
         "francais_mot": "de les réciter,",
         "expression_contexte": "car nous nous appuyons",
@@ -14228,7 +14288,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 21,
-        "hebreu_brut": "כל-הקרבנות.",
+        "hebreu_brut": "כל",
         "hebreu_voyelles": "כָּל-הַקָּרְבָּנוֹת.",
         "francais_mot": "tous les sacrifices.",
         "expression_contexte": "De plus, nous ne"
@@ -14321,7 +14381,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 34,
-        "hebreu_brut": "הקטרת",
+        "hebreu_brut": "הקטורת",
         "hebreu_voyelles": "הַקְּטֹרֶת",
         "francais_mot": "l'encens,",
         "expression_contexte": "nous récitons déjà"
@@ -14343,7 +14403,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 37,
-        "hebreu_brut": "\"והקטיר",
+        "hebreu_brut": "והקטיר",
         "hebreu_voyelles": "\"וְהִקְטִיר",
         "francais_mot": "\"Il y fera fumer...\"",
         "expression_contexte": "sur lui\"",
@@ -14351,7 +14411,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 38,
-        "hebreu_brut": "עליו\"",
+        "hebreu_brut": "עליו",
         "hebreu_voyelles": "עָלָיו\"",
         "francais_mot": "sur lui\"",
         "expression_contexte": "etc.,"
@@ -14394,14 +14454,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 44,
-        "hebreu_brut": "חלק",
+        "hebreu_brut": "ח\"א",
         "hebreu_voyelles": "חֵלֶק",
         "francais_mot": "tome",
         "expression_contexte": "1"
       },
       {
         "id": 45,
-        "hebreu_brut": "א'",
+        "hebreu_brut": "עמ'",
         "hebreu_voyelles": "א'",
         "francais_mot": "1",
         "expression_contexte": "page"
@@ -14422,7 +14482,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 48,
-        "hebreu_brut": "ועמוד",
+        "hebreu_brut": "ועמ'",
         "hebreu_voyelles": "וְעַמּוּד",
         "francais_mot": "et page",
         "expression_contexte": "17."
@@ -14464,7 +14524,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 54,
-        "hebreu_brut": "עמוד",
+        "hebreu_brut": "עמ'",
         "hebreu_voyelles": "עַמּוּד",
         "francais_mot": "page",
         "expression_contexte": "120]."
@@ -14479,12 +14539,14 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "31",
+    "id": "p31",
+    "numero": "31",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "31",
     "titre_seif": "Prières des sacrifices en maison de deuil",
     "texte_integral": {
-      "hebreu_sans_voyelles": "לא. יש לומר בבית האבל בסדר התפלה פרשת הקרבנות, ופטום הקטרת, ואיזהו מקומן, ופתח אליהו, וגם האבל עצמו יאמרם. וה''ה לענין שירת הים. אולם במקום שנהגו שלא לאמרה בבית האבל, לא יאמרוה.",
+      "hebreu_sans_voyelles": "לא יש לומר בבית האבל בסדר התפלה פרשת הקרבנות, ופטום הקטורת, ואיזהו מקומן, ופתח אליהו, וגם האבל עצמו יאמרם. וה\"ה לענין שירת הים. אולם במקום שנהגו שלא לאומרה בבית האבל, לא יאמרוה. [ילקו\"י שם עמ' קכה, וילקו\"י על הל' אבלות, מהדו' תשס\"ד, עמ' תמח].",
       "hebreu_avec_voyelles": "לָא. יֵשׁ לוֹמַר בְּבֵית הָאֵבֶל בְּסֵדֶר הַתְּפִלָּה פָּרָשַׁת הַקָּרְבָּנוֹת, וּפִטּוּם הַקְּטֹרֶת, וְאֵיזֶהוּ מְקוֹמָן, וּפָתַח אֵלִיָּהוּ, וְגַם הָאֵבֶל עַצְמוֹ יֹאמְרֵם. וְה''ה לְעִנְיַן שִׁירַת הַיָּם. אוּלָם בְּמָקוֹם שֶׁנָּהֲגוּ שֶׁלֹּא לְאָמְרָהּ בְּבֵית הָאֵבֶל, לֹא יֹאמְרוּהָ.",
       "francais": "31. Il faut dire dans la maison de l'endeuillé, selon l'ordre de la prière, le passage des sacrifices, Pitoum Haktoret, Ézéhou mekoman, et Pata'h Eliyahou, et l'endeuillé lui-même les récitera également. Il en va de même pour le Cantique de la Mer (Chirat Hayam). Toutefois, dans un endroit où la coutume est de ne pas le réciter dans la maison de l'endeuillé, ils ne le diront pas."
     },
@@ -14562,7 +14624,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 11,
-        "hebreu_brut": "הקטרת,",
+        "hebreu_brut": "הקטורת,",
         "hebreu_voyelles": "הַקְּטֹרֶת,",
         "francais_mot": "Haktoret,",
         "expression_contexte": "Ézéhou"
@@ -14626,7 +14688,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 20,
-        "hebreu_brut": "וה''ה",
+        "hebreu_brut": "וה\"ה",
         "hebreu_voyelles": "וְה''ה",
         "francais_mot": "Et c'est la même loi (Il en va de même)",
         "expression_contexte": "pour"
@@ -14683,7 +14745,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 28,
-        "hebreu_brut": "לאמרה",
+        "hebreu_brut": "לאומרה",
         "hebreu_voyelles": "לְאָמְרָהּ",
         "francais_mot": "le réciter",
         "expression_contexte": "dans la maison",
@@ -14712,7 +14774,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 32,
-        "hebreu_brut": "יאמרוה",
+        "hebreu_brut": "יאמרוה.",
         "hebreu_voyelles": "יֹאמְרוּהָ",
         "francais_mot": "le diront pas.",
         "expression_contexte": ".",
@@ -14721,12 +14783,14 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "32",
+    "id": "p32",
+    "numero": "32",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "32",
     "titre_seif": "Position assise pour la lecture des sacrifices",
     "texte_integral": {
-      "hebreu_sans_voyelles": "לב. מנהגנו לומר פרשת הקרבנות מיושב, והמתפלל בצבור ורוצה להחמיר לעמד באמירת הקרבנות, בעת שהצבור יושב, והדבר נכר שעומד מפני הקרבנות, יש לחוש בזה ליוהרא, ואין לעשות כן. והמנהג לומר יהי רצון אחר אמירת הקרבנות, ויש שנהגו לומר יה\"ר כאלו נתחיבתי קרבן חטאת וכו', ואין מנהגנו לומר זאת, דחטאת בעי ידיעה מתחלה, ואין מועיל תנאי אם לא ידע שחטא.",
+      "hebreu_sans_voyelles": "לב מנהגינו לומר פרשת הקרבנות מיושב, והמתפלל בצבור ורוצה להחמיר לעמוד באמירת הקרבנות, בעת שהצבור יושב, והדבר ניכר שעומד מפני הקרבנות, יש לחוש בזה ליוהרא, ואין לעשות כן. והמנהג לומר יהי רצון אחר אמירת הקרבנות, ויש שנהגו לומר יה\"ר כאילו נתחייבתי קרבן חטאת וכו', ואין מנהגינו לומר זאת, דחטאת בעי ידיעה מתחלה, ואין מועיל תנאי אם לא ידע שחטא. [שארית יוסף ח\"א עמוד יא, ועמוד טז, ילקוט יוסף על השכמת הבוקר עמוד תמח. וע\"ש אם הקורא פרשת הקרבנות, אם בכל זאת יתחייב בגלגול כדי להקריב].",
       "hebreu_avec_voyelles": "לֵב. מִנְהָגֵינוּ לוֹמַר פָּרָשַׁת הַקָּרְבָּנוֹת מְיֻשָּׁב, וְהַמִּתְפַּלֵּל בַּצִּבּוּר וְרוֹצֶה לְהַחֲמִיר לַעֲמֹד בַּאֲמִירַת הַקָּרְבָּנוֹת, בְּעֵת שֶׁהַצִּבּוּר יוֹשֵׁב, וְהַדָּבָר נִכָּר שֶׁעוֹמֵד מִפְּנֵי הַקָּרְבָּנוֹת, יֵשׁ לָחוּשׁ בָּזֶה לַיֻּהֲרָא, וְאֵין לַעֲשׂוֹת כֵּן. וְהַמִּנְהָג לוֹמַר יְהִי רָצוֹן אַחַר אֲמִירַת הַקָּרְבָּנוֹת, וְיֵשׁ שֶׁנָּהֲגוּ לוֹמַר יָה''ר כְּאִלּוּ נִתְחַיַּבְתִּי קָרְבַּן חַטָּאת וְכוּ', וְאֵין מִנְהָגֵינוּ לוֹמַר זֹאת, דְּחַטָּאת בָּעֵי יְדִיעָה מִתְּחִלָּה, וְאֵין מוֹעִיל תְּנַאי אִם לֹא יֶדַע שֶׁחָטָא.",
       "francais": "32. Notre coutume est de réciter le passage des sacrifices en étant assis. Celui qui prie avec la communauté et souhaite se montrer rigoureux en se tenant debout pour la récitation des sacrifices, alors que la communauté est assise et qu'il est évident qu'il se lève pour les sacrifices, doit craindre de faire preuve de prétention (Youhara), et il ne faut pas agir ainsi. La coutume est de dire \"Yehi Ratzon\" (Que ce soit Ta volonté) après la récitation des sacrifices. Certains ont l'habitude de dire un \"Yehi Ratzon\" stipulant \"comme si j'étais redevable d'un sacrifice expiatoire...\", mais notre coutume n'est pas de dire cela, car un sacrifice expiatoire (Hatat) nécessite une prise de conscience préalable [du péché], et une telle condition est inutile s'il ne sait pas qu'il a fauté."
     },
@@ -14769,7 +14833,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 6,
-        "hebreu_brut": "מישב,",
+        "hebreu_brut": "מיושב,",
         "hebreu_voyelles": "מְיֻשָּׁב,",
         "francais_mot": "en étant assis,",
         "expression_contexte": "Celui qui prie"
@@ -14807,7 +14871,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 11,
-        "hebreu_brut": "לעמד",
+        "hebreu_brut": "לעמוד",
         "hebreu_voyelles": "לַעֲמֹד",
         "francais_mot": "en se tenant debout",
         "expression_contexte": "pour la récitation",
@@ -14858,7 +14922,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 18,
-        "hebreu_brut": "נכר",
+        "hebreu_brut": "ניכר",
         "hebreu_voyelles": "נִכָּר",
         "francais_mot": "est évident",
         "expression_contexte": "qu'il se lève",
@@ -14910,7 +14974,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 25,
-        "hebreu_brut": "ליהרא,",
+        "hebreu_brut": "ליוהרא,",
         "hebreu_voyelles": "לַיֻּהֲרָא,",
         "francais_mot": "de la prétention (Youhara),",
         "expression_contexte": "et il ne faut pas"
@@ -15012,21 +15076,21 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 39,
-        "hebreu_brut": "יה''ר",
+        "hebreu_brut": "יה\"ר",
         "hebreu_voyelles": "יְה''ר",
         "francais_mot": "Yehi Ratzon",
         "expression_contexte": "comme si"
       },
       {
         "id": 40,
-        "hebreu_brut": "כאלו",
+        "hebreu_brut": "כאילו",
         "hebreu_voyelles": "כְּאִלּוּ",
         "francais_mot": "comme si",
         "expression_contexte": "j'étais redevable"
       },
       {
         "id": 41,
-        "hebreu_brut": "נתחיבתי",
+        "hebreu_brut": "נתחייבתי",
         "hebreu_voyelles": "נִתְחַיַּבְתִּי",
         "francais_mot": "j'étais redevable",
         "expression_contexte": "d'un sacrifice",
@@ -15165,12 +15229,14 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "33",
+    "id": "p33",
+    "numero": "33",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "33",
     "titre_seif": "Les femmes et la lecture des sacrifices",
     "texte_integral": {
-      "hebreu_sans_voyelles": "לג. יש אומרים שנשים צריכות לומר פרשת הקרבנות, אך כיום לא כל הנשים נוהגות בזה, אחר שבלאו הכי אמירת הקרבנות גם אצל האנשים אינה בתורת חיוב גמור, אלא מנהג.",
+      "hebreu_sans_voyelles": "לג יש אומרים שנשים צריכות לומר פרשת הקרבנות, אך כיום לא כל הנשים נוהגות בזה, אחר שבלאו הכי אמירת הקרבנות גם אצל האנשים אינה בתורת חיוב גמור, אלא מנהג. [שארית יוסף ח\"א עמוד יא, וביתר אריכות בילקו\"י הל' השכמת הבוקר מהדו' תשס\"ד עמוד קכו].",
       "hebreu_avec_voyelles": "לָג. יֵשׁ אוֹמְרִים שֶׁנָּשִׁים צְרִיכוֹת לוֹמַר פָּרָשַׁת הַקָּרְבָּנוֹת, אַךְ כַּיּוֹם לֹא כָּל הַנָּשִׁים נוֹהֲגוֹת בָּזֶה, אַחַר שֶׁבְּלָאו הֲכִי אֲמִירַת הַקָּרְבָּנוֹת גַּם אֵצֶל הָאֲנָשִׁים אֵינָהּ בְּתוֹרַת חִיּוּב גָּמוּר, אֶלָּא מִנְהָג.",
       "francais": "33. Certains décisionnaires affirment que les femmes doivent réciter le passage des sacrifices. Cependant, de nos jours, ce n'est pas la coutume de toutes les femmes de le faire, étant donné que, de toute façon, la récitation des sacrifices n'a pas non plus pour les hommes le statut d'une obligation absolue, mais constitue plutôt une coutume."
     },
@@ -15376,7 +15442,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 29,
-        "hebreu_brut": "מנהג",
+        "hebreu_brut": "מנהג.",
         "hebreu_voyelles": "מִנְהָג.",
         "francais_mot": "une coutume.",
         "expression_contexte": "."
@@ -15384,12 +15450,14 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "34",
+    "id": "p34",
+    "numero": "34",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "34",
     "titre_seif": "L'ordre des prières avant Baroukh Chéamar",
     "texte_integral": {
-      "hebreu_sans_voyelles": "לד. לכתחלה יש לומר את פרשת העקדה והתמיד וכו' קדם ברוך שאמר, שלא להפך סדר העולמות. וכשהצבור ממהרים בתפלתם, נכון שיקדים ויתפלל במתון על הסדר, כדי שלא לבלע תבות ואותיות, וכן אמרו דרך רמז, צהר תעשה לתבה, שכל תבה שבתפלה תהיה מאירה כצהרים, וכאלו מונה מרגליות. ורק אם אחר לבוא לביהכ''נ כשאין בררה ידלג את הקרבנות, ויאמרם אחר התפלה, [ויש להעדיף לדלגם לצרך תפלה בצבור]. ומכל מקום אם אפשר ישתדל לומר לפחות חלק מהקרבנות. אך יזהר שלא לאמרם באמצע החזרה, כי צריך להקשיב לחזרה ולענות אמן אחר הברכות.",
+      "hebreu_sans_voyelles": "לד לכתחלה יש לומר את פרשת העקדה והתמיד וכו' קודם ברוך שאמר, שלא להפך סדר העולמות. וכשהצבור ממהרים בתפלתם, נכון שיקדים ויתפלל במיתון על הסדר, כדי שלא לבלוע תיבות ואותיות, וכן אמרו דרך רמז, צוהר תעשה לתיבה, שכל תיבה שבתפלה תהיה מאירה כצהרים, וכאילו מונה מרגליות. ורק אם איחר לבוא לביהכ\"נ כשאין ברירה ידלג את הקרבנות, ויאמרם אחר התפלה, [ויש להעדיף לדלגם לצורך תפלה בצבור]. ומכל מקום אם אפשר ישתדל לומר לפחות חלק מהקרבנות. אך יזהר שלא לאמרם באמצע החזרה, כי צריך להקשיב לחזרה ולענות אמן אחר הברכות. [שארית יוסף ח\"א עמוד יב. ילקו\"י הל' השכמת הבוקר מהדורת תשס\"ד, עמוד קכט].",
       "hebreu_avec_voyelles": "לָד. לִכְתַחִלָּה יֵשׁ לוֹמַר אֶת פָּרָשַׁת הָעֲקֵדָה וְהַתָּמִיד וְכוּ' קֹדֶם בָּרוּךְ שֶׁאָמַר, שֶׁלֹּא לְהַפֵּךְ סֵדֶר הָעוֹלָמוֹת. וּכְשֶׁהַצִּבּוּר מְמַהֲרִים בִּתְפִלָּתָם, נָכוֹן שֶׁיַּקְדִּים וְיִתְפַּלֵּל בְּמִתּוּן עַל הַסֵּדֶר, כְּדֵי שֶׁלֹּא לִבְלֹעַ תֵּבוֹת וְאוֹתִיּוֹת, וְכֵן אָמְרוּ דֶּרֶךְ רֶמֶז, צֹהַר תַּעֲשֶׂה לַתֵּבָה, שֶׁכָּל תֵּבָה שֶׁבַּתְּפִלָּה תִּהְיֶה מְאִירָה כְּצָהֳרַיִם, וּכְאִלּוּ מוֹנָה מַרְגָּלִיּוֹת. וְרַק אִם אִחֵר לָבוֹא לְביהכ''נ כְּשֶׁאֵין בְּרֵרָה יְדַלֵּג אֶת הַקָּרְבָּנוֹת, וְיֹאמְרֵם אַחַר הַתְּפִלָּה, [וְיֵשׁ לְהַעֲדִיף לְדַלְּגָם לְצֹרֶךְ תְּפִלָּה בַּצִּבּוּר]. וּמִכָּל מָקוֹם אִם אֶפְשָׁר יִשְׁתַּדֵּל לוֹמַר לְפָחוֹת חֵלֶק מֵהַקָּרְבָּנוֹת. אַךְ יִזָּהֵר שֶׁלֹּא לְאָמְרָם בְּאֶמְצַע הַחֲזָרָה, כִּי צָרִיךְ לְהַקְשִׁיב לַחֲזָרָה וְלַעֲנוֹת אָמֵן אַחַר הַבְּרָכוֹת.",
       "francais": "34. A priori (Lekhat'hila), il faut réciter la Parachat Haakedah et le sacrifice perpétuel, etc., avant Baroukh Chéamar, afin de ne pas inverser l'ordre des mondes. Lorsque la communauté prie rapidement, il est juste de s'avancer pour prier posément en suivant l'ordre, afin de ne pas avaler des mots ou des lettres. Les Sages ont dit de manière allusive : \"Tu feras une lucarne (Tsohar) à l'arche (Teiva / mot)\", signifiant que chaque mot (Tévah) de la prière doit briller comme le soleil de midi (Tsohorayim), et qu'on doit les compter comme des perles. Ce n'est que s'il est arrivé en retard à la synagogue et qu'il n'a pas le choix, qu'il sautera les sacrifices pour les réciter après la prière [et il est d'ailleurs préférable de les sauter pour prier avec la communauté]. Néanmoins, si possible, il s'efforcera d'en dire au moins une partie. Toutefois, il prendra garde de ne pas les dire au milieu de la répétition de l'officiant (Hazarah), car il doit écouter la répétition et répondre Amen après les bénédictions."
     },
@@ -15460,7 +15528,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 10,
-        "hebreu_brut": "קדם",
+        "hebreu_brut": "קודם",
         "hebreu_voyelles": "קֹדֶם",
         "francais_mot": "avant",
         "expression_contexte": "Baroukh"
@@ -15555,7 +15623,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 23,
-        "hebreu_brut": "במתון",
+        "hebreu_brut": "במיתון",
         "hebreu_voyelles": "בְּמִתּוּן",
         "francais_mot": "posément",
         "expression_contexte": "en suivant l'ordre,"
@@ -15590,7 +15658,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 28,
-        "hebreu_brut": "לבלע",
+        "hebreu_brut": "לבלוע",
         "hebreu_voyelles": "לִבְלֹעַ",
         "francais_mot": "avaler",
         "expression_contexte": "des mots",
@@ -15598,7 +15666,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 29,
-        "hebreu_brut": "תבות",
+        "hebreu_brut": "תיבות",
         "hebreu_voyelles": "תֵּבוֹת",
         "francais_mot": "des mots",
         "expression_contexte": "ou des lettres."
@@ -15641,7 +15709,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 35,
-        "hebreu_brut": "צהר",
+        "hebreu_brut": "צוהר",
         "hebreu_voyelles": "צֹהַר",
         "francais_mot": "une lucarne (Tsohar)",
         "expression_contexte": "tu feras"
@@ -15656,7 +15724,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 37,
-        "hebreu_brut": "לתבה,",
+        "hebreu_brut": "לתיבה,",
         "hebreu_voyelles": "לַתֵּבָה,",
         "francais_mot": "à l'arche (mot),",
         "expression_contexte": "signifiant que chaque"
@@ -15670,7 +15738,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 39,
-        "hebreu_brut": "תבה",
+        "hebreu_brut": "תיבה",
         "hebreu_voyelles": "תֵּבָה",
         "francais_mot": "mot",
         "expression_contexte": "de la prière"
@@ -15707,7 +15775,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 44,
-        "hebreu_brut": "וכאלו",
+        "hebreu_brut": "וכאילו",
         "hebreu_voyelles": "וּכְאִלּוּ",
         "francais_mot": "et comme si",
         "expression_contexte": "on comptait"
@@ -15743,7 +15811,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 49,
-        "hebreu_brut": "אחר",
+        "hebreu_brut": "איחר",
         "hebreu_voyelles": "אִחֵר",
         "francais_mot": "il est arrivé en retard",
         "expression_contexte": "pour venir",
@@ -15759,7 +15827,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 51,
-        "hebreu_brut": "לביהכ''נ",
+        "hebreu_brut": "לביהכ\"נ",
         "hebreu_voyelles": "לְביהכ''נ",
         "francais_mot": "à la synagogue",
         "expression_contexte": "et qu'il n'a pas"
@@ -15773,7 +15841,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 53,
-        "hebreu_brut": "בררה",
+        "hebreu_brut": "ברירה",
         "hebreu_voyelles": "בְּרֵרָה",
         "francais_mot": "le choix,",
         "expression_contexte": "qu'il sautera"
@@ -15847,7 +15915,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 63,
-        "hebreu_brut": "לצרך",
+        "hebreu_brut": "לצורך",
         "hebreu_voyelles": "לְצֹרֶךְ",
         "francais_mot": "pour (le besoin de)",
         "expression_contexte": "la prière"
@@ -16028,7 +16096,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 88,
-        "hebreu_brut": "הברכות",
+        "hebreu_brut": "הברכות.",
         "hebreu_voyelles": "הַבְּרָכוֹת.",
         "francais_mot": "les bénédictions.",
         "expression_contexte": "."
@@ -16036,12 +16104,14 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "35",
+    "id": "p35",
+    "numero": "35",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "35",
     "titre_seif": "Heure de récitation des sacrifices",
     "texte_integral": {
-      "hebreu_sans_voyelles": "לה. פרשיות הקרבנות לא יאמר אלא ביום, שאין הקרבנות קרבים אלא ביום. והיינו משהגיע עמוד השחר שהוא שבעים ושתים דקות זמניות קדם הנץ.",
+      "hebreu_sans_voyelles": "לה פרשיות הקרבנות לא יאמר אלא ביום, שאין הקרבנות קרבים אלא ביום. והיינו משהגיע עמוד השחר שהוא שבעים ושתים דקות זמניות קודם הנץ. [שארית יוסף חלק א' עמוד יד, ילקו\"י על הל' השכמת הבוקר מהדורת תשס\"ד, עמוד קל].",
       "hebreu_avec_voyelles": "לֶה. פָּרָשִׁיּוֹת הַקָּרְבָּנוֹת לֹא יֹאמַר אֶלָּא בַּיּוֹם, שֶׁאֵין הַקָּרְבָּנוֹת קְרֵבִים אֶלָּא בַּיּוֹם. וְהָיִינוּ מִשֶּׁהִגִּיעַ עַמּוּד הַשַּׁחַר שֶׁהוּא שִׁבְעִים וּשְׁתַּיִם דַּקּוֹת זְמַנִּיּוֹת קֹדֶם הָנֵץ.",
       "francais": "35. Les passages des sacrifices ne doivent être récités que de jour, car les sacrifices n'étaient offerts que de jour. C'est-à-dire à partir de l'aube (Amoud Hacha'har), qui correspond à soixante-douze minutes temporelles avant le lever du soleil (Hanets)."
     },
@@ -16198,14 +16268,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 22,
-        "hebreu_brut": "קדם",
+        "hebreu_brut": "קודם",
         "hebreu_voyelles": "קֹדֶם",
         "francais_mot": "avant",
         "expression_contexte": "le lever du soleil."
       },
       {
         "id": 23,
-        "hebreu_brut": "הנץ",
+        "hebreu_brut": "הנץ.",
         "hebreu_voyelles": "הַנֵּץ.",
         "francais_mot": "le lever du soleil (Hanets).",
         "expression_contexte": "."
@@ -16213,12 +16283,14 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "36",
+    "id": "p36",
+    "numero": "36",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "36",
     "titre_seif": "Travailleurs matinaux et lecture des sacrifices",
     "texte_integral": {
-      "hebreu_sans_voyelles": "לו. פועלים משכימי קום יכולים לסמך על האומרים שזמן עמוד השחר הוא כתשעים דקות קדם הנץ, כדי להתחיל פרשת הקרבנות. ואם עבר וקרא הקרבנות בלילה, לא יצא ידי חובת הקריאה.",
+      "hebreu_sans_voyelles": "לו פועלים משכימי קום יכולים לסמוך על האומרים שזמן עמוד השחר הוא כתשעים דקות קודם הנץ, כדי להתחיל פרשת הקרבנות. ואם עבר וקרא הקרבנות בלילה, לא יצא ידי חובת הקריאה. [ילקו\"י על הל' השכמת הבוקר מהדורת תשס\"ד, עמוד קל].",
       "hebreu_avec_voyelles": "לוֹ. פּוֹעֲלִים מַשְׁכִּימֵי קוּם יְכוֹלִים לִסְמֹךְ עַל הָאוֹמְרִים שֶׁזְּמַן עַמּוּד הַשַּׁחַר הוּא כְּתִשְׁעִים דַּקּוֹת קֹדֶם הָנֵץ, כְּדֵי לְהַתְחִיל פָּרָשַׁת הַקָּרְבָּנוֹת. וְאִם עָבַר וְקָרָא הַקָּרְבָּנוֹת בַּלַּיְלָה, לֹא יָצָא יְדֵי חוֹבַת הַקְּרִיאָה.",
       "francais": "36. Les travailleurs qui se lèvent tôt peuvent s'appuyer sur les décisionnaires qui affirment que l'heure de l'aube (Amoud Hacha'har) est d'environ quatre-vingt-dix minutes avant le lever du soleil, afin de pouvoir commencer le passage des sacrifices. Si, a posteriori, quelqu'un a lu les sacrifices pendant la nuit, il ne s'est pas acquitté de l'obligation de leur lecture."
     },
@@ -16260,7 +16332,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 6,
-        "hebreu_brut": "לסמך",
+        "hebreu_brut": "לסמוך",
         "hebreu_voyelles": "לִסְמֹךְ",
         "francais_mot": "s'appuyer",
         "expression_contexte": "sur",
@@ -16325,7 +16397,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 15,
-        "hebreu_brut": "קדם",
+        "hebreu_brut": "קודם",
         "hebreu_voyelles": "קֹדֶם",
         "francais_mot": "avant",
         "expression_contexte": "le lever du soleil,"
@@ -16434,7 +16506,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 30,
-        "hebreu_brut": "הקריאה",
+        "hebreu_brut": "הקריאה.",
         "hebreu_voyelles": "הַקְּרִיאָה.",
         "francais_mot": "de la lecture.",
         "expression_contexte": "."
@@ -16442,12 +16514,14 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "37",
+    "id": "p37",
+    "numero": "37",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "37",
     "titre_seif": "Prononciation du passage Abayé Havé",
     "texte_integral": {
-      "hebreu_sans_voyelles": "לז. מותר לומר בתפלת שחרית אביי הוה מסדר סדר המערכה, בלא הפסק בין תבת אביי להוה, אף על פי שנראה כאומר שם הוי''ה. ומכל מקום טוב יותר שיפסיק מעט בין תבת אביי לתבת הוה.",
+      "hebreu_sans_voyelles": "לז מותר לומר בתפלת שחרית אביי הוה מסדר סדר המערכה, בלא הפסק בין תיבת אביי להוה, אף על פי שנראה כאומר שם הוי\"ה. ומכל מקום טוב יותר שיפסיק מעט בין תיבת אביי לתיבת הוה. [שם עמ' קלב. וראה עוד בילקוט יוסף תפלה כרך ב', מהדורת תשס\"ד, עמוד תקז].",
       "hebreu_avec_voyelles": "לַז. מֻתָּר לוֹמַר בִּתְפִלַּת שַׁחֲרִית אַבַּיֵּי הֹוֶה מְסַדֵּר סֵדֶר הַמַּעֲרָכָה, בְּלֹא הֶפְסֵק בֵּין תֵּבַת אַבַּיֵּי לַהֱוֵה, אַף עַל פִּי שֶׁנִּרְאָה כְּאוֹמֵר שֵׁם הוֹי''ה. וּמִכָּל מָקוֹם טוֹב יוֹתֵר שֶׁיַּפְסִיק מְעַט בֵּין תֵּבַת אַבַּיֵּי לְתֵבַת הֹוֶה.",
       "francais": "37. Il est permis de réciter dans la prière de Cha'harit le passage \"Abayé havé mesader Seder Hamaarakha\", sans faire de pause entre le mot \"Abayé\" et \"havé\", même si cela donne l'impression de prononcer le Tétragramme. Néanmoins, il est préférable de marquer une légère pause entre le mot \"Abayé\" et le mot \"havé\"."
     },
@@ -16461,7 +16535,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 2,
-        "hebreu_brut": "מתר",
+        "hebreu_brut": "מותר",
         "hebreu_voyelles": "מֻתָּר",
         "francais_mot": "Il est permis",
         "expression_contexte": "de réciter"
@@ -16546,7 +16620,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 14,
-        "hebreu_brut": "תבת",
+        "hebreu_brut": "תיבת",
         "hebreu_voyelles": "תֵּבַת",
         "francais_mot": "le mot",
         "expression_contexte": "\"Abayé\""
@@ -16611,7 +16685,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 23,
-        "hebreu_brut": "הוי''ה.",
+        "hebreu_brut": "הוי\"ה.",
         "hebreu_voyelles": "הוֹי''ה.",
         "francais_mot": "Havayah (le Tétragramme).",
         "expression_contexte": "Néanmoins,"
@@ -16668,7 +16742,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 31,
-        "hebreu_brut": "תבת",
+        "hebreu_brut": "תיבת",
         "hebreu_voyelles": "תֵּבַת",
         "francais_mot": "le mot",
         "expression_contexte": "\"Abayé\""
@@ -16682,7 +16756,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 33,
-        "hebreu_brut": "לתבת",
+        "hebreu_brut": "לתיבת",
         "hebreu_voyelles": "לְתֵבַת",
         "francais_mot": "et le mot",
         "expression_contexte": "\"havé\"."
@@ -16697,12 +16771,14 @@ export const FALLBACK_PARAGRAPHS = [
     ]
   },
   {
-    "seif": "38",
+    "id": "p38",
+    "numero": "38",
     "sujet": "הלכות השכמת הבוקר",
     "sujet_fr": "Lois du réveil du matin",
+    "seif": "38",
     "titre_seif": "Lecture de l'encens avec ferveur",
     "texte_integral": {
-      "hebreu_sans_voyelles": "לח. טוב לומר פטום הקטרת בכל בקר קדם הזמירות בכוונה גדולה, וכן בתפלת המנחה. ומנהגנו לומר קדם פטום הקטרת אתה הוא ה' אלהינו וכו', ומסיימים בג' פסוקים ה' צבאות וגו'. ומה שאנו מקדימים לומר אתה הוא ה' אלהינו וכו', הטעם לזה, שבהקטרת הקטרת לא היה אלא ה' לבדו, ולכן אומרים אתה הוא ה' אלהינו שהקטירו אבותינו לפניך וכו'. לפניך לבד הקטירו הקטרת. ועוד, כי קריאתנו בפרשת התמיד כוונתנו שתהיה קריאה זו במקום ההקרבה ממש, אבל בהקטרת הקטרת אין אנחנו מבקשים בפינו שתהיה קריאתנו במקום ההקטרה, שהרי אם חסר אחת מכל ממניה חיב מיתה, ואנו חושבים כך רק בלב, וכוונת הלב אינה גלויה אלא להשי''ת לבדו, והוא יתברך לא יקפיד אם אחד דלג כלום.",
+      "hebreu_sans_voyelles": "לח טוב לומר פטום הקטורת בכל בוקר קודם הזמירות בכוונה גדולה, וכן בתפלת המנחה. ומנהגינו לומר קודם פטום הקטורת אתה הוא ה' אלהינו וכו', ומסיימים בג' פסוקים ה' צבאות וגו'. ומה שאנו מקדימים לומר אתה הוא ה' אלהינו וכו', הטעם לזה, שבהקטרת הקטורת לא היה אלא ה' לבדו, ולכן אומרים אתה הוא ה' אלהינו שהקטירו אבותינו לפניך וכו'. לפניך לבד הקטירו הקטורת. ועוד, כי קריאתינו בפרשת התמיד כוונתינו שתהיה קריאה זו במקום ההקרבה ממש, אבל בהקטרת הקטורת אין אנחנו מבקשים בפינו שתהיה קריאתנו במקום ההקטרה, שהרי אם חיסר אחת מכל סממניה חייב מיתה, ואנו חושבים כך רק בלב, וכוונת הלב אינה גלויה אלא להשי\"ת לבדו, והוא יתברך לא יקפיד אם אחד דילג כלום. [ילקוט יוסף מהדורת תשס\"ד, הל' השכמת הבוקר עמוד קלג].",
       "hebreu_avec_voyelles": "לַח. טוֹב לוֹמַר פִּטּוּם הַקְּטֹרֶת בְּכָל בֹּקֶר קֹדֶם הַזְּמִירוֹת בְּכַוָּנָה גְּדוֹלָה, וְכֵן בִּתְפִלַּת הַמִּנְחָה. וּמִנְהָגֵינוּ לוֹמַר קֹדֶם פִּטּוּם הַקְּטֹרֶת אַתָּה הוּא ה' אֱלֹהֵינוּ וְכוּ', וּמְסַיְּמִים בַּג' פְּסוּקִים ה' צְבָאוֹת וְגֵו'. וּמָה שֶׁאָנוּ מַקְדִּימִים לוֹמַר אַתָּה הוּא ה' אֱלֹהֵינוּ וְכוּ', הַטַּעַם לָזֶה, שֶׁבְּהַקְטָרַת הַקְּטֹרֶת לֹא הָיָה אֶלָּא ה' לְבַדּוֹ, וְלָכֵן אוֹמְרִים אַתָּה הוּא ה' אֱלֹהֵינוּ שֶׁהִקְטִירוּ אֲבוֹתֵינוּ לְפָנֶיךָ וְכוּ'. לְפָנֶיךָ לְבַד הִקְטִירוּ הַקְּטֹרֶת. וְעוֹד, כִּי קְרִיאָתֵנוּ בְּפָרָשַׁת הַתָּמִיד כַּוָּנָתֵנוּ שֶׁתִּהְיֶה קְרִיאָה זוֹ בִּמְקוֹם הַהַקְרָבָה מַמָּשׁ, אֲבָל בְּהַקְטָרַת הַקְּטֹרֶת אֵין אֲנַחְנוּ מְבַקְּשִׁים בְּפִינוּ שֶׁתִּהְיֶה קְרִיאָתֵנוּ בִּמְקוֹם הַהַקְטָרָה, שֶׁהֲרֵי אִם חִסֵּר אַחַת מִכָּל מִמַּנְיָה חַיָּב מִיתָה, וְאָנוּ חוֹשְׁבִים כָּךְ רַק בַּלֵּב, וְכַוָּנַת הַלֵּב אֵינָהּ גְּלוּיָה אֶלָּא להשׁי''ת לְבַדּוֹ, וְהוּא יִתְבָּרַךְ לֹא יַקְפִּיד אִם אֶחָד דִּלֵּג כְּלוּם.",
       "francais": "38. Il est bon de réciter \"Pitoum Haktoret\" (la composition de l'encens) chaque matin avant les Zemirot avec une grande ferveur (Kavanah), ainsi que lors de la prière de Min'ha. Notre coutume est de dire avant \"Pitoum Haktoret\" : \"Atah Hou Hachem Elokeinou...\" (C'est Toi qui es l'Éternel notre Dieu...), et nous concluons par les 3 versets \"Hachem Tsevaot...\". La raison pour laquelle nous faisons précéder cette lecture de \"Atah Hou Hachem Elokeinou...\", est que lors de l'offrande de l'encens, il n'y avait que l'Éternel Seul. C'est pourquoi nous disons : \"C'est Toi l'Éternel notre Dieu devant Qui nos pères ont fait fumer...\", c'est-à-dire que devant Toi Seul, ils offraient l'encens. De plus, lors de notre lecture du sacrifice perpétuel, notre intention est que cette lecture remplace littéralement l'offrande réelle ; or, pour l'encens, nous ne demandons pas verbalement que notre lecture remplace l'offrande, car \"s'il y manquait l'un de ses composants, il était passible de mort\". Nous le pensons donc uniquement dans notre cœur, car l'intention du cœur n'est révélée qu'à l'Éternel, béni soit-Il, et Lui, béni soit-Il, ne tiendra pas rigueur si quelqu'un a omis quoi que ce soit."
     },
@@ -16738,7 +16814,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 5,
-        "hebreu_brut": "הקטרת",
+        "hebreu_brut": "הקטורת",
         "hebreu_voyelles": "הַקְּטֹרֶת",
         "francais_mot": "Haktoret",
         "expression_contexte": "chaque"
@@ -16752,14 +16828,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 7,
-        "hebreu_brut": "בקר",
+        "hebreu_brut": "בוקר",
         "hebreu_voyelles": "בֹּקֶר",
         "francais_mot": "matin",
         "expression_contexte": "avant"
       },
       {
         "id": 8,
-        "hebreu_brut": "קדם",
+        "hebreu_brut": "קודם",
         "hebreu_voyelles": "קֹדֶם",
         "francais_mot": "avant",
         "expression_contexte": "les Zemirot"
@@ -16773,7 +16849,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 10,
-        "hebreu_brut": "בכונה",
+        "hebreu_brut": "בכוונה",
         "hebreu_voyelles": "בְּכַוָּנָה",
         "francais_mot": "avec ferveur",
         "expression_contexte": "grande,"
@@ -16823,7 +16899,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 17,
-        "hebreu_brut": "קדם",
+        "hebreu_brut": "קודם",
         "hebreu_voyelles": "קֹדֶם",
         "francais_mot": "avant",
         "expression_contexte": "Pitoum"
@@ -16837,7 +16913,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 19,
-        "hebreu_brut": "הקטרת",
+        "hebreu_brut": "הקטורת",
         "hebreu_voyelles": "הַקְּטֹרֶת",
         "francais_mot": "Haktoret",
         "expression_contexte": "\"Atah"
@@ -16879,7 +16955,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 25,
-        "hebreu_brut": "ומסימים",
+        "hebreu_brut": "ומסיימים",
         "hebreu_voyelles": "וּמְסַיְּמִים",
         "francais_mot": "et nous concluons",
         "expression_contexte": "par les 3",
@@ -17008,7 +17084,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 43,
-        "hebreu_brut": "הקטרת",
+        "hebreu_brut": "הקטורת",
         "hebreu_voyelles": "הַקְּטֹרֶת",
         "francais_mot": "de l'encens,",
         "expression_contexte": "il n'y avait que"
@@ -17145,7 +17221,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 62,
-        "hebreu_brut": "הקטרת.",
+        "hebreu_brut": "הקטורת.",
         "hebreu_voyelles": "הַקְּטֹרֶת.",
         "francais_mot": "l'encens.",
         "expression_contexte": "De plus,"
@@ -17166,7 +17242,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 65,
-        "hebreu_brut": "קריאתנו",
+        "hebreu_brut": "קריאתינו",
         "hebreu_voyelles": "קְרִיאָתֵנוּ",
         "francais_mot": "notre lecture",
         "expression_contexte": "du sacrifice perpétuel,"
@@ -17187,7 +17263,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 68,
-        "hebreu_brut": "כונתנו",
+        "hebreu_brut": "כוונתינו",
         "hebreu_voyelles": "כַּוָּנָתֵנוּ",
         "francais_mot": "notre intention (est)",
         "expression_contexte": "que soit"
@@ -17251,7 +17327,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 77,
-        "hebreu_brut": "הקטרת",
+        "hebreu_brut": "הקטורת",
         "hebreu_voyelles": "הַקְּטֹרֶת",
         "francais_mot": "l'encens,",
         "expression_contexte": "nous ne"
@@ -17330,7 +17406,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 88,
-        "hebreu_brut": "חסר",
+        "hebreu_brut": "חיסר",
         "hebreu_voyelles": "חִסֵּר",
         "francais_mot": "il omettait (manquait)",
         "expression_contexte": "l'un",
@@ -17352,14 +17428,14 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 91,
-        "hebreu_brut": "ממניה",
+        "hebreu_brut": "סממניה",
         "hebreu_voyelles": "מִמַּנְיָה",
         "francais_mot": "ses composants,",
         "expression_contexte": "il était passible"
       },
       {
         "id": 92,
-        "hebreu_brut": "חיב",
+        "hebreu_brut": "חייב",
         "hebreu_voyelles": "חַיָּב",
         "francais_mot": "passible",
         "expression_contexte": "de mort\"."
@@ -17409,7 +17485,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 99,
-        "hebreu_brut": "וכונת",
+        "hebreu_brut": "וכוונת",
         "hebreu_voyelles": "וְכַוָּנַת",
         "francais_mot": "et l'intention (de)",
         "expression_contexte": "du cœur"
@@ -17444,7 +17520,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 104,
-        "hebreu_brut": "להשי''ת",
+        "hebreu_brut": "להשי\"ת",
         "hebreu_voyelles": "להשׁי''ת",
         "francais_mot": "à l'Éternel (béni soit-Il)",
         "expression_contexte": "Seul,"
@@ -17502,7 +17578,7 @@ export const FALLBACK_PARAGRAPHS = [
       },
       {
         "id": 112,
-        "hebreu_brut": "דלג",
+        "hebreu_brut": "דילג",
         "hebreu_voyelles": "דִּלֵּג",
         "francais_mot": "a omis (sauté)",
         "expression_contexte": "quoi que ce soit.",
@@ -17514,6 +17590,3421 @@ export const FALLBACK_PARAGRAPHS = [
         "hebreu_voyelles": "כְּלוּם.",
         "francais_mot": "quoi que ce soit.",
         "expression_contexte": "."
+      }
+    ]
+  },
+  {
+    "id": "p39",
+    "numero": "39",
+    "sujet": "הלכות השכמת הבוקר",
+    "sujet_fr": "Lire les onze épices dans un livre",
+    "seif": "39",
+    "titre_seif": "Lire les onze épices dans un livre",
+    "texte_integral": {
+      "hebreu_sans_voyelles": "לט טוב ונכון לומר את אחד עשר הסממנים מתוך ספר, שלא לדלג תיבות, אך אין זה לעיכובא",
+      "hebreu_avec_voyelles": "לְט טוֹב וְנָכוֹן לוֹמַר אֶת אַחַד עָשָׂר הַסַּמְמָנִים מִתּוֹךְ סֵפֶר, שֶׁלֹּא לְדַלֵּג תֵּבוֹת, אַךְ אֵין זֶה לְעִכּוּבָא",
+      "francais": "Il est bon et correct de lire les onze épices [du passage de la Qetoret] dans un livre, afin de ne sauter aucun mot, mais cela n'est pas indispensable a posteriori."
+    },
+    "mots_alignes": [
+      {
+        "id": 1,
+        "hebreu_brut": "לט",
+        "hebreu_voyelles": "לְט",
+        "francais_mot": "39.",
+        "expression_contexte": "39. Il est bon"
+      },
+      {
+        "id": 2,
+        "hebreu_brut": "טוב",
+        "hebreu_voyelles": "טוֹב",
+        "francais_mot": "Il est bon",
+        "expression_contexte": "Il est bon"
+      },
+      {
+        "id": 3,
+        "hebreu_brut": "ונכון",
+        "hebreu_voyelles": "וְנָכוֹן",
+        "francais_mot": "et correct",
+        "expression_contexte": "et correct de lire"
+      },
+      {
+        "id": 4,
+        "hebreu_brut": "לומר",
+        "hebreu_voyelles": "לוֹמַר",
+        "francais_mot": "de lire",
+        "expression_contexte": "de lire les",
+        "infinitif": "לוֹמַר"
+      },
+      {
+        "id": 5,
+        "hebreu_brut": "את",
+        "hebreu_voyelles": "אֶת",
+        "francais_mot": "les",
+        "expression_contexte": "les onze"
+      },
+      {
+        "id": 6,
+        "hebreu_brut": "אחד",
+        "hebreu_voyelles": "אַחַד",
+        "francais_mot": "onze",
+        "expression_contexte": "onze épices"
+      },
+      {
+        "id": 7,
+        "hebreu_brut": "עשר",
+        "hebreu_voyelles": "עָשָׂר",
+        "francais_mot": "onze",
+        "expression_contexte": "onze épices"
+      },
+      {
+        "id": 8,
+        "hebreu_brut": "הסממנים",
+        "hebreu_voyelles": "הַסַּמְמָנִים",
+        "francais_mot": "épices",
+        "expression_contexte": "épices dans un livre,"
+      },
+      {
+        "id": 9,
+        "hebreu_brut": "מתוך",
+        "hebreu_voyelles": "מִתּוֹךְ",
+        "francais_mot": "dans (à partir de)",
+        "expression_contexte": "dans un livre,"
+      },
+      {
+        "id": 10,
+        "hebreu_brut": "ספר,",
+        "hebreu_voyelles": "סֵפֶר,",
+        "francais_mot": "un livre,",
+        "expression_contexte": "afin de ne pas"
+      },
+      {
+        "id": 11,
+        "hebreu_brut": "שלא",
+        "hebreu_voyelles": "שֶׁלֹּא",
+        "francais_mot": "afin de ne pas",
+        "expression_contexte": "sauter"
+      },
+      {
+        "id": 12,
+        "hebreu_brut": "לדלג",
+        "hebreu_voyelles": "לְדַלֵּג",
+        "francais_mot": "sauter",
+        "expression_contexte": "aucun mot,",
+        "infinitif": "לְדַלֵּג"
+      },
+      {
+        "id": 13,
+        "hebreu_brut": "תיבות,",
+        "hebreu_voyelles": "תֵּבוֹת,",
+        "francais_mot": "de mots (aucun mot),",
+        "expression_contexte": "mais"
+      },
+      {
+        "id": 14,
+        "hebreu_brut": "אך",
+        "hebreu_voyelles": "אַךְ",
+        "francais_mot": "mais",
+        "expression_contexte": "cela"
+      },
+      {
+        "id": 15,
+        "hebreu_brut": "אין",
+        "hebreu_voyelles": "אֵין",
+        "francais_mot": "n'est pas",
+        "expression_contexte": "n'est pas"
+      },
+      {
+        "id": 16,
+        "hebreu_brut": "זה",
+        "hebreu_voyelles": "זֶה",
+        "francais_mot": "cela",
+        "expression_contexte": "indispensable"
+      },
+      {
+        "id": 17,
+        "hebreu_brut": "לעיכובא",
+        "hebreu_voyelles": "לְעִכּוּבָא",
+        "francais_mot": "indispensable a posteriori.",
+        "expression_contexte": "a posteriori."
+      }
+    ]
+  },
+  {
+    "id": "p40",
+    "numero": "40",
+    "sujet": "הלכות השכמת הבוקר",
+    "sujet_fr": "Écrire la Qetoret sur un parchemin",
+    "seif": "40",
+    "titre_seif": "Écrire la Qetoret sur un parchemin",
+    "texte_integral": {
+      "hebreu_sans_voyelles": "מ יש נוהגים לכתוב פרשת פיטום הקטורת והברייתא שלה על קלף או גויל בכתב אשורי, כמו בספר תורה, וקוראים בה בכל יום, והיא סגולה לפרנסה. אולם לכתחלה אין לכתוב פרשת הקטורת על קלף בפני עצמו, ורק אם עברו וכתבו זאת על קלף, מותר לקרוא בזה. וכן מותר לכתוב פרשת הקטורת כל ג' תיבות בשורה אחת",
+      "hebreu_avec_voyelles": "מ יֵשׁ נוֹהֲגִים לִכְתֹּב פָּרָשַׁת פִּטּוּם הַקְּטֹרֶת וְהַבָּרָיְתָא שֶׁלָּהּ עַל קְלָף אוֹ גְּוִיל בִּכְתָב אַשּׁוּרִי, כְּמוֹ בְּסֵפֶר תּוֹרָה, וְקוֹרְאִים בָּהּ בְּכָל יוֹם, וְהִיא סְגֻלָּה לְפַרְנָסָה. אוּלָם לִכְתַחֲלָהּ אֵין לִכְתֹּב פָּרָשַׁת הַקְּטֹרֶת עַל קְלָף בִּפְנֵי עַצְמוֹ, וְרַק אִם עָבְרוּ וְכָתְבוּ זֹאת עַל קְלָף, מֻתָּר לִקְרֹא בָּזֶה. וְכֵן מֻתָּר לִכְתֹּב פָּרָשַׁת הַקְּטֹרֶת כָּל ג' תֵּבוֹת בְּשׂוֹרָה אַחַת",
+      "francais": "40. Certains ont coutume d'écrire le passage de la composition de l'encens (Pitoum HaQetoret) et sa Baraïta sur un parchemin ou une peau préparée, avec l'écriture assyrienne (Achouri), comme pour un rouleau de la Torah. Ils le lisent chaque jour, et c'est une Ségoula (remède spirituel) pour la subsistance (Parnassa). Cependant, a priori, on ne doit pas écrire le passage de l'encens sur un parchemin de manière isolée. Ce n'est que si l'on a transgressé cela et qu'on l'a écrit sur un parchemin qu'il est permis d'y lire. De même, il est permis d'écrire le passage de l'encens à raison de trois mots par ligne."
+    },
+    "mots_alignes": [
+      {
+        "id": 1,
+        "hebreu_brut": "מ",
+        "hebreu_voyelles": "מ",
+        "francais_mot": "40.",
+        "expression_contexte": "40. Certains"
+      },
+      {
+        "id": 2,
+        "hebreu_brut": "יש",
+        "hebreu_voyelles": "יֵשׁ",
+        "francais_mot": "Certains (il y a)",
+        "expression_contexte": "Certains ont coutume"
+      },
+      {
+        "id": 3,
+        "hebreu_brut": "נוהגים",
+        "hebreu_voyelles": "נוֹהֲגִים",
+        "francais_mot": "ont coutume",
+        "expression_contexte": "d'écrire",
+        "infinitif": "לִנְהֹג"
+      },
+      {
+        "id": 4,
+        "hebreu_brut": "לכתוב",
+        "hebreu_voyelles": "לִכְתֹּב",
+        "francais_mot": "d'écrire",
+        "expression_contexte": "le passage",
+        "infinitif": "לִכְתֹּב"
+      },
+      {
+        "id": 5,
+        "hebreu_brut": "פרשת",
+        "hebreu_voyelles": "פָּרָשַׁת",
+        "francais_mot": "le passage (de)",
+        "expression_contexte": "de la composition"
+      },
+      {
+        "id": 6,
+        "hebreu_brut": "פיטום",
+        "hebreu_voyelles": "פִּטּוּם",
+        "francais_mot": "la composition (Pitoum)",
+        "expression_contexte": "de l'encens"
+      },
+      {
+        "id": 7,
+        "hebreu_brut": "הקטורת",
+        "hebreu_voyelles": "הַקְּטֹרֶת",
+        "francais_mot": "de l'encens (HaQetoret)",
+        "expression_contexte": "et sa Baraïta"
+      },
+      {
+        "id": 8,
+        "hebreu_brut": "והברייתא",
+        "hebreu_voyelles": "וְהַבָּרָיְתָא",
+        "francais_mot": "et sa Baraïta",
+        "expression_contexte": "sa"
+      },
+      {
+        "id": 9,
+        "hebreu_brut": "שלה",
+        "hebreu_voyelles": "שֶׁלָּהּ",
+        "francais_mot": "sa (à elle)",
+        "expression_contexte": "sur"
+      },
+      {
+        "id": 10,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "sur",
+        "expression_contexte": "un parchemin"
+      },
+      {
+        "id": 11,
+        "hebreu_brut": "קלף",
+        "hebreu_voyelles": "קְלָף",
+        "francais_mot": "un parchemin",
+        "expression_contexte": "ou"
+      },
+      {
+        "id": 12,
+        "hebreu_brut": "או",
+        "hebreu_voyelles": "אוֹ",
+        "francais_mot": "ou",
+        "expression_contexte": "une peau"
+      },
+      {
+        "id": 13,
+        "hebreu_brut": "גויל",
+        "hebreu_voyelles": "גְּוִיל",
+        "francais_mot": "une peau préparée,",
+        "expression_contexte": "avec l'écriture"
+      },
+      {
+        "id": 14,
+        "hebreu_brut": "בכתב",
+        "hebreu_voyelles": "בִּכְתָב",
+        "francais_mot": "avec l'écriture",
+        "expression_contexte": "assyrienne"
+      },
+      {
+        "id": 15,
+        "hebreu_brut": "אשורי,",
+        "hebreu_voyelles": "אַשּׁוּרִי,",
+        "francais_mot": "assyrienne (Achouri),",
+        "expression_contexte": "comme"
+      },
+      {
+        "id": 16,
+        "hebreu_brut": "כמו",
+        "hebreu_voyelles": "כְּמוֹ",
+        "francais_mot": "comme",
+        "expression_contexte": "dans un rouleau"
+      },
+      {
+        "id": 17,
+        "hebreu_brut": "בספר",
+        "hebreu_voyelles": "בְּסֵפֶר",
+        "francais_mot": "dans un rouleau (de)",
+        "expression_contexte": "de la Torah,"
+      },
+      {
+        "id": 18,
+        "hebreu_brut": "תורה,",
+        "hebreu_voyelles": "תּוֹרָה,",
+        "francais_mot": "la Torah,",
+        "expression_contexte": "et ils lisent"
+      },
+      {
+        "id": 19,
+        "hebreu_brut": "וקוראים",
+        "hebreu_voyelles": "וְקוֹרְאִים",
+        "francais_mot": "et ils lisent",
+        "expression_contexte": "dedans",
+        "infinitif": "לִקְרֹא"
+      },
+      {
+        "id": 20,
+        "hebreu_brut": "בה",
+        "hebreu_voyelles": "בָּהּ",
+        "francais_mot": "dedans (le lisent)",
+        "expression_contexte": "chaque"
+      },
+      {
+        "id": 21,
+        "hebreu_brut": "בכל",
+        "hebreu_voyelles": "בְּכָל",
+        "francais_mot": "chaque",
+        "expression_contexte": "jour,"
+      },
+      {
+        "id": 22,
+        "hebreu_brut": "יום,",
+        "hebreu_voyelles": "יוֹם,",
+        "francais_mot": "jour,",
+        "expression_contexte": "et c'est"
+      },
+      {
+        "id": 23,
+        "hebreu_brut": "והיא",
+        "hebreu_voyelles": "וְהִיא",
+        "francais_mot": "et c'est",
+        "expression_contexte": "une Ségoula"
+      },
+      {
+        "id": 24,
+        "hebreu_brut": "סגולה",
+        "hebreu_voyelles": "סְגֻלָּה",
+        "francais_mot": "une Ségoula (remède spirituel)",
+        "expression_contexte": "pour la subsistance"
+      },
+      {
+        "id": 25,
+        "hebreu_brut": "לפרנסה.",
+        "hebreu_voyelles": "לְפַרְנָסָה.",
+        "francais_mot": "pour la subsistance (Parnassa).",
+        "expression_contexte": "Cependant,"
+      },
+      {
+        "id": 26,
+        "hebreu_brut": "אולם",
+        "hebreu_voyelles": "אוּלָם",
+        "francais_mot": "Cependant,",
+        "expression_contexte": "a priori,"
+      },
+      {
+        "id": 27,
+        "hebreu_brut": "לכתחלה",
+        "hebreu_voyelles": "לִכְתַחֲלָהּ",
+        "francais_mot": "a priori,",
+        "expression_contexte": "on ne doit pas"
+      },
+      {
+        "id": 28,
+        "hebreu_brut": "אין",
+        "hebreu_voyelles": "אֵין",
+        "francais_mot": "on ne doit pas",
+        "expression_contexte": "écrire"
+      },
+      {
+        "id": 29,
+        "hebreu_brut": "לכתוב",
+        "hebreu_voyelles": "לִכְתֹּב",
+        "francais_mot": "écrire",
+        "expression_contexte": "le passage",
+        "infinitif": "לִכְתֹּב"
+      },
+      {
+        "id": 30,
+        "hebreu_brut": "פרשת",
+        "hebreu_voyelles": "פָּרָשַׁת",
+        "francais_mot": "le passage (de)",
+        "expression_contexte": "de l'encens"
+      },
+      {
+        "id": 31,
+        "hebreu_brut": "הקטורת",
+        "hebreu_voyelles": "הַקְּטֹרֶת",
+        "francais_mot": "l'encens",
+        "expression_contexte": "sur"
+      },
+      {
+        "id": 32,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "sur",
+        "expression_contexte": "un parchemin"
+      },
+      {
+        "id": 33,
+        "hebreu_brut": "קלף",
+        "hebreu_voyelles": "קְלָף",
+        "francais_mot": "un parchemin",
+        "expression_contexte": "de manière"
+      },
+      {
+        "id": 34,
+        "hebreu_brut": "בפני",
+        "hebreu_voyelles": "בִּפְנֵי",
+        "francais_mot": "de manière",
+        "expression_contexte": "isolée,"
+      },
+      {
+        "id": 35,
+        "hebreu_brut": "עצמו,",
+        "hebreu_voyelles": "עַצְמוֹ,",
+        "francais_mot": "isolée,",
+        "expression_contexte": "Et ce n'est que"
+      },
+      {
+        "id": 36,
+        "hebreu_brut": "ורק",
+        "hebreu_voyelles": "וְרַק",
+        "francais_mot": "Et ce n'est que",
+        "expression_contexte": "si"
+      },
+      {
+        "id": 37,
+        "hebreu_brut": "אם",
+        "hebreu_voyelles": "אִם",
+        "francais_mot": "si",
+        "expression_contexte": "l'on a transgressé"
+      },
+      {
+        "id": 38,
+        "hebreu_brut": "עברו",
+        "hebreu_voyelles": "עָבְרוּ",
+        "francais_mot": "l'on a transgressé",
+        "expression_contexte": "et qu'on l'a écrit",
+        "infinitif": "לַעֲבֹר"
+      },
+      {
+        "id": 39,
+        "hebreu_brut": "וכתבו",
+        "hebreu_voyelles": "וְכָתְבוּ",
+        "francais_mot": "et qu'on l'a écrit",
+        "expression_contexte": "cela",
+        "infinitif": "לִכְתֹּב"
+      },
+      {
+        "id": 40,
+        "hebreu_brut": "זאת",
+        "hebreu_voyelles": "זֹאת",
+        "francais_mot": "cela",
+        "expression_contexte": "sur"
+      },
+      {
+        "id": 41,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "sur",
+        "expression_contexte": "un parchemin,"
+      },
+      {
+        "id": 42,
+        "hebreu_brut": "קלף,",
+        "hebreu_voyelles": "קְלָף,",
+        "francais_mot": "un parchemin,",
+        "expression_contexte": "qu'il est permis"
+      },
+      {
+        "id": 43,
+        "hebreu_brut": "מותר",
+        "hebreu_voyelles": "מֻתָּר",
+        "francais_mot": "qu'il est permis",
+        "expression_contexte": "d'y lire"
+      },
+      {
+        "id": 44,
+        "hebreu_brut": "לקרוא",
+        "hebreu_voyelles": "לִקְרֹא",
+        "francais_mot": "d'y lire",
+        "expression_contexte": "dedans.",
+        "infinitif": "לִקְרֹא"
+      },
+      {
+        "id": 45,
+        "hebreu_brut": "בזה.",
+        "hebreu_voyelles": "בָּזֶה.",
+        "francais_mot": "dedans.",
+        "expression_contexte": "De même,"
+      },
+      {
+        "id": 46,
+        "hebreu_brut": "וכן",
+        "hebreu_voyelles": "וְכֵן",
+        "francais_mot": "De même,",
+        "expression_contexte": "il est permis"
+      },
+      {
+        "id": 47,
+        "hebreu_brut": "מותר",
+        "hebreu_voyelles": "מֻתָּר",
+        "francais_mot": "il est permis",
+        "expression_contexte": "d'écrire"
+      },
+      {
+        "id": 48,
+        "hebreu_brut": "לכתוב",
+        "hebreu_voyelles": "לִכְתֹּב",
+        "francais_mot": "d'écrire",
+        "expression_contexte": "le passage",
+        "infinitif": "לִכְתֹּב"
+      },
+      {
+        "id": 49,
+        "hebreu_brut": "פרשת",
+        "hebreu_voyelles": "פָּרָשַׁת",
+        "francais_mot": "le passage (de)",
+        "expression_contexte": "l'encens"
+      },
+      {
+        "id": 50,
+        "hebreu_brut": "הקטורת",
+        "hebreu_voyelles": "הַקְּטֹרֶת",
+        "francais_mot": "l'encens",
+        "expression_contexte": "à raison de"
+      },
+      {
+        "id": 51,
+        "hebreu_brut": "כל",
+        "hebreu_voyelles": "כָּל",
+        "francais_mot": "à raison de",
+        "expression_contexte": "trois"
+      },
+      {
+        "id": 52,
+        "hebreu_brut": "ג'",
+        "hebreu_voyelles": "ג'",
+        "francais_mot": "trois",
+        "expression_contexte": "mots"
+      },
+      {
+        "id": 53,
+        "hebreu_brut": "תיבות",
+        "hebreu_voyelles": "תֵּבוֹת",
+        "francais_mot": "mots",
+        "expression_contexte": "par ligne"
+      },
+      {
+        "id": 54,
+        "hebreu_brut": "בשורה",
+        "hebreu_voyelles": "בְּשׂוֹרָה",
+        "francais_mot": "par ligne",
+        "expression_contexte": "une."
+      },
+      {
+        "id": 55,
+        "hebreu_brut": "אחת",
+        "hebreu_voyelles": "אַחַת",
+        "francais_mot": "une.",
+        "expression_contexte": "une."
+      }
+    ]
+  },
+  {
+    "id": "p41",
+    "numero": "41",
+    "sujet": "הלכות השכמת הבוקר",
+    "sujet_fr": "Inscriptions et versets dans la synagogue",
+    "seif": "41",
+    "titre_seif": "Inscriptions et versets dans la synagogue",
+    "texte_integral": {
+      "hebreu_sans_voyelles": "מא נהגו לכתוב פסוק שויתי ה' וגו' על עמוד השליח הצבור, ואין בזה איסור. ומה שנהגו בכמה קהלות בימי החגים, לתלות על כתלי בית הכנסת פסוקים, כמו ביום הכפורים ''כי קדוש היום לאלהינו'' או ''כי ביום הזה יכפר עליכם וגו''', והוא מנהג קבוע מאבותיהם נוחי נפש, אף שיש להם על מה לסמוך, מכל מקום לכתחלה יש להורות שלא לעשות. ואם הדבר נעשה על ידי צילום אין בזה חשש. ואותם הכותבים על קופות של צדקה ''ציון במשפט תפדה ושביה בצדקה'', וכיו''ב, אין למחות בידם. וכן מה שכותבים הפסוק או בשער בית הכנסת ''זה השער לה' צדיקים יבואו בו''. או ''מה טובו אהליך'', או ''פתחו שערים'', ופסוק ''וירא ויאמר מה נורא'', וגם ''למנצח בנגינות מזמור שיר'' בצורת המנורה, ומסביב לה פסוקי תורה ונביאים, וכן בשטרי הכתובה כותבים פסוקים לסימן טוב והצלחה, בכל אלה אין לבטל המנהג",
+      "hebreu_avec_voyelles": "מָא נָהֲגוּ לִכְתֹּב פָּסוּק שִׁוִּיתִי ה' וְגוֹ' עַל עַמּוּד הַשָּׁלִיחַ הַצָּבוּר, וְאֵין בָּזֶה אִסּוּר. וּמָה שֶׁנָּהֲגוּ בְּכַמָּה קְהִלּוֹת בִּימֵי הַחַגִּים, לִתְלוֹת עַל כָּתְלֵי בֵּית הַכְּנֶסֶת פְּסוּקִים, כְּמוֹ בְּיוֹם הַכִּפּוּרִים ''כִּי קָדוֹשׁ הַיּוֹם לֶאֱלֹהֵינוּ'' אוֹ ''כִּי בַיּוֹם הַזֶּה יְכַפֵּר עֲלֵיכֶם וְגוֹ''', וְהוּא מִנְהָג קָבוּעַ מֵאֲבוֹתֵיהֶם נוּחֵי נֶפֶשׁ, אַף שֶׁיֵּשׁ לָהֶם עַל מָה לִסְמֹךְ, מִכָּל מָקוֹם לִכְתַחֲלָהּ יֵשׁ לְהוֹרוֹת שֶׁלֹּא לַעֲשׂוֹת. וְאִם הַדָּבָר נַעֲשָׂה עַל יְדֵי צִלּוּם אֵין בָּזֶה חֲשָׁשׁ. וְאוֹתָם הַכּוֹתְבִים עַל קֻפּוֹת שֶׁל צְדָקָה ''צִיּוֹן בְּמִשְׁפָּט תִּפָּדֶה וְשָׁבֶיהָ בִּצְדָקָה'', וּכְיוּ''ב, אֵין לִמְחוֹת בְּיָדָם. וְכֵן מָה שֶׁכּוֹתְבִים הַפָּסוּק אוֹ בְּשַׁעַר בֵּית הַכְּנֶסֶת ''זֶה הַשַּׁעַר לַה' צַדִּיקִים יָבוֹאוּ בּוֹ''. אוֹ ''מַה טוּבוֹ אֹהָלֶיךָ'', אוֹ ''פָּתְחוּ שְׁעָרִים'', וּפָסוּק ''וַיַּרְא וַיֹּאמֶר מָה נוֹרָא'', וְגַם ''לַמְנַצֵּחַ בִּנְגִינֹת מִזְמוֹר שִׁיר'' בְּצוּרַת הַמְּנוֹרָה, וּמִסָּבִיב לָהּ פְּסוּקֵי תּוֹרָה וּנְבִיאִים, וְכֵן בְּשִׁטְרֵי הַכְּתֻבָּה כּוֹתְבִים פְּסוּקִים לְסִימָן טוֹב וְהַצְלָחָה, בְּכָל אֵלֶּה אֵין לְבַטֵּל הַמִּנְהָג",
+      "francais": "41. On a l'habitude d'écrire le verset « J'ai placé l'Éternel constamment devant moi, etc. » sur le pupitre de l'officiant (Chalia'h Tsibbour), et il n'y a pas d'interdit à cela. Quant à la coutume de plusieurs communautés pendant les jours de fête de suspendre des versets sur les murs de la synagogue, comme à Kippour « Car ce jour est saint pour notre Dieu » ou « Car en ce jour on fera l'expiation pour vous, etc. », bien qu'il s'agisse d'une coutume établie par leurs ancêtres de mémoire bénie et qu'ils aient sur quoi s'appuyer, il faut néanmoins a priori enseigner de ne pas le faire. Si cela est fait par le biais d'une photographie (ou reproduction), il n'y a rien à craindre. Et on ne doit pas protester contre ceux qui écrivent sur les boîtes de charité (Tsedaka) « Sion sera rachetée par le droit et ses repentants par la tsedaka », ou d'autres versets similaires. Il en va de même pour l'écriture d'un verset au portail de la synagogue tel que « C'est ici la porte de l'Éternel, les justes y entreront », ou « Qu'elles sont belles tes tentes », ou « Ouvrez les portes », ainsi que le verset « Il vit et dit : Que ce lieu est redoutable », ou encore le Psaume « Au chef des chantres. Avec instruments à cordes. Psaume. Cantique. » tracé en forme de Ménorah entourée de versets de la Torah et des Prophètes, et de même pour les versets écrits sur les actes de mariage (Kétoubot) en signe de bon augure et de réussite : pour toutes ces choses, on ne doit pas annuler la coutume."
+    },
+    "mots_alignes": [
+      {
+        "id": 1,
+        "hebreu_brut": "מא",
+        "hebreu_voyelles": "מָא",
+        "francais_mot": "41.",
+        "expression_contexte": "41. On a l'habitude"
+      },
+      {
+        "id": 2,
+        "hebreu_brut": "נהגו",
+        "hebreu_voyelles": "נָהֲגוּ",
+        "francais_mot": "On a l'habitude",
+        "expression_contexte": "d'écrire",
+        "infinitif": "לִנְהֹג"
+      },
+      {
+        "id": 3,
+        "hebreu_brut": "לכתוב",
+        "hebreu_voyelles": "לִכְתֹּב",
+        "francais_mot": "d'écrire",
+        "expression_contexte": "le verset",
+        "infinitif": "לִכְתֹּב"
+      },
+      {
+        "id": 4,
+        "hebreu_brut": "פסוק",
+        "hebreu_voyelles": "פָּסוּק",
+        "francais_mot": "le verset",
+        "expression_contexte": "\"J'ai placé"
+      },
+      {
+        "id": 5,
+        "hebreu_brut": "שויתי",
+        "hebreu_voyelles": "שִׁוִּיתִי",
+        "francais_mot": "\"J'ai placé",
+        "expression_contexte": "l'Éternel"
+      },
+      {
+        "id": 6,
+        "hebreu_brut": "ה'",
+        "hebreu_voyelles": "ה'",
+        "francais_mot": "l'Éternel",
+        "expression_contexte": "etc.\""
+      },
+      {
+        "id": 7,
+        "hebreu_brut": "וגו'",
+        "hebreu_voyelles": "וְגוֹ'",
+        "francais_mot": "etc.\"",
+        "expression_contexte": "sur"
+      },
+      {
+        "id": 8,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "sur",
+        "expression_contexte": "le pupitre"
+      },
+      {
+        "id": 9,
+        "hebreu_brut": "עמוד",
+        "hebreu_voyelles": "עַמּוּד",
+        "francais_mot": "le pupitre (de)",
+        "expression_contexte": "l'officiant"
+      },
+      {
+        "id": 10,
+        "hebreu_brut": "השליח",
+        "hebreu_voyelles": "הַשָּׁלִיחַ",
+        "francais_mot": "l'officiant",
+        "expression_contexte": "(Chalia'h"
+      },
+      {
+        "id": 11,
+        "hebreu_brut": "הצבור,",
+        "hebreu_voyelles": "הַצָּבוּר,",
+        "francais_mot": "(Chalia'h Tsibbour),",
+        "expression_contexte": "et il n'y a pas"
+      },
+      {
+        "id": 12,
+        "hebreu_brut": "ואין",
+        "hebreu_voyelles": "וְאֵין",
+        "francais_mot": "et il n'y a pas",
+        "expression_contexte": "à cela"
+      },
+      {
+        "id": 13,
+        "hebreu_brut": "בזה",
+        "hebreu_voyelles": "בָּזֶה",
+        "francais_mot": "à cela",
+        "expression_contexte": "d'interdit."
+      },
+      {
+        "id": 14,
+        "hebreu_brut": "איסור.",
+        "hebreu_voyelles": "אִסּוּר.",
+        "francais_mot": "d'interdit.",
+        "expression_contexte": "Quant à"
+      },
+      {
+        "id": 15,
+        "hebreu_brut": "ומה",
+        "hebreu_voyelles": "וּמָה",
+        "francais_mot": "Quant à",
+        "expression_contexte": "la coutume"
+      },
+      {
+        "id": 16,
+        "hebreu_brut": "שנהגו",
+        "hebreu_voyelles": "שֶׁנָּהֲגוּ",
+        "francais_mot": "la coutume",
+        "expression_contexte": "de plusieurs",
+        "infinitif": "לִנְהֹג"
+      },
+      {
+        "id": 17,
+        "hebreu_brut": "בכמה",
+        "hebreu_voyelles": "בְּכַמָּה",
+        "francais_mot": "de plusieurs",
+        "expression_contexte": "communautés"
+      },
+      {
+        "id": 18,
+        "hebreu_brut": "קהלות",
+        "hebreu_voyelles": "קְהִלּוֹת",
+        "francais_mot": "communautés",
+        "expression_contexte": "pendant les jours"
+      },
+      {
+        "id": 19,
+        "hebreu_brut": "בימי",
+        "hebreu_voyelles": "בִּימֵי",
+        "francais_mot": "pendant les jours (de)",
+        "expression_contexte": "fête,"
+      },
+      {
+        "id": 20,
+        "hebreu_brut": "החגים,",
+        "hebreu_voyelles": "הַחַגִּים,",
+        "francais_mot": "fête,",
+        "expression_contexte": "de suspendre"
+      },
+      {
+        "id": 21,
+        "hebreu_brut": "לתלות",
+        "hebreu_voyelles": "לִתְלוֹת",
+        "francais_mot": "de suspendre",
+        "expression_contexte": "sur",
+        "infinitif": "לִתְלוֹת"
+      },
+      {
+        "id": 22,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "sur",
+        "expression_contexte": "les murs"
+      },
+      {
+        "id": 23,
+        "hebreu_brut": "כתלי",
+        "hebreu_voyelles": "כָּתְלֵי",
+        "francais_mot": "les murs (de)",
+        "expression_contexte": "la"
+      },
+      {
+        "id": 24,
+        "hebreu_brut": "בית",
+        "hebreu_voyelles": "בֵּית",
+        "francais_mot": "la",
+        "expression_contexte": "synagogue"
+      },
+      {
+        "id": 25,
+        "hebreu_brut": "הכנסת",
+        "hebreu_voyelles": "הַכְּנֶסֶת",
+        "francais_mot": "synagogue",
+        "expression_contexte": "des versets,"
+      },
+      {
+        "id": 26,
+        "hebreu_brut": "פסוקים,",
+        "hebreu_voyelles": "פְּסוּקִים,",
+        "francais_mot": "des versets,",
+        "expression_contexte": "comme"
+      },
+      {
+        "id": 27,
+        "hebreu_brut": "כמו",
+        "hebreu_voyelles": "כְּמוֹ",
+        "francais_mot": "comme",
+        "expression_contexte": "le jour"
+      },
+      {
+        "id": 28,
+        "hebreu_brut": "ביום",
+        "hebreu_voyelles": "בְּיוֹם",
+        "francais_mot": "le jour (de)",
+        "expression_contexte": "Kippour"
+      },
+      {
+        "id": 29,
+        "hebreu_brut": "הכפורים",
+        "hebreu_voyelles": "הַכִּפּוּרִים",
+        "francais_mot": "Kippour",
+        "expression_contexte": "\"Car"
+      },
+      {
+        "id": 30,
+        "hebreu_brut": "''כי",
+        "hebreu_voyelles": "''כִּי",
+        "francais_mot": "\"Car",
+        "expression_contexte": "saint"
+      },
+      {
+        "id": 31,
+        "hebreu_brut": "קדוש",
+        "hebreu_voyelles": "קָדוֹשׁ",
+        "francais_mot": "saint",
+        "expression_contexte": "est ce jour"
+      },
+      {
+        "id": 32,
+        "hebreu_brut": "היום",
+        "hebreu_voyelles": "הַיּוֹם",
+        "francais_mot": "est ce jour",
+        "expression_contexte": "pour notre Dieu\""
+      },
+      {
+        "id": 33,
+        "hebreu_brut": "לאלהינו''",
+        "hebreu_voyelles": "לֶאֱלֹהֵינוּ''",
+        "francais_mot": "pour notre Dieu\"",
+        "expression_contexte": "ou"
+      },
+      {
+        "id": 34,
+        "hebreu_brut": "או",
+        "hebreu_voyelles": "אוֹ",
+        "francais_mot": "ou",
+        "expression_contexte": "\"Car"
+      },
+      {
+        "id": 35,
+        "hebreu_brut": "''כי",
+        "hebreu_voyelles": "''כִּי",
+        "francais_mot": "\"Car",
+        "expression_contexte": "en ce jour"
+      },
+      {
+        "id": 36,
+        "hebreu_brut": "ביום",
+        "hebreu_voyelles": "בַיּוֹם",
+        "francais_mot": "en ce jour",
+        "expression_contexte": "ce"
+      },
+      {
+        "id": 37,
+        "hebreu_brut": "הזה",
+        "hebreu_voyelles": "הַזֶּה",
+        "francais_mot": "ce",
+        "expression_contexte": "on fera l'expiation"
+      },
+      {
+        "id": 38,
+        "hebreu_brut": "יכפר",
+        "hebreu_voyelles": "יְכַפֵּר",
+        "francais_mot": "on fera l'expiation",
+        "expression_contexte": "pour vous",
+        "infinitif": "לְכַפֵּר"
+      },
+      {
+        "id": 39,
+        "hebreu_brut": "עליכם",
+        "hebreu_voyelles": "עֲלֵיכֶם",
+        "francais_mot": "pour vous",
+        "expression_contexte": "etc.\","
+      },
+      {
+        "id": 40,
+        "hebreu_brut": "וגו''',",
+        "hebreu_voyelles": "וְגוֹ''',",
+        "francais_mot": "etc.\",",
+        "expression_contexte": "bien qu'il s'agisse"
+      },
+      {
+        "id": 41,
+        "hebreu_brut": "והוא",
+        "hebreu_voyelles": "וְהוּא",
+        "francais_mot": "bien qu'il s'agisse",
+        "expression_contexte": "d'une coutume"
+      },
+      {
+        "id": 42,
+        "hebreu_brut": "מנהג",
+        "hebreu_voyelles": "מִנְהָג",
+        "francais_mot": "d'une coutume",
+        "expression_contexte": "établie"
+      },
+      {
+        "id": 43,
+        "hebreu_brut": "קבוע",
+        "hebreu_voyelles": "קָבוּעַ",
+        "francais_mot": "établie",
+        "expression_contexte": "par leurs ancêtres"
+      },
+      {
+        "id": 44,
+        "hebreu_brut": "מאבותיהם",
+        "hebreu_voyelles": "מֵאֲבוֹתֵיהֶם",
+        "francais_mot": "par leurs ancêtres",
+        "expression_contexte": "de mémoire"
+      },
+      {
+        "id": 45,
+        "hebreu_brut": "נוחי",
+        "hebreu_voyelles": "נוּחֵי",
+        "francais_mot": "de mémoire",
+        "expression_contexte": "bénie,"
+      },
+      {
+        "id": 46,
+        "hebreu_brut": "נפש,",
+        "hebreu_voyelles": "נֶפֶשׁ,",
+        "francais_mot": "bénie,",
+        "expression_contexte": "et bien"
+      },
+      {
+        "id": 47,
+        "hebreu_brut": "אף",
+        "hebreu_voyelles": "אַף",
+        "francais_mot": "et bien",
+        "expression_contexte": "qu'ils aient"
+      },
+      {
+        "id": 48,
+        "hebreu_brut": "שיש",
+        "hebreu_voyelles": "שֶׁיֵּשׁ",
+        "francais_mot": "qu'ils aient",
+        "expression_contexte": "à eux"
+      },
+      {
+        "id": 49,
+        "hebreu_brut": "להם",
+        "hebreu_voyelles": "לָהֶם",
+        "francais_mot": "à eux",
+        "expression_contexte": "sur"
+      },
+      {
+        "id": 50,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "sur",
+        "expression_contexte": "quoi"
+      },
+      {
+        "id": 51,
+        "hebreu_brut": "מה",
+        "hebreu_voyelles": "מָה",
+        "francais_mot": "quoi",
+        "expression_contexte": "s'appuyer,"
+      },
+      {
+        "id": 52,
+        "hebreu_brut": "לסמוך,",
+        "hebreu_voyelles": "לִסְמֹךְ,",
+        "francais_mot": "s'appuyer,",
+        "expression_contexte": "néanmoins",
+        "infinitif": "לִסְמֹךְ"
+      },
+      {
+        "id": 53,
+        "hebreu_brut": "מכל",
+        "hebreu_voyelles": "מִכָּל",
+        "francais_mot": "néanmoins",
+        "expression_contexte": "néanmoins"
+      },
+      {
+        "id": 54,
+        "hebreu_brut": "מקום",
+        "hebreu_voyelles": "מָקוֹם",
+        "francais_mot": "néanmoins",
+        "expression_contexte": "a priori"
+      },
+      {
+        "id": 55,
+        "hebreu_brut": "לכתחלה",
+        "hebreu_voyelles": "לִכְתַחֲלָהּ",
+        "francais_mot": "a priori",
+        "expression_contexte": "il faut"
+      },
+      {
+        "id": 56,
+        "hebreu_brut": "יש",
+        "hebreu_voyelles": "יֵשׁ",
+        "francais_mot": "il faut",
+        "expression_contexte": "enseigner"
+      },
+      {
+        "id": 57,
+        "hebreu_brut": "להורות",
+        "hebreu_voyelles": "לְהוֹרוֹת",
+        "francais_mot": "enseigner",
+        "expression_contexte": "de ne pas",
+        "infinitif": "לְהוֹרוֹת"
+      },
+      {
+        "id": 58,
+        "hebreu_brut": "שלא",
+        "hebreu_voyelles": "שֶׁלֹּא",
+        "francais_mot": "de ne pas",
+        "expression_contexte": "le faire."
+      },
+      {
+        "id": 59,
+        "hebreu_brut": "לעשות.",
+        "hebreu_voyelles": "לַעֲשׂוֹת.",
+        "francais_mot": "le faire.",
+        "expression_contexte": "Et si",
+        "infinitif": "לַעֲשׂוֹת"
+      },
+      {
+        "id": 60,
+        "hebreu_brut": "ואם",
+        "hebreu_voyelles": "וְאִם",
+        "francais_mot": "Et si",
+        "expression_contexte": "la chose"
+      },
+      {
+        "id": 61,
+        "hebreu_brut": "הדבר",
+        "hebreu_voyelles": "הַדָּבָר",
+        "francais_mot": "la chose",
+        "expression_contexte": "est faite"
+      },
+      {
+        "id": 62,
+        "hebreu_brut": "נעשה",
+        "hebreu_voyelles": "נַעֲשָׂה",
+        "francais_mot": "est faite",
+        "expression_contexte": "par",
+        "infinitif": "לְהֵעָשׂוֹת"
+      },
+      {
+        "id": 63,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "par",
+        "expression_contexte": "le biais"
+      },
+      {
+        "id": 64,
+        "hebreu_brut": "ידי",
+        "hebreu_voyelles": "יְדֵי",
+        "francais_mot": "le biais (de)",
+        "expression_contexte": "une photographie"
+      },
+      {
+        "id": 65,
+        "hebreu_brut": "צילום",
+        "hebreu_voyelles": "צִלּוּם",
+        "francais_mot": "une photographie",
+        "expression_contexte": "il n'y a"
+      },
+      {
+        "id": 66,
+        "hebreu_brut": "אין",
+        "hebreu_voyelles": "אֵין",
+        "francais_mot": "il n'y a",
+        "expression_contexte": "en cela"
+      },
+      {
+        "id": 67,
+        "hebreu_brut": "בזה",
+        "hebreu_voyelles": "בָּזֶה",
+        "francais_mot": "en cela",
+        "expression_contexte": "rien à craindre."
+      },
+      {
+        "id": 68,
+        "hebreu_brut": "חשש.",
+        "hebreu_voyelles": "חֲשָׁשׁ.",
+        "francais_mot": "rien à craindre.",
+        "expression_contexte": "Et ceux"
+      },
+      {
+        "id": 69,
+        "hebreu_brut": "ואותם",
+        "hebreu_voyelles": "וְאוֹתָם",
+        "francais_mot": "Et ceux",
+        "expression_contexte": "qui écrivent"
+      },
+      {
+        "id": 70,
+        "hebreu_brut": "הכותבים",
+        "hebreu_voyelles": "הַכּוֹתְבִים",
+        "francais_mot": "qui écrivent",
+        "expression_contexte": "sur",
+        "infinitif": "לִכְתֹּב"
+      },
+      {
+        "id": 71,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "sur",
+        "expression_contexte": "les boîtes"
+      },
+      {
+        "id": 72,
+        "hebreu_brut": "קופות",
+        "hebreu_voyelles": "קֻפּוֹת",
+        "francais_mot": "les boîtes (de)",
+        "expression_contexte": "de"
+      },
+      {
+        "id": 73,
+        "hebreu_brut": "של",
+        "hebreu_voyelles": "שֶׁל",
+        "francais_mot": "de",
+        "expression_contexte": "charité"
+      },
+      {
+        "id": 74,
+        "hebreu_brut": "צדקה",
+        "hebreu_voyelles": "צְדָקָה",
+        "francais_mot": "charité (Tsedaka)",
+        "expression_contexte": "\"Sion"
+      },
+      {
+        "id": 75,
+        "hebreu_brut": "''ציון",
+        "hebreu_voyelles": "''צִיּוֹן",
+        "francais_mot": "\"Sion",
+        "expression_contexte": "par le droit"
+      },
+      {
+        "id": 76,
+        "hebreu_brut": "במשפט",
+        "hebreu_voyelles": "בְּמִשְׁפָּט",
+        "francais_mot": "par le droit",
+        "expression_contexte": "sera rachetée"
+      },
+      {
+        "id": 77,
+        "hebreu_brut": "תפדה",
+        "hebreu_voyelles": "תִּפָּדֶה",
+        "francais_mot": "sera rachetée",
+        "expression_contexte": "et ses repentants",
+        "infinitif": "לְהִפָּדוֹת"
+      },
+      {
+        "id": 78,
+        "hebreu_brut": "ושביה",
+        "hebreu_voyelles": "וְשָׁבֶיהָ",
+        "francais_mot": "et ses repentants",
+        "expression_contexte": "par la tsedaka\","
+      },
+      {
+        "id": 79,
+        "hebreu_brut": "בצדקה'',",
+        "hebreu_voyelles": "בִּצְדָקָה'',",
+        "francais_mot": "par la tsedaka\",",
+        "expression_contexte": "ou similaires,"
+      },
+      {
+        "id": 80,
+        "hebreu_brut": "וכיו''ב,",
+        "hebreu_voyelles": "וּכְיוּ''ב,",
+        "francais_mot": "ou similaires,",
+        "expression_contexte": "on ne doit pas"
+      },
+      {
+        "id": 81,
+        "hebreu_brut": "אין",
+        "hebreu_voyelles": "אֵין",
+        "francais_mot": "on ne doit pas",
+        "expression_contexte": "protester"
+      },
+      {
+        "id": 82,
+        "hebreu_brut": "למחות",
+        "hebreu_voyelles": "לִמְחוֹת",
+        "francais_mot": "protester",
+        "expression_contexte": "contre eux.",
+        "infinitif": "לִמְחוֹת"
+      },
+      {
+        "id": 83,
+        "hebreu_brut": "בידם.",
+        "hebreu_voyelles": "בְּיָדָם.",
+        "francais_mot": "contre eux.",
+        "expression_contexte": "Il en va de même"
+      },
+      {
+        "id": 84,
+        "hebreu_brut": "וכן",
+        "hebreu_voyelles": "וְכֵן",
+        "francais_mot": "Il en va de même",
+        "expression_contexte": "pour (ceux)"
+      },
+      {
+        "id": 85,
+        "hebreu_brut": "מה",
+        "hebreu_voyelles": "מָה",
+        "francais_mot": "pour (ceux)",
+        "expression_contexte": "qui écrivent"
+      },
+      {
+        "id": 86,
+        "hebreu_brut": "שכותבים",
+        "hebreu_voyelles": "שֶׁכּוֹתְבִים",
+        "francais_mot": "qui écrivent",
+        "expression_contexte": "le verset",
+        "infinitif": "לִכְתֹּב"
+      },
+      {
+        "id": 87,
+        "hebreu_brut": "הפסוק",
+        "hebreu_voyelles": "הַפָּסוּק",
+        "francais_mot": "le verset",
+        "expression_contexte": "ou"
+      },
+      {
+        "id": 88,
+        "hebreu_brut": "או",
+        "hebreu_voyelles": "אוֹ",
+        "francais_mot": "ou",
+        "expression_contexte": "au portail"
+      },
+      {
+        "id": 89,
+        "hebreu_brut": "בשער",
+        "hebreu_voyelles": "בְּשַׁעַר",
+        "francais_mot": "au portail (de)",
+        "expression_contexte": "la"
+      },
+      {
+        "id": 90,
+        "hebreu_brut": "בית",
+        "hebreu_voyelles": "בֵּית",
+        "francais_mot": "la",
+        "expression_contexte": "synagogue"
+      },
+      {
+        "id": 91,
+        "hebreu_brut": "הכנסת",
+        "hebreu_voyelles": "הַכְּנֶסֶת",
+        "francais_mot": "synagogue",
+        "expression_contexte": "\"C'est"
+      },
+      {
+        "id": 92,
+        "hebreu_brut": "''זה",
+        "hebreu_voyelles": "''זֶה",
+        "francais_mot": "\"C'est",
+        "expression_contexte": "ici la porte"
+      },
+      {
+        "id": 93,
+        "hebreu_brut": "השער",
+        "hebreu_voyelles": "הַשַּׁעַר",
+        "francais_mot": "ici la porte",
+        "expression_contexte": "de l'Éternel,"
+      },
+      {
+        "id": 94,
+        "hebreu_brut": "לה'",
+        "hebreu_voyelles": "לַה'",
+        "francais_mot": "de l'Éternel,",
+        "expression_contexte": "les justes"
+      },
+      {
+        "id": 95,
+        "hebreu_brut": "צדיקים",
+        "hebreu_voyelles": "צַדִּיקִים",
+        "francais_mot": "les justes",
+        "expression_contexte": "y entreront"
+      },
+      {
+        "id": 96,
+        "hebreu_brut": "יבואו",
+        "hebreu_voyelles": "יָבוֹאוּ",
+        "francais_mot": "y entreront",
+        "expression_contexte": "dedans\".",
+        "infinitif": "לָבוֹא"
+      },
+      {
+        "id": 97,
+        "hebreu_brut": "בו''.",
+        "hebreu_voyelles": "בּוֹ''.",
+        "francais_mot": "dedans\".",
+        "expression_contexte": "ou"
+      },
+      {
+        "id": 98,
+        "hebreu_brut": "או",
+        "hebreu_voyelles": "אוֹ",
+        "francais_mot": "ou",
+        "expression_contexte": "\"Qu'elles"
+      },
+      {
+        "id": 99,
+        "hebreu_brut": "''מה",
+        "hebreu_voyelles": "''מַה",
+        "francais_mot": "\"Qu'elles",
+        "expression_contexte": "sont belles"
+      },
+      {
+        "id": 100,
+        "hebreu_brut": "טובו",
+        "hebreu_voyelles": "טוּבוֹ",
+        "francais_mot": "sont belles",
+        "expression_contexte": "tes tentes\","
+      },
+      {
+        "id": 101,
+        "hebreu_brut": "אהליך'',",
+        "hebreu_voyelles": "אֹהָלֶיךָ'',",
+        "francais_mot": "tes tentes\",",
+        "expression_contexte": "ou"
+      },
+      {
+        "id": 102,
+        "hebreu_brut": "או",
+        "hebreu_voyelles": "אוֹ",
+        "francais_mot": "ou",
+        "expression_contexte": "\"Ouvrez"
+      },
+      {
+        "id": 103,
+        "hebreu_brut": "''פתחו",
+        "hebreu_voyelles": "''פָּתְחוּ",
+        "francais_mot": "\"Ouvrez",
+        "expression_contexte": "les portes\",",
+        "infinitif": "לִפְתֹּחַ"
+      },
+      {
+        "id": 104,
+        "hebreu_brut": "שערים'',",
+        "hebreu_voyelles": "שְׁעָרִים'',",
+        "francais_mot": "les portes\",",
+        "expression_contexte": "ainsi que le verset"
+      },
+      {
+        "id": 105,
+        "hebreu_brut": "ופסוק",
+        "hebreu_voyelles": "וּפָסוּק",
+        "francais_mot": "ainsi que le verset",
+        "expression_contexte": "\"Il vit"
+      },
+      {
+        "id": 106,
+        "hebreu_brut": "''וירא",
+        "hebreu_voyelles": "''וַיַּרְא",
+        "francais_mot": "\"Il vit",
+        "expression_contexte": "et dit :",
+        "infinitif": "לִרְאוֹת"
+      },
+      {
+        "id": 107,
+        "hebreu_brut": "ויאמר",
+        "hebreu_voyelles": "וַיֹּאמֶר",
+        "francais_mot": "et dit :",
+        "expression_contexte": "Que",
+        "infinitif": "לוֹמַר"
+      },
+      {
+        "id": 108,
+        "hebreu_brut": "מה",
+        "hebreu_voyelles": "מָה",
+        "francais_mot": "Que",
+        "expression_contexte": "redoutable\","
+      },
+      {
+        "id": 109,
+        "hebreu_brut": "נורא'',",
+        "hebreu_voyelles": "נוֹרָא'',",
+        "francais_mot": "redoutable\",",
+        "expression_contexte": "ou encore"
+      },
+      {
+        "id": 110,
+        "hebreu_brut": "וגם",
+        "hebreu_voyelles": "וְגַם",
+        "francais_mot": "ou encore",
+        "expression_contexte": "\"Au chef des chantres."
+      },
+      {
+        "id": 111,
+        "hebreu_brut": "''למנצח",
+        "hebreu_voyelles": "''לַמְנַצֵּחַ",
+        "francais_mot": "\"Au chef des chantres.",
+        "expression_contexte": "Avec instruments à cordes."
+      },
+      {
+        "id": 112,
+        "hebreu_brut": "בנגינות",
+        "hebreu_voyelles": "בִּנְגִינֹת",
+        "francais_mot": "Avec instruments à cordes.",
+        "expression_contexte": "Psaume."
+      },
+      {
+        "id": 113,
+        "hebreu_brut": "מזמור",
+        "hebreu_voyelles": "מִזְמוֹר",
+        "francais_mot": "Psaume.",
+        "expression_contexte": "Cantique.\""
+      },
+      {
+        "id": 114,
+        "hebreu_brut": "שיר''",
+        "hebreu_voyelles": "שִׁיר''",
+        "francais_mot": "Cantique.\"",
+        "expression_contexte": "tracé en forme"
+      },
+      {
+        "id": 115,
+        "hebreu_brut": "בצורת",
+        "hebreu_voyelles": "בְּצוּרַת",
+        "francais_mot": "tracé en forme (de)",
+        "expression_contexte": "Ménorah,"
+      },
+      {
+        "id": 116,
+        "hebreu_brut": "המנורה,",
+        "hebreu_voyelles": "הַמְּנוֹרָה,",
+        "francais_mot": "Ménorah,",
+        "expression_contexte": "entourée"
+      },
+      {
+        "id": 117,
+        "hebreu_brut": "ומסביב",
+        "hebreu_voyelles": "וּמִסָּבִיב",
+        "francais_mot": "entourée",
+        "expression_contexte": "à elle"
+      },
+      {
+        "id": 118,
+        "hebreu_brut": "לה",
+        "hebreu_voyelles": "לָהּ",
+        "francais_mot": "à elle",
+        "expression_contexte": "de versets"
+      },
+      {
+        "id": 119,
+        "hebreu_brut": "פסוקי",
+        "hebreu_voyelles": "פְּסוּקֵי",
+        "francais_mot": "de versets (de)",
+        "expression_contexte": "la Torah"
+      },
+      {
+        "id": 120,
+        "hebreu_brut": "תורה",
+        "hebreu_voyelles": "תּוֹרָה",
+        "francais_mot": "la Torah",
+        "expression_contexte": "et des Prophètes,"
+      },
+      {
+        "id": 121,
+        "hebreu_brut": "ונביאים,",
+        "hebreu_voyelles": "וּנְבִיאִים,",
+        "francais_mot": "et des Prophètes,",
+        "expression_contexte": "et de même"
+      },
+      {
+        "id": 122,
+        "hebreu_brut": "וכן",
+        "hebreu_voyelles": "וְכֵן",
+        "francais_mot": "et de même",
+        "expression_contexte": "sur les actes"
+      },
+      {
+        "id": 123,
+        "hebreu_brut": "בשטרי",
+        "hebreu_voyelles": "בְּשִׁטְרֵי",
+        "francais_mot": "sur les actes (de)",
+        "expression_contexte": "mariage"
+      },
+      {
+        "id": 124,
+        "hebreu_brut": "הכתובה",
+        "hebreu_voyelles": "הַכְּתֻבָּה",
+        "francais_mot": "mariage (Kétoubot)",
+        "expression_contexte": "écrits"
+      },
+      {
+        "id": 125,
+        "hebreu_brut": "כותבים",
+        "hebreu_voyelles": "כּוֹתְבִים",
+        "francais_mot": "écrits",
+        "expression_contexte": "des versets",
+        "infinitif": "לִכְתֹּב"
+      },
+      {
+        "id": 126,
+        "hebreu_brut": "פסוקים",
+        "hebreu_voyelles": "פְּסוּקִים",
+        "francais_mot": "des versets",
+        "expression_contexte": "en signe"
+      },
+      {
+        "id": 127,
+        "hebreu_brut": "לסימן",
+        "hebreu_voyelles": "לְסִימָן",
+        "francais_mot": "en signe",
+        "expression_contexte": "de bon augure"
+      },
+      {
+        "id": 128,
+        "hebreu_brut": "טוב",
+        "hebreu_voyelles": "טוֹב",
+        "francais_mot": "de bon augure",
+        "expression_contexte": "et de réussite :"
+      },
+      {
+        "id": 129,
+        "hebreu_brut": "והצלחה,",
+        "hebreu_voyelles": "וְהַצְלָחָה,",
+        "francais_mot": "et de réussite :",
+        "expression_contexte": "pour toutes"
+      },
+      {
+        "id": 130,
+        "hebreu_brut": "בכל",
+        "hebreu_voyelles": "בְּכָל",
+        "francais_mot": "pour toutes",
+        "expression_contexte": "ces choses,"
+      },
+      {
+        "id": 131,
+        "hebreu_brut": "אלה",
+        "hebreu_voyelles": "אֵלֶּה",
+        "francais_mot": "ces choses,",
+        "expression_contexte": "on ne doit pas"
+      },
+      {
+        "id": 132,
+        "hebreu_brut": "אין",
+        "hebreu_voyelles": "אֵין",
+        "francais_mot": "on ne doit pas",
+        "expression_contexte": "annuler"
+      },
+      {
+        "id": 133,
+        "hebreu_brut": "לבטל",
+        "hebreu_voyelles": "לְבַטֵּל",
+        "francais_mot": "annuler",
+        "expression_contexte": "la coutume.",
+        "infinitif": "לְבַטֵּל"
+      },
+      {
+        "id": 134,
+        "hebreu_brut": "המנהג",
+        "hebreu_voyelles": "הַמִּנְהָג",
+        "francais_mot": "la coutume.",
+        "expression_contexte": "la coutume."
+      }
+    ]
+  },
+  {
+    "id": "p42",
+    "numero": "42",
+    "sujet": "הלכות השכמת הבוקר",
+    "sujet_fr": "Lecture quotidienne des Dix Commandements",
+    "seif": "42",
+    "titre_seif": "Lecture quotidienne des Dix Commandements",
+    "texte_integral": {
+      "hebreu_sans_voyelles": "מב יש נוהגים לומר בכל יום [ביחיד] פרשת עשרת הדברות ופרשת המן, אך אין מנהגינו לאומרם. [ומכל מקום סגולה טובה לפרנסה לומר בכל פרשת המן]. ואמנם מה שנהגו לתת תבנית שני לוחות הברית מעל ארון הקודש, ובו ראשי עשרת הדברות, יש להם על מה שיסמוכו וקשה לבטל מנהגם של ישראל. ואמרו בגמרא, שבתחלה ביקשו לקבוע פרשת בלק בקריאת שמע, אך בטלו זאת מפני טורח צבור",
+      "hebreu_avec_voyelles": "מב יֵשׁ נוֹהֲגִים לוֹמַר בְּכָל יוֹם [בְּיָחִיד] פָּרָשַׁת עֲשֶׂרֶת הַדִּבְּרוֹת וּפָרָשַׁת הָמָן, אַךְ אֵין מִנְהָגֵינוּ לְאָמְרָם. [וּמִכָּל מָקוֹם סְגֻלָּה טוֹבָה לְפַרְנָסָה לוֹמַר בְּכָל פָּרָשַׁת הַמָּן]. וְאָמְנָם מָה שֶׁנָּהֲגוּ לָתֵת תַּבְנִית שְׁנֵי לוּחוֹת הַבְּרִית מֵעַל אֲרוֹן הַקֹּדֶשׁ, וּבוֹ רָאשֵׁי עֲשֶׂרֶת הַדִּבְּרוֹת, יֵשׁ לָהֶם עַל מַה שֶּׁיִּסְמוֹכוּ וְקָשֶׁה לְבַטֵּל מִנְהָגָם שֶׁל יִשְׂרָאֵל. וְאָמְרוּ בַּגְּמָרָא, שֶׁבַּתְּחִלָּה בִּקְּשׁוּ לִקְבֹּעַ פָּרָשַׁת בָּלָק בִּקְרִיאַת שְׁמַע, אַךְ בִּטְּלוּ זֹאת מִפְּנֵי טוֹרֵחַ צִבּוּר",
+      "francais": "42. Certains ont coutume de lire chaque jour [en privé] le passage des Dix Commandements et le passage de la Manne, mais ce n'est pas notre coutume de les réciter. [Néanmoins, c'est une bonne Ségoula pour la subsistance de lire chaque jour le passage de la Manne]. Quant à l'habitude de placer une représentation des deux Tables de l'Alliance au-dessus de l'Arche Sainte, sur lesquelles figurent les premiers mots des Dix Commandements, ils ont sur quoi s'appuyer et il est difficile d'annuler cette coutume d'Israël. Le Talmud relate qu'à l'origine, ils souhaitaient intégrer le passage de Balak à la lecture du Chéma, mais l'ont annulé afin de ne pas imposer une contrainte excessive à la communauté (Tora'h Tsibbour)."
+    },
+    "mots_alignes": [
+      {
+        "id": 1,
+        "hebreu_brut": "מב",
+        "hebreu_voyelles": "מב",
+        "francais_mot": "42.",
+        "expression_contexte": "42. Certains"
+      },
+      {
+        "id": 2,
+        "hebreu_brut": "יש",
+        "hebreu_voyelles": "יֵשׁ",
+        "francais_mot": "Certains (il y a)",
+        "expression_contexte": "Certains ont coutume"
+      },
+      {
+        "id": 3,
+        "hebreu_brut": "נוהגים",
+        "hebreu_voyelles": "נוֹהֲגִים",
+        "francais_mot": "ont coutume",
+        "expression_contexte": "de lire",
+        "infinitif": "לִנְהֹג"
+      },
+      {
+        "id": 4,
+        "hebreu_brut": "לומר",
+        "hebreu_voyelles": "לוֹמַר",
+        "francais_mot": "de lire",
+        "expression_contexte": "chaque",
+        "infinitif": "לוֹמַר"
+      },
+      {
+        "id": 5,
+        "hebreu_brut": "בכל",
+        "hebreu_voyelles": "בְּכָל",
+        "francais_mot": "chaque",
+        "expression_contexte": "jour"
+      },
+      {
+        "id": 6,
+        "hebreu_brut": "יום",
+        "hebreu_voyelles": "יוֹם",
+        "francais_mot": "jour",
+        "expression_contexte": "[en privé]"
+      },
+      {
+        "id": 7,
+        "hebreu_brut": "[ביחיד]",
+        "hebreu_voyelles": "[בְּיָחִיד]",
+        "francais_mot": "[en privé]",
+        "expression_contexte": "le passage"
+      },
+      {
+        "id": 8,
+        "hebreu_brut": "פרשת",
+        "hebreu_voyelles": "פָּרָשַׁת",
+        "francais_mot": "le passage",
+        "expression_contexte": "des Dix"
+      },
+      {
+        "id": 9,
+        "hebreu_brut": "עשרת",
+        "hebreu_voyelles": "עֲשֶׂרֶת",
+        "francais_mot": "des Dix",
+        "expression_contexte": "Commandements"
+      },
+      {
+        "id": 10,
+        "hebreu_brut": "הדברות",
+        "hebreu_voyelles": "הַדִּבְּרוֹת",
+        "francais_mot": "Commandements",
+        "expression_contexte": "et le passage"
+      },
+      {
+        "id": 11,
+        "hebreu_brut": "ופרשת",
+        "hebreu_voyelles": "וּפָרָשַׁת",
+        "francais_mot": "et le passage",
+        "expression_contexte": "de la Manne,"
+      },
+      {
+        "id": 12,
+        "hebreu_brut": "המן,",
+        "hebreu_voyelles": "הָמָן,",
+        "francais_mot": "de la Manne,",
+        "expression_contexte": "mais"
+      },
+      {
+        "id": 13,
+        "hebreu_brut": "אך",
+        "hebreu_voyelles": "אַךְ",
+        "francais_mot": "mais",
+        "expression_contexte": "ce n'est pas"
+      },
+      {
+        "id": 14,
+        "hebreu_brut": "אין",
+        "hebreu_voyelles": "אֵין",
+        "francais_mot": "ce n'est pas",
+        "expression_contexte": "notre coutume"
+      },
+      {
+        "id": 15,
+        "hebreu_brut": "מנהגינו",
+        "hebreu_voyelles": "מִנְהָגֵינוּ",
+        "francais_mot": "notre coutume",
+        "expression_contexte": "de les réciter."
+      },
+      {
+        "id": 16,
+        "hebreu_brut": "לאומרם.",
+        "hebreu_voyelles": "לְאָמְרָם.",
+        "francais_mot": "de les réciter.",
+        "expression_contexte": "[Néanmoins,",
+        "infinitif": "לוֹמַר"
+      },
+      {
+        "id": 17,
+        "hebreu_brut": "[ומכל",
+        "hebreu_voyelles": "[וּמִכָּל",
+        "francais_mot": "[Néanmoins,",
+        "expression_contexte": "Néanmoins"
+      },
+      {
+        "id": 18,
+        "hebreu_brut": "מקום",
+        "hebreu_voyelles": "מָקוֹם",
+        "francais_mot": "Néanmoins",
+        "expression_contexte": "c'est une Ségoula"
+      },
+      {
+        "id": 19,
+        "hebreu_brut": "סגולה",
+        "hebreu_voyelles": "סְגֻלָּה",
+        "francais_mot": "c'est une Ségoula",
+        "expression_contexte": "bonne"
+      },
+      {
+        "id": 20,
+        "hebreu_brut": "טובה",
+        "hebreu_voyelles": "טוֹבָה",
+        "francais_mot": "bonne",
+        "expression_contexte": "pour la subsistance"
+      },
+      {
+        "id": 21,
+        "hebreu_brut": "לפרנסה",
+        "hebreu_voyelles": "לְפַרְנָסָה",
+        "francais_mot": "pour la subsistance",
+        "expression_contexte": "de lire",
+        "infinitif": "לְפַרְנֵס"
+      },
+      {
+        "id": 22,
+        "hebreu_brut": "לומר",
+        "hebreu_voyelles": "לוֹמַר",
+        "francais_mot": "de lire",
+        "expression_contexte": "chaque",
+        "infinitif": "לוֹמַר"
+      },
+      {
+        "id": 23,
+        "hebreu_brut": "בכל",
+        "hebreu_voyelles": "בְּכָל",
+        "francais_mot": "chaque",
+        "expression_contexte": "le passage"
+      },
+      {
+        "id": 24,
+        "hebreu_brut": "פרשת",
+        "hebreu_voyelles": "פָּרָשַׁת",
+        "francais_mot": "le passage",
+        "expression_contexte": "de la Manne]."
+      },
+      {
+        "id": 25,
+        "hebreu_brut": "המן].",
+        "hebreu_voyelles": "הַמָּן].",
+        "francais_mot": "de la Manne].",
+        "expression_contexte": "Quant à"
+      },
+      {
+        "id": 26,
+        "hebreu_brut": "ואמנם",
+        "hebreu_voyelles": "וְאָמְנָם",
+        "francais_mot": "Quant à",
+        "expression_contexte": "ce"
+      },
+      {
+        "id": 27,
+        "hebreu_brut": "מה",
+        "hebreu_voyelles": "מָה",
+        "francais_mot": "ce",
+        "expression_contexte": "qu'on a l'habitude"
+      },
+      {
+        "id": 28,
+        "hebreu_brut": "שנהגו",
+        "hebreu_voyelles": "שֶׁנָּהֲגוּ",
+        "francais_mot": "qu'on a l'habitude",
+        "expression_contexte": "de placer",
+        "infinitif": "לִנְהֹג"
+      },
+      {
+        "id": 29,
+        "hebreu_brut": "לתת",
+        "hebreu_voyelles": "לָתֵת",
+        "francais_mot": "de placer",
+        "expression_contexte": "une représentation",
+        "infinitif": "לָתֵת"
+      },
+      {
+        "id": 30,
+        "hebreu_brut": "תבנית",
+        "hebreu_voyelles": "תַּבְנִית",
+        "francais_mot": "une représentation",
+        "expression_contexte": "des deux"
+      },
+      {
+        "id": 31,
+        "hebreu_brut": "שני",
+        "hebreu_voyelles": "שְׁנֵי",
+        "francais_mot": "des deux",
+        "expression_contexte": "Tables"
+      },
+      {
+        "id": 32,
+        "hebreu_brut": "לוחות",
+        "hebreu_voyelles": "לוּחוֹת",
+        "francais_mot": "Tables",
+        "expression_contexte": "de l'Alliance"
+      },
+      {
+        "id": 33,
+        "hebreu_brut": "הברית",
+        "hebreu_voyelles": "הַבְּרִית",
+        "francais_mot": "de l'Alliance",
+        "expression_contexte": "au-dessus"
+      },
+      {
+        "id": 34,
+        "hebreu_brut": "מעל",
+        "hebreu_voyelles": "מֵעַל",
+        "francais_mot": "au-dessus (de)",
+        "expression_contexte": "l'Arche"
+      },
+      {
+        "id": 35,
+        "hebreu_brut": "ארון",
+        "hebreu_voyelles": "אֲרוֹן",
+        "francais_mot": "l'Arche",
+        "expression_contexte": "Sainte,"
+      },
+      {
+        "id": 36,
+        "hebreu_brut": "הקודש,",
+        "hebreu_voyelles": "הַקֹּדֶשׁ,",
+        "francais_mot": "Sainte,",
+        "expression_contexte": "sur lesquelles figurent"
+      },
+      {
+        "id": 37,
+        "hebreu_brut": "ובו",
+        "hebreu_voyelles": "וּבוֹ",
+        "francais_mot": "sur lesquelles figurent",
+        "expression_contexte": "les premiers mots"
+      },
+      {
+        "id": 38,
+        "hebreu_brut": "ראשי",
+        "hebreu_voyelles": "רָאשֵׁי",
+        "francais_mot": "les premiers mots",
+        "expression_contexte": "des Dix"
+      },
+      {
+        "id": 39,
+        "hebreu_brut": "עשרת",
+        "hebreu_voyelles": "עֲשֶׂרֶת",
+        "francais_mot": "des Dix",
+        "expression_contexte": "Commandements,"
+      },
+      {
+        "id": 40,
+        "hebreu_brut": "הדברות,",
+        "hebreu_voyelles": "הַדִּבְּרוֹת,",
+        "francais_mot": "Commandements,",
+        "expression_contexte": "ils ont"
+      },
+      {
+        "id": 41,
+        "hebreu_brut": "יש",
+        "hebreu_voyelles": "יֵשׁ",
+        "francais_mot": "ils ont",
+        "expression_contexte": "à eux"
+      },
+      {
+        "id": 42,
+        "hebreu_brut": "להם",
+        "hebreu_voyelles": "לָהֶם",
+        "francais_mot": "à eux",
+        "expression_contexte": "sur"
+      },
+      {
+        "id": 43,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "sur",
+        "expression_contexte": "quoi"
+      },
+      {
+        "id": 44,
+        "hebreu_brut": "מה",
+        "hebreu_voyelles": "מַה",
+        "francais_mot": "quoi",
+        "expression_contexte": "s'appuyer"
+      },
+      {
+        "id": 45,
+        "hebreu_brut": "שיסמוכו",
+        "hebreu_voyelles": "שֶּׁיִּסְמוֹכוּ",
+        "francais_mot": "s'appuyer",
+        "expression_contexte": "et il est difficile",
+        "infinitif": "לִסְמֹךְ"
+      },
+      {
+        "id": 46,
+        "hebreu_brut": "וקשה",
+        "hebreu_voyelles": "וְקָשֶׁה",
+        "francais_mot": "et il est difficile",
+        "expression_contexte": "d'annuler"
+      },
+      {
+        "id": 47,
+        "hebreu_brut": "לבטל",
+        "hebreu_voyelles": "לְבַטֵּל",
+        "francais_mot": "d'annuler",
+        "expression_contexte": "cette coutume",
+        "infinitif": "לְבַטֵּל"
+      },
+      {
+        "id": 48,
+        "hebreu_brut": "מנהגם",
+        "hebreu_voyelles": "מִנְהָגָם",
+        "francais_mot": "cette coutume",
+        "expression_contexte": "d'"
+      },
+      {
+        "id": 49,
+        "hebreu_brut": "של",
+        "hebreu_voyelles": "שֶׁל",
+        "francais_mot": "d'",
+        "expression_contexte": "Israël."
+      },
+      {
+        "id": 50,
+        "hebreu_brut": "ישראל.",
+        "hebreu_voyelles": "יִשְׂרָאֵל.",
+        "francais_mot": "Israël.",
+        "expression_contexte": "Le Talmud relate"
+      },
+      {
+        "id": 51,
+        "hebreu_brut": "ואמרו",
+        "hebreu_voyelles": "וְאָמְרוּ",
+        "francais_mot": "Le Talmud relate (et ils ont dit)",
+        "expression_contexte": "dans la Guémara,",
+        "infinitif": "לוֹמַר"
+      },
+      {
+        "id": 52,
+        "hebreu_brut": "בגמרא,",
+        "hebreu_voyelles": "בַּגְּמָרָא,",
+        "francais_mot": "dans la Guémara,",
+        "expression_contexte": "qu'à l'origine,"
+      },
+      {
+        "id": 53,
+        "hebreu_brut": "שבתחלה",
+        "hebreu_voyelles": "שֶׁבַּתְּחִלָּה",
+        "francais_mot": "qu'à l'origine,",
+        "expression_contexte": "ils souhaitaient"
+      },
+      {
+        "id": 54,
+        "hebreu_brut": "ביקשו",
+        "hebreu_voyelles": "בִּקְּשׁוּ",
+        "francais_mot": "ils souhaitaient",
+        "expression_contexte": "intégrer",
+        "infinitif": "לְבַקֵּשׁ"
+      },
+      {
+        "id": 55,
+        "hebreu_brut": "לקבוע",
+        "hebreu_voyelles": "לִקְבֹּעַ",
+        "francais_mot": "intégrer",
+        "expression_contexte": "le passage",
+        "infinitif": "לִקְבֹּעַ"
+      },
+      {
+        "id": 56,
+        "hebreu_brut": "פרשת",
+        "hebreu_voyelles": "פָּרָשַׁת",
+        "francais_mot": "le passage (de)",
+        "expression_contexte": "Balak"
+      },
+      {
+        "id": 57,
+        "hebreu_brut": "בלק",
+        "hebreu_voyelles": "בָּלָק",
+        "francais_mot": "Balak",
+        "expression_contexte": "à la lecture"
+      },
+      {
+        "id": 58,
+        "hebreu_brut": "בקריאת",
+        "hebreu_voyelles": "בִּקְרִיאַת",
+        "francais_mot": "à la lecture (du)",
+        "expression_contexte": "Chéma,"
+      },
+      {
+        "id": 59,
+        "hebreu_brut": "שמע,",
+        "hebreu_voyelles": "שְׁמַע,",
+        "francais_mot": "Chéma,",
+        "expression_contexte": "mais"
+      },
+      {
+        "id": 60,
+        "hebreu_brut": "אך",
+        "hebreu_voyelles": "אַךְ",
+        "francais_mot": "mais",
+        "expression_contexte": "ils l'ont annulé"
+      },
+      {
+        "id": 61,
+        "hebreu_brut": "בטלו",
+        "hebreu_voyelles": "בִּטְּלוּ",
+        "francais_mot": "ils l'ont annulé",
+        "expression_contexte": "cela",
+        "infinitif": "לְבַטֵּל"
+      },
+      {
+        "id": 62,
+        "hebreu_brut": "זאת",
+        "hebreu_voyelles": "זֹאת",
+        "francais_mot": "cela",
+        "expression_contexte": "afin de ne pas"
+      },
+      {
+        "id": 63,
+        "hebreu_brut": "מפני",
+        "hebreu_voyelles": "מִפְּנֵי",
+        "francais_mot": "afin de ne pas (à cause de)",
+        "expression_contexte": "une contrainte"
+      },
+      {
+        "id": 64,
+        "hebreu_brut": "טורח",
+        "hebreu_voyelles": "טוֹרֵחַ",
+        "francais_mot": "une contrainte",
+        "expression_contexte": "à la communauté."
+      },
+      {
+        "id": 65,
+        "hebreu_brut": "צבור",
+        "hebreu_voyelles": "צִבּוּר",
+        "francais_mot": "à la communauté.",
+        "expression_contexte": "à la communauté."
+      }
+    ]
+  },
+  {
+    "id": "p43",
+    "numero": "43",
+    "sujet": "הלכות השכמת הבוקר",
+    "sujet_fr": "S'attrister lors du Tikkoun 'Hatsot",
+    "seif": "43",
+    "titre_seif": "S'attrister lors du Tikkoun 'Hatsot",
+    "texte_integral": {
+      "hebreu_sans_voyelles": "דיני תיקון חצות. מג ראוי ונכון לכל ירא שמים שיהיה מיצר ודואג על חורבן בית המקדש וגלות השכינה, כמו שנאמר קומי רוני בלילה לראש אשמורות. וכמו שהקדוש ברוך הוא מקונן בעת ההיא ואומר אוי לי שהחרבתי את ביתי וכו', כך ראוי לכל אשר נגע ה' בלבו לקונן בחצות הלילה על החורבן, ועל פיזור ישראל בין האומות, ועל גלות התורה והריגת הצדיקים. וכל מי שאפשר לו להשכים קום בחצות לילה טוב שיעשה כן ויאמר ''תיקון חצות''. וכל שכן אם נשאר ער עד חצות לילה, שיש להשתדל שלא ישן עד שיאמר תיקון חצות, להשתתף בצער השכינה הנמצאת בגלות. ואמנם כשהוא מתפלל ולומד תורה יהיה שמח. ובכל אופן אם מוריד דמעות בתפלתו, תפלתו מקובלת ביותר",
+      "hebreu_avec_voyelles": "דִּינֵי תִּקּוּן חֲצוֹת. מָג רָאוּי וְנָכוֹן לְכָל יָרֵא שָׁמַיִם שֶׁיִּהְיֶה מֵצֵר וְדוֹאֵג עַל חֻרְבַּן בֵּית הַמִּקְדָּשׁ וְגָלוּת הַשְּׁכִינָה, כְּמוֹ שֶׁנֶּאֱמַר קוּמִי רֹנִּי בַלַּיְלָה לְרֹאשׁ אַשְׁמֻרוֹת. וּכְמוֹ שֶׁהַקָּדוֹשׁ בָּרוּךְ הוּא מְקוֹנֵן בָּעֵת הַהִיא וְאוֹמֵר אוֹי לִי שֶׁהֶחֱרַבְתִּי אֶת בֵּיתִי וְכוּ', כָּךְ רָאוּי לְכָל אֲשֶׁר נָגַע ה' בְּלִבּוֹ לְקוֹנֵן בַּחֲצוֹת הַלַּיְלָה עַל הַחֻרְבָּן, וְעַל פִּזּוּר יִשְׂרָאֵל בֵּין הָאֻמּוֹת, וְעַל גָּלוּת הַתּוֹרָה וַהֲרִיגַת הַצַּדִּיקִים. וְכָל מִי שֶׁאֶפְשָׁר לוֹ לְהַשְׁכִּים קוּם בַּחֲצוֹת לַיְלָה טוֹב שֶׁיַּעֲשֶׂה כֵּן וְיֹאמַר ''תִּקּוּן חֲצוֹת''. וְכָל שֶׁכֵּן אִם נִשְׁאַר עֵר עַד חֲצוֹת לַיְלָה, שֶׁיֵּשׁ לְהִשְׁתַּדֵּל שֶׁלֹּא יָשֵׁן עַד שֶׁיֹּאמַר תִּקּוּן חֲצוֹת, לְהִשְׁתַּתֵּף בְּצַעַר הַשְּׁכִינָה הַנִּמְצֵאת בַּגָּלוּת. וְאָמְנָם כְּשֶׁהוּא מִתְפַּלֵּל וְלוֹמֵד תּוֹרָה יִהְיֶה שָׂמֵחַ. וּבְכָל אֹפֶן אִם מוֹרִיד דְּמָעוֹת בִּתְפִלָּתוֹ, תְּפִלָּתוֹ מְקֻבֶּלֶת בְּיוֹתֵר",
+      "francais": "43. Lois relatives au Tikkoun 'Hatsot. Il est digne et correct pour toute personne craignant le Ciel d'être affligée et soucieuse au sujet de la destruction du Temple et de l'exil de la Présence divine (Chékhina), comme il est dit : « Lève-toi, pousse des cris dans la nuit, au début des veilles ». Tout comme le Saint béni soit-Il se lamente à cet instant et dit : « Malheur à Moi qui ai détruit Ma maison... », il convient de même à quiconque dont l'Éternel a touché le cœur de se lamenter à minuit ('Hatsot) sur la destruction, sur la dispersion d'Israël parmi les nations, sur l'exil de la Torah et sur le meurtre des justes. Quiconque a la possibilité de se lever à minuit, il est bon qu'il le fasse pour réciter le « Tikkoun 'Hatsot ». À plus forte raison, s'il est resté éveillé jusqu'à minuit, il doit s'efforcer de ne pas dormir avant d'avoir récité le Tikkoun 'Hatsot, afin de participer à la peine de la Chékhina qui se trouve en exil. Toutefois, lorsqu'il prie et étudie la Torah, il doit être joyeux. De toute façon, s'il verse des larmes pendant sa prière, celle-ci est d'autant plus acceptée."
+    },
+    "mots_alignes": [
+      {
+        "id": 1,
+        "hebreu_brut": "דיני",
+        "hebreu_voyelles": "דִּינֵי",
+        "francais_mot": "Lois (relatives à)",
+        "expression_contexte": "Lois relatives au"
+      },
+      {
+        "id": 2,
+        "hebreu_brut": "תיקון",
+        "hebreu_voyelles": "תִּקּוּן",
+        "francais_mot": "Tikkoun",
+        "expression_contexte": "Tikkoun"
+      },
+      {
+        "id": 3,
+        "hebreu_brut": "חצות.",
+        "hebreu_voyelles": "חֲצוֹת.",
+        "francais_mot": "'Hatsot.",
+        "expression_contexte": "'Hatsot."
+      },
+      {
+        "id": 4,
+        "hebreu_brut": "מג",
+        "hebreu_voyelles": "מָג",
+        "francais_mot": "43.",
+        "expression_contexte": "Il est digne"
+      },
+      {
+        "id": 5,
+        "hebreu_brut": "ראוי",
+        "hebreu_voyelles": "רָאוּי",
+        "francais_mot": "Il est digne",
+        "expression_contexte": "et correct"
+      },
+      {
+        "id": 6,
+        "hebreu_brut": "ונכון",
+        "hebreu_voyelles": "וְנָכוֹן",
+        "francais_mot": "et correct",
+        "expression_contexte": "pour toute"
+      },
+      {
+        "id": 7,
+        "hebreu_brut": "לכל",
+        "hebreu_voyelles": "לְכָל",
+        "francais_mot": "pour toute",
+        "expression_contexte": "personne craignant"
+      },
+      {
+        "id": 8,
+        "hebreu_brut": "ירא",
+        "hebreu_voyelles": "יָרֵא",
+        "francais_mot": "personne craignant",
+        "expression_contexte": "le Ciel"
+      },
+      {
+        "id": 9,
+        "hebreu_brut": "שמים",
+        "hebreu_voyelles": "שָׁמַיִם",
+        "francais_mot": "le Ciel",
+        "expression_contexte": "d'être"
+      },
+      {
+        "id": 10,
+        "hebreu_brut": "שיהיה",
+        "hebreu_voyelles": "שֶׁיִּהְיֶה",
+        "francais_mot": "d'être",
+        "expression_contexte": "affligée",
+        "infinitif": "לִהְיוֹת"
+      },
+      {
+        "id": 11,
+        "hebreu_brut": "מיצר",
+        "hebreu_voyelles": "מֵצֵר",
+        "francais_mot": "affligée",
+        "expression_contexte": "et soucieuse"
+      },
+      {
+        "id": 12,
+        "hebreu_brut": "ודואג",
+        "hebreu_voyelles": "וְדוֹאֵג",
+        "francais_mot": "et soucieuse",
+        "expression_contexte": "au sujet de",
+        "infinitif": "לִדְאֹג"
+      },
+      {
+        "id": 13,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "au sujet de",
+        "expression_contexte": "la destruction"
+      },
+      {
+        "id": 14,
+        "hebreu_brut": "חורבן",
+        "hebreu_voyelles": "חֻרְבַּן",
+        "francais_mot": "la destruction (du)",
+        "expression_contexte": "Temple"
+      },
+      {
+        "id": 15,
+        "hebreu_brut": "בית",
+        "hebreu_voyelles": "בֵּית",
+        "francais_mot": "Temple",
+        "expression_contexte": "le Sanctuaire"
+      },
+      {
+        "id": 16,
+        "hebreu_brut": "המקדש",
+        "hebreu_voyelles": "הַמִּקְדָּשׁ",
+        "francais_mot": "le Sanctuaire",
+        "expression_contexte": "et de l'exil"
+      },
+      {
+        "id": 17,
+        "hebreu_brut": "וגלות",
+        "hebreu_voyelles": "וְגָלוּת",
+        "francais_mot": "et de l'exil (de)",
+        "expression_contexte": "la Présence divine,"
+      },
+      {
+        "id": 18,
+        "hebreu_brut": "השכינה,",
+        "hebreu_voyelles": "הַשְּׁכִינָה,",
+        "francais_mot": "la Présence divine,",
+        "expression_contexte": "comme"
+      },
+      {
+        "id": 19,
+        "hebreu_brut": "כמו",
+        "hebreu_voyelles": "כְּמוֹ",
+        "francais_mot": "comme",
+        "expression_contexte": "il est dit :"
+      },
+      {
+        "id": 20,
+        "hebreu_brut": "שנאמר",
+        "hebreu_voyelles": "שֶׁנֶּאֱמַר",
+        "francais_mot": "il est dit :",
+        "expression_contexte": "\"Lève-toi,",
+        "infinitif": "לְהֵאָמֵר"
+      },
+      {
+        "id": 21,
+        "hebreu_brut": "קומי",
+        "hebreu_voyelles": "קוּמִי",
+        "francais_mot": "\"Lève-toi,",
+        "expression_contexte": "pousse des cris",
+        "infinitif": "לָקוּם"
+      },
+      {
+        "id": 22,
+        "hebreu_brut": "רוני",
+        "hebreu_voyelles": "רֹנִּי",
+        "francais_mot": "pousse des cris",
+        "expression_contexte": "dans la nuit,",
+        "infinitif": "לָרֹן"
+      },
+      {
+        "id": 23,
+        "hebreu_brut": "בלילה",
+        "hebreu_voyelles": "בַלַּיְלָה",
+        "francais_mot": "dans la nuit,",
+        "expression_contexte": "au début"
+      },
+      {
+        "id": 24,
+        "hebreu_brut": "לראש",
+        "hebreu_voyelles": "לְרֹאשׁ",
+        "francais_mot": "au début",
+        "expression_contexte": "des veilles\"."
+      },
+      {
+        "id": 25,
+        "hebreu_brut": "אשמורות.",
+        "hebreu_voyelles": "אַשְׁמֻרוֹת.",
+        "francais_mot": "des veilles\".",
+        "expression_contexte": "Tout comme"
+      },
+      {
+        "id": 26,
+        "hebreu_brut": "וכמו",
+        "hebreu_voyelles": "וּכְמוֹ",
+        "francais_mot": "Tout comme",
+        "expression_contexte": "le Saint"
+      },
+      {
+        "id": 27,
+        "hebreu_brut": "שהקדוש",
+        "hebreu_voyelles": "שֶׁהַקָּדוֹשׁ",
+        "francais_mot": "le Saint",
+        "expression_contexte": "béni"
+      },
+      {
+        "id": 28,
+        "hebreu_brut": "ברוך",
+        "hebreu_voyelles": "בָּרוּךְ",
+        "francais_mot": "béni",
+        "expression_contexte": "soit-Il"
+      },
+      {
+        "id": 29,
+        "hebreu_brut": "הוא",
+        "hebreu_voyelles": "הוּא",
+        "francais_mot": "soit-Il",
+        "expression_contexte": "se lamente"
+      },
+      {
+        "id": 30,
+        "hebreu_brut": "מקונן",
+        "hebreu_voyelles": "מְקוֹנֵן",
+        "francais_mot": "se lamente",
+        "expression_contexte": "à l'instant",
+        "infinitif": "לְקוֹנֵן"
+      },
+      {
+        "id": 31,
+        "hebreu_brut": "בעת",
+        "hebreu_voyelles": "בָּעֵת",
+        "francais_mot": "à l'instant",
+        "expression_contexte": "celui-là"
+      },
+      {
+        "id": 32,
+        "hebreu_brut": "ההיא",
+        "hebreu_voyelles": "הַהִיא",
+        "francais_mot": "celui-là",
+        "expression_contexte": "et dit :"
+      },
+      {
+        "id": 33,
+        "hebreu_brut": "ואומר",
+        "hebreu_voyelles": "וְאוֹמֵר",
+        "francais_mot": "et dit :",
+        "expression_contexte": "\"Malheur",
+        "infinitif": "לוֹמַר"
+      },
+      {
+        "id": 34,
+        "hebreu_brut": "אוי",
+        "hebreu_voyelles": "אוֹי",
+        "francais_mot": "\"Malheur",
+        "expression_contexte": "à Moi"
+      },
+      {
+        "id": 35,
+        "hebreu_brut": "לי",
+        "hebreu_voyelles": "לִי",
+        "francais_mot": "à Moi",
+        "expression_contexte": "qui ai détruit"
+      },
+      {
+        "id": 36,
+        "hebreu_brut": "שהחרבתי",
+        "hebreu_voyelles": "שֶׁהֶחֱרַבְתִּי",
+        "francais_mot": "qui ai détruit",
+        "expression_contexte": "Ma",
+        "infinitif": "לְהַחֲרִיב"
+      },
+      {
+        "id": 37,
+        "hebreu_brut": "את",
+        "hebreu_voyelles": "אֶת",
+        "francais_mot": "Ma",
+        "expression_contexte": "maison...\""
+      },
+      {
+        "id": 38,
+        "hebreu_brut": "ביתי",
+        "hebreu_voyelles": "בֵּיתִי",
+        "francais_mot": "maison...\"",
+        "expression_contexte": "etc.,"
+      },
+      {
+        "id": 39,
+        "hebreu_brut": "וכו',",
+        "hebreu_voyelles": "וְכוּ',",
+        "francais_mot": "etc.,",
+        "expression_contexte": "il convient de même"
+      },
+      {
+        "id": 40,
+        "hebreu_brut": "כך",
+        "hebreu_voyelles": "כָּךְ",
+        "francais_mot": "il convient de même",
+        "expression_contexte": "il convient"
+      },
+      {
+        "id": 41,
+        "hebreu_brut": "ראוי",
+        "hebreu_voyelles": "רָאוּי",
+        "francais_mot": "il convient",
+        "expression_contexte": "à quiconque"
+      },
+      {
+        "id": 42,
+        "hebreu_brut": "לכל",
+        "hebreu_voyelles": "לְכָל",
+        "francais_mot": "à quiconque",
+        "expression_contexte": "dont"
+      },
+      {
+        "id": 43,
+        "hebreu_brut": "אשר",
+        "hebreu_voyelles": "אֲשֶׁר",
+        "francais_mot": "dont",
+        "expression_contexte": "a touché"
+      },
+      {
+        "id": 44,
+        "hebreu_brut": "נגע",
+        "hebreu_voyelles": "נָגַע",
+        "francais_mot": "a touché",
+        "expression_contexte": "l'Éternel",
+        "infinitif": "לָגַעַת"
+      },
+      {
+        "id": 45,
+        "hebreu_brut": "ה'",
+        "hebreu_voyelles": "ה'",
+        "francais_mot": "l'Éternel",
+        "expression_contexte": "le cœur"
+      },
+      {
+        "id": 46,
+        "hebreu_brut": "בלבו",
+        "hebreu_voyelles": "בְּלִבּוֹ",
+        "francais_mot": "le cœur",
+        "expression_contexte": "de se lamenter"
+      },
+      {
+        "id": 47,
+        "hebreu_brut": "לקונן",
+        "hebreu_voyelles": "לְקוֹנֵן",
+        "francais_mot": "de se lamenter",
+        "expression_contexte": "à minuit",
+        "infinitif": "לְקוֹנֵן"
+      },
+      {
+        "id": 48,
+        "hebreu_brut": "בחצות",
+        "hebreu_voyelles": "בַּחֲצוֹת",
+        "francais_mot": "à minuit",
+        "expression_contexte": "la nuit"
+      },
+      {
+        "id": 49,
+        "hebreu_brut": "הלילה",
+        "hebreu_voyelles": "הַלַּיְלָה",
+        "francais_mot": "la nuit",
+        "expression_contexte": "sur"
+      },
+      {
+        "id": 50,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "sur",
+        "expression_contexte": "la destruction,"
+      },
+      {
+        "id": 51,
+        "hebreu_brut": "החורבן,",
+        "hebreu_voyelles": "הַחֻרְבָּן,",
+        "francais_mot": "la destruction,",
+        "expression_contexte": "et sur"
+      },
+      {
+        "id": 52,
+        "hebreu_brut": "ועל",
+        "hebreu_voyelles": "וְעַל",
+        "francais_mot": "et sur",
+        "expression_contexte": "la dispersion"
+      },
+      {
+        "id": 53,
+        "hebreu_brut": "פיזור",
+        "hebreu_voyelles": "פִּזּוּר",
+        "francais_mot": "la dispersion",
+        "expression_contexte": "d'Israël"
+      },
+      {
+        "id": 54,
+        "hebreu_brut": "ישראל",
+        "hebreu_voyelles": "יִשְׂרָאֵל",
+        "francais_mot": "d'Israël",
+        "expression_contexte": "parmi"
+      },
+      {
+        "id": 55,
+        "hebreu_brut": "בין",
+        "hebreu_voyelles": "בֵּין",
+        "francais_mot": "parmi",
+        "expression_contexte": "les nations,"
+      },
+      {
+        "id": 56,
+        "hebreu_brut": "האומות,",
+        "hebreu_voyelles": "הָאֻמּוֹת,",
+        "francais_mot": "les nations,",
+        "expression_contexte": "et sur"
+      },
+      {
+        "id": 57,
+        "hebreu_brut": "ועל",
+        "hebreu_voyelles": "וְעַל",
+        "francais_mot": "et sur",
+        "expression_contexte": "l'exil (de)"
+      },
+      {
+        "id": 58,
+        "hebreu_brut": "גלות",
+        "hebreu_voyelles": "גָּלוּת",
+        "francais_mot": "l'exil (de)",
+        "expression_contexte": "la Torah"
+      },
+      {
+        "id": 59,
+        "hebreu_brut": "התורה",
+        "hebreu_voyelles": "הַתּוֹרָה",
+        "francais_mot": "la Torah",
+        "expression_contexte": "et le meurtre"
+      },
+      {
+        "id": 60,
+        "hebreu_brut": "והריגת",
+        "hebreu_voyelles": "וַהֲרִיגַת",
+        "francais_mot": "et le meurtre",
+        "expression_contexte": "des justes."
+      },
+      {
+        "id": 61,
+        "hebreu_brut": "הצדיקים.",
+        "hebreu_voyelles": "הַצַּדִּיקִים.",
+        "francais_mot": "des justes.",
+        "expression_contexte": "Et quiconque"
+      },
+      {
+        "id": 62,
+        "hebreu_brut": "וכל",
+        "hebreu_voyelles": "וְכָל",
+        "francais_mot": "Et quiconque",
+        "expression_contexte": "qui"
+      },
+      {
+        "id": 63,
+        "hebreu_brut": "מי",
+        "hebreu_voyelles": "מִי",
+        "francais_mot": "qui",
+        "expression_contexte": "a la possibilité"
+      },
+      {
+        "id": 64,
+        "hebreu_brut": "שאפשר",
+        "hebreu_voyelles": "שֶׁאֶפְשָׁר",
+        "francais_mot": "a la possibilité",
+        "expression_contexte": "à lui"
+      },
+      {
+        "id": 65,
+        "hebreu_brut": "לו",
+        "hebreu_voyelles": "לוֹ",
+        "francais_mot": "à lui",
+        "expression_contexte": "de se lever"
+      },
+      {
+        "id": 66,
+        "hebreu_brut": "להשכים",
+        "hebreu_voyelles": "לְהַשְׁכִּים",
+        "francais_mot": "de se lever",
+        "expression_contexte": "tôt",
+        "infinitif": "לְהַשְׁכִּים"
+      },
+      {
+        "id": 67,
+        "hebreu_brut": "קום",
+        "hebreu_voyelles": "קוּם",
+        "francais_mot": "tôt",
+        "expression_contexte": "à minuit"
+      },
+      {
+        "id": 68,
+        "hebreu_brut": "בחצות",
+        "hebreu_voyelles": "בַּחֲצוֹת",
+        "francais_mot": "à minuit",
+        "expression_contexte": "la nuit"
+      },
+      {
+        "id": 69,
+        "hebreu_brut": "לילה",
+        "hebreu_voyelles": "לַיְלָה",
+        "francais_mot": "la nuit",
+        "expression_contexte": "il est bon"
+      },
+      {
+        "id": 70,
+        "hebreu_brut": "טוב",
+        "hebreu_voyelles": "טוֹב",
+        "francais_mot": "il est bon",
+        "expression_contexte": "qu'il le fasse"
+      },
+      {
+        "id": 71,
+        "hebreu_brut": "שיעשה",
+        "hebreu_voyelles": "שֶׁיַּעֲשֶׂה",
+        "francais_mot": "qu'il le fasse",
+        "expression_contexte": "ainsi",
+        "infinitif": "לַעֲשׂוֹת"
+      },
+      {
+        "id": 72,
+        "hebreu_brut": "כן",
+        "hebreu_voyelles": "כֵּן",
+        "francais_mot": "ainsi",
+        "expression_contexte": "et qu'il récite"
+      },
+      {
+        "id": 73,
+        "hebreu_brut": "ויאמר",
+        "hebreu_voyelles": "וְיֹאמַר",
+        "francais_mot": "et qu'il récite",
+        "expression_contexte": "le \"Tikkoun",
+        "infinitif": "לוֹמַר"
+      },
+      {
+        "id": 74,
+        "hebreu_brut": "''תיקון",
+        "hebreu_voyelles": "''תִּקּוּן",
+        "francais_mot": "le \"Tikkoun",
+        "expression_contexte": "'Hatsot\"."
+      },
+      {
+        "id": 75,
+        "hebreu_brut": "חצות''.",
+        "hebreu_voyelles": "חֲצוֹת''.",
+        "francais_mot": "'Hatsot\".",
+        "expression_contexte": "À plus forte"
+      },
+      {
+        "id": 76,
+        "hebreu_brut": "וכל",
+        "hebreu_voyelles": "וְכָל",
+        "francais_mot": "À plus forte",
+        "expression_contexte": "raison,"
+      },
+      {
+        "id": 77,
+        "hebreu_brut": "שכן",
+        "hebreu_voyelles": "שֶׁכֵּן",
+        "francais_mot": "raison,",
+        "expression_contexte": "si"
+      },
+      {
+        "id": 78,
+        "hebreu_brut": "אם",
+        "hebreu_voyelles": "אִם",
+        "francais_mot": "si",
+        "expression_contexte": "il est resté"
+      },
+      {
+        "id": 79,
+        "hebreu_brut": "נשאר",
+        "hebreu_voyelles": "נִשְׁאַר",
+        "francais_mot": "il est resté",
+        "expression_contexte": "éveillé",
+        "infinitif": "לְהִשָּׁאֵר"
+      },
+      {
+        "id": 80,
+        "hebreu_brut": "ער",
+        "hebreu_voyelles": "עֵר",
+        "francais_mot": "éveillé",
+        "expression_contexte": "jusqu'à"
+      },
+      {
+        "id": 81,
+        "hebreu_brut": "עד",
+        "hebreu_voyelles": "עַד",
+        "francais_mot": "jusqu'à",
+        "expression_contexte": "minuit"
+      },
+      {
+        "id": 82,
+        "hebreu_brut": "חצות",
+        "hebreu_voyelles": "חֲצוֹת",
+        "francais_mot": "minuit",
+        "expression_contexte": "la nuit,"
+      },
+      {
+        "id": 83,
+        "hebreu_brut": "לילה,",
+        "hebreu_voyelles": "לַיְלָה,",
+        "francais_mot": "la nuit,",
+        "expression_contexte": "qu'il doit"
+      },
+      {
+        "id": 84,
+        "hebreu_brut": "שיש",
+        "hebreu_voyelles": "שֶׁיֵּשׁ",
+        "francais_mot": "qu'il doit",
+        "expression_contexte": "s'efforcer"
+      },
+      {
+        "id": 85,
+        "hebreu_brut": "להשתדל",
+        "hebreu_voyelles": "לְהִשְׁתַּדֵּל",
+        "francais_mot": "s'efforcer",
+        "expression_contexte": "de ne pas",
+        "infinitif": "לְהִשְׁתַּדֵּל"
+      },
+      {
+        "id": 86,
+        "hebreu_brut": "שלא",
+        "hebreu_voyelles": "שֶׁלֹּא",
+        "francais_mot": "de ne pas",
+        "expression_contexte": "dormir"
+      },
+      {
+        "id": 87,
+        "hebreu_brut": "ישן",
+        "hebreu_voyelles": "יָשֵׁן",
+        "francais_mot": "dormir",
+        "expression_contexte": "avant",
+        "infinitif": "לִישֹׁן"
+      },
+      {
+        "id": 88,
+        "hebreu_brut": "עד",
+        "hebreu_voyelles": "עַד",
+        "francais_mot": "avant",
+        "expression_contexte": "d'avoir récité"
+      },
+      {
+        "id": 89,
+        "hebreu_brut": "שיאמר",
+        "hebreu_voyelles": "שֶׁיֹּאמַר",
+        "francais_mot": "d'avoir récité",
+        "expression_contexte": "le Tikkoun",
+        "infinitif": "לוֹמַר"
+      },
+      {
+        "id": 90,
+        "hebreu_brut": "תיקון",
+        "hebreu_voyelles": "תִּקּוּן",
+        "francais_mot": "le Tikkoun",
+        "expression_contexte": "'Hatsot,"
+      },
+      {
+        "id": 91,
+        "hebreu_brut": "חצות,",
+        "hebreu_voyelles": "חֲצוֹת,",
+        "francais_mot": "'Hatsot,",
+        "expression_contexte": "afin de participer"
+      },
+      {
+        "id": 92,
+        "hebreu_brut": "להשתתף",
+        "hebreu_voyelles": "לְהִשְׁתַּתֵּף",
+        "francais_mot": "afin de participer",
+        "expression_contexte": "à la peine",
+        "infinitif": "לְהִשְׁתַּתֵּף"
+      },
+      {
+        "id": 93,
+        "hebreu_brut": "בצער",
+        "hebreu_voyelles": "בְּצַעַר",
+        "francais_mot": "à la peine (de)",
+        "expression_contexte": "la Chékhina"
+      },
+      {
+        "id": 94,
+        "hebreu_brut": "השכינה",
+        "hebreu_voyelles": "הַשְּׁכִינָה",
+        "francais_mot": "la Chékhina",
+        "expression_contexte": "qui se trouve"
+      },
+      {
+        "id": 95,
+        "hebreu_brut": "הנמצאת",
+        "hebreu_voyelles": "הַנִּמְצֵאת",
+        "francais_mot": "qui se trouve",
+        "expression_contexte": "en exil.",
+        "infinitif": "לְהִמָּצֵא"
+      },
+      {
+        "id": 96,
+        "hebreu_brut": "בגלות.",
+        "hebreu_voyelles": "בַּגָּלוּת.",
+        "francais_mot": "en exil.",
+        "expression_contexte": "Toutefois,"
+      },
+      {
+        "id": 97,
+        "hebreu_brut": "ואמנם",
+        "hebreu_voyelles": "וְאָמְנָם",
+        "francais_mot": "Toutefois,",
+        "expression_contexte": "lorsqu'il"
+      },
+      {
+        "id": 98,
+        "hebreu_brut": "כשהוא",
+        "hebreu_voyelles": "כְּשֶׁהוּא",
+        "francais_mot": "lorsqu'il",
+        "expression_contexte": "prie"
+      },
+      {
+        "id": 99,
+        "hebreu_brut": "מתפלל",
+        "hebreu_voyelles": "מִתְפַּלֵּל",
+        "francais_mot": "prie",
+        "expression_contexte": "et étudie",
+        "infinitif": "לְהִתְפַּלֵּל"
+      },
+      {
+        "id": 100,
+        "hebreu_brut": "ולומד",
+        "hebreu_voyelles": "וְלוֹמֵד",
+        "francais_mot": "et étudie",
+        "expression_contexte": "la Torah,",
+        "infinitif": "לִלְמֹד"
+      },
+      {
+        "id": 101,
+        "hebreu_brut": "תורה",
+        "hebreu_voyelles": "תּוֹרָה",
+        "francais_mot": "la Torah,",
+        "expression_contexte": "il doit être"
+      },
+      {
+        "id": 102,
+        "hebreu_brut": "יהיה",
+        "hebreu_voyelles": "יִהְיֶה",
+        "francais_mot": "il doit être",
+        "expression_contexte": "joyeux.",
+        "infinitif": "לִהְיוֹת"
+      },
+      {
+        "id": 103,
+        "hebreu_brut": "שמח.",
+        "hebreu_voyelles": "שָׂמֵחַ.",
+        "francais_mot": "joyeux.",
+        "expression_contexte": "De toute"
+      },
+      {
+        "id": 104,
+        "hebreu_brut": "ובכל",
+        "hebreu_voyelles": "וּבְכָל",
+        "francais_mot": "De toute",
+        "expression_contexte": "façon,"
+      },
+      {
+        "id": 105,
+        "hebreu_brut": "אופן",
+        "hebreu_voyelles": "אֹפֶן",
+        "francais_mot": "façon,",
+        "expression_contexte": "si"
+      },
+      {
+        "id": 106,
+        "hebreu_brut": "אם",
+        "hebreu_voyelles": "אִם",
+        "francais_mot": "si",
+        "expression_contexte": "il verse"
+      },
+      {
+        "id": 107,
+        "hebreu_brut": "מוריד",
+        "hebreu_voyelles": "מוֹרִיד",
+        "francais_mot": "il verse",
+        "expression_contexte": "des larmes",
+        "infinitif": "לְהוֹרִיד"
+      },
+      {
+        "id": 108,
+        "hebreu_brut": "דמעות",
+        "hebreu_voyelles": "דְּמָעוֹת",
+        "francais_mot": "des larmes",
+        "expression_contexte": "pendant sa prière,"
+      },
+      {
+        "id": 109,
+        "hebreu_brut": "בתפלתו,",
+        "hebreu_voyelles": "בִּתְפִלָּתוֹ,",
+        "francais_mot": "pendant sa prière,",
+        "expression_contexte": "sa prière"
+      },
+      {
+        "id": 110,
+        "hebreu_brut": "תפלתו",
+        "hebreu_voyelles": "תְּפִלָּתוֹ",
+        "francais_mot": "sa prière",
+        "expression_contexte": "est acceptée"
+      },
+      {
+        "id": 111,
+        "hebreu_brut": "מקובלת",
+        "hebreu_voyelles": "מְקֻבֶּלֶת",
+        "francais_mot": "est acceptée",
+        "expression_contexte": "d'autant plus.",
+        "infinitif": "לְקַבֵּל"
+      },
+      {
+        "id": 112,
+        "hebreu_brut": "ביותר",
+        "hebreu_voyelles": "בְּיוֹתֵר",
+        "francais_mot": "d'autant plus.",
+        "expression_contexte": "d'autant plus."
+      }
+    ]
+  },
+  {
+    "id": "p44",
+    "numero": "44",
+    "sujet": "הלכות השכמת הבוקר",
+    "sujet_fr": "Posture pendant le Tikkoun 'Hatsot",
+    "seif": "44",
+    "titre_seif": "Posture pendant le Tikkoun 'Hatsot",
+    "texte_integral": {
+      "hebreu_sans_voyelles": "מד מנהגינו שבעת אמירת תיקון חצות יושבים על הארץ, ועל פי האר''י ז''ל ישב על הקרקע ליד הפתח סמוך למזוזה, וחולץ את מנעליו, ומניח אפר על ראשו במקום תפילין. ויש להקל לישב על גבי קרקע מרוצפת ואין בזה משום חששת המקובלים שלא לישב על גבי קרקע משום רוח רעה. ומכל מקום היכא דאפשר טוב להפסיק בבגד, או בכרים וכסתות, או ספסל נמוך. וכל זה כשאומרים תיקון רחל, מה שאין כן בימים שאומרים בהם רק תיקון לאה, אין צריך לעשות את הנזכר",
+      "hebreu_avec_voyelles": "מַד מִנְהָגֵינוּ שֶׁבְּעֵת אֲמִירַת תִּקּוּן חֲצוֹת יוֹשְׁבִים עַל הָאָרֶץ, וְעַל פִּי הָאֵר''י ז''ל יָשַׁב עַל הַקַּרְקַע לְיַד הַפֶּתַח סָמוּךְ לַמְּזוּזָה, וְחוֹלֵץ אֶת מִנְעָלָיו, וּמַנִּיחַ אֵפֶר עַל רֹאשׁוֹ בִּמְקוֹם תְּפִלִּין. וְיֵשׁ לְהָקֵל לֵשֵׁב עַל גַּבֵּי קַרְקַע מְרֻצֶּפֶת וְאֵין בָּזֶה מִשּׁוּם חָשַׁשְׁתָּ הַמְּקֻבָּלִים שֶׁלֹּא לֵשֵׁב עַל גַּבֵּי קַרְקַע מִשּׁוּם רוּחַ רָעָה. וּמִכָּל מָקוֹם הֵיכָא דְאֶפְשָׁר טוֹב לְהַפְסִיק בַּבֶּגֶד, אוֹ בְּכָרִים וּכְסָתוֹת, אוֹ סַפְסָל נָמוּךְ. וְכָל זֶה כְּשֶׁאוֹמְרִים תִּקּוּן רָחֵל, מָה שֶׁאֵין כֵּן בְּיָמִים שֶׁאוֹמְרִים בָּהֶם רַק תִּקּוּן לֵאָה, אֵין צָרִיךְ לַעֲשׂוֹת אֶת הַנִּזְכָּר",
+      "francais": "44. Notre coutume est de s'asseoir par terre pendant la récitation du Tikkoun 'Hatsot. Selon le Ari zal, on s'asseyait sur le sol près de la porte, à côté de la Mézouza, on retirait ses chaussures et on plaçait de la cendre sur sa tête à l'emplacement des Téfilines. On peut faire preuve de souplesse et s'asseoir sur un sol carrelé, et il n'y a pas lieu de craindre l'avis des Kabbalistes demandant de ne pas s'asseoir sur le sol à cause d'un esprit d'impureté (Roua'h Ra'a). Néanmoins, là où c'est possible, il est bien de faire une séparation avec un vêtement, des coussins, des couvertures, ou un banc bas. Tout ceci s'applique lorsque l'on récite le Tikkoun Ra'hel ; en revanche, les jours où l'on ne récite que le Tikkoun Léa, il n'est pas nécessaire d'accomplir tout ce qui a été mentionné."
+    },
+    "mots_alignes": [
+      {
+        "id": 1,
+        "hebreu_brut": "מד",
+        "hebreu_voyelles": "מַד",
+        "francais_mot": "44.",
+        "expression_contexte": "44. Notre coutume"
+      },
+      {
+        "id": 2,
+        "hebreu_brut": "מנהגינו",
+        "hebreu_voyelles": "מִנְהָגֵינוּ",
+        "francais_mot": "Notre coutume",
+        "expression_contexte": "est que pendant"
+      },
+      {
+        "id": 3,
+        "hebreu_brut": "שבעת",
+        "hebreu_voyelles": "שֶׁבְּעֵת",
+        "francais_mot": "est que pendant",
+        "expression_contexte": "la récitation (du)"
+      },
+      {
+        "id": 4,
+        "hebreu_brut": "אמירת",
+        "hebreu_voyelles": "אֲמִירַת",
+        "francais_mot": "la récitation (du)",
+        "expression_contexte": "Tikkoun"
+      },
+      {
+        "id": 5,
+        "hebreu_brut": "תיקון",
+        "hebreu_voyelles": "תִּקּוּן",
+        "francais_mot": "Tikkoun",
+        "expression_contexte": "'Hatsot"
+      },
+      {
+        "id": 6,
+        "hebreu_brut": "חצות",
+        "hebreu_voyelles": "חֲצוֹת",
+        "francais_mot": "'Hatsot",
+        "expression_contexte": "on s'assoit"
+      },
+      {
+        "id": 7,
+        "hebreu_brut": "יושבים",
+        "hebreu_voyelles": "יוֹשְׁבִים",
+        "francais_mot": "on s'assoit",
+        "expression_contexte": "sur",
+        "infinitif": "לָשֶׁבֶת"
+      },
+      {
+        "id": 8,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "sur",
+        "expression_contexte": "la terre,"
+      },
+      {
+        "id": 9,
+        "hebreu_brut": "הארץ,",
+        "hebreu_voyelles": "הָאָרֶץ,",
+        "francais_mot": "la terre,",
+        "expression_contexte": "et selon"
+      },
+      {
+        "id": 10,
+        "hebreu_brut": "ועל",
+        "hebreu_voyelles": "וְעַל",
+        "francais_mot": "et selon",
+        "expression_contexte": "l'avis (de)"
+      },
+      {
+        "id": 11,
+        "hebreu_brut": "פי",
+        "hebreu_voyelles": "פִּי",
+        "francais_mot": "l'avis (de)",
+        "expression_contexte": "le Ari"
+      },
+      {
+        "id": 12,
+        "hebreu_brut": "האר''י",
+        "hebreu_voyelles": "הָאֵר''י",
+        "francais_mot": "le Ari",
+        "expression_contexte": "zal,"
+      },
+      {
+        "id": 13,
+        "hebreu_brut": "ז''ל",
+        "hebreu_voyelles": "ז''ל",
+        "francais_mot": "zal,",
+        "expression_contexte": "on s'asseyait"
+      },
+      {
+        "id": 14,
+        "hebreu_brut": "ישב",
+        "hebreu_voyelles": "יָשַׁב",
+        "francais_mot": "on s'asseyait",
+        "expression_contexte": "sur",
+        "infinitif": "לָשֶׁבֶת"
+      },
+      {
+        "id": 15,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "sur",
+        "expression_contexte": "le sol"
+      },
+      {
+        "id": 16,
+        "hebreu_brut": "הקרקע",
+        "hebreu_voyelles": "הַקַּרְקַע",
+        "francais_mot": "le sol",
+        "expression_contexte": "près de"
+      },
+      {
+        "id": 17,
+        "hebreu_brut": "ליד",
+        "hebreu_voyelles": "לְיַד",
+        "francais_mot": "près de",
+        "expression_contexte": "la porte,"
+      },
+      {
+        "id": 18,
+        "hebreu_brut": "הפתח",
+        "hebreu_voyelles": "הַפֶּתַח",
+        "francais_mot": "la porte,",
+        "expression_contexte": "à côté de"
+      },
+      {
+        "id": 19,
+        "hebreu_brut": "סמוך",
+        "hebreu_voyelles": "סָמוּךְ",
+        "francais_mot": "à côté de",
+        "expression_contexte": "la Mézouza,"
+      },
+      {
+        "id": 20,
+        "hebreu_brut": "למזוזה,",
+        "hebreu_voyelles": "לַמְּזוּזָה,",
+        "francais_mot": "la Mézouza,",
+        "expression_contexte": "et on retirait"
+      },
+      {
+        "id": 21,
+        "hebreu_brut": "וחולץ",
+        "hebreu_voyelles": "וְחוֹלֵץ",
+        "francais_mot": "et on retirait",
+        "expression_contexte": "les",
+        "infinitif": "לַחֲלֹץ"
+      },
+      {
+        "id": 22,
+        "hebreu_brut": "את",
+        "hebreu_voyelles": "אֶת",
+        "francais_mot": "les",
+        "expression_contexte": "chaussures,"
+      },
+      {
+        "id": 23,
+        "hebreu_brut": "מנעליו,",
+        "hebreu_voyelles": "מִנְעָלָיו,",
+        "francais_mot": "chaussures,",
+        "expression_contexte": "et on plaçait"
+      },
+      {
+        "id": 24,
+        "hebreu_brut": "ומניח",
+        "hebreu_voyelles": "וּמַנִּיחַ",
+        "francais_mot": "et on plaçait",
+        "expression_contexte": "de la cendre",
+        "infinitif": "לְהַנִּיחַ"
+      },
+      {
+        "id": 25,
+        "hebreu_brut": "אפר",
+        "hebreu_voyelles": "אֵפֶר",
+        "francais_mot": "de la cendre",
+        "expression_contexte": "sur"
+      },
+      {
+        "id": 26,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "sur",
+        "expression_contexte": "sa tête"
+      },
+      {
+        "id": 27,
+        "hebreu_brut": "ראשו",
+        "hebreu_voyelles": "רֹאשׁוֹ",
+        "francais_mot": "sa tête",
+        "expression_contexte": "à l'emplacement (des)"
+      },
+      {
+        "id": 28,
+        "hebreu_brut": "במקום",
+        "hebreu_voyelles": "בִּמְקוֹם",
+        "francais_mot": "à l'emplacement (des)",
+        "expression_contexte": "Téfilines."
+      },
+      {
+        "id": 29,
+        "hebreu_brut": "תפילין.",
+        "hebreu_voyelles": "תְּפִלִּין.",
+        "francais_mot": "Téfilines.",
+        "expression_contexte": "Et on peut"
+      },
+      {
+        "id": 30,
+        "hebreu_brut": "ויש",
+        "hebreu_voyelles": "וְיֵשׁ",
+        "francais_mot": "Et on peut",
+        "expression_contexte": "faire preuve de souplesse"
+      },
+      {
+        "id": 31,
+        "hebreu_brut": "להקל",
+        "hebreu_voyelles": "לְהָקֵל",
+        "francais_mot": "faire preuve de souplesse",
+        "expression_contexte": "et s'asseoir",
+        "infinitif": "לְהָקֵל"
+      },
+      {
+        "id": 32,
+        "hebreu_brut": "לישב",
+        "hebreu_voyelles": "לֵשֵׁב",
+        "francais_mot": "et s'asseoir",
+        "expression_contexte": "sur",
+        "infinitif": "לָשֶׁבֶת"
+      },
+      {
+        "id": 33,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "sur",
+        "expression_contexte": "la surface (du)"
+      },
+      {
+        "id": 34,
+        "hebreu_brut": "גבי",
+        "hebreu_voyelles": "גַּבֵּי",
+        "francais_mot": "la surface (du)",
+        "expression_contexte": "sol"
+      },
+      {
+        "id": 35,
+        "hebreu_brut": "קרקע",
+        "hebreu_voyelles": "קַרְקַע",
+        "francais_mot": "sol",
+        "expression_contexte": "carrelé,"
+      },
+      {
+        "id": 36,
+        "hebreu_brut": "מרוצפת",
+        "hebreu_voyelles": "מְרֻצֶּפֶת",
+        "francais_mot": "carrelé,",
+        "expression_contexte": "et il n'y a pas"
+      },
+      {
+        "id": 37,
+        "hebreu_brut": "ואין",
+        "hebreu_voyelles": "וְאֵין",
+        "francais_mot": "et il n'y a pas",
+        "expression_contexte": "en cela"
+      },
+      {
+        "id": 38,
+        "hebreu_brut": "בזה",
+        "hebreu_voyelles": "בָּזֶה",
+        "francais_mot": "en cela",
+        "expression_contexte": "lieu (de)"
+      },
+      {
+        "id": 39,
+        "hebreu_brut": "משום",
+        "hebreu_voyelles": "מִשּׁוּם",
+        "francais_mot": "lieu (de)",
+        "expression_contexte": "craindre"
+      },
+      {
+        "id": 40,
+        "hebreu_brut": "חששת",
+        "hebreu_voyelles": "חָשַׁשְׁתָּ",
+        "francais_mot": "craindre",
+        "expression_contexte": "les Kabbalistes"
+      },
+      {
+        "id": 41,
+        "hebreu_brut": "המקובלים",
+        "hebreu_voyelles": "הַמְּקֻבָּלִים",
+        "francais_mot": "les Kabbalistes",
+        "expression_contexte": "de ne pas"
+      },
+      {
+        "id": 42,
+        "hebreu_brut": "שלא",
+        "hebreu_voyelles": "שֶׁלֹּא",
+        "francais_mot": "de ne pas",
+        "expression_contexte": "s'asseoir"
+      },
+      {
+        "id": 43,
+        "hebreu_brut": "לישב",
+        "hebreu_voyelles": "לֵשֵׁב",
+        "francais_mot": "s'asseoir",
+        "expression_contexte": "sur",
+        "infinitif": "לָשֶׁבֶת"
+      },
+      {
+        "id": 44,
+        "hebreu_brut": "על",
+        "hebreu_voyelles": "עַל",
+        "francais_mot": "sur",
+        "expression_contexte": "la surface (du)"
+      },
+      {
+        "id": 45,
+        "hebreu_brut": "גבי",
+        "hebreu_voyelles": "גַּבֵּי",
+        "francais_mot": "la surface (du)",
+        "expression_contexte": "sol"
+      },
+      {
+        "id": 46,
+        "hebreu_brut": "קרקע",
+        "hebreu_voyelles": "קַרְקַע",
+        "francais_mot": "sol",
+        "expression_contexte": "à cause"
+      },
+      {
+        "id": 47,
+        "hebreu_brut": "משום",
+        "hebreu_voyelles": "מִשּׁוּם",
+        "francais_mot": "à cause",
+        "expression_contexte": "d'un esprit"
+      },
+      {
+        "id": 48,
+        "hebreu_brut": "רוח",
+        "hebreu_voyelles": "רוּחַ",
+        "francais_mot": "d'un esprit",
+        "expression_contexte": "d'impureté (mauvais)."
+      },
+      {
+        "id": 49,
+        "hebreu_brut": "רעה.",
+        "hebreu_voyelles": "רָעָה.",
+        "francais_mot": "d'impureté (mauvais).",
+        "expression_contexte": "Néanmoins,"
+      },
+      {
+        "id": 50,
+        "hebreu_brut": "ומכל",
+        "hebreu_voyelles": "וּמִכָּל",
+        "francais_mot": "Néanmoins,",
+        "expression_contexte": "Néanmoins"
+      },
+      {
+        "id": 51,
+        "hebreu_brut": "מקום",
+        "hebreu_voyelles": "מָקוֹם",
+        "francais_mot": "Néanmoins",
+        "expression_contexte": "là où"
+      },
+      {
+        "id": 52,
+        "hebreu_brut": "היכא",
+        "hebreu_voyelles": "הֵיכָא",
+        "francais_mot": "là où",
+        "expression_contexte": "c'est possible,"
+      },
+      {
+        "id": 53,
+        "hebreu_brut": "דאפשר",
+        "hebreu_voyelles": "דְאֶפְשָׁר",
+        "francais_mot": "c'est possible,",
+        "expression_contexte": "il est bien"
+      },
+      {
+        "id": 54,
+        "hebreu_brut": "טוב",
+        "hebreu_voyelles": "טוֹב",
+        "francais_mot": "il est bien",
+        "expression_contexte": "de faire une séparation"
+      },
+      {
+        "id": 55,
+        "hebreu_brut": "להפסיק",
+        "hebreu_voyelles": "לְהַפְסִיק",
+        "francais_mot": "de faire une séparation",
+        "expression_contexte": "avec un vêtement,",
+        "infinitif": "לְהַפְסִיק"
+      },
+      {
+        "id": 56,
+        "hebreu_brut": "בבגד,",
+        "hebreu_voyelles": "בַּבֶּגֶד,",
+        "francais_mot": "avec un vêtement,",
+        "expression_contexte": "ou"
+      },
+      {
+        "id": 57,
+        "hebreu_brut": "או",
+        "hebreu_voyelles": "אוֹ",
+        "francais_mot": "ou",
+        "expression_contexte": "des coussins,"
+      },
+      {
+        "id": 58,
+        "hebreu_brut": "בכרים",
+        "hebreu_voyelles": "בְּכָרִים",
+        "francais_mot": "des coussins,",
+        "expression_contexte": "des couvertures,"
+      },
+      {
+        "id": 59,
+        "hebreu_brut": "וכסתות,",
+        "hebreu_voyelles": "וּכְסָתוֹת,",
+        "francais_mot": "des couvertures,",
+        "expression_contexte": "ou"
+      },
+      {
+        "id": 60,
+        "hebreu_brut": "או",
+        "hebreu_voyelles": "אוֹ",
+        "francais_mot": "ou",
+        "expression_contexte": "un banc"
+      },
+      {
+        "id": 61,
+        "hebreu_brut": "ספסל",
+        "hebreu_voyelles": "סַפְסָל",
+        "francais_mot": "un banc",
+        "expression_contexte": "bas."
+      },
+      {
+        "id": 62,
+        "hebreu_brut": "נמוך.",
+        "hebreu_voyelles": "נָמוּךְ.",
+        "francais_mot": "bas.",
+        "expression_contexte": "Tout"
+      },
+      {
+        "id": 63,
+        "hebreu_brut": "וכל",
+        "hebreu_voyelles": "וְכָל",
+        "francais_mot": "Tout",
+        "expression_contexte": "ceci"
+      },
+      {
+        "id": 64,
+        "hebreu_brut": "זה",
+        "hebreu_voyelles": "זֶה",
+        "francais_mot": "ceci",
+        "expression_contexte": "lorsque l'on récite"
+      },
+      {
+        "id": 65,
+        "hebreu_brut": "כשאומרים",
+        "hebreu_voyelles": "כְּשֶׁאוֹמְרִים",
+        "francais_mot": "lorsque l'on récite",
+        "expression_contexte": "le Tikkoun",
+        "infinitif": "לוֹמַר"
+      },
+      {
+        "id": 66,
+        "hebreu_brut": "תיקון",
+        "hebreu_voyelles": "תִּקּוּן",
+        "francais_mot": "le Tikkoun",
+        "expression_contexte": "Ra'hel ;"
+      },
+      {
+        "id": 67,
+        "hebreu_brut": "רחל,",
+        "hebreu_voyelles": "רָחֵל,",
+        "francais_mot": "Ra'hel ;",
+        "expression_contexte": "en revanche (ce qui)"
+      },
+      {
+        "id": 68,
+        "hebreu_brut": "מה",
+        "hebreu_voyelles": "מָה",
+        "francais_mot": "en revanche (ce qui)",
+        "expression_contexte": "n'est pas"
+      },
+      {
+        "id": 69,
+        "hebreu_brut": "שאין",
+        "hebreu_voyelles": "שֶׁאֵין",
+        "francais_mot": "n'est pas",
+        "expression_contexte": "ainsi"
+      },
+      {
+        "id": 70,
+        "hebreu_brut": "כן",
+        "hebreu_voyelles": "כֵּן",
+        "francais_mot": "ainsi",
+        "expression_contexte": "les jours"
+      },
+      {
+        "id": 71,
+        "hebreu_brut": "בימים",
+        "hebreu_voyelles": "בְּיָמִים",
+        "francais_mot": "les jours",
+        "expression_contexte": "où l'on récite"
+      },
+      {
+        "id": 72,
+        "hebreu_brut": "שאומרים",
+        "hebreu_voyelles": "שֶׁאוֹמְרִים",
+        "francais_mot": "où l'on récite",
+        "expression_contexte": "en eux",
+        "infinitif": "לוֹמַר"
+      },
+      {
+        "id": 73,
+        "hebreu_brut": "בהם",
+        "hebreu_voyelles": "בָּהֶם",
+        "francais_mot": "en eux",
+        "expression_contexte": "seulement"
+      },
+      {
+        "id": 74,
+        "hebreu_brut": "רק",
+        "hebreu_voyelles": "רַק",
+        "francais_mot": "seulement",
+        "expression_contexte": "le Tikkoun"
+      },
+      {
+        "id": 75,
+        "hebreu_brut": "תיקון",
+        "hebreu_voyelles": "תִּקּוּן",
+        "francais_mot": "le Tikkoun",
+        "expression_contexte": "Léa,"
+      },
+      {
+        "id": 76,
+        "hebreu_brut": "לאה,",
+        "hebreu_voyelles": "לֵאָה,",
+        "francais_mot": "Léa,",
+        "expression_contexte": "il n'est pas"
+      },
+      {
+        "id": 77,
+        "hebreu_brut": "אין",
+        "hebreu_voyelles": "אֵין",
+        "francais_mot": "il n'est pas",
+        "expression_contexte": "nécessaire"
+      },
+      {
+        "id": 78,
+        "hebreu_brut": "צריך",
+        "hebreu_voyelles": "צָרִיךְ",
+        "francais_mot": "nécessaire",
+        "expression_contexte": "d'accomplir"
+      },
+      {
+        "id": 79,
+        "hebreu_brut": "לעשות",
+        "hebreu_voyelles": "לַעֲשׂוֹת",
+        "francais_mot": "d'accomplir",
+        "expression_contexte": "tout",
+        "infinitif": "לַעֲשׂוֹת"
+      },
+      {
+        "id": 80,
+        "hebreu_brut": "את",
+        "hebreu_voyelles": "אֶת",
+        "francais_mot": "tout",
+        "expression_contexte": "ce qui a été mentionné."
+      },
+      {
+        "id": 81,
+        "hebreu_brut": "הנזכר",
+        "hebreu_voyelles": "הַנִּזְכָּר",
+        "francais_mot": "ce qui a été mentionné.",
+        "expression_contexte": "ce qui a été mentionné."
       }
     ]
   }

@@ -62,6 +62,45 @@ function removeNikkoud(text) {
   return text.replace(/[\u0591-\u05C7]/g, '');
 }
 
+
+// ─── Appel API Dicta Nakdan ───────────────────────────────────────────────────
+async function getVowelsFromNakdan(text) {
+  try {
+    const res = await fetch('https://nakdan-2-0.loadbalancer.dicta.org.il/api', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        task: 'nakdan',
+        data: text,
+        genre: 'modern',
+        addmorph: true,
+        keepqq: false,
+        matchpartial: true,
+        keepmetagim: false,
+        keephtml: false
+      })
+    });
+    const data = await res.json();
+    let result = '';
+    for (const item of data) {
+      if (item.sep) {
+        result += item.word;
+      } else {
+        if (item.options && item.options.length > 0) {
+          result += item.options[0][0];
+        } else {
+          result += item.word;
+        }
+      }
+    }
+    // Nettoyage des pipes | parfois insérés par l'API
+    return result.replace(/\|/g, '');
+  } catch (e) {
+    console.warn(`⚠️ Erreur Nakdan : ${e.message}`);
+    return text;
+  }
+}
+
 // ─── Utilitaires ──────────────────────────────────────────────────────────────
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -199,10 +238,10 @@ DIRECTIVES STRICTES :
    - N'incluez PAS la numérotation du seif (ex: "א.") — elle sera ajoutée automatiquement.
 
 2. CHAMPS À REMPLIR POUR CHAQUE MOT :
-   - "hebreu_brut" : Le mot hébreu SANS voyelles (retirez tous les signes diacritiques [\u0591-\u05C7]).
-   - "hebreu_voyelles" : Le mot hébreu AVEC voyelles, tel quel depuis le texte fourni.
+   - "hebreu_brut" : Le mot hébreu SANS voyelles, EXACTEMENT comme il est écrit dans le "TEXTE HÉBREU BRUT (ORIGINAL)" fourni, en conservant son orthographe exacte (ex: Ktiv Male).
+   - "hebreu_voyelles" : Le mot hébreu AVEC voyelles, tel quel depuis le "TEXTE HÉBREU VOCALISÉ" fourni.
    - "francais_mot" : La traduction contextuelle directe et indépendante du mot hébreu en français. Ne découpez PAS mécaniquement la phrase française — donnez la VRAIE traduction individuelle du mot dans son contexte.
-   - "expression_contexte" : Une note d'apprentissage explicative en français si pertinent pour les débutants, sinon une courte expression de contexte. Ne mettez AUCUN extrait de texte hébreu dans ce champ.
+   - "expression_contexte" : Cette clé ne doit être remplie QUE si une précision est absolument nécessaire pour comprendre le mot (expression idiomatique, mot composé, ou syntaxe qui n'a pas de sens en traduction mot à mot). Si le mot se traduit de manière simple et directe, laisse la valeur "". NE RÉPÈTE JAMAIS le francais_mot et NE METS JAMAIS la traduction du mot suivant. Si du contexte est nécessaire, le francais_mot contiendra le mot isolé et expression_contexte contiendra l'expression complète.
 
 3. GESTION DES INFINITIFS (OBLIGATOIRE POUR TOUT VERBE CONJUGUÉ) :
    - Pour TOUT verbe conjugué (passé, présent, futur, impératif), fournissez la clé "infinitif".
@@ -219,8 +258,11 @@ DIRECTIVES STRICTES :
    - L'id commence à 1 (le badge de numérotation "א." sera ajouté automatiquement à l'id 0).`;
 
 // ─── Appel API Gemini (alignement uniquement) ────────────────────────────────
-async function callGeminiAlignment(ai, hebreuVoyelles, francais) {
-  const userPrompt = `Voici le texte hébreu vocalisé et sa traduction française. Crée l'alignement mot-à-mot.
+async function callGeminiAlignment(ai, hebreuBrut, hebreuVoyelles, francais) {
+  const userPrompt = `Voici le texte hébreu brut original, le texte hébreu vocalisé et sa traduction française. Crée l'alignement mot-à-mot.
+
+TEXTE HÉBREU BRUT (ORIGINAL) :
+${hebreuBrut}
 
 TEXTE HÉBREU VOCALISÉ :
 ${hebreuVoyelles}
@@ -248,6 +290,7 @@ Génère le tableau "mots_alignes" selon le schéma défini. Rappel : un éléme
       const parsed = JSON.parse(cleanRaw);
 
       // Validation : vérifier que le nombre de mots alignés est cohérent
+      const originalWords = hebreuBrut.split(/\s+/).filter(Boolean);
       const hebrewWords = hebreuVoyelles.split(/\s+/).filter(Boolean);
       const alignedCount = parsed.mots_alignes?.length || 0;
 
@@ -255,6 +298,13 @@ Génère le tableau "mots_alignes" selon le schéma défini. Rappel : un éléme
         throw new Error(
           `Alignement tronqué : ${alignedCount} mots alignés sur ${hebrewWords.length} attendus`
         );
+      }
+
+      // 🛑 BULLETPROOF FIX : Forcer hebreu_brut à être exactement le mot original non-vocalisé
+      if (parsed.mots_alignes && parsed.mots_alignes.length === originalWords.length) {
+        parsed.mots_alignes.forEach((m, idx) => {
+          m.hebreu_brut = originalWords[idx];
+        });
       }
 
       return parsed;
@@ -437,7 +487,12 @@ async function main() {
 
     try {
       // Appeler Gemini pour l'alignement
-      const result = await callGeminiAlignment(ai, seif.hebreu, seif.francais);
+      let hebreuVoyelles = seif.hebreu;
+      if (!/[\u0591-\u05C7]/.test(hebreuVoyelles)) {
+        console.log('        🪄  Texte brut détecté. Vocalisation via Dicta Nakdan...');
+        hebreuVoyelles = await getVowelsFromNakdan(seif.hebreu);
+      }
+      const result = await callGeminiAlignment(ai, seif.hebreu, hebreuVoyelles, seif.francais);
 
       // Construire le texte hébreu sans voyelles
       const hebreuSansVoyelles = removeNikkoud(seif.hebreu);
@@ -453,7 +508,7 @@ async function main() {
         seif: String(seif.seifNum),
         texte_integral: {
           hebreu_sans_voyelles: hebreuSansVoyelles,
-          hebreu_avec_voyelles: seif.hebreu,
+          hebreu_avec_voyelles: hebreuVoyelles,
           francais: seif.francais,
         },
         mots_alignes: result.mots_alignes,
@@ -489,7 +544,7 @@ async function main() {
         _error: err.message,
         texte_integral: {
           hebreu_sans_voyelles: removeNikkoud(seif.hebreu),
-          hebreu_avec_voyelles: seif.hebreu,
+          hebreu_avec_voyelles: hebreuVoyelles,
           francais: seif.francais,
         },
         mots_alignes: [],

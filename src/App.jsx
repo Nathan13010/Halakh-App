@@ -129,7 +129,7 @@ function App() {
           ? rawData.halakhot
           : (Object.values(rawData || {}).find(v => Array.isArray(v)) || []);
 
-      parsed = flattenHalakhot(initialArray);
+      let parsed = flattenHalakhot(initialArray);
 
       if (parsed.length === 0) throw new Error("JSON mal formé.");
 

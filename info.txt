@@ -1,3 +1,45 @@
-node scripts/generate-siman.js --from 2 --to 10
+Ajouter le texte dans le fichier "entree.txt : 
 
-node scripts/generate-siman.js --siman 1
+SEIF 45
+TITRE: Tikkun Chatzot à la mi-journée
+HEBREU: מה. בימי בין המצרים רבים נוהגים לומר תיקון חצות אחר חצות היום. ואומרים את סדר תיקון רחל, שתוכנו קינות וצער על חורבן ביהמ'ק. ויתן אל לבו הגלות, ובפרט גלות השכינה אשר היא שוכנת בעפר, וכמו שאמרה השכינה הקדושה למרן השו'ע: זה כמה שנים נפלה עטרת ראשי, ואין מנחם לי, ואני מושלכת בעפר חובקת אשפתות וכו'. ואילו הייתם משערים אחד מאלף אלפי אלפים ורוב רבי רבבות מהצער אשר אני שרויה בו, לא היתה נכנסת שמחה בלבבכם ולא שחוק בפיכם, בזכרכם כי בסיבתכם אני מושלכת בעפר. ע'כ. ואמנם המנהג לומר תיקון חצות אחר חצות היום רק בבין המצרים, אבל בשאר ימות השנה לא נהגו לומר תיקון חצות אלא אחר חצות לילה
+FRANCAIS: 45. Pendant les jours de Ben HaMétsarim (les Trois Semaines), beaucoup ont la coutume de réciter le Tikkun Chatzot après le milieu du jour (la mi-journée halakhique). On récite l'ordre du Tikkun Rahel, dont le contenu est fait de lamentations et de peine pour la destruction du Saint Temple (Beit HaMikdach). On prendra à cœur l'exil, et en particulier l'exil de la Présence Divine (Chekhina) qui réside dans la poussière, comme la sainte Chekhina l'a dit à Maran l'auteur du Choulhan Aroukh : « Voilà de nombreuses années que la couronne de ma tête est tombée, et je n'ai point de consolateur ; je suis jetée dans la poussière, étreignant les décharges, etc. Et si vous pouviez estimer un millième de milliers de milliers et une infime fraction des myriades de la souffrance dans laquelle je suis plongée, aucune joie n'entrerait dans vos cœurs ni aucun rire dans vos bouches, en vous souvenant que c'est à cause de vous que je suis jetée dans la poussière. » Fin de citation. Cependant, la coutume de réciter le Tikkun Chatzot après le milieu du jour s'applique uniquement pendant Ben HaMétsarim. Le reste de l'année, on n'a coutume de réciter le Tikkun Chatzot qu'après le milieu de la nuit.
+---
+
+Puis entre la commande : 
+
+node scripts/generate-from-file.js --siman 1 --seif 45
+
+ou 
+
+node scripts/generate-from-file.js --siman 1
+
+le script verra qu'il a déjà fait les 141 premiers. Il reprendra exactement là où il s'est arrêté !
+
+
+///
+
+Siman 1 - Operationel 
+
+Siman 109 - Normalement parfait (mais reverifier les contextes et presentation) 
+
+Siman 318 - refaire une petite verification
+
+///
+
+
+1. Extraire une plage de Seifim (ex: Siman 1, Seif 11 à 20)
+bash
+node export_seif.cjs --siman 1 --seifs 11-20
+(Cela créera le fichier siman_1_seif_11_to_20.txt dans tes Téléchargements)
+
+2. Extraire un Siman différent (ex: Siman 2, Seif 1 à 10)
+bash
+node export_seif.cjs --siman 2 --seifs 1-10
+
+3. Extraire un SEUL Seif bien précis (ex: Siman 1, Seif 44)
+Utilise le drapeau --seif au singulier à la place de --seifs :
+
+bash
+node export_seif.cjs --siman 1 --seif 44
+(Cela créera le fichier siman_1_seif_44.txt dans tes Téléchargements)

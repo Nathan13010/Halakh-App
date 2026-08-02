@@ -55,7 +55,10 @@ L'alignement est le cœur de l'application interactive. Il DOIT être parfait (0
 - **Correspondance exacte :** Le nombre d'objets dans le tableau `mots_alignes` **doit être exactement égal** au nombre de mots dans la phrase `hebreu_sans_voyelles` séparés par des espaces.
 - **PAS de mots génériques (ERREUR FATALE) :** Il est **strictement interdit** d'utiliser des mots de remplissage comme "Terme", "Terme hébreu", ou "—" pour la clé `francais_mot`. Chaque mot hébreu DOIT avoir une traduction française.
 - **Traduction contextuelle :** Le `francais_mot` ne doit pas être une traduction littérale robotique, mais la traduction exacte que ce mot prend *dans le contexte de cette phrase précise*.
-- **Expression de contexte :** La clé `expression_contexte` doit regrouper le mot avec les 2 ou 3 mots environnants pour aider l'utilisateur à comprendre le sens global (ex: mot="permis", contexte="il est permis de dormir").
+- **Expression de contexte :** Cette clé ne doit être remplie QUE si une précision est absolument nécessaire pour comprendre le mot (par exemple : une expression idiomatique, un mot composé, ou une syntaxe qui n'a pas de sens en traduction mot à mot).
+  - **RÈGLE N°1 :** Si le mot se traduit de manière simple et directe (ex: "טובה" -> "bonne"), tu DOIS laisser la valeur `"expression_contexte": ""`. NE RÉPÈTE JAMAIS le `francais_mot` et NE METS JAMAIS la traduction du mot suivant.
+  - **RÈGLE N°2 :** Si le mot nécessite du contexte, `francais_mot` contiendra le mot isolé, et `expression_contexte` contiendra l'expression complète. 
+  - **RÈGLE N°3 (Numérotation du Seif) :** Le TOUT PREMIER mot de chaque `mots_alignes` qui correspond au numéro du Seif (ex: "יא") DOIT IMPÉRATIVEMENT être écrit sans voyelles et avec un point final, à la fois pour `hebreu_brut` et `hebreu_voyelles` (ex: `"hebreu_brut": "יא.", "hebreu_voyelles": "יא."`). Il ne doit pas y avoir de guillemets (geresh).
 
 **Exemple de structure d'un mot :**
 ```json
