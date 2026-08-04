@@ -20,8 +20,8 @@ le script verra qu'il a déjà fait les 141 premiers. Il reprendra exactement l�
 ///
 
 Siman 1 - Operationel 
-
-Siman 109 - Normalement parfait (mais reverifier les contextes et presentation) 
+Siman 2 - Work in progress
+Siman 109 - Operationel
 
 Siman 318 - refaire une petite verification
 
@@ -43,3 +43,13 @@ Utilise le drapeau --seif au singulier à la place de --seifs :
 bash
 node export_seif.cjs --siman 1 --seif 44
 (Cela créera le fichier siman_1_seif_44.txt dans tes Téléchargements)
+
+
+4. Extraire TOUT un Siman découpé par lots (Batch)
+(Exemple : Siman 2, extraire la totalité découpée par lots de 5)
+```bash
+node export_seif.cjs --siman 2 --all --5
+```
+👉 Créera plusieurs fichiers : `siman_2_seif_1_to_5.txt`, `siman_2_seif_6_to_10.txt`, etc.*
+(Note : Vous pouvez remplacer `--5` par n'importe quel nombre, comme `--10` ou `--20`, pour changer la taille de chaque lot. Le script s'ajuste tout seul pour les derniers seifim !)*
+```

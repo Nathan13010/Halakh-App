@@ -21028,6 +21028,22 @@ export const BOOKS = [
     ]
   },
   {
+    "id": "yalkout-2",
+    "title": "Yalkout Yossef",
+    "subtitle": "Siman 2 - Lois de l'Habillement",
+    "author": "Rav Ovadia Yossef / Rav Yitzhak Yossef",
+    "category": "Halakha",
+    "description": "Lois de l'habillement et de la conduite du matin. Édition bilingue interactive.",
+    "coverColor": "bg-gradient-to-br from-emerald-900 via-teal-950 to-slate-900",
+    "isUnlocked": true,
+    "chapters": [
+      {
+        "id": "siman-2",
+        "title": "Siman 2"
+      }
+    ]
+  },
+  {
     "id": "yalkout-109",
     "title": "Yalkout Yossef",
     "subtitle": "Siman 109 - Réciter la Kédoucha avec l'officiant",

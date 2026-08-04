@@ -1,0 +1,80 @@
+{
+  "s1_38": [
+    {
+      "id": 37,
+      "hebreu_brut": "עמו",
+      "hebreu_voyelles": "עִמּוֹ",
+      "francais_mot": "avec lui",
+      "expression_contexte": ""
+    },
+    {
+      "id": 38,
+      "hebreu_brut": "''כתר",
+      "hebreu_voyelles": "''כֶּתֶר",
+      "francais_mot": "« Couronne",
+      "expression_contexte": ""
+    },
+    {
+      "id": 39,
+      "hebreu_brut": "יתנו",
+      "hebreu_voyelles": "יִתְּנוּ",
+      "francais_mot": "ils donneront",
+      "expression_contexte": "",
+      "infinitif": "לָתֵת = Donner"
+    },
+    {
+      "id": 40,
+      "hebreu_brut": "לך",
+      "hebreu_voyelles": "לְךָ",
+      "francais_mot": "à Toi",
+      "expression_contexte": ""
+    },
+    {
+      "id": 41,
+      "hebreu_brut": "וכו'''",
+      "hebreu_voyelles": "וְכוּ'''",
+      "francais_mot": "etc. »",
+      "expression_contexte": ""
+    },
+    {
+      "id": 42,
+      "hebreu_brut": "עד",
+      "hebreu_voyelles": "עַד",
+      "francais_mot": "jusqu'à",
+      "expression_contexte": ""
+    }
+  ],
+  "s4_60": [
+    {
+      "id": 59,
+      "hebreu_brut": "ויש",
+      "hebreu_voyelles": "וְיֵשׁ",
+      "francais_mot": "et il doit",
+      "expression_contexte": ""
+    },
+    {
+      "id": 60,
+      "hebreu_brut": "לו,להרגיל",
+      "hebreu_voyelles": "לוֹ,לְהַרְגִּיל",
+      "francais_mot": "à lui, d'habituer",
+      "expression_contexte": "",
+      "infinitif": "לְהַרְגִּיל = Habituer"
+    },
+    {
+      "id": 61,
+      "hebreu_brut": "את",
+      "hebreu_voyelles": "אֶת",
+      "francais_mot": "(COD)",
+      "expression_contexte": ""
+    }
+  ],
+  "s6_13": [
+    {
+      "id": 13,
+      "hebreu_brut": "ח'",
+      "hebreu_voyelles": "ח'",
+      "francais_mot": "huitième jour",
+      "expression_contexte": ""
+    }
+  ]
+}

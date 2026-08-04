@@ -9497,14 +9497,14 @@
           "id": 19,
           "hebreu_brut": "ומכל",
           "hebreu_voyelles": "וּמִכָּל",
-          "francais_mot": "néanmoins",
+          "francais_mot": "et de tout",
           "expression_contexte": "ומכל מקום = Néanmoins / Cependant"
         },
         {
           "id": 20,
           "hebreu_brut": "מקום",
           "hebreu_voyelles": "מָקוֹם",
-          "francais_mot": "cependent",
+          "francais_mot": "lieu",
           "expression_contexte": "ומכל מקום = Néanmoins / Cependant"
         },
         {
@@ -9668,15 +9668,15 @@
           "id": 43,
           "hebreu_brut": "וכל",
           "hebreu_voyelles": "וְכָל",
-          "francais_mot": "et a",
+          "francais_mot": "et tout",
           "expression_contexte": "וכל שכן = A fortiori"
         },
         {
           "id": 44,
           "hebreu_brut": "שכן",
           "hebreu_voyelles": "שֶׁכֵּן",
-          "francais_mot": "fortiori",
-          "expression_contexte": "וכל שכן = A fortiori"
+          "francais_mot": "que oui",
+          "expression_contexte": "וכל שכן = À fortiori"
         },
         {
           "id": 45,
@@ -10327,7 +10327,7 @@
           "hebreu_brut": "שהיה",
           "hebreu_voyelles": "שֶׁהָיָה",
           "francais_mot": "qui était",
-          "expression_contexte": "a la",
+          "expression_contexte": "",
           "infinitif": "לִהְיוֹת = Être"
         },
         {
@@ -10660,7 +10660,7 @@
           "id": 9,
           "hebreu_brut": "ראש,",
           "hebreu_voyelles": "רֹאשׁ,",
-          "francais_mot": "la tête,",
+          "francais_mot": "tête,",
           "expression_contexte": ""
         },
         {
@@ -11730,14 +11730,14 @@
           "id": 76,
           "hebreu_brut": "מה",
           "hebreu_voyelles": "מָה",
-          "francais_mot": "comment",
+          "francais_mot": "quoi",
           "expression_contexte": "מה שלומך = Comment vas-tu ?"
         },
         {
           "id": 77,
           "hebreu_brut": "שלומך,",
           "hebreu_voyelles": "שְׁלוֹמְךָ,",
-          "francais_mot": "va ta santé,",
+          "francais_mot": "ta paix,",
           "expression_contexte": "מה שלומך = Comment vas-tu ?"
         },
         {
@@ -11758,7 +11758,7 @@
           "id": 80,
           "hebreu_brut": "דבזמן",
           "hebreu_voyelles": "דֶבַּזְּמָן",
-          "francais_mot": "que de nos jours",
+          "francais_mot": "que dans le temps",
           "expression_contexte": "בזמן הזה = de nos jours"
         },
         {
@@ -11879,7 +11879,7 @@
           "id": 97,
           "hebreu_brut": "לכל",
           "hebreu_voyelles": "לְכָל",
-          "francais_mot": "\"à tout\"",
+          "francais_mot": "à tout",
           "expression_contexte": ""
         },
         {
