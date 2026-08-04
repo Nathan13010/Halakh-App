@@ -6,6 +6,8 @@ const args = process.argv.slice(2);
 let siman = 1;
 let minSeif = null;
 let maxSeif = null;
+let exportAll = false;
+let batchSize = 5;
 
 for (let i = 0; i < args.length; i++) {
   if (args[i] === '--siman' && args[i+1]) {
@@ -20,14 +22,19 @@ for (let i = 0; i < args.length; i++) {
     minSeif = parseInt(parts[0]);
     maxSeif = parseInt(parts[1]);
     i++;
+  } else if (args[i] === '--all') {
+    exportAll = true;
+  } else if (args[i].match(/^--\d+$/)) {
+    batchSize = parseInt(args[i].substring(2));
   }
 }
 
 // Vérification de la validité des arguments
-if (!minSeif || !maxSeif) {
+if (!exportAll && (!minSeif || !maxSeif)) {
   console.log("💡 Utilisation :");
   console.log("Plage de seifim : node export_seif.cjs --siman 1 --seifs 1-10");
   console.log("Un seul seif    : node export_seif.cjs --siman 1 --seif 5");
+  console.log("Tout par lots   : node export_seif.cjs --siman 2 --all --5");
   process.exit(1);
 }
 
@@ -40,36 +47,68 @@ if (!fs.existsSync(inputFile)) {
 
 // Dossier des téléchargements de Windows
 const downloadsDir = 'C:\\Users\\natha\\Downloads';
-let fileName = `siman_${siman}_seif_${minSeif}`;
-if (minSeif !== maxSeif) {
-  fileName += `_to_${maxSeif}`;
-}
-fileName += '.txt';
-
-const outputFile = path.join(downloadsDir, fileName);
-
-console.log(`Extraction ${minSeif === maxSeif ? 'du Seif' : 'des Seifim'} ${minSeif}${minSeif !== maxSeif ? ' à ' + maxSeif : ''} du Siman ${siman}...`);
 
 try {
   const data = JSON.parse(fs.readFileSync(inputFile, 'utf8'));
+  const halakhot = data.halakhot || [];
   
-  // Filtrer les halakhot
-  const seifsToExport = data.halakhot.filter(h => {
-    const seifNum = parseInt(h.seif);
-    return seifNum >= minSeif && seifNum <= maxSeif;
-  });
-
-  if (seifsToExport.length === 0) {
-    console.log("❌ Aucun Seif trouvé avec ce(s) numéro(s).");
+  if (halakhot.length === 0) {
+    console.log("❌ Aucun Seif trouvé dans ce fichier.");
     process.exit(1);
   }
 
-  // Écriture du fichier
-  const exportText = JSON.stringify(seifsToExport, null, 2);
-  fs.writeFileSync(outputFile, exportText);
-  
-  console.log(`✅ Succès ! Fichier généré dans tes Téléchargements :`);
-  console.log(`📂 ${outputFile}`);
+  if (exportAll) {
+    console.log(`Extraction de tous les seifim du Siman ${siman} par lots de ${batchSize}...`);
+    // Trier par seifNum
+    halakhot.sort((a, b) => parseInt(a.seif) - parseInt(b.seif));
+    
+    let generatedFiles = 0;
+    
+    for (let i = 0; i < halakhot.length; i += batchSize) {
+      const chunk = halakhot.slice(i, i + batchSize);
+      const startSeif = chunk[0].seif;
+      const endSeif = chunk[chunk.length - 1].seif;
+      
+      let fileName = `siman_${siman}_seif_${startSeif}`;
+      if (startSeif !== endSeif) {
+        fileName += `_to_${endSeif}`;
+      }
+      fileName += '.txt';
+      const outputFile = path.join(downloadsDir, fileName);
+      
+      fs.writeFileSync(outputFile, JSON.stringify(chunk, null, 2));
+      console.log(`✅ Créé : ${outputFile}`);
+      generatedFiles++;
+    }
+    
+    console.log(`\n🎉 Succès ! ${generatedFiles} fichiers ont été générés dans tes Téléchargements.`);
+  } else {
+    console.log(`Extraction ${minSeif === maxSeif ? 'du Seif' : 'des Seifim'} ${minSeif}${minSeif !== maxSeif ? ' à ' + maxSeif : ''} du Siman ${siman}...`);
+    
+    // Filtrer les halakhot
+    const seifsToExport = halakhot.filter(h => {
+      const seifNum = parseInt(h.seif);
+      return seifNum >= minSeif && seifNum <= maxSeif;
+    });
+
+    if (seifsToExport.length === 0) {
+      console.log("❌ Aucun Seif trouvé avec ce(s) numéro(s).");
+      process.exit(1);
+    }
+
+    // Écriture du fichier
+    let fileName = `siman_${siman}_seif_${minSeif}`;
+    if (minSeif !== maxSeif) {
+      fileName += `_to_${maxSeif}`;
+    }
+    fileName += '.txt';
+    
+    const outputFile = path.join(downloadsDir, fileName);
+    fs.writeFileSync(outputFile, JSON.stringify(seifsToExport, null, 2));
+    
+    console.log(`✅ Succès ! Fichier généré dans tes Téléchargements :`);
+    console.log(`📂 ${outputFile}`);
+  }
 } catch (error) {
   console.error("❌ Erreur lors de l'extraction :", error);
 }

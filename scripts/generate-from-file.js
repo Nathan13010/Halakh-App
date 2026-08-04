@@ -39,6 +39,26 @@ const API_DELAY_MS = 4500;           // 4.5s entre chaque appel (limite gratuite
 const MAX_RETRIES = 3;
 const RETRY_DELAY_MS = 10000;
 
+let apiKeys = [];
+let currentKeyIndex = 0;
+let aiClient = null;
+
+function getAiClient() {
+  if (!aiClient) {
+    aiClient = new GoogleGenAI({ apiKey: apiKeys[currentKeyIndex] });
+  }
+  return aiClient;
+}
+
+function switchApiKey() {
+  if (currentKeyIndex < apiKeys.length - 1) {
+    currentKeyIndex++;
+    console.log(`\n🔄 Basculement sur la clé API n°${currentKeyIndex + 1}...`);
+    aiClient = new GoogleGenAI({ apiKey: apiKeys[currentKeyIndex] });
+    return true;
+  }
+  return false;
+}
 // ─── Correspondance chiffres arabes → lettres hébraïques (gematria) ───────────
 const HEBREW_NUMERALS = {
   1:'א',2:'ב',3:'ג',4:'ד',5:'ה',6:'ו',7:'ז',8:'ח',9:'ט',10:'י',
@@ -258,7 +278,7 @@ DIRECTIVES STRICTES :
    - L'id commence à 1 (le badge de numérotation "א." sera ajouté automatiquement à l'id 0).`;
 
 // ─── Appel API Gemini (alignement uniquement) ────────────────────────────────
-async function callGeminiAlignment(ai, hebreuBrut, hebreuVoyelles, francais) {
+async function callGeminiAlignment(hebreuBrut, hebreuVoyelles, francais) {
   const userPrompt = `Voici le texte hébreu brut original, le texte hébreu vocalisé et sa traduction française. Crée l'alignement mot-à-mot.
 
 TEXTE HÉBREU BRUT (ORIGINAL) :
@@ -274,7 +294,7 @@ Génère le tableau "mots_alignes" selon le schéma défini. Rappel : un éléme
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
-      const response = await ai.models.generateContent({
+      const response = await getAiClient().models.generateContent({
         model: GEMINI_MODEL,
         contents: [{ role: 'user', parts: [{ text: userPrompt }] }],
         config: {
@@ -310,6 +330,12 @@ Génère le tableau "mots_alignes" selon le schéma défini. Rappel : un éléme
       return parsed;
 
     } catch (err) {
+      const isQuotaError = err.message && (err.message.includes('Quota exceeded') || err.message.includes('429'));
+      if (isQuotaError && switchApiKey()) {
+        attempt--; // On ne compte pas cette tentative puisqu'on vient de changer de clé
+        continue;
+      }
+
       const isLast = attempt === MAX_RETRIES;
 
       // Extraire le délai de retry suggéré par l'API (429 RESOURCE_EXHAUSTED)
@@ -406,12 +432,18 @@ function parseArgs() {
 async function main() {
   const cliArgs = parseArgs();
 
-  if (!process.env.GEMINI_API_KEY) {
-    console.error('❌ GEMINI_API_KEY manquante. Créez un fichier .env avec GEMINI_API_KEY=votre_clé');
+  apiKeys = [
+    process.env.GEMINI_API_KEY,
+    process.env.GEMINI_API_KEY_2,
+    process.env.GEMINI_API_KEY_3
+  ].filter(Boolean);
+
+  if (apiKeys.length === 0) {
+    console.error('❌ Aucune clé API trouvée. Créez un fichier .env avec GEMINI_API_KEY=votre_clé');
     process.exit(1);
   }
 
-  console.log('🔑 Clé API chargée (fin) :', process.env.GEMINI_API_KEY.slice(-4));
+  console.log(`🔑 ${apiKeys.length} clé(s) API chargée(s).`);
 
   // 1. Parser le fichier d'entrée
   console.log(`\n📂 Lecture de ${path.relative(ROOT, cliArgs.inputFile)}...`);
@@ -469,8 +501,7 @@ async function main() {
     return;
   }
 
-  // 3. Initialiser l'API Gemini
-  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+  // 3. Initialiser l'API Gemini (Géré dynamiquement via getAiClient)
 
   // 4. Traitement seif par seif
   const halakhot = [...existingHalakhot];
@@ -485,14 +516,15 @@ async function main() {
     console.log(`${progress} 🔄 Seif ${seif.seifNum} (${hebLetter}) — "${seif.titre}"`);
     console.log(`        Texte (${seif.hebreu.length} car.) : ${seif.hebreu.substring(0, 80)}...`);
 
+    let hebreuVoyelles = seif.hebreu;
+
     try {
       // Appeler Gemini pour l'alignement
-      let hebreuVoyelles = seif.hebreu;
       if (!/[\u0591-\u05C7]/.test(hebreuVoyelles)) {
         console.log('        🪄  Texte brut détecté. Vocalisation via Dicta Nakdan...');
         hebreuVoyelles = await getVowelsFromNakdan(seif.hebreu);
       }
-      const result = await callGeminiAlignment(ai, seif.hebreu, hebreuVoyelles, seif.francais);
+      const result = await callGeminiAlignment(seif.hebreu, hebreuVoyelles, seif.francais);
 
       // Construire le texte hébreu sans voyelles
       const hebreuSansVoyelles = removeNikkoud(seif.hebreu);
