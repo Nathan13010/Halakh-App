@@ -48,8 +48,32 @@ const ParagraphCard = React.memo(({
   onToggleFavorite,
   onWordClick,
   setHoveredWordId,
-  wordRefs
+  wordRefs,
+  isToolbarVisible
 }) => {
+  const [isTitleExpanded, setIsTitleExpanded] = React.useState(false);
+
+  React.useEffect(() => {
+    if (!isTitleExpanded) return;
+    
+    const handleScroll = () => setIsTitleExpanded(false);
+    const handleClickOutside = (e) => {
+      if (!e.target.closest('.seif-title-btn')) {
+        setIsTitleExpanded(false);
+      }
+    };
+    
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    document.addEventListener('click', handleClickOutside);
+    document.addEventListener('touchstart', handleClickOutside);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      document.removeEventListener('click', handleClickOutside);
+      document.removeEventListener('touchstart', handleClickOutside);
+    };
+  }, [isTitleExpanded]);
+
   const normalizeFrWord = (str) => {
     return (str || "")
       .toLowerCase()
@@ -175,7 +199,11 @@ const FRENCH_STOP_WORDS = new Set([
     <div id={`seif-card-${pIndex}`} className="space-y-4">
       {/* Sujet Section Banner */}
       {isFirstOfSubject && currentSubjectTitle && (
-        <div className="bg-emerald-500/10 border border-emerald-500/30 rounded-xl p-3 flex items-center justify-between gap-2 text-xs sticky top-[125px] z-10 backdrop-blur-md shadow-lg">
+        <div 
+          className={`bg-emerald-500/10 border border-emerald-500/30 rounded-xl p-3 flex items-center justify-between gap-2 text-xs sticky top-[125px] z-10 backdrop-blur-md shadow-lg transition-all duration-300 ease-in-out ${
+            isToolbarVisible ? 'translate-y-0 opacity-100' : '-translate-y-[150%] opacity-0 pointer-events-none'
+          }`}
+        >
           <div className="flex items-center gap-2">
             <span className="text-emerald-400 font-bold uppercase tracking-wider text-[9px] bg-emerald-500/20 px-2 py-0.5 rounded">
               Sujet
@@ -193,23 +221,32 @@ const FRENCH_STOP_WORDS = new Set([
       {/* Sefaria Halakha Card */}
       <div
         onClick={() => onParagraphChange(pIndex)}
-        className={`bg-zinc-900/40 border rounded-2xl p-6 transition-all duration-300 space-y-6 relative ${
+        className={`transition-all duration-500 space-y-6 relative py-2 ${
           isSelected
-            ? 'border-amber-500/50 bg-zinc-900/90 shadow-2xl ring-1 ring-amber-500/30'
-            : 'border-zinc-800/80 hover:border-zinc-700 bg-zinc-900/30'
+            ? 'opacity-100'
+            : 'opacity-40 hover:opacity-70'
         }`}
       >
         {/* Top Card Header Indicator */}
         <div className="flex items-center justify-between gap-3 border-b border-zinc-800/80 pb-3">
           <div className="flex items-center gap-2.5 min-w-0">
-            <div className={`w-2 h-2 rounded-full shrink-0 ${isSelected ? 'bg-amber-500 shadow-sm shadow-amber-500' : 'bg-zinc-700'}`} />
             <span className="text-xs font-mono font-bold text-amber-500/90 uppercase tracking-widest shrink-0">
               Seïf {p.seif || (pIndex + 1)}
             </span>
             {getSeifTitle(p) && (
-              <span className="text-xs font-medium text-amber-200/90 bg-amber-500/10 border border-amber-500/20 px-2.5 py-0.5 rounded-full truncate max-w-[200px] sm:max-w-xs md:max-w-md">
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setIsTitleExpanded(!isTitleExpanded);
+                }}
+                className={`seif-title-btn text-xs font-medium text-amber-200/90 bg-amber-500/10 border border-amber-500/20 px-2.5 py-0.5 text-left transition-all ${
+                  isTitleExpanded 
+                    ? "rounded-xl whitespace-normal break-words z-20 relative shadow-xl shadow-amber-900/20" 
+                    : "rounded-full truncate max-w-[200px] sm:max-w-xs md:max-w-md"
+                }`}
+              >
                 {getSeifTitle(p)}
-              </span>
+              </button>
             )}
           </div>
 
@@ -366,6 +403,9 @@ const ReaderScreen = ({
   const [showSearchResults, setShowSearchResults] = useState(false);
   const [selectedSubjectTitle, setSelectedSubjectTitle] = useState('ALL');
 
+  const [isToolbarVisible, setIsToolbarVisible] = useState(true);
+  const lastScrollY = useRef(0);
+
   const containerRef = useRef(null);
   const wordRefs = useRef({});
 
@@ -376,6 +416,29 @@ const ReaderScreen = ({
   useEffect(() => {
     setSelectedSubjectTitle('ALL');
   }, [activeBookId]);
+
+  useEffect(() => {
+    const handleScrollVisibility = () => {
+      const currentScrollY = window.scrollY;
+      
+      if (currentScrollY < 100) {
+        setIsToolbarVisible(true);
+        lastScrollY.current = currentScrollY;
+        return;
+      }
+      
+      if (currentScrollY > lastScrollY.current + 10) {
+        setIsToolbarVisible(false);
+        lastScrollY.current = currentScrollY;
+      } else if (currentScrollY < lastScrollY.current - 20) {
+        setIsToolbarVisible(true);
+        lastScrollY.current = currentScrollY;
+      }
+    };
+
+    window.addEventListener("scroll", handleScrollVisibility, { passive: true });
+    return () => window.removeEventListener("scroll", handleScrollVisibility);
+  }, []);
 
   useEffect(() => {
     const handleOutsideClick = (e) => {
@@ -494,6 +557,44 @@ const ReaderScreen = ({
 
   // Windowing state: load initial 5 items and expand dynamically
   const [visibleCount, setVisibleCount] = useState(5);
+
+  const currentIndexRef = useRef(currentParagraphIndex);
+
+  useEffect(() => {
+    currentIndexRef.current = currentParagraphIndex;
+  }, [currentParagraphIndex]);
+
+  useEffect(() => {
+    let scrollTimeout;
+    const handleActiveSeifOnScroll = () => {
+      if (scrollTimeout) cancelAnimationFrame(scrollTimeout);
+      
+      scrollTimeout = requestAnimationFrame(() => {
+        const cards = document.querySelectorAll('[id^="seif-card-"]');
+        
+        for (let i = 0; i < cards.length; i++) {
+          const card = cards[i];
+          const rect = card.getBoundingClientRect();
+          
+          // Consider a card active if its top is above 40% of the screen height,
+          // and its bottom is below the header area (~150px)
+          if (rect.top <= window.innerHeight * 0.4 && rect.bottom >= 150) {
+            const index = parseInt(card.id.replace('seif-card-', ''), 10);
+            if (!isNaN(index) && index !== currentIndexRef.current) {
+              onParagraphChange(index);
+            }
+            break; // Stop after finding the first active one
+          }
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleActiveSeifOnScroll, { passive: true });
+    return () => {
+      window.removeEventListener('scroll', handleActiveSeifOnScroll);
+      if (scrollTimeout) cancelAnimationFrame(scrollTimeout);
+    };
+  }, [onParagraphChange]);
 
   useEffect(() => {
     setVisibleCount(5);
@@ -615,7 +716,11 @@ const ReaderScreen = ({
       )}
 
       {/* Toolbar Sub-Navigation */}
-      <section className="bg-zinc-900/30 border-b border-zinc-800/80 px-6 py-3 sticky top-[69px] z-10">
+      <section 
+        className={`bg-zinc-900/30 border-b border-zinc-800/80 px-6 py-3 sticky top-[69px] z-10 transition-transform duration-300 ease-in-out ${
+          isToolbarVisible ? 'translate-y-0' : '-translate-y-[150%]'
+        }`}
+      >
         <div className="max-w-6xl mx-auto flex flex-col lg:flex-row lg:items-center justify-between gap-4">
           <div className="flex flex-wrap items-center gap-6">
             {/* Chapitre Dropdown */}
@@ -716,7 +821,7 @@ const ReaderScreen = ({
       </section>
 
       {/* Main Sefaria-style Continuous Reader Stream */}
-      <main className="flex-grow flex flex-col items-center justify-start py-8 px-4 md:px-6 relative">
+      <main className="flex-grow flex flex-col items-center justify-start pt-4 pb-8 px-4 md:px-6 relative">
         <div ref={containerRef} className="w-full max-w-2xl space-y-10 flex flex-col relative min-h-[350px]">
 
           {/* Word Popup Portal */}
@@ -840,6 +945,7 @@ const ReaderScreen = ({
                     onWordClick={handleWordClick}
                     setHoveredWordId={setHoveredWordId}
                     wordRefs={wordRefs}
+                    isToolbarVisible={isToolbarVisible}
                   />
                 );
               })}

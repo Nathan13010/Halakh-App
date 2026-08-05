@@ -47,7 +47,7 @@ const WelcomeScreen = ({ books, favorites, onSelectBook, onSelectFavorite, onRem
 
       <header className="max-w-6xl mx-auto w-full mb-8 text-center">
         <h1 className="text-3xl md:text-5xl font-medium tracking-tight text-zinc-900 dark:text-zinc-100 mb-3 font-serif">
-          Mishné <span className="text-amber-500">Mikra</span>
+          Halakh'<span className="text-amber-500">App</span>
         </h1>
         <p className="text-zinc-500 dark:text-zinc-400 max-w-xl mx-auto text-xs md:text-sm font-light">
           Analyse interactive des textes bilingues hébreu/français.

@@ -21044,6 +21044,22 @@ export const BOOKS = [
     ]
   },
   {
+    "id": "yalkout-3",
+    "title": "Yalkout Yossef",
+    "subtitle": "Siman 3 - Lois de la conduite aux toilettes",
+    "author": "Rav Ovadia Yossef / Rav Yitzhak Yossef",
+    "category": "Halakha",
+    "description": "Règles halakhiques concernant la conduite aux toilettes. Édition bilingue interactive.",
+    "coverColor": "bg-gradient-to-br from-indigo-900 via-purple-950 to-slate-900",
+    "isUnlocked": true,
+    "chapters": [
+      {
+        "id": "siman-3",
+        "title": "Siman 3"
+      }
+    ]
+  },
+  {
     "id": "yalkout-109",
     "title": "Yalkout Yossef",
     "subtitle": "Siman 109 - Réciter la Kédoucha avec l'officiant",
@@ -21074,5 +21090,5 @@ export const BOOKS = [
         "title": "Siman 318"
       }
     ]
-  }
+  },
 ];

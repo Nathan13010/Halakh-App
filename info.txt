@@ -20,7 +20,7 @@ le script verra qu'il a déjà fait les 141 premiers. Il reprendra exactement l�
 ///
 
 Siman 1 - Operationel 
-Siman 2 - Work in progress
+Siman 2 - Operationel  
 Siman 109 - Operationel
 
 Siman 318 - refaire une petite verification

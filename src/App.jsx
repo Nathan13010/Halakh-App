@@ -322,7 +322,7 @@ function App() {
   };
 
   return (
-    <div className={`${theme} min-h-screen bg-zinc-50 dark:bg-[#0A0A0B] text-zinc-900 dark:text-[#E4E4E7] font-sans pb-20 md:pb-0 md:pt-20`}>
+    <div className={`${theme} min-h-screen bg-zinc-50 dark:bg-[#0A0A0B] text-zinc-900 dark:text-[#E4E4E7] font-sans pb-20 md:pb-0 pt-16`}>
       {/* Header Mobile / Desktop Top Bar */}
       <header className="fixed top-0 left-0 right-0 h-16 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 z-40 flex items-center justify-between px-4 md:px-8">
         <div className="flex items-center gap-2.5">
@@ -343,7 +343,7 @@ function App() {
       </header>
 
       {/* Main Content Area */}
-      <main className="pt-16 min-h-screen">
+      <main className="min-h-screen">
         {isLoading && (
           <div className="fixed inset-0 bg-white/95 dark:bg-[#0A0A0B]/95 z-55 flex flex-col items-center justify-center p-6 text-center select-none backdrop-blur-md">
             <div className="relative mb-6 animate-pulse">
