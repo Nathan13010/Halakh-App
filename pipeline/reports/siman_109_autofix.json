@@ -1,0 +1,16 @@
+{
+  "siman": 109,
+  "timestamp": "2026-08-14T13:50:13.452Z",
+  "dryRun": false,
+  "totalFixes": 1,
+  "seifimFixed": 1,
+  "details": [
+    {
+      "seif": "1",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    }
+  ]
+}

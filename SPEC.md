@@ -1,4 +1,4 @@
-# Mishné Mikra — Halakh'App 📖✡️
+# Halakh'App 📖✡️
 
 > **Application web interactive d'apprentissage de la Halakha (loi juive) basée sur le Kitsour Yalkout Yossef, avec traduction bilingue mot-à-mot hébreu-français.**
 
@@ -6,7 +6,7 @@
 
 ## 🎯 Vision du Projet
 
-Mishné Mikra (« Étude de la Lecture ») est une application web éducative conçue pour permettre aux francophones d'étudier la Halakha directement depuis les textes hébraïques originaux du **Kitsour Yalkout Yossef** du Rav Ovadia Yossef זצ"ל.
+Halakh'App (« Étude de la Lecture ») est une application web éducative conçue pour permettre aux francophones d'étudier la Halakha directement depuis les textes hébraïques originaux du **Kitsour Yalkout Yossef** du Rav Ovadia Yossef זצ"ל.
 
 L'objectif principal est de **démocratiser l'accès aux textes halakhiques** pour les personnes qui ne maîtrisent pas (encore) l'hébreu rabbinique, en offrant :
 

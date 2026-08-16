@@ -1,0 +1,4941 @@
+{
+  "_meta": {
+    "source": "entree.txt (texte pré-vocalisé)",
+    "siman": 5,
+    "siman_hebrew": "ה",
+    "generated_at": "2026-08-11T20:04:26.258Z",
+    "total_seifim": 8
+  },
+  "halakhot": [
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "הלכות כוונת הברכות",
+      "sujet_he": "הלכות כוונת הברכות",
+      "sujet_fr": "Lois de l'intention dans les bénédictions",
+      "titre_seif": "Intention lors de la mention du Nom.",
+      "siman": "5",
+      "seif": "1",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "א. יְכַוֵּן בַּבְּרָכוֹת פֵּרוּשׁ הַמִּלּוֹת, וּכְשֶׁיַּזְכִּיר שֵׁם ה' יְכַוֵּן פֵּרוּשׁ קְרִיאָתוֹ בְּאַדְנוּת שֶׁהוּא אֲדוֹן הַכֹּל. וִיכַוֵּן בִּכְתִיבָתוֹ בְּיוֹ\"ד הֵ\"א שֶׁהָיָה הֹוֶה וְיִהְיֶה, וּבְהַזְכִּירוֹ אֱלֹקִים יְכַוֵּן שֶׁהוּא תַּקִּיף וּבַעַל הַיְכֹלֶת וּבַעַל הַכֹּחוֹת כֻּלָּם. וּבְהַזְכִּירוֹ אֱלֹהֵינוּ יְכַוֵּן שֶׁהוּא אֱלוֹהַּ שֶׁלָּנוּ שֶׁהוּא תַּקִּיף וּבַעַל הַיְכֹלֶת. וְיֵשׁ אוֹמְרִים שֶׁכָּל זֶה אֵינוֹ אֶלָּא בְּהַזְכָּרַת שֵׁם ה' שֶׁבַּבְּרָכוֹת, אֲבָל בִּשְׁאָר הַזְכָּרוֹת שֵׁם ה' שֶׁבִּפְסוּקִים וְכַדּוֹמֶה אֵין צָרִיךְ לְכַוֵּן כַּנִּזְכָּר. וְיֵשׁ חוֹלְקִים וְאוֹמְרִים דִּבְכָל הַזְכָּרַת שֵׁם ה' צָרִיךְ לְכַוֵּן כַּנִּזְכָּר. וּלְכַתְּחִלָּה נָכוֹן לְכַוֵּן כַּנִּזְכָּר בְּכָל הַזְכָּרַת שֵׁם ה'. וּבִפְרָט יֵשׁ לְכַוֵּן כֵּן בְּבִרְכַּת אָבוֹת שֶׁבִּשְׁמוֹנֶה עֶשְׂרֵה, וּבְהַזְכָּרַת שֵׁם ה' שֶׁבַּפָּסוּק שְׁמַע יִשְׂרָאֵל. [יַלְקוּט יוֹסֵף עַל הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר עַמּוּד תנט. שְׁאֵרִית יוֹסֵף חֵלֶק א' עַמּוּד לז].",
+        "hebreu_avec_voyelles": "א. יְכַוֵּן בַּבְּרָכוֹת פֵּרוּשׁ הַמִּלּוֹת, וּכְשֶׁיַּזְכִּיר שֵׁם ה' יְכַוֵּן פֵּרוּשׁ קְרִיאָתוֹ בְּאַדְנוּת שֶׁהוּא אֲדוֹן הַכֹּל. וִיכַוֵּן בִּכְתִיבָתוֹ בְּיוֹ\"ד הֵ\"א שֶׁהָיָה הֹוֶה וְיִהְיֶה, וּבְהַזְכִּירוֹ אֱלֹקִים יְכַוֵּן שֶׁהוּא תַּקִּיף וּבַעַל הַיְכֹלֶת וּבַעַל הַכֹּחוֹת כֻּלָּם. וּבְהַזְכִּירוֹ אֱלֹהֵינוּ יְכַוֵּן שֶׁהוּא אֱלוֹהַּ שֶׁלָּנוּ שֶׁהוּא תַּקִּיף וּבַעַל הַיְכֹלֶת. וְיֵשׁ אוֹמְרִים שֶׁכָּל זֶה אֵינוֹ אֶלָּא בְּהַזְכָּרַת שֵׁם ה' שֶׁבַּבְּרָכוֹת, אֲבָל בִּשְׁאָר הַזְכָּרוֹת שֵׁם ה' שֶׁבִּפְסוּקִים וְכַדּוֹמֶה אֵין צָרִיךְ לְכַוֵּן כַּנִּזְכָּר. וְיֵשׁ חוֹלְקִים וְאוֹמְרִים דִּבְכָל הַזְכָּרַת שֵׁם ה' צָרִיךְ לְכַוֵּן כַּנִּזְכָּר. וּלְכַתְּחִלָּה נָכוֹן לְכַוֵּן כַּנִּזְכָּר בְּכָל הַזְכָּרַת שֵׁם ה'. וּבִפְרָט יֵשׁ לְכַוֵּן כֵּן בְּבִרְכַּת אָבוֹת שֶׁבִּשְׁמוֹנֶה עֶשְׂרֵה, וּבְהַזְכָּרַת שֵׁם ה' שֶׁבַּפָּסוּק שְׁמַע יִשְׂרָאֵל. [יַלְקוּט יוֹסֵף עַל הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר עַמּוּד תנט. שְׁאֵרִית יוֹסֵף חֵלֶק א' עַמּוּד לז].",
+        "francais": "1. Lors des bénédictions, on se concentrera sur le sens des mots. En mentionnant le nom de Dieu, on aura à l'esprit le sens de sa prononciation (Adonout) signifiant qu'Il est le Maître de tout. En pensant à son écriture (Yod-Hé), on pensera qu'Il était, est et sera. En mentionnant \"Elokim\", on pensera qu'Il est puissant, omnipotent et maître de toutes les forces. En mentionnant \"Elokénou\", on pensera qu'Il est notre Dieu, puissant et omnipotent. Certains affirment que cette exigence ne s'applique qu'au Nom divin prononcé dans les bénédictions, mais que pour les autres mentions (versets, etc.), cette intention n'est pas requise. D'autres contestent et soutiennent qu'il faut avoir cette intention à chaque mention du Nom divin. A priori, il est juste d'avoir cette intention à chaque fois que l'on prononce le Nom divin. Il convient particulièrement de l'avoir lors de la bénédiction des Patriarches de la Amida et lors de la mention du Nom dans le verset du Chéma Israël. [Yalkout Yossef sur les lois du lever matinal, p. 459 ; Chéérit Yossef vol. 1, p. 37]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "א.",
+          "hebreu_voyelles": "א.",
+          "francais_mot": "1.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "יְכַוֵּן",
+          "hebreu_voyelles": "יְכַוֵּן",
+          "francais_mot": "on aura l'intention",
+          "expression_contexte": "on se concentrera / aura l'esprit",
+          "infinitif": "לְכַוֵּן = Penser / Avoir l'intention"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "בַּבְּרָכוֹת",
+          "hebreu_voyelles": "בַּבְּרָכוֹת",
+          "francais_mot": "dans les bénédictions",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "פֵּרוּשׁ",
+          "hebreu_voyelles": "פֵּרוּשׁ",
+          "francais_mot": "le sens de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "הַמִּלּוֹת,",
+          "hebreu_voyelles": "הַמִּלּוֹת,",
+          "francais_mot": "des mots,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "וּכְשֶׁיַּזְכִּיר",
+          "hebreu_voyelles": "וּכְשֶׁיַּזְכִּיר",
+          "francais_mot": "et lorsqu'il mentionnera",
+          "expression_contexte": "",
+          "infinitif": "לְהַזְכִּיר = Mentionner"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le Nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "ה'",
+          "hebreu_voyelles": "ה'",
+          "francais_mot": "Dieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "יְכַוֵּן",
+          "hebreu_voyelles": "יְכַוֵּן",
+          "francais_mot": "il aura à l'esprit",
+          "expression_contexte": "",
+          "infinitif": "לְכַוֵּן = Penser / Avoir l'intention"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "פֵּרוּשׁ",
+          "hebreu_voyelles": "פֵּרוּשׁ",
+          "francais_mot": "le sens de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "קְרִיאָתוֹ",
+          "hebreu_voyelles": "קְרִיאָתוֹ",
+          "francais_mot": "sa prononciation",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "בְּאַדְנוּת",
+          "hebreu_voyelles": "בְּאַדְנוּת",
+          "francais_mot": "en Adonout",
+          "expression_contexte": "en tant que Seigneur"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "שֶׁהוּא",
+          "hebreu_voyelles": "שֶׁהוּא",
+          "francais_mot": "qu'Il est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "אֲדוֹן",
+          "hebreu_voyelles": "אֲדוֹן",
+          "francais_mot": "le Maître de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "הַכֹּל.",
+          "hebreu_voyelles": "הַכֹּל.",
+          "francais_mot": "tout.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "וִיכַוֵּן",
+          "hebreu_voyelles": "וִיכַוֵּן",
+          "francais_mot": "Et il aura à l'esprit",
+          "expression_contexte": "",
+          "infinitif": "לְכַוֵּן = Penser / Avoir l'intention"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "בִּכְתִיבָתוֹ",
+          "hebreu_voyelles": "בִּכְתִיבָתוֹ",
+          "francais_mot": "dans son écriture",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "בְּיוֹ\"ד",
+          "hebreu_voyelles": "בְּיוֹ\"ד",
+          "francais_mot": "en Yod",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "הֵ\"א",
+          "hebreu_voyelles": "הֵ\"א",
+          "francais_mot": "Hé",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "שֶׁהָיָה",
+          "hebreu_voyelles": "שֶׁהָיָה",
+          "francais_mot": "qu'Il était",
+          "expression_contexte": "",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "הֹוֶה",
+          "hebreu_voyelles": "הֹוֶה",
+          "francais_mot": "est",
+          "expression_contexte": "",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "וְיִהְיֶה,",
+          "hebreu_voyelles": "וְיִהְיֶה,",
+          "francais_mot": "et sera,",
+          "expression_contexte": "",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "וּבְהַזְכִּירוֹ",
+          "hebreu_voyelles": "וּבְהַזְכִּירוֹ",
+          "francais_mot": "et en mentionnant",
+          "expression_contexte": "",
+          "infinitif": "לְהַזְכִּיר = Mentionner"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "אֱלֹקִים",
+          "hebreu_voyelles": "אֱלֹקִים",
+          "francais_mot": "Elokim",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "יְכַוֵּן",
+          "hebreu_voyelles": "יְכַוֵּן",
+          "francais_mot": "il pensera",
+          "expression_contexte": "",
+          "infinitif": "לְכַוֵּן = Penser / Avoir l'intention"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "שֶׁהוּא",
+          "hebreu_voyelles": "שֶׁהוּא",
+          "francais_mot": "qu'Il est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "תַּקִּיף",
+          "hebreu_voyelles": "תַּקִּיף",
+          "francais_mot": "puissant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "וּבַעַל",
+          "hebreu_voyelles": "וּבַעַל",
+          "francais_mot": "et possesseur de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "הַיְכֹלֶת",
+          "hebreu_voyelles": "הַיְכֹלֶת",
+          "francais_mot": "l'omnipotence",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "וּבַעַל",
+          "hebreu_voyelles": "וּבַעַל",
+          "francais_mot": "et maître de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "הַכֹּחוֹת",
+          "hebreu_voyelles": "הַכֹּחוֹת",
+          "francais_mot": "les forces",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "כֻּלָּם.",
+          "hebreu_voyelles": "כֻּלָּם.",
+          "francais_mot": "toutes.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "וּבְהַזְכִּירוֹ",
+          "hebreu_voyelles": "וּבְהַזְכִּירוֹ",
+          "francais_mot": "et en mentionnant",
+          "expression_contexte": "",
+          "infinitif": "לְהַזְכִּיר = Mentionner"
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "אֱלֹהֵינוּ",
+          "hebreu_voyelles": "אֱלֹהֵינוּ",
+          "francais_mot": "notre Dieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "יְכַוֵּן",
+          "hebreu_voyelles": "יְכַוֵּן",
+          "francais_mot": "il pensera",
+          "expression_contexte": "",
+          "infinitif": "לְכַוֵּן = Penser / Avoir l'intention"
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "שֶׁהוּא",
+          "hebreu_voyelles": "שֶׁהוּא",
+          "francais_mot": "qu'Il est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "אֱלוֹהַּ",
+          "hebreu_voyelles": "אֱלוֹהַּ",
+          "francais_mot": "Dieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "שֶׁלָּנוּ",
+          "hebreu_voyelles": "שֶׁלָּנוּ",
+          "francais_mot": "notre",
+          "expression_contexte": "à nous"
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "שֶׁהוּא",
+          "hebreu_voyelles": "שֶׁהוּא",
+          "francais_mot": "qu'Il est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "תַּקִּיף",
+          "hebreu_voyelles": "תַּקִּיף",
+          "francais_mot": "puissant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "וּבַעַל",
+          "hebreu_voyelles": "וּבַעַל",
+          "francais_mot": "et détenteur de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "הַיְכֹלֶת.",
+          "hebreu_voyelles": "הַיְכֹלֶת.",
+          "francais_mot": "la capacité.",
+          "expression_contexte": "l'omnipotence"
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "וְיֵשׁ",
+          "hebreu_voyelles": "וְיֵשׁ",
+          "francais_mot": "Et il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "אוֹמְרִים",
+          "hebreu_voyelles": "אוֹמְרִים",
+          "francais_mot": "qui disent",
+          "expression_contexte": "certains affirment",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "שֶׁכָּל",
+          "hebreu_voyelles": "שֶׁכָּל",
+          "francais_mot": "que tout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "זֶה",
+          "hebreu_voyelles": "זֶה",
+          "francais_mot": "cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "אֵינוֹ",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "n'est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "אֶלָּא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "que",
+          "expression_contexte": "ne s'applique qu me"
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "בְּהַזְכָּרַת",
+          "hebreu_voyelles": "בְּהַזְכָּרַת",
+          "francais_mot": "lors de la mention de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le Nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "ה'",
+          "hebreu_voyelles": "ה'",
+          "francais_mot": "Dieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "שֶׁבַּבְּרָכוֹת,",
+          "hebreu_voyelles": "שֶׁבַּבְּרָכוֹת,",
+          "francais_mot": "qui est dans les bénédictions,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "אֲבָל",
+          "hebreu_voyelles": "אֲבָל",
+          "francais_mot": "mais",
+          "expression_contexte": ""
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "בִּשְׁאָר",
+          "hebreu_voyelles": "בִּשְׁאָר",
+          "francais_mot": "pour les autres",
+          "expression_contexte": "dans le reste de"
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "הַזְכָּרוֹת",
+          "hebreu_voyelles": "הַזְכָּרוֹת",
+          "francais_mot": "mentions du",
+          "expression_contexte": ""
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "Nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "ה'",
+          "hebreu_voyelles": "ה'",
+          "francais_mot": "Dieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "שֶׁבִּפְסוּקִים",
+          "hebreu_voyelles": "שֶׁבִּפְסוּקִים",
+          "francais_mot": "qui sont dans des versets",
+          "expression_contexte": ""
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "וְכַדּוֹמֶה",
+          "hebreu_voyelles": "וְכַדּוֹמֶה",
+          "francais_mot": "et similaires",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "אֵין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "il n'est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "צָרִיךְ",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "pas requis de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "לְכַוֵּן",
+          "hebreu_voyelles": "לְכַוֵּן",
+          "francais_mot": "avoir cette intention",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "כַּנִּזְכָּר.",
+          "hebreu_voyelles": "כַּנִּזְכָּר.",
+          "francais_mot": "comme mentionné.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "וְיֵשׁ",
+          "hebreu_voyelles": "וְיֵשׁ",
+          "francais_mot": "Et d'autres",
+          "expression_contexte": ""
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "חוֹלְקִים",
+          "hebreu_voyelles": "חוֹלְקִים",
+          "francais_mot": "contestent",
+          "expression_contexte": "",
+          "infinitif": "לַחֲלֹק = Contester / Être en désaccord"
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "וְאוֹמְרִים",
+          "hebreu_voyelles": "וְאוֹמְרִים",
+          "francais_mot": "et soutiennent",
+          "expression_contexte": "",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "דִּבְכָל",
+          "hebreu_voyelles": "דִּבְכָל",
+          "francais_mot": "qu'à chaque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "הַזְכָּרַת",
+          "hebreu_voyelles": "הַזְכָּרַת",
+          "francais_mot": "mention du",
+          "expression_contexte": ""
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "Nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "ה'",
+          "hebreu_voyelles": "ה'",
+          "francais_mot": "Dieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "צָרִיךְ",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "il faut",
+          "expression_contexte": ""
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "לְכַוֵּן",
+          "hebreu_voyelles": "לְכַוֵּן",
+          "francais_mot": "avoir cette intention",
+          "expression_contexte": ""
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "כַּנִּזְכָּר.",
+          "hebreu_voyelles": "כַּנִּזְכָּר.",
+          "francais_mot": "comme mentionné.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "וּלְכַתְּחִלָּה",
+          "hebreu_voyelles": "וּלְכַתְּחִלָּה",
+          "francais_mot": "A priori,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "נָכוֹן",
+          "hebreu_voyelles": "נָכוֹן",
+          "francais_mot": "il est juste de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "לְכַוֵּן",
+          "hebreu_voyelles": "לְכַוֵּן",
+          "francais_mot": "avoir cette intention",
+          "expression_contexte": ""
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "כַּנִּזְכָּר",
+          "hebreu_voyelles": "כַּנִּזְכָּר",
+          "francais_mot": "comme mentionné",
+          "expression_contexte": ""
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "בְּכָל",
+          "hebreu_voyelles": "בְּכָל",
+          "francais_mot": "à chaque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "הַזְכָּרַת",
+          "hebreu_voyelles": "הַזְכָּרַת",
+          "francais_mot": "fois que l'on prononce le",
+          "expression_contexte": "mention du"
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "Nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "ה'.",
+          "hebreu_voyelles": "ה'.",
+          "francais_mot": "Dieu.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "וּבִפְרָט",
+          "hebreu_voyelles": "וּבִפְרָט",
+          "francais_mot": "Et particulièrement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 82,
+          "hebreu_brut": "יֵשׁ",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il convient de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 83,
+          "hebreu_brut": "לְכַוֵּן",
+          "hebreu_voyelles": "לְכַוֵּן",
+          "francais_mot": "l'avoir",
+          "expression_contexte": "penser ainsi"
+        },
+        {
+          "id": 84,
+          "hebreu_brut": "כֵּן",
+          "hebreu_voyelles": "כֵּן",
+          "francais_mot": "ainsi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 85,
+          "hebreu_brut": "בְּבִרְכַּת",
+          "hebreu_voyelles": "בְּבִרְכַּת",
+          "francais_mot": "dans la bénédiction des",
+          "expression_contexte": ""
+        },
+        {
+          "id": 86,
+          "hebreu_brut": "אָבוֹת",
+          "hebreu_voyelles": "אָבוֹת",
+          "francais_mot": "Patriarches",
+          "expression_contexte": ""
+        },
+        {
+          "id": 87,
+          "hebreu_brut": "שֶׁבִּשְׁמוֹנֶה",
+          "hebreu_voyelles": "שֶׁבִּשְׁמוֹנֶה",
+          "francais_mot": "qui est dans la Amida",
+          "expression_contexte": "de dix-"
+        },
+        {
+          "id": 88,
+          "hebreu_brut": "עֶשְׂרֵה,",
+          "hebreu_voyelles": "עֶשְׂרֵה,",
+          "francais_mot": "huit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 89,
+          "hebreu_brut": "וּבְהַזְכָּרַת",
+          "hebreu_voyelles": "וּבְהַזְכָּרַת",
+          "francais_mot": "et lors de la mention du",
+          "expression_contexte": ""
+        },
+        {
+          "id": 90,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "Nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 91,
+          "hebreu_brut": "ה'",
+          "hebreu_voyelles": "ה'",
+          "francais_mot": "Dieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 92,
+          "hebreu_brut": "שֶׁבַּפָּסוּק",
+          "hebreu_voyelles": "שֶׁבַּפָּסוּק",
+          "francais_mot": "qui est dans le verset",
+          "expression_contexte": ""
+        },
+        {
+          "id": 93,
+          "hebreu_brut": "שְׁמַע",
+          "hebreu_voyelles": "שְׁמַע",
+          "francais_mot": "Chéma",
+          "expression_contexte": "Écoute",
+          "infinitif": "לִשְׁמֹעַ = Écouter / Entendre"
+        },
+        {
+          "id": 94,
+          "hebreu_brut": "יִשְׂרָאֵל.",
+          "hebreu_voyelles": "יִשְׂרָאֵל.",
+          "francais_mot": "Israël.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 95,
+          "hebreu_brut": "[יַלְקוּט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 96,
+          "hebreu_brut": "יוֹסֵף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 97,
+          "hebreu_brut": "עַל",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 98,
+          "hebreu_brut": "הִלְכוֹת",
+          "hebreu_voyelles": "הִלְכוֹת",
+          "francais_mot": "les lois du",
+          "expression_contexte": ""
+        },
+        {
+          "id": 99,
+          "hebreu_brut": "הַשְׁכָּמַת",
+          "hebreu_voyelles": "הַשְׁכָּמַת",
+          "francais_mot": "lever du",
+          "expression_contexte": ""
+        },
+        {
+          "id": 100,
+          "hebreu_brut": "הַבֹּקֶר",
+          "hebreu_voyelles": "הַבֹּקֶר",
+          "francais_mot": "matin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 101,
+          "hebreu_brut": "עַמּוּד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 102,
+          "hebreu_brut": "תנט.",
+          "hebreu_voyelles": "תנט.",
+          "francais_mot": "459.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 103,
+          "hebreu_brut": "שְׁאֵרִית",
+          "hebreu_voyelles": "שְׁאֵרִית",
+          "francais_mot": "Chéérit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 104,
+          "hebreu_brut": "יוֹסֵף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 105,
+          "hebreu_brut": "חֵלֶק",
+          "hebreu_voyelles": "חֵלֶק",
+          "francais_mot": "vol.",
+          "expression_contexte": "tome"
+        },
+        {
+          "id": 106,
+          "hebreu_brut": "א'",
+          "hebreu_voyelles": "א'",
+          "francais_mot": "1,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 107,
+          "hebreu_brut": "עַמּוּד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 108,
+          "hebreu_brut": "לז].",
+          "hebreu_voyelles": "לז].",
+          "francais_mot": "37].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 1
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "הלכות כוונת הברכות",
+      "sujet_he": "הלכות כוונת הברכות",
+      "sujet_fr": "Lois de l'intention dans les bénédictions",
+      "titre_seif": "Moment de l'intention du Nom divin.",
+      "siman": "5",
+      "seif": "2",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ב. יֵשׁ אוֹמְרִים שֶׁצָּרִיךְ לְכַוֵּן אֶת הַכַּוָּנָה הַנַּ\"ל בְּהַזְכָּרַת שֵׁם ה' שֶׁבַּבְּרָכָה, בְּעֵת שֶׁמַּזְכִּיר אֶת שֵׁם ה'. וְיֵשׁ אוֹמְרִים שֶׁמּוֹעִיל לְכַוֵּן גַּם קֹדֶם אֲמִירַת שֵׁם ה', אוֹ אַחַר אֲמִירַת שֵׁם ה', קֹדֶם שֶׁיַּמְשִׁיךְ בַּתֵּבָה שֶׁלְּאַחֲרֶיהָ. [יַלְקוּט יוֹסֵף עַל הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר, מַהֲדוּרַת תְּשְׁס\"ד, עַמּוּד תסד].",
+        "hebreu_avec_voyelles": "ב. יֵשׁ אוֹמְרִים שֶׁצָּרִיךְ לְכַוֵּן אֶת הַכַּוָּנָה הַנַּ\"ל בְּהַזְכָּרַת שֵׁם ה' שֶׁבַּבְּרָכָה, בְּעֵת שֶׁמַּזְכִּיר אֶת שֵׁם ה'. וְיֵשׁ אוֹמְרִים שֶׁמּוֹעִיל לְכַוֵּן גַּם קֹדֶם אֲמִירַת שֵׁם ה', אוֹ אַחַר אֲמִירַת שֵׁם ה', קֹדֶם שֶׁיַּמְשִׁיךְ בַּתֵּבָה שֶׁלְּאַחֲרֶיהָ. [יַלְקוּט יוֹסֵף עַל הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר, מַהֲדוּרַת תְּשְׁס\"ד, עַמּוּד תסד].",
+        "francais": "2. Certains disent qu'il faut avoir l'intention susmentionnée exactement au moment où l'on prononce le Nom divin dans la bénédiction. D'autres disent qu'il est également valable d'avoir cette intention juste avant ou juste après avoir prononcé le Nom divin, tant que c'est avant de passer au mot suivant. [Yalkout Yossef sur les lois du lever matinal, éd. 2004, p. 464]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ב.",
+          "hebreu_voyelles": "ב.",
+          "francais_mot": "2.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "יֵשׁ",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il y a",
+          "expression_contexte": "Certains [il y a qui] disent"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "אוֹמְרִים",
+          "hebreu_voyelles": "אוֹמְרִים",
+          "francais_mot": "disent",
+          "expression_contexte": "",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "שֶׁצָּרִיךְ",
+          "hebreu_voyelles": "שֶׁצָּרִיךְ",
+          "francais_mot": "qu'il faut",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "לְכַוֵּן",
+          "hebreu_voyelles": "לְכַוֵּן",
+          "francais_mot": "avoir l'intention",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "אֶת",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[particule d'objet]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "הַכַּוָּנָה",
+          "hebreu_voyelles": "הַכַּוָּנָה",
+          "francais_mot": "l'intention",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "הַנַּ\"ל",
+          "hebreu_voyelles": "הַנַּ\"ל",
+          "francais_mot": "susmentionnée",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "בְּהַזְכָּרַת",
+          "hebreu_voyelles": "בְּהַזְכָּרַת",
+          "francais_mot": "au moment de la mention de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "Nom",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "ה'",
+          "hebreu_voyelles": "ה'",
+          "francais_mot": "divin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "שֶׁבַּבְּרָכָה,",
+          "hebreu_voyelles": "שֶׁבַּבְּרָכָה,",
+          "francais_mot": "dans la bénédiction,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "בְּעֵת",
+          "hebreu_voyelles": "בְּעֵת",
+          "francais_mot": "au moment",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "שֶׁמַּזְכִּיר",
+          "hebreu_voyelles": "שֶׁמַּזְכִּיר",
+          "francais_mot": "où l'on prononce",
+          "expression_contexte": "",
+          "infinitif": "לְהַזְכִּיר = Mentionner / Prononcer"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "אֶת",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[particule d'objet]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le Nom",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "ה'.",
+          "hebreu_voyelles": "ה'.",
+          "francais_mot": "divin.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "וְיֵשׁ",
+          "hebreu_voyelles": "וְיֵשׁ",
+          "francais_mot": "Et il y a",
+          "expression_contexte": "D'autres [et il y a qui] disent"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "אוֹמְרִים",
+          "hebreu_voyelles": "אוֹמְרִים",
+          "francais_mot": "disent",
+          "expression_contexte": "",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "שֶׁמּוֹעִיל",
+          "hebreu_voyelles": "שֶׁמּוֹעִיל",
+          "francais_mot": "qu'il est valable",
+          "expression_contexte": "",
+          "infinitif": "לְהוֹעִיל = Être utile / Valable"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "לְכַוֵּן",
+          "hebreu_voyelles": "לְכַוֵּן",
+          "francais_mot": "d'avoir l'intention",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "גַּם",
+          "hebreu_voyelles": "גַּם",
+          "francais_mot": "également",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "קֹדֶם",
+          "hebreu_voyelles": "קֹדֶם",
+          "francais_mot": "avant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "אֲמִירַת",
+          "hebreu_voyelles": "אֲמִירַת",
+          "francais_mot": "la prononciation de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le Nom",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "ה',",
+          "hebreu_voyelles": "ה',",
+          "francais_mot": "divin,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "אוֹ",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "אַחַר",
+          "hebreu_voyelles": "אַחַר",
+          "francais_mot": "après",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "אֲמִירַת",
+          "hebreu_voyelles": "אֲמִירַת",
+          "francais_mot": "la prononciation de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le Nom",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "ה',",
+          "hebreu_voyelles": "ה',",
+          "francais_mot": "divin,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "קֹדֶם",
+          "hebreu_voyelles": "קֹדֶם",
+          "francais_mot": "avant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "שֶׁיַּמְשִׁיךְ",
+          "hebreu_voyelles": "שֶׁיַּמְשִׁיךְ",
+          "francais_mot": "de passer",
+          "expression_contexte": "",
+          "infinitif": "לְהַמְשִׁיךְ = Continuer / Poursuivre"
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "בַּתֵּבָה",
+          "hebreu_voyelles": "בַּתֵּבָה",
+          "francais_mot": "au mot",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "שֶׁלְּאַחֲרֶיהָ.",
+          "hebreu_voyelles": "שֶׁלְּאַחֲרֶיהָ.",
+          "francais_mot": "suivant.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "[יַלְקוּט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "יוֹסֵף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "עַל",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "הִלְכוֹת",
+          "hebreu_voyelles": "הִלְכוֹת",
+          "francais_mot": "les lois de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "הַשְׁכָּמַת",
+          "hebreu_voyelles": "הַשְׁכָּמַת",
+          "francais_mot": "le lever de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "הַבֹּקֶר,",
+          "hebreu_voyelles": "הַבֹּקֶר,",
+          "francais_mot": "matinal,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "מַהֲדוּרַת",
+          "hebreu_voyelles": "מַהֲדוּרַת",
+          "francais_mot": "édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "תְּשְׁס\"ד,",
+          "hebreu_voyelles": "תְּשְׁס\"ד,",
+          "francais_mot": "2004,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "עַמּוּד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "תסד].",
+          "hebreu_voyelles": "תסד].",
+          "francais_mot": "464].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 2
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "הלכות כוונת הברכות",
+      "sujet_he": "הלכות כוונת הברכות",
+      "sujet_fr": "Lois de l'intention dans les bénédictions",
+      "titre_seif": "Condition matinale pour l'intention du Nom.",
+      "siman": "5",
+      "seif": "3",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ג. יֵשׁ מִי שֶׁאוֹמֵר שֶׁיָּכוֹל אָדָם לְהַתְנוֹת בְּכָל בֹּקֶר, שֶׁבְּכָל פַּעַם שֶׁיַּזְכִּיר בְּמֶשֶׁךְ הַיּוֹם שֵׁם ה', יִהְיֶה עַל פִּי הַכַּוָּנָה הַנַּ\"ל. וּלְכַתְּחִלָּה רָאוּי לְכָל אֶחָד לְהִתְאַמֵּץ וְלְכַוֵּן בְּשֵׁמוֹת הַקֹּדֶשׁ בְּעֵת שֶׁמְּבָרֵךְ, וּמִתְפַּלֵּל, וּבְכָל פַּעַם שֶׁיַּזְכִּיר שֵׁם ה' יְכַוֵּן, וּבִפְרָט בִּקְרִיאַת שְׁמַע שֶׁחִיּוּבָהּ מִן הַתּוֹרָה. וּמִכָּל מָקוֹם כֵּיוָן שֶׁעִנְיַן הַכַּוָּנָה לֹא נִזְכַּר בַּגְּמָרָא, אֶפְשָׁר שֶׁיֵּשׁ לִסְמֹךְ עַל הַתְּנַאי הַנִּזְכָּר, לְהַתְנוֹת כֵּן בִּתְחִלַּת הַיּוֹם עַל כָּל הַיּוֹם, שֶׁכָּל פַּעַם שֶׁמַּזְכִּיר שֵׁם ה' הוּא מִתְכַּוֵּן שֶׁהוּא אֲדוֹן הַכֹּל, הָיָה הֹוֶה וְיִהְיֶה. וּבְמֶשֶׁךְ הַיּוֹם יְכַוֵּן בְּכָל פַּעַם רַק כַּוָּנָה כְּלָלִית, שֶׁזֶּהוּ שְׁמוֹ שֶׁל רִבּוֹן הָעוֹלָמִים. וּמִכָּל מָקוֹם בִּקְרִיאַת שְׁמַע, וּבִבְרָכָה רִאשׁוֹנָה שֶׁל שְׁמוֹנֶה עֶשְׂרֵה יְכַוֵּן כְּפִי הַדִּין. [יַלְקוּט יוֹסֵף עַל הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר עַמּוּד תסא, וּשְׁאֵרִית יוֹסֵף חֵלֶק א' עַמּוּד עא].",
+        "hebreu_avec_voyelles": "ג. יֵשׁ מִי שֶׁאוֹמֵר שֶׁיָּכוֹל אָדָם לְהַתְנוֹת בְּכָל בֹּקֶר, שֶׁבְּכָל פַּעַם שֶׁיַּזְכִּיר בְּמֶשֶׁךְ הַיּוֹם שֵׁם ה', יִהְיֶה עַל פִּי הַכַּוָּנָה הַנַּ\"ל. וּלְכַתְּחִלָּה רָאוּי לְכָל אֶחָד לְהִתְאַמֵּץ וְלְכַוֵּן בְּשֵׁמוֹת הַקֹּדֶשׁ בְּעֵת שֶׁמְּבָרֵךְ, וּמִתְפַּלֵּל, וּבְכָל פַּעַם שֶׁיַּזְכִּיר שֵׁם ה' יְכַוֵּן, וּבִפְרָט בִּקְרִיאַת שְׁמַע שֶׁחִיּוּבָהּ מִן הַתּוֹרָה. וּמִכָּל מָקוֹם כֵּיוָן שֶׁעִנְיַן הַכַּוָּנָה לֹא נִזְכַּר בַּגְּמָרָא, אֶפְשָׁר שֶׁיֵּשׁ לִסְמֹךְ עַל הַתְּנַאי הַנִּזְכָּר, לְהַתְנוֹת כֵּן בִּתְחִלַּת הַיּוֹם עַל כָּל הַיּוֹם, שֶׁכָּל פַּעַם שֶׁמַּזְכִּיר שֵׁם ה' הוּא מִתְכַּוֵּן שֶׁהוּא אֲדוֹן הַכֹּל, הָיָה הֹוֶה וְיִהְיֶה. וּבְמֶשֶׁךְ הַיּוֹם יְכַוֵּן בְּכָל פַּעַם רַק כַּוָּנָה כְּלָלִית, שֶׁזֶּהוּ שְׁמוֹ שֶׁל רִבּוֹן הָעוֹלָמִים. וּמִכָּל מָקוֹם בִּקְרִיאַת שְׁמַע, וּבִבְרָכָה רִאשׁוֹנָה שֶׁל שְׁמוֹנֶה עֶשְׂרֵה יְכַוֵּן כְּפִי הַדִּין. [יַלְקוּט יוֹסֵף עַל הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר עַמּוּד תסא, וּשְׁאֵרִית יוֹסֵף חֵלֶק א' עַמּוּד עא].",
+        "francais": "3. Certains disent qu'une personne peut émettre une condition chaque matin, stipulant que chaque mention du Nom de Dieu durant la journée inclura l'intention susmentionnée. A priori, chacun devrait s'efforcer de se concentrer sur les Noms Saints lorsqu'il bénit ou prie, et d'avoir cette intention à chaque fois qu'il mentionne le Nom de Dieu, en particulier lors du Chéma dont l'obligation est de la Torah. Néanmoins, puisque cette question d'intention n'est pas mentionnée dans la Guémara, il est possible de s'appuyer sur la condition susmentionnée, en l'énonçant en début de journée pour tout le reste du jour : à chaque mention du Nom de Dieu, il a l'intention de penser qu'Il est le Maître de tout, qui était, est et sera. Au cours de la journée, il lui suffira d'avoir une intention générale, pensant qu'il s'agit du Nom du Maître de l'Univers. Toutefois, lors du Chéma et de la première bénédiction de la Amida, on devra avoir l'intention complète requise par la loi. [Yalkout Yossef sur les lois du lever matinal, p. 461 ; Chéérit Yossef vol. 1, p. 71]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ג.",
+          "hebreu_voyelles": "ג.",
+          "francais_mot": "3.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "יֵשׁ",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "Il y a",
+          "expression_contexte": "Certains"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "מִי",
+          "hebreu_voyelles": "מִי",
+          "francais_mot": "qui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "שֶׁאוֹמֵר",
+          "hebreu_voyelles": "שֶׁאוֹמֵר",
+          "francais_mot": "dit",
+          "expression_contexte": "",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "שֶׁיָּכוֹל",
+          "hebreu_voyelles": "שֶׁיָּכוֹל",
+          "francais_mot": "peut",
+          "expression_contexte": "",
+          "infinitif": "לָכוֹל = Pouvoir"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "אָדָם",
+          "hebreu_voyelles": "אָדָם",
+          "francais_mot": "une personne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "לְהַתְנוֹת",
+          "hebreu_voyelles": "לְהַתְנוֹת",
+          "francais_mot": "émettre une condition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "בְּכָל",
+          "hebreu_voyelles": "בְּכָל",
+          "francais_mot": "chaque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "בֹּקֶר,",
+          "hebreu_voyelles": "בֹּקֶר,",
+          "francais_mot": "matin,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "שֶׁבְּכָל",
+          "hebreu_voyelles": "שֶׁבְּכָל",
+          "francais_mot": "que chaque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "פַּעַם",
+          "hebreu_voyelles": "פַּעַם",
+          "francais_mot": "fois",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "שֶׁיַּזְכִּיר",
+          "hebreu_voyelles": "שֶׁיַּזְכִּיר",
+          "francais_mot": "qu'il mentionnera",
+          "expression_contexte": "",
+          "infinitif": "לְהַזְכִּיר = Mentionner"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "בְּמֶשֶׁךְ",
+          "hebreu_voyelles": "בְּמֶשֶׁךְ",
+          "francais_mot": "durant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "הַיּוֹם",
+          "hebreu_voyelles": "הַיּוֹם",
+          "francais_mot": "la journée",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le Nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "ה',",
+          "hebreu_voyelles": "ה',",
+          "francais_mot": "Dieu,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "יִהְיֶה",
+          "hebreu_voyelles": "יִהְיֶה",
+          "francais_mot": "ce sera",
+          "expression_contexte": "",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "עַל",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "selon",
+          "expression_contexte": "על פי = selon"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "פִּי",
+          "hebreu_voyelles": "פִּי",
+          "francais_mot": "la bouche de",
+          "expression_contexte": "על פי = selon"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "הַכַּוָּנָה",
+          "hebreu_voyelles": "הַכַּוָּנָה",
+          "francais_mot": "l'intention",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "הַנַּ\"ל.",
+          "hebreu_voyelles": "הַנַּ\"ל.",
+          "francais_mot": "susmentionnée.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "וּלְכַתְּחִלָּה",
+          "hebreu_voyelles": "וּלְכַתְּחִלָּה",
+          "francais_mot": "Et a priori",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "רָאוּי",
+          "hebreu_voyelles": "רָאוּי",
+          "francais_mot": "il convient",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "לְכָל",
+          "hebreu_voyelles": "לְכָל",
+          "francais_mot": "à tout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "אֶחָד",
+          "hebreu_voyelles": "אֶחָד",
+          "francais_mot": "un",
+          "expression_contexte": "לכל אחד = à chacun"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "לְהִתְאַמֵּץ",
+          "hebreu_voyelles": "לְהִתְאַמֵּץ",
+          "francais_mot": "de s'efforcer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "וְלְכַוֵּן",
+          "hebreu_voyelles": "וְלְכַוֵּן",
+          "francais_mot": "et d'avoir l'intention",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "בְּשֵׁמוֹת",
+          "hebreu_voyelles": "בְּשֵׁמוֹת",
+          "francais_mot": "dans les Noms de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "הַקֹּדֶשׁ",
+          "hebreu_voyelles": "הַקֹּדֶשׁ",
+          "francais_mot": "la Sainteté",
+          "expression_contexte": "שמות הקדש = les Noms Saints"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "בְּעֵת",
+          "hebreu_voyelles": "בְּעֵת",
+          "francais_mot": "au moment où",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "שֶׁמְּבָרֵךְ,",
+          "hebreu_voyelles": "שֶׁמְּבָרֵךְ,",
+          "francais_mot": "il bénit,",
+          "expression_contexte": "",
+          "infinitif": "לְבָרֵךְ = Bénir"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "וּמִתְפַּלֵּל,",
+          "hebreu_voyelles": "וּמִתְפַּלֵּל,",
+          "francais_mot": "et prie,",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְפַּלֵּל = Prier"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "וּבְכָל",
+          "hebreu_voyelles": "וּבְכָל",
+          "francais_mot": "et à chaque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "פַּעַם",
+          "hebreu_voyelles": "פַּעַם",
+          "francais_mot": "fois",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "שֶׁיַּזְכִּיר",
+          "hebreu_voyelles": "שֶׁיַּזְכִּיר",
+          "francais_mot": "qu'il mentionnera",
+          "expression_contexte": "",
+          "infinitif": "לְהַזְכִּיר = Mentionner"
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le Nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "ה'",
+          "hebreu_voyelles": "ה'",
+          "francais_mot": "Dieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "יְכַוֵּן,",
+          "hebreu_voyelles": "יְכַוֵּן,",
+          "francais_mot": "qu'il se concentre,",
+          "expression_contexte": "",
+          "infinitif": "לְכַוֵּן = Penser / Avoir l'intention"
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "וּבִפְרָט",
+          "hebreu_voyelles": "וּבִפְרָט",
+          "francais_mot": "et en particulier",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "בִּקְרִיאַת",
+          "hebreu_voyelles": "בִּקְרִיאַת",
+          "francais_mot": "lors de la lecture de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "שְׁמַע",
+          "hebreu_voyelles": "שְׁמַע",
+          "francais_mot": "Chéma",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "שֶׁחִיּוּבָהּ",
+          "hebreu_voyelles": "שֶׁחִיּוּבָהּ",
+          "francais_mot": "dont l'obligation",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "מִן",
+          "hebreu_voyelles": "מִן",
+          "francais_mot": "vient de",
+          "expression_contexte": "מן התורה = de la Torah"
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "הַתּוֹרָה.",
+          "hebreu_voyelles": "הַתּוֹרָה.",
+          "francais_mot": "la Torah.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "וּמִכָּל",
+          "hebreu_voyelles": "וּמִכָּל",
+          "francais_mot": "et de tout",
+          "expression_contexte": "ומכל מקום = néanmoins"
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "מָקוֹם",
+          "hebreu_voyelles": "מָקוֹם",
+          "francais_mot": "lieu",
+          "expression_contexte": "ומכל מקום = néanmoins"
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "כֵּיוָן",
+          "hebreu_voyelles": "כֵּיוָן",
+          "francais_mot": "puisque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "שֶׁעִנְיַן",
+          "hebreu_voyelles": "שֶׁעִנְיַן",
+          "francais_mot": "que le sujet de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "הַכַּוָּנָה",
+          "hebreu_voyelles": "הַכַּוָּנָה",
+          "francais_mot": "l'intention",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "לֹא",
+          "hebreu_voyelles": "לֹא",
+          "francais_mot": "ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "נִזְכַּר",
+          "hebreu_voyelles": "נִזְכַּר",
+          "francais_mot": "est mentionné",
+          "expression_contexte": "",
+          "infinitif": "לְהִזָּכֵר = Être mentionné"
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "בַּגְּמָרָא,",
+          "hebreu_voyelles": "בַּגְּמָרָא,",
+          "francais_mot": "dans la Guémara,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "אֶפְשָׁר",
+          "hebreu_voyelles": "אֶפְשָׁר",
+          "francais_mot": "il est possible",
+          "expression_contexte": ""
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "שֶׁיֵּשׁ",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "qu'il y a lieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "לִסְמֹךְ",
+          "hebreu_voyelles": "לִסְמֹךְ",
+          "francais_mot": "de s'appuyer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "עַל",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "הַתְּנַאי",
+          "hebreu_voyelles": "הַתְּנַאי",
+          "francais_mot": "la condition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "הַנִּזְכָּר,",
+          "hebreu_voyelles": "הַנִּזְכָּר,",
+          "francais_mot": "mentionnée,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "לְהַתְנוֹת",
+          "hebreu_voyelles": "לְהַתְנוֹת",
+          "francais_mot": "de poser comme condition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "כֵּן",
+          "hebreu_voyelles": "כֵּן",
+          "francais_mot": "ainsi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "בִּתְחִלַּת",
+          "hebreu_voyelles": "בִּתְחִלַּת",
+          "francais_mot": "au début de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "הַיּוֹם",
+          "hebreu_voyelles": "הַיּוֹם",
+          "francais_mot": "la journée",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "עַל",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "pour",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "כָּל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "tout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "הַיּוֹם,",
+          "hebreu_voyelles": "הַיּוֹם,",
+          "francais_mot": "le jour,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "שֶׁכָּל",
+          "hebreu_voyelles": "שֶׁכָּל",
+          "francais_mot": "que chaque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "פַּעַם",
+          "hebreu_voyelles": "פַּעַם",
+          "francais_mot": "fois",
+          "expression_contexte": ""
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "שֶׁמַּזְכִּיר",
+          "hebreu_voyelles": "שֶׁמַּזְכִּיר",
+          "francais_mot": "qu'il mentionne",
+          "expression_contexte": "",
+          "infinitif": "לְהַזְכִּיר = Mentionner"
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le Nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "ה'",
+          "hebreu_voyelles": "ה'",
+          "francais_mot": "Dieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "הוּא",
+          "hebreu_voyelles": "הוּא",
+          "francais_mot": "il",
+          "expression_contexte": ""
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "מִתְכַּוֵּן",
+          "hebreu_voyelles": "מִתְכַּוֵּן",
+          "francais_mot": "a l'intention",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְכַּוֵּן = Avoir l'intention"
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "שֶׁהוּא",
+          "hebreu_voyelles": "שֶׁהוּא",
+          "francais_mot": "qu'Il est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "אֲדוֹן",
+          "hebreu_voyelles": "אֲדוֹן",
+          "francais_mot": "le Maître de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "הַכֹּל,",
+          "hebreu_voyelles": "הַכֹּל,",
+          "francais_mot": "tout,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "הָיָה",
+          "hebreu_voyelles": "הָיָה",
+          "francais_mot": "qui était,",
+          "expression_contexte": "",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "הֹוֶה",
+          "hebreu_voyelles": "הֹוֶה",
+          "francais_mot": "est",
+          "expression_contexte": "",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "וְיִהְיֶה.",
+          "hebreu_voyelles": "וְיִהְיֶה.",
+          "francais_mot": "et sera.",
+          "expression_contexte": "",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "וּבְמֶשֶׁךְ",
+          "hebreu_voyelles": "וּבְמֶשֶׁךְ",
+          "francais_mot": "Et au cours de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "הַיּוֹם",
+          "hebreu_voyelles": "הַיּוֹם",
+          "francais_mot": "la journée",
+          "expression_contexte": ""
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "יְכַוֵּן",
+          "hebreu_voyelles": "יְכַוֵּן",
+          "francais_mot": "il aura l'intention",
+          "expression_contexte": "",
+          "infinitif": "לְכַוֵּן = Penser / Avoir l'intention"
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "בְּכָל",
+          "hebreu_voyelles": "בְּכָל",
+          "francais_mot": "à chaque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 82,
+          "hebreu_brut": "פַּעַם",
+          "hebreu_voyelles": "פַּעַם",
+          "francais_mot": "fois",
+          "expression_contexte": ""
+        },
+        {
+          "id": 83,
+          "hebreu_brut": "רַק",
+          "hebreu_voyelles": "רַק",
+          "francais_mot": "seulement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 84,
+          "hebreu_brut": "כַּוָּנָה",
+          "hebreu_voyelles": "כַּוָּנָה",
+          "francais_mot": "une intention",
+          "expression_contexte": ""
+        },
+        {
+          "id": 85,
+          "hebreu_brut": "כְּלָלִית,",
+          "hebreu_voyelles": "כְּלָלִית,",
+          "francais_mot": "générale,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 86,
+          "hebreu_brut": "שֶׁזֶּהוּ",
+          "hebreu_voyelles": "שֶׁזֶּהוּ",
+          "francais_mot": "que ceci est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 87,
+          "hebreu_brut": "שְׁמוֹ",
+          "hebreu_voyelles": "שְׁמוֹ",
+          "francais_mot": "le Nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 88,
+          "hebreu_brut": "שֶׁל",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 89,
+          "hebreu_brut": "רִבּוֹן",
+          "hebreu_voyelles": "רִבּוֹן",
+          "francais_mot": "le Maître de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 90,
+          "hebreu_brut": "הָעוֹלָמִים.",
+          "hebreu_voyelles": "הָעוֹלָמִים.",
+          "francais_mot": "l'Univers.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 91,
+          "hebreu_brut": "וּמִכָּל",
+          "hebreu_voyelles": "וּמִכָּל",
+          "francais_mot": "et de tout",
+          "expression_contexte": "ומכל מקום = toutefois"
+        },
+        {
+          "id": 92,
+          "hebreu_brut": "מָקוֹם",
+          "hebreu_voyelles": "מָקוֹם",
+          "francais_mot": "lieu",
+          "expression_contexte": "ומכל מקום = toutefois"
+        },
+        {
+          "id": 93,
+          "hebreu_brut": "בִּקְרִיאַת",
+          "hebreu_voyelles": "בִּקְרִיאַת",
+          "francais_mot": "lors de la lecture du",
+          "expression_contexte": ""
+        },
+        {
+          "id": 94,
+          "hebreu_brut": "שְׁמַע,",
+          "hebreu_voyelles": "שְׁמַע,",
+          "francais_mot": "Chéma,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 95,
+          "hebreu_brut": "וּבִבְרָכָה",
+          "hebreu_voyelles": "וּבִבְרָכָה",
+          "francais_mot": "et dans la bénédiction",
+          "expression_contexte": ""
+        },
+        {
+          "id": 96,
+          "hebreu_brut": "רִאשׁוֹנָה",
+          "hebreu_voyelles": "רִאשׁוֹנָה",
+          "francais_mot": "première",
+          "expression_contexte": ""
+        },
+        {
+          "id": 97,
+          "hebreu_brut": "שֶׁל",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 98,
+          "hebreu_brut": "שְׁמוֹנֶה",
+          "hebreu_voyelles": "שְׁמוֹנֶה",
+          "francais_mot": "huit",
+          "expression_contexte": "שמונה עשרה = Amida (dix-huit)"
+        },
+        {
+          "id": 99,
+          "hebreu_brut": "עֶשְׂרֵה",
+          "hebreu_voyelles": "עֶשְׂרֵה",
+          "francais_mot": "dix",
+          "expression_contexte": "שמונה עשרה = Amida (dix-huit)"
+        },
+        {
+          "id": 100,
+          "hebreu_brut": "יְכַוֵּן",
+          "hebreu_voyelles": "יְכַוֵּן",
+          "francais_mot": "on aura l'intention",
+          "expression_contexte": "",
+          "infinitif": "לְכַוֵּן = Penser / Avoir l'intention"
+        },
+        {
+          "id": 101,
+          "hebreu_brut": "כְּפִי",
+          "hebreu_voyelles": "כְּפִי",
+          "francais_mot": "selon",
+          "expression_contexte": ""
+        },
+        {
+          "id": 102,
+          "hebreu_brut": "הַדִּין.",
+          "hebreu_voyelles": "הַדִּין.",
+          "francais_mot": "la loi.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 103,
+          "hebreu_brut": "[יַלְקוּט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 104,
+          "hebreu_brut": "יוֹסֵף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 105,
+          "hebreu_brut": "עַל",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 106,
+          "hebreu_brut": "הִלְכוֹת",
+          "hebreu_voyelles": "הִלְכוֹת",
+          "francais_mot": "les lois de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 107,
+          "hebreu_brut": "הַשְׁכָּמַת",
+          "hebreu_voyelles": "הַשְׁכָּמַת",
+          "francais_mot": "le lever de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 108,
+          "hebreu_brut": "הַבֹּקֶר",
+          "hebreu_voyelles": "הַבֹּקֶר",
+          "francais_mot": "le matin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 109,
+          "hebreu_brut": "עַמּוּד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 110,
+          "hebreu_brut": "תסא,",
+          "hebreu_voyelles": "תסא,",
+          "francais_mot": "461,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 111,
+          "hebreu_brut": "וּשְׁאֵרִית",
+          "hebreu_voyelles": "וּשְׁאֵרִית",
+          "francais_mot": "et Chéérit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 112,
+          "hebreu_brut": "יוֹסֵף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 113,
+          "hebreu_brut": "חֵלֶק",
+          "hebreu_voyelles": "חֵלֶק",
+          "francais_mot": "volume",
+          "expression_contexte": ""
+        },
+        {
+          "id": 114,
+          "hebreu_brut": "א'",
+          "hebreu_voyelles": "א'",
+          "francais_mot": "1",
+          "expression_contexte": ""
+        },
+        {
+          "id": 115,
+          "hebreu_brut": "עַמּוּד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 116,
+          "hebreu_brut": "עא].",
+          "hebreu_voyelles": "עא].",
+          "francais_mot": "71].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 3
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "הלכות כוונת הברכות",
+      "sujet_he": "הלכות כוונת הברכות",
+      "sujet_fr": "Lois de l'intention dans les bénédictions",
+      "titre_seif": "Réciter les bénédictions calmement et joyeusement.",
+      "siman": "5",
+      "seif": "4",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ד. יֵשׁ לְהִזָּהֵר בְּכָל הַבְּרָכוֹת לְאָמְרָם בְּנַחַת שֶׁלֹּא יִבְלַע אוֹתִיּוֹת, וּלְבָרֵךְ בְּשִׂמְחָה. [יַלְקוּט יוֹסֵף הַשְׁכָּמַת הַבֹּקֶר עַמּוּד תסט].",
+        "hebreu_avec_voyelles": "ד. יֵשׁ לְהִזָּהֵר בְּכָל הַבְּרָכוֹת לְאָמְרָם בְּנַחַת שֶׁלֹּא יִבְלַע אוֹתִיּוֹת, וּלְבָרֵךְ בְּשִׂמְחָה. [יַלְקוּט יוֹסֵף הַשְׁכָּמַת הַבֹּקֶר עַמּוּד תסט].",
+        "francais": "4. Il faut veiller, pour toutes les bénédictions, à les réciter calmement afin de ne pas avaler de lettres, et à bénir avec joie. [Yalkout Yossef, lever matinal, p. 469]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ד.",
+          "hebreu_voyelles": "ד.",
+          "francais_mot": "4.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "יֵשׁ",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il faut",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לְהִזָּהֵר",
+          "hebreu_voyelles": "לְהִזָּהֵר",
+          "francais_mot": "veiller",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בְּכָל",
+          "hebreu_voyelles": "בְּכָל",
+          "francais_mot": "pour toutes",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "הַבְּרָכוֹת",
+          "hebreu_voyelles": "הַבְּרָכוֹת",
+          "francais_mot": "les bénédictions,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "לְאָמְרָם",
+          "hebreu_voyelles": "לְאָמְרָם",
+          "francais_mot": "à les réciter",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "בְּנַחַת",
+          "hebreu_voyelles": "בְּנַחַת",
+          "francais_mot": "calmement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "שֶׁלֹּא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "afin de ne pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "יִבְלַע",
+          "hebreu_voyelles": "יִבְלַע",
+          "francais_mot": "avaler",
+          "expression_contexte": "",
+          "infinitif": "לִבְלֹעַ = Avaler"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "אוֹתִיּוֹת,",
+          "hebreu_voyelles": "אוֹתִיּוֹת,",
+          "francais_mot": "de lettres,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "וּלְבָרֵךְ",
+          "hebreu_voyelles": "וּלְבָרֵךְ",
+          "francais_mot": "et à bénir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "בְּשִׂמְחָה.",
+          "hebreu_voyelles": "בְּשִׂמְחָה.",
+          "francais_mot": "avec joie.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "[יַלְקוּט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "יוֹסֵף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "הַשְׁכָּמַת",
+          "hebreu_voyelles": "הַשְׁכָּמַת",
+          "francais_mot": "lever",
+          "expression_contexte": "lever matinal"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "הַבֹּקֶר",
+          "hebreu_voyelles": "הַבֹּקֶר",
+          "francais_mot": "matinal,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "עַמּוּד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "תסט].",
+          "hebreu_voyelles": "תסט].",
+          "francais_mot": "469].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 4
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "הלכות כוונת הברכות",
+      "sujet_he": "הלכות כוונת הברכות",
+      "sujet_fr": "Lois de l'intention dans les bénédictions",
+      "titre_seif": "Prononciation correcte du Dalèt du Nom.",
+      "siman": "5",
+      "seif": "5",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ה. צָרִיךְ לְהַקְפִּיד בְּהַזְכָּרַת שֵׁם ה' לוֹמַר אוֹת דָּלֶ\"ת בְּחוֹלָם, וְלֹא כְּהַטּוֹעִים לוֹמַר הַדָּלֶ\"ת בִּשְׁוָא, וְהוֹפְכִים שֵׁם שָׁמַיִם לְמַשְׁמָעוּת אַחֶרֶת, כְּמוֹ וְאַדְנֵיהֶם כָּסֶף. [יַלְקוּט יוֹסֵף שָׁם עַמּוּד תע].",
+        "hebreu_avec_voyelles": "ה. צָרִיךְ לְהַקְפִּיד בְּהַזְכָּרַת שֵׁם ה' לוֹמַר אוֹת דָּלֶ\"ת בְּחוֹלָם, וְלֹא כְּהַטּוֹעִים לוֹמַר הַדָּלֶ\"ת בִּשְׁוָא, וְהוֹפְכִים שֵׁם שָׁמַיִם לְמַשְׁמָעוּת אַחֶרֶת, כְּמוֹ וְאַדְנֵיהֶם כָּסֶף. [יַלְקוּט יוֹסֵף שָׁם עַמּוּד תע].",
+        "francais": "5. Il faut veiller scrupuleusement, en prononçant le nom de Dieu, à lire la lettre Dalèt avec la voyelle Holam (son \"o\"). Il ne faut pas faire comme ceux qui se trompent en la prononçant avec un Chéva (absence de voyelle), ce qui donne au Nom du Ciel une tout autre signification, comme dans le mot \"et leurs socles (adnéhem) d'argent\". [Yalkout Yossef ibid, p. 470]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ה.",
+          "hebreu_voyelles": "ה.",
+          "francais_mot": "5.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "צָרִיךְ",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "Il faut",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לְהַקְפִּיד",
+          "hebreu_voyelles": "לְהַקְפִּיד",
+          "francais_mot": "veiller scrupuleusement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בְּהַזְכָּרַת",
+          "hebreu_voyelles": "בְּהַזְכָּרַת",
+          "francais_mot": "en prononçant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "ה'",
+          "hebreu_voyelles": "ה'",
+          "francais_mot": "Dieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "לוֹמַר",
+          "hebreu_voyelles": "לוֹמַר",
+          "francais_mot": "à lire",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "אוֹת",
+          "hebreu_voyelles": "אוֹת",
+          "francais_mot": "la lettre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "דָּלֶ\"ת",
+          "hebreu_voyelles": "דָּלֶ\"ת",
+          "francais_mot": "Dalèt",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "בְּחוֹלָם,",
+          "hebreu_voyelles": "בְּחוֹלָם,",
+          "francais_mot": "avec un Holam,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "וְלֹא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "et non pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "כְּהַטּוֹעִים",
+          "hebreu_voyelles": "כְּהַטּוֹעִים",
+          "francais_mot": "comme ceux qui se trompent",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "לוֹמַר",
+          "hebreu_voyelles": "לוֹמַר",
+          "francais_mot": "en la prononçant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "הַדָּלֶ\"ת",
+          "hebreu_voyelles": "הַדָּלֶ\"ת",
+          "francais_mot": "la Dalèt",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "בִּשְׁוָא,",
+          "hebreu_voyelles": "בִּשְׁוָא,",
+          "francais_mot": "avec un Chéva,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "וְהוֹפְכִים",
+          "hebreu_voyelles": "וְהוֹפְכִים",
+          "francais_mot": "et transformant",
+          "expression_contexte": "",
+          "infinitif": "לַהֲפֹךְ = Transformer / Inverser"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le nom du",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "שָׁמַיִם",
+          "hebreu_voyelles": "שָׁמַיִם",
+          "francais_mot": "Ciel",
+          "expression_contexte": "שם שמים = Nom du Ciel"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "לְמַשְׁמָעוּת",
+          "hebreu_voyelles": "לְמַשְׁמָעוּת",
+          "francais_mot": "en une signification",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "אַחֶרֶת,",
+          "hebreu_voyelles": "אַחֶרֶת,",
+          "francais_mot": "autre,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "כְּמוֹ",
+          "hebreu_voyelles": "כְּמוֹ",
+          "francais_mot": "comme",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "וְאַדְנֵיהֶם",
+          "hebreu_voyelles": "וְאַדְנֵיהֶם",
+          "francais_mot": "et leurs socles",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "כָּסֶף.",
+          "hebreu_voyelles": "כָּסֶף.",
+          "francais_mot": "d'argent.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "[יַלְקוּט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "יוֹסֵף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "שָׁם",
+          "hebreu_voyelles": "שָׁם",
+          "francais_mot": "ibid.,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "עַמּוּד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "תע].",
+          "hebreu_voyelles": "תע].",
+          "francais_mot": "470].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 5
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "הלכות כוונת הברכות",
+      "sujet_he": "הלכות כוונת הברכות",
+      "sujet_fr": "Lois de l'intention dans les bénédictions",
+      "titre_seif": "Prononciation séfarade du Noun du Nom.",
+      "siman": "5",
+      "seif": "6",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ו. מִנְהַג הַסְּפָרַדִּים לְבַטֵּא אוֹת נ' שֶׁל שֵׁם ה' בְּקָמָץ רָחָב, הַדּוֹמֶה לְנִקּוּד פַּתָּח, וְהַדַּיְקָנִים מַבְדִּילִים קְצָת בֵּינֵיהֶם, כִּי הַקָּמָץ הִיא תְּנוּעָה גְּדוֹלָה וּכְבֵדָה, וְהַפַּתָּח הִיא תְּנוּעָה קְטַנָּה. וְאַף שֶׁהַהֶבְדֵּל בֵּינֵיהֶם הוּא מוּעָט, מִכָּל מָקוֹם הַמְדַקְדְּקִים יְכוֹלִים לְהַבְחִין בַּהֶבְדֵּל שֶׁיֵּשׁ בֵּינֵיהֶם. [שֶׁבְּנִקּוּד קָמָץ קוֹמְצִים אֶת הַפֶּה, וּבְנִקּוּד פַּתָּח פּוֹתְחִים הַפֶּה]. וַחֲדָשִׁים מִקָּרוֹב בָּאוּ אֲשֶׁר חוּנְכוּ בִּישִׁיבוֹת הַקְּדוֹשׁוֹת שֶׁל אַחֵינוּ הָאַשְׁכְּנַזִּים, וּמְשַׁנִּים נִקּוּד נ' שֶׁל שֵׁם ה', לְקָמָץ חָטוּף הַשָּׁוֶה לְנִקּוּד חוֹלָם, כְּהַבְרָת הָאַשְׁכְּנַזִּים, וּבֶאֱמֶת שֶׁמְּבֹאָר בְּדִבְרֵי הַפּוֹסְקִים שֶׁהַמִּבְטָא שֶׁלָּנוּ הוּא הוּא הַנָּכוֹן, וְלָכֵן כָּל הַמְשַׁנֶּה יָדוֹ עַל הַתַּחְתּוֹנָה, וַאֲשֶׁר לֹא טוֹב עָשָׂה בְּעַמָּיו, וּמְזַלְזֵל בְּמִנְהַג רַבּוֹתֵינוּ, וְעוֹבֵר מִשּׁוּם אַל תִּטֹּשׁ תּוֹרַת אִמֶּךָ. [יַלְקוּט יוֹסֵף הַשְׁכָּמַת הַבֹּקֶר עַמּוּד תע. יַלְקוּט יוֹסֵף הִלְכוֹת תְּפִלָּה, תְּשְׁס\"ד סִימָן קא. וְכֵן מוּכָח מֵהָרִי\"ף וְהַתּוֹסָפוֹת בְּרָכוֹת טו: וּמֵהָרַמְבַּ\"ם בְּמוֹרֵה נְבוּכִים פֶּרֶק סג, וּמִפִּיּוּטֵי רַבִּי אֱלִיעֶזֶר הַקָּלִיר, וּמֵרַבֵּינוּ בְּחַיֵּי (רֵישׁ פָּרָשַׁת וַיֵּרָא), וְעוֹד].",
+        "hebreu_avec_voyelles": "ו. מִנְהַג הַסְּפָרַדִּים לְבַטֵּא אוֹת נ' שֶׁל שֵׁם ה' בְּקָמָץ רָחָב, הַדּוֹמֶה לְנִקּוּד פַּתָּח, וְהַדַּיְקָנִים מַבְדִּילִים קְצָת בֵּינֵיהֶם, כִּי הַקָּמָץ הִיא תְּנוּעָה גְּדוֹלָה וּכְבֵדָה, וְהַפַּתָּח הִיא תְּנוּעָה קְטַנָּה. וְאַף שֶׁהַהֶבְדֵּל בֵּינֵיהֶם הוּא מוּעָט, מִכָּל מָקוֹם הַמְדַקְדְּקִים יְכוֹלִים לְהַבְחִין בַּהֶבְדֵּל שֶׁיֵּשׁ בֵּינֵיהֶם. [שֶׁבְּנִקּוּד קָמָץ קוֹמְצִים אֶת הַפֶּה, וּבְנִקּוּד פַּתָּח פּוֹתְחִים הַפֶּה]. וַחֲדָשִׁים מִקָּרוֹב בָּאוּ אֲשֶׁר חוּנְכוּ בִּישִׁיבוֹת הַקְּדוֹשׁוֹת שֶׁל אַחֵינוּ הָאַשְׁכְּנַזִּים, וּמְשַׁנִּים נִקּוּד נ' שֶׁל שֵׁם ה', לְקָמָץ חָטוּף הַשָּׁוֶה לְנִקּוּד חוֹלָם, כְּהַבְרָת הָאַשְׁכְּנַזִּים, וּבֶאֱמֶת שֶׁמְּבֹאָר בְּדִבְרֵי הַפּוֹסְקִים שֶׁהַמִּבְטָא שֶׁלָּנוּ הוּא הוּא הַנָּכוֹן, וְלָכֵן כָּל הַמְשַׁנֶּה יָדוֹ עַל הַתַּחְתּוֹנָה, וַאֲשֶׁר לֹא טוֹב עָשָׂה בְּעַמָּיו, וּמְזַלְזֵל בְּמִנְהַג רַבּוֹתֵינוּ, וְעוֹבֵר מִשּׁוּם אַל תִּטֹּשׁ תּוֹרַת אִמֶּךָ. [יַלְקוּט יוֹסֵף הַשְׁכָּמַת הַבֹּקֶר עַמּוּד תע. יַלְקוּט יוֹסֵף הִלְכוֹת תְּפִלָּה, תְּשְׁס\"ד סִימָן קא. וְכֵן מוּכָח מֵהָרִי\"ף וְהַתּוֹסָפוֹת בְּרָכוֹת טו: וּמֵהָרַמְבַּ\"ם בְּמוֹרֵה נְבוּכִים פֶּרֶק סג, וּמִפִּיּוּטֵי רַבִּי אֱלִיעֶזֶר הַקָּלִיר, וּמֵרַבֵּינוּ בְּחַיֵּי (רֵישׁ פָּרָשַׁת וַיֵּרָא), וְעוֹד].",
+        "francais": "6. La coutume des Séfarades est de prononcer la lettre Noun du Nom de Dieu avec un Qamats large, semblable à la voyelle Patah. Les plus méticuleux font une légère distinction, car le Qamats est une voyelle longue et lourde, tandis que le Patah est court. Bien que la différence soit minime, les puristes savent la discerner [car pour le Qamats on resserre la bouche, et pour le Patah on l'ouvre]. Récemment, certains, formés dans les saintes Yéchivot de nos frères Ashkénazes, ont commencé à modifier la prononciation de ce Noun en un Qamats court (sonnant comme un Holam, \"o\"), selon la prononciation ashkénaze. Or, les écrits des décisionnaires prouvent que notre prononciation est la bonne. Par conséquent, quiconque modifie cela a tort, agit mal envers son peuple, méprise la coutume de nos maîtres, et transgresse le précepte \"N'abandonne pas l'enseignement de ta mère\". [Yalkout Yossef, lever matinal p. 470 ; Lois de la prière éd. 2004, chap. 101. Preuves tirées du Rif, des Tossafot Berakhot 15b, du Rambam dans le Guide des Egarés ch. 63, des poèmes de R. Eliézer Hakalir, de Rabbénou Bahya, etc.]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ו.",
+          "hebreu_voyelles": "ו.",
+          "francais_mot": "6.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מִנְהַג",
+          "hebreu_voyelles": "מִנְהַג",
+          "francais_mot": "la coutume de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "הַסְּפָרַדִּים",
+          "hebreu_voyelles": "הַסְּפָרַדִּים",
+          "francais_mot": "des Séfarades",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "לְבַטֵּא",
+          "hebreu_voyelles": "לְבַטֵּא",
+          "francais_mot": "de prononcer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "אוֹת",
+          "hebreu_voyelles": "אוֹת",
+          "francais_mot": "la lettre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "נ'",
+          "hebreu_voyelles": "נ'",
+          "francais_mot": "Noun",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "שֶׁל",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "du",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "Nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "ה'",
+          "hebreu_voyelles": "ה'",
+          "francais_mot": "Dieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "בְּקָמָץ",
+          "hebreu_voyelles": "בְּקָמָץ",
+          "francais_mot": "avec un Qamats",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "רָחָב,",
+          "hebreu_voyelles": "רָחָב,",
+          "francais_mot": "large,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "הַדּוֹמֶה",
+          "hebreu_voyelles": "הַדּוֹמֶה",
+          "francais_mot": "qui ressemble",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "לְנִקּוּד",
+          "hebreu_voyelles": "לְנִקּוּד",
+          "francais_mot": "à la vocalisation",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "פַּתָּח,",
+          "hebreu_voyelles": "פַּתָּח,",
+          "francais_mot": "Patah,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "וְהַדַּיְקָנִים",
+          "hebreu_voyelles": "וְהַדַּיְקָנִים",
+          "francais_mot": "et les méticuleux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "מַבְדִּילִים",
+          "hebreu_voyelles": "מַבְדִּילִים",
+          "francais_mot": "distinguent",
+          "expression_contexte": "",
+          "infinitif": "לְהַבְדִּיל = Distinguer"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "קְצָת",
+          "hebreu_voyelles": "קְצָת",
+          "francais_mot": "un peu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "בֵּינֵיהֶם,",
+          "hebreu_voyelles": "בֵּינֵיהֶם,",
+          "francais_mot": "entre eux,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "כִּי",
+          "hebreu_voyelles": "כִּי",
+          "francais_mot": "car",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "הַקָּמָץ",
+          "hebreu_voyelles": "הַקָּמָץ",
+          "francais_mot": "le Qamats",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "הִיא",
+          "hebreu_voyelles": "הִיא",
+          "francais_mot": "est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "תְּנוּעָה",
+          "hebreu_voyelles": "תְּנוּעָה",
+          "francais_mot": "une voyelle",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "גְּדוֹלָה",
+          "hebreu_voyelles": "גְּדוֹלָה",
+          "francais_mot": "grande",
+          "expression_contexte": "voyelle grande = voyelle longue"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "וּכְבֵדָה,",
+          "hebreu_voyelles": "וּכְבֵדָה,",
+          "francais_mot": "et lourde,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "וְהַפַּתָּח",
+          "hebreu_voyelles": "וְהַפַּתָּח",
+          "francais_mot": "et le Patah",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "הִיא",
+          "hebreu_voyelles": "הִיא",
+          "francais_mot": "est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "תְּנוּעָה",
+          "hebreu_voyelles": "תְּנוּעָה",
+          "francais_mot": "une voyelle",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "קְטַנָּה.",
+          "hebreu_voyelles": "קְטַנָּה.",
+          "francais_mot": "petite.",
+          "expression_contexte": "voyelle petite = voyelle courte"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "וְאַף",
+          "hebreu_voyelles": "וְאַף",
+          "francais_mot": "et bien",
+          "expression_contexte": "וְאַף שֶׁ = bien que"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "שֶׁהַהֶבְדֵּל",
+          "hebreu_voyelles": "שֶׁהַהֶבְדֵּל",
+          "francais_mot": "que la différence",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "בֵּינֵיהֶם",
+          "hebreu_voyelles": "בֵּינֵיהֶם",
+          "francais_mot": "entre eux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "הוּא",
+          "hebreu_voyelles": "הוּא",
+          "francais_mot": "est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "מוּעָט,",
+          "hebreu_voyelles": "מוּעָט,",
+          "francais_mot": "minime,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "מִכָּל",
+          "hebreu_voyelles": "מִכָּל",
+          "francais_mot": "de tout",
+          "expression_contexte": "מִכָּל מָקוֹם = néanmoins / dans tous les cas"
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "מָקוֹם",
+          "hebreu_voyelles": "מָקוֹם",
+          "francais_mot": "lieu",
+          "expression_contexte": "מִכָּל מָקוֹם = néanmoins / dans tous les cas"
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "הַמְדַקְדְּקִים",
+          "hebreu_voyelles": "הַמְדַקְדְּקִים",
+          "francais_mot": "les puristes",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "יְכוֹלִים",
+          "hebreu_voyelles": "יְכוֹלִים",
+          "francais_mot": "peuvent",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "לְהַבְחִין",
+          "hebreu_voyelles": "לְהַבְחִין",
+          "francais_mot": "discerner",
+          "expression_contexte": "",
+          "infinitif": "לְהַבְחִין = Discerner"
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "בַּהֶבְדֵּל",
+          "hebreu_voyelles": "בַּהֶבְדֵּל",
+          "francais_mot": "la différence",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "שֶׁיֵּשׁ",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "qu'il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "בֵּינֵיהֶם.",
+          "hebreu_voyelles": "בֵּינֵיהֶם.",
+          "francais_mot": "entre eux.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "[שֶׁבְּנִקּוּד",
+          "hebreu_voyelles": "[שֶׁבְּנִקּוּד",
+          "francais_mot": "[car à la vocalisation de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "קָמָץ",
+          "hebreu_voyelles": "קָמָץ",
+          "francais_mot": "Qamats",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "קוֹמְצִים",
+          "hebreu_voyelles": "קוֹמְצִים",
+          "francais_mot": "on resserre",
+          "expression_contexte": "",
+          "infinitif": "לִקְמֹץ = Resserre / Fermer (la bouche)"
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "אֶת",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[COD]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "הַפֶּה,",
+          "hebreu_voyelles": "הַפֶּה,",
+          "francais_mot": "la bouche,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "וּבְנִקּוּד",
+          "hebreu_voyelles": "וּבְנִקּוּד",
+          "francais_mot": "et à la vocalisation de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "פַּתָּח",
+          "hebreu_voyelles": "פַּתָּח",
+          "francais_mot": "Patah",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "פּוֹתְחִים",
+          "hebreu_voyelles": "פּוֹתְחִים",
+          "francais_mot": "on ouvre",
+          "expression_contexte": "",
+          "infinitif": "לִפְתֹּחַ = Ouvrir"
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "הַפֶּה].",
+          "hebreu_voyelles": "הַפֶּה].",
+          "francais_mot": "la bouche].",
+          "expression_contexte": ""
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "וַחֲדָשִׁים",
+          "hebreu_voyelles": "וַחֲדָשִׁים",
+          "francais_mot": "Et des nouveaux",
+          "expression_contexte": "חֲדָשִׁים מִקָּרוֹב = des personnes nouvellement arrivées / récentes"
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "מִקָּרוֹב",
+          "hebreu_voyelles": "מִקָּרוֹב",
+          "francais_mot": "récemment",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "בָּאוּ",
+          "hebreu_voyelles": "בָּאוּ",
+          "francais_mot": "sont venus",
+          "expression_contexte": "",
+          "infinitif": "לָבוֹא = Venir"
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "אֲשֶׁר",
+          "hebreu_voyelles": "אֲשֶׁר",
+          "francais_mot": "qui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "חוּנְכוּ",
+          "hebreu_voyelles": "חוּנְכוּ",
+          "francais_mot": "ont été formés",
+          "expression_contexte": "",
+          "infinitif": "לְחַנֵּךְ = Éduquer / Former"
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "בִּישִׁיבוֹת",
+          "hebreu_voyelles": "בִּישִׁיבוֹת",
+          "francais_mot": "dans les Yéchivot",
+          "expression_contexte": ""
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "הַקְּדוֹשׁוֹת",
+          "hebreu_voyelles": "הַקְּדוֹשׁוֹת",
+          "francais_mot": "saintes",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "שֶׁל",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "אַחֵינוּ",
+          "hebreu_voyelles": "אַחֵינוּ",
+          "francais_mot": "nos frères",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "הָאַשְׁכְּנַזִּים,",
+          "hebreu_voyelles": "הָאַשְׁכְּנַזִּים,",
+          "francais_mot": "les Ashkénazes,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "וּמְשַׁנִּים",
+          "hebreu_voyelles": "וּמְשַׁנִּים",
+          "francais_mot": "et modifient",
+          "expression_contexte": "",
+          "infinitif": "לְשַׁנּוֹת = Changer / Modifier"
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "נִקּוּד",
+          "hebreu_voyelles": "נִקּוּד",
+          "francais_mot": "la vocalisation de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "נ'",
+          "hebreu_voyelles": "נ'",
+          "francais_mot": "Noun",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "שֶׁל",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "du",
+          "expression_contexte": ""
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "Nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "ה',",
+          "hebreu_voyelles": "ה',",
+          "francais_mot": "Dieu,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "לְקָמָץ",
+          "hebreu_voyelles": "לְקָמָץ",
+          "francais_mot": "en un Qamats",
+          "expression_contexte": ""
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "חָטוּף",
+          "hebreu_voyelles": "חָטוּף",
+          "francais_mot": "court",
+          "expression_contexte": "קָמָץ חָטוּף = Qamats Qatan (prononcé o)"
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "הַשָּׁוֶה",
+          "hebreu_voyelles": "הַשָּׁוֶה",
+          "francais_mot": "équivalent",
+          "expression_contexte": ""
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "לְנִקּוּד",
+          "hebreu_voyelles": "לְנִקּוּד",
+          "francais_mot": "à la voyelle",
+          "expression_contexte": ""
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "חוֹלָם,",
+          "hebreu_voyelles": "חוֹלָם,",
+          "francais_mot": "Holam,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "כְּהַבְרָת",
+          "hebreu_voyelles": "כְּהַבְרָת",
+          "francais_mot": "selon la prononciation de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "הָאַשְׁכְּנַזִּים,",
+          "hebreu_voyelles": "הָאַשְׁכְּנַזִּים,",
+          "francais_mot": "des Ashkénazes,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "וּבֶאֱמֶת",
+          "hebreu_voyelles": "וּבֶאֱמֶת",
+          "francais_mot": "et en vérité",
+          "expression_contexte": ""
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "שֶׁמְּבֹאָר",
+          "hebreu_voyelles": "שֶׁמְּבֹאָר",
+          "francais_mot": "qu'il est expliqué",
+          "expression_contexte": ""
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "בְּדִבְרֵי",
+          "hebreu_voyelles": "בְּדִבְרֵי",
+          "francais_mot": "dans les propos de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "הַפּוֹסְקִים",
+          "hebreu_voyelles": "הַפּוֹסְקִים",
+          "francais_mot": "les décisionnaires",
+          "expression_contexte": ""
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "שֶׁהַמִּבְטָא",
+          "hebreu_voyelles": "שֶׁהַמִּבְטָא",
+          "francais_mot": "que la prononciation",
+          "expression_contexte": ""
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "שֶׁלָּנוּ",
+          "hebreu_voyelles": "שֶׁלָּנוּ",
+          "francais_mot": "la nôtre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "הוּא",
+          "hebreu_voyelles": "הוּא",
+          "francais_mot": "est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "הוּא",
+          "hebreu_voyelles": "הוּא",
+          "francais_mot": "assurément",
+          "expression_contexte": "הוּא הוּא = est bien / est précisément"
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "הַנָּכוֹן,",
+          "hebreu_voyelles": "הַנָּכוֹן,",
+          "francais_mot": "la bonne,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 82,
+          "hebreu_brut": "וְלָכֵן",
+          "hebreu_voyelles": "וְלָכֵן",
+          "francais_mot": "et par conséquent",
+          "expression_contexte": ""
+        },
+        {
+          "id": 83,
+          "hebreu_brut": "כָּל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "tout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 84,
+          "hebreu_brut": "הַמְשַׁנֶּה",
+          "hebreu_voyelles": "הַמְשַׁנֶּה",
+          "francais_mot": "celui qui modifie",
+          "expression_contexte": "",
+          "infinitif": "לְשַׁנּוֹת = Changer / Modifier"
+        },
+        {
+          "id": 85,
+          "hebreu_brut": "יָדוֹ",
+          "hebreu_voyelles": "יָדוֹ",
+          "francais_mot": "sa main",
+          "expression_contexte": "יָדוֹ עַל הַתַּחְתּוֹנָה = est en position de faiblesse / a tort"
+        },
+        {
+          "id": 86,
+          "hebreu_brut": "עַל",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": "יָדוֹ עַל הַתַּחְתּוֹנָה = est en position de faiblesse / a tort"
+        },
+        {
+          "id": 87,
+          "hebreu_brut": "הַתַּחְתּוֹנָה,",
+          "hebreu_voyelles": "הַתַּחְתּוֹנָה,",
+          "francais_mot": "le dessous,",
+          "expression_contexte": "יָדוֹ עַל הַתַּחְתּוֹנָה = est en position de faiblesse / a tort"
+        },
+        {
+          "id": 88,
+          "hebreu_brut": "וַאֲשֶׁר",
+          "hebreu_voyelles": "וַאֲשֶׁר",
+          "francais_mot": "et ce qui",
+          "expression_contexte": "אֲשֶׁר לֹא טוֹב עָשָׂה = il a mal agi"
+        },
+        {
+          "id": 89,
+          "hebreu_brut": "לֹא",
+          "hebreu_voyelles": "לֹא",
+          "francais_mot": "ne pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 90,
+          "hebreu_brut": "טוֹב",
+          "hebreu_voyelles": "טוֹב",
+          "francais_mot": "bien",
+          "expression_contexte": ""
+        },
+        {
+          "id": 91,
+          "hebreu_brut": "עָשָׂה",
+          "hebreu_voyelles": "עָשָׂה",
+          "francais_mot": "a fait",
+          "expression_contexte": "",
+          "infinitif": "לַעֲשׂוֹת = Faire"
+        },
+        {
+          "id": 92,
+          "hebreu_brut": "בְּעַמָּיו,",
+          "hebreu_voyelles": "בְּעַמָּיו,",
+          "francais_mot": "parmi son peuple,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 93,
+          "hebreu_brut": "וּמְזַלְזֵל",
+          "hebreu_voyelles": "וּמְזַלְזֵל",
+          "francais_mot": "et dédaigne",
+          "expression_contexte": "",
+          "infinitif": "לְזַלְזֵל = Mépriser / Dédaigner"
+        },
+        {
+          "id": 94,
+          "hebreu_brut": "בְּמִנְהַג",
+          "hebreu_voyelles": "בְּמִנְהַג",
+          "francais_mot": "la coutume de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 95,
+          "hebreu_brut": "רַבּוֹתֵינוּ,",
+          "hebreu_voyelles": "רַבּוֹתֵינוּ,",
+          "francais_mot": "nos maîtres,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 96,
+          "hebreu_brut": "וְעוֹבֵר",
+          "hebreu_voyelles": "וְעוֹבֵר",
+          "francais_mot": "et transgresse",
+          "expression_contexte": "",
+          "infinitif": "לַעֲבֹר = Transgresser"
+        },
+        {
+          "id": 97,
+          "hebreu_brut": "מִשּׁוּם",
+          "hebreu_voyelles": "מִשּׁוּם",
+          "francais_mot": "à cause du verset",
+          "expression_contexte": "מִשּׁוּם = en raison de"
+        },
+        {
+          "id": 98,
+          "hebreu_brut": "אַל",
+          "hebreu_voyelles": "אַל",
+          "francais_mot": "ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 99,
+          "hebreu_brut": "תִּטֹּשׁ",
+          "hebreu_voyelles": "תִּטֹּשׁ",
+          "francais_mot": "délaisse",
+          "expression_contexte": "",
+          "infinitif": "לִנְטֹשׁ = Abandonner / Délaisser"
+        },
+        {
+          "id": 100,
+          "hebreu_brut": "תּוֹרַת",
+          "hebreu_voyelles": "תּוֹרַת",
+          "francais_mot": "l'enseignement de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 101,
+          "hebreu_brut": "אִמֶּךָ.",
+          "hebreu_voyelles": "אִמֶּךָ.",
+          "francais_mot": "ta mère.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 102,
+          "hebreu_brut": "[יַלְקוּט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 103,
+          "hebreu_brut": "יוֹסֵף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 104,
+          "hebreu_brut": "הַשְׁכָּמַת",
+          "hebreu_voyelles": "הַשְׁכָּמַת",
+          "francais_mot": "Lever du",
+          "expression_contexte": "הַשְׁכָּמַת הַבֹּקֶר = Lever matinal"
+        },
+        {
+          "id": 105,
+          "hebreu_brut": "הַבֹּקֶר",
+          "hebreu_voyelles": "הַבֹּקֶר",
+          "francais_mot": "matin,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 106,
+          "hebreu_brut": "עַמּוּד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 107,
+          "hebreu_brut": "תע.",
+          "hebreu_voyelles": "תע.",
+          "francais_mot": "470.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 108,
+          "hebreu_brut": "יַלְקוּט",
+          "hebreu_voyelles": "יַלְקוּט",
+          "francais_mot": "Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 109,
+          "hebreu_brut": "יוֹסֵף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 110,
+          "hebreu_brut": "הִלְכוֹת",
+          "hebreu_voyelles": "הִלְכוֹת",
+          "francais_mot": "Lois de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 111,
+          "hebreu_brut": "תְּפִלָּה,",
+          "hebreu_voyelles": "תְּפִלָּה,",
+          "francais_mot": "la Prière,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 112,
+          "hebreu_brut": "תְּשְׁס\"ד",
+          "hebreu_voyelles": "תְּשְׁס\"ד",
+          "francais_mot": "éd. 5764 (2004),",
+          "expression_contexte": ""
+        },
+        {
+          "id": 113,
+          "hebreu_brut": "סִימָן",
+          "hebreu_voyelles": "סִימָן",
+          "francais_mot": "chapitre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 114,
+          "hebreu_brut": "קא.",
+          "hebreu_voyelles": "קא.",
+          "francais_mot": "101.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 115,
+          "hebreu_brut": "וְכֵן",
+          "hebreu_voyelles": "וְכֵן",
+          "francais_mot": "Et ainsi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 116,
+          "hebreu_brut": "מוּכָח",
+          "hebreu_voyelles": "מוּכָח",
+          "francais_mot": "il est prouvé",
+          "expression_contexte": ""
+        },
+        {
+          "id": 117,
+          "hebreu_brut": "מֵהָרִי\"ף",
+          "hebreu_voyelles": "מֵהָרִי\"ף",
+          "francais_mot": "du Rif",
+          "expression_contexte": ""
+        },
+        {
+          "id": 118,
+          "hebreu_brut": "וְהַתּוֹסָפוֹת",
+          "hebreu_voyelles": "וְהַתּוֹסָפוֹת",
+          "francais_mot": "et des Tossafot",
+          "expression_contexte": ""
+        },
+        {
+          "id": 119,
+          "hebreu_brut": "בְּרָכוֹת",
+          "hebreu_voyelles": "בְּרָכוֹת",
+          "francais_mot": "Berakhot",
+          "expression_contexte": ""
+        },
+        {
+          "id": 120,
+          "hebreu_brut": "טו:",
+          "hebreu_voyelles": "טו:",
+          "francais_mot": "15b,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 121,
+          "hebreu_brut": "וּמֵהָרַמְבַּ\"ם",
+          "hebreu_voyelles": "וּמֵהָרַמְבַּ\"ם",
+          "francais_mot": "et du Rambam",
+          "expression_contexte": ""
+        },
+        {
+          "id": 122,
+          "hebreu_brut": "בְּמוֹרֵה",
+          "hebreu_voyelles": "בְּמוֹרֵה",
+          "francais_mot": "dans le Guide",
+          "expression_contexte": "מוֹרֵה נְבוּכִים = Guide des Égarés"
+        },
+        {
+          "id": 123,
+          "hebreu_brut": "נְבוּכִים",
+          "hebreu_voyelles": "נְבוּכִים",
+          "francais_mot": "des Égarés,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 124,
+          "hebreu_brut": "פֶּרֶק",
+          "hebreu_voyelles": "פֶּרֶק",
+          "francais_mot": "chapitre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 125,
+          "hebreu_brut": "סג,",
+          "hebreu_voyelles": "סג,",
+          "francais_mot": "63,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 126,
+          "hebreu_brut": "וּמִפִּיּוּטֵי",
+          "hebreu_voyelles": "וּמִפִּיּוּטֵי",
+          "francais_mot": "et des poèmes liturgiques de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 127,
+          "hebreu_brut": "רַבִּי",
+          "hebreu_voyelles": "רַבִּי",
+          "francais_mot": "Rabbi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 128,
+          "hebreu_brut": "אֱלִיעֶזֶר",
+          "hebreu_voyelles": "אֱלִיעֶזֶר",
+          "francais_mot": "Eliézer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 129,
+          "hebreu_brut": "הַקָּלִיר,",
+          "hebreu_voyelles": "הַקָּלִיר,",
+          "francais_mot": "Hakalir,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 130,
+          "hebreu_brut": "וּמֵרַבֵּינוּ",
+          "hebreu_voyelles": "וּמֵרַבֵּינוּ",
+          "francais_mot": "et de notre maître",
+          "expression_contexte": ""
+        },
+        {
+          "id": 131,
+          "hebreu_brut": "בְּחַיֵּי",
+          "hebreu_voyelles": "בְּחַיֵּי",
+          "francais_mot": "Bahya",
+          "expression_contexte": ""
+        },
+        {
+          "id": 132,
+          "hebreu_brut": "(רֵישׁ",
+          "hebreu_voyelles": "(רֵישׁ",
+          "francais_mot": "(début de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 133,
+          "hebreu_brut": "פָּרָשַׁת",
+          "hebreu_voyelles": "פָּרָשַׁת",
+          "francais_mot": "la Paracha",
+          "expression_contexte": ""
+        },
+        {
+          "id": 134,
+          "hebreu_brut": "וַיֵּרָא),",
+          "hebreu_voyelles": "וַיֵּרָא),",
+          "francais_mot": "Vayéra),",
+          "expression_contexte": ""
+        },
+        {
+          "id": 135,
+          "hebreu_brut": "וְעוֹד].",
+          "hebreu_voyelles": "וְעוֹד].",
+          "francais_mot": "et d'autres].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 6
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "הלכות כוונת הברכות",
+      "sujet_he": "הלכות כוונת הברכות",
+      "sujet_fr": "Lois de l'intention dans les bénédictions",
+      "titre_seif": "Réciter Léchem Yihoud avant les mitsvot.",
+      "siman": "5",
+      "seif": "7",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ז. יֵשׁ נוֹהֲגִים לוֹמַר \"לְשֵׁם יִחוּד\" לִפְנֵי כָּל מִצְוָה שֶׁעוֹשִׂים, אוֹ קֹדֶם לִמּוּדָם. וְאַף עַל פִּי שֶׁהַגָּאוֹן הַנּוֹדָע בִּיהוּדָה פִּקְפֵּק בָּזֶה, מִכָּל מָקוֹם אִם הַדָּבָר מוֹעִיל לוֹ לְכַוֵּן לְשֵׁם מִצְוָה, נָכוֹן שֶׁיֹּאמַר נוּסַח לְשֵׁם יִחוּד לִפְנֵי כָּל מִצְוָה שֶׁמְקַיֵּם. וְכָל אָדָם יִנְהַג כְּפִי מַה שֶּׁהוּא מַכִּיר אֶת עַצְמוֹ, שֶׁאִם מִתְעוֹרֵר לְכַוֵּן בַּמִּצְוָה עַל יְדֵי הַבְּרָכָה, דַּי בָּזֶה וְאֵין צָרִיךְ שֶׁיֹּאמַר לְשֵׁם יִחוּד, אֲבָל אִם אֲמִירַת לְשֵׁם יִחוּד גּוֹרֶמֶת לוֹ לְכַוֵּן יוֹתֵר בַּעֲשִׂיַּת הַמִּצְוָה, רָאוּי וְנָכוֹן שֶׁיֹּאמַר לְשֵׁם יִחוּד לִפְנֵי כָּל מִצְוָה וּמִצְוָה שֶׁעוֹשֶׂה. [יַלְקוּט יוֹסֵף עַל הַשְׁכָּמַת הַבֹּקֶר מַהֲדוּרַת תְּשְׁס\"ד, עַמּוּד תעה].",
+        "hebreu_avec_voyelles": "ז. יֵשׁ נוֹהֲגִים לוֹמַר \"לְשֵׁם יִחוּד\" לִפְנֵי כָּל מִצְוָה שֶׁעוֹשִׂים, אוֹ קֹדֶם לִמּוּדָם. וְאַף עַל פִּי שֶׁהַגָּאוֹן הַנּוֹדָע בִּיהוּדָה פִּקְפֵּק בָּזֶה, מִכָּל מָקוֹם אִם הַדָּבָר מוֹעִיל לוֹ לְכַוֵּן לְשֵׁם מִצְוָה, נָכוֹן שֶׁיֹּאמַר נוּסַח לְשֵׁם יִחוּד לִפְנֵי כָּל מִצְוָה שֶׁמְקַיֵּם. וְכָל אָדָם יִנְהַג כְּפִי מַה שֶּׁהוּא מַכִּיר אֶת עַצְמוֹ, שֶׁאִם מִתְעוֹרֵר לְכַוֵּן בַּמִּצְוָה עַל יְדֵי הַבְּרָכָה, דַּי בָּזֶה וְאֵין צָרִיךְ שֶׁיֹּאמַר לְשֵׁם יִחוּד, אֲבָל אִם אֲמִירַת לְשֵׁם יִחוּד גּוֹרֶמֶת לוֹ לְכַוֵּן יוֹתֵר בַּעֲשִׂיַּת הַמִּצְוָה, רָאוּי וְנָכוֹן שֶׁיֹּאמַר לְשֵׁם יִחוּד לִפְנֵי כָּל מִצְוָה וּמִצְוָה שֶׁעוֹשֶׂה. [יַלְקוּט יוֹסֵף עַל הַשְׁכָּמַת הַבֹּקֶר מַהֲדוּרַת תְּשְׁס\"ד, עַמּוּד תעה].",
+        "francais": "7. Certains ont l'habitude de réciter la formule \"Léchem Yihoud\" avant chaque mitsva qu'ils accomplissent ou avant leur étude. Bien que le Gaon Noda Biyehuda ait émis des réserves à ce sujet, si cela aide la personne à diriger son intention pour l'accomplissement de la mitsva, il est approprié de la réciter. Chacun agira selon la connaissance qu'il a de lui-même : si la bénédiction suffit à éveiller son intention pour la mitsva, cela suffit et il n'a pas besoin de dire \"Léchem Yihoud\". Mais si cette lecture l'aide à se concentrer davantage dans l'action, il est juste et bon de le réciter avant chaque mitsva. [Yalkout Yossef sur le lever matinal, éd. 2004, p. 475]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ז.",
+          "hebreu_voyelles": "ז.",
+          "francais_mot": "7.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "יֵשׁ",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "Il y a",
+          "expression_contexte": "יש נוהגים = Certains ont l'habitude"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "נוֹהֲגִים",
+          "hebreu_voyelles": "נוֹהֲגִים",
+          "francais_mot": "qui ont l'habitude",
+          "expression_contexte": "",
+          "infinitif": "לִנְהֹג = Avoir l'habitude / Agir"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "לוֹמַר",
+          "hebreu_voyelles": "לוֹמַר",
+          "francais_mot": "de réciter",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "\"לְשֵׁם",
+          "hebreu_voyelles": "\"לְשֵׁם",
+          "francais_mot": "\"Léchem",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "יִחוּד\"",
+          "hebreu_voyelles": "יִחוּד\"",
+          "francais_mot": "Yihoud\"",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "לִפְנֵי",
+          "hebreu_voyelles": "לִפְנֵי",
+          "francais_mot": "avant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "כָּל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "chaque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "מִצְוָה",
+          "hebreu_voyelles": "מִצְוָה",
+          "francais_mot": "mitsva",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "שֶׁעוֹשִׂים,",
+          "hebreu_voyelles": "שֶׁעוֹשִׂים,",
+          "francais_mot": "qu'ils accomplissent,",
+          "expression_contexte": "",
+          "infinitif": "לַעֲשׂוֹת = Faire / Accomplir"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "אוֹ",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "קֹדֶם",
+          "hebreu_voyelles": "קֹדֶם",
+          "francais_mot": "avant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "לִמּוּדָם.",
+          "hebreu_voyelles": "לִמּוּדָם.",
+          "francais_mot": "leur étude.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "וְאַף",
+          "hebreu_voyelles": "וְאַף",
+          "francais_mot": "Et même",
+          "expression_contexte": "ואף על פי ש- = Bien que"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "עַל",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "פִּי",
+          "hebreu_voyelles": "פִּי",
+          "francais_mot": "la bouche de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "שֶׁהַגָּאוֹן",
+          "hebreu_voyelles": "שֶׁהַגָּאוֹן",
+          "francais_mot": "que le Gaon",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "הַנּוֹדָע",
+          "hebreu_voyelles": "הַנּוֹדָע",
+          "francais_mot": "connu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "בִּיהוּדָה",
+          "hebreu_voyelles": "בִּיהוּדָה",
+          "francais_mot": "Biyehuda",
+          "expression_contexte": "Allusion à l'ouvrage Noda Biyehuda"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "פִּקְפֵּק",
+          "hebreu_voyelles": "פִּקְפֵּק",
+          "francais_mot": "a émis des réserves",
+          "expression_contexte": "",
+          "infinitif": "לְפַקְפֵּק = Douter / Émettre des réserves"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "בָּזֶה,",
+          "hebreu_voyelles": "בָּזֶה,",
+          "francais_mot": "à ce sujet,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "מִכָּל",
+          "hebreu_voyelles": "מִכָּל",
+          "francais_mot": "de tout",
+          "expression_contexte": "מכל מקום = Néanmoins / Malgré tout"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "מָקוֹם",
+          "hebreu_voyelles": "מָקוֹם",
+          "francais_mot": "lieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "אִם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "הַדָּבָר",
+          "hebreu_voyelles": "הַדָּבָר",
+          "francais_mot": "la chose",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "מוֹעִיל",
+          "hebreu_voyelles": "מוֹעִיל",
+          "francais_mot": "est utile",
+          "expression_contexte": "",
+          "infinitif": "לְהוֹעִיל = Être utile / Aider"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "לוֹ",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "à lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "לְכַוֵּן",
+          "hebreu_voyelles": "לְכַוֵּן",
+          "francais_mot": "à diriger son intention",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "לְשֵׁם",
+          "hebreu_voyelles": "לְשֵׁם",
+          "francais_mot": "pour le nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "מִצְוָה,",
+          "hebreu_voyelles": "מִצְוָה,",
+          "francais_mot": "la mitsva,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "נָכוֹן",
+          "hebreu_voyelles": "נָכוֹן",
+          "francais_mot": "il est approprié",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "שֶׁיֹּאמַר",
+          "hebreu_voyelles": "שֶׁיֹּאמַר",
+          "francais_mot": "qu'il récite",
+          "expression_contexte": "",
+          "infinitif": "לוֹמַר = Dire / Réciter"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "נוּסַח",
+          "hebreu_voyelles": "נוּסַח",
+          "francais_mot": "la formule de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "לְשֵׁם",
+          "hebreu_voyelles": "לְשֵׁם",
+          "francais_mot": "Léchem",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "יִחוּד",
+          "hebreu_voyelles": "יִחוּד",
+          "francais_mot": "Yihoud",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "לִפְנֵי",
+          "hebreu_voyelles": "לִפְנֵי",
+          "francais_mot": "avant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "כָּל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "chaque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "מִצְוָה",
+          "hebreu_voyelles": "מִצְוָה",
+          "francais_mot": "mitsva",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "שֶׁמְקַיֵּם.",
+          "hebreu_voyelles": "שֶׁמְקַיֵּם.",
+          "francais_mot": "qu'il accomplit.",
+          "expression_contexte": "",
+          "infinitif": "לְקַיֵּם = Accomplir / Exécuter"
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "וְכָל",
+          "hebreu_voyelles": "וְכָל",
+          "francais_mot": "Et chaque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "אָדָם",
+          "hebreu_voyelles": "אָדָם",
+          "francais_mot": "homme",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "יִנְהַג",
+          "hebreu_voyelles": "יִנְהַג",
+          "francais_mot": "agira",
+          "expression_contexte": "",
+          "infinitif": "לִנְהֹג = Agir / Se comporter"
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "כְּפִי",
+          "hebreu_voyelles": "כְּפִי",
+          "francais_mot": "selon",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "מַה",
+          "hebreu_voyelles": "מַה",
+          "francais_mot": "ce",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "שֶּׁהוּא",
+          "hebreu_voyelles": "שֶּׁהוּא",
+          "francais_mot": "qu'il",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "מַכִּיר",
+          "hebreu_voyelles": "מַכִּיר",
+          "francais_mot": "connaît",
+          "expression_contexte": "",
+          "infinitif": "לְהַכִּיר = Connaître"
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "אֶת",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[marque du COD]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "עַצְמוֹ,",
+          "hebreu_voyelles": "עַצְמוֹ,",
+          "francais_mot": "lui-même,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "שֶׁאִם",
+          "hebreu_voyelles": "שֶׁאִם",
+          "francais_mot": "car si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "מִתְעוֹרֵר",
+          "hebreu_voyelles": "מִתְעוֹרֵר",
+          "francais_mot": "il s'éveille",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְעוֹרֵר = S'éveiller"
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "לְכַוֵּן",
+          "hebreu_voyelles": "לְכַוֵּן",
+          "francais_mot": "à avoir l'intention",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "בַּמִּצְוָה",
+          "hebreu_voyelles": "בַּמִּצְוָה",
+          "francais_mot": "dans la mitsva",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "עַל",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "par",
+          "expression_contexte": "על ידי = au moyen de / par"
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "יְדֵי",
+          "hebreu_voyelles": "יְדֵי",
+          "francais_mot": "l'intermédiaire de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "הַבְּרָכָה,",
+          "hebreu_voyelles": "הַבְּרָכָה,",
+          "francais_mot": "la bénédiction,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "דַּי",
+          "hebreu_voyelles": "דַּי",
+          "francais_mot": "suffit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "בָּזֶה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "en cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "וְאֵין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "et il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "צָרִיךְ",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "besoin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "שֶׁיֹּאמַר",
+          "hebreu_voyelles": "שֶׁיֹּאמַר",
+          "francais_mot": "qu'il dise",
+          "expression_contexte": "",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "לְשֵׁם",
+          "hebreu_voyelles": "לְשֵׁם",
+          "francais_mot": "Léchem",
+          "expression_contexte": ""
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "יִחוּד,",
+          "hebreu_voyelles": "יִחוּד,",
+          "francais_mot": "Yihoud,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "אֲבָל",
+          "hebreu_voyelles": "אֲבָל",
+          "francais_mot": "mais",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "אִם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "אֲמִירַת",
+          "hebreu_voyelles": "אֲמִירַת",
+          "francais_mot": "la récitation de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "לְשֵׁם",
+          "hebreu_voyelles": "לְשֵׁם",
+          "francais_mot": "Léchem",
+          "expression_contexte": ""
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "יִחוּד",
+          "hebreu_voyelles": "יִחוּד",
+          "francais_mot": "Yihoud",
+          "expression_contexte": ""
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "גּוֹרֶמֶת",
+          "hebreu_voyelles": "גּוֹרֶמֶת",
+          "francais_mot": "l'amène",
+          "expression_contexte": "",
+          "infinitif": "לִגְרֹם = Causer / Amener"
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "לוֹ",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "à lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "לְכַוֵּן",
+          "hebreu_voyelles": "לְכַוֵּן",
+          "francais_mot": "à se concentrer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "יוֹתֵר",
+          "hebreu_voyelles": "יוֹתֵר",
+          "francais_mot": "davantage",
+          "expression_contexte": ""
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "בַּעֲשִׂיַּת",
+          "hebreu_voyelles": "בַּעֲשִׂיַּת",
+          "francais_mot": "dans la réalisation de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "הַמִּצְוָה,",
+          "hebreu_voyelles": "הַמִּצְוָה,",
+          "francais_mot": "la mitsva,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "רָאוּי",
+          "hebreu_voyelles": "רָאוּי",
+          "francais_mot": "il est digne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "וְנָכוֹן",
+          "hebreu_voyelles": "וְנָכוֹן",
+          "francais_mot": "et bon",
+          "expression_contexte": ""
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "שֶׁיֹּאמַר",
+          "hebreu_voyelles": "שֶׁיֹּאמַר",
+          "francais_mot": "qu'il le récite",
+          "expression_contexte": "",
+          "infinitif": "לוֹמַר = Dire / Réciter"
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "לְשֵׁם",
+          "hebreu_voyelles": "לְשֵׁם",
+          "francais_mot": "Léchem",
+          "expression_contexte": ""
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "יִחוּד",
+          "hebreu_voyelles": "יִחוּד",
+          "francais_mot": "Yihoud",
+          "expression_contexte": ""
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "לִפְנֵי",
+          "hebreu_voyelles": "לִפְנֵי",
+          "francais_mot": "avant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "כָּל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "chaque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "מִצְוָה",
+          "hebreu_voyelles": "מִצְוָה",
+          "francais_mot": "mitsva",
+          "expression_contexte": ""
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "וּמִצְוָה",
+          "hebreu_voyelles": "וּמִצְוָה",
+          "francais_mot": "et mitsva",
+          "expression_contexte": "כל מצוה ומצוה = chaque mitsva sans exception"
+        },
+        {
+          "id": 82,
+          "hebreu_brut": "שֶׁעוֹשֶׂה.",
+          "hebreu_voyelles": "שֶׁעוֹשֶׂה.",
+          "francais_mot": "qu'il fait.",
+          "expression_contexte": "",
+          "infinitif": "לַעֲשׂוֹת = Faire / Accomplir"
+        },
+        {
+          "id": 83,
+          "hebreu_brut": "[יַלְקוּט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 84,
+          "hebreu_brut": "יוֹסֵף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 85,
+          "hebreu_brut": "עַל",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 86,
+          "hebreu_brut": "הַשְׁכָּמַת",
+          "hebreu_voyelles": "הַשְׁכָּמַת",
+          "francais_mot": "le lever du",
+          "expression_contexte": ""
+        },
+        {
+          "id": 87,
+          "hebreu_brut": "הַבֹּקֶר",
+          "hebreu_voyelles": "הַבֹּקֶר",
+          "francais_mot": "matin,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 88,
+          "hebreu_brut": "מַהֲדוּרַת",
+          "hebreu_voyelles": "מַהֲדוּרַת",
+          "francais_mot": "édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 89,
+          "hebreu_brut": "תְּשְׁס\"ד,",
+          "hebreu_voyelles": "תְּשְׁס\"ד,",
+          "francais_mot": "5764 [2004],",
+          "expression_contexte": ""
+        },
+        {
+          "id": 90,
+          "hebreu_brut": "עַמּוּד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 91,
+          "hebreu_brut": "תעה].",
+          "hebreu_voyelles": "תעה].",
+          "francais_mot": "475].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 7
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "הלכות כוונת הברכות",
+      "sujet_he": "הלכות כוונת הברכות",
+      "sujet_fr": "Lois de l'intention dans les bénédictions",
+      "titre_seif": "Interdiction de prononcer les lettres du Nom.",
+      "siman": "5",
+      "seif": "8",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ח. אָמְרוּ חֲזַ\"ל: הַהוֹגֶה אֶת הַשֵּׁם בְּאוֹתִיּוֹתָיו אֵין לוֹ חֵלֶק לָעוֹלָם הַבָּא. וְכָתְבוּ הַפּוֹסְקִים וְהַמְקֻבָּלִים, שֶׁאַף הַהוֹגֶה שֵׁם ה' בְּמִלּוּי אוֹתִיּוֹתָיו, דְּהַיְנוּ שֶׁאוֹמֵר כָּל אוֹת בִּפְנֵי עַצְמָהּ, הֲרֵי הוּא בִּכְלַל הוֹגֶה אֶת הַשֵּׁם בְּאוֹתִיּוֹתָיו. וְלָכֵן בְּנוּסַח הַ\"לְּשֵׁם יִחוּד\" שֶׁאוֹמְרִים לִפְנֵי כָּל מִצְוָה אוֹ תְּפִלָּה, צָרִיךְ לוֹמַר, לְיַחֲדָא שֵׁם יוֹ\"ד קֵ\"י בְּוָא\"ו קֵ\"י. וְלֹא לְהַזְכִּיר חַס וְשָׁלוֹם שֵׁם הֲוָיָ\"ה. וְאָמְנָם כָּל זֶה לְעִנְיַן שֵׁם הֲוָיָ\"ה, אֲבָל לְעִנְיַן שֵׁם אַדְנוּ\"ת, וְכֵן לְעִנְיַן שֵׁם אֶהְיֶ\"ה, יֵשׁ לְהָקֵל לְאָמְרוֹ בְּאוֹתִיּוֹתָיו. וְאַף לְעִנְיַן שֵׁם הֲוָיָ\"ה נִרְאֶה שֶׁאִם אֵינוֹ מִתְכַּוֵּן לְשֵׁם הֲוָיָ\"ה, יֵשׁ לְהָקֵל. וְלָכֵן מֻתָּר לוֹמַר בִּתְפִלַּת שַׁחֲרִית אַבַּיֵּי הֲוָה מְסַדֵּר הַמַּעֲרָכָה, בְּלֹא הֶפְסֵק בֵּין תֵּבַת אַבַּיֵּי לַהֲוָה, אַף עַל פִּי שֶׁנִּרְאֶה כְּאוֹמֵר שֵׁם הֲוָיָ\"ה. וּמִכָּל מָקוֹם טוֹב יוֹתֵר שֶׁיַּפְסִיק מְעַט בֵּין תֵּבַת אַבַּיֵּי לְתֵבַת הֲוָה. [יַלְקוּט יוֹסֵף עַל הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר עַמּוּד תעו].",
+        "hebreu_avec_voyelles": "ח. אָמְרוּ חֲזַ\"ל: הַהוֹגֶה אֶת הַשֵּׁם בְּאוֹתִיּוֹתָיו אֵין לוֹ חֵלֶק לָעוֹלָם הַבָּא. וְכָתְבוּ הַפּוֹסְקִים וְהַמְקֻבָּלִים, שֶׁאַף הַהוֹגֶה שֵׁם ה' בְּמִלּוּי אוֹתִיּוֹתָיו, דְּהַיְנוּ שֶׁאוֹמֵר כָּל אוֹת בִּפְנֵי עַצְמָהּ, הֲרֵי הוּא בִּכְלַל הוֹגֶה אֶת הַשֵּׁם בְּאוֹתִיּוֹתָיו. וְלָכֵן בְּנוּסַח הַ\"לְּשֵׁם יִחוּד\" שֶׁאוֹמְרִים לִפְנֵי כָּל מִצְוָה אוֹ תְּפִלָּה, צָרִיךְ לוֹמַר, לְיַחֲדָא שֵׁם יוֹ\"ד קֵ\"י בְּוָא\"ו קֵ\"י. וְלֹא לְהַזְכִּיר חַס וְשָׁלוֹם שֵׁם הֲוָיָ\"ה. וְאָמְנָם כָּל זֶה לְעִנְיַן שֵׁם הֲוָיָ\"ה, אֲבָל לְעִנְיַן שֵׁם אַדְנוּ\"ת, וְכֵן לְעִנְיַן שֵׁם אֶהְיֶ\"ה, יֵשׁ לְהָקֵל לְאָמְרוֹ בְּאוֹתִיּוֹתָיו. וְאַף לְעִנְיַן שֵׁם הֲוָיָ\"ה נִרְאֶה שֶׁאִם אֵינוֹ מִתְכַּוֵּן לְשֵׁם הֲוָיָ\"ה, יֵשׁ לְהָקֵל. וְלָכֵן מֻתָּר לוֹמַר בִּתְפִלַּת שַׁחֲרִית אַבַּיֵּי הֲוָה מְסַדֵּר הַמַּעֲרָכָה, בְּלֹא הֶפְסֵק בֵּין תֵּבַת אַבַּיֵּי לַהֲוָה, אַף עַל פִּי שֶׁנִּרְאֶה כְּאוֹמֵר שֵׁם הֲוָיָ\"ה. וּמִכָּל מָקוֹם טוֹב יוֹתֵר שֶׁיַּפְסִיק מְעַט בֵּין תֵּבַת אַבַּיֵּי לְתֵבַת הֲוָה. [יַלְקוּט יוֹסֵף עַל הִלְכוֹת הַשְׁכָּמַת הַבֹּקֶר עַמּוּד תעו].",
+        "francais": "8. Nos Sages ont déclaré : \"Celui qui prononce le Nom divin tel qu'il s'écrit n'a pas de part au Monde à Venir.\" Les décisionnaires et les kabbalistes ont précisé que même épeler les lettres du Nom divin relève de cette interdiction. Par conséquent, dans la formule \"Léchem Yihoud\" récitée avant une mitsva ou une prière, on dira \"Yod Ké et Vav Ké\", sans jamais épeler le Tétragramme. Cette rigueur s'applique exclusivement au Tétragramme (Havaya). Cependant, pour les noms \"Adonout\" ou \"Ehiyé\", il est permis de les épeler. De plus, même concernant le Tétragramme, s'il n'y a aucune intention de prononcer le Nom divin, il y a lieu d'être indulgent. C'est pourquoi, lors de la prière du matin, on peut enchaîner sans pause les mots \"Abayé hava messader...\" bien que cela ressemble à la prononciation du Tétragramme. Il est néanmoins préférable de marquer une légère pause entre \"Abayé\" et \"hava\". [Yalkout Yossef sur les lois du lever matinal, p. 476]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ח.",
+          "hebreu_voyelles": "ח.",
+          "francais_mot": "8.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "אָמְרוּ",
+          "hebreu_voyelles": "אָמְרוּ",
+          "francais_mot": "ont dit",
+          "expression_contexte": "ont déclaré",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "חֲזַ\"ל:",
+          "hebreu_voyelles": "חֲזַ\"ל:",
+          "francais_mot": "Nos Sages",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "הַהוֹגֶה",
+          "hebreu_voyelles": "הַהוֹגֶה",
+          "francais_mot": "celui qui prononce",
+          "expression_contexte": "",
+          "infinitif": "לַהֲגוֹת = Prononcer / Méditer"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "אֶת",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[marque du C.O.D.]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "הַשֵּׁם",
+          "hebreu_voyelles": "הַשֵּׁם",
+          "francais_mot": "le Nom",
+          "expression_contexte": "le Nom divin"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "בְּאוֹתִיּוֹתָיו",
+          "hebreu_voyelles": "בְּאוֹתִיּוֹתָיו",
+          "francais_mot": "selon ses lettres",
+          "expression_contexte": "tel qu'il s'écrit"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "אֵין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "לוֹ",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "à lui",
+          "expression_contexte": "pour lui"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "חֵלֶק",
+          "hebreu_voyelles": "חֵלֶק",
+          "francais_mot": "une part",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "לָעוֹלָם",
+          "hebreu_voyelles": "לָעוֹלָם",
+          "francais_mot": "pour le monde",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "הַבָּא.",
+          "hebreu_voyelles": "הַבָּא.",
+          "francais_mot": "à venir.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "וְכָתְבוּ",
+          "hebreu_voyelles": "וְכָתְבוּ",
+          "francais_mot": "Et ont écrit",
+          "expression_contexte": "ont précisé",
+          "infinitif": "לִכְתֹּב = Écrire"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "הַפּוֹסְקִים",
+          "hebreu_voyelles": "הַפּוֹסְקִים",
+          "francais_mot": "les décisionnaires",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "וְהַמְקֻבָּלִים,",
+          "hebreu_voyelles": "וְהַמְקוּבָּלִים,",
+          "francais_mot": "et les kabbalistes,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "שֶׁאַף",
+          "hebreu_voyelles": "שֶׁאַף",
+          "francais_mot": "que même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "הַהוֹגֶה",
+          "hebreu_voyelles": "הַהוֹגֶה",
+          "francais_mot": "celui qui prononce",
+          "expression_contexte": "",
+          "infinitif": "לַהֲגוֹת = Prononcer / Méditer"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le nom",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "ה'",
+          "hebreu_voyelles": "ה'",
+          "francais_mot": "d'Hachem",
+          "expression_contexte": "divin"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "בְּמִלּוּי",
+          "hebreu_voyelles": "בְּמִלּוּי",
+          "francais_mot": "en épellation de",
+          "expression_contexte": "en épelant"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "אוֹתִיּוֹתָיו,",
+          "hebreu_voyelles": "אוֹתִיּוֹתָיו,",
+          "francais_mot": "ses lettres,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "דְּהַיְנוּ",
+          "hebreu_voyelles": "דְּהַיְנוּ",
+          "francais_mot": "c'est-à-dire",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "שֶׁאוֹמֵר",
+          "hebreu_voyelles": "שֶׁאוֹמֵר",
+          "francais_mot": "qu'il dit",
+          "expression_contexte": "",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "כָּל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "chaque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "אוֹת",
+          "hebreu_voyelles": "אוֹת",
+          "francais_mot": "lettre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "בִּפְנֵי",
+          "hebreu_voyelles": "בִּפְנֵי",
+          "francais_mot": "devant",
+          "expression_contexte": "séparément"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "עַצְמָהּ,",
+          "hebreu_voyelles": "עַצְמָהּ,",
+          "francais_mot": "elle-même,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "הֲרֵי",
+          "hebreu_voyelles": "הֲרֵי",
+          "francais_mot": "voici que",
+          "expression_contexte": "en effet"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "הוּא",
+          "hebreu_voyelles": "הוּא",
+          "francais_mot": "il",
+          "expression_contexte": "cela"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "בִּכְלַל",
+          "hebreu_voyelles": "בִּכְלַל",
+          "francais_mot": "dans la catégorie de",
+          "expression_contexte": "relève de"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "הוֹגֶה",
+          "hebreu_voyelles": "הוֹגֶה",
+          "francais_mot": "prononcer",
+          "expression_contexte": "",
+          "infinitif": "לַהֲגוֹת = Prononcer / Méditer"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "אֶת",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[marque du C.O.D.]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "הַשֵּׁם",
+          "hebreu_voyelles": "הַשֵּׁם",
+          "francais_mot": "le Nom",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "בְּאוֹתִיּוֹתָיו.",
+          "hebreu_voyelles": "בְּאוֹתִיּוֹתָיו.",
+          "francais_mot": "tel qu'il s'écrit.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "וְלָכֵן",
+          "hebreu_voyelles": "וְלָכֵן",
+          "francais_mot": "Et c'est pourquoi",
+          "expression_contexte": "Par conséquent"
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "בְּנוּסַח",
+          "hebreu_voyelles": "בְּנוּסַח",
+          "francais_mot": "dans le texte de",
+          "expression_contexte": "dans la formule"
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "הַ\"לְּשֵׁם",
+          "hebreu_voyelles": "הַ\"לְּשֵׁם",
+          "francais_mot": "le \"Léchem",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "יִחוּד\"",
+          "hebreu_voyelles": "יִחוּד\"",
+          "francais_mot": "Yihoud\"",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "שֶׁאוֹמְרִים",
+          "hebreu_voyelles": "שֶׁאוֹמְרִים",
+          "francais_mot": "qu'on dit",
+          "expression_contexte": "récitée",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "לִפְנֵי",
+          "hebreu_voyelles": "לִפְנֵי",
+          "francais_mot": "avant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "כָּל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "chaque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "מִצְוָה",
+          "hebreu_voyelles": "מִצְוָה",
+          "francais_mot": "mitsva",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "אוֹ",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "תְּפִלָּה,",
+          "hebreu_voyelles": "תְּפִלָּה,",
+          "francais_mot": "prière,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "צָרִיךְ",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "il faut",
+          "expression_contexte": "on dira"
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "לוֹמַר,",
+          "hebreu_voyelles": "לוֹמַר,",
+          "francais_mot": "dire,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "לְיַחֲדָא",
+          "hebreu_voyelles": "לְיַחֲדָא",
+          "francais_mot": "pour unifier",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le Nom",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "יוֹ\"ד",
+          "hebreu_voyelles": "יוֹ\"ד",
+          "francais_mot": "Yod",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "קֵ\"י",
+          "hebreu_voyelles": "קֵ\"י",
+          "francais_mot": "Ké",
+          "expression_contexte": ""
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "בְּוָא\"ו",
+          "hebreu_voyelles": "בְּוָא\"ו",
+          "francais_mot": "avec Vav",
+          "expression_contexte": "et Vav"
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "קֵ\"י.",
+          "hebreu_voyelles": "קֵ\"י.",
+          "francais_mot": "Ké.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "וְלֹא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "Et ne pas",
+          "expression_contexte": "sans"
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "לְהַזְכִּיר",
+          "hebreu_voyelles": "לְהַזְכִּיר",
+          "francais_mot": "mentionner",
+          "expression_contexte": "jamais épeler"
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "חַס",
+          "hebreu_voyelles": "חַס",
+          "francais_mot": "à Dieu ne plaise",
+          "expression_contexte": ""
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "וְשָׁלוֹם",
+          "hebreu_voyelles": "וְשָׁלוֹם",
+          "francais_mot": "et paix",
+          "expression_contexte": "à Dieu ne plaise"
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "הֲוָיָ\"ה.",
+          "hebreu_voyelles": "הֲוָיָ\"ה.",
+          "francais_mot": "Havaya.",
+          "expression_contexte": "le Tétragramme."
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "וְאָמְנָם",
+          "hebreu_voyelles": "וְאָמְנָם",
+          "francais_mot": "Et en vérité",
+          "expression_contexte": "Cette rigueur"
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "כָּל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "tout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "זֶה",
+          "hebreu_voyelles": "זֶה",
+          "francais_mot": "cela",
+          "expression_contexte": "s'applique"
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "לְעִנְיַן",
+          "hebreu_voyelles": "לְעִנְיַן",
+          "francais_mot": "concernant",
+          "expression_contexte": "exclusivement au"
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "Nom",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "הֲוָיָ\"ה,",
+          "hebreu_voyelles": "הֲוָיָ\"ה,",
+          "francais_mot": "Havaya,",
+          "expression_contexte": "Tétragramme,"
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "אֲבָל",
+          "hebreu_voyelles": "אֲבָל",
+          "francais_mot": "mais",
+          "expression_contexte": "Cependant,"
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "לְעִנְיַן",
+          "hebreu_voyelles": "לְעִנְיַן",
+          "francais_mot": "concernant",
+          "expression_contexte": "pour"
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le nom de",
+          "expression_contexte": "les noms"
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "אַדְנוּ\"ת,",
+          "hebreu_voyelles": "אַדְנוּ\"ת,",
+          "francais_mot": "Adonout,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "וְכֵן",
+          "hebreu_voyelles": "וְכֵן",
+          "francais_mot": "et de même",
+          "expression_contexte": "ou"
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "לְעִנְיַן",
+          "hebreu_voyelles": "לְעִנְיַן",
+          "francais_mot": "concernant",
+          "expression_contexte": "pour le nom"
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le nom",
+          "expression_contexte": ""
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "אֶהְיֶ\"ה,",
+          "hebreu_voyelles": "אֶהְיֶ\"ה,",
+          "francais_mot": "Ehiyé,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "יֵשׁ",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il y a lieu de",
+          "expression_contexte": "il est permis"
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "לְהָקֵל",
+          "hebreu_voyelles": "לְהָקֵל",
+          "francais_mot": "d'être indulgent",
+          "expression_contexte": "de permis"
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "לְאָמְרוֹ",
+          "hebreu_voyelles": "לְאָמְרוֹ",
+          "francais_mot": "de le dire",
+          "expression_contexte": "de les épeler"
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "בְּאוֹתִיּוֹתָיו.",
+          "hebreu_voyelles": "בְּאוֹתִיּוֹתָיו.",
+          "francais_mot": "lettre par lettre.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "וְאַף",
+          "hebreu_voyelles": "וְאַף",
+          "francais_mot": "Et même",
+          "expression_contexte": "De plus, même"
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "לְעִנְיַן",
+          "hebreu_voyelles": "לְעִנְיַן",
+          "francais_mot": "concernant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "הֲוָיָ\"ה",
+          "hebreu_voyelles": "הֲוָיָ\"ה",
+          "francais_mot": "Havaya",
+          "expression_contexte": "le Tétragramme"
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "נִרְאֶה",
+          "hebreu_voyelles": "נִרְאֶה",
+          "francais_mot": "il apparaît que",
+          "expression_contexte": "il y a lieu",
+          "infinitif": "לְהֵרָאוֹת = Paraître / Sembler"
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "שֶׁאִם",
+          "hebreu_voyelles": "שֶׁאִם",
+          "francais_mot": "que si",
+          "expression_contexte": "si"
+        },
+        {
+          "id": 82,
+          "hebreu_brut": "אֵינוֹ",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "il n'a pas",
+          "expression_contexte": "il n'y a aucune"
+        },
+        {
+          "id": 83,
+          "hebreu_brut": "מִתְכַּוֵּן",
+          "hebreu_voyelles": "מִתְכַּוֵּן",
+          "francais_mot": "l'intention",
+          "expression_contexte": "",
+          "infinitif": "לְכַוֵּן = Penser / Avoir l'intention"
+        },
+        {
+          "id": 84,
+          "hebreu_brut": "לְשֵׁם",
+          "hebreu_voyelles": "לְשֵׁם",
+          "francais_mot": "pour le nom de",
+          "expression_contexte": "de prononcer le Nom"
+        },
+        {
+          "id": 85,
+          "hebreu_brut": "הֲוָיָ\"ה,",
+          "hebreu_voyelles": "הֲוָיָ\"ה,",
+          "francais_mot": "Havaya,",
+          "expression_contexte": "divin,"
+        },
+        {
+          "id": 86,
+          "hebreu_brut": "יֵשׁ",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il y a lieu de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 87,
+          "hebreu_brut": "לְהָקֵל.",
+          "hebreu_voyelles": "לְהָקֵל.",
+          "francais_mot": "d'être indulgent.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 88,
+          "hebreu_brut": "וְלָכֵן",
+          "hebreu_voyelles": "וְלָכֵן",
+          "francais_mot": "Et c'est pourquoi,",
+          "expression_contexte": "C'est pourquoi,"
+        },
+        {
+          "id": 89,
+          "hebreu_brut": "מֻתָּר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "il est permis",
+          "expression_contexte": "on peut"
+        },
+        {
+          "id": 90,
+          "hebreu_brut": "לוֹמַר",
+          "hebreu_voyelles": "לוֹמַר",
+          "francais_mot": "de dire",
+          "expression_contexte": "enchaîner"
+        },
+        {
+          "id": 91,
+          "hebreu_brut": "בִּתְפִלַּת",
+          "hebreu_voyelles": "בִּתְפִלַּת",
+          "francais_mot": "dans la prière de",
+          "expression_contexte": "lors de la prière du"
+        },
+        {
+          "id": 92,
+          "hebreu_brut": "שַׁחֲרִית",
+          "hebreu_voyelles": "שַׁחֲרִית",
+          "francais_mot": "Chaharit",
+          "expression_contexte": "matin"
+        },
+        {
+          "id": 93,
+          "hebreu_brut": "אַבַּיֵּי",
+          "hebreu_voyelles": "אַבַּיֵּי",
+          "francais_mot": "Abayé",
+          "expression_contexte": ""
+        },
+        {
+          "id": 94,
+          "hebreu_brut": "הֲוָה",
+          "hebreu_voyelles": "הֲוָה",
+          "francais_mot": "était",
+          "expression_contexte": "hava"
+        },
+        {
+          "id": 95,
+          "hebreu_brut": "מְסַדֵּר",
+          "hebreu_voyelles": "מְסַדֵּר",
+          "francais_mot": "en train d'ordonner",
+          "expression_contexte": "messader...",
+          "infinitif": "לְסַדֵּר = Ordonner / Arranger"
+        },
+        {
+          "id": 96,
+          "hebreu_brut": "הַמַּעֲרָכָה,",
+          "hebreu_voyelles": "הַמַּעֲרָכָה,",
+          "francais_mot": "l'arrangement,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 97,
+          "hebreu_brut": "בְּלֹא",
+          "hebreu_voyelles": "בְּלֹא",
+          "francais_mot": "sans",
+          "expression_contexte": ""
+        },
+        {
+          "id": 98,
+          "hebreu_brut": "הֶפְסֵק",
+          "hebreu_voyelles": "הֶפְסֵק",
+          "francais_mot": "interruption",
+          "expression_contexte": "pause"
+        },
+        {
+          "id": 99,
+          "hebreu_brut": "בֵּין",
+          "hebreu_voyelles": "בֵּין",
+          "francais_mot": "entre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 100,
+          "hebreu_brut": "תֵּבַת",
+          "hebreu_voyelles": "תֵּבַת",
+          "francais_mot": "le mot",
+          "expression_contexte": "les mots"
+        },
+        {
+          "id": 101,
+          "hebreu_brut": "אַבַּיֵּי",
+          "hebreu_voyelles": "אַבַּיֵּי",
+          "francais_mot": "Abayé",
+          "expression_contexte": ""
+        },
+        {
+          "id": 102,
+          "hebreu_brut": "לַהֲוָה,",
+          "hebreu_voyelles": "לַהֲוָה,",
+          "francais_mot": "à hava,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 103,
+          "hebreu_brut": "אַף",
+          "hebreu_voyelles": "אַף",
+          "francais_mot": "même",
+          "expression_contexte": "bien que"
+        },
+        {
+          "id": 104,
+          "hebreu_brut": "עַל",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 105,
+          "hebreu_brut": "פִּי",
+          "hebreu_voyelles": "פִּי",
+          "francais_mot": "la bouche de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 106,
+          "hebreu_brut": "שֶׁנִּרְאֶה",
+          "hebreu_voyelles": "שֶׁנִּרְאֶה",
+          "francais_mot": "que cela ressemble",
+          "expression_contexte": "",
+          "infinitif": "לְהֵרָאוֹת = Paraître / Sembler"
+        },
+        {
+          "id": 107,
+          "hebreu_brut": "כְּאוֹמֵר",
+          "hebreu_voyelles": "כְּאוֹמֵר",
+          "francais_mot": "comme disant",
+          "expression_contexte": "à la prononciation du",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 108,
+          "hebreu_brut": "שֵׁם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 109,
+          "hebreu_brut": "הֲוָיָ\"ה.",
+          "hebreu_voyelles": "הֲוָיָ\"ה.",
+          "francais_mot": "Havaya.",
+          "expression_contexte": "Tétragramme."
+        },
+        {
+          "id": 110,
+          "hebreu_brut": "וּמִכָּל",
+          "hebreu_voyelles": "וּמִכָּל",
+          "francais_mot": "Et de tout",
+          "expression_contexte": "néanmoins"
+        },
+        {
+          "id": 111,
+          "hebreu_brut": "מָקוֹם",
+          "hebreu_voyelles": "מָקוֹם",
+          "francais_mot": "lieu",
+          "expression_contexte": "Il est néanmoins"
+        },
+        {
+          "id": 112,
+          "hebreu_brut": "טוֹב",
+          "hebreu_voyelles": "טוֹב",
+          "francais_mot": "bon",
+          "expression_contexte": "préférable"
+        },
+        {
+          "id": 113,
+          "hebreu_brut": "יוֹתֵר",
+          "hebreu_voyelles": "יוֹתֵר",
+          "francais_mot": "plus",
+          "expression_contexte": ""
+        },
+        {
+          "id": 114,
+          "hebreu_brut": "שֶׁיַּפְסִיק",
+          "hebreu_voyelles": "שֶׁיַּפְסִיק",
+          "francais_mot": "qu'il interrompe",
+          "expression_contexte": "de marquer",
+          "infinitif": "לְהַפְסִיק = Interrompre / Faire une pause"
+        },
+        {
+          "id": 115,
+          "hebreu_brut": "מְעַט",
+          "hebreu_voyelles": "מְעַט",
+          "francais_mot": "un peu",
+          "expression_contexte": "une légère pause"
+        },
+        {
+          "id": 116,
+          "hebreu_brut": "בֵּין",
+          "hebreu_voyelles": "בֵּין",
+          "francais_mot": "entre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 117,
+          "hebreu_brut": "תֵּבַת",
+          "hebreu_voyelles": "תֵּבַת",
+          "francais_mot": "le mot",
+          "expression_contexte": ""
+        },
+        {
+          "id": 118,
+          "hebreu_brut": "אַבַּיֵּי",
+          "hebreu_voyelles": "אַבַּיֵּי",
+          "francais_mot": "Abayé",
+          "expression_contexte": ""
+        },
+        {
+          "id": 119,
+          "hebreu_brut": "לְתֵבַת",
+          "hebreu_voyelles": "לְתֵבַת",
+          "francais_mot": "et le mot",
+          "expression_contexte": "et"
+        },
+        {
+          "id": 120,
+          "hebreu_brut": "הֲוָה.",
+          "hebreu_voyelles": "הֲוָה.",
+          "francais_mot": "hava.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 121,
+          "hebreu_brut": "[יַלְקוּט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 122,
+          "hebreu_brut": "יוֹסֵף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 123,
+          "hebreu_brut": "עַל",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 124,
+          "hebreu_brut": "הִלְכוֹת",
+          "hebreu_voyelles": "הִלְכוֹת",
+          "francais_mot": "les lois de",
+          "expression_contexte": "les lois du"
+        },
+        {
+          "id": 125,
+          "hebreu_brut": "הַשְׁכָּמַת",
+          "hebreu_voyelles": "הַשְׁכָּמַת",
+          "francais_mot": "le lever de",
+          "expression_contexte": "lever"
+        },
+        {
+          "id": 126,
+          "hebreu_brut": "הַבֹּקֶר",
+          "hebreu_voyelles": "הַבֹּקֶר",
+          "francais_mot": "le matin",
+          "expression_contexte": "matinal,"
+        },
+        {
+          "id": 127,
+          "hebreu_brut": "עַמּוּד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": "p."
+        },
+        {
+          "id": 128,
+          "hebreu_brut": "תעו].",
+          "hebreu_voyelles": "תעו].",
+          "francais_mot": "476].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 8
+    }
+  ]
+}

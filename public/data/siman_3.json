@@ -1353,7 +1353,7 @@
         {
           "id": 102,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "il est permis",
           "expression_contexte": ""
         },
@@ -1374,7 +1374,7 @@
         {
           "id": 105,
           "hebreu_brut": "שבקדושה",
-          "hebreu_voyelles": "שֶׁבִּקְדֻשָּׁה",
+          "hebreu_voyelles": "שֶׁבִּקְדוּשָּׁה",
           "francais_mot": "saintes",
           "expression_contexte": ""
         },
@@ -1604,7 +1604,7 @@
         {
           "id": 11,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "permis",
           "expression_contexte": ""
         },
@@ -1826,7 +1826,7 @@
         {
           "id": 42,
           "hebreu_brut": "ומוכרח",
-          "hebreu_voyelles": "וּמֻכְרָח",
+          "hebreu_voyelles": "וּמוּכְרָח",
           "francais_mot": "et est obligé",
           "expression_contexte": ""
         },
@@ -2770,7 +2770,7 @@
         {
           "id": 99,
           "hebreu_brut": "וחומש,",
-          "hebreu_voyelles": "וְחֻמַּשׁ,",
+          "hebreu_voyelles": "וְחוּמַּשׁ,",
           "francais_mot": "et un cinquième,",
           "expression_contexte": "שעה וחומש = 72 minutes (une heure et un cinquième)"
         },
@@ -2906,7 +2906,7 @@
         {
           "id": 118,
           "hebreu_brut": "מסופק",
-          "hebreu_voyelles": "מְסֻפָּק",
+          "hebreu_voyelles": "מְסוּפָּק",
           "francais_mot": "en doute",
           "expression_contexte": ""
         },
@@ -3573,7 +3573,7 @@
         {
           "id": 13,
           "hebreu_brut": "מכובדים",
-          "hebreu_voyelles": "מְכֻבָּדִים",
+          "hebreu_voyelles": "מְכוּבָּדִים",
           "francais_mot": "honorables",
           "expression_contexte": ""
         },
@@ -3672,7 +3672,7 @@
         {
           "id": 27,
           "hebreu_brut": "יוהרא.",
-          "hebreu_voyelles": "יֻהֲרָא.",
+          "hebreu_voyelles": "יוּהֲרָא.",
           "francais_mot": "prétention.",
           "expression_contexte": ""
         },
@@ -3757,7 +3757,7 @@
         {
           "id": 39,
           "hebreu_brut": "מכובדים",
-          "hebreu_voyelles": "מְכֻבָּדִים",
+          "hebreu_voyelles": "מְכוּבָּדִים",
           "francais_mot": "honorables\"",
           "expression_contexte": ""
         },
@@ -3900,7 +3900,7 @@
         {
           "id": 59,
           "hebreu_brut": "מכובדים",
-          "hebreu_voyelles": "מְכֻבָּדִים",
+          "hebreu_voyelles": "מְכוּבָּדִים",
           "francais_mot": "honorables\"",
           "expression_contexte": ""
         },
@@ -4094,7 +4094,7 @@
         {
           "id": 13,
           "hebreu_brut": "שמוכרח",
-          "hebreu_voyelles": "שֶׁמֻּכְרָח",
+          "hebreu_voyelles": "שֶׁמּוּכְרָח",
           "francais_mot": "qui est indispensable",
           "expression_contexte": ""
         },
@@ -4356,7 +4356,7 @@
         {
           "id": 50,
           "hebreu_brut": "שמוכרח.",
-          "hebreu_voyelles": "שֶׁמֻּכְרָח.",
+          "hebreu_voyelles": "שֶׁמּוּכְרָח.",
           "francais_mot": "qui est indispensable.",
           "expression_contexte": ""
         },
@@ -5633,7 +5633,7 @@
         {
           "id": 76,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "il est permis",
           "expression_contexte": "",
           "infinitif": ""
@@ -5937,7 +5937,7 @@
         {
           "id": 114,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "il est permis",
           "expression_contexte": "",
           "infinitif": ""
@@ -6316,7 +6316,7 @@
         {
           "id": 24,
           "hebreu_brut": "שבקדושה,",
-          "hebreu_voyelles": "שֶׁבִּקְדֻשָּׁה,",
+          "hebreu_voyelles": "שֶׁבִּקְדוּשָּׁה,",
           "francais_mot": "qui relèvent de la sainteté,",
           "expression_contexte": ""
         },
@@ -6661,7 +6661,7 @@
         {
           "id": 73,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "il est permis",
           "expression_contexte": ""
         },
@@ -7306,7 +7306,7 @@
         {
           "id": 57,
           "hebreu_brut": "שבקדושה",
-          "hebreu_voyelles": "שֶׁבִּקְדֻשָּׁה",
+          "hebreu_voyelles": "שֶׁבִּקְדוּשָּׁה",
           "francais_mot": "saintes",
           "expression_contexte": ""
         },
@@ -7385,7 +7385,7 @@
         {
           "id": 68,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "il est permis",
           "expression_contexte": ""
         },
@@ -7477,7 +7477,7 @@
         {
           "id": 81,
           "hebreu_brut": "שבקדושה,",
-          "hebreu_voyelles": "שֶׁבִּקְדֻשָּׁה,",
+          "hebreu_voyelles": "שֶׁבִּקְדוּשָּׁה,",
           "francais_mot": "saintes,",
           "expression_contexte": ""
         },
@@ -7786,7 +7786,7 @@
         {
           "id": 12,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "il est permis",
           "expression_contexte": ""
         },
@@ -7912,7 +7912,7 @@
         {
           "id": 30,
           "hebreu_brut": "מטונף",
-          "hebreu_voyelles": "מְטֻנָּף",
+          "hebreu_voyelles": "מְטוּנָּף",
           "francais_mot": "sale",
           "expression_contexte": ""
         },
@@ -7968,7 +7968,7 @@
         {
           "id": 38,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "il est permis",
           "expression_contexte": ""
         },
@@ -8416,7 +8416,7 @@
         {
           "id": 45,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "il est permis",
           "expression_contexte": ""
         },
@@ -8493,7 +8493,7 @@
         {
           "id": 56,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "il est permis",
           "expression_contexte": ""
         },
@@ -8577,7 +8577,7 @@
         {
           "id": 68,
           "hebreu_brut": "קדושה,",
-          "hebreu_voyelles": "קְדֻשָּׁה,",
+          "hebreu_voyelles": "קְדוּשָּׁה,",
           "francais_mot": "sainteté,",
           "expression_contexte": ""
         },
@@ -8633,7 +8633,7 @@
         {
           "id": 76,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "il est permis",
           "expression_contexte": ""
         },
@@ -8838,7 +8838,7 @@
         {
           "id": 105,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "il est permis",
           "expression_contexte": ""
         },
@@ -8894,7 +8894,7 @@
         {
           "id": 113,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "il est permis",
           "expression_contexte": ""
         },
@@ -9027,7 +9027,7 @@
         {
           "id": 132,
           "hebreu_brut": "שמותר",
-          "hebreu_voyelles": "שֶׁמֻּתָּר",
+          "hebreu_voyelles": "שֶׁמּוּתָּר",
           "francais_mot": "qu'il est permis",
           "expression_contexte": ""
         },
@@ -9160,7 +9160,7 @@
         {
           "id": 151,
           "hebreu_brut": "שמותר",
-          "hebreu_voyelles": "שֶׁמֻּתָּר",
+          "hebreu_voyelles": "שֶׁמּוּתָּר",
           "francais_mot": "qu'il est permis",
           "expression_contexte": ""
         },
@@ -9261,7 +9261,7 @@
         {
           "id": 5,
           "hebreu_brut": "בקדושת",
-          "hebreu_voyelles": "בִּקְדֻשַּׁת",
+          "hebreu_voyelles": "בִּקְדוּשַּׁת",
           "francais_mot": "à la sainteté de",
           "expression_contexte": ""
         },
@@ -9297,7 +9297,7 @@
         {
           "id": 10,
           "hebreu_brut": "בקדושתם,",
-          "hebreu_voyelles": "בִּקְדֻשָּׁתָם,",
+          "hebreu_voyelles": "בִּקְדוּשָּׁתָם,",
           "francais_mot": "à leur sainteté,",
           "expression_contexte": ""
         },
@@ -9571,7 +9571,7 @@
         {
           "id": 48,
           "hebreu_brut": "ערומים",
-          "hebreu_voyelles": "עֲרֻמִּים",
+          "hebreu_voyelles": "עֲרוּמִּים",
           "francais_mot": "pas nus",
           "expression_contexte": ""
         },
@@ -9835,7 +9835,7 @@
         {
           "id": 11,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "autorisé",
           "expression_contexte": ""
         },
@@ -10226,7 +10226,7 @@
         {
           "id": 20,
           "hebreu_brut": "מדוקדקת",
-          "hebreu_voyelles": "מְדֻקְדֶּקֶת",
+          "hebreu_voyelles": "מְדוּקְדֶּקֶת",
           "francais_mot": "précise",
           "expression_contexte": ""
         },
@@ -10518,7 +10518,7 @@
         {
           "id": 3,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "il est permis",
           "expression_contexte": ""
         },
@@ -10640,7 +10640,7 @@
         {
           "id": 20,
           "hebreu_brut": "הסוכה,",
-          "hebreu_voyelles": "הַסֻּכָּה,",
+          "hebreu_voyelles": "הַסּוּכָּה,",
           "francais_mot": "la Soucca,",
           "expression_contexte": ""
         },
@@ -11447,7 +11447,7 @@
         {
           "id": 13,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "permis",
           "expression_contexte": "il est permis"
         },
@@ -11568,7 +11568,7 @@
         {
           "id": 30,
           "hebreu_brut": "ומותר",
-          "hebreu_voyelles": "וּמֻתָּר",
+          "hebreu_voyelles": "וּמוּתָּר",
           "francais_mot": "Et il est permis",
           "expression_contexte": ""
         },
@@ -12571,7 +12571,7 @@
         {
           "id": 33,
           "hebreu_brut": "מותר,",
-          "hebreu_voyelles": "מֻתָּר,",
+          "hebreu_voyelles": "מוּתָּר,",
           "francais_mot": "permis,",
           "expression_contexte": ""
         },
@@ -12758,7 +12758,7 @@
         {
           "id": 14,
           "hebreu_brut": "בקופסא",
-          "hebreu_voyelles": "בְּקֻפְסָא",
+          "hebreu_voyelles": "בְּקוּפְסָא",
           "francais_mot": "dans une boîte",
           "expression_contexte": ""
         },
@@ -12794,7 +12794,7 @@
         {
           "id": 19,
           "hebreu_brut": "קופסאות",
-          "hebreu_voyelles": "קֻפְסָאוֹת",
+          "hebreu_voyelles": "קוּפְסָאוֹת",
           "francais_mot": "des boîtes de",
           "expression_contexte": ""
         },
@@ -12886,7 +12886,7 @@
         {
           "id": 32,
           "hebreu_brut": "מרובה.",
-          "hebreu_voyelles": "מְרֻבֶּה.",
+          "hebreu_voyelles": "מְרוּבֶּה.",
           "francais_mot": "importante.",
           "expression_contexte": ""
         },
@@ -13001,7 +13001,7 @@
         {
           "id": 48,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "il est permis",
           "expression_contexte": ""
         },
@@ -13051,14 +13051,14 @@
         {
           "id": 55,
           "hebreu_brut": "מחופים",
-          "hebreu_voyelles": "מְחֻפִּים",
+          "hebreu_voyelles": "מְחוּפִּים",
           "francais_mot": "couverts",
           "expression_contexte": ""
         },
         {
           "id": 56,
           "hebreu_brut": "שהוכנסו",
-          "hebreu_voyelles": "שֶׁהֻכְנְסוּ",
+          "hebreu_voyelles": "שֶׁהוּכְנְסוּ",
           "francais_mot": "qui ont été introduits",
           "expression_contexte": "",
           "infinitif": "לְהוּכְנַס = Être introduit"
@@ -13144,7 +13144,7 @@
         {
           "id": 68,
           "hebreu_brut": "מותרים",
-          "hebreu_voyelles": "מֻתָּרִים",
+          "hebreu_voyelles": "מוּתָּרִים",
           "francais_mot": "ils sont permis",
           "expression_contexte": ""
         },
@@ -13421,7 +13421,7 @@
         {
           "id": 3,
           "hebreu_brut": "מותר",
-          "hebreu_voyelles": "מֻתָּר",
+          "hebreu_voyelles": "מוּתָּר",
           "francais_mot": "il est permis",
           "expression_contexte": ""
         },

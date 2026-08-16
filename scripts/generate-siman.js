@@ -13,12 +13,13 @@
  *   node scripts/generate-siman.js --siman 318 --seif 1 # Seif 1 uniquement
  *
  * Variables d'environnement (.env) :
- *   GEMINI_API_KEY  – Clé API Google Gemini (obligatoire)
+ *   GEMINI_API_KEY    – Clé API Google Gemini (obligatoire)
+ *   GEMINI_API_KEY_2  – 2ème clé API Google Gemini (optionnelle)
+ *   GEMINI_API_KEY_3  – 3ème clé API Google Gemini (optionnelle)
  * ─────────────────────────────────────────────────────────────────────────────
  */
 
 import 'dotenv/config';
-console.log("🔑 Clé API chargée (fin) :", process.env.GEMINI_API_KEY ? process.env.GEMINI_API_KEY.slice(-4) : "AUCUNE");
 
 import fs from 'fs';
 import path from 'path';
@@ -39,6 +40,27 @@ const GEMINI_MODEL = 'gemini-3.6-flash'; // Modèle Gemini à utiliser
 const API_DELAY_MS = 4500;           // pause de 4.5s entre chaque appel (pour respecter la limite de 15 requêtes/min du compte gratuit)
 const MAX_RETRIES = 3;              // tentatives en cas d'erreur
 const RETRY_DELAY_MS = 10000;       // on augmente le délai de retry par défaut à 10s
+
+let apiKeys = [];
+let currentKeyIndex = 0;
+let aiClient = null;
+
+function getAiClient() {
+  if (!aiClient) {
+    aiClient = new GoogleGenAI({ apiKey: apiKeys[currentKeyIndex] });
+  }
+  return aiClient;
+}
+
+function switchApiKey() {
+  if (currentKeyIndex < apiKeys.length - 1) {
+    currentKeyIndex++;
+    console.log(`\n🔄 Quota épuisé sur la clé n°${currentKeyIndex}. Basculement sur la clé API n°${currentKeyIndex + 1}...`);
+    aiClient = new GoogleGenAI({ apiKey: apiKeys[currentKeyIndex] });
+    return true;
+  }
+  return false;
+}
 
 // ─── Correspondance chiffres arabes → lettres hébraïques (gematria) ───────────
 const HEBREW_NUMERALS = {
@@ -272,7 +294,7 @@ DIRECTIVES DE CONTENU ET TRADUCTION :
    - Ne faites aucun retour à la ligne physique à l'intérieur des valeurs de texte.`;
 
 // ─── Appel API Gemini ─────────────────────────────────────────────────────────
-async function callGemini(ai, seifData, simanNum, simanLabel, translatedSubject) {
+async function callGemini(seifData, simanNum, simanLabel, translatedSubject) {
   const { hebrewLetter, arabicNum, rawText, subsection } = seifData;
 
   const userPrompt = `Traite le Seif suivant du Kitzur Yalkout Yossef :
@@ -290,7 +312,7 @@ Génère l'objet JSON selon le schéma défini. N'inclus PAS la numérotation du
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
-      const response = await ai.models.generateContent({
+      const response = await getAiClient().models.generateContent({
         model: GEMINI_MODEL,
         contents: [{ role: 'user', parts: [{ text: userPrompt }] }],
         config: {
@@ -317,6 +339,18 @@ Génère l'objet JSON selon le schéma défini. N'inclus PAS la numérotation du
       return parsed;
 
     } catch (err) {
+      const isQuotaError = err.message && (
+        err.message.includes('Quota exceeded') ||
+        err.message.includes('429') ||
+        err.message.includes('RESOURCE_EXHAUSTED') ||
+        err.message.includes('quota')
+      );
+
+      if (isQuotaError && switchApiKey()) {
+        attempt--; // On ne compte pas cette tentative puisqu'on vient de changer de clé
+        continue;
+      }
+
       const isLast = attempt === MAX_RETRIES;
 
       // Extraire le délai de retry suggéré par l'API (429 RESOURCE_EXHAUSTED)
@@ -373,7 +407,7 @@ function parseArgs() {
 }
 
 // ─── Traitement d'un Siman individuel ─────────────────────────────────────────
-async function processSingleSiman(ai, fullText, simanNum, targetSeif) {
+async function processSingleSiman(fullText, simanNum, targetSeif) {
   const simanLabel = arabicToHebrewNumeral(simanNum);
   const outputFile = path.join(OUTPUT_DIR, `siman_${simanNum}.json`);
 
@@ -405,15 +439,33 @@ async function processSingleSiman(ai, fullText, simanNum, targetSeif) {
   const subjectTranslations = {};
   for (const sub of subsections) {
      if (subjectTranslations[sub]) continue;
-     try {
-       const resp = await ai.models.generateContent({
-         model: GEMINI_MODEL,
-         contents: [{ role: 'user', parts: [{ text: `Traduis ce titre hébreu court en français (sujet de loi juive) de façon claire et fluide. Donne uniquement la traduction.\n\nTitre: ${sub}` }] }],
-         config: { temperature: 0.0, thinkingConfig: { thinkingLevel: "low" } }
-       });
-       subjectTranslations[sub] = resp.text.trim().replace(/^"|"$/g, '');
-       console.log(`     - ${sub} -> ${subjectTranslations[sub]}`);
-     } catch(e) {
+     let translated = false;
+     for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+       try {
+         const resp = await getAiClient().models.generateContent({
+           model: GEMINI_MODEL,
+           contents: [{ role: 'user', parts: [{ text: `Traduis ce titre hébreu court en français (sujet de loi juive) de façon claire et fluide. Donne uniquement la traduction.\n\nTitre: ${sub}` }] }],
+           config: { temperature: 0.0, thinkingConfig: { thinkingLevel: "low" } }
+         });
+         subjectTranslations[sub] = resp.text.trim().replace(/^"|"$/g, '');
+         console.log(`     - ${sub} -> ${subjectTranslations[sub]}`);
+         translated = true;
+         break;
+       } catch(e) {
+         const isQuotaError = e.message && (
+           e.message.includes('Quota exceeded') ||
+           e.message.includes('429') ||
+           e.message.includes('RESOURCE_EXHAUSTED') ||
+           e.message.includes('quota')
+         );
+         if (isQuotaError && switchApiKey()) {
+           attempt--;
+           continue;
+         }
+         if (attempt < MAX_RETRIES) await sleep(2000);
+       }
+     }
+     if (!translated) {
        console.warn(`     ⚠️ Impossible de pré-traduire le sujet : ${sub}`);
      }
   }
@@ -473,7 +525,7 @@ async function processSingleSiman(ai, fullText, simanNum, targetSeif) {
     console.log(`        Texte (${seif.rawText.length} car.) : ${seif.rawText.substring(0, 80)}...`);
 
     try {
-      const result = await callGemini(ai, seif, simanNum, simanLabel, translatedSubject);
+      const result = await callGemini(seif, simanNum, simanLabel, translatedSubject);
       result.seif = String(seif.arabicNum);
       result._globalId = seif.globalId;
       if (!result.sujet_he) result.sujet_he = seif.subsection;
@@ -530,10 +582,22 @@ async function processSingleSiman(ai, fullText, simanNum, targetSeif) {
 async function main() {
   const { simanNum, fromSiman, toSiman, targetSeif } = parseArgs();
 
-  if (!process.env.GEMINI_API_KEY) {
-    console.error('❌ GEMINI_API_KEY manquante. Créez un fichier .env avec GEMINI_API_KEY=votre_clé');
+  apiKeys = Object.keys(process.env)
+    .filter(k => k === 'GEMINI_API_KEY' || k.startsWith('GEMINI_API_KEY_'))
+    .sort((a, b) => {
+      const numA = parseInt(a.replace('GEMINI_API_KEY_', '').replace('GEMINI_API_KEY', '1'), 10) || 1;
+      const numB = parseInt(b.replace('GEMINI_API_KEY_', '').replace('GEMINI_API_KEY', '1'), 10) || 1;
+      return numA - numB;
+    })
+    .map(k => process.env[k])
+    .filter(Boolean);
+
+  if (apiKeys.length === 0) {
+    console.error('❌ Aucune clé API trouvée. Créez un fichier .env avec GEMINI_API_KEY=votre_clé');
     process.exit(1);
   }
+
+  console.log(`🔑 ${apiKeys.length} clé(s) API chargée(s).`);
 
   const simanimToProcess = [];
   if (fromSiman !== null && toSiman !== null) {
@@ -547,10 +611,9 @@ async function main() {
   console.log(`🚀 Lancement du traitement pour les Simanim : ${simanimToProcess.join(', ')}`);
 
   const fullText = loadRawText();
-  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
   for (const num of simanimToProcess) {
-    await processSingleSiman(ai, fullText, num, targetSeif);
+    await processSingleSiman(fullText, num, targetSeif);
   }
 }
 

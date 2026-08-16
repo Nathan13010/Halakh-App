@@ -3,7 +3,21 @@ import Icon from './Icon';
 import BookCover from './BookCover';
 import ConfettiCanvas from './ConfettiCanvas';
 
-const WelcomeScreen = ({ books, favorites, onSelectBook, onSelectFavorite, onRemoveFavorite, streak, onIncreaseStreak, isDailyCompleted }) => {
+const WelcomeScreen = ({ 
+  books, 
+  favorites = [], 
+  bookmarks = [], 
+  onSelectBook, 
+  onSelectFavorite, 
+  onRemoveFavorite, 
+  onSelectBookmark, 
+  onRemoveBookmark, 
+  streak, 
+  onIncreaseStreak, 
+  isDailyCompleted,
+  onOpenSettings
+}) => {
+  const [sidebarTab, setSidebarTab] = useState('favorites');
   const [isMinimized, setIsMinimized] = useState(isDailyCompleted);
   const [isDailyModalOpen, setIsDailyModalOpen] = useState(false);
   const [quizStatus, setQuizStatus] = useState('idle'); // 'idle' | 'correct' | 'wrong'
@@ -150,14 +164,14 @@ const WelcomeScreen = ({ books, favorites, onSelectBook, onSelectFavorite, onRem
 
           <div className="flex items-center gap-2.5 pb-2 border-b border-zinc-200 dark:border-zinc-800 mt-4">
             <Icon name="library" className="w-4 h-4 text-amber-500/80" />
-            <h2 className="text-xs uppercase tracking-widest text-zinc-400 font-bold">Votre Bibliothèque</h2>
-            <span className="text-[10px] bg-zinc-800 text-zinc-400 px-2 py-0.5 rounded-full border border-zinc-700 font-mono font-bold ml-auto select-none">
+            <h2 className="text-xs uppercase tracking-widest text-zinc-500 dark:text-zinc-400 font-bold">Votre Bibliothèque</h2>
+            <span className="text-[10px] bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 px-2 py-0.5 rounded-full border border-zinc-200 dark:border-zinc-700 font-mono font-bold ml-auto select-none">
               {books.length} LIVRE(S)
             </span>
           </div>
 
           <div className="space-y-12 py-4">
-            <div className="relative pt-6 pb-4 px-6 bg-zinc-900/30 border border-zinc-800 rounded-2xl shadow-inner flex flex-wrap justify-center sm:justify-start gap-8">
+            <div className="relative pt-6 pb-4 px-6 bg-zinc-100/80 dark:bg-zinc-900/30 border border-zinc-200 dark:border-zinc-800 rounded-2xl shadow-inner flex flex-wrap justify-center sm:justify-start gap-8">
               {books.map((book) => (
                 <BookCover
                   key={book.id}
@@ -169,23 +183,34 @@ const WelcomeScreen = ({ books, favorites, onSelectBook, onSelectFavorite, onRem
                   onClick={() => book.isUnlocked && onSelectBook(book.id)}
                 />
               ))}
-              <div className="absolute bottom-0 left-0 right-0 h-2 bg-zinc-800 rounded-b-2xl border-t border-zinc-700 pointer-events-none z-10 shadow" />
+              <div className="absolute bottom-0 left-0 right-0 h-2 bg-zinc-200 dark:bg-zinc-800 rounded-b-2xl border-t border-zinc-300 dark:border-zinc-700 pointer-events-none z-10 shadow-sm" />
             </div>
           </div>
 
-          <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl p-5 mt-auto">
-            <h3 className="text-xs uppercase tracking-widest text-zinc-450 font-bold flex items-center gap-1.5 mb-2.5 select-none">
-              <Icon name="info" className="w-4 h-4 text-amber-500" />
-              Comment étudier ?
-            </h3>
-            <ul className="text-xs text-zinc-400 space-y-2 list-none">
+          <div className="bg-zinc-100/80 dark:bg-zinc-900/30 border border-zinc-200 dark:border-zinc-800 rounded-xl p-5 mt-auto">
+            <div className="flex items-center justify-between mb-2.5">
+              <h3 className="text-xs uppercase tracking-widest text-zinc-600 dark:text-zinc-400 font-bold flex items-center gap-1.5 select-none">
+                <Icon name="info" className="w-4 h-4 text-amber-500" />
+                Comment étudier ?
+              </h3>
+              {onOpenSettings && (
+                <button
+                  onClick={onOpenSettings}
+                  className="flex items-center gap-1.5 text-xs font-semibold text-amber-600 dark:text-amber-400 hover:underline cursor-pointer"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+                  <span>Réglages</span>
+                </button>
+              )}
+            </div>
+            <ul className="text-xs text-zinc-600 dark:text-zinc-400 space-y-2 list-none">
               <li className="flex items-start gap-2">
                 <span className="text-amber-500/80">✦</span>
-                <span>Sélectionnez un ouvrage débloqué (notamment le volume <strong className="text-zinc-200">Yalkout Yossef - Hilkhot Chabbat</strong>).</span>
+                <span>Sélectionnez un ouvrage débloqué (notamment le volume <strong className="text-zinc-900 dark:text-zinc-200">Yalkout Yossef - Hilkhot Chabbat</strong>).</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-amber-500/80">✦</span>
-                <span>Basculez entre les différents modes dans la barre d'outils (Hébreu pur, avec Nikoud, Bilingue, ou Français).</span>
+                <span>Personnalisez l'affichage à tout moment avec le bouton <strong className="text-zinc-900 dark:text-zinc-200">Aa</strong> dans le lecteur (Langue, Nikoud, Thème et Taille).</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-amber-500/80">✦</span>
@@ -200,55 +225,127 @@ const WelcomeScreen = ({ books, favorites, onSelectBook, onSelectFavorite, onRem
         </div>
 
         <div className="lg:col-span-1 flex flex-col h-full">
-          <div className="flex items-center gap-2.5 pb-2 border-b border-zinc-800 mb-4">
-            <Icon name="star" className="w-4 h-4 text-amber-500" />
-            <h2 className="text-xs uppercase tracking-widest text-zinc-400 font-bold">Favoris</h2>
-            <span className="text-[10px] bg-zinc-800 text-zinc-400 px-2 py-0.5 rounded-full border border-zinc-700 font-mono font-bold ml-auto select-none">
-              {favorites.length}
-            </span>
+          {/* Tabs Selector: Favoris / Marque-pages */}
+          <div className="flex items-center gap-1.5 p-1 bg-zinc-100 dark:bg-zinc-900/60 border border-zinc-200 dark:border-zinc-800 rounded-xl mb-4">
+            <button
+              onClick={() => setSidebarTab('favorites')}
+              className={`flex-1 flex items-center justify-center gap-1.5 py-1.5 px-2 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+                sidebarTab === 'favorites'
+                  ? 'bg-white dark:bg-zinc-800 text-amber-600 dark:text-amber-400 border border-zinc-200 dark:border-amber-500/40 shadow-sm'
+                  : 'text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200 border border-transparent'
+              }`}
+            >
+              <Icon name="star" className={`w-3.5 h-3.5 ${sidebarTab === 'favorites' ? 'fill-amber-500 dark:fill-amber-400 text-amber-500 dark:text-amber-400' : ''}`} />
+              <span>Favoris</span>
+              <span className="text-[10px] bg-zinc-200 dark:bg-zinc-800 px-1.5 py-0.2 rounded-full font-mono text-zinc-700 dark:text-zinc-300">
+                {favorites.length}
+              </span>
+            </button>
+
+            <button
+              onClick={() => setSidebarTab('bookmarks')}
+              className={`flex-1 flex items-center justify-center gap-1.5 py-1.5 px-2 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+                sidebarTab === 'bookmarks'
+                  ? 'bg-white dark:bg-zinc-800 text-amber-600 dark:text-amber-400 border border-zinc-200 dark:border-amber-500/40 shadow-sm'
+                  : 'text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200 border border-transparent'
+              }`}
+            >
+              <Icon name="bookmark" className={`w-3.5 h-3.5 ${sidebarTab === 'bookmarks' ? 'fill-amber-500 dark:fill-amber-400 text-amber-500 dark:text-amber-400' : ''}`} />
+              <span>Repères</span>
+              <span className="text-[10px] bg-zinc-200 dark:bg-zinc-800 px-1.5 py-0.2 rounded-full font-mono text-zinc-700 dark:text-zinc-300">
+                {bookmarks.length}
+              </span>
+            </button>
           </div>
 
-          <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl p-4 flex-grow flex flex-col justify-start max-h-[460px] lg:max-h-full overflow-y-auto">
-            {favorites.length === 0 ? (
-              <div className="flex flex-col items-center justify-center text-center py-12 px-2 my-auto select-none">
-                <Icon name="star" className="w-6 h-6 text-zinc-700 mb-3" />
-                <p className="text-xs text-zinc-400 font-medium">Aucun paragraphe sauvegardé</p>
-                <p className="text-[10px] text-zinc-600 mt-1 max-w-[180px] leading-relaxed">
-                  Cliquez sur l'icône étoile ★ dans le lecteur pour ajouter un paragraphe à vos favoris.
-                </p>
-              </div>
-            ) : (
-              <div className="space-y-3">
-                {favorites.map((fav, index) => (
-                  <div
-                    key={index}
-                    onClick={() => onSelectFavorite(fav)}
-                    className="p-3 bg-zinc-900/40 hover:bg-zinc-800/40 border border-zinc-800 hover:border-zinc-700 rounded-lg group cursor-pointer transition-all duration-200 text-left relative"
-                  >
-                    <button
-                      onClick={(e) => onRemoveFavorite(fav, e)}
-                      className="absolute top-2.5 right-2.5 p-1 rounded hover:bg-red-500/10 text-zinc-500 hover:text-red-400 opacity-0 group-hover:opacity-100 transition-opacity duration-200 cursor-pointer"
-                      title="Supprimer des favoris"
+          <div className="bg-zinc-100/70 dark:bg-zinc-900/30 border border-zinc-200 dark:border-zinc-800 rounded-xl p-4 flex-grow flex flex-col justify-start max-h-[460px] lg:max-h-full overflow-y-auto">
+            {sidebarTab === 'favorites' ? (
+              favorites.length === 0 ? (
+                <div className="flex flex-col items-center justify-center text-center py-12 px-2 my-auto select-none">
+                  <Icon name="star" className="w-6 h-6 text-zinc-400 dark:text-zinc-700 mb-3" />
+                  <p className="text-xs text-zinc-600 dark:text-zinc-400 font-medium">Aucun favori enregistré</p>
+                  <p className="text-[10px] text-zinc-500 dark:text-zinc-500 mt-1 max-w-[180px] leading-relaxed">
+                    Cliquez sur l'icône étoile ★ dans le lecteur pour ajouter un paragraphe à vos favoris.
+                  </p>
+                </div>
+              ) : (
+                <div className="space-y-3">
+                  {favorites.map((fav, index) => (
+                    <div
+                      key={index}
+                      onClick={() => onSelectFavorite(fav)}
+                      className="p-3 bg-white dark:bg-zinc-900/40 hover:bg-zinc-50 dark:hover:bg-zinc-800/40 border border-zinc-200 dark:border-zinc-800 hover:border-zinc-300 dark:hover:border-zinc-700 rounded-lg group cursor-pointer transition-all duration-200 text-left relative shadow-sm"
                     >
-                      <Icon name="trash" className="w-3.5 h-3.5" />
-                    </button>
-                    <span className="text-[9px] font-bold text-amber-500 uppercase tracking-wider block mb-1">
-                      {fav.bookTitle} • Seïf {fav.seif || (fav.paragraphIndex + 1)}
-                    </span>
-                    <p className="text-sm text-zinc-200 font-medium line-clamp-1 mb-1 font-hebrew text-right" dir="rtl">
-                      {fav.previewHebrew}
-                    </p>
-                    <p className="text-[11px] text-zinc-400 line-clamp-2 italic leading-relaxed">
-                      {fav.previewFrench}
-                    </p>
-                    <div className="flex justify-end items-center mt-3 pt-1.5 border-t border-zinc-800/50 opacity-60 group-hover:opacity-100 transition-opacity">
-                      <span className="text-[9px] text-amber-600/80 font-bold uppercase tracking-wider flex items-center gap-0.5">
-                        Étudier &rarr;
+                      <button
+                        onClick={(e) => onRemoveFavorite(fav, e)}
+                        className="absolute top-2.5 right-2.5 p-1 rounded hover:bg-red-500/10 text-zinc-400 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200 cursor-pointer"
+                        title="Supprimer des favoris"
+                      >
+                        <Icon name="trash" className="w-3.5 h-3.5" />
+                      </button>
+                      <span className="text-[9px] font-bold text-amber-600 dark:text-amber-500 uppercase tracking-wider block mb-1">
+                        {fav.bookTitle} • Seïf {fav.seif || (fav.paragraphIndex + 1)}
                       </span>
+                      <p className="text-sm text-zinc-900 dark:text-zinc-200 font-medium line-clamp-1 mb-1 font-hebrew text-right" dir="rtl">
+                        {fav.previewHebrew}
+                      </p>
+                      <p className="text-[11px] text-zinc-600 dark:text-zinc-400 line-clamp-2 italic leading-relaxed">
+                        {fav.previewFrench}
+                      </p>
+                      <div className="flex justify-end items-center mt-3 pt-1.5 border-t border-zinc-200 dark:border-zinc-800/50 opacity-60 group-hover:opacity-100 transition-opacity">
+                        <span className="text-[9px] text-amber-600 dark:text-amber-500 font-bold uppercase tracking-wider flex items-center gap-0.5">
+                          Étudier &rarr;
+                        </span>
+                      </div>
                     </div>
-                  </div>
-                ))}
-              </div>
+                  ))}
+                </div>
+              )
+            ) : (
+              bookmarks.length === 0 ? (
+                <div className="flex flex-col items-center justify-center text-center py-12 px-2 my-auto select-none">
+                  <Icon name="bookmark" className="w-6 h-6 text-zinc-400 dark:text-zinc-700 mb-3" />
+                  <p className="text-xs text-zinc-600 dark:text-zinc-400 font-medium">Aucun marque-page placé</p>
+                  <p className="text-[10px] text-zinc-500 dark:text-zinc-500 mt-1 max-w-[180px] leading-relaxed">
+                    Cliquez sur l'icône marque-page 🔖 sur un Seïf pour y revenir rapidement à tout moment.
+                  </p>
+                </div>
+              ) : (
+                <div className="space-y-3">
+                  {bookmarks.map((bm, index) => (
+                    <div
+                      key={index}
+                      onClick={() => onSelectBookmark(bm)}
+                      className="p-3 bg-white dark:bg-zinc-900/40 hover:bg-zinc-50 dark:hover:bg-zinc-800/40 border border-zinc-200 dark:border-zinc-800 hover:border-zinc-300 dark:hover:border-zinc-700 rounded-lg group cursor-pointer transition-all duration-200 text-left relative shadow-sm"
+                    >
+                      <button
+                        onClick={(e) => onRemoveBookmark(bm, e)}
+                        className="absolute top-2.5 right-2.5 p-1 rounded hover:bg-red-500/10 text-zinc-400 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-200 cursor-pointer"
+                        title="Retirer le marque-page"
+                      >
+                        <Icon name="trash" className="w-3.5 h-3.5" />
+                      </button>
+                      <div className="flex items-center gap-1.5 mb-1">
+                        <Icon name="bookmark" className="w-3 h-3 text-amber-500 dark:text-amber-400 fill-amber-500 dark:fill-amber-400 shrink-0" />
+                        <span className="text-[9px] font-bold text-amber-600 dark:text-amber-400 uppercase tracking-wider truncate">
+                          {bm.bookTitle} • Seïf {bm.seif || (bm.paragraphIndex + 1)}
+                        </span>
+                      </div>
+                      <p className="text-sm text-zinc-900 dark:text-zinc-200 font-medium line-clamp-1 mb-1 font-hebrew text-right" dir="rtl">
+                        {bm.previewHebrew}
+                      </p>
+                      <p className="text-[11px] text-zinc-600 dark:text-zinc-400 line-clamp-2 italic leading-relaxed">
+                        {bm.previewFrench}
+                      </p>
+                      <div className="flex justify-end items-center mt-3 pt-1.5 border-t border-zinc-200 dark:border-zinc-800/50 opacity-60 group-hover:opacity-100 transition-opacity">
+                        <span className="text-[9px] text-amber-600 dark:text-amber-500 font-bold uppercase tracking-wider flex items-center gap-0.5">
+                          Reprendre la lecture &rarr;
+                        </span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )
             )}
           </div>
         </div>
@@ -256,7 +353,7 @@ const WelcomeScreen = ({ books, favorites, onSelectBook, onSelectFavorite, onRem
 
       <footer className="max-w-6xl mx-auto w-full text-center border-t border-zinc-200 dark:border-zinc-800 pt-6 text-[10px] text-zinc-500 uppercase tracking-widest font-bold flex flex-col sm:flex-row items-center justify-between gap-4 mt-8">
         <span>© 2026 Halakh'App • Yalkout Yossef Interactif</span>
-        <span className="text-zinc-600">Localisation LocalStorage sécurisée • Étude moderne de la Halakha</span>
+        <span className="text-zinc-500 dark:text-zinc-600">Localisation LocalStorage sécurisée • Étude moderne de la Halakha</span>
       </footer>
 
       {/* Daily Quiz Modal */}

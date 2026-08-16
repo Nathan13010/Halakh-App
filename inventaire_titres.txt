@@ -1,0 +1,673 @@
+--- INVENTAIRE DES TITRES ---
+
+ID: 0001 | Fichier: 0001_הלכות שבת_siman_242_brut.json | Titre: סימן רמב – להזהר בכבוד שבת
+ID: 0002 | Fichier: 0002_הלכות שבת_siman_243_brut.json | Titre: סימן רמג – המשכיר שדה וחנות לעכו"ם
+ID: 0003 | Fichier: 0003_הלכות שבת_siman_244_brut.json | Titre: סימן רמד – מלאכות שהעכו"ם עושה לישראל
+ID: 0004 | Fichier: 0004_הלכות שבת_siman_246_brut.json | Titre: סימן רמו – השכרה לעכו"ם בשבת
+ID: 0005 | Fichier: 0005_הלכות שבת_siman_246_brut.json | Titre: סימן רמו – שביתת בהמתו בשבת
+ID: 0006 | Fichier: 0006_הלכות שבת_siman_248_brut.json | Titre: סימן רמח – דין המפליג בספינה מערב-שבת
+ID: 0007 | Fichier: 0007_הלכות שבת_siman_249_brut.json | Titre: סימן רמט – דינים השייכים לערב-שבת
+ID: 0008 | Fichier: 0008_הלכות שבת_siman_250_brut.json | Titre: סימן רנ – הכנת הסעודות לשבת
+ID: 0009 | Fichier: 0009_הלכות שבת_siman_251_brut.json | Titre: סימן רנא – שלא לעשות מלאכה בערב שבת אחר מנחה
+ID: 0010 | Fichier: 0010_הלכות שבת_siman_252_brut.json | Titre: סימן רנב – התחלת מלאכה המסתיימת בשבת
+ID: 0011 | Fichier: 0011_הלכות שבת_siman_253_brut.json | Titre: סימן רנג – שהיית תבשיל על כירה מערב שבת
+ID: 0012 | Fichier: 0012_הלכות שבת_siman_257_brut.json | Titre: סימן רנז – דיני הטמנה
+ID: 0013 | Fichier: 0013_הלכות שבת_siman_260_brut.json | Titre: סימן רס – דיני כניסת שבת
+ID: 0014 | Fichier: 0014_הלכות שבת_siman_261_brut.json | Titre: סימן רסא – דיני ספק חשיכה
+ID: 0015 | Fichier: 0015_הלכות שבת_siman_345_brut.json | Titre: סימן שמה – דין ארבע רשויות בשבת
+ID: 0016 | Fichier: 0016_הלכות שבת_siman_344_brut.json | Titre: סימן שמד – דין ההולך במדבר בשבת
+ID: 0017 | Fichier: 0017_הלכות שבת_siman_343_brut.json | Titre: סימן שמג – דין קטן בשבת
+ID: 0018 | Fichier: 0018_הלכות שבת_siman_342_brut.json | Titre: סימן שמב – דין בין השמשות
+ID: 0019 | Fichier: 0019_הלכות שבת_siman_341_brut.json | Titre: סימן שמא – היתר נדרים בשבת
+ID: 0020 | Fichier: 0020_הלכות שבת_siman_340_brut.json | Titre: סימן שמ – דין קורע ותולש בשבת
+ID: 0021 | Fichier: 0021_הלכות שבת_siman_340_brut.json | Titre: סימן שמ – דין תופר ומתיר
+ID: 0022 | Fichier: 0022_הלכות שבת_siman_340_brut.json | Titre: סימן שמ – דין כותב בשבת
+ID: 0023 | Fichier: 0023_הלכות שבת_siman_340_brut.json | Titre: סימן שמ – דין מוחק בשבת
+ID: 0024 | Fichier: 0024_הלכות שבת_siman_340_brut.json | Titre: סימן שמ – מלאכת גוזז
+ID: 0025 | Fichier: 0025_הלכות שבת_siman_339_brut.json | Titre: סימן שלט – כמה דינים פרטיים הנוהגים בשבת
+ID: 0026 | Fichier: 0026_הלכות שבת_siman_338_brut.json | Titre: סימן שלח – דברים האסורים משום השמעת קול
+ID: 0027 | Fichier: 0027_הלכות שבת_siman_337_brut.json | Titre: סימן שלז – דין כיבוד וניקוי הבית
+ID: 0028 | Fichier: 0028_הלכות שבת_siman_337_brut.json | Titre: סימן שלז – דין דבר שאינו מתכוין
+ID: 0029 | Fichier: 0029_הלכות שבת_siman_337_brut.json | Titre: סימן שלז – מלאכת חורש
+ID: 0030 | Fichier: 0030_הלכות שבת_siman_336_brut.json | Titre: סימן שלו – מלאכת זורע
+ID: 0031 | Fichier: 0031_הלכות שבת_siman_336_brut.json | Titre: סימן שלו – עלייה באילן ודריכה על עשבים בשבת
+ID: 0032 | Fichier: 0032_הלכות שבת_siman_336_brut.json | Titre: סימן שלו – מלאכת קוצר
+ID: 0033 | Fichier: 0033_הלכות שבת_siman_335_brut.json | Titre: סימן שלה – דין מעמר
+ID: 0034 | Fichier: 0034_הלכות שבת_siman_334_brut.json | Titre: סימן שלד – דיני דליקה בשבת
+ID: 0035 | Fichier: 0035_הלכות שבת_siman_331_brut.json | Titre: סימן שלא – הלכות מילה בשבת
+ID: 0036 | Fichier: 0036_הלכות שבת_siman_330_brut.json | Titre: סימן של – דיני יולדת בשבת
+ID: 0037 | Fichier: 0037_הלכות שבת_siman_395_brut.json | Titre: סימן שכט ס"ו – דין מלחמה בשבת
+ID: 0038 | Fichier: 0038_הלכות שבת_siman_329_brut.json | Titre: סימן שכט – תשלום לרופא על טיפול בשבת
+ID: 0039 | Fichier: 0039_הלכות שבת_siman_329_brut.json | Titre: סימן שכט – על מי מחללין את השבת
+ID: 0040 | Fichier: 0040_הלכות שבת_siman_328_brut.json | Titre: סימן שכח – דיני חולה שיש בו סכנה – בשבת
+ID: 0041 | Fichier: 0041_הלכות שבת_siman_328_brut.json | Titre: סימן שכח – דיני לקיחת תרופות בשבת
+ID: 0042 | Fichier: 0042_הלכות שבת_siman_328_brut.json | Titre: סימן שכח – דיני חולה שאין בו סכנה בשבת
+ID: 0043 | Fichier: 0043_הלכות שבת_siman_327_brut.json | Titre: סימן שכז – דיני סיכה בשבת
+ID: 0044 | Fichier: 0044_הלכות שבת_siman_326_brut.json | Titre: סימן שכו – צחצוח השינים בשבת
+ID: 0045 | Fichier: 0045_הלכות שבת_siman_326_brut.json | Titre: סימן שכו – דיני רחיצה בשבת
+ID: 0046 | Fichier: 0046_הלכות שבת_siman_325_brut.json | Titre: סימן שכה – איסור הנאה ממלאכת גוי בשבת
+ID: 0047 | Fichier: 0047_הלכות שבת_siman_324_brut.json | Titre: סימן שכד – דיני הכנת מאכל לבהמה בשבת
+ID: 0048 | Fichier: 0048_הלכות שבת_siman_323_brut.json | Titre: סימן שכג – הכנה משבת לחול
+ID: 0049 | Fichier: 0049_הלכות שבת_siman_323_brut.json | Titre: סימן שכג – איסור שנתערב בהיתר – בשבת
+ID: 0050 | Fichier: 0050_הלכות שבת_siman_323_brut.json | Titre: סימן שכג – דיני הדחת כלים וטבילתן בשבת
+ID: 0051 | Fichier: 0051_הלכות שבת_siman_323_brut.json | Titre: סימן שכג – דיני קנין צרכי שבת – בשבת
+ID: 0052 | Fichier: 0052_הלכות שבת_siman_322_brut.json | Titre: סימן שכב – דין מוליד ריח בשבת
+ID: 0053 | Fichier: 0053_הלכות שבת_siman_322_brut.json | Titre: סימן שכב – דין נולד בשבת
+ID: 0054 | Fichier: 0054_הלכות שבת_siman_321_brut.json | Titre: סימן שכא – תיקוני מאכל בשבת
+ID: 0055 | Fichier: 0055_הלכות שבת_siman_321_brut.json | Titre: סימן שכא – דיני טוחן ולש בשבת
+ID: 0056 | Fichier: 0056_הלכות שבת_siman_320_brut.json | Titre: סימן שכ – מלאכת צובע – ודיני צביעה באוכלין
+ID: 0057 | Fichier: 0057_הלכות שבת_siman_320_brut.json | Titre: סימן שכ – סחיטה בשאר דברים
+ID: 0058 | Fichier: 0058_הלכות שבת_siman_320_brut.json | Titre: סימן שכ – סחיטה על גבי מאכל
+ID: 0059 | Fichier: 0059_הלכות שבת_siman_320_brut.json | Titre: סימן שכ – דין סחיטת לימון
+ID: 0060 | Fichier: 0060_הלכות שבת_siman_320_brut.json | Titre: סימן שכ – דיני סחיטה בשבת, מלאכת דש
+ID: 0061 | Fichier: 0061_הלכות שבת_siman_319_brut.json | Titre: סימן שיט – מלאכת זורה
+ID: 0062 | Fichier: 0062_הלכות שבת_siman_319_brut.json | Titre: סימן שיט – דין ברירה בבגדים ובכלים
+ID: 0063 | Fichier: 0063_הלכות שבת_siman_319_brut.json | Titre: סימן שיט – ברירה בפירות וירקות
+ID: 0064 | Fichier: 0064_הלכות שבת_siman_319_brut.json | Titre: סימן שיט – עניני ברירה שבתוך הסעודה
+ID: 0065 | Fichier: 0065_הלכות שבת_siman_319_brut.json | Titre: סימן שיט – דין הבורר לצורך אחרים
+ID: 0066 | Fichier: 0066_הלכות שבת_siman_319_brut.json | Titre: סימן שיט – ברירה במשקין
+ID: 0067 | Fichier: 0067_הלכות שבת_siman_319_brut.json | Titre: סימן שיט – ברירה בשני מיני אוכלים
+ID: 0068 | Fichier: 0068_הלכות שבת_siman_319_brut.json | Titre: סימן שיט – הלכות בורר
+ID: 0069 | Fichier: 0069_הלכות שבת_siman_318_brut.json | Titre: סימן שיח – עוד מדיני בישול
+ID: 0070 | Fichier: 0070_הלכות שבת_siman_543_brut.json | Titre: סימן שיח סעיף ה – עשיית קפה בשבת
+ID: 0071 | Fichier: 0071_הלכות שבת_siman_318_brut.json | Titre: סימן שיח – בישול אחר אפייה וקליה
+ID: 0072 | Fichier: 0072_הלכות שבת_siman_318_brut.json | Titre: סימן שיח – דין בישול אחר בישול
+ID: 0073 | Fichier: 0073_הלכות שבת_siman_318_brut.json | Titre: סימן שיח – דיני כלי שני
+ID: 0074 | Fichier: 0074_הלכות שבת_siman_318_brut.json | Titre: סימן שיח – דין תתאה גבר
+ID: 0075 | Fichier: 0075_הלכות שבת_siman_318_brut.json | Titre: סימן שיח – דין בחישת תבשיל
+ID: 0076 | Fichier: 0076_הלכות שבת_siman_318_brut.json | Titre: סימן שיח – בישול אחר שרייה בכלי ראשון
+ID: 0077 | Fichier: 0077_הלכות שבת_siman_318_brut.json | Titre: סימן שיח – עשיית תה בשבת
+ID: 0078 | Fichier: 0078_הלכות שבת_siman_318_brut.json | Titre: סימן שיח – בישול בכלי ראשון
+ID: 0079 | Fichier: 0079_הלכות שבת_siman_318_brut.json | Titre: סימן שיח – בישול בחמה ותולדותיה
+ID: 0080 | Fichier: 0080_הלכות שבת_siman_318_brut.json | Titre: סימן שיח – בישול בתולדות האש
+ID: 0081 | Fichier: 0081_הלכות שבת_siman_588_brut.json | Titre: סימן שיח סעיף ג' והלאה – דיני בישול בשבת
+ID: 0082 | Fichier: 0082_הלכות שבת_siman_540_brut.json | Titre: סימן שיח סעיף ב – השוחט והמבשל לחולה
+ID: 0083 | Fichier: 0083_הלכות שבת_siman_539_brut.json | Titre: סימן שיח סעיף א' – דין הנאה ממעשה שבת
+ID: 0084 | Fichier: 0084_הלכות שבת_siman_317_brut.json | Titre: סימן שיז – מלאכת קושר ומתיר
+ID: 0085 | Fichier: 0085_הלכות שבת_siman_316_brut.json | Titre: סימן שטז – צידה בשבת, ודין חובל בשבת
+ID: 0086 | Fichier: 0086_הלכות שבת_siman_315_brut.json | Titre: סימן שטו – דברים האסורים משום אוהל
+ID: 0087 | Fichier: 0087_הלכות שבת_siman_314_brut.json | Titre: סימן שיד – איסור בנין וסתירה בשבת
+ID: 0088 | Fichier: 0088_הלכות שבת_siman_310_495_brut.json | Titre: סימן שי, תצה – דיני מוקצה ביום טוב
+ID: 0089 | Fichier: 0089_הלכות שבת_siman_308_brut.json | Titre: סימן שח – דין מוקצה מחמת מצוה
+ID: 0090 | Fichier: 0090_הלכות שבת_siman_536_brut.json | Titre: סימן שי סעיף ו' – בסיס לדבר האסור
+ID: 0091 | Fichier: 0091_הלכות שבת_siman_372_brut.json | Titre: סימן שח ס"ד – כלי שמלאכתו להיתר
+ID: 0092 | Fichier: 0092_הלכות שבת_siman_531_brut.json | Titre: סימן שח סעיף ג' – מוקצה בכלי שמלאכתו לאיסור
+ID: 0093 | Fichier: 0093_הלכות שבת_siman_534_brut.json | Titre: סימן שח סעיף ו' – מוקצה מחמת גופו
+ID: 0094 | Fichier: 0094_הלכות שבת_siman_901_brut.json | Titre: סימן שח סעיף א' בש"ע – מוקצה מחמת חסרון כיס
+ID: 0095 | Fichier: 0095_הלכות שבת_siman_325_307_brut.json | Titre: סימן שכה, שז – איסור הנאה ממלאכת גוי
+ID: 0096 | Fichier: 0096_הלכות שבת_siman_307_brut.json | Titre: סימן שז – אמירה לעכו"ם לצורך חולה
+ID: 0097 | Fichier: 0097_הלכות שבת_siman_307_brut.json | Titre: סימן שז – אמירה לעכו"ם במקום מצוה
+ID: 0098 | Fichier: 0098_הלכות שבת_siman_307_brut.json | Titre: סימן שז – אמירה לעכו"ם במקום צער
+ID: 0099 | Fichier: 0099_הלכות שבת_siman_307_brut.json | Titre: סימן שז – אמירה לגוי להנצל מהפסד וכדומה
+ID: 0100 | Fichier: 0100_הלכות שבת_siman_307_brut.json | Titre: סימן שז – עכו"ם העושה מלאכה מעצמו לצורך הישראל
+ID: 0101 | Fichier: 0101_הלכות שבת_siman_307_brut.json | Titre: סימן שז – אמירה לגוי בדבר שאינו מתכוין למלאכה
+ID: 0102 | Fichier: 0102_הלכות שבת_siman_307_brut.json | Titre: סימן שז – דין אמירה לגוי בשבת
+ID: 0103 | Fichier: 0103_הלכות שבת_siman_539_brut.json | Titre: סימן שז סעיף י"ב – מה מותר לקרוא בשבת
+ID: 0104 | Fichier: 0104_הלכות שבת_siman_528_brut.json | Titre: סימן שז סעיף א' – דיני שבת התלויים בדיבור
+ID: 0105 | Fichier: 0105_הלכות שבת_siman_905_brut.json | Titre: סימן שו סעיף ז' בש"ע – מקח וממכר בשבת
+ID: 0106 | Fichier: 0106_הלכות שבת_siman_530_brut.json | Titre: סימן שו סעיף ד' – דיני שכר שבת
+ID: 0107 | Fichier: 0107_הלכות שבת_siman_306_brut.json | Titre: סימן שו – באיזה חפצים מותר לעסוק בשבת
+ID: 0108 | Fichier: 0108_הלכות שבת_siman_305_brut.json | Titre: סימן שה – חליבת בהמה בשבת
+ID: 0109 | Fichier: 0109_הלכות שבת_siman_304_brut.json | Titre: סימן שד – במה בהמה יוצאת בשבת
+ID: 0110 | Fichier: 0110_הלכות שבת_siman_303_brut.json | Titre: סימן שג – תכשיטי אשה
+ID: 0111 | Fichier: 0111_הלכות שבת_siman_302_316_brut.json | Titre: סימן שב, שטז – מכה בפטיש בבגדים
+ID: 0112 | Fichier: 0112_הלכות שבת_siman_302_brut.json | Titre: סימן שב – ניקוי וקיפול הבגדים בשבת
+ID: 0113 | Fichier: 0113_הלכות שבת_siman_301_brut.json | Titre: סימן שא – דיני הוצאה בשבת
+ID: 0114 | Fichier: 0114_הלכות שבת_siman_301_brut.json | Titre: סימן שא – דין ריצה והתעמלות בשבת
+ID: 0115 | Fichier: 0115_הלכות שבת_siman_300_brut.json | Titre: סימן ש' – דין סעודה רביעית
+ID: 0116 | Fichier: 0116_הלכות שבת_siman_299_brut.json | Titre: סימן רצט – מלאכה קודם ההבדלה
+ID: 0117 | Fichier: 0117_הלכות שבת_siman_298_brut.json | Titre: סימן חצר [רצח] – דיני נר להבדלה
+ID: 0118 | Fichier: 0118_הלכות שבת_siman_296_brut.json | Titre: סימן רצו – דיני הבדלה על היין
+ID: 0119 | Fichier: 0119_הלכות שבת_siman_295_brut.json | Titre: סימן רצה – הבדלה שעושה השליח צבור
+ID: 0120 | Fichier: 0120_הלכות שבת_siman_294_brut.json | Titre: סימן רצד – דיני הבדלה בתפלה
+ID: 0121 | Fichier: 0121_הלכות שבת_siman_293_brut.json | Titre: סימן רצג – זמן צאת השבת
+ID: 0122 | Fichier: 0122_הלכות שבת_siman_293_brut.json | Titre: סימן רצג – דיני ערבית של מוצאי שבת
+ID: 0123 | Fichier: 0123_הלכות שבת_siman_292_brut.json | Titre: סימן רצב – דין תפלת מנחה בשבת
+ID: 0124 | Fichier: 0124_הלכות שבת_siman_291_brut.json | Titre: סימן רצא – דין סעודה שלישית בשבת
+ID: 0125 | Fichier: 0125_הלכות שבת_siman_290_brut.json | Titre: סימן רצ – להשלים מאה ברכות בשבת
+ID: 0126 | Fichier: 0126_הלכות שבת_siman_289_brut.json | Titre: סימן רפט – סדר סעודת שחרית של שבת
+ID: 0127 | Fichier: 0127_הלכות שבת_siman_288_brut.json | Titre: סימן רפח – דין תענית בשבת
+ID: 0128 | Fichier: 0128_הלכות שבת_siman_287_brut.json | Titre: סימן רפז – ניחום אבלים וביקור חולים בשבת
+ID: 0129 | Fichier: 0129_הלכות שבת_siman_286_brut.json | Titre: סימן רפו – דיני תפלת מוסף בשבת
+ID: 0130 | Fichier: 0130_הלכות שבת_siman_285_brut.json | Titre: סימן רפה – לקרוא הפרשה ב' מקרא וא' תרגום
+ID: 0131 | Fichier: 0131_הלכות שבת_siman_284_brut.json | Titre: סימן רפד – קצת מדיני ההפטרה
+ID: 0132 | Fichier: 0132_הלכות שבת_siman_282_brut.json | Titre: סימן רפב – דיני קריאת התורה בשבת
+ID: 0133 | Fichier: 0133_הלכות שבת_siman_281_brut.json | Titre: סימן רפא – דיני תפלת שחרית של שבת
+ID: 0134 | Fichier: 0134_הלכות שבת_siman_279_brut.json | Titre: סימן רעט – טלטול הנר בשבת
+ID: 0135 | Fichier: 0135_הלכות שבת_siman_278_brut.json | Titre: סימן רעח – כיבוי הנר בשביל החולה
+ID: 0136 | Fichier: 0136_הלכות שבת_siman_277_brut.json | Titre: סימן רעז – שלא לגרום כיבוי הנר
+ID: 0137 | Fichier: 0137_הלכות שבת_siman_276_brut.json | Titre: סימן רעו – דיני נר שהודלק על ידי גוי
+ID: 0138 | Fichier: 0138_הלכות שבת_siman_275_brut.json | Titre: סימן רעה – דברים האסורים לעשות לאור הנר
+ID: 0139 | Fichier: 0139_הלכות שבת_siman_274_brut.json | Titre: סימן רעד – דיני בציעת הפת בשבת
+ID: 0140 | Fichier: 0140_הלכות שבת_siman_273_brut.json | Titre: סימן רעג – דין קידוש במקום סעודה
+ID: 0141 | Fichier: 0141_הלכות שבת_siman_272_brut.json | Titre: סימן רע"ב – על איזה יין מקדשים
+ID: 0142 | Fichier: 0142_הלכות שבת_siman_271_brut.json | Titre: סימן רעא – דיני קידוש על היין
+ID: 0143 | Fichier: 0143_הלכות שבת_siman_270_brut.json | Titre: סימן ער – לומר "במה מדליקין"
+ID: 0144 | Fichier: 0144_הלכות שבת_siman_269_brut.json | Titre: סימן רסט – קידוש בבית הכנסת
+ID: 0145 | Fichier: 0145_הלכות שבת_siman_268_brut.json | Titre: סימן רסח – הטועה בתפלת השבת
+ID: 0146 | Fichier: 0146_הלכות שבת_siman_267_brut.json | Titre: סימן רסז – התפלה בערב שבת
+ID: 0147 | Fichier: 0147_הלכות שבת_siman_266_brut.json | Titre: סימן רסו – מציאה בשבת
+ID: 0148 | Fichier: 0148_הלכות שבת_siman_265_brut.json | Titre: סימן רסה – כלים הניתנים תחת הנר
+ID: 0149 | Fichier: 0149_הלכות שבת_siman_263_brut.json | Titre: סימן רסג – במה מדליקין
+ID: 0150 | Fichier: 0150_הלכות שבת_siman_263_brut.json | Titre: סימן רסג – מקום ההדלקה
+ID: 0151 | Fichier: 0151_הלכות שבת_siman_263_brut.json | Titre: סימן רסג – קבלת שבת בהדלקה
+ID: 0152 | Fichier: 0152_הלכות שבת_siman_263_brut.json | Titre: סימן רסג – זמן ההדלקה
+ID: 0153 | Fichier: 0153_הלכות שבת_siman_263_brut.json | Titre: סימן רסג – ברכת ההדלקה
+ID: 0154 | Fichier: 0154_הלכות שבת_siman_263_brut.json | Titre: סימן רסג – החייבים בהדלקה
+ID: 0155 | Fichier: 0155_הלכות שבת_siman_263_brut.json | Titre: סימן רסג – הלכות הדלקת נרות שבת
+ID: 0156 | Fichier: 0156_הלכות שבת_siman_262_brut.json | Titre: סימן רסב – לקדש השבת בשלחן ערוך -"כבוד שבת"
+ID: 0157 | Fichier: 0157_הלכות שחיטה_siman_25_brut.json | Titre: סימן כה – לבדוק הסימנים אחר השחיטה
+ID: 0158 | Fichier: 0158_הלכות שחיטה_siman_1_brut.json | Titre: סימן א' – הלכות שחיטה ומי הראויים לשחוט
+ID: 0159 | Fichier: 0159_הלכות שחיטה_siman_2_brut.json | Titre: סימן ב' – שחיטת מומר
+ID: 0160 | Fichier: 0160_הלכות שחיטה_siman_28_brut.json | Titre: סימן כח – דיני כיסוי הדם
+ID: 0161 | Fichier: 0161_הלכות שחיטה_siman_3_brut.json | Titre: סימן ג – כוונה בשחיטה
+ID: 0162 | Fichier: 0162_הלכות שחיטה_siman_6_10_brut.json | Titre: סימן ו , י – במה שוחטין
+ID: 0163 | Fichier: 0163_הלכות שחיטה_siman_11_brut.json | Titre: סימן יא – באיזה זמן שוחטין
+ID: 0164 | Fichier: 0164_הלכות שחיטה_siman_13_brut.json | Titre: סימן יג – איזה בעלי חיים צריכים שחיטה
+ID: 0165 | Fichier: 0165_הלכות שחיטה_siman_14_brut.json | Titre: סימן יד – דין עובר שנמצא במעי הבהמה
+ID: 0166 | Fichier: 0166_הלכות שחיטה_siman_15_brut.json | Titre: סימן טו – שחיטה קודם יום השמיני
+ID: 0167 | Fichier: 0167_הלכות שחיטה_siman_16_brut.json | Titre: סימן טז – דין אותו ואת בנו
+ID: 0168 | Fichier: 0168_הלכות שחיטה_siman_17_brut.json | Titre: סימן יז – דין השוחט את המסוכנת
+ID: 0169 | Fichier: 0169_הלכות שחיטה_siman_18_brut.json | Titre: סימן יח – דיני בדיקת הסכין
+ID: 0170 | Fichier: 0170_הלכות שחיטה_siman_19_brut.json | Titre: סימן יט – דיני ברכת השחיטה
+ID: 0171 | Fichier: 0171_הלכות שחיטה_siman_23_brut.json | Titre: סימן כג – דיני שהייה בשחיטה
+ID: 0172 | Fichier: 0172_הלכות שחיטה_siman_24_brut.json | Titre: סימן כד – דיני דרסה חלדה הגרמה ועיקור
+ID: 0176 | Fichier: 0176_הלכות תפילה_siman_99_brut.json | Titre: סימן צט – דין שיכור בתפלה
+ID: 0177 | Fichier: 0177_הלכות תפילה_siman_112_brut.json | Titre: סימן קיב – שאלת צרכיו בשלש ראשונות
+ID: 0178 | Fichier: 0178_הלכות תפילה_siman_100_brut.json | Titre: סימן ק – תפלות המועד צריך לסדר
+ID: 0179 | Fichier: 0179_הלכות תפילה_siman_113_brut.json | Titre: סימן קיג – דיני הכריעות בתפלת שמונה עשרה
+ID: 0180 | Fichier: 0180_הלכות תפילה_siman_89_brut.json | Titre: סימן פט – מהלכות תפלה וזמנה
+ID: 0181 | Fichier: 0181_הלכות תפילה_siman_101_brut.json | Titre: סימן קא – שיכול להתפלל בכל לשון
+ID: 0182 | Fichier: 0182_הלכות תפילה_siman_114_brut.json | Titre: סימן קיד – הלכות הזכרת טל ומטר
+ID: 0183 | Fichier: 0183_הלכות תפילה_siman_323_brut.json | Titre: סימן קא סעיף ב' – תפלה בלב
+ID: 0184 | Fichier: 0184_הלכות תפילה_siman_115_brut.json | Titre: סימן קטו – דין ברכת אתה חונן
+ID: 0185 | Fichier: 0185_הלכות תפילה_siman_102_brut.json | Titre: סימן קב – שלא להפסיק כנגד המתפלל
+ID: 0186 | Fichier: 0186_הלכות תפילה_siman_116_brut.json | Titre: סימן קטז – דין ברכת השיבנו, ראה נא בענינו, ורפאינו
+ID: 0187 | Fichier: 0187_הלכות תפילה_siman_104_brut.json | Titre: סימן קד – שלא להפסיק בתפלה
+ID: 0188 | Fichier: 0188_הלכות תפילה_siman_117_brut.json | Titre: סימן קיז – דיני שאלת טל ומטר
+ID: 0189 | Fichier: 0189_הלכות תפילה_siman_90_brut.json | Titre: סימן צ' – מקום התפלה
+ID: 0190 | Fichier: 0190_הלכות תפילה_siman_105_brut.json | Titre: סימן קה – דין המתפלל ב' תפלות
+ID: 0191 | Fichier: 0191_הלכות תפילה_siman_118_brut.json | Titre: סימן קיח – דיני ברכת השיבה
+ID: 0192 | Fichier: 0192_הלכות תפילה_siman_319_brut.json | Titre: סימן צ' סעיף ט' – דין תפלה בצבור
+ID: 0193 | Fichier: 0193_הלכות תפילה_siman_106_brut.json | Titre: סימן קו – דין מי הם החייבים בתפלה
+ID: 0194 | Fichier: 0194_הלכות תפילה_siman_119_brut.json | Titre: סימן קיט – הרוצה להוסיף בקשה בברכות
+ID: 0195 | Fichier: 0195_הלכות תפילה_siman_91_brut.json | Titre: סימן צא – לאזור מתניו ולכסות ראשו בעת התפלה
+ID: 0196 | Fichier: 0196_הלכות תפילה_siman_106_brut.json | Titre: המשך סימן קו – חינוך קטנים להתפלל
+ID: 0197 | Fichier: 0197_הלכות תפילה_siman_120_brut.json | Titre: סימן קכ – שראוי לומר רצה בכל תפלה
+ID: 0198 | Fichier: 0198_הלכות תפילה_siman_92_brut.json | Titre: סימן צב – הנצרך לנקביו – והכנות קודם התפלה
+ID: 0199 | Fichier: 0199_הלכות תפילה_siman_107_brut.json | Titre: סימן קז – המסופק אם התפלל ודין תפלת נדבה
+ID: 0200 | Fichier: 0200_הלכות תפילה_siman_121_brut.json | Titre: סימן קכא – דיני מודים
+ID: 0201 | Fichier: 0201_הלכות תפילה_siman_93_brut.json | Titre: סימן צג – הכנות לתפלה
+ID: 0202 | Fichier: 0202_הלכות תפילה_siman_122_brut.json | Titre: סימן קכב – דינים השייכים בין י"ח ליהיו לרצון
+ID: 0203 | Fichier: 0203_הלכות תפילה_siman_94_brut.json | Titre: סימן צד – לכוין כנגד ארץ ישראל – ודין סומא
+ID: 0204 | Fichier: 0204_הלכות תפילה_siman_107_brut.json | Titre: סימן קז – דין הטועה בתפלתו
+ID: 0205 | Fichier: 0205_הלכות תפילה_siman_123_brut.json | Titre: סימן קכג – דיני הכריעות בסיום שמונה עשרה
+ID: 0206 | Fichier: 0206_הלכות תפילה_siman_95_brut.json | Titre: סימן צה – לכוין את רגליו בתפלה
+ID: 0207 | Fichier: 0207_הלכות תפילה_siman_108_brut.json | Titre: סימן קח – הלכות תפלת תשלומין
+ID: 0208 | Fichier: 0208_הלכות תפילה_siman_124_brut.json | Titre: סימן קכד – דיני החזרה ועניית אמן
+ID: 0209 | Fichier: 0209_הלכות תפילה_siman_96_brut.json | Titre: סימן צו – למנוע טרדות כדי שיכוין
+ID: 0210 | Fichier: 0210_הלכות תפילה_siman_109_brut.json | Titre: סימן קט – יחיד אומר קדושה עם הש"צ
+ID: 0211 | Fichier: 0211_הלכות תפילה_siman_125_brut.json | Titre: סימן קכה – הלכות קדושה
+ID: 0212 | Fichier: 0212_הלכות תפילה_siman_97_brut.json | Titre: סימן צז – שלא לגהק בתפלה
+ID: 0213 | Fichier: 0213_הלכות תפילה_siman_110_brut.json | Titre: סימן קי – היוצא לדרך מתפלל תפלת הדרך, ודין תפלה לפועלים
+ID: 0214 | Fichier: 0214_הלכות תפילה_siman_126_brut.json | Titre: סימן קכו – שליח צבור שטעה [ראה עוד לעיל עמוד ריד]
+ID: 0215 | Fichier: 0215_הלכות תפילה_siman_98_101_brut.json | Titre: סימן צח, קא – דיני כוונה בתפלה
+ID: 0216 | Fichier: 0216_הלכות תפילה_siman_111_brut.json | Titre: סימן קיא – דין סמיכות גאולה לתפלה
+ID: 0217 | Fichier: 0217_הלכות תפילה_siman_127_brut.json | Titre: סימן קכז – דיני מודים דרבנן
+ID: 0218 | Fichier: 0218_הלכות תפילות המנחה_siman_232_brut.json | Titre: סימן רלב – הלכות מנחה
+ID: 0219 | Fichier: 0219_הלכות תפילות המנחה_siman_233_brut.json | Titre: סימן רלג – זמן תפלת מנחה
+ID: 0220 | Fichier: 0220_הלכות תפילות המנחה_siman_234_brut.json | Titre: סימן רלד – לא התפלל מנחה
+ID: 0221 | Fichier: 0221_הלכות תפילין_siman_260_brut.json | Titre: סימן לז סעיף ג – חינוך קטן במצות תפילין
+ID: 0222 | Fichier: 0222_הלכות תפילין_siman_25_brut.json | Titre: סימן כה – הלכות תפילין
+ID: 0223 | Fichier: 0223_הלכות תפילין_siman_38_brut.json | Titre: סימן לח – מי הם החייבים בתפילין
+ID: 0224 | Fichier: 0224_הלכות תפילין_siman_26_brut.json | Titre: סימן כו – מי שאין לו אלא תפלה אחת
+ID: 0225 | Fichier: 0225_הלכות תפילין_siman_39_brut.json | Titre: סימן לט – תפירת ספר תורה על ידי אשה
+ID: 0226 | Fichier: 0226_הלכות תפילין_siman_27_brut.json | Titre: סימן כז – מקום הנחתן ואופן הנחתן
+ID: 0227 | Fichier: 0227_הלכות תפילין_siman_28_brut.json | Titre: סימן כח – דיני חליצת תפילין – ושלא יסיח דעתו
+ID: 0228 | Fichier: 0228_הלכות תפילין_siman_29_brut.json | Titre: סימן כט – שלא לברך בעת חליצת התפילין
+ID: 0229 | Fichier: 0229_הלכות תפילין_siman_40_brut.json | Titre: סימן מ – לנהוג קדושה בתפילין
+ID: 0230 | Fichier: 0230_הלכות תפילין_siman_30_brut.json | Titre: סימן ל – זמן הנחתן
+ID: 0231 | Fichier: 0231_הלכות תפילין_siman_42_brut.json | Titre: סימן מב – לשנות תפילין של ראש לשל יד
+ID: 0232 | Fichier: 0232_הלכות תפילין_siman_31_brut.json | Titre: סימן לא – דין תפילין בשבת, ויום טוב וחול המועד
+ID: 0233 | Fichier: 0233_הלכות תפילין_siman_44_brut.json | Titre: סימן מד – איסור שינה בתפילין, ותפילין שנפלו מידו
+ID: 0234 | Fichier: 0234_הלכות תפילין_siman_32_brut.json | Titre: סימן לב – טעויות הנמצאות בתפילין ובספר תורה
+ID: 0235 | Fichier: 0235_הלכות תפילין_siman_45_brut.json | Titre: סימן מה – דין תפילין בבית הקברות ובבית המרחץ
+ID: 0236 | Fichier: 0236_הלכות תפילין_siman_32_33_brut.json | Titre: סימן לב-לג – דין תיקוני התפילין והרצועות
+ID: 0237 | Fichier: 0237_הלכות תפילין_siman_34_brut.json | Titre: סימן לד – מהלכות תפילין דרבינו תם
+ID: 0238 | Fichier: 0238_הלכות תפילין_siman_35_brut.json | Titre: סימן לה – דין מנין השורות
+ID: 0239 | Fichier: 0239_הלכות תפילין_siman_36_brut.json | Titre: סימן לו – דקדוק כתיבתן והתגין
+ID: 0240 | Fichier: 0240_הלכות תפילין_siman_37_brut.json | Titre: סימן לז – בשבח מצות תפילין, וזמן מצות תפילין
+ID: 0241 | Fichier: 0241_הלכות תפילין_siman_259_brut.json | Titre: סימן לז סעיף ב – שלא להפיח עם התפילין
+ID: 0242 | Fichier: 0242_הלכות תשעה באב ושאר תעניות_siman_559_brut.json | Titre: סימן תקנט – סדר התפלות בתשעה באב
+ID: 0243 | Fichier: 0243_הלכות תשעה באב ושאר תעניות_siman_557_brut.json | Titre: סימן תקנז – נחם ועננו בתפלות ט' באב
+ID: 0244 | Fichier: 0244_הלכות תשעה באב ושאר תעניות_siman_556_brut.json | Titre: סימן תקנו – דיני תשעה באב שחל במוצאי שבת
+ID: 0245 | Fichier: 0245_הלכות תשעה באב ושאר תעניות_siman_555_brut.json | Titre: סימן תקנה – ציצית ותפלין בתשעה באב
+ID: 0246 | Fichier: 0246_הלכות תשעה באב ושאר תעניות_siman_554_brut.json | Titre: סימן תקנד – דברים האסורים בתשעה באב
+ID: 0247 | Fichier: 0247_הלכות תשעה באב ושאר תעניות_siman_551_brut.json | Titre: סימן תקנא – ערב תשעה באב וסעודה המפסקת
+ID: 0248 | Fichier: 0248_הלכות תשעה באב ושאר תעניות_siman_551_brut.json | Titre: סימן תקנא – דיני שבת חזון
+ID: 0249 | Fichier: 0249_הלכות תשעה באב ושאר תעניות_siman_551_brut.json | Titre: סימן תקנא – דיני שבוע שחל בו תשעה באב
+ID: 0250 | Fichier: 0250_הלכות תשעה באב ושאר תעניות_siman_551_brut.json | Titre: סימן תקנא – דינים השייכים מראש חודש אב
+ID: 0251 | Fichier: 0251_הלכות תשעה באב ושאר תעניות_siman_551_brut.json | Titre: סימן תקנא – ממנהגי ימי בין המצרים
+ID: 0252 | Fichier: 0252_הלכות תשעה באב ושאר תעניות_siman_550_brut.json | Titre: סימן תקנ – הבדל שבין תשעה באב ליתר הצומות
+ID: 0253 | Fichier: 0253_הלכות תשעה באב ושאר תעניות_siman_549_brut.json | Titre: סימן תקמט – להתענות ד' צומות
+ID: 0254 | Fichier: 0254_כללי_siman_1_brut.json | Titre: סימן א – הלכות השכמת הבוקר
+ID: 0255 | Fichier: 0255_כללי_siman_685_brut.json | Titre: סימן תרפה – מדיני ד' פרשיות – פרשת שקלים
+ID: 0256 | Fichier: 0256_כללי_siman_685_brut.json | Titre: סימן תרפה – פרשת זכור
+ID: 0277 | Fichier: 0277_הלכות פסח_siman_490_brut.json | Titre: סימן תצ – סדר התפלות בחול המועד
+ID: 0278 | Fichier: 0278_הלכות פסח_siman_489_brut.json | Titre: סימן תפט – הלכות ספירת העומר
+ID: 0279 | Fichier: 0279_הלכות פסח_siman_488_brut.json | Titre: סימן תפח – הלכות יום טוב של חג הפסח
+ID: 0280 | Fichier: 0280_הלכות פסח_siman_487_brut.json | Titre: סימן תפז – דיני תפלת ליל פסח
+ID: 0281 | Fichier: 0281_הלכות פסח_siman_481_brut.json | Titre: סימן תפא – אכילת מצה בימי הפסח
+ID: 0282 | Fichier: 0282_הלכות פסח_siman_480_brut.json | Titre: סימן תפ – הלל
+ID: 0283 | Fichier: 0283_הלכות פסח_siman_479_brut.json | Titre: סימן תעט – ברך
+ID: 0284 | Fichier: 0284_הלכות פסח_siman_477_brut.json | Titre: סימן תעז – צפון
+ID: 0285 | Fichier: 0285_הלכות פסח_siman_475_brut.json | Titre: סימן תעה – שלחן עורך
+ID: 0286 | Fichier: 0286_הלכות פסח_siman_475_brut.json | Titre: סימן תעה – כורך
+ID: 0287 | Fichier: 0287_הלכות פסח_siman_473_brut.json | Titre: סימן תעג – מרור
+ID: 0288 | Fichier: 0288_הלכות פסח_siman_475_brut.json | Titre: סימן תעה – מוציא מצה
+ID: 0289 | Fichier: 0289_הלכות פסח_siman_476_brut.json | Titre: סימן תעו – אכילת צלי בליל פסח
+ID: 0290 | Fichier: 0290_הלכות פסח_siman_475_brut.json | Titre: סימן תעה – יתר דיני הסדר רחצה
+ID: 0291 | Fichier: 0291_הלכות פסח_siman_474_brut.json | Titre: סימן תעד – ברכה על כוס שני
+ID: 0292 | Fichier: 0292_הלכות פסח_siman_473_brut.json | Titre: סימן תעג – מגיד
+ID: 0293 | Fichier: 0293_הלכות פסח_siman_473_brut.json | Titre: סימן תעג – דיני כוס ראשון וסדר הפסח עד כוס שני יחץ
+ID: 0294 | Fichier: 0294_הלכות פסח_siman_473_brut.json | Titre: סימן תעג – כרפס
+ID: 0295 | Fichier: 0295_הלכות פסח_siman_473_brut.json | Titre: סימן תעג – כוס ראשון ושני ורחץ
+ID: 0296 | Fichier: 0296_הלכות פסח_siman_472_473_474_475_476_477_478_479_480_brut.json | Titre: סימן תעב-תפ – דיני היסבה וארבע כוסות קדש
+ID: 0297 | Fichier: 0297_הלכות פסח_siman_471_brut.json | Titre: סימן תעא – אכילה בערב פסח
+ID: 0298 | Fichier: 0298_הלכות פסח_siman_470_brut.json | Titre: סימן תע – תענית בכורות בערב פסח
+ID: 0299 | Fichier: 0299_הלכות פסח_siman_469_brut.json | Titre: סימן תסט – אמירת בשר זה לפסח
+ID: 0300 | Fichier: 0300_הלכות פסח_siman_468_brut.json | Titre: סימן תסח – הלכות ערב פסח
+ID: 0301 | Fichier: 0301_הלכות פסח_siman_467_brut.json | Titre: סימן תסז – פירות ומצרכי מזון לפסח
+ID: 0302 | Fichier: 0302_הלכות פסח_siman_462_brut.json | Titre: סימן תסב – דין מצה עשירה
+ID: 0303 | Fichier: 0303_הלכות פסח_siman_460_brut.json | Titre: סימן תס – דין מצת מצוה
+ID: 0304 | Fichier: 0304_הלכות פסח_siman_458_brut.json | Titre: סימן תנח – אפייה בערב פסח
+ID: 0305 | Fichier: 0305_הלכות פסח_siman_456_457_458_459_brut.json | Titre: סימן תנו-תנט – דיני לישת ואפיית המצה
+ID: 0306 | Fichier: 0306_הלכות פסח_siman_456_brut.json | Titre: סימן תנו – לישה יותר מכשיעור, והפרשת חלה מהמצות
+ID: 0307 | Fichier: 0307_הלכות פסח_siman_455_brut.json | Titre: סימן תנה – דין מים שלנו
+ID: 0308 | Fichier: 0308_הלכות פסח_siman_1049_brut.json | Titre: סימן תנג סעיף ד' בש"ע – דין החטים למצת מצוה
+ID: 0309 | Fichier: 0309_הלכות פסח_siman_453_brut.json | Titre: סימן תנג – אורז בפסח
+ID: 0310 | Fichier: 0310_הלכות פסח_siman_452_brut.json | Titre: סימן תנב – מתי זמן הגעלת הכלים לפסח
+ID: 0311 | Fichier: 0311_הלכות פסח_siman_451_brut.json | Titre: סימן תנא – דיני הגעלת כלים
+ID: 0312 | Fichier: 0312_הלכות פסח_siman_450_brut.json | Titre: סימן תנ – ישראל וגוי שיש להם שותפות
+ID: 0313 | Fichier: 0313_הלכות פסח_siman_671_brut.json | Titre: סימן תמח סעיף ג' – מכירת חמץ
+ID: 0314 | Fichier: 0314_הלכות פסח_siman_448_brut.json | Titre: סימן תמח – חמץ שעבר עליו הפסח
+ID: 0315 | Fichier: 0315_הלכות פסח_siman_447_brut.json | Titre: סימן תמז – דין נותן טעם לפגם
+ID: 0316 | Fichier: 0316_הלכות פסח_siman_447_brut.json | Titre: סימן תמז – תערובת חמץ בפסח
+ID: 0317 | Fichier: 0317_הלכות פסח_siman_446_brut.json | Titre: סימן תמו – המוצא חמץ במועד
+ID: 0318 | Fichier: 0318_הלכות פסח_siman_445_brut.json | Titre: סימן תמה – דין ביעור חמץ
+ID: 0319 | Fichier: 0319_הלכות פסח_siman_444_brut.json | Titre: סימן תמד – ערב פסח שחל בשבת
+ID: 0320 | Fichier: 0320_הלכות פסח_siman_443_brut.json | Titre: סימן תמג – דין חמץ בערב פסח
+ID: 0321 | Fichier: 0321_הלכות פסח_siman_442_brut.json | Titre: סימן תמב – דין תערובת חמץ
+ID: 0322 | Fichier: 0322_הלכות פסח_siman_440_brut.json | Titre: סימן תמ – חמץ של גוי אצל ישראל
+ID: 0323 | Fichier: 0323_הלכות פסח_siman_438_brut.json | Titre: סימן תלח – תינוק שנכנס לבית בדוק עם פתו בידו
+ID: 0324 | Fichier: 0324_הלכות פסח_siman_437_brut.json | Titre: סימן תלז – המשכיר בית לחבירו
+ID: 0325 | Fichier: 0325_הלכות פסח_siman_436_brut.json | Titre: סימן תלו – דין המפרש בים
+ID: 0326 | Fichier: 0326_הלכות פסח_siman_435_brut.json | Titre: סימן תלה – מי שלא בדק בליל י"ד
+ID: 0327 | Fichier: 0327_הלכות פסח_siman_434_brut.json | Titre: סימן תלד – דינים הנוהגים אחר הבדיקה
+ID: 0328 | Fichier: 0328_הלכות פסח_siman_433_brut.json | Titre: סימן תלג – דיני בדיקת חמץ
+ID: 0329 | Fichier: 0329_הלכות פסח_siman_432_brut.json | Titre: סימן תלב – דין ברכת הבדיקה
+ID: 0330 | Fichier: 0330_הלכות פסח_siman_430_brut.json | Titre: סימן תל – שבת הגדול
+ID: 0331 | Fichier: 0331_הלכות פסח_siman_429_brut.json | Titre: סימן תכט – אמירת וידוי בניסן
+ID: 0333 | Fichier: 0333_הלכות צדקה_siman_247_259_brut.json | Titre: סימן רמז, רנט – קצת מהלכות צדקה
+ID: 0334 | Fichier: 0334_הלכות ציצית_siman_22_brut.json | Titre: סימן כב – דין ברכת שהחיינו על טלית
+ID: 0335 | Fichier: 0335_הלכות ציצית_siman_8_brut.json | Titre: סימן ח' – מהלכות ציצית – סדר עטיפת הציצית
+ID: 0336 | Fichier: 0336_הלכות ציצית_siman_23_brut.json | Titre: סימן כג – דין ציצית בבית הקברות
+ID: 0337 | Fichier: 0337_הלכות ציצית_siman_9_brut.json | Titre: סימן ט – איזה בגדים חייבים בציצית
+ID: 0338 | Fichier: 0338_הלכות ציצית_siman_24_brut.json | Titre: סימן כד – שכר מצות ציצית
+ID: 0339 | Fichier: 0339_הלכות ציצית_siman_10_brut.json | Titre: סימן י – דיני כנפות הטלית
+ID: 0340 | Fichier: 0340_הלכות ציצית_siman_11_brut.json | Titre: סימן יא – דין חוטי הציצית
+ID: 0341 | Fichier: 0341_הלכות ציצית_siman_12_brut.json | Titre: סימן יב – דברים הפוסלים בציצית
+ID: 0342 | Fichier: 0342_הלכות ציצית_siman_13_brut.json | Titre: סימן יג – דין ציצית בשבת
+ID: 0343 | Fichier: 0343_הלכות ציצית_siman_14_brut.json | Titre: סימן יד – מי הראוי לעשיית ציצית
+ID: 0344 | Fichier: 0344_הלכות ציצית_siman_237_brut.json | Titre: סימן יד סעיף ג' – דין טלית שאולה
+ID: 0345 | Fichier: 0345_הלכות ציצית_siman_15_brut.json | Titre: סימן טו – התרת ציצית מבגד לבגד
+ID: 0346 | Fichier: 0346_הלכות ציצית_siman_16_brut.json | Titre: סימן טז – שיעור טלית – ודין טלית קטן
+ID: 0347 | Fichier: 0347_הלכות ציצית_siman_17_brut.json | Titre: סימן יז – מי הם החייבים בציצית
+ID: 0348 | Fichier: 0348_הלכות ציצית_siman_18_brut.json | Titre: סימן יח – זמן ציצית
+ID: 0349 | Fichier: 0349_הלכות ציצית_siman_19_brut.json | Titre: סימן יט – ציצית חובת גברא
+ID: 0350 | Fichier: 0350_הלכות ציצית_siman_20_brut.json | Titre: סימן כ – לקיחת טלית מגוי
+ID: 0351 | Fichier: 0351_הלכות ציצית_siman_21_brut.json | Titre: סימן כא – דין חוטי ציצית שנפסלו
+ID: 0352 | Fichier: 0352_הלכות קריאת ספר תורה_siman_147_brut.json | Titre: סימן קמז – דיני גלילת הספר תורה
+ID: 0353 | Fichier: 0353_הלכות קריאת ספר תורה_siman_134_brut.json | Titre: סימן קלד – סדר הוצאת והגבהת הספר תורה
+ID: 0354 | Fichier: 0354_הלכות קריאת ספר תורה_siman_149_brut.json | Titre: סימן קמט – שמירת הספר תורה, וליווי הספר תורה לארון
+ID: 0355 | Fichier: 0355_הלכות קריאת ספר תורה_siman_135_brut.json | Titre: סימן קלה – חיוב הקריאה וטלטול הס"ת
+ID: 0356 | Fichier: 0356_הלכות קריאת ספר תורה_siman_135_brut.json | Titre: סימן קלה – סדר העולים לספר תורה
+ID: 0357 | Fichier: 0357_הלכות קריאת ספר תורה_siman_136_brut.json | Titre: סימן קלו – מי הם הנקראים לתורה בשבת
+ID: 0358 | Fichier: 0358_הלכות קריאת ספר תורה_siman_137_brut.json | Titre: סימן קלז – כמה פסוקים צריכים לקרוא
+ID: 0359 | Fichier: 0359_הלכות קריאת ספר תורה_siman_138_brut.json | Titre: סימן קלח – שלא לסיים סמוך לפרשה
+ID: 0360 | Fichier: 0360_הלכות קריאת ספר תורה_siman_139_brut.json | Titre: סימן קלט – סדר הקריאה והברכות
+ID: 0361 | Fichier: 0361_הלכות קריאת ספר תורה_siman_140_brut.json | Titre: סימן קמ – דיני הפסק בברכות התורה
+ID: 0362 | Fichier: 0362_הלכות קריאת ספר תורה_siman_141_brut.json | Titre: סימן קמא – דיני קורא ומקרא
+ID: 0363 | Fichier: 0363_הלכות קריאת ספר תורה_siman_142_brut.json | Titre: סימן קמב – דיני הטועה בקריאת התורה
+ID: 0364 | Fichier: 0364_הלכות קריאת ספר תורה_siman_143_brut.json | Titre: סימן קמג – קריאת התורה בעשרה
+ID: 0365 | Fichier: 0365_הלכות קריאת ספר תורה_siman_143_brut.json | Titre: סימן קמג – אם נמצא טעות בספר תורה
+ID: 0366 | Fichier: 0366_הלכות קריאת ספר תורה_siman_144_brut.json | Titre: סימן קמד – שלא לגלול הספר תורה
+ID: 0367 | Fichier: 0367_הלכות קריאת ספר תורה_siman_144_brut.json | Titre: סימן קמד – דיני ההפטרה
+ID: 0368 | Fichier: 0368_הלכות קריאת ספר תורה_siman_151_brut.json | Titre: סימן קמה-ו – התנהגות הצבור בעת קריאת התורה
+ID: 0369 | Fichier: 0369_הלכות קריאת שמע_siman_76_brut.json | Titre: סימן עו – והיה מחניך קדוש – להזהר מצואה בעת שמברך
+ID: 0370 | Fichier: 0370_הלכות קריאת שמע_siman_58_brut.json | Titre: סימן נח – מהלכות קריאת שמע
+ID: 0371 | Fichier: 0371_הלכות קריאת שמע_siman_84_brut.json | Titre: סימן פד – לקרוא קריאת שמע בבית המרחץ
+ID: 0372 | Fichier: 0372_הלכות קריאת שמע_siman_59_brut.json | Titre: סימן נט – הלכות ברכות ק"ש
+ID: 0373 | Fichier: 0373_הלכות קריאת שמע_siman_88_brut.json | Titre: סימן פח – בעל קרי מותר בקריאת שמע ותורה
+ID: 0374 | Fichier: 0374_הלכות קריאת שמע_siman_60_brut.json | Titre: סימן ס' – דין כוונה במצוות
+ID: 0375 | Fichier: 0375_הלכות קריאת שמע_siman_61_brut.json | Titre: סימן סא – לדקדק ולכוין בקריאת שמע
+ID: 0376 | Fichier: 0376_הלכות קריאת שמע_siman_62_brut.json | Titre: סימן סב – לא דקדק באותיותיה
+ID: 0377 | Fichier: 0377_הלכות קריאת שמע_siman_63_brut.json | Titre: סימן סג – לישב בשעת קריאת שמע
+ID: 0378 | Fichier: 0378_הלכות קריאת שמע_siman_64_brut.json | Titre: סימן סד – דין הטועה בקריאת שמע
+ID: 0379 | Fichier: 0379_הלכות קריאת שמע_siman_65_brut.json | Titre: סימן סה – הנכנס לבית הכנסת ומצא צבור קורין ק"ש
+ID: 0380 | Fichier: 0380_הלכות קריאת שמע_siman_66_brut.json | Titre: סימן סו – באיזה מקום יכול להפסיק בקריאת שמע
+ID: 0381 | Fichier: 0381_הלכות קריאת שמע_siman_67_brut.json | Titre: סימן סז – ספק קרא קריאת שמע
+ID: 0382 | Fichier: 0382_הלכות קריאת שמע_siman_68_brut.json | Titre: סימן סח – שלא להפסיק בפיוטים
+ID: 0383 | Fichier: 0383_הלכות קריאת שמע_siman_69_brut.json | Titre: סימן סט – דין הפורס על שמע
+ID: 0384 | Fichier: 0384_הלכות קריאת שמע_siman_70_brut.json | Titre: סימן ע – מי הם הפטורים מקריאת שמע
+ID: 0385 | Fichier: 0385_הלכות קריאת שמע_siman_71_brut.json | Titre: סימן עא – דין אונן בתפלה
+ID: 0386 | Fichier: 0386_הלכות קריאת שמע_siman_75_brut.json | Titre: סימן עה – ולא יראה בך ערות דבר
+ID: 0387 | Fichier: 0387_הלכות קריאת שמע של ערבית_siman_235_brut.json | Titre: סימן רלה – זמן קריאת שמע של ערבית
+ID: 0388 | Fichier: 0388_הלכות קריאת שמע של ערבית_siman_243_brut.json | Titre: סימן רלו-ז – ברכות קריאת שמע של ערבית
+ID: 0389 | Fichier: 0389_הלכות קריאת שמע של ערבית_siman_238_brut.json | Titre: סימן רלח – לקבוע עתים לתורה בלילה
+ID: 0390 | Fichier: 0390_הלכות קריאת שמע של ערבית_siman_239_brut.json | Titre: סימן רלט – דין קריאת שמע שעל המטה
+ID: 0391 | Fichier: 0391_הלכות ראש השנה_siman_597_brut.json | Titre: סימן תקצז – אם מותר להתענות בראש השנה
+ID: 0392 | Fichier: 0392_הלכות ראש השנה_siman_598_brut.json | Titre: סימן תקצח – ראש השנה שחל בשבת
+ID: 0395 | Fichier: 0395_הלכות ראש השנה_siman_601_brut.json | Titre: סימן תרא – סדר יום שני של ר"ה, וצום גדליה
+ID: 0396 | Fichier: 0396_הלכות ראש השנה_siman_582_602_brut.json | Titre: סימן תקפב, תרב – מהלכות עשרת ימי תשובה
+ID: 0397 | Fichier: 0397_הלכות ראש השנה_siman_600_brut.json | Titre: סימן תר – קידוש ותפלת ליל שני של ראש השנה
+ID: 0400 | Fichier: 0400_הלכות ראש השנה_siman_585_brut.json | Titre: סימן תקפה – הלכות ברכת השופר
+ID: 0408 | Fichier: 0408_הלכות ראש חודש_siman_431_brut.json | Titre: סימן תלא – זמן בדיקת חמץ
+ID: 0409 | Fichier: 0409_הלכות ראש חודש_siman_426_brut.json | Titre: סימן תכו – זמן ברכת הלבנה
+ID: 0410 | Fichier: 0410_הלכות ראש חודש_siman_426_brut.json | Titre: סימן תכו – מקום הברכה
+ID: 0411 | Fichier: 0411_הלכות ראש חודש_siman_426_brut.json | Titre: סימן תכו – סדר ברכת הלבנה
+ID: 0412 | Fichier: 0412_הלכות ראש חודש_siman_426_brut.json | Titre: סימן תכו – החייבים בברכת הלבנה
+ID: 0413 | Fichier: 0413_הלכות ראש חודש_siman_426_brut.json | Titre: סימן תכו – דיני ברכת הלבנה
+ID: 0414 | Fichier: 0414_הלכות ראש חודש_siman_425_brut.json | Titre: סימן תכה – דיני ראש חודש שחל בשבת
+ID: 0415 | Fichier: 0415_הלכות ראש חודש_siman_424_brut.json | Titre: סימן תכד – יעלה ויבוא בברכת המזון
+ID: 0416 | Fichier: 0416_הלכות ראש חודש_siman_423_brut.json | Titre: סימן תכג – תפלת מוסף בראש חודש
+ID: 0417 | Fichier: 0417_הלכות ראש חודש_siman_423_brut.json | Titre: סימן תכג – קריאת התורה בראש חודש
+ID: 0418 | Fichier: 0418_הלכות ראש חודש_siman_422_brut.json | Titre: סימן תכב – קריאת ההלל בראש חודש
+ID: 0419 | Fichier: 0419_הלכות ראש חודש_siman_421_422_brut.json | Titre: סימן תכא-תכב – שחרית ומנחה בראש חודש
+ID: 0420 | Fichier: 0420_הלכות ראש חודש_siman_418_brut.json | Titre: סימן תיח – תפלת ערבית של ערב ראש חודש
+ID: 0421 | Fichier: 0421_הלכות ראש חודש_siman_418_brut.json | Titre: סימן תיח – דין תענית ואזכרה בראש חודש
+ID: 0422 | Fichier: 0422_הלכות ראש חודש_siman_417_brut.json | Titre: סימן תיז – דיני ערב ראש חודש
+ID: 0423 | Fichier: 0423_הלכות רבית_siman_159_brut.json | Titre: סימן קנט – מהלכות רבית
+ID: 0424 | Fichier: 0424_הלכות רבית_siman_159_brut.json | Titre: סימן קנט – דיני רבית דברים
+ID: 0429 | Fichier: 0429_הלכות אבלות דיני אבלות_siman_35_brut.json | Titre: סימן לה – הנהגות האבל ביום השבעה
+ID: 0442 | Fichier: 0442_הלכות אבלות דיני אבלות_siman_9_brut.json | Titre: סימן ט – דיני קריעה
+ID: 0490 | Fichier: 0490_הלכות בית הכנסת_siman_150_brut.json | Titre: סימן קנ – מדיני בניית בית הכנסת
+ID: 0491 | Fichier: 0491_הלכות בית הכנסת_siman_151_brut.json | Titre: סימן קנא – דיני קדושת בית הכנסת
+ID: 0492 | Fichier: 0492_הלכות בית הכנסת_siman_152_brut.json | Titre: סימן קנב – סתירת בית כנסת
+ID: 0493 | Fichier: 0493_הלכות בית הכנסת_siman_153_brut.json | Titre: סימן קנג – סתירת ומכירת בית הכנסת
+ID: 0494 | Fichier: 0494_הלכות בית הכנסת_siman_154_brut.json | Titre: סימן קנד – תשמישי קדושה ונרות בית כנסת
+ID: 0495 | Fichier: 0495_הלכות בית הכנסת_siman_155_brut.json | Titre: סימן קנה – לילך לבית המדרש
+ID: 0496 | Fichier: 0496_הלכות בית הכנסת_siman_156_brut.json | Titre: סימן קנו – סדר משא ומתן
+ID: 0497 | Fichier: 0497_הלכות בציעת הפת_siman_166_brut.json | Titre: סימן קסו – הפסקה בין בציעה לנטילה
+ID: 0498 | Fichier: 0498_הלכות בציעת הפת_siman_167_brut.json | Titre: סימן קסז – דיני בציעת הפת
+ID: 0499 | Fichier: 0499_הלכות בציעת הפת_siman_168_brut.json | Titre: סימן קסח – על איזה פת מברכין
+ID: 0500 | Fichier: 0500_הלכות ברכות_siman_222_brut.json | Titre: סימן רכב – דיני ברכת הודאת הטוב והרע
+ID: 0501 | Fichier: 0501_הלכות ברכות_siman_223_224_225_brut.json | Titre: סימן רכג-רכה – ברכת שהחיינו וקצת ברכות פרטיות (קנה כלים חדשים)
+ID: 0502 | Fichier: 0502_הלכות ברכות_siman_225_brut.json | Titre: סימן רכה – עוד מדיני ברכת שהחיינו
+ID: 0503 | Fichier: 0503_הלכות ברכות_siman_226_brut.json | Titre: סימן רכו – דיני ברכת האילנות
+ID: 0504 | Fichier: 0504_הלכות ברכות_siman_227_228_229_brut.json | Titre: סימן רכז-רכט – ברכה על ברקים ורעמים
+ID: 0505 | Fichier: 0505_הלכות ברכות_siman_228_brut.json | Titre: סימן רכח – ברכת הים הגדול
+ID: 0506 | Fichier: 0506_הלכות ברכות_siman_229_brut.json | Titre: סימן רכט – דיני ברכת הקשת והחמה
+ID: 0507 | Fichier: 0507_הלכות ברכות_siman_230_231_brut.json | Titre: סימן רל, רלא – ברכות פרטיות, וכוונה לשם שמים
+ID: 0508 | Fichier: 0508_הלכות ברכות הודאות_siman_219_brut.json | Titre: סימן ריט – ברכת הודאת היחיד – הגומל
+ID: 0509 | Fichier: 0509_הלכות ברכות הודאות_siman_220_brut.json | Titre: סימן רכ – הטבת חלום ותעניתו
+ID: 0510 | Fichier: 0510_הלכות ברכות השחר ושאר ברכות_siman_46_brut.json | Titre: סימן מו – מהלכות ברכות השחר
+ID: 0511 | Fichier: 0511_הלכות ברכות השחר ושאר ברכות_siman_269_brut.json | Titre: סימן מו סעיף ג' – דין מאה ברכות בכל יום
+ID: 0512 | Fichier: 0512_הלכות ברכות השחר ושאר ברכות_siman_47_brut.json | Titre: סימן מז – מהלכות ברכות התורה
+ID: 0513 | Fichier: 0513_הלכות ברכות השחר ושאר ברכות_siman_48_brut.json | Titre: סימן מח – סדר אמירת הקרבנות
+ID: 0514 | Fichier: 0514_הלכות ברכות השחר ושאר ברכות_siman_49_brut.json | Titre: סימן מט – לומר פסוקי תורה בעל פה
+ID: 0515 | Fichier: 0515_הלכות ברכות השחר ושאר ברכות_siman_50_brut.json | Titre: סימן נ – לומר משנת איזהו מקומן בכל יום
+ID: 0516 | Fichier: 0516_הלכות ברכות השחר ושאר ברכות_siman_51_brut.json | Titre: סימן נא – דין התפלה מברוך שאמר עד ישתבח
+ID: 0517 | Fichier: 0517_הלכות ברכות השחר ושאר ברכות_siman_52_brut.json | Titre: סימן נב – סדר הדילוגים למי שהתאחר לבוא לביהכ"נ
+ID: 0518 | Fichier: 0518_הלכות ברכות השחר ושאר ברכות_siman_53_brut.json | Titre: סימן נג – מהלכות שליח צבור את מי ממנים לשליח צבור
+ID: 0519 | Fichier: 0519_הלכות ברכות השחר ושאר ברכות_siman_54_brut.json | Titre: סימן נד – דינים השייכים לישתבח
+ID: 0520 | Fichier: 0520_הלכות ברכות השחר ושאר ברכות_siman_55_brut.json | Titre: סימן נה – אמירת קדיש במנין עשרה, ומי מצטרף למנין
+ID: 0521 | Fichier: 0521_הלכות ברכות השחר ושאר ברכות_siman_56_brut.json | Titre: סימן נו – דין עניית הקדיש על ידי הקהל, ועוד מדיני הקדיש
+ID: 0522 | Fichier: 0522_הלכות ברכות השחר ושאר ברכות_siman_57_brut.json | Titre: סימן נז – דין ברכו וענייתו
+ID: 0523 | Fichier: 0523_הלכות ברכת הבשמים_siman_216_brut.json | Titre: סימן רטז – דיני ברכת הריח
+ID: 0524 | Fichier: 0524_הלכות ברכת הבשמים_siman_217_brut.json | Titre: סימן ריז – עוד בדין ברכת הבשמים
+ID: 0525 | Fichier: 0525_הלכות ברכת המזון_siman_182_183_brut.json | Titre: סימן קפב-קפג – דין כוס ברכת המזון
+ID: 0526 | Fichier: 0526_הלכות ברכת המזון_siman_183_brut.json | Titre: סימן קפג – דיני ברכת המזון
+ID: 0527 | Fichier: 0527_הלכות ברכת המזון_siman_184_brut.json | Titre: סימן קפד – לברך ברכת המזון במקום שאכל, והמסופק אם בירך ברהמ"ז
+ID: 0528 | Fichier: 0528_הלכות ברכת המזון_siman_185_brut.json | Titre: סימן קפה – פרטי דינים בדיני ברכת המזון
+ID: 0529 | Fichier: 0529_הלכות ברכת המזון_siman_186_brut.json | Titre: סימן קפו – החייבים בברכת המזון
+ID: 0530 | Fichier: 0530_הלכות ברכת המזון_siman_187_brut.json | Titre: סימן קפז – דיוקים בנוסח ברכת המזון
+ID: 0531 | Fichier: 0531_הלכות ברכת המזון_siman_188_brut.json | Titre: סימן קפח – דין הטועה בברכת המזון
+ID: 0532 | Fichier: 0532_הלכות ברכת המזון_siman_197_brut.json | Titre: סימן קצב-ה – דיני זימון
+ID: 0533 | Fichier: 0533_הלכות ברכת המזון_siman_196_brut.json | Titre: סימן קצו – מי שאכל איסור אם מצטרף לזימון
+ID: 0534 | Fichier: 0534_הלכות ברכת המזון_siman_198_brut.json | Titre: סימן קצח – אחד נכנס אצל שלשה שאכלו
+ID: 0535 | Fichier: 0535_הלכות ברכת המזון_siman_199_brut.json | Titre: סימן קצט – על מי מזמנין
+ID: 0536 | Fichier: 0536_הלכות ברכת המזון_siman_200_brut.json | Titre: סימן ר' – דין המפסיק כדי לברך
+ID: 0537 | Fichier: 0537_הלכות ברכת המזון_siman_201_brut.json | Titre: סימן רא – מי הוא המברך
+ID: 0538 | Fichier: 0538_הלכות ברכת הניסים_siman_218_brut.json | Titre: סימן ריח – דין ברכה על נסים
+ID: 0539 | Fichier: 0539_הלכות ברכת הפרות_siman_215_brut.json | Titre: סימן רטו – עניית אמן אחר הברכות
+ID: 0540 | Fichier: 0540_הלכות ברכת הפרות_siman_202_brut.json | Titre: סימן רב – דיני ברכת פירות האילן
+ID: 0541 | Fichier: 0541_הלכות ברכת הפרות_siman_203_brut.json | Titre: סימן רג – דיני ברכת פירות הארץ
+ID: 0542 | Fichier: 0542_הלכות ברכת הפרות_siman_204_brut.json | Titre: סימן רד – דיני הברכות על יתר המאכלים
+ID: 0543 | Fichier: 0543_הלכות ברכת הפרות_siman_205_brut.json | Titre: סימן רה – דין ברכת ירקות
+ID: 0544 | Fichier: 0544_הלכות ברכת הפרות_siman_206_brut.json | Titre: סימן רו – דיני הפסק וטעות בברכות
+ID: 0545 | Fichier: 0545_הלכות ברכת הפרות_siman_207_brut.json | Titre: סימן רז – דין ברכה אחרונה
+ID: 0546 | Fichier: 0546_הלכות ברכת הפרות_siman_208_brut.json | Titre: סימן רח – דין ברכה מעין שלש
+ID: 0547 | Fichier: 0547_הלכות ברכת הפרות_siman_209_brut.json | Titre: סימן רט – דין טעות וספק בברכת היין
+ID: 0548 | Fichier: 0548_הלכות ברכת הפרות_siman_209_brut.json | Titre: סימן רט – ספק ברכות
+ID: 0549 | Fichier: 0549_הלכות ברכת הפרות_siman_210_brut.json | Titre: סימן רי – דין האוכל פחות מכזית
+ID: 0550 | Fichier: 0550_הלכות ברכת הפרות_siman_211_brut.json | Titre: סימן ריא – דיני קדימה בברכות
+ID: 0551 | Fichier: 0551_הלכות ברכת הפרות_siman_212_brut.json | Titre: סימן ריב – שהעיקר פוטר את הטפילה
+ID: 0552 | Fichier: 0552_הלכות ברכת הפרות_siman_213_brut.json | Titre: סימן ריג – מי שיצא אם מוציא אחרים
+ID: 0553 | Fichier: 0553_הלכות ברכת הפרות_siman_214_brut.json | Titre: סימן ריד – שם ומלכות בברכות
+ID: 0554 | Fichier: 0554_הלכות בשר בחלב_siman_87_brut.json | Titre: סימן פז – מהלכות בשר בחלב – דיני בישול בשר בחלב
+ID: 0555 | Fichier: 0555_הלכות בשר בחלב_siman_309_brut.json | Titre: סימן פז סעיף ב'
+ID: 0556 | Fichier: 0556_הלכות בשר בחלב_siman_310_brut.json | Titre: סימן פז סעיף ג' – בישול בהמה טמאה בחלב
+ID: 0557 | Fichier: 0557_הלכות בשר בחלב_siman_310_brut.json | Titre: סימן פז סעיף ג' [ברמ"א] – חלב שקדים
+ID: 0558 | Fichier: 0558_הלכות בשר בחלב_siman_87_brut.json | Titre: סימן פז – סעיף ד' – לבשל בשר בחלב אשה
+ID: 0559 | Fichier: 0559_הלכות בשר בחלב_siman_312_brut.json | Titre: סימן פז סעיף ה' – דין ביצים הנמצאים בתרנגולת
+ID: 0560 | Fichier: 0560_הלכות בשר בחלב_siman_313_brut.json | Titre: סימן פז סעיף ו' – מעושן בבשר בחלב
+ID: 0561 | Fichier: 0561_הלכות בשר בחלב_siman_314_brut.json | Titre: סימן פז סעיף ז' – המבשל שליל בחלב
+ID: 0562 | Fichier: 0562_הלכות בשר בחלב_siman_326_brut.json | Titre: סימן פז סעיף ט-י – חלב הנמצא בקיבה
+ID: 0563 | Fichier: 0563_הלכות בשר בחלב_siman_89_brut.json | Titre: סימן פט – דין אכילת גבינה אחר בשר
+ID: 0564 | Fichier: 0564_הלכות בשר בחלב_siman_311_brut.json | Titre: סימן פט סעיף ב' – אכילת בשר אחר גבינה
+ID: 0565 | Fichier: 0565_הלכות בשר בחלב_siman_89_brut.json | Titre: סימן פט (בסוף) – הכשר כלים לענין בשר וחלב
+ID: 0566 | Fichier: 0566_הלכות בשר בחלב_siman_90_brut.json | Titre: סימן צ' – דין כחל
+ID: 0567 | Fichier: 0567_הלכות בשר בחלב_siman_424_brut.json | Titre: סימן צב עד סימן צח – עוד מהלכות בשר בחלב
+ID: 0582 | Fichier: 0582_הלכות דברים הנוהגים בסעודה_siman_169_170_brut.json | Titre: סימן קסט-קע – ליתן לאחרים לאכול, והנהגות בעת הסעודה
+ID: 0583 | Fichier: 0583_הלכות דברים הנוהגים בסעודה_siman_171_brut.json | Titre: סימן קעא – שלא לנהוג ביזיון באוכלים
+ID: 0584 | Fichier: 0584_הלכות דברים הנוהגים בסעודה_siman_172_brut.json | Titre: סימן קעב – דין אם הכניס אוכלים לפיו בלי ברכה
+ID: 0585 | Fichier: 0585_הלכות דברים הנוהגים בסעודה_siman_173_brut.json | Titre: סימן קעג – דין מים אמצעיים
+ID: 0586 | Fichier: 0586_הלכות דברים הנוהגים בסעודה_siman_174_brut.json | Titre: סימן קעד – דין ברכת היין והמים בסעודה
+ID: 0587 | Fichier: 0587_הלכות דברים הנוהגים בסעודה_siman_177_brut.json | Titre: סימן קעז – הלכות דברים הבאים בתוך הסעודה
+ID: 0588 | Fichier: 0588_הלכות דברים הנוהגים בסעודה_siman_178_brut.json | Titre: סימן קעח – דיני הפסק בסעודה
+ID: 0589 | Fichier: 0589_הלכות דברים הנוהגים בסעודה_siman_179_brut.json | Titre: סימן קעט – היסח דעת בסעודה
+ID: 0590 | Fichier: 0590_הלכות דברים הנוהגים בסעודה_siman_180_brut.json | Titre: סימן קפ – דיני פירורי הפת
+ID: 0600 | Fichier: 0600_הלכות דם_siman_298_brut.json | Titre: סימן סט סעיף ט' – בישל בלא הדחה אחרונה
+ID: 0601 | Fichier: 0601_הלכות דם_siman_73_brut.json | Titre: סימן עג – דיני צליית הכבד
+ID: 0602 | Fichier: 0602_הלכות דם_siman_66_brut.json | Titre: סימן סו – דברים האסורים משום דם
+ID: 0603 | Fichier: 0603_הלכות דם_siman_541_brut.json | Titre: סימן סט סעיף ט' ברמ"א – מלח שניטל כוחו
+ID: 0604 | Fichier: 0604_הלכות דם_siman_74_brut.json | Titre: סימן עד – דין הטחול
+ID: 0605 | Fichier: 0605_הלכות דם_siman_67_brut.json | Titre: סימן סז – מהלכות דם
+ID: 0606 | Fichier: 0606_הלכות דם_siman_299_brut.json | Titre: סימן סט סעיף י' – גוי המעיד שהבשר הודח
+ID: 0607 | Fichier: 0607_הלכות דם_siman_75_brut.json | Titre: סימן עה – דין מליחת המעיים
+ID: 0608 | Fichier: 0608_הלכות דם_siman_85_brut.json | Titre: סימן פה – דין חגבים
+ID: 0609 | Fichier: 0609_הלכות דם_siman_68_brut.json | Titre: סימן סח – דיני מליגת העוף
+ID: 0610 | Fichier: 0610_הלכות דם_siman_300_brut.json | Titre: סימן סט סעיף יא – בשר שנתבשל בלא מליחה
+ID: 0611 | Fichier: 0611_הלכות דם_siman_76_brut.json | Titre: סימן עו – דיני צליית בשר
+ID: 0612 | Fichier: 0612_הלכות דם_siman_69_brut.json | Titre: סימן סט – דיני מליחה
+ID: 0613 | Fichier: 0613_הלכות דם_siman_77_brut.json | Titre: סימן עז – דין עופות שמילאום בשר שלא נמלח
+ID: 0614 | Fichier: 0614_הלכות דם_siman_301_brut.json | Titre: סימן סט סעיף יב – בשר ששהה ג' ימים בלא מליחה
+ID: 0615 | Fichier: 0615_הלכות דם_siman_78_brut.json | Titre: סימן עח – שלא לדבק בצק בבשר שלא נמלח
+ID: 0616 | Fichier: 0616_הלכות דם_siman_290_brut.json | Titre: סימן סט סעיף א' – להשתמש בכלי ששורין בו בשר
+ID: 0617 | Fichier: 0617_הלכות דם_siman_315_brut.json | Titre: סימן סט סעיף יא בהגה – חתיכה שלא נמלחה כראוי
+ID: 0618 | Fichier: 0618_הלכות דם_siman_79_brut.json | Titre: סימן עט – סימני בהמה וחיה טהורים
+ID: 0619 | Fichier: 0619_הלכות דם_siman_290_brut.json | Titre: סימן סט סעיף א' – אופן המליחה
+ID: 0620 | Fichier: 0620_הלכות דם_siman_80_brut.json | Titre: סימן פ – דין חיה טהורה
+ID: 0621 | Fichier: 0621_הלכות דם_siman_292_brut.json | Titre: סימן סט סעיף ג' – באיזה מלח מולחין
+ID: 0622 | Fichier: 0622_הלכות דם_siman_304_brut.json | Titre: סימן סט סעיף טו – בשר המלוכלך בדמים
+ID: 0623 | Fichier: 0623_הלכות דם_siman_81_brut.json | Titre: סימן פא – היוצא מן הטמא טמא
+ID: 0624 | Fichier: 0624_הלכות דם_siman_293_brut.json | Titre: סימן סט סעיף ד' – כיצד מולחין
+ID: 0625 | Fichier: 0625_הלכות דם_siman_305_brut.json | Titre: סימן סט סעיף טז – מקום מליחת הבשר
+ID: 0626 | Fichier: 0626_הלכות דם_siman_82_brut.json | Titre: סימן פב – סימני עוף טהור
+ID: 0627 | Fichier: 0627_הלכות דם_siman_307_brut.json | Titre: סימן סט סעיף יח – בשר שנמלח בכלי שאינו מנוקב
+ID: 0628 | Fichier: 0628_הלכות דם_siman_83_brut.json | Titre: סימן פג – סימני דגים טהורים
+ID: 0629 | Fichier: 0629_הלכות דם_siman_1536_brut.json | Titre: סימן סט סעיף ה' -חתך הבשר אחר המליחה
+ID: 0630 | Fichier: 0630_הלכות דם_siman_308_26_brut.json | Titre: סימן סט סעיף יט, וכ' – חליטת הבשר
+ID: 0631 | Fichier: 0631_הלכות דם_siman_84_brut.json | Titre: סימן פד – הלכות תולעים
+ID: 0632 | Fichier: 0632_הלכות דם_siman_295_brut.json | Titre: סימן סט סעיף ו' – שיעור שהיית הבשר במלחו
+ID: 0633 | Fichier: 0633_הלכות דם_siman_310_brut.json | Titre: סימן סט סעיף כא – במקום שאין מלח
+ID: 0634 | Fichier: 0634_הלכות דם_siman_296_brut.json | Titre: סימן סט סעיף ז' – הדחה שאחר המליחה
+ID: 0635 | Fichier: 0635_הלכות דם_siman_70_brut.json | Titre: סימן ע – למלוח כמה חתיכות זו על גב זו
+ID: 0636 | Fichier: 0636_הלכות דם_siman_296_brut.json | Titre: סימן סט סעיף ז' – הדחה אחרונה במי פירות
+ID: 0637 | Fichier: 0637_הלכות דם_siman_71_brut.json | Titre: סימן עא – מליחת ראש ושאר האיברים של בהמה ועוף
+ID: 0638 | Fichier: 0638_הלכות דם_siman_297_brut.json | Titre: סימן סט סעיף ח' – הדיח בלא ניפוץ ושטיפה
+ID: 0639 | Fichier: 0639_הלכות דם_siman_72_brut.json | Titre: סימן עב – דיני מליחת הלב והריאה
+ID: 0640 | Fichier: 0640_הלכות הכשר כלים_siman_120_brut.json | Titre: סימן קכ – דיני טבילת כלים
+ID: 0641 | Fichier: 0641_הלכות הכשר כלים_siman_121_brut.json | Titre: סימן קכא – דיני הכשר כלים
+ID: 0642 | Fichier: 0642_הלכות הכשר כלים_siman_122_brut.json | Titre: סימן קכב – דין נותן טעם לפגם בכלים
+ID: 0645 | Fichier: 0645_הלכות הנהגת אדם בבוקר_siman_2_brut.json | Titre: סימן ב' – דין לבישת בגדים וכיסוי הראש
+ID: 0646 | Fichier: 0646_הלכות הנהגת אדם בבוקר_siman_3_brut.json | Titre: סימן ג' – הנהגת בית הכסא
+ID: 0647 | Fichier: 0647_הלכות הנהגת אדם בבוקר_siman_4_brut.json | Titre: סימן ד' – דיני נטילת ידים שחרית
+ID: 0648 | Fichier: 0648_הלכות הנהגת אדם בבוקר_siman_5_brut.json | Titre: סימן ה – כוונת הברכות
+ID: 0649 | Fichier: 0649_הלכות הנהגת אדם בבוקר_siman_6_brut.json | Titre: סימן ו – דין ברכת אשר יצר ואלהי נשמה
+ID: 0650 | Fichier: 0650_הלכות הנהגת אדם בבוקר_siman_7_brut.json | Titre: סימן ז' – לברך אשר יצר כל היום אחר הטלת מים
+ID: 0651 | Fichier: 0651_הלכות חול המועד_siman_548_brut.json | Titre: סימן תקמח – אבילות בחול המועד
+ID: 0652 | Fichier: 0652_הלכות חול המועד_siman_546_brut.json | Titre: סימן תקמו – נישואין בחול המועד
+ID: 0653 | Fichier: 0653_הלכות חול המועד_siman_545_brut.json | Titre: סימן תקמה – כתיבה בחול המועד
+ID: 0654 | Fichier: 0654_הלכות חול המועד_siman_544_brut.json | Titre: סימן תקמד – צרכי רבים בחול המועד
+ID: 0655 | Fichier: 0655_הלכות חול המועד_siman_543_brut.json | Titre: סימן תקמג – מלאכה על ידי גוי
+ID: 0656 | Fichier: 0656_הלכות חול המועד_siman_541_brut.json | Titre: סימן תקמא – תיקון מלבושיו בחול המועד
+ID: 0657 | Fichier: 0657_הלכות חול המועד_siman_539_brut.json | Titre: סימן תקלט – סחורה בחול המועד
+ID: 0658 | Fichier: 0658_הלכות חול המועד_siman_537_brut.json | Titre: סימן תקלז – דין מלאכת האבד
+ID: 0659 | Fichier: 0659_הלכות חול המועד_siman_536_brut.json | Titre: סימן תקלו – צרכי בהמה בחול המועד
+ID: 0660 | Fichier: 0660_הלכות חול המועד_siman_534_brut.json | Titre: סימן תקלד – כיבוס בחול המועד
+ID: 0661 | Fichier: 0661_הלכות חול המועד_siman_533_brut.json | Titre: סימן תקלג – מלאכות המותרות בחול המועד
+ID: 0662 | Fichier: 0662_הלכות חול המועד_siman_531_2_brut.json | Titre: סימן תקלא,ב – דיני גילוח ונטילת צפרנים בחול המועד
+ID: 0663 | Fichier: 0663_הלכות חול המועד_siman_530_brut.json | Titre: סימן תקל – מדיני חול המועד
+ID: 0674 | Fichier: 0674_הלכות חנוכה_siman_677_brut.json | Titre: סימן תרעז – דין אכסנאי ובני ישיבה
+ID: 0675 | Fichier: 0675_הלכות חנוכה_siman_679_750_brut.json | Titre: סימן תרעט, תרעפ – נר חנוכה בערב שבת
+ID: 0676 | Fichier: 0676_הלכות חנוכה_siman_681_brut.json | Titre: סימן תרפא – הבדלה בנר חנוכה
+ID: 0677 | Fichier: 0677_הלכות חנוכה_siman_682_brut.json | Titre: סימן תרפב – על הנסים בחנוכה
+ID: 0678 | Fichier: 0678_הלכות חנוכה_siman_683_brut.json | Titre: סימן תרפג – אמירת הלל בחנוכה
+ID: 0679 | Fichier: 0679_הלכות חנוכה_siman_684_brut.json | Titre: סימן תרפד – סדר קריאת התורה בחנוכה
+ID: 0680 | Fichier: 0680_הלכות חנוכה_siman_676_brut.json | Titre: סימן תרעו – סדר הברכות וההדלקה
+ID: 0681 | Fichier: 0681_הלכות חנוכה_siman_675_brut.json | Titre: סימן תרעה – שהדלקה עושה מצוה
+ID: 0682 | Fichier: 0682_הלכות חנוכה_siman_674_brut.json | Titre: סימן תרעד – להדליק מנר לנר
+ID: 0683 | Fichier: 0683_הלכות חנוכה_siman_673_brut.json | Titre: סימן תרעג – שמנים ופתילות הכשרים לחנוכה
+ID: 0684 | Fichier: 0684_הלכות חנוכה_siman_672_brut.json | Titre: סימן תרעב – זמן הדלקת נר חנוכה
+ID: 0685 | Fichier: 0685_הלכות חנוכה_siman_671_brut.json | Titre: סימן תרעא – הדלקת נר חנוכה בבית הכנסת
+ID: 0686 | Fichier: 0686_הלכות חנוכה_siman_671_brut.json | Titre: סימן תרעא – סדר הדלקת נר חנוכה ומקום הנחתו
+ID: 0687 | Fichier: 0687_הלכות חנוכה_siman_670_brut.json | Titre: סימן תרע – דברים האסורים והמותרים בחנוכה
+ID: 0689 | Fichier: 0689_הלכות טריפות_siman_29_31_brut.json | Titre: סימן כט, לא – הלכות טריפות
+ID: 0690 | Fichier: 0690_הלכות טריפות_siman_35_36_37_38_39_40_41_42_43_44_45_46_47_48_brut.json | Titre: סימן לה-מח – דין טרפות הריאה
+ID: 0691 | Fichier: 0691_הלכות טריפות_siman_62_brut.json | Titre: סימן סב – דין אבר מן החי
+ID: 0692 | Fichier: 0692_הלכות טריפות_siman_63_brut.json | Titre: סימן סג – הלכות בשר שנתעלם מן העין
+ID: 0693 | Fichier: 0693_הלכות טריפות_siman_63_124_brut.json | Titre: סימן סג, וקיח – לשלוח בשר ביד גוי
+ID: 0694 | Fichier: 0694_הלכות טריפות_siman_64_brut.json | Titre: סימן סד – מדיני חלֵב
+ID: 0695 | Fichier: 0695_הלכות טריפות_siman_65_brut.json | Titre: סימן סה – דין גיד הנשה
+ID: 0697 | Fichier: 0697_הלכות יום הכיפורים_siman_623_brut.json | Titre: סימן תרכג – סדר תפלת נעילה
+ID: 0717 | Fichier: 0717_הלכות יום טוב_siman_529_brut.json | Titre: סימן תקכט – תפלה ביום טוב ובחול המועד
+ID: 0718 | Fichier: 0718_הלכות יום טוב_siman_529_brut.json | Titre: סימן תקכט – קידוש ביום טוב
+ID: 0719 | Fichier: 0719_הלכות יום טוב_siman_527_brut.json | Titre: סימן תקכז – הלכות עירובי תבשילין
+ID: 0720 | Fichier: 0720_הלכות יום טוב_siman_519_brut.json | Titre: סימן תקיט – דיני שמחה ביום טוב
+ID: 0721 | Fichier: 0721_הלכות יום טוב_siman_518_brut.json | Titre: סימן תקיח – דין הוצאה ביום טוב
+ID: 0722 | Fichier: 0722_הלכות יום טוב_siman_514_brut.json | Titre: סימן תקיד – דיני הדלקת נרות יום טוב
+ID: 0723 | Fichier: 0723_הלכות יום טוב_siman_514_brut.json | Titre: סימן תקיד – שלא לכבות ביום טוב
+ID: 0724 | Fichier: 0724_הלכות יום טוב_siman_513_brut.json | Titre: סימן תקיג – דין ביצה שנולדה ביום טוב
+ID: 0725 | Fichier: 0725_הלכות יום טוב_siman_512_brut.json | Titre: סימן תקיב – שלא לבשל לצורך גוי
+ID: 0726 | Fichier: 0726_הלכות יום טוב_siman_511_brut.json | Titre: סימן תקיא – הנאה השוה לכל נפש
+ID: 0727 | Fichier: 0727_הלכות יום טוב_siman_519_brut.json | Titre: סימן תקט-י – פרטי דינים בהלכות יום טוב
+ID: 0728 | Fichier: 0728_הלכות יום טוב_siman_506_brut.json | Titre: סימן תקו – דיני לישה ביום טוב
+ID: 0729 | Fichier: 0729_הלכות יום טוב_siman_505_brut.json | Titre: סימן תקה – סחיטה וחליבה ביום טוב
+ID: 0730 | Fichier: 0730_הלכות יום טוב_siman_504_brut.json | Titre: סימן תקד – דין תבלין ביום טוב
+ID: 0731 | Fichier: 0731_הלכות יום טוב_siman_503_brut.json | Titre: סימן תקג – שלא להכין מיום טוב לחבירו
+ID: 0732 | Fichier: 0732_הלכות יום טוב_siman_502_brut.json | Titre: סימן תקב – דיני האש ביום טוב
+ID: 0733 | Fichier: 0733_הלכות יום טוב_siman_498_brut.json | Titre: סימן תצח – דיני שחיטה ביו"ט
+ID: 0734 | Fichier: 0734_הלכות יום טוב_siman_497_brut.json | Titre: סימן תצז – דיני הכנה ביום טוב
+ID: 0735 | Fichier: 0735_הלכות יום טוב_siman_496_brut.json | Titre: סימן תצו – דין יום טוב שני של גלויות
+ID: 0736 | Fichier: 0736_הלכות יום טוב_siman_559_brut.json | Titre: סימן תצה ס"ד – דין מוקצה ביום טוב
+ID: 0737 | Fichier: 0737_הלכות יום טוב_siman_495_brut.json | Titre: סימן תצה – מלאכות האסורות והמותרות ביו"ט
+ID: 0738 | Fichier: 0738_הלכות יום טוב_siman_494_brut.json | Titre: סימן תצד – הלכות חג השבועות
+ID: 0739 | Fichier: 0739_הלכות יום טוב_siman_493_brut.json | Titre: סימן תצג – מנהגי ימי ספירת העומר
+ID: 0740 | Fichier: 0740_הלכות יום טוב_siman_491_brut.json | Titre: סימן תצא – דיני הבדלה במוצאי יום טוב
+ID: 0759 | Fichier: 0759_הלכות כבוד רבו ות-ח_siman_242_244_brut.json | Titre: סימן רמב, רמד – מהלכות כבוד רבו ותלמידי חכמים
+ID: 0760 | Fichier: 0760_הלכות כלאי בגדים_siman_298_brut.json | Titre: סימן רצח – דין כלאי הבגד [שעטנז]
+ID: 0761 | Fichier: 0761_הלכות כלאי בגדים_siman_299_brut.json | Titre: סימן רצט – ביטול בכלאים
+ID: 0762 | Fichier: 0762_הלכות כלאי בגדים_siman_300_brut.json | Titre: סימן ש' – איזו כלאים דאורייתא ואיזו דרבנן
+ID: 0763 | Fichier: 0763_הלכות כלאי בגדים_siman_301_brut.json | Titre: סימן שא – להציע כלאים תחתיו, ובמה נוהג דין שעטנז
+ID: 0764 | Fichier: 0764_הלכות כלאי בגדים_siman_302_brut.json | Titre: סימן שב – נאמנות גוי בשעטנז
+ID: 0765 | Fichier: 0765_הלכות כלאי בגדים_siman_303_brut.json | Titre: סימן שג – הרואה כלאים על חברו
+ID: 0766 | Fichier: 0766_הלכות כלאי בגדים_siman_304_brut.json | Titre: סימן שד – לעשות בגד שעטנז ולמוכרו
+ID: 0767 | Fichier: 0767_הלכות כלאים_siman_295_brut.json | Titre: סימן רצה – הלכות כלאים – דין כלאי האילן
+ID: 0768 | Fichier: 0768_הלכות כלאים_siman_296_brut.json | Titre: סימן רצו – דין כלאי הכרם
+ID: 0769 | Fichier: 0769_הלכות כלאים_siman_297_brut.json | Titre: סימן רצז – דין כלאי זרעים
+ID: 0770 | Fichier: 0770_הלכות כלאים_siman_297_brut.json | Titre: סימן רצז – דין כלאי בהמה
+ID: 0771 | Fichier: 0771_הלכות כלאים_siman_527_brut.json | Titre: סימן רצז סעיף י' – מלאכה בשור וחמור יחדיו
+ID: 0773 | Fichier: 0773_הלכות לולב_siman_668_669_brut.json | Titre: סימן תרסח,תרסט – סדר תפלות שמחת תורה
+ID: 0774 | Fichier: 0774_הלכות לולב_siman_667_brut.json | Titre: סימן תרסז – סוכה ונויה ביום השמיני
+ID: 0775 | Fichier: 0775_הלכות לולב_siman_666_brut.json | Titre: סימן תרסו – סוכה ביום השביעי
+ID: 0776 | Fichier: 0776_הלכות לולב_siman_665_brut.json | Titre: סימן תרסה – אתרוג ביום השביעי
+ID: 0777 | Fichier: 0777_הלכות לולב_siman_664_brut.json | Titre: סימן תרסד – סדר הושענא רבא
+ID: 0778 | Fichier: 0778_הלכות לולב_siman_662_brut.json | Titre: סימן תרסב – תפלות יום שני וחול המועד
+ID: 0779 | Fichier: 0779_הלכות לולב_siman_661_brut.json | Titre: סימן תרסא – קידוש ליל יום טוב השני
+ID: 0780 | Fichier: 0780_הלכות לולב_siman_660_brut.json | Titre: סימן תרס – סדר היקף הבימה
+ID: 0781 | Fichier: 0781_הלכות לולב_siman_659_brut.json | Titre: סימן תרנט – סדר קריאת התורה בסוכות
+ID: 0782 | Fichier: 0782_הלכות לולב_siman_658_brut.json | Titre: סימן תרנח – מצות לולב ביום טוב
+ID: 0783 | Fichier: 0783_הלכות לולב_siman_657_brut.json | Titre: סימן תרנז – קטן היודע לנענע לולב
+ID: 0784 | Fichier: 0784_הלכות לולב_siman_656_brut.json | Titre: סימן תרנו – הידור מצוה בלולב
+ID: 0785 | Fichier: 0785_הלכות לולב_siman_655_brut.json | Titre: סימן תרנה – עכו"ם שהביא לולב
+ID: 0786 | Fichier: 0786_הלכות לולב_siman_654_brut.json | Titre: סימן תרנד – להחזיר הלולב למים
+ID: 0787 | Fichier: 0787_הלכות לולב_siman_653_brut.json | Titre: סימן תרנג – להריח בד' המינים
+ID: 0788 | Fichier: 0788_הלכות לולב_siman_652_brut.json | Titre: סימן תרנב – זמן נטילת לולב
+ID: 0789 | Fichier: 0789_הלכות לולב_siman_651_brut.json | Titre: סימן תרנא – נטילת הלולב וברכתו
+ID: 0790 | Fichier: 0790_הלכות לולב_siman_650_brut.json | Titre: סימן תרנ – שיעור הדס וערבה
+ID: 0791 | Fichier: 0791_הלכות לולב_siman_649_brut.json | Titre: סימן תרמט – דברים הפוסלים בארבעת מינים
+ID: 0792 | Fichier: 0792_הלכות לולב_siman_648_brut.json | Titre: סימן תרמח – דברים הפוסלים באתרוג
+ID: 0793 | Fichier: 0793_הלכות לולב_siman_647_brut.json | Titre: סימן תרמז – דיני ערבה
+ID: 0794 | Fichier: 0794_הלכות לולב_siman_646_brut.json | Titre: סימן תרמו – דיני הדס
+ID: 0795 | Fichier: 0795_הלכות לולב_siman_645_brut.json | Titre: סימן תרמה – דיני לולב
+ID: 0800 | Fichier: 0800_הלכות מזוזה (ומעקה)_siman_285_brut.json | Titre: סימן רפה – הלכות מזוזה
+ID: 0801 | Fichier: 0801_הלכות מזוזה (ומעקה)_siman_292_brut.json | Titre: סימן רצב – הלכות שילוח הקן
+ID: 0802 | Fichier: 0802_הלכות מזוזה (ומעקה)_siman_293_brut.json | Titre: סימן רצג – הלכות חדש
+ID: 0803 | Fichier: 0803_הלכות מילה_siman_260_brut.json | Titre: סימן רס – הלכות מילה – סדר ליל הברית
+ID: 0804 | Fichier: 0804_הלכות מילה_siman_268_brut.json | Titre: סימן רסח – ער – הלכות גרים
+ID: 0805 | Fichier: 0805_הלכות מילה_siman_261_brut.json | Titre: סימן רסא – מצות המילה
+ID: 0806 | Fichier: 0806_הלכות מילה_siman_262_brut.json | Titre: סימן רסב – זמן הראוי למילה
+ID: 0807 | Fichier: 0807_הלכות מילה_siman_263_brut.json | Titre: סימן רסג – דין מילה שלא בזמנה
+ID: 0808 | Fichier: 0808_הלכות מילה_siman_264_brut.json | Titre: סימן רסד – מי הוא הראוי למול
+ID: 0809 | Fichier: 0809_הלכות מילה_siman_264_brut.json | Titre: סימן רסד – כיצד מלין
+ID: 0810 | Fichier: 0810_הלכות מילה_siman_264_brut.json | Titre: סימן רסד – הנהגת אבי הבן והמוהל ביום המילה
+ID: 0811 | Fichier: 0811_הלכות מילה_siman_265_brut.json | Titre: סימן רסה – סדר המילה והברכות
+ID: 0812 | Fichier: 0812_הלכות מילה_siman_265_brut.json | Titre: סימן רסה – כיבוד בסנדקאות
+ID: 0813 | Fichier: 0813_הלכות מילה_siman_265_brut.json | Titre: סימן רסה – מנהגי הסעודה
+ID: 0814 | Fichier: 0814_הלכות מילה_siman_265_brut.json | Titre: סימן רסה – אמירת וידוי ביום המילה
+ID: 0815 | Fichier: 0815_הלכות מילה_siman_265_brut.json | Titre: סימן רסה – ממנהגי בית הכנסת ביום המילה
+ID: 0816 | Fichier: 0816_הלכות מילה_siman_265_brut.json | Titre: סימן רסה – מילה במועדי השנה ובתעניות
+ID: 0817 | Fichier: 0817_הלכות מילה_siman_263_brut.json | Titre: סימן רסג – על איזה חולי דוחים המילה
+ID: 0818 | Fichier: 0818_הלכות מים אחרונים_siman_181_brut.json | Titre: סימן קפא – דין מים אחרונים
+ID: 0819 | Fichier: 0819_הלכות מלמדים_siman_245_246_brut.json | Titre: סימן רמה, רמו – הלכות תלמוד תורה
+ID: 0823 | Fichier: 0823_הלכות נטילת ידים_siman_158_brut.json | Titre: סימן קנח – דיני נטילת ידים לסעודה
+ID: 0824 | Fichier: 0824_הלכות נטילת ידים_siman_158_brut.json | Titre: סימן קנח – נטילת ידים לטיבולו במשקה
+ID: 0825 | Fichier: 0825_הלכות נטילת ידים_siman_159_brut.json | Titre: סימן קנט – באיזה כלי נוטלין
+ID: 0826 | Fichier: 0826_הלכות נטילת ידים_siman_159_brut.json | Titre: סימן קנט (המשך) – כיצד יבואו המים על ידיו
+ID: 0827 | Fichier: 0827_הלכות נטילת ידים_siman_160_brut.json | Titre: סימן קס – איזה מים כשרים לנטילת ידים
+ID: 0828 | Fichier: 0828_הלכות נטילת ידים_siman_161_brut.json | Titre: סימן קסא – חציצה בנטילת ידים, ועד היכן נוטלים
+ID: 0829 | Fichier: 0829_הלכות נטילת ידים_siman_162_brut.json | Titre: סימן קסב – הגבהת הידים בנטילה
+ID: 0830 | Fichier: 0830_הלכות נטילת ידים_siman_163_164_brut.json | Titre: סימן קסג-קסד – מי שאין לו מים, והמאכיל לאחרים
+ID: 0831 | Fichier: 0831_הלכות נטילת ידים_siman_165_brut.json | Titre: סימן קסה – העושה צרכיו ורוצה לאכול
+ID: 0832 | Fichier: 0832_הלכות נשיאת כפים_siman_128_brut.json | Titre: סימן קכח – הלכות נשיאת כפים
+ID: 0833 | Fichier: 0833_הלכות נשיאת כפים_siman_129_brut.json | Titre: סימן קכט – באיזה תפלות נושאים כפים
+ID: 0834 | Fichier: 0834_הלכות נשיאת כפים_siman_130_brut.json | Titre: סימן קל – רבונו של עולם שאומרים בשעת נשיאת כפים
+ID: 0835 | Fichier: 0835_הלכות נשיאת כפים_siman_131_brut.json | Titre: סימן קלא – מהלכות נפילת אפים
+ID: 0836 | Fichier: 0836_הלכות נשיאת כפים_siman_132_brut.json | Titre: סימן קלב – אמירת אשרי ובא לציון, והמשך התפלה
+ID: 0837 | Fichier: 0837_הלכות נשיאת כפים_siman_133_brut.json | Titre: סימן קלג – דין ברכו בשבת
+ID: 0838 | Fichier: 0838_הלכות נשיאת כפים_siman_134_brut.json | Titre: סימן קלד – סדר "והוא רחום"
+ID: 0856 | Fichier: 0856_הלכות עבודת כוכבים_siman_139_brut.json | Titre: סימן קלט – הלכות עבודת כוכבים
+ID: 0857 | Fichier: 0857_הלכות עבודת כוכבים_siman_140_141_brut.json | Titre: סימן קמ-קמא – דין הצלמים וצורות עבודה זרה
+ID: 0858 | Fichier: 0858_הלכות עבודת כוכבים_siman_143_brut.json | Titre: סימן קמג – שלא לבנות ביתו סמוך לבית עבודה זרה
+ID: 0859 | Fichier: 0859_הלכות עבודת כוכבים_siman_148_149_150_brut.json | Titre: סימן קמח-קנ – דיני חגי האלילים
+ID: 0860 | Fichier: 0860_הלכות עבודת כוכבים_siman_150_151_152_153_brut.json | Titre: סימן קנ-קנג – דיני ייחוד ואכילה עם עכו"ם
+ID: 0861 | Fichier: 0861_הלכות עבודת כוכבים_siman_157_brut.json | Titre: סימן קנז – על איזה עבירות יהרג ואל יעבור
+ID: 0862 | Fichier: 0862_הלכות עבודת כוכבים_siman_158_brut.json | Titre: סימן קנח – להציל עכו"ם ממות
+ID: 0864 | Fichier: 0864_הלכות ערלה_siman_294_brut.json | Titre: סימן רצד – פרק א' – יסודות הלכות ערלה
+ID: 0865 | Fichier: 0865_הלכות ערלה_siman_294_brut.json | Titre: סימן רצד – פרק יא – דין נטע רבעי – [סעיף ו']
+ID: 0866 | Fichier: 0866_הלכות פדיון בכור_siman_305_brut.json | Titre: סימן שה – הלכות פדיון הבן – על מי מוטלת מצות הפדיון
+ID: 0867 | Fichier: 0867_הלכות פדיון בכור_siman_309_brut.json | Titre: סימן שט – בכור בהמה בזמן הזה
+ID: 0868 | Fichier: 0868_הלכות פדיון בכור_siman_320_brut.json | Titre: סימן שכ – הלכות פדיון בהמה בכורה
+ID: 0869 | Fichier: 0869_הלכות פדיון בכור_siman_321_brut.json | Titre: סימן שכא – הלכות פטר חמור

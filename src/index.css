@@ -2,25 +2,73 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Optimisations typographiques fines pour le texte sacré */
-.font-hebrew-serif {
-  font-family: 'Noto Serif Hebrew', serif;
+/* Configuration globale application mobile native */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  touch-action: pan-y;
+  overscroll-behavior-x: none;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#root {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+:root {
+  --font-hebrew: 'Noto Serif Hebrew', serif;
+  --font-french: 'Inter', sans-serif;
+}
+
+/* Optimisations typographiques fines pour le texte sacré et le français */
+.font-hebrew-serif, .font-hebrew {
+  font-family: var(--font-hebrew, 'Noto Serif Hebrew', serif) !important;
   font-size: 1.15em;
   line-height: 1.8;
 }
 
-/* Custom scrollbar pour l'aspect vieux manuscrit moderne micro-stylisé */
+.font-french-text {
+  font-family: var(--font-french, 'Inter', sans-serif) !important;
+}
+
+/* Custom scrollbar adaptative */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #0A0A0B;
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #27272A;
+  background: #D4D4D8;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #D97706;
 }
+.dark ::-webkit-scrollbar-track {
+  background: #0A0A0B;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #27272A;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #D97706;
+}
+
+/* Safe areas pour iPhone avec encoche et barre d'accueil */
+.pb-safe {
+  padding-bottom: max(1.25rem, env(safe-area-inset-bottom, 1.25rem));
+}
+.pt-safe {
+  padding-top: max(1rem, env(safe-area-inset-top, 1rem));
+}
+

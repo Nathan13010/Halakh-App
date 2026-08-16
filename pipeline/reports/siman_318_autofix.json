@@ -1,0 +1,1529 @@
+{
+  "siman": 318,
+  "timestamp": "2026-08-14T13:50:13.531Z",
+  "dryRun": false,
+  "totalFixes": 380,
+  "seifimFixed": 190,
+  "details": [
+    {
+      "seif": "1",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "2",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "3",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "4",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[36]: \"וּמְפֻרְסָם\" → \"וּמְפוּרְסָם\"",
+        "Ktiv Male mot[72]: \"וּמְפֻרְסָם\" → \"וּמְפוּרְסָם\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "5",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "6",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[27]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "7",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "8",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "9",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "10",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "11",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[11]: \"מֻתֶּרֶת\" → \"מוּתֶּרֶת\"",
+        "Ktiv Male mot[38]: \"מֻתֶּרֶת\" → \"מוּתֶּרֶת\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "12",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "13",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[7]: \"מְבֻשָּׁלוֹת\" → \"מְבוּשָּׁלוֹת\"",
+        "Ktiv Male mot[31]: \"וּמֻתָּר\" → \"וּמוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "14",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "15",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "16",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[21]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[22]: \"לְכֻלָּם\" → \"לְכוּלָּם\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "17",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "18",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "19",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "20",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[19]: \"שֶׁהֻדְלַק,\" → \"שֶׁהוּדְלַק,\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "21",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "22",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[50]: \"שֶׁרֻבּוֹ\" → \"שֶׁרוּבּוֹ\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "23",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[15]: \"שֶׁמֻּתָּר\" → \"שֶׁמוּּתָּר\"",
+        "Diacritiques dupliqués mot[15]: \"שֶׁמוּּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "24",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[15]: \"שֶׁמֻּתָּר\" → \"שֶׁמוּּתָּר\"",
+        "Diacritiques dupliqués mot[15]: \"שֶׁמוּּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "25",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[15]: \"שֶׁמֻּתָּר\" → \"שֶׁמוּּתָּר\"",
+        "Diacritiques dupliqués mot[15]: \"שֶׁמוּּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "26",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "27",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[24]: \"מְבֻשָּׁל,\" → \"מְבוּשָּׁל,\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "28",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[20]: \"שֶׁמֻּתָּר\" → \"שֶׁמּוּתָּר\"",
+        "Ktiv Male mot[60]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "29",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[18]: \"שֶׁמֻּתָּר\" → \"שֶׁמוּּתָּר\"",
+        "Diacritiques dupliqués mot[18]: \"שֶׁמוּּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "30",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[65]: \"שֶׁמֻּתָּר\" → \"שֶׁמוּּתָּר\"",
+        "Diacritiques dupliqués mot[65]: \"שֶׁמוּּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "31",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "32",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "33",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "34",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[61]: \"פְּעֻלָּה\" → \"פְּעוּלָּה\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "35",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[34]: \"פְּעֻלָּה\" → \"פְּעוּלָּה\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "36",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "37",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "38",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "39",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[2]: \"הַמֻּצָּבוֹת\" → \"הַמּוּצָּבוֹת\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "40",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[39]: \"בִּמְיֻחָד\" → \"בִּמְיוּחָד\"",
+        "Ktiv Male mot[104]: \"שֶׁהֻדְלַק\" → \"שֶׁהוּדְלַק\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "41",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "42",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "43",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[129]: \"בִּקְדֻשַּׁת\" → \"בִּקְדוּשַּׁת\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "44",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "45",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[28]: \"לְתֻמּוֹ\" → \"לְתוּמּוֹ\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "46",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "47",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[85]: \"בָּאֻלְפָּן\" → \"בָּאוּלְפָּן\"",
+        "Ktiv Male mot[94]: \"הָאֻלְפָּן\" → \"הָאוּלְפָּן\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "48",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[22]: \"שֶׁבִּקְדֻשָּׁה,\" → \"שֶׁבִּקְדוּשָּׁה,\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "49",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "50",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "51",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "52",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "53",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "54",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "55",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "56",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "57",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "58",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "59",
+      "fixes": 4,
+      "details": [
+        "Ktiv Male mot[7]: \"שֶׁרֻבּוֹ\" → \"שֶׁרוּבּוֹ\"",
+        "Ktiv Male mot[10]: \"מְבֻשָּׁל\" → \"מְבוּשָּׁל\"",
+        "Ktiv Male mot[18]: \"מְכֻסָּה\" → \"מְכוּסָּה\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "60",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[67]: \"וּלְקֻלָּא,\" → \"וּלְקוּלָּא,\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "61",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "62",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "63",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "64",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "65",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "66",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "67",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "68",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[35]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "69",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "70",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[10]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "71",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "72",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "73",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "74",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[78]: \"לְכֻלֵּי\" → \"לְכוּלֵּי\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "75",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "76",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "77",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "78",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "79",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[48]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "80",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "81",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[12]: \"חֲתֻנָּה\" → \"חֲתוּנָּה\"",
+        "Ktiv Male mot[93]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "82",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "83",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "84",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "85",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[12]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[70]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "86",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "87",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "88",
+      "fixes": 6,
+      "details": [
+        "Ktiv Male mot[11]: \"לְסֻכָּר,\" → \"לְסוּכָּר,\"",
+        "Ktiv Male mot[14]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[16]: \"מִסֻּכָּר\" → \"מִסוּּכָּר\"",
+        "Diacritiques dupliqués mot[16]: \"מִסוּּכָּר\"",
+        "Ktiv Male mot[28]: \"סֻכָּר\" → \"סוּכָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "89",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "90",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "91",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[30]: \"מֵרֻבָּא\" → \"מֵרוּבָּא\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "92",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "93",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[17]: \"\"שֶׁהַשֻּׁתָּף\" → \"\"שֶׁהַשוּּׁתָּף\"",
+        "Diacritiques dupliqués mot[17]: \"\"שֶׁהַשוּּׁתָּף\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "94",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "95",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[9]: \"מְסֻיֶּמֶת,\" → \"מְסוּיֶּמֶת,\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "96",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[26]: \"שֶׁמֻּתָּר\" → \"שֶׁמּוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "97",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "98",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[27]: \"וּמֻתָּר\" → \"וּמוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "1",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "2",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "3",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[78]: \"מֻתֶּרֶת\" → \"מוּתֶּרֶת\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "4",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "1",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "2",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "3",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "4",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "5",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "6",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "7",
+      "fixes": 5,
+      "details": [
+        "Ktiv Male mot[71]: \"מֻקְצֶה.\" → \"מוּקְצֶה.\"",
+        "Ktiv Male mot[83]: \"מֻקְצֶה.\" → \"מוּקְצֶה.\"",
+        "Ktiv Male mot[100]: \"מֻקְצֶה,\" → \"מוּקְצֶה,\"",
+        "Ktiv Male mot[106]: \"מֻקְצֶה,\" → \"מוּקְצֶה,\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "8",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "9",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[58]: \"מְבֻשָּׁל\" → \"מְבוּשָּׁל\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "10",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "11",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "12",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[22]: \"מְכֻסָּה\" → \"מְכוּסָּה\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "13",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "14",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "15",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "16",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[110]: \"יֻפְשְׁרוּ\" → \"יוּפְשְׁרוּ\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "17",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "18",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[51]: \"מְבֻשָּׁלִים,\" → \"מְבוּשָּׁלִים,\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "19",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "20",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "21",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "22",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[14]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "23",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "24",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "25",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "26",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[26]: \"וּמֻתָּר,\" → \"וּמוּתָּר,\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "27",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[3]: \"שֶׁמֻּתָּר\" → \"שֶׁמּוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "28",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[117]: \"פְּעֻלָּה\" → \"פְּעוּלָּה\"",
+        "Ktiv Male mot[118]: \"מְכֻוֶּנֶת\" → \"מְכוּוֶּנֶת\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "29",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[35]: \"מְחֻבָּר\" → \"מְחוּבָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "30",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "31",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "32",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "33",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[20]: \"מְבֻשָּׁל\" → \"מְבוּשָּׁל\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "34",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "35",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "36",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[38]: \"הַמְּחֻבָּרִים\" → \"הַמְּחוּבָּרִים\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "37",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[13]: \"מְכֻסָּה,\" → \"מְכוּסָּה,\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "38",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "39",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "40",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "41",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[19]: \"הַמְּבֻשָּׁלִים\" → \"הַמְּבוּשָּׁלִים\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "42",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "43",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[92]: \"שֶׁמֻּתָּר\" → \"שֶׁמוּּתָּר\"",
+        "Diacritiques dupliqués mot[92]: \"שֶׁמוּּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "44",
+      "fixes": 4,
+      "details": [
+        "Ktiv Male mot[22]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[30]: \"שֶׁמֻּנָּח\" → \"שֶׁמוּּנָּח\"",
+        "Diacritiques dupliqués mot[30]: \"שֶׁמוּּנָּח\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "45",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "46",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[38]: \"מְבֻשָּׁל\" → \"מְבוּשָּׁל\"",
+        "Ktiv Male mot[46]: \"סְעֻדָּה\" → \"סְעוּדָּה\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "47",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[16]: \"מְבֻשָּׁלִים\" → \"מְבוּשָּׁלִים\"",
+        "Ktiv Male mot[68]: \"הַמְּרֻבִּים.\" → \"הַמְּרוּבִּים.\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "48",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[34]: \"מְרֻבִּים\" → \"מְרוּבִּים\"",
+        "Ktiv Male mot[92]: \"הַמְּרֻבִּים\" → \"הַמְּרוּבִּים\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "49",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[39]: \"מְרֻבִּים\" → \"מְרוּבִּים\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "50",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "52",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "54",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "55",
+      "fixes": 5,
+      "details": [
+        "Ktiv Male mot[8]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[27]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[39]: \"מֻעָט,\" → \"מוּעָט,\"",
+        "Ktiv Male mot[56]: \"מְבֻשָּׁל\" → \"מְבוּשָּׁל\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "56",
+      "fixes": 4,
+      "details": [
+        "Ktiv Male mot[14]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[48]: \"מֻתָּר.\" → \"מוּתָּר.\"",
+        "Ktiv Male mot[55]: \"וּמֻתָּר\" → \"וּמוּתָּר\"",
+        "Ktiv Male mot[59]: \"מְבֻשָּׁל\" → \"מְבוּשָּׁל\""
+      ]
+    },
+    {
+      "seif": "57",
+      "fixes": 10,
+      "details": [
+        "Ktiv Male mot[38]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[70]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[77]: \"הַמֻּנַּחַת\" → \"הַמוּּנַּחַת\"",
+        "Diacritiques dupliqués mot[77]: \"הַמוּּנַּחַת\"",
+        "Ktiv Male mot[90]: \"מְכֻסָּה\" → \"מְכוּסָּה\"",
+        "Ktiv Male mot[92]: \"מְנֻקָּב\" → \"מְנוּקָּב\"",
+        "Ktiv Male mot[107]: \"מֻנָּח\" → \"מוּנָּח\"",
+        "Ktiv Male mot[109]: \"וּמֻתָּר\" → \"וּמוּתָּר\"",
+        "Ktiv Male mot[115]: \"מְבֻשָּׁל\" → \"מְבוּשָּׁל\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "58",
+      "fixes": 8,
+      "details": [
+        "Ktiv Male mot[12]: \"וּמְבֻשָּׁל\" → \"וּמְבוּשָּׁל\"",
+        "Ktiv Male mot[29]: \"כֻּלּוֹ\" → \"כוּּלּוֹ\"",
+        "Diacritiques dupliqués mot[29]: \"כוּּלּוֹ\"",
+        "Ktiv Male mot[39]: \"מְכֻסָּה,\" → \"מְכוּסָּה,\"",
+        "Ktiv Male mot[59]: \"שֶׁרֻבּוֹ\" → \"שֶׁרוּבּוֹ\"",
+        "Ktiv Male mot[70]: \"וּמֻתָּר\" → \"וּמוּתָּר\"",
+        "Ktiv Male mot[124]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "59",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[76]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[93]: \"שֶׁרֻבּוֹ\" → \"שֶׁרוּבּוֹ\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "60",
+      "fixes": 3,
+      "details": [
+        "Ktiv Male mot[1]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[16]: \"שֶׁמֻּתָּר\" → \"שֶׁמּוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "61",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[30]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "62",
+      "fixes": 14,
+      "details": [
+        "Ktiv Male mot[1]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[18]: \"מְכֻסֶּה\" → \"מְכוּסֶּה\"",
+        "Ktiv Male mot[21]: \"שֶׁהַשֻּׁמָּן\" → \"שֶׁהַשּׁוּמָּן\"",
+        "Ktiv Male mot[37]: \"שֶׁרֻבּוֹ\" → \"שֶׁרוּבּוֹ\"",
+        "Ktiv Male mot[69]: \"שֶׁמֻּתָּר\" → \"שֶׁמּוּתָּר\"",
+        "Ktiv Male mot[75]: \"וְשֻׁמָּן\" → \"וְשׁוּמָּן\"",
+        "Ktiv Male mot[83]: \"הַשֻּׁמָּן\" → \"הַשּׁוּמָּן\"",
+        "Ktiv Male mot[110]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[122]: \"שֶׁהַשֻּׁמָּן\" → \"שֶׁהַשּׁוּמָּן\"",
+        "Ktiv Male mot[139]: \"שֻׁמָּן,\" → \"שׁוּמָּן,\"",
+        "Ktiv Male mot[165]: \"הַשֻּׁמָּן\" → \"הַשּׁוּמָּן\"",
+        "Ktiv Male mot[167]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[174]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "63",
+      "fixes": 8,
+      "details": [
+        "Ktiv Male mot[5]: \"שֶׁהֻנְּחָה\" → \"שֶׁהוּנְּחָה\"",
+        "Ktiv Male mot[13]: \"מְכֻסָּה,\" → \"מְכוּסָּה,\"",
+        "Ktiv Male mot[44]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[52]: \"הַמְכֻסָּה.\" → \"הַמְכוּסָּה.\"",
+        "Ktiv Male mot[67]: \"מְבֻשָּׁל\" → \"מְבוּשָּׁל\"",
+        "Ktiv Male mot[70]: \"הַמֻּנָּח\" → \"הַמּוּנָּח\"",
+        "Ktiv Male mot[79]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "64",
+      "fixes": 4,
+      "details": [
+        "Ktiv Male mot[7]: \"שֶׁרֻבּוֹ\" → \"שֶׁרוּבּוֹ\"",
+        "Ktiv Male mot[44]: \"רֻבּוֹ\" → \"רוּבּוֹ\"",
+        "Ktiv Male mot[59]: \"וּמֻתָּר\" → \"וּמוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "65",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[13]: \"מְכֻסֶּה\" → \"מְכוּסֶּה\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "66",
+      "fixes": 6,
+      "details": [
+        "Ktiv Male mot[2]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[17]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[27]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[35]: \"וּמֻתָּר\" → \"וּמוּתָּר\"",
+        "Ktiv Male mot[47]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "67",
+      "fixes": 8,
+      "details": [
+        "Ktiv Male mot[1]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[23]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[31]: \"וּמֻתָּר\" → \"וּמוּתָּר\"",
+        "Ktiv Male mot[43]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[89]: \"מְטֻגָּנוֹת\" → \"מְטוּגָּנוֹת\"",
+        "Ktiv Male mot[96]: \"מְטֻגָּנוֹת\" → \"מְטוּגָּנוֹת\"",
+        "Ktiv Male mot[107]: \"שֶׁמֻּתָּר\" → \"שֶׁמּוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "68",
+      "fixes": 10,
+      "details": [
+        "Ktiv Male mot[1]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[7]: \"מְבֻשָּׁל,\" → \"מְבוּשָּׁל,\"",
+        "Ktiv Male mot[15]: \"מְבֻשָּׁל\" → \"מְבוּשָּׁל\"",
+        "Ktiv Male mot[23]: \"מְבֻשָּׁל,\" → \"מְבוּשָּׁל,\"",
+        "Ktiv Male mot[26]: \"מְבֻשָּׁל\" → \"מְבוּשָּׁל\"",
+        "Ktiv Male mot[27]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[73]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[86]: \"מְבֻשָּׁל,\" → \"מְבוּשָּׁל,\"",
+        "Ktiv Male mot[101]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "69",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[38]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "70",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[42]: \"מְבֻשָּׁל\" → \"מְבוּשָּׁל\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "71",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[31]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "72",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[18]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "73",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[7]: \"מְבֻשָּׁל\" → \"מְבוּשָּׁל\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "74",
+      "fixes": 1,
+      "details": [
+        "Ktiv Male mot[46]: \"בִּמְבֻשָּׁל\" → \"בִּמְבוּשָּׁל\""
+      ]
+    },
+    {
+      "seif": "75",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[123]: \"שֶׁבְּכֻלָּם\" → \"שֶׁבְּכוּלָּם\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "76",
+      "fixes": 1,
+      "details": [
+        "Ktiv Male mot[16]: \"מֻתָּר\" → \"מוּתָּר\""
+      ]
+    },
+    {
+      "seif": "77",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[5]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "78",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "79",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "80",
+      "fixes": 13,
+      "details": [
+        "Ktiv Male mot[1]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[3]: \"סֻכָּר\" → \"סוּכָּר\"",
+        "Ktiv Male mot[19]: \"שֶׁהַסֻּכָּר\" → \"שֶׁהַסּוּכָּר\"",
+        "Ktiv Male mot[21]: \"מְבֻשָּׁל\" → \"מְבוּשָּׁל\"",
+        "Ktiv Male mot[45]: \"הַסֻּכָּר,\" → \"הַסּוּכָּר,\"",
+        "Ktiv Male mot[62]: \"שֶׁהַסֻּכָּר\" → \"שֶׁהַסּוּכָּר\"",
+        "Ktiv Male mot[79]: \"הַסֻּכָּר\" → \"הַסּוּכָּר\"",
+        "Ktiv Male mot[109]: \"וְהַסֻּכָּר\" → \"וְהַסּוּכָּר\"",
+        "Ktiv Male mot[128]: \"הַסֻּכָּר\" → \"הַסּוּכָּר\"",
+        "Ktiv Male mot[136]: \"וּמֻתָּר\" → \"וּמוּתָּר\"",
+        "Ktiv Male mot[138]: \"הַסֻּכָּר\" → \"הַסּוּכָּר\"",
+        "Ktiv Male mot[148]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "81",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "82",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "83",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[9]: \"מְבֻשָּׁל\" → \"מְבוּשָּׁל\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "84",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "85",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[16]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Ktiv Male mot[29]: \"מֻעָטִים\" → \"מוּעָטִים\""
+      ]
+    },
+    {
+      "seif": "86",
+      "fixes": 6,
+      "details": [
+        "Ktiv Male mot[9]: \"מְכֻסָּה\" → \"מְכוּסָּה\"",
+        "Ktiv Male mot[27]: \"מְבֻשָּׁל\" → \"מְבוּשָּׁל\"",
+        "Ktiv Male mot[44]: \"מֻעָט\" → \"מוּעָט\"",
+        "Ktiv Male mot[47]: \"מְרֻבֶּה.\" → \"מְרוּבֶּה.\"",
+        "Ktiv Male mot[69]: \"וּמֻתָּר\" → \"וּמוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "87",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "88",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[30]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "89",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[1]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "91",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[1]: \"מֻתָּר\" → \"מוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    }
+  ]
+}

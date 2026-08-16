@@ -1,0 +1,571 @@
+{
+  "siman": 3,
+  "file": "siman_3.json",
+  "timestamp": "2026-08-14T13:50:21.041Z",
+  "summary": {
+    "total": 25,
+    "pass": 21,
+    "warn": 4,
+    "fail": 0,
+    "avg_score": 98
+  },
+  "seifim": [
+    {
+      "seif": 1,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 2,
+      "status": "WARN",
+      "score": 86,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": false,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "TERME_FOUND",
+          "severity": "error",
+          "detail": "1 mot(s) avec placeholder interdit",
+          "words": [
+            {
+              "id": 13,
+              "word": "את",
+              "francais": "-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seif": 3,
+      "status": "WARN",
+      "score": 86,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": false,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "TERME_FOUND",
+          "severity": "error",
+          "detail": "1 mot(s) avec placeholder interdit",
+          "words": [
+            {
+              "id": 46,
+              "word": "את",
+              "francais": "-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seif": 4,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 5,
+      "status": "WARN",
+      "score": 86,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": false,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "TERME_FOUND",
+          "severity": "error",
+          "detail": "1 mot(s) avec placeholder interdit",
+          "words": [
+            {
+              "id": 10,
+              "word": "את",
+              "francais": "-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seif": 6,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 7,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 8,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 9,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 10,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 11,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 12,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 13,
+      "status": "WARN",
+      "score": 86,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": false,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "TERME_FOUND",
+          "severity": "error",
+          "detail": "2 mot(s) avec placeholder interdit",
+          "words": [
+            {
+              "id": 19,
+              "word": "את",
+              "francais": "-"
+            },
+            {
+              "id": 37,
+              "word": "את",
+              "francais": "-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seif": 14,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 15,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 16,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 17,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 18,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 19,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 20,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 21,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 22,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 23,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 24,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 25,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    }
+  ]
+}

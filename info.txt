@@ -53,3 +53,16 @@ node export_seif.cjs --siman 2 --all --5
 👉 Créera plusieurs fichiers : `siman_2_seif_1_to_5.txt`, `siman_2_seif_6_to_10.txt`, etc.*
 (Note : Vous pouvez remplacer `--5` par n'importe quel nombre, comme `--10` ou `--20`, pour changer la taille de chaque lot. Le script s'ajuste tout seul pour les derniers seifim !)*
 ```
+
+////
+
+
+npm run validate -- --siman 1    # Valider un siman
+npm run validate:all             # Valider tout
+npm run autofix:all              # Corriger automatiquement tout
+
+
+///
+
+
+node scraper_complet.cjs

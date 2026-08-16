@@ -1,0 +1,16 @@
+{
+  "siman": 5,
+  "timestamp": "2026-08-14T13:50:13.572Z",
+  "dryRun": false,
+  "totalFixes": 1,
+  "seifimFixed": 1,
+  "details": [
+    {
+      "seif": "8",
+      "fixes": 1,
+      "details": [
+        "Ktiv Male mot[14]: \"וְהַמְקֻבָּלִים,\" → \"וְהַמְקוּבָּלִים,\""
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import Icon from './Icon';
+import QuickSettingsPopover from './QuickSettingsPopover';
 
 // Helpers
 const parseToken = (token) => {
@@ -24,8 +25,8 @@ const getSeifTitle = (p) => {
   if (p.titre_seif_fr) return p.titre_seif_fr;
   if (p.texte_integral?.francais) {
     const cleanFr = p.texte_integral.francais.replace(/^[0-9]+\.\s*/, '').trim();
-    const words = cleanFr.split(/\s+/).slice(0, 6);
-    return words.join(' ') + (cleanFr.split(/\s+/).length > 6 ? '...' : '');
+    const firstSentence = cleanFr.split(/[.;?!]/)[0] || cleanFr;
+    return firstSentence.length > 80 ? firstSentence.slice(0, 80) + '...' : firstSentence;
   }
   return "";
 };
@@ -36,6 +37,7 @@ const ParagraphCard = React.memo(({
   pIndex,
   isSelected,
   isFav,
+  isBookmarked,
   readingMode,
   fontSize,
   searchQuery,
@@ -46,6 +48,7 @@ const ParagraphCard = React.memo(({
   availableSeifCount,
   onParagraphChange,
   onToggleFavorite,
+  onToggleBookmark,
   onWordClick,
   setHoveredWordId,
   wordRefs,
@@ -183,8 +186,8 @@ const FRENCH_STOP_WORDS = new Set([
             onPointerDown={handlePointerDown}
             className={`clickable-word inline-block px-0.5 rounded cursor-pointer transition-colors border-b-2 ${
               isHovered || isPopupSelected
-                ? 'text-amber-500 bg-amber-500/10 border-amber-500 font-semibold'
-                : 'text-zinc-200 hover:bg-amber-500/10 border-transparent'
+                ? 'text-amber-600 dark:text-amber-500 bg-amber-500/10 border-amber-500 font-semibold'
+                : 'text-zinc-800 dark:text-zinc-200 hover:bg-amber-500/10 border-transparent'
             }`}
           >
             {word}
@@ -205,14 +208,14 @@ const FRENCH_STOP_WORDS = new Set([
           }`}
         >
           <div className="flex items-center gap-2">
-            <span className="text-emerald-400 font-bold uppercase tracking-wider text-[9px] bg-emerald-500/20 px-2 py-0.5 rounded">
+            <span className="text-emerald-600 dark:text-emerald-400 font-bold uppercase tracking-wider text-[9px] bg-emerald-500/20 px-2 py-0.5 rounded">
               Sujet
             </span>
-            <span className="text-zinc-100 font-semibold text-sm">
+            <span className="text-zinc-800 dark:text-zinc-100 font-semibold text-sm">
               {currentSubjectTitle}
             </span>
           </div>
-          <span className="text-[10px] text-emerald-400 font-mono font-bold">
+          <span className="text-[10px] text-emerald-600 dark:text-emerald-400 font-mono font-bold">
             {availableSeifCount} Seïf{availableSeifCount > 1 ? 's' : ''}
           </span>
         </div>
@@ -228,9 +231,9 @@ const FRENCH_STOP_WORDS = new Set([
         }`}
       >
         {/* Top Card Header Indicator */}
-        <div className="flex items-center justify-between gap-3 border-b border-zinc-800/80 pb-3">
-          <div className="flex items-center gap-2.5 min-w-0">
-            <span className="text-xs font-mono font-bold text-amber-500/90 uppercase tracking-widest shrink-0">
+        <div className="flex items-center justify-between gap-2.5 border-b border-zinc-200 dark:border-zinc-800/80 pb-3">
+          <div className="flex items-center gap-2 min-w-0 flex-1">
+            <span className="text-xs font-mono font-bold text-amber-600 dark:text-amber-500/90 uppercase tracking-widest shrink-0">
               Seïf {p.seif || (pIndex + 1)}
             </span>
             {getSeifTitle(p) && (
@@ -239,10 +242,10 @@ const FRENCH_STOP_WORDS = new Set([
                   e.stopPropagation();
                   setIsTitleExpanded(!isTitleExpanded);
                 }}
-                className={`seif-title-btn text-xs font-medium text-amber-200/90 bg-amber-500/10 border border-amber-500/20 px-2.5 py-0.5 text-left transition-all ${
+                className={`seif-title-btn text-xs font-medium text-amber-800 dark:text-amber-200/90 bg-amber-500/15 dark:bg-amber-500/10 border border-amber-500/30 dark:border-amber-500/20 px-2.5 py-0.5 text-left transition-all ${
                   isTitleExpanded 
-                    ? "rounded-xl whitespace-normal break-words z-20 relative shadow-xl shadow-amber-900/20" 
-                    : "rounded-full truncate max-w-[200px] sm:max-w-xs md:max-w-md"
+                    ? "rounded-xl whitespace-normal break-words z-20 relative shadow-xl shadow-amber-900/20 max-w-full" 
+                    : "rounded-full truncate max-w-full inline-block"
                 }`}
               >
                 {getSeifTitle(p)}
@@ -250,18 +253,39 @@ const FRENCH_STOP_WORDS = new Set([
             )}
           </div>
 
-          <button
-            onClick={(e) => {
-              e.stopPropagation();
-              onToggleFavorite(pIndex);
-            }}
-            className={`flex items-center gap-1.5 px-2.5 py-1 rounded-lg border text-[11px] font-semibold cursor-pointer transition-all ${
-              isFav ? "bg-amber-500/10 border-amber-500/50 text-amber-500" : "bg-zinc-800 border-zinc-700/80 text-zinc-500 hover:text-zinc-300"
-            }`}
-          >
-            <Icon name="star" className={`w-3.5 h-3.5 ${isFav ? "text-amber-500 fill-amber-500" : ""}`} />
-            <span>{isFav ? "Sauvegardé" : "Favori"}</span>
-          </button>
+          <div className="flex items-center gap-1.5 shrink-0">
+            {/* Bookmark button */}
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                onToggleBookmark && onToggleBookmark(pIndex);
+              }}
+              title={isBookmarked ? "Retirer le marque-page" : "Placer un marque-page"}
+              className={`flex items-center justify-center p-1.5 rounded-lg border text-[11px] font-semibold cursor-pointer transition-all ${
+                isBookmarked 
+                  ? "bg-amber-500/15 border-amber-500/50 text-amber-600 dark:text-amber-400" 
+                  : "bg-zinc-100 dark:bg-zinc-800 border-zinc-300 dark:border-zinc-700/80 text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200"
+              }`}
+            >
+              <Icon name="bookmark" className={`w-3.5 h-3.5 ${isBookmarked ? "text-amber-500 dark:text-amber-400 fill-amber-500 dark:fill-amber-400" : ""}`} />
+            </button>
+
+            {/* Favorite button (icon only) */}
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                onToggleFavorite && onToggleFavorite(pIndex);
+              }}
+              title={isFav ? "Retirer des favoris" : "Ajouter aux favoris"}
+              className={`flex items-center justify-center p-1.5 rounded-lg border text-[11px] font-semibold cursor-pointer transition-all ${
+                isFav 
+                  ? "bg-amber-500/10 border-amber-500/50 text-amber-600 dark:text-amber-500" 
+                  : "bg-zinc-100 dark:bg-zinc-800 border-zinc-300 dark:border-zinc-700/80 text-zinc-500 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200"
+              }`}
+            >
+              <Icon name="star" className={`w-3.5 h-3.5 ${isFav ? "text-amber-500 fill-amber-500" : ""}`} />
+            </button>
+          </div>
         </div>
 
         {/* Mode 1: HEBREU SANS VOYELLES */}
@@ -281,7 +305,7 @@ const FRENCH_STOP_WORDS = new Set([
                   onMouseLeave={() => setHoveredWordId(null)}
                   onPointerDown={(e) => { e.preventDefault(); onWordClick(word, wordId, pIndex); }}
                   className={`clickable-word inline-block px-1.5 py-0.5 mx-0.5 rounded cursor-pointer transition-colors border-b-2 ${
-                    isHovered || isPopupSelected ? 'text-amber-500 bg-amber-500/10 border-amber-500 font-semibold' : isKeyMatched ? 'bg-amber-500/20 text-yellow-200 border-amber-500/50' : 'text-zinc-100 hover:bg-amber-500/10 border-transparent'
+                    isHovered || isPopupSelected ? 'text-amber-600 dark:text-amber-500 bg-amber-500/10 border-amber-500 font-semibold' : isKeyMatched ? 'bg-amber-500/20 text-amber-900 dark:text-yellow-200 border-amber-500/50' : 'text-zinc-900 dark:text-zinc-100 hover:bg-amber-500/10 border-transparent'
                   }`}
                 >
                   {word.hebreu_brut || word.hebreu_voyelles || word.mot_hebreu}
@@ -308,7 +332,7 @@ const FRENCH_STOP_WORDS = new Set([
                   onMouseLeave={() => setHoveredWordId(null)}
                   onPointerDown={(e) => { e.preventDefault(); onWordClick(word, wordId, pIndex); }}
                   className={`clickable-word inline-block px-1.5 py-0.5 mx-0.5 rounded cursor-pointer transition-colors border-b-2 ${
-                    isHovered || isPopupSelected ? 'text-amber-500 bg-amber-500/10 border-amber-500 font-semibold' : isKeyMatched ? 'bg-amber-500/20 text-yellow-200 border-amber-500/50' : 'text-zinc-100 hover:bg-amber-500/10 border-transparent'
+                    isHovered || isPopupSelected ? 'text-amber-600 dark:text-amber-500 bg-amber-500/10 border-amber-500 font-semibold' : isKeyMatched ? 'bg-amber-500/20 text-amber-900 dark:text-yellow-200 border-amber-500/50' : 'text-zinc-900 dark:text-zinc-100 hover:bg-amber-500/10 border-transparent'
                   }`}
                 >
                   {word.hebreu_voyelles || word.mot_hebreu || word.hebreu_brut}
@@ -322,7 +346,7 @@ const FRENCH_STOP_WORDS = new Set([
         {readingMode === 3 && (
           <div className="space-y-6">
             <div className="space-y-2">
-              <span className="text-[9px] font-bold text-zinc-500 uppercase tracking-widest block text-right select-none">Hébreu (עִבְרִית)</span>
+              <span className="text-[9px] font-bold text-zinc-500 dark:text-zinc-400 uppercase tracking-widest block text-right select-none">Hébreu (עִבְרִית)</span>
               <div className="font-hebrew-serif leading-relaxed text-right tracking-wide pb-2" dir="rtl" style={{ fontSize: `${fontSize + 2}px` }}>
                 {(p.mots_alignes || []).map((word, idx) => {
                   const wordId = `m3-heb-p${pIndex}-${word.id}-${idx}`;
@@ -338,7 +362,7 @@ const FRENCH_STOP_WORDS = new Set([
                       onMouseLeave={() => setHoveredWordId(null)}
                       onPointerDown={() => onWordClick(word, wordId, pIndex)}
                       className={`clickable-word inline-block px-1.5 py-0.5 mx-0.5 rounded cursor-pointer transition-colors border-b-2 ${
-                        isHovered || isPopupSelected ? 'text-amber-500 bg-amber-500/10 border-amber-500 font-semibold' : isKeyMatched ? 'bg-amber-500/20 text-yellow-200 border-amber-500/50' : 'text-zinc-100 hover:bg-amber-500/10 border-transparent'
+                        isHovered || isPopupSelected ? 'text-amber-600 dark:text-amber-500 bg-amber-500/10 border-amber-500 font-semibold' : isKeyMatched ? 'bg-amber-500/20 text-amber-900 dark:text-yellow-200 border-amber-500/50' : 'text-zinc-900 dark:text-zinc-100 hover:bg-amber-500/10 border-transparent'
                       }`}
                     >
                       {word.hebreu_voyelles || word.mot_hebreu || word.hebreu_brut}
@@ -348,9 +372,9 @@ const FRENCH_STOP_WORDS = new Set([
               </div>
             </div>
 
-            <div className="space-y-2 pt-2 border-t border-zinc-800/60">
-              <span className="text-[9px] font-bold text-zinc-500 uppercase tracking-widest block select-none">Français (Traduction Fluide)</span>
-              <div className="leading-relaxed tracking-normal font-sans" style={{ fontSize: `${fontSize - 2}px` }}>
+            <div className="space-y-2 pt-2 border-t border-zinc-200 dark:border-zinc-800/60">
+              <span className="text-[9px] font-bold text-zinc-500 dark:text-zinc-400 uppercase tracking-widest block select-none">Français (Traduction Fluide)</span>
+              <div className="leading-relaxed tracking-normal font-sans font-french-text text-zinc-800 dark:text-zinc-200" style={{ fontSize: `${fontSize - 2}px` }}>
                 {renderFluentFrenchText('m3-fr')}
               </div>
             </div>
@@ -359,7 +383,7 @@ const FRENCH_STOP_WORDS = new Set([
 
         {/* Mode 4: FRANÇAIS */}
         {readingMode === 4 && (
-          <div className="leading-relaxed tracking-normal font-sans text-zinc-200 space-y-4" style={{ fontSize: `${fontSize - 1}px` }}>
+          <div className="leading-relaxed tracking-normal font-sans font-french-text text-zinc-800 dark:text-zinc-200 space-y-4" style={{ fontSize: `${fontSize - 1}px` }}>
             <div>
               {renderFluentFrenchText('m4')}
             </div>
@@ -391,12 +415,27 @@ const ReaderScreen = ({
   onBackToLibrary,
   favorites = [],
   onToggleFavorite,
+  bookmarks = [],
+  onToggleBookmark,
   books = [],
   activeBookId,
-  onSelectBook
+  onSelectBook,
+  readingMode: propReadingMode,
+  setReadingMode: propSetReadingMode,
+  fontSize: propFontSize,
+  setFontSize: propSetFontSize,
+  theme,
+  setTheme,
+  onOpenFullSettings
 }) => {
-  const [readingMode, setReadingMode] = useState(3); // 1: HEB, 2: NIKOUD, 3: BILINGUE, 4: FRANÇAIS
-  const [fontSize, setFontSize] = useState(18);
+  const [localReadingMode, setLocalReadingMode] = useState(3);
+  const [localFontSize, setLocalFontSize] = useState(18);
+  const readingMode = propReadingMode !== undefined ? propReadingMode : localReadingMode;
+  const setReadingMode = propSetReadingMode || setLocalReadingMode;
+  const fontSize = propFontSize !== undefined ? propFontSize : localFontSize;
+  const setFontSize = propSetFontSize || setLocalFontSize;
+
+  const [isQuickSettingsOpen, setIsQuickSettingsOpen] = useState(false);
   const [hoveredWordId, setHoveredWordId] = useState(null);
   const [popup, setPopup] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
@@ -615,79 +654,17 @@ const ReaderScreen = ({
   };
 
   return (
-    <div className="min-h-screen bg-[#0A0A0B] text-[#E4E4E7] flex flex-col font-sans">
-      {/* Header */}
-      <header className="flex items-center justify-between px-6 py-4 border-b border-zinc-800 bg-zinc-900/50 backdrop-blur-md sticky top-0 z-30 shadow-md">
-        <div className="max-w-6xl mx-auto w-full flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div className="flex items-center gap-4">
-            <button
-              onClick={onBackToLibrary}
-              className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 text-zinc-400 text-xs border border-zinc-700/50 cursor-pointer"
-            >
-              <Icon name="arrowLeft" className="w-4 h-4" />
-              <span>Bibliothèque</span>
-            </button>
-            <div className="h-6 w-[1px] bg-zinc-700 hidden sm:block"></div>
-            <div>
-              <h1 className="font-medium tracking-tight text-zinc-200 text-sm md:text-base font-serif">
-                {bookTitle} : {chapterTitle}
-              </h1>
-              <p className="text-[10px] text-zinc-500 hidden md:block italic">{bookSubtitle}</p>
-            </div>
-          </div>
-
-          <div className="flex items-center gap-3 flex-wrap md:flex-nowrap">
-            {/* Search */}
-            <div className="relative flex-grow md:w-64 max-w-xs">
-              <span className="absolute left-3 top-2.5 text-zinc-500">
-                <Icon name="search" className="w-4 h-4" />
-              </span>
-              <input
-                type="text"
-                placeholder="Rechercher une halakha..."
-                value={searchQuery}
-                onChange={(e) => {
-                  setSearchQuery(e.target.value);
-                  setShowSearchResults(e.target.value.length > 0);
-                }}
-                className="bg-zinc-800/50 border border-zinc-700 rounded-full py-1.5 pl-10 pr-8 text-xs focus:outline-none focus:ring-1 focus:ring-amber-500/50 w-full text-zinc-300 placeholder-zinc-500"
-              />
-              {searchQuery && (
-                <button
-                  onClick={() => {
-                    setSearchQuery("");
-                    setShowSearchResults(false);
-                  }}
-                  className="absolute right-3 top-2.5 text-[10px] text-zinc-500 hover:text-zinc-300 uppercase font-bold"
-                >
-                  Effacer
-                </button>
-              )}
-            </div>
-
-            {/* Font Size */}
-            <div className="flex items-center gap-1 bg-zinc-800 rounded-lg p-0.5 border border-zinc-700">
-              <button onClick={() => setFontSize(p => Math.max(14, p - 2))} className="p-1 rounded text-zinc-400 hover:text-zinc-200">
-                <Icon name="zoomOut" className="w-3.5 h-3.5" />
-              </button>
-              <span className="text-[10px] font-mono font-bold text-zinc-300 px-1">{fontSize}px</span>
-              <button onClick={() => setFontSize(p => Math.min(28, p + 2))} className="p-1 rounded text-zinc-400 hover:text-zinc-200">
-                <Icon name="zoomIn" className="w-3.5 h-3.5" />
-              </button>
-            </div>
-          </div>
-        </div>
-      </header>
-
+    <div className="min-h-screen bg-zinc-50 dark:bg-[#0A0A0B] text-zinc-900 dark:text-[#E4E4E7] flex flex-col font-sans w-full max-w-full overflow-x-hidden">
+      
       {/* Search Overlay */}
       {showSearchResults && searchQuery.trim() && (
-        <div className="bg-zinc-950 border-b border-zinc-850 shadow-xl overflow-hidden z-20 sticky top-15 max-h-64 overflow-y-auto px-4 py-3">
+        <div className="bg-white dark:bg-zinc-950 border-b border-zinc-200 dark:border-zinc-800 shadow-xl overflow-hidden z-30 sticky top-16 max-h-64 overflow-y-auto px-4 py-3">
           <div className="max-w-3xl mx-auto">
             <div className="flex justify-between items-center mb-2">
-              <span className="text-xs font-bold uppercase text-amber-400 flex items-center gap-1">
+              <span className="text-xs font-bold uppercase text-amber-600 dark:text-amber-400 flex items-center gap-1">
                 ✦ Résultats de recherche ({results.length})
               </span>
-              <button onClick={() => setShowSearchResults(false)} className="text-[10px] text-zinc-400 hover:text-white uppercase font-bold">Fermer</button>
+              <button onClick={() => setShowSearchResults(false)} className="text-[10px] text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white uppercase font-bold cursor-pointer">Fermer</button>
             </div>
             {results.length === 0 ? (
               <p className="text-xs text-zinc-500 py-3 italic">Aucun résultat trouvé pour "{searchQuery}".</p>
@@ -700,12 +677,16 @@ const ReaderScreen = ({
                       scrollToSeifCard(res.index);
                       setShowSearchResults(false);
                     }}
-                    className={`w-full text-left p-2 rounded text-xs transition-all flex items-start gap-2.5 ${res.index === currentParagraphIndex ? "bg-amber-500/10 border border-amber-500/30 text-amber-200" : "bg-zinc-900 border border-zinc-800 hover:bg-zinc-800"}`}
+                    className={`w-full text-left p-2.5 rounded-xl text-xs transition-all flex items-start gap-2.5 cursor-pointer ${
+                      res.index === currentParagraphIndex 
+                        ? "bg-amber-500/15 border border-amber-500/30 text-amber-900 dark:text-amber-200 shadow-sm" 
+                        : "bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 hover:bg-zinc-100 dark:hover:bg-zinc-800"
+                    }`}
                   >
-                    <span className="font-mono bg-zinc-800 text-zinc-400 px-1.5 py-0.5 rounded text-[10px] font-bold">Seïf {res.paragraph.seif || (res.index + 1)}</span>
+                    <span className="font-mono bg-zinc-200 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-400 px-1.5 py-0.5 rounded text-[10px] font-bold">Seïf {res.paragraph.seif || (res.index + 1)}</span>
                     <div className="flex-grow min-w-0">
-                      <p className="font-serif text-[11px] truncate text-right text-zinc-400 mb-0.5" dir="rtl">{res.paragraph.texte_integral.hebreu_sans_voyelles}</p>
-                      <p className="italic text-[10px] text-zinc-500 truncate">{res.paragraph.texte_integral.francais}</p>
+                      <p className="font-serif text-[11px] truncate text-right text-zinc-800 dark:text-zinc-400 mb-0.5" dir="rtl">{res.paragraph.texte_integral.hebreu_sans_voyelles}</p>
+                      <p className="italic text-[10px] text-zinc-500 dark:text-zinc-400 truncate">{res.paragraph.texte_integral.francais}</p>
                     </div>
                   </button>
                 ))}
@@ -717,19 +698,19 @@ const ReaderScreen = ({
 
       {/* Toolbar Sub-Navigation */}
       <section 
-        className={`bg-zinc-900/30 border-b border-zinc-800/80 px-6 py-3 sticky top-[69px] z-10 transition-transform duration-300 ease-in-out ${
+        className={`bg-white/95 dark:bg-zinc-900/90 border-b border-zinc-200 dark:border-zinc-800/80 px-3 sm:px-6 py-2.5 sm:py-3 sticky top-16 z-20 transition-transform duration-300 ease-in-out backdrop-blur-md w-full max-w-full overflow-x-hidden shadow-sm ${
           isToolbarVisible ? 'translate-y-0' : '-translate-y-[150%]'
         }`}
       >
-        <div className="max-w-6xl mx-auto flex flex-col lg:flex-row lg:items-center justify-between gap-4">
-          <div className="flex flex-wrap items-center gap-6">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-3 sm:gap-4">
+          <div className="flex flex-wrap items-center gap-2.5 sm:gap-4">
             {/* Chapitre Dropdown */}
-            <div className="flex items-center gap-3">
-              <label className="text-[10px] uppercase tracking-widest text-zinc-400 font-bold">Chapitre</label>
+            <div className="flex items-center gap-2">
+              <label className="text-[10px] uppercase tracking-widest text-zinc-500 dark:text-zinc-400 font-bold">Chapitre</label>
               <select
                 value={activeBookId || ''}
                 onChange={(e) => onSelectBook && onSelectBook(e.target.value)}
-                className="bg-zinc-800 border border-zinc-700 rounded px-2.5 py-1 text-xs font-semibold text-amber-400 focus:outline-none cursor-pointer"
+                className="bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-lg px-2.5 py-1 text-xs font-semibold text-amber-600 dark:text-amber-400 focus:outline-none cursor-pointer"
               >
                 {books.filter(b => b.isUnlocked).map(b => (
                   <option key={b.id} value={b.id}>
@@ -740,8 +721,8 @@ const ReaderScreen = ({
             </div>
 
             {/* Sujet / Thème Dropdown strictly deduplicated */}
-            <div className="flex items-center gap-3">
-              <label className="text-[10px] uppercase tracking-widest text-emerald-400 font-bold">Sujet / Thème</label>
+            <div className="flex items-center gap-2">
+              <label className="text-[10px] uppercase tracking-widest text-emerald-600 dark:text-emerald-400 font-bold">Sujet</label>
               <select
                 value={selectedSubjectTitle === 'ALL' && uniqueSubjects.length === 1 ? uniqueSubjects[0]?.title : selectedSubjectTitle}
                 onChange={(e) => {
@@ -752,77 +733,117 @@ const ReaderScreen = ({
                     if (group) scrollToSeifCard(group.firstIndex);
                   }
                 }}
-                className="bg-zinc-800 border border-zinc-700 rounded px-2.5 py-1 text-xs font-semibold text-emerald-300 focus:outline-none focus:border-emerald-500/50 cursor-pointer max-w-xs truncate"
+                className="bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-lg px-2.5 py-1 text-xs font-semibold text-emerald-700 dark:text-emerald-300 focus:outline-none focus:border-emerald-500/50 cursor-pointer max-w-xs truncate"
               >
                 {uniqueSubjects.length > 1 && (
-                  <option value="ALL">Tous les sujets ({paragraphs.length} Seifim)</option>
+                  <option value="ALL">Tous ({paragraphs.length} Seifim)</option>
                 )}
                 {uniqueSubjects.map((s, idx) => (
                   <option key={idx} value={s.title}>
-                    {s.title} ({s.items.length} Seïf{s.items.length > 1 ? 's' : ''})
+                    {s.title} ({s.items.length})
                   </option>
                 ))}
               </select>
             </div>
 
             {/* Paragraphe Dropdown filtered strictly to selected subject */}
-            <div className="flex items-center gap-3">
-              <label className="text-[10px] uppercase tracking-widest text-zinc-500 font-bold">Paragraphe</label>
+            <div className="flex items-center gap-2">
+              <label className="text-[10px] uppercase tracking-widest text-zinc-500 dark:text-zinc-400 font-bold">Seïf</label>
               <select
                 value={currentParagraphIndex}
                 onChange={(e) => scrollToSeifCard(Number(e.target.value))}
-                className="bg-zinc-800 border border-zinc-700 rounded px-2.5 py-1 text-xs font-semibold text-zinc-300 focus:outline-none focus:border-amber-500/50 cursor-pointer"
+                className="bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-lg px-2.5 py-1 text-xs font-semibold text-zinc-800 dark:text-zinc-300 focus:outline-none focus:border-amber-500/50 cursor-pointer"
               >
                 {availableSeifOptions.map((opt) => (
                   <option key={opt.index} value={opt.index}>
-                    Seïf {opt.seif}{opt.title ? ` — ${opt.title}` : ''}
+                    {opt.seif}{opt.title ? ` — ${opt.title}` : ''}
                   </option>
                 ))}
               </select>
             </div>
+
+            {/* Quick Marque-pages Dropdown if any exist */}
+            {bookmarks.filter(bm => !bm.bookId || bm.bookId === activeBookId).length > 0 && (
+              <div className="flex items-center gap-1.5">
+                <label className="text-[10px] uppercase tracking-widest text-amber-600 dark:text-amber-400 font-bold flex items-center gap-1">
+                  <Icon name="bookmark" className="w-3 h-3 text-amber-500 dark:text-amber-400 fill-amber-500 dark:fill-amber-400" />
+                  <span>Repères</span>
+                </label>
+                <select
+                  value=""
+                  onChange={(e) => {
+                    if (e.target.value !== "") scrollToSeifCard(Number(e.target.value));
+                  }}
+                  className="bg-zinc-50 dark:bg-zinc-800 border border-amber-500/40 rounded-lg px-2.5 py-1 text-xs font-semibold text-amber-600 dark:text-amber-300 focus:outline-none cursor-pointer"
+                >
+                  <option value="" disabled>Repères ({bookmarks.filter(bm => !bm.bookId || bm.bookId === activeBookId).length})...</option>
+                  {bookmarks
+                    .filter(bm => !bm.bookId || bm.bookId === activeBookId)
+                    .map((bm, i) => (
+                      <option key={i} value={bm.paragraphIndex}>
+                        Seïf {bm.seif || (bm.paragraphIndex + 1)}
+                      </option>
+                    ))}
+                </select>
+              </div>
+            )}
           </div>
 
-          {/* Reading Mode Selector */}
-          <div className="flex bg-zinc-800 rounded-lg p-1 border border-zinc-700 self-start lg:self-auto shadow-inner">
-            {[
-              { id: 1, label: "HEB" },
-              { id: 2, label: "NIKOUD" },
-              { id: 3, label: "BILINGUE" },
-              { id: 4, label: "FRANÇAIS" }
-            ].map((mode) => (
+          <div className="flex items-center gap-2.5 justify-between md:justify-end">
+            {/* Search Input */}
+            <div className="relative flex-grow md:w-52 max-w-xs">
+              <span className="absolute left-3 top-2 text-zinc-400 dark:text-zinc-500">
+                <Icon name="search" className="w-3.5 h-3.5" />
+              </span>
+              <input
+                type="text"
+                placeholder="Rechercher..."
+                value={searchQuery}
+                onChange={(e) => {
+                  setSearchQuery(e.target.value);
+                  setShowSearchResults(e.target.value.length > 0);
+                }}
+                className="bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-full py-1 pl-9 pr-7 text-xs focus:outline-none focus:ring-1 focus:ring-amber-500/50 w-full text-zinc-800 dark:text-zinc-300 placeholder-zinc-400 dark:placeholder-zinc-500"
+              />
+              {searchQuery && (
+                <button
+                  onClick={() => {
+                    setSearchQuery("");
+                    setShowSearchResults(false);
+                  }}
+                  className="absolute right-2.5 top-1.5 text-[9px] text-zinc-400 hover:text-zinc-700 dark:text-zinc-500 dark:hover:text-zinc-300 uppercase font-bold cursor-pointer"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+
+            {/* Previous / Next buttons */}
+            <div className="flex items-center gap-1.5 shrink-0">
               <button
-                key={mode.id}
-                onClick={() => setReadingMode(mode.id)}
-                className={`px-3 md:px-4 py-1.5 rounded-md text-xs font-semibold transition-all cursor-pointer ${readingMode === mode.id ? "bg-amber-600 text-white font-bold" : "text-zinc-400 hover:text-zinc-200"}`}
+                onClick={() => scrollToSeifCard(Math.max(0, currentParagraphIndex - 1))}
+                disabled={currentParagraphIndex === 0}
+                className="p-1.5 rounded-lg bg-zinc-50 hover:bg-zinc-100 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 border border-zinc-200 dark:border-zinc-700 disabled:opacity-30 cursor-pointer transition-colors"
+                title="Seïf précédent"
               >
-                {mode.label}
+                <Icon name="chevronLeft" className="w-4 h-4" />
               </button>
-            ))}
-          </div>
-
-          {/* Previous / Next buttons */}
-          <div className="flex items-center gap-2 self-end lg:self-auto">
-            <button
-              onClick={() => scrollToSeifCard(Math.max(0, currentParagraphIndex - 1))}
-              disabled={currentParagraphIndex === 0}
-              className="p-1.5 rounded bg-zinc-800 text-zinc-400 hover:text-zinc-200 border border-zinc-700 disabled:opacity-30 cursor-pointer"
-            >
-              <Icon name="chevronLeft" className="w-5 h-5" />
-            </button>
-            <button
-              onClick={() => scrollToSeifCard(Math.min(paragraphs.length - 1, currentParagraphIndex + 1))}
-              disabled={currentParagraphIndex === paragraphs.length - 1}
-              className="p-1.5 rounded bg-zinc-800 text-zinc-400 hover:text-zinc-200 border border-zinc-700 disabled:opacity-30 cursor-pointer"
-            >
-              <Icon name="chevronRight" className="w-5 h-5" />
-            </button>
+              <button
+                onClick={() => scrollToSeifCard(Math.min(paragraphs.length - 1, currentParagraphIndex + 1))}
+                disabled={currentParagraphIndex === paragraphs.length - 1}
+                className="p-1.5 rounded-lg bg-zinc-50 hover:bg-zinc-100 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 border border-zinc-200 dark:border-zinc-700 disabled:opacity-30 cursor-pointer transition-colors"
+                title="Seïf suivant"
+              >
+                <Icon name="chevronRight" className="w-4 h-4" />
+              </button>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Main Sefaria-style Continuous Reader Stream */}
-      <main className="flex-grow flex flex-col items-center justify-start pt-4 pb-8 px-4 md:px-6 relative">
-        <div ref={containerRef} className="w-full max-w-2xl space-y-10 flex flex-col relative min-h-[350px]">
+      <main className="flex-grow flex flex-col items-center justify-start pt-4 pb-8 px-3 sm:px-6 relative w-full max-w-full overflow-x-hidden">
+        <div ref={containerRef} className="w-full max-w-2xl space-y-10 flex flex-col relative min-h-[350px] overflow-x-hidden">
 
           {/* Word Popup Portal */}
           {popup && popup.show && createPortal(
@@ -835,16 +856,16 @@ const ReaderScreen = ({
               }}
               className="z-50 w-fit min-w-[200px] max-w-[280px] md:max-w-[340px] popup-container"
             >
-              <div className="bg-zinc-950/95 border border-amber-500/80 backdrop-blur-md shadow-2xl rounded-xl p-3.5 relative mb-2.5 text-zinc-100 font-sans text-xs space-y-2.5 ring-1 ring-amber-500/20">
+              <div className="bg-white/95 dark:bg-zinc-950/95 border border-amber-500/80 backdrop-blur-md shadow-2xl rounded-xl p-3.5 relative mb-2.5 text-zinc-900 dark:text-zinc-100 font-sans text-xs space-y-2.5 ring-1 ring-amber-500/20">
                 {/* Mot principal */}
-                <div className="flex justify-between items-center gap-3 pb-2 border-b border-zinc-800/80">
+                <div className="flex justify-between items-center gap-3 pb-2 border-b border-zinc-200 dark:border-zinc-800/80">
                   <div className="text-right flex-grow min-w-0" dir="rtl">
-                    <p className="font-hebrew-serif font-bold text-amber-400 text-xl tracking-wide leading-none">
+                    <p className="font-hebrew-serif font-bold text-amber-600 dark:text-amber-400 text-xl tracking-wide leading-none">
                       {popup.word.hebreu_voyelles || popup.word.hebreu_brut}
                     </p>
                   </div>
                   <div className="text-left flex-grow">
-                    <p className="text-zinc-100 font-semibold text-sm leading-tight">
+                    <p className="text-zinc-900 dark:text-zinc-100 font-semibold text-sm leading-tight">
                       {popup.word.francais_mot || (popup.word.id && String(popup.word.id).startsWith("fluent-") ? "Traduction" : "—")}
                     </p>
                   </div>
@@ -861,18 +882,18 @@ const ReaderScreen = ({
 
                   return (
                     <div className="bg-gradient-to-r from-amber-500/15 via-amber-500/5 to-transparent border border-amber-500/40 rounded-lg p-2.5 space-y-1 shadow-sm">
-                      <div className="flex items-center gap-1.5 text-[9px] font-extrabold uppercase tracking-widest text-amber-400">
-                        <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
+                      <div className="flex items-center gap-1.5 text-[9px] font-extrabold uppercase tracking-widest text-amber-600 dark:text-amber-400">
+                        <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
                         <span>⚡ Forme Infinitive (Verbe)</span>
                       </div>
                       <div className="flex items-center justify-between gap-2 pt-0.5">
                         {hebInf && (
-                          <span className="font-hebrew-serif text-amber-200 text-base font-bold tracking-wide" dir="rtl">
+                          <span className="font-hebrew-serif text-amber-700 dark:text-amber-200 text-base font-bold tracking-wide" dir="rtl">
                             {hebInf}
                           </span>
                         )}
                         {frInf && (
-                          <span className="text-zinc-100 font-semibold text-xs italic bg-zinc-900/80 px-2 py-0.5 rounded border border-zinc-700/80">
+                          <span className="text-zinc-800 dark:text-zinc-100 font-semibold text-xs italic bg-zinc-100 dark:bg-zinc-900/80 px-2 py-0.5 rounded border border-zinc-200 dark:border-zinc-700/80">
                             {frInf}
                           </span>
                         )}
@@ -885,14 +906,14 @@ const ReaderScreen = ({
                 {popup.word.expression_contexte && popup.word.expression_contexte !== popup.word.francais_mot && (() => {
                   const ctxText = popup.word.expression_contexte;
                   const isHebrewCtx = /[\u0590-\u05FF]/.test(ctxText);
-                  if (isHebrewCtx) return null; // Ne pas afficher l'extrait hébreu dans la pop-up pour les débutants
+                  if (isHebrewCtx) return null;
 
                   return (
-                    <div className="bg-zinc-900/80 border border-zinc-800 rounded-lg p-2 space-y-1">
-                      <div className="flex items-center gap-1.5 text-[9px] font-bold uppercase tracking-widest text-zinc-400">
+                    <div className="bg-zinc-50 dark:bg-zinc-900/80 border border-zinc-200 dark:border-zinc-800 rounded-lg p-2 space-y-1">
+                      <div className="flex items-center gap-1.5 text-[9px] font-bold uppercase tracking-widest text-zinc-500 dark:text-zinc-400">
                         <span>💡 Note d'apprentissage :</span>
                       </div>
-                      <p className="text-[11px] text-zinc-300 leading-snug italic">
+                      <p className="text-[11px] text-zinc-700 dark:text-zinc-300 leading-snug italic">
                         {ctxText}
                       </p>
                     </div>
@@ -900,7 +921,7 @@ const ReaderScreen = ({
                 })()}
 
                 {/* Flèche sous la pop-up */}
-                <div className="absolute h-2.5 w-2.5 bg-zinc-950 border-r border-b border-amber-500/80 left-1/2 -bottom-1.5 -translate-x-1/2 rotate-45 shadow-md" />
+                <div className="absolute h-2.5 w-2.5 bg-white dark:bg-zinc-950 border-r border-b border-amber-500/80 left-1/2 -bottom-1.5 -translate-x-1/2 rotate-45 shadow-md" />
               </div>
             </div>,
             document.body
@@ -909,14 +930,15 @@ const ReaderScreen = ({
           {displayedItems.length === 0 ? (
             <div className="flex flex-col items-center justify-center p-10 text-center flex-grow">
               <Icon name="alert" className="w-10 h-10 text-amber-500 mb-3 animate-pulse" />
-              <p className="text-sm text-zinc-400">Aucune halakha trouvée pour ce sujet.</p>
+              <p className="text-sm text-zinc-500 dark:text-zinc-400">Aucune halakha trouvée pour ce sujet.</p>
             </div>
           ) : (
             <>
               {displayedItems.slice(0, visibleCount).map((item, itemIdx) => {
                 const p = item.paragraph;
                 const pIndex = item.index;
-                const isFav = favorites.some(fav => fav.paragraphIndex === pIndex);
+                const isFav = favorites.some(fav => fav.paragraphIndex === pIndex && (!fav.bookId || fav.bookId === activeBookId));
+                const isBookmarked = bookmarks.some(bm => bm.paragraphIndex === pIndex && (!bm.bookId || bm.bookId === activeBookId));
                 const isSelected = pIndex === currentParagraphIndex;
                 const currentSubjectTitle = (p.sujet_fr || p.sujet || '').trim();
 
@@ -932,6 +954,7 @@ const ReaderScreen = ({
                     pIndex={pIndex}
                     isSelected={isSelected}
                     isFav={isFav}
+                    isBookmarked={isBookmarked}
                     readingMode={readingMode}
                     fontSize={fontSize}
                     searchQuery={searchQuery}
@@ -942,6 +965,7 @@ const ReaderScreen = ({
                     availableSeifCount={availableSeifOptions.length}
                     onParagraphChange={onParagraphChange}
                     onToggleFavorite={onToggleFavorite}
+                    onToggleBookmark={onToggleBookmark}
                     onWordClick={handleWordClick}
                     setHoveredWordId={setHoveredWordId}
                     wordRefs={wordRefs}
@@ -954,10 +978,10 @@ const ReaderScreen = ({
                 <div className="flex flex-col items-center py-6">
                   <button
                     onClick={() => setVisibleCount(prev => prev + 10)}
-                    className="px-6 py-3 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-amber-400 text-xs font-bold border border-zinc-700/80 shadow-lg cursor-pointer transition-all flex items-center gap-2"
+                    className="px-6 py-3 rounded-xl bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-amber-600 dark:text-amber-400 text-xs font-bold border border-zinc-200 dark:border-zinc-700/80 shadow-md cursor-pointer transition-all flex items-center gap-2"
                   >
                     <span>Charger les lois suivantes ({displayedItems.length - visibleCount} restantes)</span>
-                    <Icon name="chevronDown" className="w-4 h-4 text-amber-400" />
+                    <Icon name="chevronDown" className="w-4 h-4 text-amber-500 dark:text-amber-400" />
                   </button>
                 </div>
               )}
@@ -966,7 +990,7 @@ const ReaderScreen = ({
         </div>
 
         {/* Footer */}
-        <div className="w-full max-w-2xl px-6 py-3 border-t border-zinc-850 bg-zinc-900/10 text-[9px] text-zinc-500 uppercase tracking-widest font-bold flex flex-col md:flex-row items-center justify-between gap-2 mt-10 select-none">
+        <div className="w-full max-w-2xl px-6 py-3 border-t border-zinc-200 dark:border-zinc-850 bg-zinc-100/50 dark:bg-zinc-900/10 text-[9px] text-zinc-500 dark:text-zinc-400 uppercase tracking-widest font-bold flex flex-col md:flex-row items-center justify-between gap-2 mt-10 select-none">
           <div className="flex items-center gap-2">
             <Icon name="cap" className="w-4 h-4 text-amber-500/80" />
             <span>Étude bilingue progressive style Sefaria (Mémorisé Ultra-Fluide)</span>

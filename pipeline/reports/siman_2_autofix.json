@@ -1,0 +1,209 @@
+{
+  "siman": 2,
+  "timestamp": "2026-08-14T13:50:13.461Z",
+  "dryRun": false,
+  "totalFixes": 32,
+  "seifimFixed": 28,
+  "details": [
+    {
+      "seif": "1",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "2",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "3",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "4",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[28]: \"וּמְגֻנִּים.\" → \"וּמְגוּנִּים.\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "5",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "6",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[60]: \"וּכְשֶׁחֻלַּץ\" → \"וּכְשֶׁחוּלַּץ\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "7",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "8",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "9",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "10",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "11",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "12",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "13",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "14",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "15",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "16",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[12]: \"רֻבּוֹ.\" → \"רוּבּוֹ.\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "17",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "18",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "19",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "20",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "21",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "22",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "23",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "24",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "25",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "26",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[23]: \"וּמֻתָּר\" → \"וּמוּתָּר\"",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "27",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "28",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    }
+  ]
+}

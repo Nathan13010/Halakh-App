@@ -330,7 +330,12 @@ Génère le tableau "mots_alignes" selon le schéma défini. Rappel : un éléme
       return parsed;
 
     } catch (err) {
-      const isQuotaError = err.message && (err.message.includes('Quota exceeded') || err.message.includes('429'));
+      const isQuotaError = err.message && (
+        err.message.includes('Quota exceeded') ||
+        err.message.includes('429') ||
+        err.message.includes('RESOURCE_EXHAUSTED') ||
+        err.message.includes('quota')
+      );
       if (isQuotaError && switchApiKey()) {
         attempt--; // On ne compte pas cette tentative puisqu'on vient de changer de clé
         continue;
@@ -432,11 +437,15 @@ function parseArgs() {
 async function main() {
   const cliArgs = parseArgs();
 
-  apiKeys = [
-    process.env.GEMINI_API_KEY,
-    process.env.GEMINI_API_KEY_2,
-    process.env.GEMINI_API_KEY_3
-  ].filter(Boolean);
+  apiKeys = Object.keys(process.env)
+    .filter(k => k === 'GEMINI_API_KEY' || k.startsWith('GEMINI_API_KEY_'))
+    .sort((a, b) => {
+      const numA = parseInt(a.replace('GEMINI_API_KEY_', '').replace('GEMINI_API_KEY', '1'), 10) || 1;
+      const numB = parseInt(b.replace('GEMINI_API_KEY_', '').replace('GEMINI_API_KEY', '1'), 10) || 1;
+      return numA - numB;
+    })
+    .map(k => process.env[k])
+    .filter(Boolean);
 
   if (apiKeys.length === 0) {
     console.error('❌ Aucune clé API trouvée. Créez un fichier .env avec GEMINI_API_KEY=votre_clé');

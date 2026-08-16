@@ -1,0 +1,1664 @@
+{
+  "siman": 1,
+  "file": "siman_1.json",
+  "timestamp": "2026-08-14T13:50:21.029Z",
+  "summary": {
+    "total": 59,
+    "pass": 13,
+    "warn": 45,
+    "fail": 1,
+    "avg_score": 78
+  },
+  "seifim": [
+    {
+      "seif": 1,
+      "status": "FAIL",
+      "score": 50,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": false,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "115 mots alignés vs 192 mots hébreux (diff: 77)",
+          "expected": 192,
+          "actual": 115
+        },
+        {
+          "type": "TERME_FOUND",
+          "severity": "error",
+          "detail": "1 mot(s) avec placeholder interdit",
+          "words": [
+            {
+              "id": 90,
+              "word": "פי",
+              "francais": "—"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seif": 2,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "68 mots alignés vs 79 mots hébreux (diff: 11)",
+          "expected": 79,
+          "actual": 68
+        }
+      ]
+    },
+    {
+      "seif": 3,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "33 mots alignés vs 41 mots hébreux (diff: 8)",
+          "expected": 41,
+          "actual": 33
+        }
+      ]
+    },
+    {
+      "seif": 4,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "113 mots alignés vs 128 mots hébreux (diff: 15)",
+          "expected": 128,
+          "actual": 113
+        }
+      ]
+    },
+    {
+      "seif": 5,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "42 mots alignés vs 59 mots hébreux (diff: 17)",
+          "expected": 59,
+          "actual": 42
+        }
+      ]
+    },
+    {
+      "seif": 6,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 7,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 8,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 9,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 10,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 11,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 12,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "67 mots alignés vs 123 mots hébreux (diff: 56)",
+          "expected": 123,
+          "actual": 67
+        }
+      ]
+    },
+    {
+      "seif": 13,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "39 mots alignés vs 64 mots hébreux (diff: 25)",
+          "expected": 64,
+          "actual": 39
+        }
+      ]
+    },
+    {
+      "seif": 14,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "53 mots alignés vs 63 mots hébreux (diff: 10)",
+          "expected": 63,
+          "actual": 53
+        }
+      ]
+    },
+    {
+      "seif": 15,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 16,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 17,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 18,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 19,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 20,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 21,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "warning",
+          "detail": "85 mots alignés vs 88 mots hébreux (diff: 3)",
+          "expected": 88,
+          "actual": 85
+        }
+      ]
+    },
+    {
+      "seif": 22,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "warning",
+          "detail": "100 mots alignés vs 98 mots hébreux (diff: 2)",
+          "expected": 98,
+          "actual": 100
+        }
+      ]
+    },
+    {
+      "seif": 23,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "20 mots alignés vs 29 mots hébreux (diff: 9)",
+          "expected": 29,
+          "actual": 20
+        }
+      ]
+    },
+    {
+      "seif": 24,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 25,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "65 mots alignés vs 69 mots hébreux (diff: 4)",
+          "expected": 69,
+          "actual": 65
+        }
+      ]
+    },
+    {
+      "seif": 26,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "31 mots alignés vs 40 mots hébreux (diff: 9)",
+          "expected": 40,
+          "actual": 31
+        }
+      ]
+    },
+    {
+      "seif": 27,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "58 mots alignés vs 64 mots hébreux (diff: 6)",
+          "expected": 64,
+          "actual": 58
+        }
+      ]
+    },
+    {
+      "seif": 28,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "warning",
+          "detail": "25 mots alignés vs 27 mots hébreux (diff: 2)",
+          "expected": 27,
+          "actual": 25
+        }
+      ]
+    },
+    {
+      "seif": 29,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "warning",
+          "detail": "52 mots alignés vs 55 mots hébreux (diff: 3)",
+          "expected": 55,
+          "actual": 52
+        }
+      ]
+    },
+    {
+      "seif": 30,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 31,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "32 mots alignés vs 44 mots hébreux (diff: 12)",
+          "expected": 44,
+          "actual": 32
+        }
+      ]
+    },
+    {
+      "seif": 32,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "59 mots alignés vs 85 mots hébreux (diff: 26)",
+          "expected": 85,
+          "actual": 59
+        }
+      ]
+    },
+    {
+      "seif": 33,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "29 mots alignés vs 44 mots hébreux (diff: 15)",
+          "expected": 44,
+          "actual": 29
+        }
+      ]
+    },
+    {
+      "seif": 34,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "88 mots alignés vs 101 mots hébreux (diff: 13)",
+          "expected": 101,
+          "actual": 88
+        }
+      ]
+    },
+    {
+      "seif": 35,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "23 mots alignés vs 38 mots hébreux (diff: 15)",
+          "expected": 38,
+          "actual": 23
+        }
+      ]
+    },
+    {
+      "seif": 36,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "30 mots alignés vs 39 mots hébreux (diff: 9)",
+          "expected": 39,
+          "actual": 30
+        }
+      ]
+    },
+    {
+      "seif": 37,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "34 mots alignés vs 48 mots hébreux (diff: 14)",
+          "expected": 48,
+          "actual": 34
+        }
+      ]
+    },
+    {
+      "seif": 38,
+      "status": "WARN",
+      "score": 64,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "error",
+          "detail": "113 mots alignés vs 122 mots hébreux (diff: 9)",
+          "expected": 122,
+          "actual": 113
+        }
+      ]
+    },
+    {
+      "seif": 39,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 40,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 41,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 42,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 43,
+      "status": "WARN",
+      "score": 73,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": false,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        },
+        {
+          "type": "BADGE_INCORRECT",
+          "severity": "warning",
+          "detail": "Badge attendu: \"מג.\" / \"43.\", trouvé: \"דיני\" / \"Lois (relatives à)\""
+        }
+      ]
+    },
+    {
+      "seif": 44,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": false,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "MISSING_KEYS",
+          "severity": "error",
+          "detail": "Clés manquantes: siman"
+        }
+      ]
+    },
+    {
+      "seif": 45,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 46,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 47,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 48,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 49,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 50,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 51,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 52,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 53,
+      "status": "WARN",
+      "score": 86,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": false,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "TERME_FOUND",
+          "severity": "error",
+          "detail": "1 mot(s) avec placeholder interdit",
+          "words": [
+            {
+              "id": 37,
+              "word": "את",
+              "francais": "-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seif": 54,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 55,
+      "status": "WARN",
+      "score": 82,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "ALIGNMENT_MISMATCH",
+          "severity": "warning",
+          "detail": "145 mots alignés vs 146 mots hébreux (diff: 1)",
+          "expected": 146,
+          "actual": 145
+        }
+      ]
+    },
+    {
+      "seif": 56,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 57,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 58,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 59,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": true,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    }
+  ]
+}
