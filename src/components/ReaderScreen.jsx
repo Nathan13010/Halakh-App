@@ -444,6 +444,19 @@ const ReaderScreen = ({
 
   const [isToolbarVisible, setIsToolbarVisible] = useState(true);
   const lastScrollY = useRef(0);
+  const toolbarRef = useRef(null);
+  const [toolbarHeight, setToolbarHeight] = useState(52);
+
+  useEffect(() => {
+    const measure = () => {
+      if (toolbarRef.current) {
+        setToolbarHeight(toolbarRef.current.offsetHeight);
+      }
+    };
+    measure();
+    window.addEventListener('resize', measure);
+    return () => window.removeEventListener('resize', measure);
+  }, []);
 
   const containerRef = useRef(null);
   const wordRefs = useRef({});
@@ -698,9 +711,11 @@ const ReaderScreen = ({
 
       {/* Toolbar Sub-Navigation */}
       <section 
-        className={`bg-white/95 dark:bg-zinc-900/90 border-b border-zinc-200 dark:border-zinc-800/80 px-3 sm:px-6 py-2.5 sm:py-3 sticky top-16 z-20 transition-transform duration-300 ease-in-out backdrop-blur-md w-full max-w-full overflow-x-hidden shadow-sm ${
-          isToolbarVisible ? 'translate-y-0' : '-translate-y-[150%]'
+        ref={toolbarRef}
+        className={`fixed left-0 right-0 bg-white/95 dark:bg-zinc-900/90 border-b border-zinc-200 dark:border-zinc-800/80 px-3 sm:px-6 py-2.5 sm:py-3 z-30 transition-all duration-300 ease-in-out backdrop-blur-md w-full shadow-sm ${
+          isToolbarVisible ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none -translate-y-2'
         }`}
+        style={{ top: 'calc(var(--header-height, 4rem) + var(--safe-top, 0px))' }}
       >
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-3 sm:gap-4">
           <div className="flex flex-wrap items-center gap-2.5 sm:gap-4">
@@ -788,61 +803,12 @@ const ReaderScreen = ({
               </div>
             )}
           </div>
-
-          <div className="flex items-center gap-2.5 justify-between md:justify-end">
-            {/* Search Input */}
-            <div className="relative flex-grow md:w-52 max-w-xs">
-              <span className="absolute left-3 top-2 text-zinc-400 dark:text-zinc-500">
-                <Icon name="search" className="w-3.5 h-3.5" />
-              </span>
-              <input
-                type="text"
-                placeholder="Rechercher..."
-                value={searchQuery}
-                onChange={(e) => {
-                  setSearchQuery(e.target.value);
-                  setShowSearchResults(e.target.value.length > 0);
-                }}
-                className="bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-full py-1 pl-9 pr-7 text-xs focus:outline-none focus:ring-1 focus:ring-amber-500/50 w-full text-zinc-800 dark:text-zinc-300 placeholder-zinc-400 dark:placeholder-zinc-500"
-              />
-              {searchQuery && (
-                <button
-                  onClick={() => {
-                    setSearchQuery("");
-                    setShowSearchResults(false);
-                  }}
-                  className="absolute right-2.5 top-1.5 text-[9px] text-zinc-400 hover:text-zinc-700 dark:text-zinc-500 dark:hover:text-zinc-300 uppercase font-bold cursor-pointer"
-                >
-                  ✕
-                </button>
-              )}
-            </div>
-
-            {/* Previous / Next buttons */}
-            <div className="flex items-center gap-1.5 shrink-0">
-              <button
-                onClick={() => scrollToSeifCard(Math.max(0, currentParagraphIndex - 1))}
-                disabled={currentParagraphIndex === 0}
-                className="p-1.5 rounded-lg bg-zinc-50 hover:bg-zinc-100 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 border border-zinc-200 dark:border-zinc-700 disabled:opacity-30 cursor-pointer transition-colors"
-                title="Seïf précédent"
-              >
-                <Icon name="chevronLeft" className="w-4 h-4" />
-              </button>
-              <button
-                onClick={() => scrollToSeifCard(Math.min(paragraphs.length - 1, currentParagraphIndex + 1))}
-                disabled={currentParagraphIndex === paragraphs.length - 1}
-                className="p-1.5 rounded-lg bg-zinc-50 hover:bg-zinc-100 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 border border-zinc-200 dark:border-zinc-700 disabled:opacity-30 cursor-pointer transition-colors"
-                title="Seïf suivant"
-              >
-                <Icon name="chevronRight" className="w-4 h-4" />
-              </button>
-            </div>
-          </div>
         </div>
       </section>
 
       {/* Main Sefaria-style Continuous Reader Stream */}
-      <main className="flex-grow flex flex-col items-center justify-start pt-4 pb-8 px-3 sm:px-6 relative w-full max-w-full overflow-x-hidden">
+      {/* pt accounts for fixed toolbar height */}
+      <main className="flex-grow flex flex-col items-center justify-start pb-8 px-3 sm:px-6 relative w-full max-w-full overflow-x-hidden" style={{ paddingTop: `${toolbarHeight + 16}px` }}>
         <div ref={containerRef} className="w-full max-w-2xl space-y-10 flex flex-col relative min-h-[350px] overflow-x-hidden">
 
           {/* Word Popup Portal */}

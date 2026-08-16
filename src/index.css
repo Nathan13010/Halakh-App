@@ -26,6 +26,8 @@ html, body {
 :root {
   --font-hebrew: 'Noto Serif Hebrew', serif;
   --font-french: 'Inter', sans-serif;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --header-height: 4rem;
 }
 
 /* Optimisations typographiques fines pour le texte sacré et le français */

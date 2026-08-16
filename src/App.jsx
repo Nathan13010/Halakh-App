@@ -448,9 +448,15 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-zinc-50 dark:bg-[#0A0A0B] text-zinc-900 dark:text-[#E4E4E7] font-sans pb-20 md:pb-0 pt-16 overflow-x-hidden w-full max-w-full">
+    <div
+      className="min-h-screen bg-zinc-50 dark:bg-[#0A0A0B] text-zinc-900 dark:text-[#E4E4E7] font-sans pb-20 md:pb-0 overflow-x-hidden w-full max-w-full"
+      style={{ paddingTop: 'calc(var(--header-height, 4rem) + var(--safe-top, 0px))' }}
+    >
       {/* Header Mobile / Desktop Top Bar */}
-      <header className="fixed top-0 left-0 right-0 h-16 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 z-40 flex items-center justify-between px-4 md:px-8 w-full max-w-full overflow-x-hidden">
+      <header
+        className="fixed top-0 left-0 right-0 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 z-40 flex items-center justify-between px-4 md:px-8 w-full max-w-full overflow-x-hidden"
+        style={{ minHeight: 'var(--header-height, 4rem)', height: 'calc(var(--header-height, 4rem) + var(--safe-top, 0px))', paddingTop: 'var(--safe-top, 0px)', boxSizing: 'border-box' }}
+      >
         {/* Left side: Back button when reading, Logo otherwise */}
         {activeTab === 'library' && currentScreen === 'reader' ? (
           <div className="flex items-center gap-2 sm:gap-3">
@@ -619,13 +625,17 @@ function App() {
       </main>
 
       {/* Bottom Navigation Bar with 4 Tabs */}
-      <nav className="fixed bottom-0 left-0 right-0 h-20 bg-white dark:bg-zinc-900 border-t border-zinc-200 dark:border-zinc-800 z-40 flex items-center justify-around px-2 pb-safe w-full max-w-full overflow-x-hidden">
-        <button 
-          onClick={() => { setActiveTab("library"); setCurrentScreen("welcome"); }} 
-          className={`flex flex-col items-center justify-center gap-1.5 w-18 sm:w-20 h-full cursor-pointer transition-colors ${
-            activeTab === 'library' ? 'text-amber-500 font-bold' : 'text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-300'
-          }`}
-        >
+      <nav 
+        className="fixed bottom-0 left-0 right-0 bg-white dark:bg-zinc-900 border-t border-zinc-200 dark:border-zinc-800 z-40 w-full max-w-full overflow-x-hidden"
+        style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}
+      >
+        <div className="flex items-center justify-around px-2 py-3 w-full h-[4.5rem]">
+          <button 
+            onClick={() => { setActiveTab("library"); setCurrentScreen("welcome"); }} 
+            className={`flex flex-col items-center justify-center gap-1.5 w-18 sm:w-20 h-full cursor-pointer transition-colors ${
+              activeTab === 'library' ? 'text-amber-500 font-bold' : 'text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-300'
+            }`}
+          >
           <Icon name="library" className="w-5 h-5 sm:w-6 sm:h-6" />
           <span className="text-[10px] font-bold">Bibliothèque</span>
         </button>
@@ -659,6 +669,7 @@ function App() {
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
           <span className="text-[10px] font-bold">Profil</span>
         </button>
+        </div>
       </nav>
 
       {/* Settings Modal (if opened directly) */}
