@@ -166,10 +166,12 @@ function App() {
       const simanMatch = book.id.match(/(\d+)/);
       const simanNum = simanMatch ? simanMatch[1] : '318';
 
-      const candidatePaths = [
-        `/data/siman_${simanNum}.json`,
-        `/data/${book.id}.json`,
-      ];
+      const candidatePaths = [];
+      if (book.dataFile) {
+        candidatePaths.push(`/data/${book.dataFile}`);
+      }
+      candidatePaths.push(`/data/siman_${simanNum}.json`);
+      candidatePaths.push(`/data/${book.id}.json`);
 
       let response = null;
       for (const p of candidatePaths) {
@@ -449,12 +451,12 @@ function App() {
 
   return (
     <div
-      className="min-h-screen bg-zinc-50 dark:bg-[#0A0A0B] text-zinc-900 dark:text-[#E4E4E7] font-sans pb-20 md:pb-0 overflow-x-hidden w-full max-w-full"
+      className="min-h-screen bg-[#E3E7EC] dark:bg-[#25282D] text-zinc-900 dark:text-[#E4E4E7] font-sans pb-20 md:pb-0 overflow-x-hidden w-full max-w-full"
       style={{ paddingTop: 'calc(var(--header-height, 4rem) + var(--safe-top, 0px))' }}
     >
       {/* Header Mobile / Desktop Top Bar */}
       <header
-        className="fixed top-0 left-0 right-0 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 z-40 flex items-center justify-between px-4 md:px-8 w-full max-w-full overflow-x-hidden"
+        className="fixed top-0 left-0 right-0 bg-[#E3E7EC]/80 dark:bg-[#25282D]/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 z-40 flex items-center justify-between px-4 md:px-8 w-full max-w-full overflow-x-hidden"
         style={{ minHeight: 'var(--header-height, 4rem)', height: 'calc(var(--header-height, 4rem) + var(--safe-top, 0px))', paddingTop: 'var(--safe-top, 0px)', boxSizing: 'border-box' }}
       >
         {/* Left side: Back button when reading, Logo otherwise */}
@@ -479,7 +481,7 @@ function App() {
         ) : (
           <div className="flex items-center gap-2.5">
             <img src="/images/brand/logo.webp" alt="Halakh'App Logo" className="w-8 h-8 rounded-xl object-cover border border-amber-500/30 shadow-sm" />
-            <span className="font-serif font-bold text-lg text-zinc-900 dark:text-zinc-100">Halakh'App</span>
+            <span className="font-serif font-medium tracking-tight text-xl md:text-2xl text-zinc-900 dark:text-zinc-100">Halakh'<span className="text-amber-500">App</span></span>
           </div>
         )}
 
@@ -528,7 +530,7 @@ function App() {
       {/* Main Content Area */}
       <main className="min-h-screen w-full max-w-full overflow-x-hidden">
         {isLoading && (
-          <div className="fixed inset-0 bg-white/95 dark:bg-[#0A0A0B]/95 z-55 flex flex-col items-center justify-center p-6 text-center select-none backdrop-blur-md">
+          <div className="fixed inset-0 bg-[#E3E7EC]/95 dark:bg-[#25282D]/95 z-55 flex flex-col items-center justify-center p-6 text-center select-none backdrop-blur-md">
             <div className="relative mb-6 animate-pulse">
               <p className="text-amber-500 font-bold font-serif text-3xl">ש</p>
             </div>
@@ -556,9 +558,6 @@ function App() {
             onRemoveFavorite={handleRemoveFavorite}
             onSelectBookmark={handleSelectBookmark}
             onRemoveBookmark={handleRemoveBookmark}
-            streak={streak}
-            onIncreaseStreak={handleUpdateStreak}
-            isDailyCompleted={isDailyCompleted}
             onOpenSettings={() => setActiveTab('profile')}
           />
         )}
@@ -590,7 +589,13 @@ function App() {
         )}
 
         {activeTab === "learning" && (
-          <LearningScreen xp={xp} onAddXp={handleAddXp} streak={streak} />
+          <LearningScreen 
+            xp={xp} 
+            onAddXp={handleAddXp} 
+            streak={streak} 
+            isDailyCompleted={isDailyCompleted}
+            onIncreaseStreak={handleUpdateStreak}
+          />
         )}
 
         {activeTab === "ai" && (
@@ -626,7 +631,7 @@ function App() {
 
       {/* Bottom Navigation Bar with 4 Tabs */}
       <nav 
-        className="fixed bottom-0 left-0 right-0 bg-white dark:bg-zinc-900 border-t border-zinc-200 dark:border-zinc-800 z-40 w-full max-w-full overflow-x-hidden"
+        className="fixed bottom-0 left-0 right-0 bg-[#E3E7EC] dark:bg-[#25282D] border-t border-zinc-200 dark:border-zinc-800 z-40 w-full max-w-full overflow-x-hidden"
         style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}
       >
         <div className="flex items-center justify-around px-2 py-3 w-full h-[4.5rem]">

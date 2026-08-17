@@ -1,0 +1,102 @@
+{
+  "siman": "9",
+  "timestamp": "2026-08-16T19:12:31.719Z",
+  "total_reviewed": 1,
+  "total_fixes": 2,
+  "total_escalations": 0,
+  "fixes": [
+    {
+      "seif": 8,
+      "issue_index": 0,
+      "issue_type": "SUJET_MISSING",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "sujet_he",
+          "old": "",
+          "new": "ברכת דיין האמת על ידי אונן ואבלים",
+          "reason": "Ajout du sujet en hébreu résumé à partir du Seif"
+        },
+        {
+          "field": "sujet_fr",
+          "old": "",
+          "new": "Récitation de la bénédiction « Dayan HaEmet » par l'Onen et les deuilants",
+          "reason": "Traduction du sujet en français"
+        }
+      ]
+    },
+    {
+      "seif": 8,
+      "issue_index": 1,
+      "issue_type": "EMPTY_WORDS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "word_id": 22,
+          "field": "hebreu_voyelles",
+          "old": "",
+          "new": "פִּי",
+          "reason": "Vocalisation exacte du mot 'פי'"
+        },
+        {
+          "word_id": 22,
+          "field": "francais_mot",
+          "old": "",
+          "new": "que",
+          "reason": "Traduction dans l'expression 'אף על פי' (bien que / même si)"
+        }
+      ]
+    }
+  ],
+  "escalations": [],
+  "reviews": [
+    {
+      "seif": 8,
+      "original_score": 89,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "SUJET_MISSING",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "sujet_he",
+                "old": "",
+                "new": "ברכת דיין האמת על ידי אונן ואבלים",
+                "reason": "Ajout du sujet en hébreu résumé à partir du Seif"
+              },
+              {
+                "field": "sujet_fr",
+                "old": "",
+                "new": "Récitation de la bénédiction « Dayan HaEmet » par l'Onen et les deuilants",
+                "reason": "Traduction du sujet en français"
+              }
+            ]
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "EMPTY_WORDS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "word_id": 22,
+                "field": "hebreu_voyelles",
+                "old": "",
+                "new": "פִּי",
+                "reason": "Vocalisation exacte du mot 'פי'"
+              },
+              {
+                "word_id": 22,
+                "field": "francais_mot",
+                "old": "",
+                "new": "que",
+                "reason": "Traduction dans l'expression 'אף על פי' (bien que / même si)"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

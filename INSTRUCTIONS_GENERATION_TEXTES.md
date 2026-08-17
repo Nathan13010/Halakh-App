@@ -58,7 +58,7 @@ L'alignement est le cœur de l'application interactive. Il DOIT être parfait (0
 - **Expression de contexte :** Cette clé ne doit être remplie QUE si une précision est absolument nécessaire pour comprendre le mot (par exemple : une expression idiomatique, un mot composé, ou une syntaxe qui n'a pas de sens en traduction mot à mot).
   - **RÈGLE N°1 :** Si le mot se traduit de manière simple et directe (ex: "טובה" -> "bonne"), tu DOIS laisser la valeur `"expression_contexte": ""`. NE RÉPÈTE JAMAIS le `francais_mot` et NE METS JAMAIS la traduction du mot suivant.
   - **RÈGLE N°2 :** Si le mot nécessite du contexte, `francais_mot` contiendra le mot isolé, et `expression_contexte` contiendra l'expression complète. 
-  - **RÈGLE N°3 (Numérotation du Seif) :** Le TOUT PREMIER mot de chaque `mots_alignes` qui correspond au numéro du Seif (ex: "יא") DOIT IMPÉRATIVEMENT être écrit sans voyelles et avec un point final, à la fois pour `hebreu_brut` et `hebreu_voyelles` (ex: `"hebreu_brut": "יא.", "hebreu_voyelles": "יא."`). Il ne doit pas y avoir de guillemets (geresh).
+  - **RÈGLE N°3 (Numérotation du Seif) :** Le TOUT PREMIER mot de chaque `mots_alignes` qui correspond au numéro du Seif (ex: "יא") DOIT IMPÉRATIVEMENT être écrit sans voyelles et avec un point final, à la fois pour `hebreu_brut` et `hebreu_voyelles` (ex: `"hebreu_brut": "יא.", "hebreu_voyelles": "יא."`). Il ne doit pas y avoir de guillemets (geresh). Son `"expression_contexte"` DOIT être vide `""` (NE SURTOUT PAS écrire "Numéro du paragraphe").
 
 **Exemple de structure d'un mot :**
 ```json
@@ -113,3 +113,36 @@ Voici la liste des erreurs passées que l'IA doit vérifier avant de livrer son 
 - [x] **Incohérence de Nikkoud entre Seifim (Hamegounah) :** Si un même mot apparaît dans plusieurs Seifim (ex: `המגונה`), son Nikkoud doit être identique partout. Nakdan peut proposer `הַמְגוּנֶּה` (Shourouk) dans un Seif et `הַמְגֻנֶּה` (Koubouts) dans un autre. L'IA doit unifier le Nikkoud en vérifiant les occurrences précédentes du même mot.
 
 *Note pour l'IA : Mettez ce fichier à jour si vous rencontrez de nouvelles contraintes ou bugs lors du développement.*
+
+---
+
+## 🔍 Prompt de Recherche (IA Externe) : Quotas et Alternatives API
+
+*À copier/coller dans une IA connectée à Internet (ChatGPT, Perplexity, Gemini, Claude) en cas d'erreurs 503 ou 429 persistantes, pour chercher de nouveaux modèles ou architectures :*
+
+> "Je développe un projet nommé **Halakh'App**, une application de traitement et d'alignement bilingue (Hébreu-Français) de textes de loi juive (Halakha). J'utilise actuellement l'API gratuite de Google Gemini pour deux tâches : 1) Traduire des paragraphes entiers. 2) Aligner chaque mot avec sa traduction exacte en sortie JSON (Structured Outputs).
+>
+> **Contraintes techniques absolues à respecter dans ta réponse :**
+> - J'ai déjà 4 clés API provenant de 4 comptes Google distincts (donc 4 vrais quotas séparés gérés via un Smart Scheduler en Node.js).
+> - L'alignement NLP local (comme SimAlign, fast_align, etc.) NE FONCTIONNERA PAS. Mon texte est en Hébreu Rabbinique (Araméen, Ktiv Male/Haser) et nécessite une compréhension sémantique profonde (ex: extraire une 'expression_contexte' pour certains préfixes). L'alignement JSON doit OBLIGATOIREMENT être généré par un LLM de pointe.
+> - L'API Batch de Gemini n'est pas disponible sur le niveau gratuit, donc cette piste est exclue.
+>
+> **Sachant cela, voici mes questions :**
+> 1. À la date d'aujourd'hui, existe-t-il de nouveaux modèles LLM ultra-rapides et gratuits/ultra-low-cost (comme les dernières versions de DeepSeek, Mistral, Groq, etc.) capables de concurrencer Gemini Flash sur la maîtrise de l'Hébreu Rabbinique ET le respect absolu de schémas JSON complexes ?
+> 2. As-tu de nouvelles recommandations architecturales pour gérer 13 000 paragraphes (3 à 5 millions de tokens) en asynchrone tout en absorbant les erreurs 503, sans aucun budget d'infrastructure ?"
+
+---
+
+## 🔍 Prompt de Recherche (IA Externe) : Augmenter les quotas gratuits (Google)
+
+*À copier/coller pour demander comment obtenir légalement et techniquement plus de capacité gratuite sur Gemini :*
+
+> "Je travaille sur un immense projet éducatif/associatif de traduction de textes de loi juive (Halakha) nécessitant le traitement de 13 000 paragraphes avec Gemini Flash (via l'API Google GenAI). Mon budget API est nul (0€).
+>
+> Actuellement, je survis avec la limite du Free Tier de Gemini en utilisant 4 clés API générées depuis 4 de mes comptes Google personnels distincts. Mon script Node.js gère la rotation et les 'cooldowns' (429/503) de ces 4 clés de manière intelligente.
+>
+> **Ma question :**
+> Existe-t-il des moyens légitimes ou des astuces d'architecture pour multiplier encore plus ces quotas Google Gemini gratuits ? Par exemple :
+> - Créer encore plus de comptes Google est-il risqué à terme (shadowban, IP ban, blocage de numéro de téléphone) ?
+> - Existe-t-il des programmes spécifiques de Google (comme Google for Nonprofits, Google Cloud Credits for Startups, ou Vertex AI Free Trials) auxquels un petit développeur solo pourrait postuler pour débloquer massivement des quotas sans payer ?
+> - Y a-t-il des plateformes intermédiaires (proxy d'API, hubs comme OpenRouter) qui offrent d'importants quotas gratuits promotionnels sur Gemini ?"

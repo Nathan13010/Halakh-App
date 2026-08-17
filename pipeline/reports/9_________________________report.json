@@ -1,0 +1,690 @@
+{
+  "siman": 9,
+  "file": "siman_9.json",
+  "timestamp": "2026-08-17T10:50:07.662Z",
+  "summary": {
+    "total": 26,
+    "pass": 26,
+    "warn": 0,
+    "fail": 0,
+    "avg_score": 95
+  },
+  "seifim": [
+    {
+      "seif": 1,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 2,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 3,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 4,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 5,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 6,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 7,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 8,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 9,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 10,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 11,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 12,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 13,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 14,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 15,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 16,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 17,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 18,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 19,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 20,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 21,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 22,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 23,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 24,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 25,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    },
+    {
+      "seif": 26,
+      "status": "PASS",
+      "score": 95,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "SUJET_MISSING",
+          "severity": "warning",
+          "detail": "Champ(s) manquant(s): sujet/sujet_he, sujet_fr"
+        }
+      ]
+    }
+  ]
+}

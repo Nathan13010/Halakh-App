@@ -21013,82 +21013,189 @@ export const FALLBACK_PARAGRAPHS = [
 export const BOOKS = [
   {
     "id": "yalkout-1",
-    "title": "Yalkout Yossef",
-    "subtitle": "Siman 1 - Lois du Matin - Hilkhot Hashkamat Haboker",
+    "title": "Le réveil et les prières du matin",
+    "hebrewTitle": "הלכות השכמת הבוקר",
     "author": "Rav Ovadia Yossef / Rav Yitzhak Yossef",
     "category": "Halakha",
-    "description": "Lois sur le réveil et les prières du matin. Édition bilingue interactive.",
+    "description": "Prendre conscience de son créateur au réveil et de l'importance des premières actions de la journée.",
     "coverColor": "bg-gradient-to-br from-amber-900 via-amber-950 to-slate-900",
     "isUnlocked": true,
-    "chapters": [
-      {
-        "id": "siman-1",
-        "title": "Siman 1"
-      }
-    ]
+    "dataFile": "הלכות הנהגת אדם בבוקר/siman_1.json",
+    "chapters": [{ "id": "siman-1", "title": "Siman 1" }]
   },
   {
     "id": "yalkout-2",
-    "title": "Yalkout Yossef",
-    "subtitle": "Siman 2 - Lois de l'Habillement",
+    "title": "L'habillement",
+    "hebrewTitle": "הלכות לבישת בגדים",
     "author": "Rav Ovadia Yossef / Rav Yitzhak Yossef",
     "category": "Halakha",
-    "description": "Lois de l'habillement et de la conduite du matin. Édition bilingue interactive.",
+    "description": "Les règles de pudeur et la façon de s'habiller le matin.",
     "coverColor": "bg-gradient-to-br from-emerald-900 via-teal-950 to-slate-900",
     "isUnlocked": true,
-    "chapters": [
-      {
-        "id": "siman-2",
-        "title": "Siman 2"
-      }
-    ]
+    "dataFile": "הלכות הנהגת אדם בבוקר/siman_2.json",
+    "chapters": [{ "id": "siman-2", "title": "Siman 2" }]
   },
   {
     "id": "yalkout-3",
-    "title": "Yalkout Yossef",
-    "subtitle": "Siman 3 - Lois de la conduite aux toilettes",
+    "title": "La conduite aux toilettes",
+    "hebrewTitle": "הלכות הנהגת בית הכסא",
     "author": "Rav Ovadia Yossef / Rav Yitzhak Yossef",
     "category": "Halakha",
-    "description": "Règles halakhiques concernant la conduite aux toilettes. Édition bilingue interactive.",
+    "description": "L'attitude de pudeur et le comportement adéquat.",
     "coverColor": "bg-gradient-to-br from-indigo-900 via-purple-950 to-slate-900",
     "isUnlocked": true,
-    "chapters": [
-      {
-        "id": "siman-3",
-        "title": "Siman 3"
-      }
-    ]
+    "dataFile": "הלכות הנהגת אדם בבוקר/siman_3.json",
+    "chapters": [{ "id": "siman-3", "title": "Siman 3" }]
+  },
+  {
+    "id": "yalkout-4",
+    "title": "Le lavage des mains (Nétilat Yadaïm)",
+    "hebrewTitle": "הלכות נטילת ידים שחרית",
+    "author": "Rav Ovadia Yossef / Rav Yitzhak Yossef",
+    "category": "Halakha",
+    "description": "Comment procéder à l'ablution matinale des mains et son importance.",
+    "coverColor": "bg-gradient-to-br from-blue-900 via-cyan-950 to-slate-900",
+    "isUnlocked": true,
+    "dataFile": "הלכות הנהגת אדם בבוקר/siman_4.json",
+    "chapters": [{ "id": "siman-4", "title": "Siman 4" }]
+  },
+  {
+    "id": "yalkout-5",
+    "title": "L'intention des bénédictions",
+    "hebrewTitle": "הלכות כוונת הברכות",
+    "author": "Rav Ovadia Yossef / Rav Yitzhak Yossef",
+    "category": "Halakha",
+    "description": "La concentration nécessaire au moment de réciter une bénédiction.",
+    "coverColor": "bg-gradient-to-br from-red-900 via-rose-950 to-slate-900",
+    "isUnlocked": true,
+    "dataFile": "הלכות הנהגת אדם בבוקר/siman_5.json",
+    "chapters": [{ "id": "siman-5", "title": "Siman 5" }]
+  },
+  {
+    "id": "yalkout-6",
+    "title": "Bénédictions Acher Yatsar et Elohaï Néchama",
+    "hebrewTitle": "הלכות ברכות אשר יצר ואלהי נשמה",
+    "author": "Rav Ovadia Yossef / Rav Yitzhak Yossef",
+    "category": "Halakha",
+    "description": "Remercier D. pour le bon fonctionnement du corps et le retour de l'âme.",
+    "coverColor": "bg-gradient-to-br from-orange-900 via-orange-950 to-slate-900",
+    "isUnlocked": true,
+    "dataFile": "הלכות הנהגת אדם בבוקר/siman_6.json",
+    "chapters": [{ "id": "siman-6", "title": "Siman 6" }]
+  },
+  {
+    "id": "yalkout-7",
+    "title": "Les bénédictions du matin",
+    "hebrewTitle": "הלכות ברכות השחר",
+    "author": "Rav Ovadia Yossef / Rav Yitzhak Yossef",
+    "category": "Halakha",
+    "description": "L'ordre et les règles des bénédictions matinales.",
+    "coverColor": "bg-gradient-to-br from-yellow-900 via-amber-950 to-slate-900",
+    "isUnlocked": true,
+    "dataFile": "הלכות הנהגת אדם בבוקר/siman_7.json",
+    "chapters": [{ "id": "siman-7", "title": "Siman 7" }]
+  },
+  {
+    "id": "yalkout-8",
+    "title": "Le port du Tsitsit",
+    "hebrewTitle": "הלכות ציצית",
+    "author": "Rav Ovadia Yossef / Rav Yitzhak Yossef",
+    "category": "Halakha",
+    "description": "Règles fondamentales sur la confection et le port du vêtement à franges.",
+    "coverColor": "bg-gradient-to-br from-blue-700 via-blue-900 to-slate-900",
+    "isUnlocked": true,
+    "dataFile": "הלכות ציצית/siman_8.json",
+    "chapters": [{ "id": "siman-8", "title": "Siman 8" }]
+  },
+  {
+    "id": "yalkout-9-tzitzit",
+    "title": "Suite des lois du Tsitsit",
+    "hebrewTitle": "הלכות ציצית",
+    "author": "Rav Ovadia Yossef / Rav Yitzhak Yossef",
+    "category": "Halakha",
+    "description": "Précisions supplémentaires sur le vêtement et les franges.",
+    "coverColor": "bg-gradient-to-br from-sky-800 via-blue-950 to-slate-900",
+    "isUnlocked": true,
+    "dataFile": "הלכות ציצית/siman_9.json",
+    "chapters": [{ "id": "siman-9-tzitzit", "title": "Siman 9" }]
+  },
+  {
+    "id": "yalkout-9-avelout",
+    "title": "Les règles du deuil",
+    "hebrewTitle": "הלכות אבלות",
+    "author": "Rav Ovadia Yossef / Rav Yitzhak Yossef",
+    "category": "Halakha",
+    "description": "Le comportement et les restrictions applicables pendant la période de deuil.",
+    "coverColor": "bg-gradient-to-br from-gray-700 via-gray-900 to-black",
+    "isUnlocked": true,
+    "dataFile": "הלכות אבלות דיני אבלות/siman_9.json",
+    "chapters": [{ "id": "siman-9-avelout", "title": "Siman 9" }]
   },
   {
     "id": "yalkout-109",
-    "title": "Yalkout Yossef",
-    "subtitle": "Siman 109 - Réciter la Kédoucha avec l'officiant",
+    "title": "Réciter la Kédoucha",
+    "hebrewTitle": "הלכות תפילה",
     "author": "Rav Ovadia Yossef / Rav Yitzhak Yossef",
     "category": "Halakha",
-    "description": "Règles halakhiques concernant la Kédoucha et les interruptions pendant la prière. Édition bilingue interactive.",
+    "description": "La participation à la Kédoucha lorsque l'on prie avec un quorum (Minyane).",
     "coverColor": "bg-gradient-to-br from-purple-900 via-indigo-950 to-slate-900",
     "isUnlocked": true,
-    "chapters": [
-      {
-        "id": "siman-109",
-        "title": "Siman 109"
-      }
-    ]
+    "dataFile": "הלכות תפילה/siman_109.json",
+    "chapters": [{ "id": "siman-109", "title": "Siman 109" }]
   },
   {
     "id": "yalkout-318",
-    "title": "Yalkout Yossef",
-    "subtitle": "Siman 318 - Lois de Chabbat - Hilkhot Bishul (La Cuisson)",
+    "title": "Règles de cuisson",
+    "hebrewTitle": "הלכות שבת",
     "author": "Rav Ovadia Yossef / Rav Yitzhak Yossef",
     "category": "Halakha",
-    "description": "Lois fondamentales concernant les règles de cuisson pendant le Chabbat. Édition bilingue interactive.",
-    "coverColor": "bg-gradient-to-br from-blue-900 via-indigo-950 to-slate-900",
+    "description": "Interdits de cuisson (Bichoul) et l'utilisation de la chaleur pendant le Chabbat.",
+    "coverColor": "bg-gradient-to-br from-teal-900 via-emerald-950 to-slate-900",
     "isUnlocked": true,
-    "chapters": [
-      {
-        "id": "siman-318",
-        "title": "Siman 318"
-      }
-    ]
+    "dataFile": "הלכות שבת/siman_318.json",
+    "chapters": [{ "id": "siman-318", "title": "Siman 318" }]
+  }
+];
+
+export const CATEGORIES = [
+  {
+    id: "matin",
+    title: "La conduite de l'homme au réveil",
+    description: "Les règles fondamentales concernant le réveil, le mode vestimentaire et les premières bénédictions du matin.",
+    hebrewTitle: "הלכות הנהגת אדם בבוקר",
+    folder: "הלכות הנהגת אדם בבוקר",
+    iconName: "Matin"
   },
+  {
+    id: "tsitsit",
+    title: "Tsitsit",
+    description: "Les lois relatives au port du Tsitsit, les fils frangés, leur confection et la bénédiction qui s'y rattache.",
+    hebrewTitle: "הלכות ציצית",
+    folder: "הלכות ציצית",
+    iconName: "Tsitsit"
+  },
+  {
+    id: "tefila",
+    title: "Prière",
+    description: "Les lois encadrant la prière quotidienne, son déroulement, les horaires et les attitudes à adopter.",
+    hebrewTitle: "הלכות תפילה",
+    folder: "הלכות תפילה",
+    iconName: "Tefila"
+  },
+  {
+    id: "chabbat",
+    title: "Chabbat",
+    description: "Les règles fondamentales du jour de repos, les travaux interdits, et les préparatifs du Chabbat.",
+    hebrewTitle: "הלכות שבת",
+    folder: "הלכות שבת",
+    iconName: "shabbat_candles"
+  },
+  {
+    id: "avelout",
+    title: "Deuil",
+    description: "Les lois du deuil, la période de Shiv'a, et les rites pour honorer la mémoire des défunts.",
+    hebrewTitle: "הלכות אבלות דיני אבלות",
+    folder: "הלכות אבלות דיני אבלות",
+    iconName: "Deuil"
+  }
 ];

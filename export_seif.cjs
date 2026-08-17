@@ -38,7 +38,19 @@ if (!exportAll && (!minSeif || !maxSeif)) {
   process.exit(1);
 }
 
-const inputFile = `public/data/siman_${siman}.json`;
+let inputFile = null;
+const dataDir = path.join(__dirname, 'public', 'data');
+if (fs.existsSync(dataDir)) {
+  const folders = fs.readdirSync(dataDir).filter(f => fs.statSync(path.join(dataDir, f)).isDirectory());
+  for (const folder of folders) {
+    const p = path.join(dataDir, folder, `siman_${siman}.json`);
+    if (fs.existsSync(p)) {
+      inputFile = p;
+      break;
+    }
+  }
+}
+if (!inputFile) inputFile = `public/data/siman_${siman}.json`;
 
 if (!fs.existsSync(inputFile)) {
   console.error(`❌ Erreur : Le fichier ${inputFile} n'existe pas.`);
@@ -64,8 +76,16 @@ try {
     
     let generatedFiles = 0;
     
-    for (let i = 0; i < halakhot.length; i += batchSize) {
-      const chunk = halakhot.slice(i, i + batchSize);
+    for (let i = 0; i < halakhot.length;) {
+      let chunk;
+      // Regrouper le dernier lot s'il ne reste pas beaucoup d'éléments (ex: 6 pour des lots de 5)
+      if (halakhot.length - i <= batchSize + Math.ceil(batchSize * 0.2)) {
+        chunk = halakhot.slice(i);
+        i = halakhot.length;
+      } else {
+        chunk = halakhot.slice(i, i + batchSize);
+        i += batchSize;
+      }
       const startSeif = chunk[0].seif;
       const endSeif = chunk[chunk.length - 1].seif;
       

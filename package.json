@@ -14,7 +14,16 @@
     "validate:all": "node pipeline/validate.js --all",
     "validate:verbose": "node pipeline/validate.js --all -v",
     "autofix": "node pipeline/auto-fix.js",
-    "autofix:all": "node pipeline/auto-fix.js --all"
+    "autofix:all": "node pipeline/auto-fix.js --all",
+    "critic": "node pipeline/critic.js",
+    "critic:all": "node pipeline/critic.js --all",
+    "repair": "node pipeline/repair.js",
+    "repair:all": "node pipeline/repair.js --all",
+    "pipeline:status": "node pipeline/queue.js --status",
+    "pipeline:run": "node pipeline/queue.js",
+    "pipeline:dry": "node pipeline/queue.js --dry",
+    "verify": "node pipeline/validate.js --file",
+    "stats": "node scripts/dashboard.js"
   },
   "dependencies": {
     "@google/genai": "^2.13.0",

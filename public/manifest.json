@@ -8,15 +8,16 @@
   "theme_color": "#0A0A0B",
   "icons": [
     {
+      "src": "/images/brand/logo.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
       "src": "/images/brand/logo.webp",
       "sizes": "192x192 512x512",
       "type": "image/webp",
       "purpose": "any maskable"
-    },
-    {
-      "src": "/images/brand/logo.webp",
-      "sizes": "any",
-      "type": "image/webp"
     }
   ]
 }

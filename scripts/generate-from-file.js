@@ -35,30 +35,39 @@ const ROOT = path.resolve(__dirname, '..');
 
 // ─── Configuration ────────────────────────────────────────────────────────────
 const GEMINI_MODEL = 'gemini-3.6-flash';
-const API_DELAY_MS = 4500;           // 4.5s entre chaque appel (limite gratuite : 15 req/min)
-const MAX_RETRIES = 3;
+const API_DELAY_MS = 500;           // 0.5s (Le Smart Scheduler gère déjà la rotation des 4 clés)
+const MAX_RETRIES = 15;
 const RETRY_DELAY_MS = 10000;
 
-let apiKeys = [];
-let currentKeyIndex = 0;
-let aiClient = null;
-
-function getAiClient() {
-  if (!aiClient) {
-    aiClient = new GoogleGenAI({ apiKey: apiKeys[currentKeyIndex] });
+class KeyManager {
+  constructor(keys) {
+    this.keys = keys.map(k => ({ value: k, cooldownUntil: 0 }));
   }
-  return aiClient;
+
+  async getAvailableKey() {
+    while (true) {
+      const now = Date.now();
+      const availableKeys = this.keys.filter(k => k.cooldownUntil <= now);
+      
+      if (availableKeys.length > 0) {
+        availableKeys.sort((a, b) => a.cooldownUntil - b.cooldownUntil);
+        return availableKeys[0];
+      }
+
+      const soonest = [...this.keys].sort((a, b) => a.cooldownUntil - b.cooldownUntil)[0];
+      const waitTime = soonest.cooldownUntil - now;
+      console.log(`\n⏳ Toutes les clés sont en cooldown (Erreur 429). Pause de ${Math.ceil(waitTime / 1000)}s...`);
+      await sleep(waitTime + 1000);
+    }
+  }
+
+  setCooldown(keyObj, delayMs) {
+    keyObj.cooldownUntil = Date.now() + delayMs;
+    console.log(`\n🚫 Clé mise en quarantaine pour ${Math.ceil(delayMs / 1000)}s (Quota dépassé).`);
+  }
 }
 
-function switchApiKey() {
-  if (currentKeyIndex < apiKeys.length - 1) {
-    currentKeyIndex++;
-    console.log(`\n🔄 Basculement sur la clé API n°${currentKeyIndex + 1}...`);
-    aiClient = new GoogleGenAI({ apiKey: apiKeys[currentKeyIndex] });
-    return true;
-  }
-  return false;
-}
+let keyManager = null;
 // ─── Correspondance chiffres arabes → lettres hébraïques (gematria) ───────────
 const HEBREW_NUMERALS = {
   1:'א',2:'ב',3:'ג',4:'ד',5:'ה',6:'ו',7:'ז',8:'ח',9:'ט',10:'י',
@@ -261,7 +270,7 @@ DIRECTIVES STRICTES :
    - "hebreu_brut" : Le mot hébreu SANS voyelles, EXACTEMENT comme il est écrit dans le "TEXTE HÉBREU BRUT (ORIGINAL)" fourni, en conservant son orthographe exacte (ex: Ktiv Male).
    - "hebreu_voyelles" : Le mot hébreu AVEC voyelles, tel quel depuis le "TEXTE HÉBREU VOCALISÉ" fourni.
    - "francais_mot" : La traduction contextuelle directe et indépendante du mot hébreu en français. Ne découpez PAS mécaniquement la phrase française — donnez la VRAIE traduction individuelle du mot dans son contexte.
-   - "expression_contexte" : Cette clé ne doit être remplie QUE si une précision est absolument nécessaire pour comprendre le mot (expression idiomatique, mot composé, ou syntaxe qui n'a pas de sens en traduction mot à mot). Si le mot se traduit de manière simple et directe, laisse la valeur "". NE RÉPÈTE JAMAIS le francais_mot et NE METS JAMAIS la traduction du mot suivant. Si du contexte est nécessaire, le francais_mot contiendra le mot isolé et expression_contexte contiendra l'expression complète.
+   - "expression_contexte" : Cette clé ne doit être remplie QUE si une précision est absolument nécessaire pour comprendre le mot (expression idiomatique, mot composé, ou syntaxe qui n'a pas de sens en traduction mot à mot). Si le mot se traduit de manière simple et directe, laisse la valeur "". NE RÉPÈTE JAMAIS le francais_mot et NE METS JAMAIS la traduction du mot suivant. L'expression_contexte pour le badge de numérotation du seif (ex: "א.") DOIT être vide "" (NE SURTOUT PAS écrire "Numéro du paragraphe"). Si du contexte est nécessaire, le francais_mot contiendra le mot isolé et expression_contexte contiendra l'expression complète.
 
 3. GESTION DES INFINITIFS (OBLIGATOIRE POUR TOUT VERBE CONJUGUÉ) :
    - Pour TOUT verbe conjugué (passé, présent, futur, impératif), fournissez la clé "infinitif".
@@ -276,6 +285,88 @@ DIRECTIVES STRICTES :
 
 5. INDEXATION :
    - L'id commence à 1 (le badge de numérotation "א." sera ajouté automatiquement à l'id 0).`;
+
+// ─── Appel API Gemini (Traduction) ──────────────────────────────────────────
+async function callGeminiTranslation(hebreuVoyelles, sujet, sujetFr, seifNum) {
+  const userPrompt = `Rôle : Tu es une intelligence artificielle experte en traduction, en linguistique hébraïque et en Halakha (Kitsour Yalkout Yossef).
+
+Objectif : Préparer des textes hébreux vocalisés pour alimenter un script de traitement de données (Data Parsing). Tu ne dois faire aucun commentaire, aucune introduction, ni aucune conclusion.
+
+Instructions strictes pour la traduction et le nettoyage :
+1. Nettoyage de l'hébreu : Si le texte hébreu fourni contient des barres verticales (|), supprime-les toutes.
+2. Numérotation : Traduis les lettres hébraïques de numérotation en début de paragraphe par des chiffres arabes dans la traduction (ex: "כא." devient "21."). Ne mets jamais le mot "Paragraphe" devant.
+3. Titre court : Génère un TITRE très court en français (max 6-7 mots) résumant la loi principale du Seif.
+4. Traduction fluide (FRANCAIS) : La traduction doit être rigoureuse, fidèle au sens halakhique, et rédigée dans un style professionnel et accessible. Traduis les acronymes si nécessaire.
+5. Intégralité stricte : Assure-toi de traduire et d'inclure absolument TOUT le texte hébreu dans ton champ 'FRANCAIS', y compris les références halakhiques (ex: [ילקו"י...]) à la fin des paragraphes. N'omets rien !
+6. Sujet : Identifie la grande catégorie / le grand thème de ces lois (ex: Lois du Chabbat, Posture pendant la prière...).
+
+Format de Sortie Exigé : Tu dois IMPÉRATIVEMENT formater ta réponse en texte brut, PAS DE BLOC DE CODE Markdown.
+
+SUJET: ${sujet || 'Inconnu'}
+SUJET_FR: ${sujetFr || 'Inconnu'}
+---
+SEIF ${seifNum}
+TITRE: [Génère le titre ici]
+HEBREU: ${hebreuVoyelles}
+FRANCAIS: [Génère la traduction fluide ici]
+---`;
+
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    const keyObj = await keyManager.getAvailableKey();
+    const aiClient = new GoogleGenAI({ apiKey: keyObj.value });
+
+    try {
+      const response = await aiClient.models.generateContent({
+        model: GEMINI_MODEL,
+        contents: [{ role: 'user', parts: [{ text: userPrompt }] }],
+        config: { temperature: 0.1 },
+      });
+
+      const raw = response.text;
+      const titreMatch = raw.match(/TITRE\s*:\s*(.+)/i);
+      const francaisMatch = raw.match(/FRANCAIS\s*:\s*([\s\S]+?)(?:---|$)/i);
+      
+      if (!francaisMatch) throw new Error('Format de traduction invalide');
+      
+      return { 
+        titre: titreMatch ? titreMatch[1].trim() : `Seif ${seifNum}`,
+        francais: francaisMatch[1].trim()
+      };
+
+    } catch (err) {
+      const isQuotaError = err.message && (
+        err.message.includes('Quota') || err.message.includes('429') || err.message.includes('RESOURCE_EXHAUSTED')
+      );
+      
+      if (isQuotaError) {
+        let delayMs = 60000;
+        try {
+          const body = typeof err.message === 'string' ? JSON.parse(err.message) : err;
+          const retryInfo = body?.error?.details?.find(d => d['@type']?.includes('RetryInfo'));
+          if (retryInfo?.retryDelay) {
+             const seconds = parseFloat(retryInfo.retryDelay.replace('s', ''));
+             if (!isNaN(seconds) && seconds > 0) delayMs = seconds * 1000;
+          }
+        } catch { }
+        keyManager.setCooldown(keyObj, delayMs);
+        attempt--; // Ne compte pas comme une erreur de parsing/503
+        continue;
+      }
+
+      const isLast = attempt === MAX_RETRIES;
+      
+      // Exponential Backoff avec Jitter (2s, 4s, 8s...)
+      let baseDelay = 2000 * Math.pow(2, attempt - 1);
+      if (baseDelay > 60000) baseDelay = 60000;
+      const jitter = Math.floor(Math.random() * 1000);
+      const waitMs = baseDelay + jitter;
+
+      console.warn(`  ⚠️  Tentative traduction ${attempt}/${MAX_RETRIES} échouée (attente ${(waitMs / 1000).toFixed(1)}s): ${err.message.substring(0, 100)}`);
+      if (isLast) throw err;
+      await sleep(waitMs);
+    }
+  }
+}
 
 // ─── Appel API Gemini (alignement uniquement) ────────────────────────────────
 async function callGeminiAlignment(hebreuBrut, hebreuVoyelles, francais) {
@@ -293,8 +384,11 @@ ${francais}
 Génère le tableau "mots_alignes" selon le schéma défini. Rappel : un élément par mot hébreu (séparé par un espace), sans inclure le badge de numérotation.`;
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    const keyObj = await keyManager.getAvailableKey();
+    const aiClient = new GoogleGenAI({ apiKey: keyObj.value });
+
     try {
-      const response = await getAiClient().models.generateContent({
+      const response = await aiClient.models.generateContent({
         model: GEMINI_MODEL,
         contents: [{ role: 'user', parts: [{ text: userPrompt }] }],
         config: {
@@ -336,25 +430,31 @@ Génère le tableau "mots_alignes" selon le schéma défini. Rappel : un éléme
         err.message.includes('RESOURCE_EXHAUSTED') ||
         err.message.includes('quota')
       );
-      if (isQuotaError && switchApiKey()) {
-        attempt--; // On ne compte pas cette tentative puisqu'on vient de changer de clé
+      
+      if (isQuotaError) {
+        let delayMs = 60000;
+        try {
+          const body = typeof err.message === 'string' ? JSON.parse(err.message) : err;
+          const retryInfo = body?.error?.details?.find(d => d['@type']?.includes('RetryInfo'));
+          if (retryInfo?.retryDelay) {
+            const seconds = parseFloat(retryInfo.retryDelay.replace('s', ''));
+            if (!isNaN(seconds) && seconds > 0) {
+              delayMs = Math.ceil(seconds * 1000) + 500;
+            }
+          }
+        } catch { }
+        keyManager.setCooldown(keyObj, delayMs);
+        attempt--; 
         continue;
       }
 
       const isLast = attempt === MAX_RETRIES;
 
-      // Extraire le délai de retry suggéré par l'API (429 RESOURCE_EXHAUSTED)
-      let waitMs = RETRY_DELAY_MS * attempt;
-      try {
-        const body = typeof err.message === 'string' ? JSON.parse(err.message) : err;
-        const retryInfo = body?.error?.details?.find(d => d['@type']?.includes('RetryInfo'));
-        if (retryInfo?.retryDelay) {
-          const seconds = parseFloat(retryInfo.retryDelay.replace('s', ''));
-          if (!isNaN(seconds) && seconds > 0) {
-            waitMs = Math.ceil(seconds * 1000) + 500;
-          }
-        }
-      } catch { /* garde le délai par défaut */ }
+      // Exponential Backoff avec Jitter (2s, 4s, 8s...)
+      let baseDelay = 2000 * Math.pow(2, attempt - 1);
+      if (baseDelay > 60000) baseDelay = 60000;
+      const jitter = Math.floor(Math.random() * 1000);
+      const waitMs = baseDelay + jitter;
 
       console.warn(`  ⚠️  Tentative ${attempt}/${MAX_RETRIES} échouée (attente ${(waitMs / 1000).toFixed(1)}s): ${err.message.substring(0, 120)}`);
       if (isLast) throw err;
@@ -385,11 +485,8 @@ function saveOutput(outputFile, simanNum, simanHebrew, halakhot) {
   };
 
   try {
-    const rootDataDir = path.join(ROOT, 'public', 'data');
-    fs.mkdirSync(rootDataDir, { recursive: true });
-    const targetFile = path.join(rootDataDir, `siman_${simanNum}.json`);
-    fs.writeFileSync(targetFile, JSON.stringify(output, null, 2), 'utf8');
-    console.log(`  💾 Sauvegardé dans ${targetFile}`);
+    fs.writeFileSync(outputFile, JSON.stringify(output, null, 2), 'utf8');
+    console.log(`  💾 Sauvegardé dans ${outputFile}`);
 
     // Auto-unlock book in src/data/books.js if present
     const booksPath = path.join(ROOT, 'src', 'data', 'books.js');
@@ -415,6 +512,8 @@ function parseArgs() {
   let inputFile = path.join(ROOT, 'entree.txt');
   let sujet = null;
   let sujetFr = null;
+  let outputFile = null;
+  let categorie = null;
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--siman' && args[i + 1]) {
@@ -427,17 +526,21 @@ function parseArgs() {
       sujet = args[++i];
     } else if (args[i] === '--sujet-fr' && args[i + 1]) {
       sujetFr = args[++i];
+    } else if (args[i] === '--output' && args[i + 1]) {
+      outputFile = path.resolve(args[++i]);
+    } else if (args[i] === '--categorie' && args[i + 1]) {
+      categorie = args[++i];
     }
   }
 
-  return { simanNum, targetSeif, inputFile, sujet, sujetFr };
+  return { simanNum, targetSeif, inputFile, sujet, sujetFr, outputFile, categorie };
 }
 
 // ─── Pipeline principal ───────────────────────────────────────────────────────
 async function main() {
   const cliArgs = parseArgs();
 
-  apiKeys = Object.keys(process.env)
+  const loadedKeys = Object.keys(process.env)
     .filter(k => k === 'GEMINI_API_KEY' || k.startsWith('GEMINI_API_KEY_'))
     .sort((a, b) => {
       const numA = parseInt(a.replace('GEMINI_API_KEY_', '').replace('GEMINI_API_KEY', '1'), 10) || 1;
@@ -447,12 +550,19 @@ async function main() {
     .map(k => process.env[k])
     .filter(Boolean);
 
-  if (apiKeys.length === 0) {
+  if (loadedKeys.length === 0) {
     console.error('❌ Aucune clé API trouvée. Créez un fichier .env avec GEMINI_API_KEY=votre_clé');
     process.exit(1);
   }
 
-  console.log(`🔑 ${apiKeys.length} clé(s) API chargée(s).`);
+  // Ensure logs directory exists
+  const logsDir = path.join(ROOT, 'logs');
+  if (!fs.existsSync(logsDir)) {
+    fs.mkdirSync(logsDir, { recursive: true });
+  }
+
+  keyManager = new KeyManager(loadedKeys);
+  console.log(`🔑 ${loadedKeys.length} clé(s) API chargée(s) avec Smart Scheduler.`);
 
   // 1. Parser le fichier d'entrée
   console.log(`\n📂 Lecture de ${path.relative(ROOT, cliArgs.inputFile)}...`);
@@ -474,7 +584,8 @@ async function main() {
     }
   }
 
-  const outputFile = path.join(ROOT, 'public', 'data', `siman_${simanNum}.json`);
+  const outputFile = cliArgs.outputFile || path.join(ROOT, 'public', 'data', `siman_${simanNum}.json`);
+  const categorie = cliArgs.categorie || '';
 
   console.log('\n═══════════════════════════════════════════════════════════');
   console.log(`📖 Génération depuis fichier pré-vocalisé`);
@@ -490,7 +601,7 @@ async function main() {
   if (fs.existsSync(outputFile)) {
     try {
       const existing = JSON.parse(fs.readFileSync(outputFile, 'utf8'));
-      existingHalakhot = (existing.halakhot ?? []).filter(h => !h._error);
+      existingHalakhot = (existing.halakhot ?? []).filter(h => !h._error && h.texte_integral?.francais?.trim() && h.mots_alignes?.length > 0);
       const existingSeifNums = new Set(existingHalakhot.map(h => parseInt(h.seif, 10)));
       console.log(`♻️  Reprise : ${existingHalakhot.length} seif(im) valides déjà générés`);
 
@@ -516,23 +627,36 @@ async function main() {
   const halakhot = [...existingHalakhot];
   let successCount = 0;
   let errorCount = 0;
+  const simanStartTime = Date.now();
+  let totalSeifDuration = 0;
 
   for (let idx = 0; idx < seifimToProcess.length; idx++) {
+    const seifStartTime = Date.now();
     const seif = seifimToProcess[idx];
     const progress = `[${idx + 1}/${seifimToProcess.length}]`;
     const hebLetter = arabicToHebrewNumeral(seif.seifNum);
+    const startTimeStr = new Date(seifStartTime).toLocaleTimeString();
 
-    console.log(`${progress} 🔄 Seif ${seif.seifNum} (${hebLetter}) — "${seif.titre}"`);
+    console.log(`${progress} 🔄 Seif ${seif.seifNum} (${hebLetter}) — "${seif.titre}" [Démarré à ${startTimeStr}]`);
     console.log(`        Texte (${seif.hebreu.length} car.) : ${seif.hebreu.substring(0, 80)}...`);
 
     let hebreuVoyelles = seif.hebreu;
 
     try {
-      // Appeler Gemini pour l'alignement
       if (!/[\u0591-\u05C7]/.test(hebreuVoyelles)) {
         console.log('        🪄  Texte brut détecté. Vocalisation via Dicta Nakdan...');
         hebreuVoyelles = await getVowelsFromNakdan(seif.hebreu);
       }
+
+      // Si le français est manquant (généré par le scraper), on demande la traduction à Gemini
+      if (!seif.francais || seif.francais.trim() === '' || seif.francais.length < 5) {
+        console.log('        🌍 Traduction française manquante. Traduction via Gemini en cours...');
+        const transRes = await callGeminiTranslation(hebreuVoyelles, sujet, sujetFr, seif.seifNum);
+        seif.francais = transRes.francais;
+        seif.titre = transRes.titre;
+      }
+
+      // Appeler Gemini pour l'alignement
       const result = await callGeminiAlignment(seif.hebreu, hebreuVoyelles, seif.francais);
 
       // Construire le texte hébreu sans voyelles
@@ -567,12 +691,31 @@ async function main() {
 
       halakhot.push(halakha);
       successCount++;
-      console.log(`        ✅ OK → ${result.mots_alignes.length} mots alignés`);
+      const seifDuration = (Date.now() - seifStartTime) / 1000;
+      totalSeifDuration += seifDuration;
+      
+      // Télémétrie
+      try {
+        const logLine = JSON.stringify({
+          timestamp: new Date().toISOString(),
+          date: new Date().toLocaleDateString('fr-FR'),
+          siman: simanNum,
+          seif: seif.seifNum,
+          duration: parseFloat(seifDuration.toFixed(1)),
+          status: 'success'
+        }) + '\n';
+        fs.appendFileSync(path.join(ROOT, 'logs', 'generation_history.jsonl'), logLine, 'utf8');
+      } catch (err) {
+        console.warn(`        ⚠️ Impossible d'écrire la télémétrie : ${err.message}`);
+      }
+
+      console.log(`        ✅ OK → ${result.mots_alignes.length} mots alignés (en ${seifDuration.toFixed(1)}s)`);
       console.log(`        📝 "${seif.francais.substring(0, 60)}..."`);
 
     } catch (err) {
       errorCount++;
-      console.error(`        ❌ ERREUR : ${err.message}`);
+      const seifDuration = (Date.now() - seifStartTime) / 1000;
+      console.error(`        ❌ ERREUR après ${seifDuration.toFixed(1)}s : ${err.message}`);
       halakhot.push({
         livre: 'Kitzur Yalkout Yossef',
         sujet: sujet,
@@ -600,19 +743,29 @@ async function main() {
 
     // Pause entre les appels API
     if (idx < seifimToProcess.length - 1) {
-      console.log(`        ⏸️ Pause de ${(API_DELAY_MS / 1000).toFixed(1)}s...`);
-      await sleep(API_DELAY_MS);
+      if (API_DELAY_MS > 0) {
+        console.log(`        ⏸️ Pause de ${(API_DELAY_MS / 1000).toFixed(1)}s...`);
+        await sleep(API_DELAY_MS);
+      }
     }
   }
 
   // 5. Sauvegarde finale
   saveOutput(outputFile, simanNum, simanHebrew, halakhot);
 
+  const simanDuration = (Date.now() - simanStartTime) / 1000;
+  const avgSeif = successCount > 0 ? (totalSeifDuration / successCount).toFixed(1) : 0;
+
   console.log('\n═══════════════════════════════════════════════════════════');
   console.log(`✅ Génération terminée pour Siman ${simanNum}`);
   console.log(`   Succès  : ${successCount}`);
   console.log(`   Erreurs : ${errorCount}`);
   console.log(`   Total   : ${halakhot.length} seifim`);
+  console.log(`   ⏱️ Durée totale : ${simanDuration.toFixed(1)}s (Moyenne temps API brut: ${avgSeif}s / seif)`);
+  if (avgSeif > 0) {
+    const estHours = ((avgSeif * 13000) / 3600).toFixed(1);
+    console.log(`   📈 Est. (13 000 seifim - temps actif pur API) : ~${estHours} heures`);
+  }
   console.log(`   Fichier : ${path.relative(ROOT, outputFile)}`);
   console.log('═══════════════════════════════════════════════════════════');
 }

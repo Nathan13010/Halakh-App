@@ -263,9 +263,12 @@ function parseArgs() {
   let simanNum = null;
   let all = false;
   let dryRun = false;
+  let specificFile = null;
 
   for (let i = 0; i < args.length; i++) {
-    if (args[i] === '--siman' && args[i + 1]) {
+    if (args[i] === '--file' && args[i + 1]) {
+      specificFile = args[++i];
+    } else if (args[i] === '--siman' && args[i + 1]) {
       simanNum = parseInt(args[++i], 10);
     } else if (args[i] === '--all') {
       all = true;
@@ -274,29 +277,44 @@ function parseArgs() {
     }
   }
 
-  return { simanNum, all, dryRun };
+  return { simanNum, all, dryRun, specificFile };
 }
 
 // Exécuter seulement si lancé directement (pas importé)
 const isMain = process.argv[1] && path.resolve(process.argv[1]) === path.resolve(__filename);
 
 if (isMain) {
-  const { simanNum, all, dryRun } = parseArgs();
+  const { simanNum, all, dryRun, specificFile } = parseArgs();
 
-  if (!all && simanNum === null) {
+  if (!all && simanNum === null && specificFile === null) {
     console.log('💡 Usage :');
     console.log('  node pipeline/auto-fix.js --siman 1       # Fixe le siman 1');
+    console.log('  node pipeline/auto-fix.js --file path.json # Fixe un fichier spécifique');
     console.log('  node pipeline/auto-fix.js --all            # Fixe tous les simanim');
     console.log('  node pipeline/auto-fix.js --siman 1 --dry  # Mode dry-run');
     process.exit(0);
   }
 
   let files = [];
-  if (all) {
-    files = fs.readdirSync(DATA_DIR)
-      .filter(f => /^siman_\d+\.json$/.test(f))
-      .map(f => path.join(DATA_DIR, f))
-      .sort();
+  if (specificFile) {
+    if (!fs.existsSync(specificFile)) {
+      console.error(`❌ Fichier introuvable : ${specificFile}`);
+      process.exit(1);
+    }
+    files = [specificFile];
+  } else if (all) {
+    // Scan root and category subdirectories for siman_X.json
+    const rootItems = fs.readdirSync(DATA_DIR);
+    for (const item of rootItems) {
+      const fullPath = path.join(DATA_DIR, item);
+      if (fs.statSync(fullPath).isDirectory()) {
+        const catFiles = fs.readdirSync(fullPath).filter(f => /^siman_\d+\.json$/.test(f));
+        files.push(...catFiles.map(f => path.join(fullPath, f)));
+      } else if (/^siman_\d+\.json$/.test(item)) {
+        files.push(fullPath);
+      }
+    }
+    files.sort();
   } else {
     const filePath = path.join(DATA_DIR, `siman_${simanNum}.json`);
     if (!fs.existsSync(filePath)) {

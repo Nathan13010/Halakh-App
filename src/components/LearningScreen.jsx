@@ -3,13 +3,20 @@ import Icon from './Icon';
 import ConfettiCanvas from './ConfettiCanvas';
 import { LEARNING_LEVELS, LEVEL_1_QUIZZES, BADGES } from '../data/learningData';
 
-const LearningScreen = ({ xp = 0, onAddXp, streak = 1 }) => {
+const LearningScreen = ({ xp = 0, onAddXp, streak = 1, isDailyCompleted, onIncreaseStreak }) => {
   const [activeQuizLesson, setActiveQuizLesson] = useState(null);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   
+  // Halakha du jour specific states
+  const [isMinimized, setIsMinimized] = useState(isDailyCompleted);
+  const [isDailyModalOpen, setIsDailyModalOpen] = useState(false);
+  const [quizStatus, setQuizStatus] = useState('idle'); // 'idle' | 'correct' | 'wrong'
+  const [dailySelectedOption, setDailySelectedOption] = useState(null);
+  const [showConfetti, setShowConfetti] = useState(false);
+
   // Progress states stored in localStorage
   const [completedLessons, setCompletedLessons] = useState(() => {
     try {
@@ -30,6 +37,12 @@ const LearningScreen = ({ xp = 0, onAddXp, streak = 1 }) => {
   const [victoryXpEarned, setVictoryXpEarned] = useState(0);
   const [triggerConfetti, setTriggerConfetti] = useState(false);
 
+  useEffect(() => {
+    if (isDailyCompleted) {
+      setIsMinimized(true);
+    }
+  }, [isDailyCompleted]);
+
   // Sync completed lessons
   useEffect(() => {
     localStorage.setItem("mishne_mikra_completed_lessons", JSON.stringify(completedLessons));
@@ -39,6 +52,30 @@ const LearningScreen = ({ xp = 0, onAddXp, streak = 1 }) => {
   useEffect(() => {
     localStorage.setItem("mishne_mikra_unlocked_badges", JSON.stringify(unlockedBadgeIds));
   }, [unlockedBadgeIds]);
+
+  // Halakha du jour handlers
+  const handleDailySelectOption = (index) => {
+    setDailySelectedOption(index);
+    if (index === 1) {
+      setQuizStatus('correct');
+      setShowConfetti(true);
+      if (onIncreaseStreak) onIncreaseStreak();
+      setIsMinimized(true);
+    } else {
+      setQuizStatus('wrong');
+      setShowConfetti(false);
+    }
+  };
+
+  const handleResetDailyModal = () => {
+    setQuizStatus('idle');
+    setDailySelectedOption(null);
+  };
+
+  const handleCloseDailyModal = () => {
+    setIsDailyModalOpen(false);
+    handleResetDailyModal();
+  };
 
   // Start a Quiz Lesson
   const handleStartLesson = (lesson) => {
@@ -101,6 +138,8 @@ const LearningScreen = ({ xp = 0, onAddXp, streak = 1 }) => {
 
   return (
     <div className="flex flex-col h-[calc(100vh-8rem)] bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 select-none overflow-hidden relative">
+      {showConfetti && <ConfettiCanvas onComplete={() => setShowConfetti(false)} />}
+      
       {/* Top Gamification Status Bar */}
       <div className="bg-white/90 dark:bg-zinc-900/90 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800/80 px-5 py-3 flex justify-between items-center shrink-0 z-20 shadow-sm">
         <div className="flex items-center gap-3">
@@ -151,6 +190,99 @@ const LearningScreen = ({ xp = 0, onAddXp, streak = 1 }) => {
       <div className="flex-1 overflow-y-auto p-6 md:p-10 relative flex flex-col items-center custom-scrollbar">
         {/* Central Winding Path Line */}
         <div className="absolute top-10 bottom-10 w-2.5 bg-gradient-to-b from-amber-500/40 via-blue-500/20 to-zinc-300 dark:to-zinc-800 left-1/2 -translate-x-1/2 rounded-full pointer-events-none" />
+
+        {/* Halakha du Jour Section */}
+        <div className="z-10 w-full max-w-md mb-10">
+          {isMinimized ? (
+            /* Minimized Pill View */
+            <div 
+              onClick={() => setIsMinimized(false)}
+              className="bg-gradient-to-r from-emerald-500/10 via-amber-500/10 to-emerald-500/10 border border-emerald-500/30 hover:border-emerald-500/50 rounded-2xl p-4 flex items-center justify-between transition-all cursor-pointer shadow-sm group"
+            >
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-emerald-500/20 flex items-center justify-center text-emerald-500 font-bold text-lg border border-emerald-500/30 shrink-0">
+                  ✓
+                </div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400">
+                      Halakha du Jour Complétée
+                    </span>
+                    <span className="text-xs bg-amber-500/20 text-amber-600 dark:text-amber-400 px-2 py-0.5 rounded-full font-bold">
+                      🔥 {streak} jours
+                    </span>
+                  </div>
+                  <p className="text-xs text-zinc-500 dark:text-zinc-400 mt-0.5">
+                    Le tri pendant Chabbat (Borer) • Cliquez pour revoir la fiche
+                  </p>
+                </div>
+              </div>
+              <button className="text-xs font-bold text-emerald-600 dark:text-emerald-400 group-hover:underline flex items-center gap-1 shrink-0 ml-2">
+                Revoir &rarr;
+              </button>
+            </div>
+          ) : (
+            /* Expanded Full Card View */
+            <div className="bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl p-5 md:p-6 text-white shadow-xl shadow-amber-500/20 relative overflow-hidden transition-all">
+              <div className="absolute top-0 right-0 -mr-10 -mt-10 opacity-10 pointer-events-none">
+                <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 24 24" fill="currentColor"><path d="m11.235 22.842-1.921-6.19a.214.214 0 0 0-.135-.135l-6.19-1.921c-.815-.253-.815-1.4 0-1.653l6.19-1.921a.214.214 0 0 0 .135-.135l1.921-6.19c.253-.815 1.4-.815 1.653 0l1.921 6.19a.214.214 0 0 0 .135.135l6.19 1.921c.815.253.815 1.4 0 1.653l-6.19 1.921a.214.214 0 0 0-.135.135l-1.921 6.19c-.253.815-1.4.815-1.653 0Z"/></svg>
+              </div>
+              
+              <div className="relative z-10 flex flex-col gap-4">
+                <div className="flex items-center justify-between">
+                  <span className="bg-white/20 text-white px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider backdrop-blur-sm">
+                    Halakha du Jour • ~30s
+                  </span>
+                  <div className="flex items-center gap-2">
+                    <span className="flex items-center gap-1.5 bg-white/20 px-3 py-1 rounded-full text-xs font-bold backdrop-blur-sm">
+                      <span className="text-white">🔥</span> {streak} jours
+                    </span>
+                    {isDailyCompleted && (
+                      <button 
+                        onClick={(e) => { e.stopPropagation(); setIsMinimized(true); }}
+                        className="p-1 rounded-full bg-white/20 hover:bg-white/30 text-white transition-colors"
+                        title="Minimiser la carte"
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                      </button>
+                    )}
+                  </div>
+                </div>
+                
+                <div>
+                  <h2 className="text-2xl font-serif font-bold mb-2">Le tri pendant Chabbat (Borer)</h2>
+                  <p className="text-sm text-white/90 leading-relaxed font-medium">
+                    Il est permis de trier le "bon" du "mauvais" si c'est pour une consommation immédiate, avec la main et non un ustensile spécial.
+                  </p>
+                </div>
+
+                <div className="bg-black/10 rounded-xl p-3 mt-1">
+                  <div className="flex gap-2 items-start">
+                    <Icon name="info" className="w-4 h-4 text-white shrink-0 mt-0.5" />
+                    <span className="text-xs text-white/90">
+                      <strong>Conseil Pratique :</strong> Si vous mangez du poisson, retirez le morceau de poisson de l'arête, et non l'arête du poisson.
+                    </span>
+                  </div>
+                </div>
+
+                <button 
+                  onClick={() => { handleResetDailyModal(); setIsDailyModalOpen(true); }}
+                  className="mt-2 w-full py-3 bg-white text-amber-600 rounded-xl font-bold shadow-lg hover:bg-zinc-50 active:scale-95 transition-all text-sm flex items-center justify-center gap-2"
+                >
+                  {isDailyCompleted ? (
+                    <>
+                      <span>✓ Halakha Déjà Validée • Revoir le Quiz</span>
+                    </>
+                  ) : (
+                    <>
+                      <span>Valider & Obtenir mon Streak 🔥</span>
+                    </>
+                  )}
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
 
         {/* Level Chapters & Nodes */}
         <div className="z-10 w-full max-w-md space-y-10 py-4">
@@ -393,6 +525,127 @@ const LearningScreen = ({ xp = 0, onAddXp, streak = 1 }) => {
               )}
             </div>
 
+          </div>
+        </div>
+      )}
+
+      {/* Daily Quiz Modal */}
+      {isDailyModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/70 backdrop-blur-sm animate-fade-in">
+          <div className={`w-full max-w-md bg-white dark:bg-zinc-900 rounded-t-3xl sm:rounded-3xl flex flex-col shadow-2xl overflow-hidden relative border-2 transition-all duration-300 ${
+            quizStatus === 'correct' 
+              ? 'border-emerald-500 shadow-emerald-500/20' 
+              : quizStatus === 'wrong' 
+                ? 'border-rose-500 shadow-rose-500/20' 
+                : 'border-zinc-200 dark:border-zinc-800'
+          }`}>
+            
+            {/* Modal Header */}
+            <div className={`p-4 border-b flex items-center justify-between transition-colors ${
+              quizStatus === 'correct' 
+                ? 'bg-emerald-50 dark:bg-emerald-950/40 border-emerald-200 dark:border-emerald-800/50' 
+                : quizStatus === 'wrong' 
+                  ? 'bg-rose-50 dark:bg-rose-950/40 border-rose-200 dark:border-rose-800/50' 
+                  : 'border-zinc-200 dark:border-zinc-800'
+            }`}>
+              <h2 className={`font-bold text-sm uppercase tracking-wider flex items-center gap-2 ${
+                quizStatus === 'correct' ? 'text-emerald-600 dark:text-emerald-400' : quizStatus === 'wrong' ? 'text-rose-600 dark:text-rose-400' : 'text-amber-500'
+              }`}>
+                {quizStatus === 'correct' && <span>✓ Félicitations !</span>}
+                {quizStatus === 'wrong' && <span>✕ Réponse Incorrecte</span>}
+                {quizStatus === 'idle' && <span>Quiz Rapide • Halakha du Jour</span>}
+              </h2>
+              <button onClick={handleCloseDailyModal} className="p-2 bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 rounded-full transition-colors">
+                <Icon name="close" className="w-4 h-4 text-zinc-500 dark:text-zinc-400" />
+              </button>
+            </div>
+
+            {/* Modal Content */}
+            <div className="p-6 space-y-6">
+              <p className="text-sm text-zinc-800 dark:text-zinc-200 font-medium leading-relaxed">
+                Puis-je utiliser un écumoire pour retirer les fèves que je ne veux pas manger de mon plat pendant Chabbat ?
+              </p>
+              
+              {/* Options */}
+              <div className="space-y-3">
+                {/* Option 0 (Faux) */}
+                <button 
+                  onClick={() => handleDailySelectOption(0)}
+                  disabled={quizStatus !== 'idle'}
+                  className={`w-full p-4 rounded-xl border-2 text-left text-sm font-medium transition-all ${
+                    dailySelectedOption === 0
+                      ? 'border-rose-500 bg-rose-50 dark:bg-rose-950/40 text-rose-900 dark:text-rose-200'
+                      : quizStatus !== 'idle'
+                        ? 'opacity-40 border-zinc-200 dark:border-zinc-800'
+                        : 'border-zinc-200 dark:border-zinc-700 hover:border-amber-500 dark:hover:border-amber-500 dark:text-zinc-200'
+                  }`}
+                >
+                  <div className="flex items-center justify-between">
+                    <span>Oui, c'est permis si c'est juste avant de manger.</span>
+                    {dailySelectedOption === 0 && <span className="text-rose-500 font-bold">✕</span>}
+                  </div>
+                </button>
+
+                {/* Option 1 (Vrai - Correct) */}
+                <button 
+                  onClick={() => handleDailySelectOption(1)}
+                  disabled={quizStatus !== 'idle'}
+                  className={`w-full p-4 rounded-xl border-2 text-left text-sm font-medium transition-all ${
+                    dailySelectedOption === 1
+                      ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-950/40 text-emerald-900 dark:text-emerald-200'
+                      : quizStatus !== 'idle'
+                        ? 'border-emerald-500/50 bg-emerald-50/50 dark:bg-emerald-950/20 text-emerald-700 dark:text-emerald-300'
+                        : 'border-zinc-200 dark:border-zinc-700 hover:border-amber-500 dark:hover:border-amber-500 dark:text-zinc-200'
+                  }`}
+                >
+                  <div className="flex items-center justify-between">
+                    <span>Non, il faut utiliser sa main et prendre ce que l'on veut manger.</span>
+                    {dailySelectedOption === 1 && <span className="text-emerald-500 font-bold">✓</span>}
+                  </div>
+                </button>
+              </div>
+
+              {/* Feedback & Explanations */}
+              {quizStatus === 'correct' && (
+                <div className="bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800/50 rounded-xl p-4 space-y-3 animate-fade-in">
+                  <div className="flex items-start gap-2.5">
+                    <span className="text-emerald-500 font-bold text-base mt-0.5">✓</span>
+                    <div className="space-y-1">
+                      <h4 className="text-xs font-bold text-emerald-800 dark:text-emerald-400 uppercase tracking-wider">Explication du Yalkout Yossef</h4>
+                      <p className="text-xs text-emerald-900/90 dark:text-emerald-200/90 leading-relaxed">
+                        Trier à l'aide d'un ustensile spécialisé (comme une écumoire ou une passoire) est strictement interdit pendant Chabbat (Mélakha de Borer). La règle exige de prélever avec la main le bon aliment pour consommation immédiate.
+                      </p>
+                    </div>
+                  </div>
+                  <button 
+                    onClick={handleCloseDailyModal}
+                    className="w-full py-3 bg-emerald-500 hover:bg-emerald-600 text-white font-bold rounded-xl text-xs uppercase tracking-wider transition-colors shadow-lg shadow-emerald-500/20"
+                  >
+                    Continuer (Fiche Minimisée 🔥)
+                  </button>
+                </div>
+              )}
+
+              {quizStatus === 'wrong' && (
+                <div className="bg-rose-50 dark:bg-rose-950/30 border border-rose-200 dark:border-rose-800/50 rounded-xl p-4 space-y-3 animate-fade-in">
+                  <div className="flex items-start gap-2.5">
+                    <span className="text-rose-500 font-bold text-base mt-0.5">✕</span>
+                    <div className="space-y-1">
+                      <h4 className="text-xs font-bold text-rose-800 dark:text-rose-400 uppercase tracking-wider">Explication de la Règle</h4>
+                      <p className="text-xs text-rose-900/90 dark:text-rose-200/90 leading-relaxed">
+                        L'utilisation d'un outil de tri (écumoire, filtre) constitue l'interdit de Borer même immédiatement avant le repas. On doit uniquement prendre à la main ce qu'on désire consommer.
+                      </p>
+                    </div>
+                  </div>
+                  <button 
+                    onClick={handleResetDailyModal}
+                    className="w-full py-3 bg-rose-500 hover:bg-rose-600 text-white font-bold rounded-xl text-xs uppercase tracking-wider transition-colors shadow-lg shadow-rose-500/20"
+                  >
+                    Réessayer
+                  </button>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       )}

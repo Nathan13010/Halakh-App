@@ -1,0 +1,1362 @@
+<body class="rtl archive category category-7 wp-embed-responsive wp-theme-twentytwenty enable-search-modal has-no-pagination showing-comments show-avatars footer-top-visible">
+
+		<a class="skip-link screen-reader-text" href="#site-content">דלג לתוכן</a>
+		<header id="site-header" class="header-footer-group">
+
+			<div class="header-inner section-inner">
+
+				<div class="header-titles-wrapper">
+
+					
+						<button class="toggle search-toggle mobile-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
+							<span class="toggle-inner">
+								<span class="toggle-icon">
+									<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path d="M38.710696,48.0601792 L43,52.3494831 L41.3494831,54 L37.0601792,49.710696 C35.2632422,51.1481185 32.9839107,52.0076499 30.5038249,52.0076499 C24.7027226,52.0076499 20,47.3049272 20,41.5038249 C20,35.7027226 24.7027226,31 30.5038249,31 C36.3049272,31 41.0076499,35.7027226 41.0076499,41.5038249 C41.0076499,43.9839107 40.1481185,46.2632422 38.710696,48.0601792 Z M36.3875844,47.1716785 C37.8030221,45.7026647 38.6734666,43.7048964 38.6734666,41.5038249 C38.6734666,36.9918565 35.0157934,33.3341833 30.5038249,33.3341833 C25.9918565,33.3341833 22.3341833,36.9918565 22.3341833,41.5038249 C22.3341833,46.0157934 25.9918565,49.6734666 30.5038249,49.6734666 C32.7048964,49.6734666 34.7026647,48.8030221 36.1716785,47.3875844 C36.2023931,47.347638 36.2360451,47.3092237 36.2726343,47.2726343 C36.3092237,47.2360451 36.347638,47.2023931 36.3875844,47.1716785 Z" transform="translate(-20 -31)"></path></svg>								</span>
+								<span class="toggle-text">חיפוש</span>
+							</span>
+						</button><!-- .search-toggle -->
+
+					
+					<div class="header-titles">
+
+						<div class="site-title faux-heading"><a href="https://www.yalkut.info/" rel="home">ילקוט יוסף חינם האתר להפצת יהדות הלכה</a></div><div class="site-description">אתר ילקוט יוסף לקריאה ולימוד</div><!-- .site-description -->
+					</div><!-- .header-titles -->
+
+					<button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
+						<span class="toggle-inner">
+							<span class="toggle-icon">
+								<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="26" height="7" viewBox="0 0 26 7"><path fill-rule="evenodd" d="M332.5,45 C330.567003,45 329,43.4329966 329,41.5 C329,39.5670034 330.567003,38 332.5,38 C334.432997,38 336,39.5670034 336,41.5 C336,43.4329966 334.432997,45 332.5,45 Z M342,45 C340.067003,45 338.5,43.4329966 338.5,41.5 C338.5,39.5670034 340.067003,38 342,38 C343.932997,38 345.5,39.5670034 345.5,41.5 C345.5,43.4329966 343.932997,45 342,45 Z M351.5,45 C349.567003,45 348,43.4329966 348,41.5 C348,39.5670034 349.567003,38 351.5,38 C353.432997,38 355,39.5670034 355,41.5 C355,43.4329966 353.432997,45 351.5,45 Z" transform="translate(-329 -38)"></path></svg>							</span>
+							<span class="toggle-text">תפריט</span>
+						</span>
+					</button><!-- .nav-toggle -->
+
+				</div><!-- .header-titles-wrapper -->
+
+				<div class="header-navigation-wrapper">
+
+					
+							<nav class="primary-menu-wrapper" aria-label="אופקי">
+
+								<ul class="primary-menu reset-list-style">
+
+								<li class="page_item page-item-3"><a href="https://www.yalkut.info/privacy-policy/">פרטיות</a></li>
+
+								</ul>
+
+							</nav><!-- .primary-menu-wrapper -->
+
+						
+						<div class="header-toggles hide-no-js">
+
+						
+							<div class="toggle-wrapper search-toggle-wrapper">
+
+								<button class="toggle search-toggle desktop-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
+									<span class="toggle-inner">
+										<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path d="M38.710696,48.0601792 L43,52.3494831 L41.3494831,54 L37.0601792,49.710696 C35.2632422,51.1481185 32.9839107,52.0076499 30.5038249,52.0076499 C24.7027226,52.0076499 20,47.3049272 20,41.5038249 C20,35.7027226 24.7027226,31 30.5038249,31 C36.3049272,31 41.0076499,35.7027226 41.0076499,41.5038249 C41.0076499,43.9839107 40.1481185,46.2632422 38.710696,48.0601792 Z M36.3875844,47.1716785 C37.8030221,45.7026647 38.6734666,43.7048964 38.6734666,41.5038249 C38.6734666,36.9918565 35.0157934,33.3341833 30.5038249,33.3341833 C25.9918565,33.3341833 22.3341833,36.9918565 22.3341833,41.5038249 C22.3341833,46.0157934 25.9918565,49.6734666 30.5038249,49.6734666 C32.7048964,49.6734666 34.7026647,48.8030221 36.1716785,47.3875844 C36.2023931,47.347638 36.2360451,47.3092237 36.2726343,47.2726343 C36.3092237,47.2360451 36.347638,47.2023931 36.3875844,47.1716785 Z" transform="translate(-20 -31)"></path></svg>										<span class="toggle-text">חיפוש</span>
+									</span>
+								</button><!-- .search-toggle -->
+
+							</div>
+
+							
+						</div><!-- .header-toggles -->
+						
+				</div><!-- .header-navigation-wrapper -->
+
+			</div><!-- .header-inner -->
+
+			<div class="search-modal cover-modal header-footer-group" data-modal-target-string=".search-modal" role="dialog" aria-modal="true" aria-label="חיפוש">
+
+	<div class="search-modal-inner modal-inner">
+
+		<div class="section-inner">
+
+			<form role="search" aria-label="חיפוש:" method="get" class="search-form" action="https://www.yalkut.info/">
+	<label for="search-form-1">
+		<span class="screen-reader-text">
+			חיפוש:		</span>
+		<input type="search" id="search-form-1" class="search-field" placeholder="חיפוש …" value="" name="s">
+	</label>
+	<input type="submit" class="search-submit" value="חיפוש">
+</form>
+
+			<button class="toggle search-untoggle close-search-toggle fill-children-current-color" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field">
+				<span class="screen-reader-text">
+					סגירת החיפוש				</span>
+				<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><polygon fill="" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102"></polygon></svg>			</button><!-- .search-toggle -->
+
+		</div><!-- .section-inner -->
+
+	</div><!-- .search-modal-inner -->
+
+</div><!-- .menu-modal -->
+
+		</header><!-- #site-header -->
+
+		
+<div class="menu-modal cover-modal header-footer-group" data-modal-target-string=".menu-modal">
+
+	<div class="menu-modal-inner modal-inner">
+
+		<div class="menu-wrapper section-inner">
+
+			<div class="menu-top">
+
+				<button class="toggle close-nav-toggle fill-children-current-color" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" data-set-focus=".menu-modal">
+					<span class="toggle-text">סגירת תפריט</span>
+					<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><polygon fill="" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102"></polygon></svg>				</button><!-- .nav-toggle -->
+
+				
+					<nav class="mobile-menu" aria-label="נייד">
+
+						<ul class="modal-menu reset-list-style">
+
+						<li class="page_item page-item-3"><div class="ancestor-wrapper"><a href="https://www.yalkut.info/privacy-policy/">פרטיות</a></div><!-- .ancestor-wrapper --></li>
+
+						</ul>
+
+					</nav>
+
+					
+			</div><!-- .menu-top -->
+
+			<div class="menu-bottom">
+
+				
+			</div><!-- .menu-bottom -->
+
+		</div><!-- .menu-wrapper -->
+
+	</div><!-- .menu-modal-inner -->
+
+</div><!-- .menu-modal -->
+
+<main id="site-content">
+
+	
+		<header class="archive-header has-text-align-center header-footer-group">
+
+			<div class="archive-header-inner section-inner medium">
+
+									<h1 class="archive-title"><span class="color-accent">קטגוריה:</span> <span>הלכות אבלות דיני אבלות</span></h1>
+				
+									<div class="archive-subtitle section-inner thin max-percentage intro-text"><p>מידע על הלכות אבלות ועל דיני אבלות</p>
+</div>
+				
+			</div><!-- .archive-header-inner -->
+
+		</header><!-- .archive-header -->
+
+		
+<article class="post-2379 post type-post status-publish format-standard hentry category-7" id="post-2379">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">
+					קטגוריות				</span>
+				<div class="entry-categories-inner">
+					<a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%91%d7%9c%d7%95%d7%aa/" rel="category tag">הלכות אבלות דיני אבלות</a>				</div><!-- .entry-categories-inner -->
+			</div><!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%99%d7%98-%d7%94%d7%90%d7%91%d7%9c-%d7%90%d7%a1%d7%95%d7%a8-%d7%91%d7%aa%d7%a9%d7%9e%d7%99%d7%a9-%d7%94%d7%9e%d7%98%d7%94/">סימן יט – האבל אסור בתשמיש המטה</a></h2>
+		<div class="post-meta-wrapper post-meta-single post-meta-single-top">
+
+			<ul class="post-meta">
+
+									<li class="post-author meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								המחבר הפוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20"><path fill="" d="M18,19 C18,19.5522847 17.5522847,20 17,20 C16.4477153,20 16,19.5522847 16,19 L16,17 C16,15.3431458 14.6568542,14 13,14 L5,14 C3.34314575,14 2,15.3431458 2,17 L2,19 C2,19.5522847 1.55228475,20 1,20 C0.44771525,20 0,19.5522847 0,19 L0,17 C0,14.2385763 2.23857625,12 5,12 L13,12 C15.7614237,12 18,14.2385763 18,17 L18,19 Z M9,10 C6.23857625,10 4,7.76142375 4,5 C4,2.23857625 6.23857625,0 9,0 C11.7614237,0 14,2.23857625 14,5 C14,7.76142375 11.7614237,10 9,10 Z M9,8 C10.6568542,8 12,6.65685425 12,5 C12,3.34314575 10.6568542,2 9,2 C7.34314575,2 6,3.34314575 6,5 C6,6.65685425 7.34314575,8 9,8 Z"></path></svg>						</span>
+						<span class="meta-text">
+							מאת <a href="https://www.yalkut.info/author/admin/"></a>						</span>
+					</li>
+										<li class="post-date meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								תאריך פוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"><path fill="" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z"></path></svg>						</span>
+						<span class="meta-text">
+							<a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%99%d7%98-%d7%94%d7%90%d7%91%d7%9c-%d7%90%d7%a1%d7%95%d7%a8-%d7%91%d7%aa%d7%a9%d7%9e%d7%99%d7%a9-%d7%94%d7%9e%d7%98%d7%94/"></a>
+						</span>
+					</li>
+					
+			</ul><!-- .post-meta -->
+
+		</div><!-- .post-meta-wrapper -->
+
+		
+	</div><!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<p><span style="color: #000000;"><b><span style="text-decoration: underline;"><span style="color: #3377cc;"><span style="text-decoration: underline;">סימן יט – האבל אסור בתשמיש המטה</span></span><br>
+</span></b></span><a style="color: #000000;" name="סימןBיטB-BהאבלBאסורBבתשמישBהמטה-א"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">א</span></b>&nbsp;</span><span style="color: #000000;">כבר נתבאר לעיל שנדה שהגיע זמן טבילתה בימי אבלה, אינה טובלת. וכן אשה אבלה שחל ליל טבילתה בחול המועד, לפני שתשב באבילות ממש, אסור לה לטבול, ורק בשעת הדחק אפשר להקל, כגון אם יש חשש הוצאת זרע לבטלה, וכדו'.&nbsp;</span><small style="color: #000000;"><small>[שם סי' יט עמוד שסה]</small></small><a style="color: #000000;" name="סימןBיטB-BהאבלBאסורBבתשמישBהמטה-ב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ב</span></b>&nbsp;</span><span style="color: #000000;">מי שמת לו מת ולא נודע לו, לא חל עליו אבילות כלל, ולכן מותר לבעל לשמש עם אשתו שמת לה קרוב, ואינה יודעת עדיין, ואפילו ביום המיתה ויום הקבורה דהוי דאורייתא.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן יט סעיף ב עמוד שסו]</small></small><a style="color: #000000;" name="סימןBיטB-BהאבלBאסורBבתשמישBהמטה-ג"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ג</span></b>&nbsp;</span><span style="color: #000000;">אשה שהיתה בבית בעלה ומת אביה, ולא הגידו לה, ובעלה רצה להמנע מלהודיע לה, עד יום השביעי לאבלם בבוקר מוקדם, שאז תלך לבית ההורים שלה, ותשב מעט באבל עם אמה ואחיה ותמנה עמהם, וכשיעמדו המנחמים מאצלם, תצא מהאבלות יחד עם אמה ואחיה. מעיקר הדין רשאי לעשות כן. ויש מי שהצריך לומר לאשה שתלך כבר ביום שבת לשבת עם אמה ואחיה, ולנהוג אבלות בצינעא, שאז ביום ראשון בבוקר כשיקומו המנחמים תצא מן האבלות כמו שאר האבלים. ולדינא אין צריך לחוש לסברא זו. ואפילו שהיא באה ביום השביעי בבוקר, יוצאת מהאבלות עם שאר האבלים, שאף לגבי דין זה אמרינן מקצת היום ככולו.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סי' יט עמ' שסז. יבי"א ח"י דף שכט טור ב]</small></small><a style="color: #000000;" name="סימןBיטB-BהאבלBאסורBבתשמישBהמטה-ד"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ד</span></b>&nbsp;</span><span style="color: #000000;">מי שאמרו לו שמתה בתו הבכורה, וקרע והתאבל ז' ימים, ואחר כך נודע לו שהמגיד טעה, ולא מתה אותה הבת, אלא אחותה הצעירה, יש אומרים שיצא ידי חובה ואינו חייב לקרוע ולהתאבל שנית. ויש אומרים שחייב לחזור ולקרוע ולהתאבל שנית. והעיקר כסברא ראשונה, דהלכה כדברי המיקל באבל.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות עמוד שסח. וכן העלה ברב פעלים ח"א חיו"ד סי' נג, וביביע אומר ח"י ח"א יו"ד סי' נג, דף שלב טור א'. ושם דחה מי שכתב להשיג ע"ד הגרי"ח]</small></small><span style="color: #000000;">.</span><a style="color: #000000;" name="סימןBיטB-BהאבלBאסורBבתשמישBהמטה-ה"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ה</span></b>&nbsp;</span><span style="color: #000000;">מי שאשתו היתה חולה מאד, ובאו ואמרו לו שאשתו מתה, וקרע בברכת דיין האמת, ושוב נודע לו שבאותה שעה עדיין היתה חיה, ורק כעבור שעתיים מתה, יש אומרים שיוסיף על הקרע הראשון שיעור טפח, ולא יחזור לברך בשם ומלכות, אלא יאמר ברוך דיין האמת, דשמא בעת שקרע בראשונה היתה גוססת וכמעט נפשה יוצאת, וברכות אינן מעכבות. ולדינא יחזור ויקרע ויברך, שהרי באותה שעה שבירך היתה עדיין חיה, ולא חלה ברכתו כלל.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן יט סעיף ה עמוד שסח]</small></small><span style="color: #000000;">&nbsp;</span><a style="color: #000000;" name="HtmpReportNum0940_L2"></a><a style="color: #000000;" name="סימןBכB-BהאבלBאסורBבנעילתBסנדל"></a></p>
+
+		</div><!-- .entry-content -->
+
+	</div><!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div><!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-2411 post type-post status-publish format-standard hentry category-7" id="post-2411">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">
+					קטגוריות				</span>
+				<div class="entry-categories-inner">
+					<a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%91%d7%9c%d7%95%d7%aa/" rel="category tag">הלכות אבלות דיני אבלות</a>				</div><!-- .entry-categories-inner -->
+			</div><!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%9c%d7%94-%d7%94%d7%a0%d7%94%d7%92%d7%95%d7%aa-%d7%94%d7%90%d7%91%d7%9c-%d7%91%d7%99%d7%95%d7%9d-%d7%94%d7%a9%d7%91%d7%a2%d7%94/">סימן לה – הנהגות האבל ביום השבעה</a></h2>
+		<div class="post-meta-wrapper post-meta-single post-meta-single-top">
+
+			<ul class="post-meta">
+
+									<li class="post-author meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								המחבר הפוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20"><path fill="" d="M18,19 C18,19.5522847 17.5522847,20 17,20 C16.4477153,20 16,19.5522847 16,19 L16,17 C16,15.3431458 14.6568542,14 13,14 L5,14 C3.34314575,14 2,15.3431458 2,17 L2,19 C2,19.5522847 1.55228475,20 1,20 C0.44771525,20 0,19.5522847 0,19 L0,17 C0,14.2385763 2.23857625,12 5,12 L13,12 C15.7614237,12 18,14.2385763 18,17 L18,19 Z M9,10 C6.23857625,10 4,7.76142375 4,5 C4,2.23857625 6.23857625,0 9,0 C11.7614237,0 14,2.23857625 14,5 C14,7.76142375 11.7614237,10 9,10 Z M9,8 C10.6568542,8 12,6.65685425 12,5 C12,3.34314575 10.6568542,2 9,2 C7.34314575,2 6,3.34314575 6,5 C6,6.65685425 7.34314575,8 9,8 Z"></path></svg>						</span>
+						<span class="meta-text">
+							מאת <a href="https://www.yalkut.info/author/admin/"></a>						</span>
+					</li>
+										<li class="post-date meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								תאריך פוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"><path fill="" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z"></path></svg>						</span>
+						<span class="meta-text">
+							<a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%9c%d7%94-%d7%94%d7%a0%d7%94%d7%92%d7%95%d7%aa-%d7%94%d7%90%d7%91%d7%9c-%d7%91%d7%99%d7%95%d7%9d-%d7%94%d7%a9%d7%91%d7%a2%d7%94/"></a>
+						</span>
+					</li>
+					
+			</ul><!-- .post-meta -->
+
+		</div><!-- .post-meta-wrapper -->
+
+		
+	</div><!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<p><b><span style="text-decoration: underline;"><span style="color: #3377cc;"><span style="text-decoration: underline;">סימן לה – הנהגות האבל ביום השבעה</span></span><br>
+</span></b><a name="סימןBלהB-BהנהגותBהאבלBביוםBהשבעה-א"></a><b></b></p>
+<p>&nbsp;</p>
+<p><b><span style="color: #3377cc;">א</span></b>&nbsp;ביום השביעי לאבילות, אחר תפילת שחרית, ואחר זריחת השמש, מנחמין את האבלים, ואומרים להם את הפסוקים לא יבוא עוד שמשך וכו', ובזה הם קמים מהשבעה, שמקצת היום&nbsp;<small><small>[של השביעי]</small></small>&nbsp;הרי הוא ככולו. ואם התפללו קודם הזריחה&nbsp;<small><small>(שהרי בשעת הדחק רשאים להתפלל אחר עמוד השחר קודם הזריחה)</small></small>, יוצאים מהאבלות אחר הזריחה. ואם אין שם מי שיאמר להם הפסוקים הנ"ל, גם כן יוצאים מהאבלות אחר הזריחה, שאין אמירת הפסוקים מעכבת. וכשאוכלים אחר כך בבית האבל, אין אומרים בברכת המזון ברכת האבלים, שכבר יצאו מגזרת שבעה.&nbsp;<small><small>[ילקו"י אבלות מהדו' תשמ"ט עמו' קפא, ובמהדו' תשס"ד עמו' תקנא]</small></small><a name="סימןBלהB-BהנהגותBהאבלBביוםBהשבעה-ב"></a><b></b></p>
+<p>&nbsp;</p>
+<p><b><span style="color: #3377cc;">ב</span></b>&nbsp;מיד לאחר שהאבלים קמו מהאבלות בבוקר, מאותה שעה האבלים מותרים בכל הדברים שאסורים בהם בימי השבעה, ומותרים ברחיצה, החלפת הבגדים, במלאכה ובתלמוד תורה. מלבד גילוח ותספורת, ושמחה, כפי שיבואר. ויש נוהגים איסור בכיבוס כל שלשים יום, ואלו מהספרדים ועדות המזרח שנהגו בחוץ לארץ להחמיר ברחיצה כל ל' יום, אם היו סבורים שכן צריך להיות מן הדין, יכולים לבטל מנהגם, אפילו בלי התרה, אבל אם היו יודעים שהדבר מותר מן הדין אלא שנהגו להחמיר, אפשר להקל להם עכ"פ על ידי התרה, וכשאין מנהג ידוע, יש לנהוג כדעת מרן שקבלנו הוראותיו להתיר הרחיצה מיום השביעי והלאה, לאחר שעמדו מנחמים מאצלם, והוא הדין ללבוש בגדים מכובסים מיד לאחר השבעה.&nbsp;<small><small>[ילקו"י אבלות מהדורת תשס"ד סימן לה סעיף ב עמוד תקנא]</small></small><a name="סימןBלהB-BהנהגותBהאבלBביוםBהשבעה-ג"></a><b></b></p>
+<p>&nbsp;</p>
+<p><b><span style="color: #3377cc;">ג</span></b>&nbsp;המנהג לעלות לבית הקברות ביום כלות השבעה,&nbsp;<small><small>(וביום השלושים והיאר-צייט)</small></small>. ואם חל יום השביעי לאבילות בשבת, כגון שהנפטר נקבר במוצאי שבת או ביום ראשון, עולים לבית הקברות ביום ראשון, ולא יקדימו לעלות ביום שישי, שאין האבלים יוצאים מביתם לצורך זה בתוך ימי השבעה.&nbsp;<small><small>[ואמנם אם האבלים חוזרים לביתם בחוץ לארץ מיד ביום א' בבוקר, מותר להם לצאת ביום שישי לבית הקברות כדי לעלות לקבר]</small></small>. וכן אם חל יום השביעי לאבלות ביום טוב, או כשהיום טוב מוציאם מדין שבעה, עולים לבית הקברות אחר החג. ונוהגים לומר מזמורי תהלים ליד הקבר, ומזמור קי"ט, האותיות משם הנפטר, ואותיות נשמה. ויש שמוסיפים גם כמה פרקי משנה לפי שם הנפטר. ואם נמצאים ליד הקבר עשרה אנשים גדולים, אומרים שם קדיש. ואם אמרו פרקי משנה או זוהר או פתח אליהו, אומרים קדיש על ישראל, ואם אמרו רק תהלים אומרים קדיש יהא שלמא.&nbsp;<small><small>[ילקו"י אבלות שם עמוד תקנב]</small></small><a name="סימןBלהB-BהנהגותBהאבלBביוםBהשבעה-ד"></a><b></b></p>
+<p>&nbsp;</p>
+<p><b><span style="color: #3377cc;">ד</span></b>&nbsp;גם הכהנים נוהגים לעלות לבית הקברות ביום השבעה, וכן ביום השלשים וביום השנה, אבל ברור מאד שאסור להם להכנס לבית הקברות ממש, אלא עומדים ליד הגדר, בריחוק יותר מד' אמות מהקברים. ויזהרו שלא ילכו תחת אילן שמאהיל על הקברים.&nbsp;<small><small>[ילקוט יוסף על הלכות אבלות מהדורת תשס"ד עמוד תקנג]</small></small><a name="סימןBלהB-BהנהגותBהאבלBביוםBהשבעה-ה"></a><b></b></p>
+<p>&nbsp;</p>
+<p><b><span style="color: #3377cc;">ה</span></b>&nbsp;רשאים האבלים לטעום מידי, או אפילו לאכול קודם העלייה לקבר. ואם רוצים להחליף הבגדים קודם העלייה לקבר גם כן רשאים. ואם אין אפשרות לעלות לקבר בבוקר, יכולים לעלות במשך היום, כי בלאו הכי אין זה חיוב גמור מצד ההלכה, אלא מנהג טוב וחשוב.&nbsp;<small><small>[ילקו"י אבלות מהדורת תשס"ד סימן לה סעיף ה עמוד תקנג]</small></small><a name="סימןBלהB-BהנהגותBהאבלBביוםBהשבעה-ו"></a><b></b></p>
+<p>&nbsp;</p>
+<p><b><span style="color: #3377cc;">ו</span></b>&nbsp;אם חל יום השביעי של האבלות בראש חודש, נכון שהשליח צבור והקהל יאמרו לאבלים את פסוקי הנחמה לאחר חזרת השליח צבור, שאז נחשב כעמדו מנחמים מאצלו, ויוכלו לקרוא את ההלל.&nbsp;<small><small>[ילקו"י אבלות מהדו' תשמ"ט עמ' קפג. ובמהדו' תשס"ד סי' לה עמוד תקנג]</small></small><a name="סימןBלהB-BהנהגותBהאבלBביוםBהשבעה-ז"></a><b></b></p>
+<p>&nbsp;</p>
+<p><b><span style="color: #3377cc;">ז</span></b>&nbsp;בליל השבעה נכון להביא תלמידי חכמים לבית האבל, או לביהכ"נ, כדי שיאמרו לצבור הרחב דברי תורה ומוסר, ודברי התעוררות. וכבר נתבאר לעיל שאין מניעה מצד ההלכה לומר דברי אגדה בבית האבל. ואחר הדרשות נהגו לחלק לציבור מעט צימוקים ובטנים, ומיני מזונות, כדי להרבות בברכות ובעניית אמן לזכותו של הנפטר. ואחר כך האבלים סועדים עם קרוביהם. ואמנם כל הסעודות שעושים בליל השבעה ובליל השלשים, וכן ביום הפטירה, אינם חיוב מצד הדין, אלא מצד המנהג. והוא מנהג טוב כדי להרבות בברכות, ולזכות את הרבים באמירת דברי תורה וחיזוק במהלך הסעודה. ולכן אם יש איזה קושי בדבר אין להקפיד על כך כל כך, שהעיקר הוא לשמור על אמירת הקדיש במשך השנה, ולהוסיף על זמן קביעות עיתים לתורה, ולשמור על שאר דיני אבלות.&nbsp;<small><small>[ילקוט יוסף על הלכות אבלות מהדורת תשס"ד עמוד תקנד]</small></small><a name="סימןBלהB-BהנהגותBהאבלBביוםBהשבעה-ח"></a><b></b></p>
+<p>&nbsp;</p>
+<p><b><span style="color: #3377cc;">ח</span></b>&nbsp;בליל השביעי כשעורכים הספד לנפטר בבית הכנסת, מותר גם לאבלים לצאת מביתם לילך לבית הכנסת לשמוע הדרשות, ולהתפלל מנחה וערבית עם הצבור. ומותר להם לשבת על כסאות וספסלים, ואינם צריכים לשבת על גבי הקרקע, ובמנחה אין לומר וידוי ונפילת אפים, כמבואר כל זה לעיל.&nbsp;<small><small>[ילקו"י אבלות מהדורת תשס"ד סימן לה סעיף ח עמוד תקנד]</small></small><a name="סימןBלהB-BהנהגותBהאבלBביוםBהשבעה-ט"></a><b></b></p>
+<p>&nbsp;</p>
+<p><b><span style="color: #3377cc;">ט</span></b>&nbsp;נהגו לעלות לקבר גם ביום השלושים, ובכל שנה ושנה ביום פקודת השנה. ויש שנהגו לעלות לקבר גם בתחלת חודש האחד עשר. אך בכל זה אין חיוב מעיקר הדין, אלא מצד המנהג, ולכן זקן או חולה שקשה לו לעלות לקבר הוריו ביום השנה, יסתפק באמירת הקדיש וההשכבה, ולימוד לעילוי נשמת הוריו.&nbsp;<small><small>[ילקו"י אבלות מהדורת תשס"ד סי' לה עמ' תקנד]</small></small><a name="סימןBלהB-BהנהגותBהאבלBביוםBהשבעה-י"></a><b></b></p>
+<p>&nbsp;</p>
+<p><b><span style="color: #3377cc;">י</span></b>&nbsp;גם אם חל יום השביעי לאבלות בראש חודש או בחנוכה או בפורים, מצוה רבה לעלות לקבר ולומר שם תהלים באותיות נשמה ואותיות שם הנפטר.&nbsp;<small><small>[נתיבי עם עמוד קל. גשר החיים פכ"ט ס"ו, שגם מ"ש הכל בו לא ללכת לשם בראש חודש כוונתו לקונן, אבל לאמירת התפלה י"ל שגם לדידיה שרי]</small></small>. אך יש להשתדל ברוב עוז ותעצומות שלא לבוא לידי בכי בעת הביקור ליד הקבר, ורק מי שאינו יכול להתגבר על צערו ובודאי שיבוא לידי בכי והספד ליד הקבר, ידחה את העלייה לקבר לאחר חנוכה. ואין להקדים את ההליכה לבית הקברות לפני חנוכה או פורים, ביום הששי לאבלות, או קודם לכן, אלא יאחרו עד לאחר החנוכה. והסעודה שנוהגים לעשות בליל השבעה או בליל השלושים או בליל יום פקודת השנה, עורכים אותה גם בחנוכה, אך לא יאמרו דברי הספד המעוררים לבכי, אלא יאמרו דברי התעוררות ומוסר. וכבר ביארנו שכל הסעודות שנוהגים לערוך בימים הנזכרים, אינו אלא מנהג, ואם יש איזה קושי בדבר, אין צריך לערוך סעודה, ויסתפקו בדברי התעוררות, ואם אפשר יחלקו לצבור סוגי פירות להרבות בברכות לזיכוי הרבים ולעילוי נשמת הנפטר.&nbsp;<small><small>[ילקו"י אבלות מהדורת תשמ"ט עמוד קפג, ובמהדורת תשס"ד סימן לה סעיף י עמוד תקנד תקנו, ותרצ]</small></small>&nbsp;<a name="HtmpReportNum0956_L2"></a><a name="סימןBלוB-BמנהגיםBהשייכיםBליוםBהשלושים"></a></p>
+<p><b style="color: #000000;"></b></p>
+
+		</div><!-- .entry-content -->
+
+	</div><!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div><!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-2444 post type-post status-publish format-standard hentry category-7" id="post-2444">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">
+					קטגוריות				</span>
+				<div class="entry-categories-inner">
+					<a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%91%d7%9c%d7%95%d7%aa/" rel="category tag">הלכות אבלות דיני אבלות</a>				</div><!-- .entry-categories-inner -->
+			</div><!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%9e%d7%98-%d7%94%d7%90%d7%95%d7%9e%d7%a8-%d7%90%d7%9c-%d7%aa%d7%a7%d7%91%d7%a8%d7%95%d7%a0%d7%99/">סימן מט – האומר אל תקברוני</a></h2>
+		<div class="post-meta-wrapper post-meta-single post-meta-single-top">
+
+			<ul class="post-meta">
+
+									<li class="post-author meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								המחבר הפוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20"><path fill="" d="M18,19 C18,19.5522847 17.5522847,20 17,20 C16.4477153,20 16,19.5522847 16,19 L16,17 C16,15.3431458 14.6568542,14 13,14 L5,14 C3.34314575,14 2,15.3431458 2,17 L2,19 C2,19.5522847 1.55228475,20 1,20 C0.44771525,20 0,19.5522847 0,19 L0,17 C0,14.2385763 2.23857625,12 5,12 L13,12 C15.7614237,12 18,14.2385763 18,17 L18,19 Z M9,10 C6.23857625,10 4,7.76142375 4,5 C4,2.23857625 6.23857625,0 9,0 C11.7614237,0 14,2.23857625 14,5 C14,7.76142375 11.7614237,10 9,10 Z M9,8 C10.6568542,8 12,6.65685425 12,5 C12,3.34314575 10.6568542,2 9,2 C7.34314575,2 6,3.34314575 6,5 C6,6.65685425 7.34314575,8 9,8 Z"></path></svg>						</span>
+						<span class="meta-text">
+							מאת <a href="https://www.yalkut.info/author/admin/"></a>						</span>
+					</li>
+										<li class="post-date meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								תאריך פוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"><path fill="" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z"></path></svg>						</span>
+						<span class="meta-text">
+							<a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%9e%d7%98-%d7%94%d7%90%d7%95%d7%9e%d7%a8-%d7%90%d7%9c-%d7%aa%d7%a7%d7%91%d7%a8%d7%95%d7%a0%d7%99/"></a>
+						</span>
+					</li>
+					
+			</ul><!-- .post-meta -->
+
+		</div><!-- .post-meta-wrapper -->
+
+		
+	</div><!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<p><span style="color: #000000;"><b><span style="text-decoration: underline;"><span style="color: #3377cc;"><span style="text-decoration: underline;">סימן מט – האומר אל תקברוני</span></span><br>
+</span></b></span><small style="color: #000000;"><small>[שייך לשלחן ערוך סימן שמח]</small></small><a style="color: #000000;" name="סימןBמטB-BהאומרBאלBתקברוני-א"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">א</span></b>&nbsp;</span><span style="color: #000000;">האומר אל תקברוני מנכסי, אין שומעין לו, אלא מוציאין מיורשיו כל צרכי קבורתו בעל כרחו. וכן כל מה שרגילין לעשות לבני משפחתו. ואפילו האבן שנותנין על הקבר&nbsp;</span><small style="color: #000000;"><small>[מצבה]</small></small><span style="color: #000000;">. והוא שירשו ממון מאביהם.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן מט סעיף א עמוד תשכג]</small></small><a style="color: #000000;" name="סימןBמטB-BהאומרBאלBתקברוני-ב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ב</span></b>&nbsp;</span><span style="color: #000000;">מי שציוה קודם מותו למסור את גופו למדע אחר פטירתו, יש אומרים שאין להתאבל עליו כלל,</span><small style="color: #000000;"><small>[ורק יאמרו אחריו קדיש]</small></small><span style="color: #000000;">. ויש אומרים שמתאבלים עליו, דאף שעשה מעשה חמור מאד, אינו בכלל מאבד עצמו לדעת שאין מתאבלים עליו. וכן עיקר. וכיום שיש אפיקורסים שאינם מאמינים בתחיית המתים, ומצווים למסור את גופותיהם לאחר מיתתם למחקר רפואי, אין צריך להשתדל להביאם לקבר ישראל. וכשנמסרים לקבורה לידי החברא קדישא, יקברום ליד הגדר רחוק מקברי ישראל. ומיהו אם פורש מדרכי הצבור, מצוה להתאמץ להביאו לקבר ישראל.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן מט סעיף ב עמוד תשכג]</small></small><span style="color: #000000;">&nbsp;</span><a style="color: #000000;" name="HtmpReportNum0972_L2"></a><a style="color: #000000;" name="סימןBנ'B-BדיניBהמצבה"></a></p>
+
+		</div><!-- .entry-content -->
+
+	</div><!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div><!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-2349 post type-post status-publish format-standard hentry category-7" id="post-2349">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">
+					קטגוריות				</span>
+				<div class="entry-categories-inner">
+					<a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%91%d7%9c%d7%95%d7%aa/" rel="category tag">הלכות אבלות דיני אבלות</a>				</div><!-- .entry-categories-inner -->
+			</div><!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%96-%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%a0%d7%99%d7%a0%d7%95%d7%aa/">סימן ז' – הלכות אנינות</a></h2>
+		<div class="post-meta-wrapper post-meta-single post-meta-single-top">
+
+			<ul class="post-meta">
+
+									<li class="post-author meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								המחבר הפוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20"><path fill="" d="M18,19 C18,19.5522847 17.5522847,20 17,20 C16.4477153,20 16,19.5522847 16,19 L16,17 C16,15.3431458 14.6568542,14 13,14 L5,14 C3.34314575,14 2,15.3431458 2,17 L2,19 C2,19.5522847 1.55228475,20 1,20 C0.44771525,20 0,19.5522847 0,19 L0,17 C0,14.2385763 2.23857625,12 5,12 L13,12 C15.7614237,12 18,14.2385763 18,17 L18,19 Z M9,10 C6.23857625,10 4,7.76142375 4,5 C4,2.23857625 6.23857625,0 9,0 C11.7614237,0 14,2.23857625 14,5 C14,7.76142375 11.7614237,10 9,10 Z M9,8 C10.6568542,8 12,6.65685425 12,5 C12,3.34314575 10.6568542,2 9,2 C7.34314575,2 6,3.34314575 6,5 C6,6.65685425 7.34314575,8 9,8 Z"></path></svg>						</span>
+						<span class="meta-text">
+							מאת <a href="https://www.yalkut.info/author/admin/"></a>						</span>
+					</li>
+										<li class="post-date meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								תאריך פוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"><path fill="" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z"></path></svg>						</span>
+						<span class="meta-text">
+							<a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%96-%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%a0%d7%99%d7%a0%d7%95%d7%aa/"></a>
+						</span>
+					</li>
+					
+			</ul><!-- .post-meta -->
+
+		</div><!-- .post-meta-wrapper -->
+
+		
+	</div><!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<p><span style="color: #000000;"><b><span style="text-decoration: underline;"><span style="color: #3377cc;"><span style="text-decoration: underline;">סימן ז' – הלכות אנינות</span></span><br>
+</span></b></span><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-א"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">א</span></b>&nbsp;</span><span style="color: #000000;">מי שמת לו מת שחייב להתאבל עליו, ועדיין לא נקבר, נקרא אונן, ופטור מכל המצוות שבתורה, והיינו במי שמת לו אביו או אמו, אחיו או אחותו, בנו או בתו, או אשתו. ודין אונן שייך גם באשה שמת אחד משבעה הקרובים הנז'. ודין זה הוא אפילו אם סיכם עם החברא קדישא על הטיפול בנפטר, ואינו מוטל עליו עוד לקוברו, או שאחיו נפטר ויש לו בנים שחייבים בקבורתו, או שאחותו הנשואה נפטרה שבעלה חייב בקבורתה, או שהמת בעיר אחרת, אפילו הכי האונן פטור מכל המצוות שבתורה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות סימן ז' עמוד שטו]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-ב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ב</span></b>&nbsp;</span><span style="color: #000000;">אין האונן רשאי לברך המוציא וברכת המזון ושאר ברכות, ורשאי לאכול ולשתות מה שירצה, אף שאינו מברך לא בתחלה ולא בסוף. וכן אינו מברך ברכות השחר וברכות התורה, פסוקי דזמרה, וברכות קריאת שמע, ואינו קורא ק"ש ואינו מתפלל, ואינו מתעטף בציצית ולא מניח תפילין.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמו' מח, ובמהדורת תשס"ד סי' ז' ס"ב עמוד קיז]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-ג"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ג</span></b>&nbsp;</span><span style="color: #000000;">אונן השומע ברכה מחבירו, אין לו לענות אמן. ואם מסר את מתו לטיפול אצל החברא קדישא, והם מטפלים בכל עניני הקבורה, אונן העונה אמן אחר הברכות אין מוחין בידו, שיש לו על מי שיסמוך. ובפרט שאין כאן ספק ברכה לבטלה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות סימן ז' ס"ג עמוד קיט]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-ד"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ד</span></b>&nbsp;</span><span style="color: #000000;">אונן שטעה ועבר ובירך איזו ברכה, אם מסר את מתו לכתפים, או שהוא בעיר אחרת, עונים אחריו אמן, אף על פי שלכתחלה לא היה לו לברך.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות תשס"ד סי' ז' עמ' קיט]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-ה"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ה</span></b>&nbsp;</span><span style="color: #000000;">יש אומרים שמותר לאונן לשמוע ברכת חבירו ולכוין לצאת בברכה זו ידי חובתו. ויש חולקים ואומרים דגם בזה האונן אסור. שמאחר ויוצא ידי חובה מדין שומע כעונה, האונן נחשב כמברך, והרי אסור לאונן לברך.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף ה עמוד קכ]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-ו"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ו</span></b>&nbsp;</span><span style="color: #000000;">אם הדבר אפשרי, נכון שלא יודיעו לקרובים על הפטירה מיד בבוקר, אלא לאחר שיתפללו ויקראו קריאת שמע. והוא שאין מוטל עליהם להתעסק בקבורה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף ו עמוד קכ. חמודי דניאל הובא בפתחי תשובה יו"ד סימן שמא סק"ח]</small></small><span style="color: #000000;">.</span><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-ז"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ז</span></b>&nbsp;</span><span style="color: #000000;">אונן אסור לו לאכול בשר ולשתות יין, אפילו אם יש מי שיטפל בקבורת המת. ובשר עוף הרי הוא בכלל האיסור.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף ז עמוד קכ]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-ח"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ח</span></b>&nbsp;</span><span style="color: #000000;">יש אומרים ששאר משקאות חריפים&nbsp;</span><small style="color: #000000;"><small>[שכר]</small></small><span style="color: #000000;">&nbsp;אינם בכלל איסור שתיית יין. ויש שמחמירים בזה, ומכל מקום גם המקילין בזה לא ישתו מהם אלא מעט, באופן שיהיה ברור שלא יבואו ח"ו לידי שכרות&nbsp;</span><small style="color: #000000;"><small>[או שמחה]</small></small><span style="color: #000000;">.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סי' ז' ס"ח עמ' קכב]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-ט"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ט</span></b>&nbsp;</span><span style="color: #000000;">מי שהיה אוכל בשר ושותה יין, ובאמצע סעודתו הודיעו לו שאמו מתה ונעשה אונן, יש אומרים שרשאי לסיים סעודתו בבשר ויין, דכיון שהתחיל בסעודתו בהיתר, רשאי להמשיך. ויש אומרים שצריך להפסיק מלאכול בשר. ורק אם היתה לו חתיכת בשר בפיו בשעה שמתה אמו, אינו צריך לפלוט.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף ט עמוד קכב]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-י"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">י</span></b>&nbsp;</span><span style="color: #000000;">מרק שנתבשל בו בשר, יש אומרים שמותר לאונן לשתות המרק, אף שיש בו טעם של הבשר. ויש חולקים ואוסרים גם ברוטב של בשר, כדי שלא ימשך אחר תענוגות. וכן עיקר. אבל תבשיל שנתבשל בקדרה של בשר בת יומא, ואין בשר בתבשיל עצמו, מותר לאונן לאכול, ואפילו לכתחלה מותר לבשל בקדרת בשר בת יומא ולאכול מהתבשיל.&nbsp;</span><small style="color: #000000;"><small>[שם עמ' קכב]</small></small><span style="color: #000000;">.</span><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-יא"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">יא</span></b>&nbsp;</span><span style="color: #000000;">אונן הרוצה להחמיר על עצמו ולקרות קריאת שמע, אינו רשאי להחמיר, וכל שכן שאין לו לברך כל שאר ברכות. ואפילו אם מסר את מתו לחברא קדישא על מנת שיטפלו בקבורתו, אין לו לברך. ומכל מקום המחמיר על עצמו וקורא קריאת שמע כשמסר את מתו לחברא קדישא, אין מוחין בידו.</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סי' ז' עמוד קכד. שהרי בירושלמי אמרו ב' טעמים לפטור את האונן מהמצוות, כדי שיהיה פנוי לטפל בקבורת המת. וגם משום לועג לרש. ואמרו שם דנפקא מינה במסר מתו לכתפים. וכתבו הפוסקים שיש לחוש לב' הטעמים, ולכן גם כשמסר מתו לכתפים אין לו לברך, משום סב"ל. וכן דעת הלבוש, בית דוד, מהרש"ל, ב"ח, שלחן גבוה, בני ציון, בית יהודה. יביע אומר ח"ו חיו"ד סי' לג. וכל זה דלא כמ"ש בחיים וחסד פנחסי שהאונן "חייב" להתפלל ולברך. ואיך לא חשש לסב"ל. ומה שכתב כן בשם מרן אאמו"ר, הנה העלים עיניו במכוון ממה שכתבנו עדות בשמו בילקוט יוסף הנז']</small></small><span style="color: #000000;">.</span><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-יב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">יב</span></b>&nbsp;</span><span style="color: #000000;">בחוץ לארץ, במקומות שאין מאשרים את קבורת הנפטר אלא לאחר ג' ימים מהפטירה, אין לנהוג כל דיני אנינות בכל ג' הימים, אלא עד שיגיע הזמן שיכול לטפל בהלויית וקבורת המת, וחייבים בכל המצוות כולן, ורק לענין תפילין לא יניחן ביום הראשון.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת שנת תשמ"ט עמוד רלו, ובמהדורת תשס"ד סי' ז' סי"ב עמוד קכח. יביע אומר ח"ד חיו"ד סי' כח]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-יג"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">יג</span></b>&nbsp;</span><span style="color: #000000;">מי שקיבל מברק שאחיו נפטר בצרפת, וחכם אחד הורה לו להתחיל להתאבל מיד, וכעבור ששה ימים קיבל מברק שנתברר שאחיו נקבר רק לאחר ג' ימים מפטירתו, אין צריך לישב עוד ג' ימים באבלות. ואמנם לכתחלה כשמתקבל מברק שאחיו נפטר, וידוע שבאותו מקום אין קוברים אלא לאחר מ"ח שעות, או ג' ימים, לא יתחיל להתאבל אלא לאחר קבורה. ומכל מקום לא יניח תפילין ביום קבלת המברק. ואם אין ידוע מנהג מקום הפטירה, אם יש לו הפסד ממון על ידי שיתאבל מיד, יוכל לגמור עסקו וימכור חנותו ואחר כך יתאבל, ואם לאו יתאבל מיד.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף יג עמוד קכט]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-יד"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">יד</span></b>&nbsp;</span><span style="color: #000000;">קרובי משפחה המתלווים להביא את ארון המת לקבורה בארץ, שיש להם להמנע מלאכול ארוחה בשרית ושתיית יין בכל מהלך הטיסה הנמשכת מספר שעות. וינהגו כל דיני אנינות בזמן הטיסה. אך הקרובים הנשארים בחוץ לארץ מתאבלים מיד עם פרידתם בהטסת המטוס, אלא אם כן ממשיכים לטפל ולארגן את סדרי ההלוייה דרך הטלפון וכדומה, עם אנשי ארץ ישראל.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף יד עמוד קכט]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-טו"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">טו</span></b>&nbsp;</span><span style="color: #000000;">מי שנודע לו מפטירת קרובו באחד מאמצעי התקשורת, והוא במדינה אחרת, ואין בדעתו לנסוע למקום הקבורה, יש אומרים שאינו נוהג דיני אבלות אלא עד אחרי שישער או יברר את זמן הקבורה. ויש אומרים שדיני אבלות חלים עליו מיד עם השמועה. ולכן כאשר השמועה היא בערב חג, ישב מעט קודם החג, והחג מוציאו מגזרת שבעה. ואם הקבורה תהיה בארה"ב אחרי הצהרים, ובארץ ישראל כבר נכנס החג, אפילו הכי כיון שישב שעה אחת קודם הרגל, יוצא מידי גזרת שבעה, דהלכה כדברי המיקל באבל.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף טו, עמוד קל]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-טז"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">טז</span></b>&nbsp;</span><span style="color: #000000;">אונן שעבר וקרא קריאת שמע בזמן שהיה אונן, ועבר זמן אנינותו טרם שעבר זמן קריאת שמע, יש אומרים שחייב לחזור ולקרוא קריאת שמע, ויש חולקים. ונכון שיחזור ויקרא קריאת שמע שנית. אך לא יחזור לברך ברכות קריאת שמע&nbsp;</span><small style="color: #000000;"><small>[אם עבר ובירכם בזמן שהיה אונן]</small></small><span style="color: #000000;">.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמוד נא, ובמהדורת תשס"ד סימן ז' סעיף טז, עמוד קל, וקמא]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-יז"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">יז</span></b>&nbsp;</span><span style="color: #000000;">אף על פי שהאונן פטור מן המצוות, וגם אם רוצה להחמיר על עצמו ולברך או לקרוא קריאת שמע, אינו רשאי להחמיר על עצמו, מכל מקום לגבי קדיש בעת ההלוייה, המנהג הוא שהאונן אומר קדיש, כיון שהוא לעילוי נשמת הנפטר. ונהגו שהאונן אומר קדיש עם אחד מהקהל. אך אם אין אחר שיאמר עם האונן את הקדיש, יאמר הקדיש לבדו.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמוד נח, ובמהדורת תשס"ד סימן ז' סעיף יז עמוד קלג]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-יח"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">יח</span></b>&nbsp;</span><span style="color: #000000;">אונן שמתו מוטל לפניו חייב במצות מורא, בדברים שהם בשב ואל תעשה, כגון שלא להזכיר את שמו, או שלא לחלוק עליו, או שלא לישב במקום המיוחד לאביו, וכל כיוצא בזה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף יח עמוד קלו]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-יט"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">יט</span></b>&nbsp;</span><span style="color: #000000;">אונן שאכל ושבע ונקבר המת קודם העיכול, אין לו לברך ברכת המזון לאחר הקבורה, ד"ספק ברכות להקל". ומכל מקום טוב שיכוין לצאת בברכת המזון של סעודת הבראה. וכן אונן שהוצרך לנקביו בעת שהיה אונן, והמת נקבר תוך שיעור שבעים ושתים דקות, אין לו לברך "אשר יצר".&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדו' תשמ"ט עמ' נא, ובמהדו' תשס"ד סי' ז' עמ' קמ]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-כ"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">כ</span></b>&nbsp;</span><span style="color: #000000;">אונן קטן פחות מי"ג שנה, מותר בקריאת שמע ובתפלה, ומותר בבשר ויין.&nbsp;</span><small style="color: #000000;"><small>[ואפילו אם הוא יחיד בבית מותר לו להאכיל בשר לקטן, ואין אנו חוששין שמא גם האונן הגדול יאכל מהבשר]</small></small><span style="color: #000000;">.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף כא עמוד קמב]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-כא"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">כא</span></b>&nbsp;</span><span style="color: #000000;">מי שמת לו מת בשבת או ביום טוב, או שקרובו נפטר ביום שישי וטרם נקבר, אינו נוהג דיני אנינות בשבת, וחייב בכל המצוות כולן, ויתפלל כרגיל. ויכול לומר קדיש בשבת. ומותר באכילת בשר ושתיית יין, ומברך על המאכל תחילה וסוף, ומקדש בלילה וביום, ויכול להוציא ידי חובת קידוש את בני ביתו.&nbsp;</span><small style="color: #000000;"><small>[אך אסור בתשמיש המיטה]</small></small><span style="color: #000000;">. ומותר ללכת לבית הכנסת להתפלל, אלא שראוי לו שימנע מלעלות להיות שליח ציבור, או לקרוא בתורה, אלא אם כן אין שם שליח ציבור אחר.&nbsp;</span><small style="color: #000000;"><small>[ואם הוא שליח צבור קבוע הקורא בתורה בבית כנסת זה, ואם יתפלל שם ולא יקרא בתורה, יהיה כמי שמראה אבלות בפרהסיא בשבת, יש להקל שיקרא בתורה בשבת]</small></small><span style="color: #000000;">. ובמוצאי שבת יקדים להתפלל ערבית מבעוד יום, מפלג המנחה, ויבדיל על הכוס אחר התפלה, אך כמובן לא יברך על בשמים ונר&nbsp;</span><small style="color: #000000;"><small>[שהרי טרם יצאה שבת]</small></small><span style="color: #000000;">. ואם לא הבדיל ויצא השבת, רשאי לאכול ולשתות בלי הבדלה. ואם המת נקבר במוצאי שבת יתפלל ערבית ויבדיל אחר הקבורה. ואם נקבר ביום ראשון, יבדיל אחר הקבורה, אפילו אם טעם קודם.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת שנת תשמ"ט עמוד קעא, ובמהדורת שנת תשס"ד סימן ז' סעיף כב עמוד קמד. יביע אומר ח"ט חיו"ד סימן מה עמוד שמט]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-כב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">כב</span></b>&nbsp;</span><span style="color: #000000;">אונן ששמע הבדלה מאיש אחר במוצאי שבת, ונתכוין לצאת ידי חובה, והמברך גם כיון להוציאו, יצא ידי חובתו, ואחר הקבורה אינו צריך לחזור ולהבדיל.&nbsp;</span><small style="color: #000000;"><small>[והוא מפני שכיום יש חברא קדישא המטפלת בקבורת המת]</small></small><span style="color: #000000;">.</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף כג עמוד קמה]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-כג"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">כג</span></b>&nbsp;</span><span style="color: #000000;">לאחר קבורה רשאי לברך ברכות השחר במשך כל היום, לרבות ברכות התורה. ואם נזכר בערב לאחר תפילת ערבית, יברך ברכות השחר חוץ מברכות התורה, שכבר יצא ידי חובתו בברכת אהבת עולם שלפני קריאת שמע של ערבית.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות סי' ז' סעיף כד עמ' קמו]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-כד"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">כד</span></b>&nbsp;</span><span style="color: #000000;">מי שמת לו מת, ונודע לו לפני שהספיק להתפלל שחרית ולהניח תפילין, אין לו להתפלל שחרית, ולא להניח תפילין באותו יום, וגם לאחר קבורה לא יניחו תפילין. ולמחרת יניחו תפילין אחר הנץ החמה. ואם נפטר ביום ראשון, ונקבר למחרת יום פטירתו, נכון להחמיר להניח תפילין ביום הקבורה בצינעא, אבל לא יברך עליהם משום דספק ברכות להקל.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמ' נג, ובמהדורת תשס"ד סי' ז' סעיף כה, עמ' קנ]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-כה"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">כה</span></b>&nbsp;</span><span style="color: #000000;">היה יושב ועושה מלאכה האסורה לאבל, ובאו ואמרו לו מת אביו או אמו, או אחד מקרוביו, פוסק ואפילו באמצע. ואמנם היושב אצל הספר להסתפר, ובאו והודיעו לו שאחד מקרוביו מת, מותר לו להמשיך להסתפר, והקילו בזה משום גדול כבוד הבריות, אך לגבי שאר מלאכות לא הקילו. וגם כשהיה יושב ומסתפר לא התירו אלא בהתחיל להסתפר ממש, אבל אם רק הניחו עליו את הבד כדי לספרו, או שישב אצל הספר להסתפר, אין לו להסתפר.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמוד נד, ובמהדורת תשס"ד סי' ז' עמ' קנ]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-כו"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">כו</span></b>&nbsp;</span><span style="color: #000000;">מי שהיה עומד בתפלת שמונה עשרה, ומת אביו או אמו או אחד משאר קרוביו שחייב לשבת עליהם שבעה, לכתחלה אין להודיעו על הפטירה באמצע תפלת שמונה עשרה, אך אם עברו והודיעו לו באמצע תפלת שמונה עשרה, לא יפסיק באמצע, אלא יסיים תפלתו. וכן מי שעדיין לא התפלל שחרית, אין למהר להודיעו על פטירת קרובו, אלא אחר שיסיים התפלה. וכל שכן שאין להודיעו באמצע תפלת שמונה עשרה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת שנת תשמ"ט עמוד נד, ובמהדורת תשס"ד סימן ז' סעיף כז עמוד קנא]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-כז"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">כז</span></b>&nbsp;</span><span style="color: #000000;">מי שהיה מברך ברכת המזון, ובאמצע הברכות נודע לו שאחד משבעה קרובים שלו נפטר, ימשיך לברך ברכת המזון, ולא יפסיק באמצע.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' עמוד קנו]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-כח"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">כח</span></b>&nbsp;</span><span style="color: #000000;">אין האונן מצטרף למנין, ואינו נושא את כפיו. ולכן בלויה אם אין שם עשרה אנשים גדולים מלבד האונן, אין לאונן לומר קדיש. אבל אם המת נמסר לחברא קדישא והם המטפלים בכל עניני הקבורה וההלויה, רשאי האונן לומר קדיש אף שאין מנין בלעדיו. ואף על פי שהחמרנו לענין ברכות ותפלה שאין לאונן להתפלל ולברך גם כשמסר את מתו לחברא קדישא, מכל מקום לענין קדיש שאין בזה חשש ברכה לבטלה, יש להקל לצרף את האונן באופן הנ"ל למנין. ולאחר הקבורה האבל מצטרף למנין לכל הדעות.&nbsp;</span><small style="color: #000000;"><small>[שם עמ' קנז]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-כט"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">כט</span></b>&nbsp;</span><span style="color: #000000;">מי שמת לו מת&nbsp;</span><small style="color: #000000;"><small>[משבעה קרובים שחייב להתאבל עליהם]</small></small><span style="color: #000000;">&nbsp;במוצאי שבת, ולא התפלל ערבית, והמת נקבר למחרת אחר חצות, אינו יכול להתפלל שחרית, ויתפלל מנחה. ואין צריך להתפלל מנחה שתים לתשלומי שחרית, מאחר שבזמן תפלת שחרית היה פטור מחיוב תפלה. ואם דעתו מיושבת עליו ויכול לכוין בתפלה, רשאי להתפלל מנחה שתים וקודם התפלה השניה יאמר שהוא מתפלל בתנאי דנדבה. ויש אומרים שאם מת לו מת ביום אחר שהגיע זמן שחרית, ונקבר סמוך למנחה, צריך להשלים תשלומין לתפלת שחרית, מאחר שבשעה שהאיר היום עדיין לא חלה עליו אנינות, ונתחייב כבר בתפלה, וממילא חייב להתפלל תשלומין. וגם בזה הדבר תלוי אם דעתו מיושבת עליו, שאם יכול לכוין בתפלה אין הכי נמי יאמר תנאי של נדבה, ויתפלל תשלומין.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י שם סי' ז' עמוד קנז]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-ל"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ל</span></b>&nbsp;</span><span style="color: #000000;">אם המת נפטר ונקבר בראש חודש, יכול האבל להתפלל מוסף אפילו אחר שבע שעות מהזריחה, שהרי תפלת מוסף כל היום זמנה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סי' ז' עמו' קנט]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-לא"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">לא</span></b>&nbsp;</span><span style="color: #000000;">אף שהאונן פטור מכל מצוות עשה האמורות בתורה, מכל מקום אינו פטור ממצות לא תעשה, ואפילו מאיסורי דרבנן, ולכן נוטל ידיו בשחרית, ולסעודה אם אוכל פת כשיעור, אבל לא יברך על הנטילה.&nbsp;</span><small style="color: #000000;"><small>[וגם לא יברך המוציא]</small></small><span style="color: #000000;">. וכן אונן שנצרך לנקביו, צריך אחר כך ליטול ידיו, אבל לא יברך "אשר יצר". וכן אונן שאכל בשר קודם שנעשה לאונן, צריך להמתין שש שעות עד אכילת מאכלי חלב, וכל כיוצא בזה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות סי' ז' עמו' קס]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-לב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">לב</span></b>&nbsp;</span><span style="color: #000000;">יש מי שאומר שאם האונן הוצרך לנקביו, צריך לברך אשר יצר אחר הקבורה, אפילו אחר כמה שעות, אך אין הלכה כדבריו. ויתרה מזאת כבר נתבאר לעיל, דאפילו אם המת נקבר תוך שיעור מהלך פרסה משעה שהאונן עשה צרכיו, אין לו לברך אשר יצר.&nbsp;</span><small style="color: #000000;"><small>[שם עמ' קסב]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-לג"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">לג</span></b>&nbsp;</span><span style="color: #000000;">אונן אסור ברחיצה, סיכה, שאילת שלום, תספורת, ומלאכה,&nbsp;</span><small style="color: #000000;"><small>[אפילו קודם הקבורה]</small></small><span style="color: #000000;">. וכן אסור לו להחליף את בגדיו לבגדים מכובסים. וכן מנהג ירושלים להחמיר בזה. ולכן קודם שיודיעו לאונן על הפטירה, יאמרו לו שמצב החולה מסוכן, ועדיף שיסתפר ויתרחץ, ויחליף את בגדיו, דמאחר שעדיין לא נודע לו מהפטירה, מותר לו להסתפר, ולהתרחץ, ולהחליף את בגדיו לבגדים מכובסים, ולהתפלל שחרית, ולברך. ואם כבר נודע לו שמת אחד מקרוביו, ובגדיו ספוגים בזיעה ויש כאן כבוד הבריות, יתן את הבגד המכובס שלו לאחֵר שילבשנו שעה או יותר, ואחר כך ילבשנו הוא.&nbsp;</span><small style="color: #000000;"><small>[ורשאי לנקות את גופו בממחטות לחות, אבל לא להתרחץ]</small></small><span style="color: #000000;">.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמ' נז, ובמהדורת תשס"ד סימן ז' סעיף לד עמוד קסב]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-לד"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">לד</span></b>&nbsp;</span><span style="color: #000000;">מי שמת לו אחד מקרוביו, והוא לבוש בבגד חדש ויקר, וחס עליו שלא לקורעו, יש אומרים שמותר לו להחליף את הבגד החדש וללבוש בגד אחר מכובס כדי לקורעו, ואין בזה איסור משום לבישת בגד מכובס, אחר שכוונתו לקורעו, ואין בו כדי ליהנות מהכיבוס, אלא שיהיה לו בגד לקריעה. והנכון שיתן הבגד המכובס לאחֵר שילבשנו חצי שעה, ואז יוכל להחליף בגדו לאותו בגד כדי לקורעו, או שילכלך הבגד על קרקע עולם.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סי' ז' עמ' קסו. וע"ע במנחת יצחק ח"י סי' מד, וציץ אליעזר חלק יג סי' סא]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-לה"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">לה</span></b>&nbsp;</span><span style="color: #000000;">אסור לאונן לשבת על גבי כסא וספסל, אלא יושב על הארץ כדרך שיושב בימי השבעה. אולם כאשר הוא מטפל בעניני הקבורה, מותר לו לישב על כסא, כדי שלא יבוא להמנע מטיפול בקבורת המת ובהלוייה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף לו עמוד קסו]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-לו"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">לו</span></b>&nbsp;</span><span style="color: #000000;">כל זמן שלא נקבר המת אינו חולץ נעליו, כדי שיוכל ללכת ולהשתדל ולמהר בקבורתו, וכן מותר לו לנסוע באוטובוס וכיוצא בזה, ולשבת באוטובוס, אך לא יברך תפלת הדרך, אף אם נוסע שעה וחומש. ואם מסר את המת לידי החברא קדישא והם מטפלים בקבורת המת, יש אומרים שיכול לברך תפלת הדרך בהזכרת שם ה', אם נוסע מעיר לעיר שעה וחומש. ושב ואל תעשה עדיף.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמ' נח, ובמהדורת תשס"ד סי' ז' עמוד קסו]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-לז"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">לז</span></b>&nbsp;</span><span style="color: #000000;">מי שיושב שבעה על אחד מקרוביו, ובאמצע השבעה נעשה אונן, בזמן הזה שיש נעלי בד נוחים, אפשר שאסור לו לנעול מנעלי עור באמצע השבעה, שהרי יכול ללכת ולטפל בקבורת מתו גם כשהוא נעול במנעלים אלה. וכן הדין בזה במי שנעשה אונן בתשעה באב, שאין לו לנעול מנעלי עור כדי לטפל בקבורת המת.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות סי' ז' עמ' קסז]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-לח"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">לח</span></b>&nbsp;</span><span style="color: #000000;">אם הבן תלמיד חכם שרבים צריכים לו, ודורש לרבים בעודו אונן לכבוד אביו ואמו בדברי מוסר, יש לו על מה לסמוך, שיש נחת רוח לנפטר במה שבנו דורש.&nbsp;</span><small style="color: #000000;"><small>[שם סל"ט עמ' קסז]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-לט"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">לט</span></b>&nbsp;</span><span style="color: #000000;">מי שציוה לפני פטירתו לאחד מבניו שהוא דוקא יטפל בקבורתו, ושאר בניו לא יטפלו בקבורתו, עם כל זה יש לכל הקרובים דין אונן שאסורים באכילת בשר ושתיית יין, ואסורים לברך ולהתפלל, כיון שאין דעתם פנויה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף מ]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-מ"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">מ</span></b>&nbsp;</span><span style="color: #000000;">אונן שיש לו למול את בנו, צריך שיקבור את מתו קודם המילה, שאם לא כן לא יוכל לברך להכניסו וכו', שהאונן אינו יכול לברך שום ברכה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות תשס"ד סי' ז' עמ' קסז]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-מא"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">מא</span></b>&nbsp;</span><span style="color: #000000;">סופר שבעודו אונן כתב תפילין, יש להכשיר תפילין אלו, ואין לפוסלם משום כל שאינו בקשירה אינו בכתיבה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף מב, עמו' קסח]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-מב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">מב</span></b>&nbsp;</span><span style="color: #000000;">מי שהטיל ציציות בטליתו בשעה שהיה אונן&nbsp;</span><small style="color: #000000;"><small>[קודם שנקבר מתו]</small></small><span style="color: #000000;">, הטלית כשרה, ואין צריך להסיר הציציות ולתלותם בטלית מחדש.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' עמ' קסח]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-מג"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">מג</span></b>&nbsp;</span><span style="color: #000000;">אונן, אף שהוא פטור מן המצוות, אינו צריך לפשוט הטלית קטן מעליו, ואף מותר לו ללבוש בבוקר את הטלית קטן כהרגלו.&nbsp;</span><small style="color: #000000;"><small>[ובלי ברכה]</small></small><span style="color: #000000;">.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמוד נ' בהערה ד"ה ואגב, ובמהדורת תשס"ד סי' ז' סע' מד עמוד קסט]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-מד"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">מד</span></b>&nbsp;</span><span style="color: #000000;">אונן שגר בסמוך לבית הכנסת ושומע קדיש או קדושה, אינו חייב לעזוב את המקום, אף שאינו עונה עמהם. ואונן שמסר מתו לחברא קדישא מצטרף למנין כדי לומר קדיש. ואונן בר"ח אומר הלל אחר הקבורה כל שעות היום.&nbsp;</span><small style="color: #000000;"><small>[שם מהדו' תשס"ד סי' ז' סעיף מה, עמ' קע]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-מה"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">מה</span></b>&nbsp;</span><span style="color: #000000;">אונן הנמצא בבית הכנסת, אינו פוטר את הצבור מלומר וידוי, אבל אם מתפללים בבית האונן, אין לומר וידוי כלל.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף מו עמוד קע]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-מו"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">מו</span></b>&nbsp;</span><span style="color: #000000;">תינוק שמת בתוך שלשים יום ללידתו, מאחר ואין הקרובים יושבים עליו שבעה, אין נוהג גם דיני אנינות לפוטרם מן המצוות.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף מז עמוד קע]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-מז"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">מז</span></b>&nbsp;</span><span style="color: #000000;">תינוק שנולד לתשעה חודשים, ומחמת מחלה חיברוהו למכונת הנשמה מיד עם לידתו, ולא היה נושם בלא חיבור זה, אף אם חי יותר משלשים יום, אין מתאבלים עליו. אבל אם היה חולה רוב ככל הזמן, אבל היו זמנים שניתקו אותו ממכונת ההנשמה ונשם בכוחות עצמו, אם מת אחר שלשים יום ללידתו מתאבלים עליו.</span><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-מח"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">מח</span></b>&nbsp;</span><span style="color: #000000;">כל מי שאין מתאבלים עליו, אין נוהגים עליו דיני אנינות, ולכן פורקי עול שאינם שומרי תורה ומצוות בזדון, ובעוה"ר כופרים בהשי"ת ובתורה הקדושה, ואינם בגדר תינוק שנשבה לבין הגויים, או שהיו נשואים לגוי&nbsp;</span><small style="color: #000000;"><small>[או גויה]</small></small><span style="color: #000000;">&nbsp;ולא רצו לגיירם, וכל כיוצא בזה, שאין יושבים עליהם שבעה, כך אין נוהגים בהם דין אנינות.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות סימן ז' עמוד קעא]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-מט"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">מט</span></b>&nbsp;</span><span style="color: #000000;">המאבד עצמו לדעת, אף אם הוא באופן שאין מתאבלים עליו&nbsp;</span><small style="color: #000000;"><small>[ראה להלן דין המאבד עצמו לדעת]</small></small><span style="color: #000000;">&nbsp;מכל מקום נעשים אונן עליו, לענין שאסורים בבשר ויין ובשאר דברים. ולענין קריאת שמע ותפלה ושאר ברכות, יש אומרים שאין לגביו דין אונן, ורשאים הקרובים להתפלל ולברך וכו'. ויש חולקים ואומרים שגם במאבד עצמו לדעת אין לאונן להתפלל ולברך. ורק אם מתפלל ומברך אין מוחין בידו</span><small style="color: #000000;"><small>[ככל אונן]</small></small><span style="color: #000000;">. ועל כל פנים במאבד עצמו לדעת שיש לתלות שחזר בו ברגע האחרון והצטער על מעשיו, ולכן יושבים עליו שבעה, בזה נוהג בו דין אנינות ככל מת אחר.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף מט עמוד קעא]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-נ"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">נ</span></b>&nbsp;</span><span style="color: #000000;">חתן שמת אביו, או שמתה אמה של הכלה, אחר החופה, לכתחלה אין להודיעו על כך, אבל אם נודע לו הדבר, אף על פי שאינו נוהג אבלות אלא עד אחר שבעת ימי המשתה, מכל מקום נוהג בו דין אנינות, עד הקבורה, ואסור בבשר ויין ובתשמיש המטה.&nbsp;</span><small style="color: #000000;"><small>[והתירו לו רק בעילת מצוה]</small></small><span style="color: #000000;">.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' עמוד קעב]</small></small><span style="color: #000000;">. ואם אביו של חתן או אמו נפטרו בבוקר יום החתונה, מכניסים את החתן והכלה לחופה, ואחר כך קוברים את המת, ואחר שהחתן יסיים שבעת ימי המשתה ינהג שבעת ימי אבלות.</span><small style="color: #000000;"><small>[הוראת מרן אאמו"ר שלי']</small></small><span style="color: #000000;">.</span><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-נא"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">נא</span></b>&nbsp;</span><span style="color: #000000;">מיד לאחר שסתמו את הגולל דהיינו שהשליכו עפר על המת, האבלים יוצאים מגדר אונן, וחלים עליהם דיני אבל. ולכן אם עדיין לא עבר זמן קריאת שמע ותפלה, יקראו קריאת שמע ויתפללו, ואם עברו ד' שעות מהזריחה, יברכו ברכות השחר וברכות התורה, ברוך שאמר וכו' עד סוף ישתבח, יקראו קריאת שמע ותפלת העמידה. ואם עבר חצות היום, אין יכולים להתפלל שחרית.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף נא עמוד קעב]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-נב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">נב</span></b>&nbsp;</span><span style="color: #000000;">מאחר שהאבל אסור במלאכה, לכן בעל מפעל או תחנת דלק וכדו', שקשה להם לסגור את המפעל לכל שבעת ימי האבל, ימכור את העסק לשותף, או לכל אדם אחר, על ידי קנין ושטר, קודם הפטירה בהיות החולה גוסס, וכך המפעל יוכל להמשיך לעבוד גם בשבעת ימי האבל. ובדיעבד ניתן לעשות את המכירה גם לאחר הפטירה קודם הקבורה, אבל לא לאחר הקבורה. אבל לא ימכור לאשתו. ואם לא נודע לו מהאבלות, ולאשתו נודע, מותר לה לפתוח החנות ולהסתחר.&nbsp;</span><small style="color: #000000;"><small>[בית דוד. כל בו עמ' שכב אות ז. שד"ח מע' אבלות אות ז]</small></small><span style="color: #000000;">. ואם יש לו פועלים ויש לו הפסד ראה להלן.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות תשס"ד עמוד קעג ועמוד שנא. וכ"כ בתשובה מאהבה, שהמנהג שהאונן מוחל לחבירו השותפות בקנין סודר, כדי שהשותף יוכל להמשיך לעסוק בחנות. ואמנם בחת"ס החמיר באונן, אך הלכה כדברי המיקל באבל. וראה בשו"ת יביע אומר ח"י בהערות לרב פעלים חיו"ד דף שכח טור ב']</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-נג"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">נג</span></b>&nbsp;</span><span style="color: #000000;">אונן החפץ ליתן צדקה בעת ההלוייה, או קודם לכן, רשאי לעשות כן, אך יתן בדעתו שהצדקה היא לעילוי נשמת הנפטר.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף נג עמוד קעג]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-נד"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">נד</span></b>&nbsp;</span><span style="color: #000000;">אין האונן כהן נושא את כפיו, ואפילו אם אין שם כהן אלא הוא, דלא גרע מאבל שאינו נושא את כפיו. ומכל מקום אם עלה אינו יורד. ואונן ביום טוב, אם קובר את מתו לאחר יום טוב, יש אומרים דמאחר שאינו שרוי בשמחה אינו נושא כפיו, ויש חולקים ואומרים דמאחר שאינו קובר את המת ביום טוב&nbsp;</span><small style="color: #000000;"><small>[על ידי גויים]</small></small><span style="color: #000000;">, לא חלים עליו דיני אנינות ונושא כפיו. ולכולי עלמא אם עלה לא ירד.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סי' ז' עמו' קעד, ובמילואים]</small></small><a style="color: #000000;" name="סימןBז'B-BהלכותBאנינות-נה"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">נה</span></b>&nbsp;</span><span style="color: #000000;">אונן פטור מקריאת שמע שעל המטה, ואינו יכול לברך ברכת המפיל. אולם אונן הרוצה להחמיר על עצמו ולברך ברכת המפיל&nbsp;</span><small style="color: #000000;"><small>[כשישן קודם חצות, והקבורה רק למחרת]</small></small><span style="color: #000000;">&nbsp;אם מסר את מתו לכתפים, אין מוחין בידו.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף נה עמוד קעה]</small></small><span style="color: #000000;">&nbsp;</span></p>
+
+		</div><!-- .entry-content -->
+
+	</div><!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div><!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-2381 post type-post status-publish format-standard hentry category-7" id="post-2381">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">
+					קטגוריות				</span>
+				<div class="entry-categories-inner">
+					<a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%91%d7%9c%d7%95%d7%aa/" rel="category tag">הלכות אבלות דיני אבלות</a>				</div><!-- .entry-categories-inner -->
+			</div><!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%9b-%d7%94%d7%90%d7%91%d7%9c-%d7%90%d7%a1%d7%95%d7%a8-%d7%91%d7%a0%d7%a2%d7%99%d7%9c%d7%aa-%d7%a1%d7%a0%d7%93%d7%9c/">סימן כ – האבל אסור בנעילת סנדל</a></h2>
+		<div class="post-meta-wrapper post-meta-single post-meta-single-top">
+
+			<ul class="post-meta">
+
+									<li class="post-author meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								המחבר הפוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20"><path fill="" d="M18,19 C18,19.5522847 17.5522847,20 17,20 C16.4477153,20 16,19.5522847 16,19 L16,17 C16,15.3431458 14.6568542,14 13,14 L5,14 C3.34314575,14 2,15.3431458 2,17 L2,19 C2,19.5522847 1.55228475,20 1,20 C0.44771525,20 0,19.5522847 0,19 L0,17 C0,14.2385763 2.23857625,12 5,12 L13,12 C15.7614237,12 18,14.2385763 18,17 L18,19 Z M9,10 C6.23857625,10 4,7.76142375 4,5 C4,2.23857625 6.23857625,0 9,0 C11.7614237,0 14,2.23857625 14,5 C14,7.76142375 11.7614237,10 9,10 Z M9,8 C10.6568542,8 12,6.65685425 12,5 C12,3.34314575 10.6568542,2 9,2 C7.34314575,2 6,3.34314575 6,5 C6,6.65685425 7.34314575,8 9,8 Z"></path></svg>						</span>
+						<span class="meta-text">
+							מאת <a href="https://www.yalkut.info/author/admin/"></a>						</span>
+					</li>
+										<li class="post-date meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								תאריך פוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"><path fill="" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z"></path></svg>						</span>
+						<span class="meta-text">
+							<a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%9b-%d7%94%d7%90%d7%91%d7%9c-%d7%90%d7%a1%d7%95%d7%a8-%d7%91%d7%a0%d7%a2%d7%99%d7%9c%d7%aa-%d7%a1%d7%a0%d7%93%d7%9c/"></a>
+						</span>
+					</li>
+					
+			</ul><!-- .post-meta -->
+
+		</div><!-- .post-meta-wrapper -->
+
+		
+	</div><!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<p><span style="color: #000000;"><b><span style="text-decoration: underline;"><span style="color: #3377cc;"><span style="text-decoration: underline;">סימן כ – האבל אסור בנעילת סנדל</span></span><br>
+</span></b></span><a style="color: #000000;" name="סימןBכB-BהאבלBאסורBבנעילתBסנדל-א"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">א</span></b>&nbsp;</span><span style="color: #000000;">האבל אסור בנעילת הסנדל, בין איש בין אשה, כיצד, אסור לאבל לנעול נעליים העשויות מעור, בימי השבעה, ואפילו אם תחתית הנעל עשויה מעץ, אם הנעל מחופה עור, אסור. ואפילו אם לובש גרביים ונועל עליהם נעלי עור, אסור. אבל נעליים מבגד או מגומי או בד מותר, שהרי קושי הארץ מגיע לרגליו.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סי' כ' עמ' שע]</small></small><a style="color: #000000;" name="סימןBכB-BהאבלBאסורBבנעילתBסנדל-ב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ב</span></b>&nbsp;</span><span style="color: #000000;">מותר לאבל לנעול נעלי עץ שיש להם רצועה של עור להחזיק הנעל, הנקרא קבקב.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן כ' סעיף ב עמוד שעא]</small></small><a style="color: #000000;" name="סימןBכB-BהאבלBאסורBבנעילתBסנדל-ג"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ג</span></b>&nbsp;</span><span style="color: #000000;">אם אין לאבל נעלים מבד המותרים לאבל, מותר לו לקנות נעלים חדשות מבד, ונכון שקודם לכן יתן אותם לאחר לנועלם איזה שעה אחת, ואחר כך ינעל אותם האבל.&nbsp;</span><small style="color: #000000;"><small>[שם ס"ג]</small></small><a style="color: #000000;" name="סימןBכB-BהאבלBאסורBבנעילתBסנדל-ד"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ד</span></b>&nbsp;</span><span style="color: #000000;">יש אומרים שאסור לאבל לילך יחף, ועל כל פנים בארץ ישראל שעפרה קדוש מותר לילך יחף.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן כ' סעיף ד עמוד שעא]</small></small><a style="color: #000000;" name="סימןBכB-BהאבלBאסורBבנעילתBסנדל-ה"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ה</span></b>&nbsp;</span><span style="color: #000000;">כל האיסור הוא באבל הרוצה לנעול מנעל, אבל אם רוצה להשאר בלא נעלים, וכגון עם גרביים בלבד, רשאי, אף שהולך על כרים וכסתות. ואינו מרגיש קושי הארץ.&nbsp;</span><small style="color: #000000;"><small>[שם עמ' שעב]</small></small><a style="color: #000000;" name="סימןBכB-BהאבלBאסורBבנעילתBסנדל-ו"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ו</span></b>&nbsp;</span><span style="color: #000000;">מי שנודע לו בהיותו בדרך שמת לו מת שחייב להתאבל עליו, אינו צריך לחלוץ מנעליו מיד אלא עד שיגיע לביתו. ואם הוא נוסע ברכב, נכון שיחלוץ מנעליו בשעה שנמצא ברכב&nbsp;</span><small style="color: #000000;"><small>[שהרי בנקל יכול לחוש לדעת הכל בו]</small></small><span style="color: #000000;">. אלא אם כן הוא עצמו נוהג ברכב וחליצת המנעלים תפריע לו בנהיגה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן כ' סעיף ו' עמוד שעב]</small></small><a style="color: #000000;" name="סימןBכB-BהאבלBאסורBבנעילתBסנדל-ז"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ז</span></b>&nbsp;</span><span style="color: #000000;">אבי הבן שהוא בתוך שבעה ימי אבלות, לא ינעול מנעלים של עור בלכתו למול את בנו, כיון שאיסור נעילת הסנדל הוא מדינא דגמרא.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סי' כ' סעיף ז. עמוד שעג. יביע אומר חלק ט' חלק יורה דעה סימן מא עמוד שדמ]</small></small><a style="color: #000000;" name="סימןBכB-BהאבלBאסורBבנעילתBסנדל-ח"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ח</span></b>&nbsp;</span><span style="color: #000000;">יש מי שכתב דמאחר והאבל אסור בנעילת סנדל אין לו לברך בברכות השחר ברכת "שעשה לי כל צרכי" בכל יום מימי השבעה. אולם המנהג פשוט שהאבלים מברכים ברכה זו בכל ימי האבל. ואפילו בתשעה באב וביום הכפורים שאיסור נעילת הסנדל הוא על הכל, אפילו הכי המנהג כיום לברך ברכה זו. ובפרט שנועלים מנעלי גומי נוחים.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן כ' סעיף ח עמוד שעג]</small></small><span style="color: #000000;">&nbsp;</span><a style="color: #000000;" name="HtmpReportNum0941_L2"></a><a style="color: #000000;" name="סימןBכאB-BישיבתBהאבלBעלBגביBקרקעBודיןBכפייתBהמטה"></a><br style="color: #000000;"><br style="color: #000000;"></p>
+
+		</div><!-- .entry-content -->
+
+	</div><!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div><!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-2413 post type-post status-publish format-standard hentry category-7" id="post-2413">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">
+					קטגוריות				</span>
+				<div class="entry-categories-inner">
+					<a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%91%d7%9c%d7%95%d7%aa/" rel="category tag">הלכות אבלות דיני אבלות</a>				</div><!-- .entry-categories-inner -->
+			</div><!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%9c%d7%95-%d7%9e%d7%a0%d7%94%d7%92%d7%99%d7%9d-%d7%94%d7%a9%d7%99%d7%99%d7%9b%d7%99%d7%9d-%d7%9c%d7%99%d7%95%d7%9d-%d7%94%d7%a9%d7%9c%d7%95%d7%a9%d7%99%d7%9d/">סימן לו – מנהגים השייכים ליום השלושים</a></h2>
+		<div class="post-meta-wrapper post-meta-single post-meta-single-top">
+
+			<ul class="post-meta">
+
+									<li class="post-author meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								המחבר הפוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20"><path fill="" d="M18,19 C18,19.5522847 17.5522847,20 17,20 C16.4477153,20 16,19.5522847 16,19 L16,17 C16,15.3431458 14.6568542,14 13,14 L5,14 C3.34314575,14 2,15.3431458 2,17 L2,19 C2,19.5522847 1.55228475,20 1,20 C0.44771525,20 0,19.5522847 0,19 L0,17 C0,14.2385763 2.23857625,12 5,12 L13,12 C15.7614237,12 18,14.2385763 18,17 L18,19 Z M9,10 C6.23857625,10 4,7.76142375 4,5 C4,2.23857625 6.23857625,0 9,0 C11.7614237,0 14,2.23857625 14,5 C14,7.76142375 11.7614237,10 9,10 Z M9,8 C10.6568542,8 12,6.65685425 12,5 C12,3.34314575 10.6568542,2 9,2 C7.34314575,2 6,3.34314575 6,5 C6,6.65685425 7.34314575,8 9,8 Z"></path></svg>						</span>
+						<span class="meta-text">
+							מאת <a href="https://www.yalkut.info/author/admin/"></a>						</span>
+					</li>
+										<li class="post-date meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								תאריך פוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"><path fill="" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z"></path></svg>						</span>
+						<span class="meta-text">
+							<a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%9c%d7%95-%d7%9e%d7%a0%d7%94%d7%92%d7%99%d7%9d-%d7%94%d7%a9%d7%99%d7%99%d7%9b%d7%99%d7%9d-%d7%9c%d7%99%d7%95%d7%9d-%d7%94%d7%a9%d7%9c%d7%95%d7%a9%d7%99%d7%9d/"></a>
+						</span>
+					</li>
+					
+			</ul><!-- .post-meta -->
+
+		</div><!-- .post-meta-wrapper -->
+
+		
+	</div><!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<p><span style="color: #000000;"><b><span style="text-decoration: underline;"><span style="color: #3377cc;"><span style="text-decoration: underline;">סימן לו – מנהגים השייכים ליום השלושים</span></span><br>
+</span></b></span><a style="color: #000000;" name="סימןBלוB-BמנהגיםBהשייכיםBליוםBהשלושים-א"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">א</span></b>&nbsp;</span><span style="color: #000000;">בגמ' מועד קטן אמרו: שלושה ימים לבכי, שבעה להספד, ושלשים לגיהוץ ולתספורת. ובירושלמי</span><small style="color: #000000;"><small>(מועד קטן פרק ג' הלכה ה)</small></small><span style="color: #000000;">&nbsp;אמרו על הפסוק ויתמו ימי בכי אבל משה, ימי שנים, בכי שבעה, אבל שלשים. ושם&nbsp;</span><small style="color: #000000;"><small>(בסוף הפרק)</small></small><span style="color: #000000;">&nbsp;אמר ר' יוחנן כל שבעה החרב שלופה עד שלושים היא רופפת וכו'. ובבבלי מועד קטן</span><small style="color: #000000;"><small>(כז:)</small></small><span style="color: #000000;">&nbsp;אמר ר' לוי, אבל, שלשה ימים הראשונים יראה את עצמו כאילו חרב מונחת לו בין שני ירכותיו, משלשה ועד שבעה כאילו החרב מונחת לו כנגד בקרן זוית, מכאן והילך כאילו עוברת בשוק.&nbsp;</span><small style="color: #000000;"><small>(ושם דף כב.)</small></small><span style="color: #000000;">. ואינו נכנס לבית המשתה על כל המתים שלשים, ולאביו ולאמו י"ב חודש.&nbsp;</span><small style="color: #000000;"><small>[שם תקנה]</small></small><a style="color: #000000;" name="סימןBלוB-BמנהגיםBהשייכיםBליוםBהשלושים-ב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ב</span></b>&nbsp;</span><span style="color: #000000;">יש שנהגו שבליל השלושים עושים סעודה בבית, ועורכים לימוד, דרשה ואזכרה לעילוי נשמת הנפטר, ולמחרת עולים לקבר. ויש למנות את יום השלושים מיום הקבורה, ולא מיום המיתה. וכן הדין לענין תספורת ושמחה על שאר קרובים, וכדומה. ומכל מקום אין חובה גמורה לעשות סעודה בליל השלושים, ואם הדבר בלתי אפשרי, מכמה סיבות, ירבה בלימוד תורה, ויאמר שהוא לעילוי נשמת הנפטר, ויעשה השכבה, והמנהג שבליל השלושים מתאספים בבית הכנסת, לומר דברי תורה והתעוררות, לעילוי נשמת המנוח. וכבר ביארנו שאין למספידים לשבח יותר מדאי את הנפטר, אלא יאריכו בדברי מוסר.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן לו סעיף ב עמוד תקנה]</small></small><a style="color: #000000;" name="סימןBלוB-BמנהגיםBהשייכיםBליוםBהשלושים-ג"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ג</span></b>&nbsp;</span><span style="color: #000000;">אם יש צורך להקדים את האזכרה של יום השלשים, אפשר להקדים ליום העשרים ותשעה אחר הצהרים, וימשיכו קצת בלימוד בליל שלשים אחרי תפילת מנחה וערבית, וכן ביום פקודת השנה אפשר לעשות הלימוד יום קודם, וימשיכו בלימוד קצת אחר תפילת מנחה וערבית של ליל פקודת השנה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן לו סעיף ג עמוד תקנה]</small></small><a style="color: #000000;" name="סימןBלוB-BמנהגיםBהשייכיםBליוםBהשלושים-ד"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ד</span></b>&nbsp;</span><span style="color: #000000;">אף אם חל יום השלושים בחנוכה או בפורים, מצוה רבה לעלות לקבר ולומר שם תהלים באותיות נשמה ואותיות שם הנפטר.&nbsp;</span><small style="color: #000000;"><small>[נתיבי עם עמוד קל]</small></small><span style="color: #000000;">. ויש להשתדל ברוב עוז ותעצומות שלא לבוא לידי בכי בעת הביקור ליד הקבר, וראה לעיל סימן לו סעיף י'.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות תשס"ד עמוד תרצ, ותקנו]</small></small><span style="color: #000000;">.</span><a style="color: #000000;" name="סימןBלוB-BמנהגיםBהשייכיםBליוםBהשלושים-ה"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ה</span></b>&nbsp;</span><span style="color: #000000;">אם חל יום השלשים, או יום פקודת השנה בחול המועד, אין לבקר בבית הקברות בחול המועד, אלא עדיף להקדים את הביקור ליד הקבר, לפני החג. ואם אי אפשר לו, יבקר לאחר החג. ומכל שכן שאין להתענות בחול המועד ביום פקודת השנה. וכן בחנוכה ובפורים.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמוד קפג, ובמהדורת תשס"ד סימן לו סעיף ה עמוד תקנו]</small></small><a style="color: #000000;" name="סימןBלוB-BמנהגיםBהשייכיםBליוםBהשלושים-ו"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ו</span></b>&nbsp;</span><span style="color: #000000;">חייל שנהרג בסוכות, וקרוביו קיבלו את הידיעה על כך בימי החג, ביום י"ח בתשרי, וישבו שבעה לאחר שמיני עצרת, כפי הדין, יש לחשוב את יום השלשים מיום קבלת הידיעה, ומותר להסתפר ביום י"ז חשון, שהוא יום השלשים לקבלת הידיעה, שמקצת היום ככולו. וכל זה כשנמסרה להם הידיעה בחול המועד, אבל אם לא נודע לקרוביו אלא לאחר החג, אף על פי שהאסון אירע כמה ימים לפני כן, אינם מונים שבעה ושלשים אלא מיום שנודע להם, שיום שמועה קרובה כיום קבורה. ומכל מקום הלימוד שנוהגים לעשות בליל השלשים, יש לעשותו בליל שלשים לקבורה, אם ידוע מתי הוא יום הקבורה.&nbsp;</span><small style="color: #000000;"><small>[שם]</small></small><span style="color: #000000;">&nbsp;</span><a style="color: #000000;" name="HtmpReportNum0957_L2"></a><a style="color: #000000;" name="סימןBלזB-BדיןBגילוחBוסריקהBבאבל"></a></p>
+
+		</div><!-- .entry-content -->
+
+	</div><!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div><!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-2446 post type-post status-publish format-standard hentry category-7" id="post-2446">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">
+					קטגוריות				</span>
+				<div class="entry-categories-inner">
+					<a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%91%d7%9c%d7%95%d7%aa/" rel="category tag">הלכות אבלות דיני אבלות</a>				</div><!-- .entry-categories-inner -->
+			</div><!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%a0-%d7%93%d7%99%d7%a0%d7%99-%d7%94%d7%9e%d7%a6%d7%91%d7%94/">סימן נ' – דיני המצבה</a></h2>
+		<div class="post-meta-wrapper post-meta-single post-meta-single-top">
+
+			<ul class="post-meta">
+
+									<li class="post-author meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								המחבר הפוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20"><path fill="" d="M18,19 C18,19.5522847 17.5522847,20 17,20 C16.4477153,20 16,19.5522847 16,19 L16,17 C16,15.3431458 14.6568542,14 13,14 L5,14 C3.34314575,14 2,15.3431458 2,17 L2,19 C2,19.5522847 1.55228475,20 1,20 C0.44771525,20 0,19.5522847 0,19 L0,17 C0,14.2385763 2.23857625,12 5,12 L13,12 C15.7614237,12 18,14.2385763 18,17 L18,19 Z M9,10 C6.23857625,10 4,7.76142375 4,5 C4,2.23857625 6.23857625,0 9,0 C11.7614237,0 14,2.23857625 14,5 C14,7.76142375 11.7614237,10 9,10 Z M9,8 C10.6568542,8 12,6.65685425 12,5 C12,3.34314575 10.6568542,2 9,2 C7.34314575,2 6,3.34314575 6,5 C6,6.65685425 7.34314575,8 9,8 Z"></path></svg>						</span>
+						<span class="meta-text">
+							מאת <a href="https://www.yalkut.info/author/admin/"></a>						</span>
+					</li>
+										<li class="post-date meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								תאריך פוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"><path fill="" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z"></path></svg>						</span>
+						<span class="meta-text">
+							<a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%a0-%d7%93%d7%99%d7%a0%d7%99-%d7%94%d7%9e%d7%a6%d7%91%d7%94/"></a>
+						</span>
+					</li>
+					
+			</ul><!-- .post-meta -->
+
+		</div><!-- .post-meta-wrapper -->
+
+		
+	</div><!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<p><span style="color: #000000;"><b><span style="text-decoration: underline;"><span style="color: #3377cc;"><span style="text-decoration: underline;">סימן נ' – דיני המצבה</span></span><br>
+</span></b></span><small style="color: #000000;"><small>[שייך לשלחן ערוך סימן שעה]</small></small><a style="color: #000000;" name="סימןBנ'B-BדיניBהמצבה-א"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">א</span></b>&nbsp;</span><span style="color: #000000;">יש נוהגים לעשות את המצבה רק לקראת יום השלשים לפטירה, ויש שנהגו שמניחים את המצבה כבר ביום השבעה לפטירתו. וזה המנהג הנכון יותר, שלא לאחר את עשיית המצבה אחר יום השביעי. אך אם לא הספיקו לעשות מצבה עד היום השביעי, יש להניח אבן על הקבר, למראשותיו של הנפטר.</span><small style="color: #000000;"><small>[ילקו"י על הלכות אבלות ח"ז מהדורת תשמ"ט עמוד צ'. ובמהדורת תשס"ד סימן נ' סעיף א עמוד תשכה]</small></small><a style="color: #000000;" name="סימןBנ'B-BדיניBהמצבה-ב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ב</span></b>&nbsp;</span><span style="color: #000000;">אותם המפזרים מעותיהם בהון רב בעבור בניית מצבה מיוחדת, עדיף יותר שישקיעו את כספם עבור צדקה לעניים וללומדי תורה, מאשר ישקיעו זאת על המצבה.&nbsp;</span><small style="color: #000000;"><small>[שם סי' נ]</small></small><a style="color: #000000;" name="סימןBנ'B-BדיניBהמצבה-ג"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ג</span></b>&nbsp;</span><span style="color: #000000;">אין לכתוב שבחים גדולים על הנפטר אם באמת לא היו בו שבחים אלה, ובפרט על המצבה של הנפטר, שהדבר מזיק לנפטר, ומעורר עליו קטרוג, ובשמים תובעים אותו על זה. ולכן לא יכתבו על המצבה תוארים כמו הישר באדם, הצדיק והחסיד, וכדומה, שבחים שבאמת לא היו בו. אלא יש לצמצם ככל האפשר את כתיבת התוארים על המצבה. ואם הנפטר סבל יסורים לפני מותו, טוב לכתוב על המצבה שהיה מדוכה ביסורים, שזו היא זכות גדולה לנפטר, ואשרי מי שיסורין באים עליו.</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמוד צא, ובמהדורת תשס"ד סימן נ' סעיף ג עמוד תשכו]</small></small><a style="color: #000000;" name="סימןBנ'B-BדיניBהמצבה-ד"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ד</span></b>&nbsp;</span><span style="color: #000000;">מי שציוה את בניו שלאחר מותו יכתבו על המצבה דברים בזויים עליו, אין הבנים רשאים לקיים את צוואתו זו.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן נ' סעיף ד עמוד תשכו]</small></small><a style="color: #000000;" name="סימןBנ'B-BדיניBהמצבה-ה"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ה</span></b>&nbsp;</span><span style="color: #000000;">אם הבן מחליף את מצבת אביו, אסור לו למעט בשבחים שהיו במצבה הראשונה, משום כיבוד אב. ומכל מקום מן הראוי שמעיקרא לא יכתבו על המצבה תוארים מוגזמים.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן נ' סעיף ה עמוד תשכז. ילקו"י על הל' כיבוד אב ואם פרק יג]</small></small><a style="color: #000000;" name="סימןBנ'B-BדיניBהמצבה-ו"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ו</span></b>&nbsp;</span><span style="color: #000000;">הדבר ברור שאין ראוי לכתוב על המצבה את התאריך הלועזי של יום פטירת הנפטר, אף שמעיקר הדין אין בזה איסור, ויכתבו רק את התאריך העברי לבריאת העולם.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמוד צא, ובמהדורת תשס"ד סימן נ' ס"ו עמוד תשכז. יביע אומר ח"ג חיו"ד סי' ט]</small></small><a style="color: #000000;" name="סימןBנ'B-BדיניBהמצבה-ז"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ז</span></b>&nbsp;</span><span style="color: #000000;">אם עברו וכתבו על המצבה את התאריך לועזי, ראוי להסיר את המצבה מעל הקבר, או לכל הפחות לטוח אותה בטיט ובמלט הנדבק מאד, לבל יפול ממנה, ולכתוב על זה התאריך העברי בלבד.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמוד צג, ובתשס"ד סי' נ' ס"ז עמוד תשכט]</small></small><a style="color: #000000;" name="סימןBנ'B-BדיניBהמצבה-ח"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ח</span></b>&nbsp;</span><span style="color: #000000;">יש לכתוב על המצבה בכתב עברי&nbsp;</span><small style="color: #000000;"><small>[לשון הקודש]</small></small><span style="color: #000000;">, ולא בלועזית, ואין לשנות ממסורת ישראל לכתוב אם שם הנפטר וכו' בכתב לועזי, כמו אנגלית וכדומה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות עמ' תשכט]</small></small><a style="color: #000000;" name="סימןBנ'B-BדיניBהמצבה-ט"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ט</span></b>&nbsp;</span><span style="color: #000000;">אלמנה שנישאת בשנית, ולאחר פטירתה מבקשים בניה לכתוב על המצבה גם את שם משפחתו של בעלה הראשון, והבעל השני מתנגד לכך, אין ביד הבעל השני לעכב, והרשות ביד הבנים לחקוק המצבה עם הזכרת שם אביהם, ואף רשאים לקוברה אצל בעלה הראשון. ורשאים לכתוב על המצבה מרת פלונית אשת פלוני, "לשעבר אשת פלוני", ואין בעלה השני יכול לעכב מלכתוב כן על המצבה שלה, כי בתחיית המתים חוזרת היא לבעלה הראשון, כדאיתא בזוהר&nbsp;</span><small style="color: #000000;"><small>(בראשית דף כא ע"ב)</small></small><span style="color: #000000;">.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמוד צג, ובמהדורת תשס"ד סימן נ' סעיף ט עמוד תשל. יביע אומר חלק י' חיו"ד סימן מז אות ג]</small></small><a style="color: #000000;" name="סימןBנ'B-BדיניBהמצבה-י"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">י</span></b>&nbsp;</span><span style="color: #000000;">אין לקבוע על המצבה את תמונת המנוח, שאסור לשנות ממסורת ומנהגי ישראל, בין צורה בולטת בין שוקעת, ועל הרבנים המקומיים לחגור בעוז ותעצומות למנוע דבר זה, ובפרט לפי מה שכתבו הפוסקים ששינוי מן המנהג שעושים למתים יש בו חשש סכנה לחיים ח"ו.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמוד צד. ובמהדורת תשס"ד סימן נ' סעיף י עמוד תשל. יביע אומר חלק ג' חיו"ד סי' כד אות י', וח"ז חיו"ד סי' לב]</small></small><a style="color: #000000;" name="סימןBנ'B-BדיניBהמצבה-יא"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">יא</span></b>&nbsp;</span><span style="color: #000000;">מצבה שעל הקבר שהוחלפה על ידי משפחת הנפטר במצבה אחרת נאה הימנה, מותר לתת את המצבה הקודמת על קבר של מת אחר, ולטוח אותה בטיט, ולכתוב על המצבה את שם הנפטר השני. וטוב להחמיר שלא יהנו מן המצבה אלא יתנוה לצורך מת עני שאין לו קרובים הדואגים לעשות לו מצבה. ובזה אין חשש כלל.&nbsp;</span><small style="color: #000000;"><small>[שם סעיף יא. יביע אומר ח"ז חיו"ד סי' לג]</small></small><span style="color: #000000;">&nbsp;</span><a style="color: #000000;" name="HtmpReportNum0973_L2"></a><a style="color: #000000;" name="סימןBנאB-BאיסורBהנאהBמקבר,Bמהמצבה,BוכיוצאBבזה"></a><br style="color: #000000;"><br style="color: #000000;"></p>
+
+		</div><!-- .entry-content -->
+
+	</div><!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div><!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-2351 post type-post status-publish format-standard hentry category-7" id="post-2351">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">
+					קטגוריות				</span>
+				<div class="entry-categories-inner">
+					<a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%91%d7%9c%d7%95%d7%aa/" rel="category tag">הלכות אבלות דיני אבלות</a>				</div><!-- .entry-categories-inner -->
+			</div><!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="https://www.yalkut.info/2019/01/31/%d7%93%d7%99%d7%a0%d7%99-%d7%90%d7%95%d7%a0%d7%9f-%d7%91%d7%9e%d7%95%d7%a2%d7%93%d7%99-%d7%95%d7%96%d7%9e%d7%a0%d7%99-%d7%94%d7%a9%d7%a0%d7%94/">דיני אונן במועדי וזמני השנה</a></h2>
+		<div class="post-meta-wrapper post-meta-single post-meta-single-top">
+
+			<ul class="post-meta">
+
+									<li class="post-author meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								המחבר הפוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20"><path fill="" d="M18,19 C18,19.5522847 17.5522847,20 17,20 C16.4477153,20 16,19.5522847 16,19 L16,17 C16,15.3431458 14.6568542,14 13,14 L5,14 C3.34314575,14 2,15.3431458 2,17 L2,19 C2,19.5522847 1.55228475,20 1,20 C0.44771525,20 0,19.5522847 0,19 L0,17 C0,14.2385763 2.23857625,12 5,12 L13,12 C15.7614237,12 18,14.2385763 18,17 L18,19 Z M9,10 C6.23857625,10 4,7.76142375 4,5 C4,2.23857625 6.23857625,0 9,0 C11.7614237,0 14,2.23857625 14,5 C14,7.76142375 11.7614237,10 9,10 Z M9,8 C10.6568542,8 12,6.65685425 12,5 C12,3.34314575 10.6568542,2 9,2 C7.34314575,2 6,3.34314575 6,5 C6,6.65685425 7.34314575,8 9,8 Z"></path></svg>						</span>
+						<span class="meta-text">
+							מאת <a href="https://www.yalkut.info/author/admin/"></a>						</span>
+					</li>
+										<li class="post-date meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								תאריך פוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"><path fill="" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z"></path></svg>						</span>
+						<span class="meta-text">
+							<a href="https://www.yalkut.info/2019/01/31/%d7%93%d7%99%d7%a0%d7%99-%d7%90%d7%95%d7%a0%d7%9f-%d7%91%d7%9e%d7%95%d7%a2%d7%93%d7%99-%d7%95%d7%96%d7%9e%d7%a0%d7%99-%d7%94%d7%a9%d7%a0%d7%94/"></a>
+						</span>
+					</li>
+					
+			</ul><!-- .post-meta -->
+
+		</div><!-- .post-meta-wrapper -->
+
+		
+	</div><!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<p><span style="color: #000000;"><b><span style="text-decoration: underline;"><span style="color: #3377cc;"><span style="text-decoration: underline;">דיני אונן במועדי וזמני השנה</span></span><br>
+</span></b></span><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-נו"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">נו</span></b>&nbsp;</span><span style="color: #000000;">מי שמת לו מת ביום טוב, ישתדל מאד שלא לבוא לידי בכי משום שמחת יום טוב, אך אם דעתו לקוברו על ידי גוי, יש אומרים דמאחר וחלים עליו דיני אנינות, פטור ממצות שמחת יום טוב, ורשאי לבכות. ולדינא אין לסמוך על זה, ואין לבכות כלל ביום טוב.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדו' תשס"ד סי' ז' עמ' קעו, והסיום ע"פ המבואר בשו"ת יביע אומר לדחות דברי העמודי אור]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-נז"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">נז</span></b>&nbsp;</span><span style="color: #000000;">אונן ביום טוב,&nbsp;</span><small style="color: #000000;"><small>[באופן שהקבורה נעשית אחר יום טוב]</small></small><span style="color: #000000;">&nbsp;יש לו לישב ליד השלחן בעת שאוכל ושותה, ומותר בבשר וביין. וינהג כמו באבל בתוך שבעה ימי אבלות. ויכול לומר הקידוש בליל יום טוב, עם ברכת שהחיינו. ולשורר מעט משירי יום טוב. ואם היום טוב חל בשבת מותר שיאמר שלום עליכם ואשת חיל.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סי' ז' עמוד קעז]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-נח"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">נח</span></b>&nbsp;</span><span style="color: #000000;">אונן במוצאי יום טוב, אינו יכול להבדיל, ואם המת נקבר רק למחרת, יש אומרים דשוב אין לו תשלומין, ויאכל בלי הבדלה. ויש חולקים ואומרים שיש לו תשלומין כדין שבת. וכן עיקר.&nbsp;</span><small style="color: #000000;"><small>[הנה דעת רוב האחרונים שאין לו תשלומין. וכך כתבנו בילקו"י אבלות מהדורת תשס"ד סי' ז' סנ"ח. אולם בשו"ת יביע אומר ח"ז (או"ח סי' מז) הנזכר שם מבואר, שיש לו תשלומין, ולכן כן העיקר לדינא כמבואר ביביע אומר]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-נט"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">נט</span></b>&nbsp;</span><span style="color: #000000;">מי שמת לו מת בראש השנה, דינו כדין אונן ביום טוב, שאם רוצה לקוברו על ידי נכרים דינו כדין אונן לכל דבר. וכל שכן ביום טוב שני שהוא בעצמו יכול לקוברו, שחלים עליו כל דיני אנינות מליל יום טוב שני. אבל אם רוצה לדחות את הקבורה לאחר יום טוב, לא חלה עליו אנינות עד מוצאי הרגל, וכדין שבת. ואונן שתקע בשופר בראש השנה להוציא אחרים ידי חובתם&nbsp;</span><small style="color: #000000;"><small>[באופן שקובר את מתו ביום טוב כנז']</small></small><span style="color: #000000;">, יש אומרים שמוציא אחרים ידי חובתם דמחוייב בדבר קרינן ביה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף נט עמוד קעח]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-ס"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ס</span></b>&nbsp;</span><span style="color: #000000;">מת לו מת ביום הכפורים, אין לו דין של אונן, שמאחר ואינו יכול לקוברו בו ביום, לא חלים על הקרובים דיני אנינות. ולכן אם האונן משמש בקביעות כשליח צבור ביום הכפורים, רשאי להמשיך בתפלתו. ואמנם אם מחשיך על התחום ביום הכפורים כדי לקוברו בלילה, חלה עליו אנינות, ופטור ממצות עשה דאורייתא ודרבנן, אבל חייב בכל חמשה עינויים, אף שקשה לו לילך בלא נעילת הסנדל.</span><small style="color: #000000;"><small>[ילקו"י אבלות סי' ז עמו' קעט]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-סא"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">סא</span></b>&nbsp;</span><span style="color: #000000;">אונן ביום טוב ראשון של סוכות, אם רוצה לקוברו על ידי נכרים דינו כדין אונן לכל דבר, ופטור מכל המצוות&nbsp;</span><small style="color: #000000;"><small>[ראה להלן לענין סוכה]</small></small><span style="color: #000000;">. וכל שכן ביום טוב שני שהוא בעצמו יכול לקוברו, שחלים עליו כל דיני אנינות מליל יום טוב שני. אבל אם רוצה לדחות את הקבורה לאחר יום טוב, לא חלה עליו אנינות עד מוצאי הרגל, וכדין שבת, אלא אם כן צריך להחשיך על התחום להכין לו צרכי קבורה, שאז חל עליו דיני אנינות משעה שמחשיך.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף סא עמוד קעט]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-סב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">סב</span></b>&nbsp;</span><span style="color: #000000;">אף על פי שאין אבילות נוהגת במועד, אנינות נוהגת בו, שאם מת לו מת בחול המועד אסור בדברים שהאונן אסור בהם, ופטור ממצות ארבעת המינים, ואינו רשאי להחמיר על עצמו ולברך.&nbsp;</span><small style="color: #000000;"><small>[ואם מברך אין מוחין בידו]</small></small><span style="color: #000000;">.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות שם סימן ז' סעיף סב עמוד קפ]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-סג"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">סג</span></b>&nbsp;</span><span style="color: #000000;">האונן, פטור מן הסוכה ומכל המצוות האמורות בתורה.&nbsp;</span><small style="color: #000000;"><small>[חזון עובדיה על הלכות סוכה]</small></small><span style="color: #000000;">. ואמנם כיום המנהג בארץ ישראל שאין קוברים את המת ביום טוב סוכות&nbsp;</span><small style="color: #000000;"><small>[גם לא על ידי נכרים]</small></small><span style="color: #000000;">&nbsp;ולכן אסור לאונן לאכול מחוץ לסוכה. אלא אם כן יום טוב חל אחר שבת שאז קוברים על ידי גוי, ויש לו דיני אונן אף בלילה הראשון. ובחול המועד פטור מלישב בסוכה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות סי' ז' סעיף סג. חזו"ע סוכה דיני ישיבה בסוכה. וזה דלא כמ"ש בחיים וחסד [פנחסי] דאונן פטור מסוכה בליל יו"ט, ותימה שהוא עצמו כתב דבמסר לכתפים "חייב" להתפלל, ושם לא חשש לסב"ל, וכאן לא חשש לאיסור אכילה חוץ לסוכה, אחר שבזמנינו באר"י ע"פ רוב אין קוברים ביו"ט]</small></small><span style="color: #000000;">.</span><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-סד"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">סד</span></b>&nbsp;</span><span style="color: #000000;">אונן בערב חג הסוכות, אם אין לו מי שיעשה סוכה, מותר לו לעשות סוכה בעצמו, אך לא ידחה את קבורת המת בשביל זה.&nbsp;</span><small style="color: #000000;"><small>[ויכול לבנות הסוכה קודם הקבורה, אחר שמסר את מתו לחברא קדישא שיטפלו בקבורה]</small></small><span style="color: #000000;">. וכן אם אין לו מי שיקנה עבורו ד' מינים, יכול ללכת לקנות ד' מינים, בתנאי שלא ידחה את הקבורה בשל כך.</span><small style="color: #000000;"><small>[ילקו"י אבלות תשס"ד סי' ז' סעיף סד עמ' קפ]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-סה"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">סה</span></b>&nbsp;</span><span style="color: #000000;">מי שמת לו מת ביום שמחת תורה שחל בחול, ואין רוצים לקוברו בו ביום&nbsp;</span><small style="color: #000000;"><small>[על ידי נכרים]</small></small><span style="color: #000000;">&nbsp;אין לו דין אונן וחייב בכל המצוות כמו בשבת, ומותר בדברי תורה, ויכול לעלות לתורה כשאר הצבור, וכנהוג, שאם לא יעלה הוי כמראה אבילות בפרהסיא.&nbsp;</span><small style="color: #000000;"><small>[שם סי' ז סע' סה]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-סו"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">סו</span></b>&nbsp;</span><span style="color: #000000;">האונן בימי החנוכה, פטור מהדלקת נר חנוכה, אך אשתו או בני ביתו הגדולים מדליקין נר חנוכה בביתו, ויברכו על ההדלקה. ואם הוא מתגורר לבדו, ידליקו לו אחרים&nbsp;</span><small style="color: #000000;"><small>[או הוא עצמו]</small></small><span style="color: #000000;">&nbsp;נר חנוכה לפרסומי ניסא, אך לא יברכו.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמוד נז. ובמהדורת תשס"ד סי' ז' עמוד קפא. וכ"ה בחזו"ע על הלכות חנוכה, ודלא כמ"ש בזה בספר חיים וחסד [פנחסי] שימנה שליח וידליק ויברך. והרי השליח בא מכוחו והיאך יוכל לברך. וכ"כ בנתיבי עם סי' תרע שאם אין לו אשה גם השליח לא יברך, דלא עדיף מגברא ראתא מחמתיה, והוא לאו בר חיובא]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-סז"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">סז</span></b>&nbsp;</span><span style="color: #000000;">אונן בחנוכה השומע ברכות ההדלקה שמברכים בביתו&nbsp;</span><small style="color: #000000;"><small>[אשתו או בנו הגדול הסמוך על שולחנו]</small></small><span style="color: #000000;">, נחלקו הפוסקים אם עונה אמן או לא. ואם מסר את מתו לכתפים&nbsp;</span><small style="color: #000000;"><small>[לחברא קדישא]</small></small><span style="color: #000000;">&nbsp;רשאי לענות אמן אחר המברך.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף סז עמוד קפג]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-סח"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">סח</span></b>&nbsp;</span><span style="color: #000000;">מי שהיה אונן בליל ראשון של חנוכה, ולא הדליק נר חנוכה, כשידליק בליל שני נר חנוכה יברך שהחיינו.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י שם סי' ז' סעיף סח]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-סט"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">סט</span></b>&nbsp;</span><span style="color: #000000;">אף על פי שהאונן אסור באכילת בשר ובשתיית יין, מכל מקום בפורים האונן מותר באכילת בשר ושתיית יין, שאין עשה דאבילות של יחיד, דוחה עשה דרבים דאורייתא, שמצות שמחה בפורים מדברי קבלה היא, ודברי קבלה כדברי תורה. ויש אומרים דכל זה ביום, אבל בליל פורים אין לאונן לאכול בשר ולשתות יין, שאין מצות שמחה בפורים אלא ביום. ויש חולקים ומקילין בזה גם בליל פורים.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' עמו' קפד]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-ע"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ע</span></b>&nbsp;</span><span style="color: #000000;">אונן ששמע מקרא מגילה בזמן אנינותו, יש אומרים שאינו חייב לחזור ולשמוע מקרא מגילה אחר הקבורה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף ע עמוד קפה]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-עא"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">עא</span></b>&nbsp;</span><span style="color: #000000;">אונן בליל בדיקת חמץ, ימנה שליח שיבדוק את החמץ במקומו. ואם השליח דר באותה דירה יברך על הבדיקה שלו, ויכוין לפטור גם את הבדיקה שבודק בשביל האונן, אך אם אינו דר באותה דירה, יכוין השליח לצאת מברכת אחרים שבודקים לעצמם, ויבדוק לאונן בלי ברכה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סי' ז' סעיף עא עמוד קפה, ובס' חיים וחסד טעה בזה וכתב שהשליח יברך על הבדיקה. וזה אינו, דהברכה על הבדיקה מכח תקנה, והאונן פטור]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-עב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">עב</span></b>&nbsp;</span><span style="color: #000000;">האונן יבטל את החמץ בליל י"ד, על ידי שיאמר כל חמירא דאיכא ברשותי וכו'. וכן למחרת בערב פסח יבטל את החמץ בעצמו בזמן הביעור. וחייב למכור ולבער את החמץ, כדי שלא יעבור על איסור בל יראה ובל ימצא.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדו' תשס"ד סי' ז' עמ' קצג]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-עג"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">עג</span></b>&nbsp;</span><span style="color: #000000;">מי שקרובו נעשה אונן בערב פסח בבוקר,&nbsp;</span><small style="color: #000000;"><small>[שנפטר לו אחד משבעה קרובים ועדיין לא נקבר]</small></small><span style="color: #000000;">&nbsp;והאונן טרוד בקבורת המת, יש אומרים שרשאי חברו למכור את החמץ בעבורו אפילו בלי ידיעתו, דזכין לאדם שלא בפניו. ויש חולקים ואומרים שאינו רשאי למכור לו את החמץ בלי ידיעתו והסכמתו, דזכין לאדם שלא בפניו, אבל לא זכין מאדם שלא בפניו. ועל כל פנים אם עבר ומכר את החמץ בלי ידיעתו, אין החמץ נאסר כדין חמץ שעבר עליו הפסח.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף עג עמוד קצג]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-עד"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">עד</span></b>&nbsp;</span><span style="color: #000000;">מי שמת לו מת בליל פסח, אם דעתו לקוברו בלילה על ידי גויים, פטור מכל המצוות הנהוגות בליל פסח. אבל כשדעתו לקוברו למחר,&nbsp;</span><small style="color: #000000;"><small>[דהיינו ביום טוב במשך היום, על ידי גויים]</small></small><span style="color: #000000;">, דינו כדין שבת שאין אנינות חלה עליו, וחייב בכל המצוות הנהוגות בליל פסח, לרבות מצות ההלל וההיסבה. ומכל מקום לא יברך שום ברכה מהברכות בעצמו, אלא ישמע הברכות מאחרים, לרבות ברכת הקידוש ואכילת מצה ומרור. וכן ההגדה וההלל טוב ונכון שישמע מפי אחרים, ואם רצה לאמרם בעצמו, רשאי.&nbsp;</span><small style="color: #000000;"><small>[וכשאוכל כרפס צריך שיטול ידיו קודם האכילה, כדין נטילת ידים לדבר שטיבולו במשקה]</small></small><span style="color: #000000;">. ואם קוברו במוצאי יום טוב, לא חל עליו דיני אנינות כלל, וחייב בכל המצוות עם ברכה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדו' תשס"ד סי' ז' סע' עד, עמו' קצה]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-עה"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">עה</span></b>&nbsp;</span><span style="color: #000000;">אונן צריך להסב בליל פסח כרגיל, כשדעתו לקברו למחר על ידי גויים, או ביום טוב שני על ידי ישראל. כיון שכל דבר הצריך היסבה אם עשאו בלי היסבה לא יצא ידי חובתו.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן ז' סעיף עה עמוד קצו]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-עו"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">עו</span></b>&nbsp;</span><span style="color: #000000;">אונן שמתו מוטל לפניו, שפטור מכל המצוות שבתורה, ולא ספר ספירת העומר בלילה, יספור ביום בלי ברכה לאחר קבורת המת, ומכאן ולהבא יספור בברכה. ואם לא ספר גם ביום, יספור מכאן ולהבא בלי ברכה. ואם ספר בלילה בלי ברכה, או שרואה שישאר באנינותו לילה ויום, כגון שבית הקברות רחוק מן העיר, וכיוצא בזה, יספור ספירת העומר בלי ברכה בעודו אונן, לאחר שנמסר המת לחברא קדישא, ויועיל לו לספור בשאר הימים בברכה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשמ"ט עמוד נז, ובמהדורת תשס"ד סימן ז' סעיף עו עמוד קצו. וכן הוא בחזון עובדיה על הלכות יום טוב, דיני ספירת העומר. וזה דלא כמ"ש בזה בספר חיים וחסד, שאף אם ספר בלא ברכה, לא יספור בשאר הימים, וזה אינו דאיכא כמה ספיקות, ומהני ס"ס בספה"ע]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-עז"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">עז</span></b>&nbsp;</span><span style="color: #000000;">אונן ששמע ברכת ספירת העומר, והספירה, מפי השליח צבור, ונתכוין לצאת ידי חובה, וגם השליח צבור נתכוין להוציאו, יש אומרים דמאחר והאונן פטור מן המצוות לא שייך בו דין שומע כעונה, ויש חולקים. ולכן מכאן ולהבא יוכל לספור בברכה. אלא שאם נזכר אחר קבורה, אפילו ביום יספור בלי ברכה.&nbsp;</span><small style="color: #000000;"><small>[שם סי' ז עמ' ר'. ואם מהני שומע כעונה בספירת העומר]</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-עח"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">עח</span></b>&nbsp;</span><span style="color: #000000;">אונן חייב לצום בתעניות צבור כיון דהוי בשב ואל תעשה, ואפילו למי שפוטר האונן מנטילת ידים קודם אכילה, בתענית צבור חייב להתענות. אולם אם על ידי שיתענה ייחלש ולא יוכל לטפל בקבורת המת, פטור מלהתענות. וכיום שמוסרים את המת לטיפול החברא קדישא, בכל גוונא צריך להתענות.</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדו' תשמ"ט עמ' נג, ותשס"ד עמוד ר']</small></small><a style="color: #000000;" name="דיניBאונןBבמועדיBוזמניBהשנה-עט"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">עט</span></b>&nbsp;</span><span style="color: #000000;">אונן בתשעה באב בזמנינו שלובשים נעלי בד נוחות, אין לפוטרו מאיסור נעילת הסנדל&nbsp;</span><small style="color: #000000;"><small>[של עור]</small></small><span style="color: #000000;">&nbsp;כיון שיכול ללכת לטפל בקבורת המת גם בנעלי בד שבזמנינו.&nbsp;</span><small style="color: #000000;"><small>[שם עמו' רא]</small></small><span style="color: #000000;">&nbsp;</span><a style="color: #000000;" name="HtmpReportNum0926_L2"></a><a style="color: #000000;" name="סימןBחB-BאיסורBהלנתBהמת"></a><br style="color: #000000;"><br style="color: #000000;"></p>
+
+		</div><!-- .entry-content -->
+
+	</div><!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div><!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-2383 post type-post status-publish format-standard hentry category-7" id="post-2383">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">
+					קטגוריות				</span>
+				<div class="entry-categories-inner">
+					<a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%91%d7%9c%d7%95%d7%aa/" rel="category tag">הלכות אבלות דיני אבלות</a>				</div><!-- .entry-categories-inner -->
+			</div><!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%9b%d7%90-%d7%99%d7%a9%d7%99%d7%91%d7%aa-%d7%94%d7%90%d7%91%d7%9c-%d7%a2%d7%9c-%d7%92%d7%91%d7%99-%d7%a7%d7%a8%d7%a7%d7%a2-%d7%95%d7%93%d7%99%d7%9f-%d7%9b%d7%a4%d7%99/">סימן כא – ישיבת האבל על גבי קרקע ודין כפיית המטה</a></h2>
+		<div class="post-meta-wrapper post-meta-single post-meta-single-top">
+
+			<ul class="post-meta">
+
+									<li class="post-author meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								המחבר הפוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20"><path fill="" d="M18,19 C18,19.5522847 17.5522847,20 17,20 C16.4477153,20 16,19.5522847 16,19 L16,17 C16,15.3431458 14.6568542,14 13,14 L5,14 C3.34314575,14 2,15.3431458 2,17 L2,19 C2,19.5522847 1.55228475,20 1,20 C0.44771525,20 0,19.5522847 0,19 L0,17 C0,14.2385763 2.23857625,12 5,12 L13,12 C15.7614237,12 18,14.2385763 18,17 L18,19 Z M9,10 C6.23857625,10 4,7.76142375 4,5 C4,2.23857625 6.23857625,0 9,0 C11.7614237,0 14,2.23857625 14,5 C14,7.76142375 11.7614237,10 9,10 Z M9,8 C10.6568542,8 12,6.65685425 12,5 C12,3.34314575 10.6568542,2 9,2 C7.34314575,2 6,3.34314575 6,5 C6,6.65685425 7.34314575,8 9,8 Z"></path></svg>						</span>
+						<span class="meta-text">
+							מאת <a href="https://www.yalkut.info/author/admin/"></a>						</span>
+					</li>
+										<li class="post-date meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								תאריך פוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"><path fill="" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z"></path></svg>						</span>
+						<span class="meta-text">
+							<a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%9b%d7%90-%d7%99%d7%a9%d7%99%d7%91%d7%aa-%d7%94%d7%90%d7%91%d7%9c-%d7%a2%d7%9c-%d7%92%d7%91%d7%99-%d7%a7%d7%a8%d7%a7%d7%a2-%d7%95%d7%93%d7%99%d7%9f-%d7%9b%d7%a4%d7%99/"></a>
+						</span>
+					</li>
+					
+			</ul><!-- .post-meta -->
+
+		</div><!-- .post-meta-wrapper -->
+
+		
+	</div><!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<p><span style="color: #000000;"><b><span style="text-decoration: underline;"><span style="color: #3377cc;"><span style="text-decoration: underline;">סימן כא – ישיבת האבל על גבי קרקע ודין כפיית המטה</span></span><br>
+</span></b></span><a style="color: #000000;" name="סימןBכאB-BישיבתBהאבלBעלBגביBקרקעBודיןBכפייתBהמטה-א"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">א</span></b>&nbsp;</span><span style="color: #000000;">האבל כל שבעה אינו יושב אלא על גבי קרקע, ויש להקל לשבת על גבי קרקע מרוצפת, ואין בזה משום חששת המקובלים שלא לישב על גבי קרקע משום רוח רעה. ומכל מקום היכא דאפשר טוב להפסיק בבגד, או מצע נמוך. ומותר לישב על גבי כרים וכסתות, או ספסל נמוך, שאין גבוהים טפח. ואם הוא זקן ותשוש כח, אפשר להקל גם בספסל נמוך שאין בגבהו ג' טפחים. ונהגו שהמנחמים יושבים על כסא וספסל, שמסתמא מוחלים להם.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן כא סעיף א עמוד שעד]</small></small><a style="color: #000000;" name="סימןBכאB-BישיבתBהאבלBעלBגביBקרקעBודיןBכפייתBהמטה-ב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ב</span></b>&nbsp;</span><span style="color: #000000;">אשה מעוברת שהיא אבלה, מותר לה לשבת על כרים וכסתות עד לגובה שלשה טפחים.&nbsp;</span><small style="color: #000000;"><small>[ולא עד בכלל]</small></small><span style="color: #000000;">. ואין להחמיר עליה כלל.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן כא עמ' שעה]</small></small><a style="color: #000000;" name="סימןBכאB-BישיבתBהאבלBעלBגביBקרקעBודיןBכפייתBהמטה-ג"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ג</span></b>&nbsp;</span><span style="color: #000000;">המנהג פשוט שכאשר באים האבלים לבית הכנסת, בליל השבעה, לאזכרה של השבעה, יושבים בבית הכנסת על כסאות או ספסלים, ואינם יושבים בבית הכנסת על הארץ.&nbsp;</span><small style="color: #000000;"><small>[שם ס"ג]</small></small><a style="color: #000000;" name="סימןBכאB-BישיבתBהאבלBעלBגביBקרקעBודיןBכפייתBהמטה-ד"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ד</span></b>&nbsp;</span><span style="color: #000000;">תלמיד חכם שרבים צריכים לו, ומוסר שיעור הלכתי בתוך שבעה ימי האבילות, מותר לו לשבת על כסא גבוה כדי שיראוהו כל הקהל הבאים לשיעור, ובפרט שמשך זמן השיעור הוא כשעה וחצי, ואי אפשר לעמוד בכל הזמן הזה דשמעתתא בעיא צילותא לאסוקי שמעתתא אליבא דהלכתא.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן כא סעיף ד עמוד שעו]</small></small><a style="color: #000000;" name="סימןBכאB-BישיבתBהאבלBעלBגביBקרקעBודיןBכפייתBהמטה-ה"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ה</span></b>&nbsp;</span><span style="color: #000000;">נהגו להקל לישון על גבי מטה, ובפרט בדורות שלנו שירדה חולשה לעולם.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן כא סעיף ה עמוד שעו]</small></small><a style="color: #000000;" name="סימןBכאB-BישיבתBהאבלBעלBגביBקרקעBודיןBכפייתBהמטה-ו"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ו</span></b>&nbsp;</span><span style="color: #000000;">אבל בתוך שבעה שבאו לנחמו תלמיד חכם או זקן, מותר לו להחמיר על עצמו ולעמוד מפניהם, ואין בזה שום חשש, וגם אין בזה משום "כל הפטור מן הדבר ועושהו נקרא הדיוט", ותבא עליו ברכה. והוא הדין לחולה וזקן שפטורים לעמוד מפני זקן ותלמיד חכם, שאם רוצים להחמיר על עצמם בזה רשאים. ובתשעה באב שכולם יושבים על הארץ כאבלים, חייבים לקום מפני זקן ותלמיד חכם, כיון שהיא אבלות ישנה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י סי' כא עמ' שעז]</small></small><a style="color: #000000;" name="סימןBכאB-BישיבתBהאבלBעלBגביBקרקעBודיןBכפייתBהמטה-ז"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ז</span></b>&nbsp;</span><span style="color: #000000;">אבל חייב לעמוד מפני ספר תורה שעובר ממקום למקום, ולא שייך בזה מחילה.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן כא סעיף ז עמוד שפא]</small></small><a style="color: #000000;" name="סימןBכאB-BישיבתBהאבלBעלBגביBקרקעBודיןBכפייתBהמטה-ח"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ח</span></b>&nbsp;</span><span style="color: #000000;">בן היושב שבעה על אמו יחד עם אביו, ואביו נכנס לחדר, יש להסתפק אם הבן חייב לעמוד מפני אביו, אחר ששניהם יושבים באבלות, ולדינא אינו חייב לעמוד לכבוד אביו בימי השבעה, ואפילו הידור אינו חייב לעשות. ומכל מקום טוב שיעשה הידור. וכן אם יושב שבעה יחד עם אמו על אביו, או על אחיו ואחותו, ואמו נכנסת לחדר, ינהג כנז'.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן כא סעיף ח עמוד שפא]</small></small><a style="color: #000000;" name="סימןBכאB-BישיבתBהאבלBעלBגביBקרקעBודיןBכפייתBהמטה-ט"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ט</span></b>&nbsp;</span><span style="color: #000000;">בן היושב שבעה על אמו, אף שאינו חייב לעמוד מפני אביו שנכנס לחדר, מכל מקום כל דיני מורא שייכים גם באבל. ולכן לא ישב במקום המיוחד לאביו או לאמו, ולא יסתור דבריהם וכו'.&nbsp;</span><small style="color: #000000;"><small>[וראה בילקוט יוסף על הלכות כיבוד אב ואם באורך וברוחב פרטי דין מורא אב ואם]</small></small><span style="color: #000000;">.&nbsp;</span><small style="color: #000000;"><small>[ויש אומרים שעכשיו הבנים יושבים במקום אביהם בבית הכנסת, כשהאבא אינו נמצא שם, שמאחר וכך נהגו הדבר נחשב כאילו האב נתן לו רשות מפורשת לכך, ואין האב מקפיד על כך]</small></small><span style="color: #000000;">.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י שם עמוד שפא]</small></small><a style="color: #000000;" name="סימןBכאB-BישיבתBהאבלBעלBגביBקרקעBודיןBכפייתBהמטה-י"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">י</span></b>&nbsp;</span><span style="color: #000000;">ואמנם כל זה כשהבן יושב שבעה עם אביו על אחד מהקרובים, אבל אם הבן יושב שבעה על אביו שנפטר, אין את האיסור של ישיבה במקום המיוחד לאביו. ולכן מותר לבן לשבת במקום אביו לאחר פטירתו בביתו או בבית הכנסת. ויש אומרים שאם הרב המרביץ תורה נפטר, מכסים את מקומו בבגד בבית הכנסת שלו, ולא ישב שם איש זר&nbsp;</span><small style="color: #000000;"><small>[כל י"ב חודש]</small></small><span style="color: #000000;">, וכן אין זה דרך העולם שיהיה הבן יושב בבית הכנסת במקום אביו, ואפילו יהיה מותר מן הדין, מכל מקום נמנעים מלעשות כן מפני הרואים שאין להם הבחנה ויאמרו איך מלאו לבו של בנו לישב במקומו בישיבתו,&nbsp;</span><small style="color: #000000;"><small>[ועוד שנוהגים להדליק נר לעילוי נשמתו וכאילו הוא עומד עמנו היום כמו בחייו, כל י"ב חודש]</small></small><span style="color: #000000;">. ויש חולקים ומתירים לישב במקום אביו אחר פטירתו, שבודאי האב מוחל, ואדרבה זהו כבודו של האב שהבן יושב במקומו אחר פטירתו, שתחת אבותיך יהיו בניך. וכן עיקר.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות תשס"ד סי' כא ס"י עמוד שפב]</small></small><a style="color: #000000;" name="סימןBכאB-BישיבתBהאבלBעלBגביBקרקעBודיןBכפייתBהמטה-יא"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">יא</span></b>&nbsp;</span><span style="color: #000000;">מותר לבן ללבוש את בגדי אביו שנפטר, או לנעול את מנעליו, ואפילו בבגדי שבת. וכן מותר לבת ללבוש את בגדי אמה שנפטרה. אולם יש להחמיר בנעלים שהמת היה לבוש בשעת מותו, שלא ללובשם כלל. אבל במנעלים שלא היו על המת בשעת פטירתו, אין שום חשש. ואם בכל זאת לבו נוקפו וחושש מזה, יתן אותם לעניים ויודיעם על כך.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן כא סעיף יא עמוד שפה]</small></small><a style="color: #000000;" name="סימןBכאB-BישיבתBהאבלBעלBגביBקרקעBודיןBכפייתBהמטה-יב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">יב</span></b>&nbsp;</span><span style="color: #000000;">כיון שאין לבן לרחוץ עם אביו בבית מרחץ, וכן עם חמיו, יש אומרים דאפשר שאיסור זה נוהג גם לאחר מיתה, ולכן אין לבן לטהר את אביו או את חמיו לאחר פטירתם.</span><small style="color: #000000;"><small>[שם סי"ב]</small></small><span style="color: #000000;">.&nbsp;</span><a style="color: #000000;" name="HtmpReportNum0942_L2"></a><a style="color: #000000;" name="סימןBכבB-BהאבלBאסורBבתלמודBתורה"></a></p>
+
+		</div><!-- .entry-content -->
+
+	</div><!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div><!-- .section-inner -->
+
+	
+</article><!-- .post -->
+<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true">
+<article class="post-2415 post type-post status-publish format-standard hentry category-7" id="post-2415">
+
+	
+<header class="entry-header has-text-align-center">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">
+					קטגוריות				</span>
+				<div class="entry-categories-inner">
+					<a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%91%d7%9c%d7%95%d7%aa/" rel="category tag">הלכות אבלות דיני אבלות</a>				</div><!-- .entry-categories-inner -->
+			</div><!-- .entry-categories -->
+
+			<h2 class="entry-title heading-size-1"><a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%9c%d7%96-%d7%93%d7%99%d7%9f-%d7%92%d7%99%d7%9c%d7%95%d7%97-%d7%95%d7%a1%d7%a8%d7%99%d7%a7%d7%94-%d7%91%d7%90%d7%91%d7%9c/">סימן לז – דין גילוח וסריקה באבל</a></h2>
+		<div class="post-meta-wrapper post-meta-single post-meta-single-top">
+
+			<ul class="post-meta">
+
+									<li class="post-author meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								המחבר הפוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20"><path fill="" d="M18,19 C18,19.5522847 17.5522847,20 17,20 C16.4477153,20 16,19.5522847 16,19 L16,17 C16,15.3431458 14.6568542,14 13,14 L5,14 C3.34314575,14 2,15.3431458 2,17 L2,19 C2,19.5522847 1.55228475,20 1,20 C0.44771525,20 0,19.5522847 0,19 L0,17 C0,14.2385763 2.23857625,12 5,12 L13,12 C15.7614237,12 18,14.2385763 18,17 L18,19 Z M9,10 C6.23857625,10 4,7.76142375 4,5 C4,2.23857625 6.23857625,0 9,0 C11.7614237,0 14,2.23857625 14,5 C14,7.76142375 11.7614237,10 9,10 Z M9,8 C10.6568542,8 12,6.65685425 12,5 C12,3.34314575 10.6568542,2 9,2 C7.34314575,2 6,3.34314575 6,5 C6,6.65685425 7.34314575,8 9,8 Z"></path></svg>						</span>
+						<span class="meta-text">
+							מאת <a href="https://www.yalkut.info/author/admin/"></a>						</span>
+					</li>
+										<li class="post-date meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								תאריך פוסט							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"><path fill="" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z"></path></svg>						</span>
+						<span class="meta-text">
+							<a href="https://www.yalkut.info/2019/01/31/%d7%a1%d7%99%d7%9e%d7%9f-%d7%9c%d7%96-%d7%93%d7%99%d7%9f-%d7%92%d7%99%d7%9c%d7%95%d7%97-%d7%95%d7%a1%d7%a8%d7%99%d7%a7%d7%94-%d7%91%d7%90%d7%91%d7%9c/"></a>
+						</span>
+					</li>
+					
+			</ul><!-- .post-meta -->
+
+		</div><!-- .post-meta-wrapper -->
+
+		
+	</div><!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<p><span style="color: #000000;"><b><span style="text-decoration: underline;"><span style="color: #3377cc;"><span style="text-decoration: underline;">סימן לז – דין גילוח וסריקה באבל</span></span><br>
+</span></b></span><a style="color: #000000;" name="סימןBלזB-BדיןBגילוחBוסריקהBבאבל-א"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">א</span></b>&nbsp;</span><span style="color: #000000;">אסור לאבל להסתפר ולהתגלח, בין שער ראשו ובין שער זקנו, ואחד כל שער שבו ואפילו של בית הסתרים, כל שלשים יום, ואבל על אב ואם צריך שיגערו בו חבריו.&nbsp;</span><small style="color: #000000;"><small>[וגם אשתו יכולה לגעור בו לענין זה]</small></small><span style="color: #000000;">. ושער של השפם, ומהצדדים, כל שמעכב האכילה תוך שבעה אסור, אבל אחר השבעה מותר. ואשה מותרת לדידן בנטילת שער אחר שבעה. וכשמונים שלשים, מונים מיום הקבורה, אף אם יום הפטירה היה כמה ימים קודם לקבורה.&nbsp;</span><small style="color: #000000;"><small>[ילקוט יוסף על הלכות אבלות מהדורת תשס"ד עמו' תקנז]</small></small><span style="color: #000000;">.</span><a style="color: #000000;" name="סימןBלזB-BדיןBגילוחBוסריקהBבאבל-ב"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ב</span></b>&nbsp;</span><span style="color: #000000;">מותר לאבל להסתרק במסרק, בין שערות ראשו ובין שערות זקנו, הן בתוך השבעה, והן בתוך השלשים. ואין הבדל בזה בין איש לאשה, ואין להחמיר בזה, וכן פשט המנהג, וגם באופן שנושרים שערות ראשו על ידי התסרוקת, מותר.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד עמוד תקנז. יחוה דעת חלק ו' סימן לה עמוד קסט]</small></small><a style="color: #000000;" name="סימןBלזB-BדיןBגילוחBוסריקהBבאבל-ג"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ג</span></b>&nbsp;</span><span style="color: #000000;">במקומותינו שקבלנו הוראות מרן השלחן ערוך, יש להתיר להסתפר אפילו ביום שלשים לאבל על אביו או על אמו, אחר שגערו בו חבריו באותו יום, ובשאר קרובים אין צריך גערה, אלא יכולים להסתפר גם בלא גערה ביום השלשים, אבל אין להתיר להסתפר בליל השלשים. ויש מבני עדות אשכנז הנוהגים להסתפר ביום שלשים ואחד. ואף במקום מנהג שנהגו להחמיר עד יום שלשים ואחד, בערב יום טוב או בערב שבת שהוא יום שלשים, מותר להסתפר, אחר שיגערו בו.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סי' לז ס"ג עמוד תקנח]</small></small><a style="color: #000000;" name="סימןBלזB-BדיןBגילוחBוסריקהBבאבל-ד"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ד</span></b>&nbsp;</span><span style="color: #000000;">לדידן שקבלנו הוראות מרן השלחן ערוך, האבל על אביו או על אמו, ואין לו מי שיגעור בו, ושהה ימים רבים אחר שלושים, שרי להסתפר אפילו בלא גערה, ודי בהמתנה של שני חודשים בלבד, ויש ממתינים שנים עשר חודש.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדו' תשס"ד עמ' תקנט]</small></small><a style="color: #000000;" name="סימןBלזB-BדיןBגילוחBוסריקהBבאבל-ה"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ה</span></b>&nbsp;</span><span style="color: #000000;">כשחל יום כ"ט לאבילות על אביו ואמו, אחר הרגל בערב שבת, יש אומרים שמותר להסתפר אחר גערה מטעם ספק ספיקא, ויש חולקים. והמנהג בארץ ישראל להצריך ל' יום, והיינו דביום ל' מקצת היום ככולו.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן לז סעיף ה עמוד תקס]</small></small><a style="color: #000000;" name="סימןBלזB-BדיןBגילוחBוסריקהBבאבל-ו"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ו</span></b>&nbsp;</span><span style="color: #000000;">חתן שהוא בתוך שלשים יום לאבלו, שלא קיים פריה ורביה, שמותר לו להתחתן בתוך שלשים לאבלו, מותר לו להסתפר ולהתגלח ביום חופתו, וכן בשבעת ימי המשתה מותר לו להסתפר ולהתגלח, ואפילו הוא אבל על אביו או על אמו.</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדו' תשס"ד עמ' תקסא]</small></small><a style="color: #000000;" name="סימןBלזB-BדיןBגילוחBוסריקהBבאבל-ז"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ז</span></b>&nbsp;</span><span style="color: #000000;">אבל שנמצא בתוך שלשים יום לאבלו, על אביו ואמו ונולד לו בן, יש מתירים לו להסתפר ביום המילה, דיום טוב שלו הוא, וכן הדין באבל שכיבדו אותו לישב סנדק אצל נכדו וכדו', שמותר לו להסתפר לכבוד המילה.&nbsp;</span><small style="color: #000000;"><small>[חתם סופר. שבות יעקב]</small></small><span style="color: #000000;">. ורבים מחמירים בכל זה.&nbsp;</span><small style="color: #000000;"><small>[באר היטב. אליה רבה. בית דוד. בית יהודה. פרי מגדים. שערי רחמים. נודע ביהודה. אליה זוטא. וראה בילקו"י אבלות מהדורת תשס"ד סי' לז סעיף ז עמוד תקסא. וביחוה דעת ח"ו סי' לה עמוד קפב]</small></small><a style="color: #000000;" name="סימןBלזB-BדיןBגילוחBוסריקהBבאבל-ח"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ח</span></b>&nbsp;</span><span style="color: #000000;">כשם שאסור לגלח כל שלושים יום, כך אסור ליטול ציפורנים בכלי, בין של יד בין של רגל. אבל בידיו או בשיניו מותר, אפילו בתוך שבעת ימי אבילות. ומותר לעשות סדק קטן עם מספריים, כדי שאחר כך יוכל ליטול הצפרנים ביד, ואפילו בתוך שבעה.&nbsp;</span><small style="color: #000000;"><small>[שם עמ' תקסב]</small></small><a style="color: #000000;" name="סימןBלזB-BדיןBגילוחBוסריקהBבאבל-ט"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">ט</span></b>&nbsp;</span><span style="color: #000000;">אם חל יום שלשים ביום שבת, מותר ליטול את הצפרניים בערב שבת ביום העשרים ותשע לאבלות, אפילו באבלות של אב ואם.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סי' לז עמו' תקסג]</small></small><a style="color: #000000;" name="סימןBלזB-BדיןBגילוחBוסריקהBבאבל-י"></a></p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><b><span style="color: #3377cc;">י</span></b>&nbsp;</span><span style="color: #000000;">אשה שאירע טבילתה אחר שבעה, תוך שלושים יום, אם תטול ציפורניה בידיה או בשיניה אינה נוטלת יפה, תאמר לעובדת כוכבים ליטלם לה במספרים. ויש אומרים שאין היתר בזה אלא באמירה לגוי, אבל אסור על ידי ישראל, ויש מקילין אף על ידי חברתה ישראלית. ויש מקילין אף על ידי עצמה, כל שקשה לה ליטול צפרניה על ידי אשה אחרת.&nbsp;</span><small style="color: #000000;"><small>[ילקו"י אבלות מהדורת תשס"ד סימן לז סעיף י עמוד תקסד. חיים שאל ח"א סי' ב]</small></small><span style="color: #000000;">&nbsp;</span><a style="color: #000000;" name="HtmpReportNum0958_L2"></a><a style="color: #000000;" name="סימןBלחB-BהאבלBאסורBבשמחהBבשבעהBובי''בBחודש"></a></p>
+
+		</div><!-- .entry-content -->
+
+	</div><!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div><!-- .section-inner -->
+
+	
+</article><!-- .post -->
+
+	
+	<div class="pagination-wrapper section-inner">
+
+		<hr class="styled-separator pagination-separator is-style-wide" aria-hidden="true">
+
+		
+	<nav class="navigation pagination" aria-label="Posts pagination">
+		<h2 class="screen-reader-text">Posts pagination</h2>
+		<div class="nav-links"><span class="prev page-numbers placeholder" aria-hidden="true"><span aria-hidden="true">←</span> <span class="nav-prev-text"><span class="nav-short">לפוסט הבא</span></span></span><span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%91%d7%9c%d7%95%d7%aa/page/2/">2</a>
+<span class="page-numbers dots">…</span>
+<a class="page-numbers" href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%91%d7%9c%d7%95%d7%aa/page/6/">6</a>
+<a class="next page-numbers" href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%91%d7%9c%d7%95%d7%aa/page/2/"><span class="nav-next-text"><span class="nav-short">לפוסט הקודם</span></span> <span aria-hidden="true">→</span></a></div>
+	</nav>
+	</div><!-- .pagination-wrapper -->
+
+	
+</main><!-- #site-content -->
+
+
+	<div class="footer-nav-widgets-wrapper header-footer-group">
+
+		<div class="footer-inner section-inner">
+
+			
+			
+				<aside class="footer-widgets-outer-wrapper">
+
+					<div class="footer-widgets-wrapper">
+
+						
+							<div class="footer-widgets column-one grid-item">
+								<div class="widget widget_block widget_search"><div class="widget-content"><form role="search" method="get" action="https://www.yalkut.info/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search"><label class="wp-block-search__label" for="wp-block-search__input-2">חיפוש</label><div class="wp-block-search__inside-wrapper"><input class="wp-block-search__input" id="wp-block-search__input-2" placeholder="" value="" type="search" name="s" required=""><button aria-label="חיפוש" class="wp-block-search__button wp-element-button" type="submit">חיפוש</button></div></form></div></div><div class="widget widget_block"><div class="widget-content"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Recent Posts</h2><ul class="wp-block-latest-posts__list wp-block-latest-posts"><li><a class="wp-block-latest-posts__post-title" href="https://www.yalkut.info/2020/07/12/%d7%a1%d7%99%d7%9e%d7%9f-%d7%a8%d7%a1%d7%90-%d7%93%d7%99%d7%a0%d7%99-%d7%a1%d7%a4%d7%a7-%d7%97%d7%a9%d7%99%d7%9b%d7%94/">סימן רסא – דיני ספק חשיכה</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://www.yalkut.info/2020/07/12/%d7%a1%d7%99%d7%9e%d7%9f-%d7%a8%d7%a1-%d7%93%d7%99%d7%a0%d7%99-%d7%9b%d7%a0%d7%99%d7%a1%d7%aa-%d7%a9%d7%91%d7%aa/">סימן רס – דיני כניסת שבת</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://www.yalkut.info/2020/07/12/%d7%a1%d7%99%d7%9e%d7%9f-%d7%a8%d7%a0%d7%96-%d7%93%d7%99%d7%a0%d7%99-%d7%94%d7%98%d7%9e%d7%a0%d7%94/">סימן רנז – דיני הטמנה</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://www.yalkut.info/2020/07/12/%d7%a1%d7%99%d7%9e%d7%9f-%d7%a8%d7%a0%d7%92-%d7%a9%d7%94%d7%99%d7%99%d7%aa-%d7%aa%d7%91%d7%a9%d7%99%d7%9c-%d7%a2%d7%9c-%d7%9b%d7%99%d7%a8%d7%94-%d7%9e%d7%a2%d7%a8%d7%91-%d7%a9%d7%91%d7%aa/">סימן רנג – שהיית תבשיל על כירה מערב שבת</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://www.yalkut.info/2020/07/12/%d7%a1%d7%99%d7%9e%d7%9f-%d7%a8%d7%a0%d7%91-%d7%94%d7%aa%d7%97%d7%9c%d7%aa-%d7%9e%d7%9c%d7%90%d7%9b%d7%94-%d7%94%d7%9e%d7%a1%d7%aa%d7%99%d7%99%d7%9e%d7%aa-%d7%91%d7%a9%d7%91%d7%aa/">סימן רנב – התחלת מלאכה המסתיימת בשבת</a></li>
+</ul></div></div></div></div><div class="widget widget_block"><div class="widget-content"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Recent Comments</h2><div class="no-comments wp-block-latest-comments">אין תגובות להציג.</div></div></div></div></div>							</div>
+
+						
+						
+							<div class="footer-widgets column-two grid-item">
+								<div class="widget widget_block"><div class="widget-content"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Archives</h2><ul class="wp-block-archives-list wp-block-archives">	<li><a href="https://www.yalkut.info/2020/07/">יולי 2020</a></li>
+	<li><a href="https://www.yalkut.info/2019/01/">ינואר 2019</a></li>
+	<li><a href="https://www.yalkut.info/2014/04/">אפריל 2014</a></li>
+</ul></div></div></div></div><div class="widget widget_block"><div class="widget-content"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Categories</h2><ul class="wp-block-categories-list wp-block-categories-taxonomy-category wp-block-categories">	<li class="cat-item cat-item-2"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%aa%d7%a8%d7%95%d7%9e%d7%95%d7%aa-%d7%95%d7%a9%d7%9e%d7%99%d7%98%d7%94/">(הלכות תרומות (ושמיטה</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="https://www.yalkut.info/category/%d7%93%d7%99%d7%a0%d7%99-%d7%92%d7%95%d7%a8%d7%9c/">דיני גורל</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="https://www.yalkut.info/category/%d7%93%d7%99%d7%a0%d7%99-%d7%9b%d7%aa%d7%95%d7%91%d7%95%d7%aa/">דיני כתובות</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="https://www.yalkut.info/category/%d7%93%d7%99%d7%a0%d7%99-%d7%9e%d7%a7%d7%97-%d7%95%d7%9e%d7%9e%d7%9b%d7%a8/">דיני מקח וממכר</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%91%d7%99%d7%93%d7%94-%d7%95%d7%9e%d7%a6%d7%99%d7%90%d7%94/">הלכות אבידה ומציאה</a>
+</li>
+	<li class="cat-item cat-item-7 current-cat"><a aria-current="page" href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%91%d7%9c%d7%95%d7%aa/">הלכות אבלות דיני אבלות</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%95%d7%a0%d7%90%d7%94-%d7%a9%d7%90%d7%9c%d7%94-%d7%95%d7%a4%d7%a7%d7%93%d7%95%d7%9f/">הלכות אונאה שאלה ופקדון</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%90%d7%99%d7%a9%d7%95%d7%aa/">הלכות אישות</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%91%d7%99%d7%a7%d7%95%d7%a8-%d7%97%d7%95%d7%9c%d7%99%d7%9d/">הלכות ביקור חולים</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%91%d7%99%d7%aa-%d7%94%d7%9b%d7%a0%d7%a1%d7%aa/">הלכות בית הכנסת</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%91%d7%a6%d7%99%d7%a2%d7%aa-%d7%94%d7%a4%d7%aa/">הלכות בציעת הפת</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%91%d7%a8%d7%9b%d7%95%d7%aa/">הלכות ברכות</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%91%d7%a8%d7%9b%d7%95%d7%aa-%d7%94%d7%95%d7%93%d7%90%d7%95%d7%aa/">הלכות ברכות הודאות</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%91%d7%a8%d7%9b%d7%95%d7%aa-%d7%94%d7%a9%d7%97%d7%a8-%d7%95%d7%a9%d7%90%d7%a8-%d7%91%d7%a8%d7%9b%d7%95%d7%aa/">הלכות ברכות השחר ושאר ברכות</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%91%d7%a8%d7%9b%d7%aa-%d7%94%d7%91%d7%a9%d7%9e%d7%99%d7%9d/">הלכות ברכת הבשמים</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%91%d7%a8%d7%9b%d7%aa-%d7%94%d7%9e%d7%96%d7%95%d7%9f/">הלכות ברכת המזון</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%91%d7%a8%d7%9b%d7%aa-%d7%94%d7%a0%d7%99%d7%a1%d7%99%d7%9d/">הלכות ברכת הניסים</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%91%d7%a8%d7%9b%d7%aa-%d7%94%d7%a4%d7%a8%d7%95%d7%aa/">הלכות ברכת הפרות</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%91%d7%a9%d7%a8-%d7%91%d7%97%d7%9c%d7%91/">הלכות בשר בחלב</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%92%d7%99%d7%98%d7%99%d7%9f/">הלכות גיטין</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%92%d7%99%d7%9c%d7%95%d7%97/">הלכות גילוח</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%92%d7%a0%d7%99%d7%91%d7%94-%d7%95%d7%92%d7%96%d7%99%d7%9c%d7%94/">הלכות גניבה וגזילה</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%94%d7%a0%d7%95%d7%94%d7%92%d7%99%d7%9d-%d7%91%d7%a1%d7%a2%d7%95%d7%93%d7%94/">הלכות דברים הנוהגים בסעודה</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%93%d7%99%d7%99%d7%a0%d7%99%d7%9d/">הלכות דיינים</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%93%d7%9d/">הלכות דם</a>
+</li>
+	<li class="cat-item cat-item-27"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%94%d7%9b%d7%a9%d7%a8-%d7%9b%d7%9c%d7%99%d7%9d/">הלכות הכשר כלים</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%94%d7%9c%d7%95%d7%95%d7%90%d7%95%d7%aa/">הלכות הלוואות</a>
+</li>
+	<li class="cat-item cat-item-29"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%94%d7%a0%d7%94%d7%92%d7%aa-%d7%90%d7%93%d7%9d-%d7%91%d7%91%d7%95%d7%a7%d7%a8/">הלכות הנהגת אדם בבוקר</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%97%d7%95%d7%9c-%d7%94%d7%9e%d7%95%d7%a2%d7%93/">הלכות חול המועד</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%97%d7%95%d7%a7%d7%99-%d7%94%d7%a2%d7%95%d7%91%d7%93%d7%99-%d7%9b%d7%95%d7%9b%d7%91%d7%99%d7%9d/">הלכות חוקי העובדי כוכבים</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%97%d7%9c%d7%94/">הלכות חלה</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%97%d7%9c%d7%99%d7%a6%d7%94-%d7%95%d7%99%d7%91%d7%95%d7%9d/">הלכות חליצה ויבום</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%97%d7%a0%d7%95%d7%9b%d7%94/">הלכות חנוכה</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%98%d7%95-%d7%91%d7%a9%d7%91%d7%98/">הלכות ט''ו בשבט</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%98%d7%95%d7%a2%d7%9f-%d7%95%d7%a0%d7%98%d7%a2%d7%9f/">הלכות טוען ונטען</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%98%d7%a8%d7%99%d7%a4%d7%95%d7%aa/">הלכות טריפות</a>
+</li>
+	<li class="cat-item cat-item-38"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%99%d7%95%d7%9d-%d7%94%d7%9b%d7%99%d7%a4%d7%95%d7%a8%d7%99%d7%9d/">הלכות יום הכיפורים</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%99%d7%95%d7%9d-%d7%98%d7%95%d7%91/">הלכות יום טוב</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%99%d7%99%d7%9f-%d7%a0%d7%a1%d7%9a/">הלכות יין נסך</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%9b%d7%91%d7%95%d7%93-%d7%90%d7%91-%d7%95%d7%90%d7%9d/">הלכות כבוד אב ואם</a>
+</li>
+	<li class="cat-item cat-item-42"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%9b%d7%91%d7%95%d7%93-%d7%a8%d7%91%d7%95-%d7%95%d7%aa%d7%97/">הלכות כבוד רבו ות''ח</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%9b%d7%9c%d7%90%d7%99-%d7%91%d7%92%d7%93%d7%99%d7%9d/">הלכות כלאי בגדים</a>
+</li>
+	<li class="cat-item cat-item-44"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%9b%d7%9c%d7%90%d7%99%d7%9d/">הלכות כלאים</a>
+</li>
+	<li class="cat-item cat-item-45"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%9c%d7%90-%d7%99%d7%9c%d7%91%d7%a9-%d7%92%d7%91%d7%a8-%d7%a9%d7%9e%d7%9c%d7%aa-%d7%90%d7%a9%d7%94/">הלכות לא ילבש גבר שמלת אשה</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%9c%d7%95%d7%9c%d7%91/">הלכות לולב</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%9e%d7%90%d7%9b%d7%9c%d7%99-%d7%a2%d7%95%d7%91%d7%93%d7%99-%d7%9b%d7%95%d7%9b%d7%91%d7%99%d7%9d/">הלכות מאכלי עובדי כוכבים</a>
+</li>
+	<li class="cat-item cat-item-48"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%9e%d7%96%d7%95%d7%96%d7%94-%d7%95%d7%9e%d7%a2%d7%a7%d7%94/">הלכות מזוזה (ומעקה)</a>
+</li>
+	<li class="cat-item cat-item-49"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%9e%d7%99%d7%9c%d7%94/">הלכות מילה</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%9e%d7%99%d7%9d-%d7%90%d7%97%d7%a8%d7%95%d7%a0%d7%99%d7%9d/">הלכות מים אחרונים</a>
+</li>
+	<li class="cat-item cat-item-51"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%9e%d7%9c%d7%9e%d7%93%d7%99%d7%9d/">הלכות מלמדים</a>
+</li>
+	<li class="cat-item cat-item-52"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%9e%d7%a2%d7%95%d7%a0%d7%9f-%d7%95%d7%9e%d7%9b%d7%a9%d7%a3/">הלכות מעונן ומכשף</a>
+</li>
+	<li class="cat-item cat-item-53"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a0%d7%93%d7%a8%d7%99%d7%9d/">הלכות נדרים</a>
+</li>
+	<li class="cat-item cat-item-54"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a0%d7%97%d7%9c%d7%95%d7%aa-%d7%99%d7%a8%d7%95%d7%a9%d7%94/">הלכות נחלות – ירושה</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a0%d7%98%d7%99%d7%9c%d7%aa-%d7%99%d7%93%d7%99%d7%9d/">הלכות נטילת ידים</a>
+</li>
+	<li class="cat-item cat-item-56"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a0%d7%a9%d7%99%d7%90%d7%aa-%d7%9b%d7%a4%d7%99%d7%9d/">הלכות נשיאת כפים</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a1%d7%95%d7%9b%d7%94/">הלכות סוכה</a>
+</li>
+	<li class="cat-item cat-item-58"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a2%d7%91%d7%95%d7%93%d7%aa-%d7%9b%d7%95%d7%9b%d7%91%d7%99%d7%9d/">הלכות עבודת כוכבים</a>
+</li>
+	<li class="cat-item cat-item-59"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a2%d7%93%d7%95%d7%aa/">הלכות עדות</a>
+</li>
+	<li class="cat-item cat-item-60"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a2%d7%a8%d7%9c%d7%94/">הלכות ערלה</a>
+</li>
+	<li class="cat-item cat-item-61"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a4%d7%93%d7%99%d7%95%d7%9f-%d7%91%d7%9b%d7%95%d7%a8/">הלכות פדיון בכור</a>
+</li>
+	<li class="cat-item cat-item-62"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a4%d7%95%d7%a8%d7%99%d7%9d/">הלכות פורים</a>
+</li>
+	<li class="cat-item cat-item-63"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a4%d7%a1%d7%97/">הלכות פסח</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a4%d7%a8%d7%99%d7%a7%d7%94-%d7%95%d7%98%d7%a2%d7%99%d7%a0%d7%94/">הלכות פריקה וטעינה</a>
+</li>
+	<li class="cat-item cat-item-65"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a6%d7%93%d7%a7%d7%94/">הלכות צדקה</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a6%d7%99%d7%a6%d7%99%d7%aa/">הלכות ציצית</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a7%d7%99%d7%93%d7%95%d7%a9%d7%99%d7%9f/">הלכות קידושין</a>
+</li>
+	<li class="cat-item cat-item-68"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a7%d7%a8%d7%99%d7%90%d7%aa-%d7%a1%d7%a4%d7%a8-%d7%aa%d7%95%d7%a8%d7%94/">הלכות קריאת ספר תורה</a>
+</li>
+	<li class="cat-item cat-item-69"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a7%d7%a8%d7%99%d7%90%d7%aa-%d7%a9%d7%9e%d7%a2/">הלכות קריאת שמע</a>
+</li>
+	<li class="cat-item cat-item-70"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a7%d7%a8%d7%99%d7%90%d7%aa-%d7%a9%d7%9e%d7%a2-%d7%a9%d7%9c-%d7%a2%d7%a8%d7%91%d7%99%d7%aa/">הלכות קריאת שמע של ערבית</a>
+</li>
+	<li class="cat-item cat-item-71"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a8%d7%90%d7%a9-%d7%94%d7%a9%d7%a0%d7%94/">הלכות ראש השנה</a>
+</li>
+	<li class="cat-item cat-item-72"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a8%d7%90%d7%a9-%d7%97%d7%95%d7%93%d7%a9/">הלכות ראש חודש</a>
+</li>
+	<li class="cat-item cat-item-73"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a8%d7%91%d7%99%d7%aa/">הלכות רבית</a>
+</li>
+	<li class="cat-item cat-item-74"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a9%d7%91%d7%aa/">הלכות שבת</a>
+</li>
+	<li class="cat-item cat-item-75"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a9%d7%97%d7%99%d7%98%d7%94/">הלכות שחיטה</a>
+</li>
+	<li class="cat-item cat-item-76"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a9%d7%9c%d7%95%d7%97%d7%99%d7%9f/">הלכות שלוחין</a>
+</li>
+	<li class="cat-item cat-item-77"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%a9%d7%9e%d7%99%d7%a8%d7%aa-%d7%94%d7%a0%d7%a4%d7%a9/">הלכות שמירת הנפש</a>
+</li>
+	<li class="cat-item cat-item-78"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%aa%d7%a2%d7%a8%d7%95%d7%91%d7%95%d7%aa/">הלכות תערובות</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%aa%d7%a4%d7%99%d7%9c%d7%94/">הלכות תפילה</a>
+</li>
+	<li class="cat-item cat-item-80"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%aa%d7%a4%d7%99%d7%9c%d7%95%d7%aa-%d7%94%d7%9e%d7%a0%d7%97%d7%94/">הלכות תפילות המנחה</a>
+</li>
+	<li class="cat-item cat-item-81"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%aa%d7%a4%d7%99%d7%9c%d7%99%d7%9f/">הלכות תפילין</a>
+</li>
+	<li class="cat-item cat-item-82"><a href="https://www.yalkut.info/category/%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%aa%d7%a9%d7%a2%d7%94-%d7%91%d7%90%d7%91-%d7%95%d7%a9%d7%90%d7%a8-%d7%aa%d7%a2%d7%a0%d7%99%d7%95%d7%aa/">הלכות תשעה באב ושאר תעניות</a>
+</li>
+	<li class="cat-item cat-item-83"><a href="https://www.yalkut.info/category/%d7%9b%d7%9c%d7%9c%d7%99/">כללי</a>
+</li>
+	<li class="cat-item cat-item-84"><a href="https://www.yalkut.info/category/%d7%9e%d7%94%d7%9c%d7%9b%d7%95%d7%aa-%d7%9e%d7%aa%d7%a0%d7%94/">מהלכות מתנה</a>
+</li>
+	<li class="cat-item cat-item-85"><a href="https://www.yalkut.info/category/%d7%a0%d7%99%d7%a9%d7%95%d7%90%d7%99%d7%9f-%d7%95%d7%a9%d7%99%d7%93%d7%95%d7%9b%d7%99%d7%9d/">נישואין ושידוכים</a>
+</li>
+	<li class="cat-item cat-item-86"><a href="https://www.yalkut.info/category/%d7%a2%d7%95%d7%93-%d7%91%d7%a2%d7%a0%d7%99%d7%a0%d7%99-%d7%97%d7%95%d7%a9%d7%9f-%d7%9e%d7%a9%d7%a4%d7%98/">עוד בעניני חושן משפט</a>
+</li>
+</ul></div></div></div></div>							</div>
+
+						
+					</div><!-- .footer-widgets-wrapper -->
+
+				</aside><!-- .footer-widgets-outer-wrapper -->
+
+			
+		</div><!-- .footer-inner -->
+
+	</div><!-- .footer-nav-widgets-wrapper -->
+
+	
+			<footer id="site-footer" class="header-footer-group">
+
+				<div class="section-inner">
+
+					<div class="footer-credits">
+
+						<p class="footer-copyright">©
+							2026							<a href="https://www.yalkut.info/">ילקוט יוסף חינם האתר להפצת יהדות הלכה</a>
+						</p><!-- .footer-copyright -->
+
+						<p class="privacy-policy"><a class="privacy-policy-link" href="https://www.yalkut.info/privacy-policy/" rel="privacy-policy">פרטיות</a></p>
+						<p class="powered-by-wordpress">
+							<a href="https://he.wordpress.org/">
+								מופעל באמצעות וורדפרס							</a>
+						</p><!-- .powered-by-wordpress -->
+
+					</div><!-- .footer-credits -->
+
+					<a class="to-the-top" href="#site-header">
+						<span class="to-the-top-long">
+							למעלה <span class="arrow" aria-hidden="true">↑</span>						</span><!-- .to-the-top-long -->
+						<span class="to-the-top-short">
+							למעלה <span class="arrow" aria-hidden="true">↑</span>						</span><!-- .to-the-top-short -->
+					</a><!-- .to-the-top -->
+
+				</div><!-- .section-inner -->
+
+			</footer><!-- #site-footer -->
+
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/twentytwenty/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.yalkut.info/wp-includes/js/wp-emoji-release.min.js?ver=7.0.4"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://www.yalkut.info/wp-includes/js/wp-emoji-loader.min.js
+</script>
+
+	
+
+
+
+</body>

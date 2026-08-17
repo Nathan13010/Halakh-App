@@ -179,3 +179,13 @@ npm run preview
 - **Les scripts de génération** sont dans le dossier `scripts/` et sont des fichiers `.cjs` (CommonJS) exécutables avec `node`
 - **Le thème par défaut** est le mode sombre (dark)
 - **L'application est entièrement statique** (pas de backend) — les données sont servies depuis `public/data/`
+
+---
+
+## 🚦 Télémétrie et Quotas Google (Smart Scheduler)
+
+L'application utilise un **Smart Scheduler** avec rotation de multiples clés API (ex: 4 clés) pour traiter massivement les paragraphes.
+
+- **Comportement des limites (Erreur 429 / 503)** : Si l'API renvoie "Quota dépassé" ou indique une pause de `59s`, **ce comportement est normal et attendu**. Le script va se mettre en veille tout seul et boucler indéfiniment jusqu'à ce que les crédits soient réinitialisés par Google. Il ne faut **surtout pas** arrêter le script manuellemment. Il reprendra son travail de manière 100% autonome.
+- **Télémétrie (Dashboard)** : Le script sauvegarde un log des Seifim générés avec succès dans `logs/generation_history.jsonl`.
+- **Voir les statistiques (Rythme de génération)** : Exécutez `npm run stats` dans le terminal pour afficher un tableau de bord (nombre de seifim générés par jour, et estimation du rythme).

@@ -1,0 +1,20 @@
+{
+  "siman": 234,
+  "categorie": "הלכות תפילות המנחה",
+  "total_seifim": 1,
+  "sous_chapitres": [
+    {
+      "ordre": 1,
+      "id_unique_source": 260,
+      "titre_article": "סימן רלד – לא התפלל מנחה",
+      "url_source": "https://www.yalkut.info/2020/07/12/%d7%a1%d7%99%d7%9e%d7%9f-%d7%a8%d7%9c%d7%93-%d7%9c%d7%90-%d7%94%d7%aa%d7%a4%d7%9c%d7%9c-%d7%9e%d7%a0%d7%97%d7%94/",
+      "seifim": [
+        {
+          "seif_local": 1,
+          "seif_global": 1,
+          "hebreu_brut": "א אם שכח ולא התפלל מנחה, מתפלל ערבית שתים, ואומר אשרי קודם תפלה שהיא תשלומין לתפלת המנחה. וראה לעיל בהלכות תשלומין סימן קח. [שלחן ערוך סימן רלד]."
+        }
+      ]
+    }
+  ]
+}

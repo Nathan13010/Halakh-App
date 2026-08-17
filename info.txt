@@ -66,3 +66,25 @@ npm run autofix:all              # Corriger automatiquement tout
 
 
 node scraper_complet.cjs
+
+node export_titres.cjs
+
+///
+
+# Voir l'état du pipeline
+npm run pipeline:status
+
+# Traiter un siman spécifique
+node pipeline/queue.js --siman 66
+
+# Traiter une plage
+node pipeline/queue.js --from 10 --to 50
+
+# Lancer sur TOUT (laisse tourner la nuit)
+node pipeline/queue.js --from 1 --to 694
+
+
+Pour verifier un siman : 
+npm run verify -- "public\data\הלכות ציצית\siman_9.json"
+
+npm run critic -- --file "public\data\הלכות ציצית\siman_9.json"

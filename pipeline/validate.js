@@ -384,17 +384,38 @@ function validateSiman(filePath) {
   const validHalakhot = halakhot.filter(h => !h._error);
   const errorHalakhot = halakhot.filter(h => h._error);
 
-  const results = validHalakhot.map(h => validateSeif(h, simanNum));
+  const results = halakhot.map(halakha => {
+    const issues = [];
+    
+    // Vérification de crash API
+    if (halakha._error) {
+      issues.push({ type: 'GENERATION_ERROR', severity: 'error', detail: 'Le script de génération a planté sur ce seif.' });
+    }
 
-  // Ajouter les seifim en erreur comme FAIL
-  errorHalakhot.forEach(h => {
-    results.push({
-      seif: parseInt(h.seif, 10) || 0,
-      status: 'FAIL',
-      score: 0,
-      checks: {},
-      issues: [{ type: 'GENERATION_ERROR', severity: 'error', detail: h._error }]
-    });
+    // Vérification du texte français
+    if (!halakha.texte_integral?.francais?.trim()) {
+      issues.push({ type: 'EMPTY_FRENCH', severity: 'error', detail: 'La traduction française est manquante ou vide.' });
+    }
+
+    // Vérification du tableau mots_alignes
+    const mots = halakha.mots_alignes;
+    if (!Array.isArray(mots)) {
+      issues.push({ type: 'INVALID_TYPE', severity: 'error', detail: 'mots_alignes n\'est pas un tableau' });
+    } else if (mots.length === 0) {
+      issues.push({ type: 'EMPTY_ARRAY', severity: 'error', detail: 'Le tableau mots_alignes est vide.' });
+    }
+
+    if (issues.length > 0) {
+      return {
+        seif: parseInt(halakha.seif, 10) || 0,
+        status: 'FAIL',
+        score: 0,
+        checks: {},
+        issues: issues
+      };
+    }
+    
+    return validateSeif(halakha, simanNum);
   });
 
   // Trier par numéro de seif
@@ -520,12 +541,13 @@ function printGlobalSummary(reports) {
 function parseArgs() {
   const args = process.argv.slice(2);
   let simanNum = null;
+  let specificFile = null;
   let all = false;
   let verbose = false;
   let fix = false;
 
   for (let i = 0; i < args.length; i++) {
-    if (args[i] === '--siman' && args[i + 1]) {
+    if (args[i] === '--file' && args[i + 1]) { specificFile = args[++i]; } else if (args[i] === '--siman' && args[i + 1]) {
       simanNum = parseInt(args[++i], 10);
     } else if (args[i] === '--all') {
       all = true;
@@ -536,16 +558,16 @@ function parseArgs() {
     }
   }
 
-  return { simanNum, all, verbose, fix };
+  return { simanNum, all, verbose, fix, specificFile };
 }
 
 async function main() {
-  const { simanNum, all, verbose, fix } = parseArgs();
+  const { simanNum, all, verbose, fix, specificFile } = parseArgs();
 
   // Créer le dossier reports
   fs.mkdirSync(REPORTS_DIR, { recursive: true });
 
-  if (!all && simanNum === null) {
+  if (!all && simanNum === null && specificFile === null) {
     console.log('💡 Usage :');
     console.log('  node pipeline/validate.js --siman 1       # Valide le siman 1');
     console.log('  node pipeline/validate.js --all            # Valide tous les simanim');
@@ -556,15 +578,24 @@ async function main() {
 
   // Trouver les fichiers à valider
   let files = [];
-  if (all) {
-    files = fs.readdirSync(DATA_DIR)
-      .filter(f => /^siman_\d+\.json$/.test(f))
-      .map(f => path.join(DATA_DIR, f))
-      .sort((a, b) => {
-        const numA = parseInt(a.match(/siman_(\d+)/)?.[1] || '0', 10);
-        const numB = parseInt(b.match(/siman_(\d+)/)?.[1] || '0', 10);
-        return numA - numB;
-      });
+  if (specificFile) {
+    if (!fs.existsSync(specificFile)) {
+      console.error(`❌ Fichier introuvable : ${specificFile}`);
+      process.exit(1);
+    }
+    files = [specificFile];
+  } else if (all) {
+    const rootItems = fs.readdirSync(DATA_DIR);
+    for (const item of rootItems) {
+      const fullPath = path.join(DATA_DIR, item);
+      if (fs.statSync(fullPath).isDirectory()) {
+        const catFiles = fs.readdirSync(fullPath).filter(f => /^siman_\d+\.json$/.test(f));
+        files.push(...catFiles.map(f => path.join(fullPath, f)));
+      } else if (/^siman_\d+\.json$/.test(item)) {
+        files.push(fullPath);
+      }
+    }
+    files.sort();
   } else {
     const filePath = path.join(DATA_DIR, `siman_${simanNum}.json`);
     if (!fs.existsSync(filePath)) {
@@ -606,8 +637,13 @@ async function main() {
       printReport(report, verbose);
     }
 
-    // Sauvegarder le rapport JSON
-    const reportPath = path.join(REPORTS_DIR, `siman_${report.siman}_report.json`);
+    // Extraire la catégorie du chemin (le dossier parent)
+    const parentDir = path.basename(path.dirname(filePath));
+    const categorie = parentDir === 'data' ? '' : parentDir;
+    const uniqueKey = categorie ? `${report.siman}::${categorie}` : String(report.siman);
+    const safeKey = uniqueKey.replace(/[^Ѐ-ӿ\w]/g, '_');
+    
+    const reportPath = path.join(REPORTS_DIR, `${safeKey}_report.json`);
     fs.writeFileSync(reportPath, JSON.stringify(report, null, 2), 'utf8');
   }
 

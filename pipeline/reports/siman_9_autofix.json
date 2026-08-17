@@ -1,0 +1,60 @@
+{
+  "siman": 9,
+  "timestamp": "2026-08-17T10:50:07.579Z",
+  "dryRun": false,
+  "totalFixes": 9,
+  "seifimFixed": 7,
+  "details": [
+    {
+      "seif": "3",
+      "fixes": 1,
+      "details": [
+        "Ktiv Male mot[6]: \"מְיֻשָּׁב\" → \"מְיוּשָּׁב\""
+      ]
+    },
+    {
+      "seif": "4",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[8]: \"שֻׁלְחָן.\" → \"שׁוּלְחָן.\"",
+        "Ktiv Male mot[13]: \"מֻתָּר\" → \"מוּתָּר\""
+      ]
+    },
+    {
+      "seif": "12",
+      "fixes": 1,
+      "details": [
+        "Ktiv Male mot[45]: \"מְחֻיָּב\" → \"מְחוּיָּב\""
+      ]
+    },
+    {
+      "seif": "15",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[16]: \"מֻבְהָק,\" → \"מוּבְהָק,\"",
+        "Ktiv Male mot[27]: \"מֻבְהָק\" → \"מוּבְהָק\""
+      ]
+    },
+    {
+      "seif": "19",
+      "fixes": 1,
+      "details": [
+        "Ktiv Male mot[20]: \"לֻבְּשׁוּ\" → \"לוּבְּשׁוּ\""
+      ]
+    },
+    {
+      "seif": "20",
+      "fixes": 1,
+      "details": [
+        "Ktiv Male mot[45]: \"הַמְּנֻגָּד\" → \"הַמְּנוּגָּד\""
+      ]
+    },
+    {
+      "seif": "25",
+      "fixes": 1,
+      "details": [
+        "Ktiv Male mot[106]: \"הֻתְּרָה\" → \"הוּתְּרָה\""
+      ]
+    }
+  ]
+}
