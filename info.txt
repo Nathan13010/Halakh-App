@@ -83,8 +83,16 @@ node pipeline/queue.js --from 10 --to 50
 # Lancer sur TOUT (laisse tourner la nuit)
 node pipeline/queue.js --from 1 --to 694
 
+# Pour traiter tout un dossier
+node pipeline/queue.js --categorie "הלכות ציצית"
+
+///
 
 Pour verifier un siman : 
 npm run verify -- "public\data\הלכות ציצית\siman_9.json"
 
 npm run critic -- --file "public\data\הלכות ציצית\siman_9.json"
+
+/// CREDENTIALS OAUTH (Google Auth) ///
+# Configuré dans Google Cloud Console / Variables d'environnement locales
+

@@ -120,23 +120,6 @@ function App() {
       }
     }
 
-    const storedBookmark = localStorage.getItem("mishne_mikra_bookmark");
-    if (storedBookmark) {
-      try {
-        const { bookId, paragraphIndex } = JSON.parse(storedBookmark);
-        const savedBook = BOOKS.find(b => b.id === bookId);
-        if (savedBook && savedBook.isUnlocked) {
-          handleLoadBook(savedBook, paragraphIndex, true);
-        } else if (BOOKS[0] && BOOKS[0].isUnlocked) {
-          handleLoadBook(BOOKS[0], 0, true);
-        }
-      } catch (e) {
-        console.error(e);
-        if (BOOKS[0] && BOOKS[0].isUnlocked) handleLoadBook(BOOKS[0], 0, true);
-      }
-    } else if (BOOKS[0] && BOOKS[0].isUnlocked) {
-      handleLoadBook(BOOKS[0], 0, true);
-    }
     // Load gamification data
     const storedStreak = localStorage.getItem("mishne_mikra_streak");
     if (storedStreak) setStreak(parseInt(storedStreak, 10));
@@ -449,6 +432,8 @@ function App() {
     triggerToast(`+${amount} XP gagnés ! 🏆`);
   };
 
+  const totalSeifim = new Set(paragraphs.map(p => p.seif).filter(Boolean)).size;
+
   return (
     <div
       className="min-h-screen bg-[#E3E7EC] dark:bg-[#25282D] text-zinc-900 dark:text-[#E4E4E7] font-sans pb-20 md:pb-0 overflow-x-hidden w-full max-w-full"
@@ -474,7 +459,7 @@ function App() {
                 {activeBook.title}
               </span>
               <span className="text-[10px] text-amber-600 dark:text-amber-400 font-mono">
-                {activeBook.chapters?.[0]?.title || "Siman 318"}
+                {activeBook.chapters?.[0]?.title || "Siman 318"}{totalSeifim > 0 ? ` • ${totalSeifim} Seïf${totalSeifim > 1 ? 's' : ''}` : ''}
               </span>
             </div>
           </div>
@@ -485,14 +470,8 @@ function App() {
           </div>
         )}
 
-        {/* Right side: Streak + Aa button (visible only when reading) */}
+        {/* Right side: Aa button (visible only when reading) */}
         <div className="flex items-center gap-3">
-          {/* Global Streak Counter */}
-          <div className="flex items-center gap-1.5 bg-amber-500/10 px-3 py-1.5 rounded-full border border-amber-500/20">
-            <span className="text-amber-500 text-sm">🔥</span>
-            <span className="text-amber-500 font-bold text-xs">{streak}</span>
-          </div>
-
           {/* Sefaria-style Quick Settings Button (Aa) - Visible ONLY when reading a book */}
           {activeTab === 'library' && currentScreen === 'reader' && (
             <div className="relative">
@@ -505,7 +484,7 @@ function App() {
                 }`}
                 title="Options d'affichage (Langue, Thème, Taille)"
               >
-                <span className="font-serif font-bold text-sm">Aa</span>
+                <span className="font-serif font-bold text-sm">A/א</span>
               </button>
             </div>
           )}

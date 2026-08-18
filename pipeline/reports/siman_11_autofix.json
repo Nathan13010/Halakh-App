@@ -1,0 +1,47 @@
+{
+  "siman": 11,
+  "timestamp": "2026-08-18T11:07:36.808Z",
+  "dryRun": false,
+  "totalFixes": 14,
+  "seifimFixed": 4,
+  "details": [
+    {
+      "seif": "17",
+      "fixes": 1,
+      "details": [
+        "Ktiv Male mot[98]: \"מֻטֶּלֶת\" → \"מוּטֶּלֶת\""
+      ]
+    },
+    {
+      "seif": "26",
+      "fixes": 10,
+      "details": [
+        "Ktiv Male mot[3]: \"הַמְּקֻבָּלִים\" → \"הַמְּקוּבָּלִים\"",
+        "Ktiv Male mot[27]: \"חֻלְיוֹת,\" → \"חוּלְיוֹת,\"",
+        "Ktiv Male mot[34]: \"חֻלְיוֹת,\" → \"חוּלְיוֹת,\"",
+        "Ktiv Male mot[42]: \"חֻלְיוֹת,\" → \"חוּלְיוֹת,\"",
+        "Ktiv Male mot[50]: \"חֻלְיוֹת,\" → \"חוּלְיוֹת,\"",
+        "Ktiv Male mot[62]: \"חֻלְיוֹת\" → \"חוּלְיוֹת\"",
+        "Ktiv Male mot[73]: \"הַחֻלְיוֹת\" → \"הַחוּלְיוֹת\"",
+        "Ktiv Male mot[89]: \"הַחֻלְיוֹת\" → \"הַחוּלְיוֹת\"",
+        "Ktiv Male mot[105]: \"הַחֻלְיוֹת\" → \"הַחוּלְיוֹת\"",
+        "Ktiv Male mot[110]: \"חֻלְיוֹת,\" → \"חוּלְיוֹת,\""
+      ]
+    },
+    {
+      "seif": "27",
+      "fixes": 2,
+      "details": [
+        "Ktiv Male mot[44]: \"אֲרֻכִּים\" → \"אֲרוּכִּים\"",
+        "Ktiv Male mot[50]: \"הַחֻלְיוֹת,\" → \"הַחוּלְיוֹת,\""
+      ]
+    },
+    {
+      "seif": "31",
+      "fixes": 1,
+      "details": [
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    }
+  ]
+}

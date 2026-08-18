@@ -96,6 +96,43 @@ function validateSeif(halakha, simanNum) {
     }
   }
 
+  // ─── 2b. Exactitude de l'alignement (mismatch voyelles vs brut) ──────
+  {
+    const mismatches = [];
+    const stripVavYod = text => text.replace(/[וי]/g, '');
+    
+    mots.forEach((m, idx) => {
+      if (idx === 0) return; // Skip badge
+      const brut = cleanForComparison(m.hebreu_brut);
+      const voy = cleanForComparison(m.hebreu_voyelles);
+      
+      const bCore = stripVavYod(brut);
+      const vCore = stripVavYod(voy);
+      
+      if (bCore !== vCore) {
+        // Tolerant if one includes the other (e.g. missing prefix 'ה', 'ב', etc.)
+        if (!bCore.includes(vCore) && !vCore.includes(bCore)) {
+          mismatches.push({
+            id: m.id ?? idx,
+            hebreu_brut: m.hebreu_brut,
+            hebreu_voyelles: m.hebreu_voyelles
+          });
+        }
+      }
+    });
+
+    checks.alignment_accuracy = mismatches.length === 0;
+
+    if (!checks.alignment_accuracy) {
+      issues.push({
+        type: 'ALIGNMENT_MISMATCH_WORD',
+        severity: 'error',
+        detail: `${mismatches.length} mot(s) ont un décalage majeur entre brut et voyelles`,
+        words: mismatches.slice(0, 10)
+      });
+    }
+  }
+
   // ─── 3. Pas de "Terme" ou placeholder ─────────────────────────────────
   {
     const termeWords = [];
@@ -209,46 +246,12 @@ function validateSeif(halakha, simanNum) {
     const hasSujetFr = (halakha.sujet_fr || '').trim().length > 0;
 
     checks.sujet_present = hasSujet && hasSujetFr;
-
-    if (!checks.sujet_present) {
-      const missing = [];
-      if (!hasSujet) missing.push('sujet/sujet_he');
-      if (!hasSujetFr) missing.push('sujet_fr');
-      issues.push({
-        type: 'SUJET_MISSING',
-        severity: 'warning',
-        detail: `Champ(s) manquant(s): ${missing.join(', ')}`
-      });
-    }
+    
+    // Désactivé à la demande de l'utilisateur : on ne le remonte plus comme problème
   }
 
-  // ─── 9. Ktiv Male (Koubouts vs Shourouk) ──────────────────────────────
-  {
-    const ktivIssues = [];
-    mots.forEach((m, idx) => {
-      if (idx === 0) return; // Skip badge
-      const result = checkKtivMale(m.hebreu_brut, m.hebreu_voyelles);
-      if (!result.ok) {
-        ktivIssues.push({
-          word_id: m.id ?? idx,
-          hebreu_brut: m.hebreu_brut,
-          hebreu_voyelles: m.hebreu_voyelles,
-          detail: result.detail
-        });
-      }
-    });
-
-    checks.ktiv_male = ktivIssues.length === 0;
-
-    if (!checks.ktiv_male) {
-      issues.push({
-        type: 'KTIV_MALE_ERROR',
-        severity: 'warning',
-        detail: `${ktivIssues.length} mot(s) avec Ktiv Male incorrect`,
-        words: ktivIssues.slice(0, 10)
-      });
-    }
-  }
+  // ─── 9. Ktiv Male (Désactivé) ──────────────────────────────────────────
+  checks.ktiv_male = true; // Toujours valide, on utilise Dicta sans modifier
 
   // ─── 10. Pas de ponctuation isolée comme mot ──────────────────────────
   {
@@ -463,11 +466,11 @@ function printReport(report, verbose = false) {
   console.log(`║  📈 Score moyen : ${String(summary.avg_score + '%').padEnd(39)}║`);
   console.log('╚══════════════════════════════════════════════════════════╝');
 
-  // Afficher les problèmes
-  const problemSeifim = seifim.filter(s => s.status !== 'PASS');
+  // Afficher les problèmes et avertissements
+  const problemSeifim = seifim.filter(s => s.score < 100);
   if (problemSeifim.length > 0) {
     console.log('');
-    console.log('  Problèmes détectés :');
+    console.log('  Détail des avertissements et problèmes :');
     console.log('  ─────────────────────────────────────────────────────');
 
     for (const s of problemSeifim) {
@@ -477,8 +480,8 @@ function printReport(report, verbose = false) {
         const sevIcon = issue.severity === 'error' ? '🔴' : '🟡';
         console.log(`     ${sevIcon} ${issue.type}: ${issue.detail}`);
 
-        // Montrer les mots problématiques en mode verbose
-        if (verbose && issue.words) {
+        // Montrer les mots problématiques en détail
+        if (issue.words) {
           for (const w of issue.words.slice(0, 5)) {
             const wordInfo = w.hebreu_brut
               ? `   mot[${w.word_id ?? w.id}] "${w.hebreu_brut}" → "${w.francais_mot || w.francais || w.hebreu_voyelles || ''}"`
@@ -493,7 +496,7 @@ function printReport(report, verbose = false) {
     }
   } else {
     console.log('');
-    console.log('  ✨ Tous les Seifim sont validés ! Aucun problème détecté.');
+    console.log('  ✨ Perfection ! Tous les Seifim ont un score de 100% !');
   }
   console.log('');
 }

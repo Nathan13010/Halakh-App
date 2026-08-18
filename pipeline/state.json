@@ -64,13 +64,9 @@
       "completed": "2026-08-16T18:19:48.439Z"
     },
     "8": {
-      "status": "complete",
-      "score": 78,
-      "total_seifim": 54,
-      "seifim_pass": 42,
-      "seifim_warn": 0,
-      "seifim_fail": 12,
-      "completed": "2026-08-16T18:19:48.439Z"
+      "status": "in_progress",
+      "started": "2026-08-18T12:01:29.003Z",
+      "total_seifim": 54
     },
     "9": {
       "status": "complete",
@@ -83,8 +79,36 @@
     },
     "10": {
       "status": "in_progress",
-      "started": "2026-08-17T13:26:51.099Z",
-      "total_seifim": 37
+      "started": "2026-08-18T11:57:27.125Z",
+      "total_seifim": 17
+    },
+    "11": {
+      "status": "complete",
+      "score": 95,
+      "total_seifim": 32,
+      "seifim_pass": 32,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-08-18T09:07:04.511Z"
+    },
+    "12": {
+      "status": "complete",
+      "score": 95,
+      "total_seifim": 6,
+      "seifim_pass": 6,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-08-18T09:28:16.414Z"
+    },
+    "13": {
+      "status": "in_progress",
+      "started": "2026-08-18T09:28:21.424Z",
+      "total_seifim": 18
+    },
+    "14": {
+      "status": "in_progress",
+      "started": "2026-08-18T11:32:58.861Z",
+      "total_seifim": 17
     },
     "109": {
       "status": "complete",
@@ -114,5 +138,5 @@
       "completed": "2026-08-16T19:08:49.158Z"
     }
   },
-  "last_updated": "2026-08-17T13:26:51.100Z"
+  "last_updated": "2026-08-18T12:01:29.004Z"
 }

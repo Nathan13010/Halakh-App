@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Icon from './Icon';
+import { askHalakha } from '../services/aiService';
 
 const AIScreen = () => {
   const [query, setQuery] = useState("");
@@ -7,7 +8,7 @@ const AIScreen = () => {
     {
       id: "1",
       sender: "ai",
-      text: "Shalom. Je suis votre assistant virtuel basé sur le Yalkout Yossef. Quelle est votre question halakhique aujourd'hui ?",
+      text: "Shalom. Je suis votre assistant virtuel de recherche dans les sources de Halakh'App. Quelle est votre question halakhique aujourd'hui ?",
       timestamp: Date.now()
     }
   ]);
@@ -22,7 +23,7 @@ const AIScreen = () => {
     scrollToBottom();
   }, [messages, isTyping]);
 
-  const handleSend = () => {
+  const handleSend = async () => {
     if (!query.trim()) return;
 
     const userMsg = {
@@ -35,22 +36,29 @@ const AIScreen = () => {
     setQuery("");
     setIsTyping(true);
 
-    // Mock API Call Delay
-    setTimeout(() => {
+    try {
+      const response = await askHalakha(userMsg.text);
+      
       const aiMsg = {
         id: (Date.now() + 1).toString(),
         sender: "ai",
-        text: "D'après le Yalkout Yossef (Chabbat, Siman 318, Seif 1), il est interdit de cuire un aliment cru pendant Chabbat. Cependant, un aliment solide déjà cuit entièrement avant Chabbat peut être réchauffé.",
-        source: {
-          book: "Yalkout Yossef - Chabbat",
-          siman: "318",
-          seif: "1"
-        },
+        text: response.answer,
+        citations: response.citations,
+        rawSources: response.rawSources,
+        status: response.status,
         timestamp: Date.now()
       };
       setMessages(prev => [...prev, aiMsg]);
+    } catch (error) {
+      setMessages(prev => [...prev, {
+        id: (Date.now() + 1).toString(),
+        sender: "ai",
+        text: "Une erreur de communication est survenue.",
+        timestamp: Date.now()
+      }]);
+    } finally {
       setIsTyping(false);
-    }, 1500);
+    }
   };
 
   return (
@@ -77,15 +85,26 @@ const AIScreen = () => {
             }`}>
               <p className="text-sm leading-relaxed">{msg.text}</p>
               
-              {msg.source && (
-                <div className="mt-3 pt-3 border-t border-zinc-200 dark:border-zinc-700 flex items-center justify-between gap-2">
-                  <div className="flex items-center gap-1.5 text-xs text-zinc-500 dark:text-zinc-400">
-                    <Icon name="library" className="w-3.5 h-3.5" />
-                    <span>Source: {msg.source.book} ({msg.source.siman}:{msg.source.seif})</span>
-                  </div>
-                  <button className="text-[10px] uppercase tracking-wider font-bold text-amber-600 dark:text-amber-400 hover:text-amber-700 dark:hover:text-amber-300 transition-colors">
-                    Lire le texte
-                  </button>
+              {msg.rawSources && msg.rawSources.length > 0 && (
+                <div className="mt-3 pt-3 border-t border-zinc-200 dark:border-zinc-700 flex flex-col gap-2">
+                  <span className="text-xs font-semibold text-zinc-500 dark:text-zinc-400">Sources :</span>
+                  {msg.rawSources.map((source, idx) => {
+                    // Vérifier si cette source a été citée par l'IA
+                    const isCited = msg.citations?.some(c => c.sourceId === source.id);
+                    if (!isCited && msg.status === "ANSWERED") return null;
+
+                    return (
+                      <div key={idx} className="flex items-center justify-between gap-2 bg-zinc-50 dark:bg-zinc-900/50 p-2 rounded-lg border border-zinc-100 dark:border-zinc-700/50">
+                        <div className="flex items-center gap-1.5 text-xs text-zinc-600 dark:text-zinc-300">
+                          <Icon name="library" className="w-3.5 h-3.5 text-amber-500" />
+                          <span className="line-clamp-1">{source.book} ({source.siman}:{source.seif}) - {source.title}</span>
+                        </div>
+                        <button className="text-[10px] uppercase tracking-wider font-bold text-amber-600 dark:text-amber-400 hover:text-amber-700 dark:hover:text-amber-300 transition-colors shrink-0">
+                          Lire
+                        </button>
+                      </div>
+                    );
+                  })}
                 </div>
               )}
             </div>

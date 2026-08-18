@@ -24,59 +24,57 @@ const DynamicNeumorphicIcon = ({ iconName, className = "w-24 h-24 shrink-0" }) =
         svg.setAttribute('width', '100%');
         svg.setAttribute('height', '100%');
 
-        // 1. Inject Neumorphic Gradients & Filters
+        // Unique ID prefix per icon to avoid SVG ID conflicts
+        const idPrefix = iconName.replace(/[^a-zA-Z0-9]/g, '_');
+
+        // 1. Inject Neumorphic Gradients & Transparent Shadow Filters
         const defs = doc.createElementNS('http://www.w3.org/2000/svg', 'defs');
         defs.innerHTML = `
           <!-- Glow Gradient (Orange/Yellow) -->
-          <radialGradient id="glowGradient" cx="30%" cy="30%" r="70%">
+          <radialGradient id="glow_${idPrefix}" cx="30%" cy="30%" r="70%">
             <stop stop-color="#FFF7B0"/>
             <stop offset="1" stop-color="#C05300"/>
           </radialGradient>
           
-          <!-- Dark Gradient (White/Grey to Dark) -->
-          <radialGradient id="darkGradient_light" cx="30%" cy="30%" r="70%">
+          <!-- Light Mode Gradient -->
+          <radialGradient id="darkGradient_light_${idPrefix}" cx="30%" cy="30%" r="70%">
             <stop stop-color="#5D6167"/>
             <stop offset="1" stop-color="#13151A"/>
           </radialGradient>
           
-          <radialGradient id="darkGradient_dark" cx="30%" cy="30%" r="70%">
+          <!-- Dark Mode Gradient -->
+          <radialGradient id="darkGradient_dark_${idPrefix}" cx="30%" cy="30%" r="70%">
             <stop stop-color="white"/>
             <stop offset="1" stop-color="#5D6167"/>
           </radialGradient>
 
-          <!-- Neumorphic Drop Shadows -->
-          <filter id="neumorphicShadow_light" x="-20%" y="-20%" width="140%" height="140%">
-            <feDropShadow dx="9" dy="9" stdDeviation="8" flood-color="#a3b1c6" flood-opacity="1" result="shadow1"/>
-            <feDropShadow dx="0" dy="0" stdDeviation="24" flood-color="#ffffff" flood-opacity="0.85" result="shadow2"/>
+          <!-- 100% Transparent Light Mode Shadow -->
+          <filter id="shadow_light_${idPrefix}" x="-30%" y="-30%" width="160%" height="160%">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dx="6" dy="6"/>
+            <feGaussianBlur stdDeviation="6"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0.639216 0 0 0 0 0.694118 0 0 0 0 0.776471 0 0 0 0.85 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_light"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_light" result="shape"/>
           </filter>
 
-          <filter id="neumorphicShadow_dark" x="-50%" y="-50%" width="200%" height="200%">
-            <!-- Create the solid background for proper overlay blending in the browser -->
-            <feFlood flood-color="#25282D" flood-opacity="1" result="bg"/>
-            
-            <!-- 1. White shadow (-12, -12, blur 20, white 0.4) -->
+          <!-- 100% Transparent Dark Mode Shadow -->
+          <filter id="shadow_dark_${idPrefix}" x="-30%" y="-30%" width="160%" height="160%">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
             <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-            <feOffset dx="-12" dy="-12"/>
-            <feGaussianBlur stdDeviation="20"/>
+            <feOffset dx="6" dy="8"/>
+            <feGaussianBlur stdDeviation="6"/>
             <feComposite in2="hardAlpha" operator="out"/>
-            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0" result="whiteShadow"/>
-            <feBlend mode="overlay" in="whiteShadow" in2="bg" result="effect1_dropShadow_dark"/>
-            
-            <!-- 2. Black shadow (12, 12, blur 20, black 0.44) -->
-            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-            <feOffset dx="12" dy="12"/>
-            <feGaussianBlur stdDeviation="20"/>
-            <feComposite in2="hardAlpha" operator="out"/>
-            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.44 0" result="blackShadow"/>
-            <feBlend mode="overlay" in="blackShadow" in2="effect1_dropShadow_dark" result="effect2_dropShadow_dark"/>
-            
-            <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_dark" result="shape"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.75 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_dark"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_dark" result="shape"/>
           </filter>
         `;
         svg.prepend(defs);
 
         // 2. Wrap all original content in groups with the shadow filters
-        // We need to create two versions (light and dark) and toggle them via CSS
         const originalContent = Array.from(svg.childNodes).filter(node => node !== defs);
         
         // Process fills before cloning
@@ -87,21 +85,21 @@ const DynamicNeumorphicIcon = ({ iconName, className = "w-24 h-24 shrink-0" }) =
             const fill = p.getAttribute('fill');
             // If the original fill was white, make it glow
             if (style.includes('fill:white') || style.includes('fill: white') || fill === 'white' || fill === '#FFFFFF' || fill === '#ffffff') {
-              p.setAttribute('fill', 'url(#glowGradient)');
+              p.setAttribute('fill', `url(#glow_${idPrefix})`);
               p.removeAttribute('style'); // remove inline styles to prioritize attribute
             } else if (fill !== 'none') {
-              p.setAttribute('fill', isDark ? 'url(#darkGradient_dark)' : 'url(#darkGradient_light)');
+              p.setAttribute('fill', isDark ? `url(#darkGradient_dark_${idPrefix})` : `url(#darkGradient_light_${idPrefix})`);
             }
           });
         };
 
         const lightGroup = doc.createElementNS('http://www.w3.org/2000/svg', 'g');
         lightGroup.setAttribute('class', 'block dark:hidden');
-        lightGroup.setAttribute('filter', 'url(#neumorphicShadow_light)');
+        lightGroup.setAttribute('filter', `url(#shadow_light_${idPrefix})`);
         
         const darkGroup = doc.createElementNS('http://www.w3.org/2000/svg', 'g');
         darkGroup.setAttribute('class', 'hidden dark:block');
-        darkGroup.setAttribute('filter', 'url(#neumorphicShadow_dark)');
+        darkGroup.setAttribute('filter', `url(#shadow_dark_${idPrefix})`);
 
         // Move original nodes into lightGroup and clone to darkGroup
         originalContent.forEach(node => {

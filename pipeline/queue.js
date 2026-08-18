@@ -13,10 +13,10 @@
  *
  * Le pipeline gère automatiquement les quotas API (pause + reprise).
  *
- * Usage :
  *   node pipeline/queue.js                        # Traite tous les simanim manquants
  *   node pipeline/queue.js --from 10 --to 50      # Traite simanim 10 à 50
  *   node pipeline/queue.js --siman 66              # Traite un seul siman
+ *   node pipeline/queue.js --categorie "הלכות ציצית" # Traite une catégorie
  *   node pipeline/queue.js --status                # Affiche l'état actuel
  *   node pipeline/queue.js --dry                   # Dry-run (aucune génération)
  *
@@ -127,7 +127,11 @@ function scanCompletDir() {
   }
 
   walk(COMPLET_DIR, '');
-  simanim.sort((a, b) => a.siman - b.siman);
+  simanim.sort((a, b) => {
+    const numA = parseInt(String(a.siman).split('-')[0], 10) || 0;
+    const numB = parseInt(String(b.siman).split('-')[0], 10) || 0;
+    return numA - numB;
+  });
   return simanim;
 }
 
@@ -396,21 +400,22 @@ function showStatus() {
 
 function parseArgs() {
   const args = process.argv.slice(2);
-  let from = null, to = null, simanNum = null, status = false, dryRun = false;
+  let from = null, to = null, simanNum = null, status = false, dryRun = false, categorie = null;
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--from' && args[i + 1]) from = parseInt(args[++i], 10);
     else if (args[i] === '--to' && args[i + 1]) to = parseInt(args[++i], 10);
     else if (args[i] === '--siman' && args[i + 1]) simanNum = parseInt(args[++i], 10);
+    else if (args[i] === '--categorie' && args[i + 1]) categorie = args[++i];
     else if (args[i] === '--status') status = true;
     else if (args[i] === '--dry') dryRun = true;
   }
 
-  return { from, to, simanNum, status, dryRun };
+  return { from, to, simanNum, status, dryRun, categorie };
 }
 
 async function main() {
-  const { from, to, simanNum, status, dryRun } = parseArgs();
+  const { from, to, simanNum, status, dryRun, categorie } = parseArgs();
 
   // Créer les répertoires nécessaires
   fs.mkdirSync(DATA_DIR, { recursive: true });
@@ -421,10 +426,11 @@ async function main() {
     return;
   }
 
-  if (!from && !to && !simanNum) {
+  if (!from && !to && !simanNum && !categorie) {
     console.log('💡 Usage :');
     console.log('  node pipeline/queue.js --status              # Affiche l\'état');
     console.log('  node pipeline/queue.js --siman 66            # Traite un siman');
+    console.log('  node pipeline/queue.js --categorie "הלכות ציצית" # Traite une catégorie entière');
     console.log('  node pipeline/queue.js --from 10 --to 50     # Traite une plage');
     console.log('  node pipeline/queue.js --from 1 --to 694     # Traite tout');
     console.log('  node pipeline/queue.js --dry                 # Dry-run');
@@ -441,9 +447,23 @@ async function main() {
 
   if (simanNum) {
     simaninToProcess = allSimanim.filter(s => s.siman === simanNum);
+    if (categorie) {
+      simaninToProcess = simaninToProcess.filter(s => s.categorie === categorie);
+    }
     if (simaninToProcess.length === 0) {
-      console.error(`❌ Siman ${simanNum} introuvable dans complet/`);
+      console.error(`❌ Siman ${simanNum} introuvable dans complet/${categorie ? ' pour la catégorie ' + categorie : ''}`);
       process.exit(1);
+    }
+  } else if (categorie) {
+    simaninToProcess = allSimanim.filter(s => s.categorie === categorie);
+    if (simaninToProcess.length === 0) {
+      console.error(`❌ Aucun siman trouvé pour la catégorie "${categorie}" dans complet/`);
+      process.exit(1);
+    }
+    if (from || to) {
+      const fromNum = from || 1;
+      const toNum = to || 999;
+      simaninToProcess = simaninToProcess.filter(s => s.siman >= fromNum && s.siman <= toNum);
     }
   } else {
     const fromNum = from || 1;
@@ -459,8 +479,8 @@ async function main() {
       const existing = state.simanim?.[s.unique_key] || state.simanim?.[s.siman];
       if (!existing) return true;
       if (existing.status === 'complete' && existing.score >= 90) return false; // Déjà OK
-      if (existing.status === 'error' || existing.status === 'failed') return true; // Retry
-      return false;
+      // Si erreur, failed, ou score < 90, on le refait
+      return true;
     });
   }
 

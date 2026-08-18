@@ -87,6 +87,50 @@ function fixTrailingPunctuation(str) {
     .trim();
 }
 
+/**
+ * Corrige le décalage (offset) de 1 mot dans mots_alignes si le premier mot des voyelles
+ * contient une puce alphabétique alors que hebreu_brut l'a supprimée.
+ */
+function fixAlignmentOffset(halakha, mots, ti, log) {
+  if (mots.length < 3) return 0;
+  
+  const clean = text => removeNikkoud(text).replace(/[.,'"]/g,'').trim();
+  
+  const brut1 = clean(mots[1].hebreu_brut);
+  const voy1 = clean(mots[1].hebreu_voyelles);
+  const voy2 = clean(mots[2].hebreu_voyelles);
+  
+  if (brut1 !== voy1 && brut1 === voy2) {
+    log.push(`Décalage d'alignement détecté (intrus: "${voy1}"). Réalignement...`);
+    
+    // Décaler les mots dans mots_alignes
+    for (let i = 1; i < mots.length - 1; i++) {
+      mots[i].hebreu_voyelles = mots[i+1].hebreu_voyelles;
+    }
+    
+    // Corriger texte_integral
+    const textVoy = ti.hebreu_avec_voyelles;
+    const partsVoy = textVoy.split(/\s+/);
+    
+    if (partsVoy.length > 1) {
+      partsVoy.splice(1, 1); // Enlever l'intrus
+      ti.hebreu_avec_voyelles = partsVoy.join(' ');
+    }
+    
+    // Resynchroniser mots_alignes complet avec le nouveau tableau de voyelles
+    for (let i = 0; i < mots.length; i++) {
+      if (i < partsVoy.length) {
+        mots[i].hebreu_voyelles = partsVoy[i];
+      } else {
+        mots[i].hebreu_voyelles = "";
+      }
+    }
+    
+    return 1;
+  }
+  return 0;
+}
+
 // ─── Application des fixes sur un seif ────────────────────────────────────
 
 /**
@@ -138,8 +182,15 @@ function fixSeifData(halakha) {
     fixCount++;
   }
 
-  // 2. Fixer les mots alignés
   const mots = halakha.mots_alignes;
+
+  // Offset d'alignement (à faire AVANT les autres corrections sur les mots)
+  const offsetFixed = fixAlignmentOffset(halakha, mots, ti, log);
+  if (offsetFixed > 0) {
+    fixCount += offsetFixed;
+  }
+
+  // 2. Fixer les mots alignés individuellement
   for (let i = 0; i < mots.length; i++) {
     const m = mots[i];
 
@@ -151,15 +202,8 @@ function fixSeifData(halakha) {
       fixCount++;
     }
 
-    // Ktiv Male (sauf badge à index 0)
+    // Ktiv Male (Désactivé)
     if (i > 0) {
-      const kmFixed = fixKtivMale(m.hebreu_brut, m.hebreu_voyelles);
-      if (kmFixed !== m.hebreu_voyelles) {
-        log.push(`Ktiv Male mot[${i}]: "${m.hebreu_voyelles}" → "${kmFixed}"`);
-        m.hebreu_voyelles = kmFixed;
-        fixCount++;
-      }
-
       // Diacritiques dupliqués dans les mots
       const mClean = fixDuplicateDiacritics(m.hebreu_voyelles);
       if (mClean !== m.hebreu_voyelles) {

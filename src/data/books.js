@@ -1,8 +1,8 @@
 export const FALLBACK_PARAGRAPHS = [
   {
     "seif": "1",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "titre_seif": "Se lever avec force et courage",
     "texte_integral": {
       "hebreu_sans_voyelles": "א שנינו במסכת אבות יהודה בן תימא אומר, הוי עז כנמר, וקל כנשר, ורץ כצבי, וגבור כארי, לעשות רצון אביך שבשמים. ולמדו מכאן ארבעה דברים בעבודת הבורא, הוי עז כנמר, כי כאשר יעשה אדם מצוה לא יתבייש מפני בני אדם המלעיגים עליו. וקל כנשר, למהר לעצום עיניו מראות ברע, כי ראיית העינים היא תחלת העבירה. ורץ כצבי, שהרגלים ירוצו לדבר טוב. וגבור כארי, זו גבורת הלב לנצח היצר. ולכן יתגבר כארי לעמוד בבוקר לעבודת בוראו, שיהא הוא מעורר השחר. ועל כל פנים לא יאחר זמן תפלה וקריאת שמע. [ועיקר הגבורה הוא בלב, להתגבר על יצרו לנצחו, כגבור המתגבר על שונאו לנצחו ולהפילו לארץ. וכך צריך כל אדם להתגבר על יצרו כארי לקום משינתו לעבודת בוראו]. [ילקו\"י על הלכות השכמת הבוקר, מהדורת תשס\"ד עמוד נז. וילקוט יוסף שארית יוסף חלק א', עמוד א']. ואף על פי שהמקיים את מצוות ה' אין לו להתבייש מפני המלעיגים עליו, מכל מקום לא יתקוטט ויריב עמהם, גם כדי שלא יתרגל למדת העזות המגונה מאד. [ואם מטרתו להשפיע על עניני הקהלה בעניני התורה והמצוות, וניסה בדרכי שלום ולא הצליח, אזי מותר להעיז פניו ולריב עמם להפר עצתם]. [שארית יוסף חלק א' עמוד ג'. ילקו\"י מהדורת תשס\"ד, עמוד צו].",
@@ -821,8 +821,8 @@ export const FALLBACK_PARAGRAPHS = [
   },
   {
     "seif": "2",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "titre_seif": "L'empressement pour les Mitsvot",
     "texte_integral": {
       "hebreu_sans_voyelles": "ב צריך האדם שיהיה אצלו בטבע והרגל תמידי לרוץ לדבר מצוה, ויש המאחרים בשינתם, ומתעכבים בביתם, ואחר כך רצים לבית הכנסת, ואין זו מדת הזריזות, דאף שרואים אותם רצים ומזדרזים, זה מפני שאיחרו להשכים קום, ולכן רצים להספיק להגיע לתפלה בבית הכנסת. ולעולם יהא אדם זריז לתפלה ולתורה, ואל ימשך אחר השינה והתענוגות, ואל יפתהו יצרו להתרשל בגלל עשרו ונכסיו, שהכל חולף ואבד, ואילו תורה ושכרה עומדים לעד. [ילקו\"י הל' השכמת הבוקר, עמ' סב. ושם בענין הזריזות לקיום המצוות].",
@@ -1312,8 +1312,8 @@ export const FALLBACK_PARAGRAPHS = [
   },
   {
     "seif": "3",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "titre_seif": "Préparation à la prière",
     "texte_integral": {
       "hebreu_sans_voyelles": "ג צריך להקדים לקום בבוקר כדי שיספיק להכין את עצמו להתפלל בצבור ובנקיות, שלא יפסיד זמן תפלה. ונהגו בכמה קהלות ישראל, שהשמש הולך בבוקר ודופק בדלת או בחלון לעורר הישנים לתפלה ועבודת ה'. [ילקו\"י הל' השכמת הבוקר מהדור' תשס\"ד עמ' סג].",
@@ -1558,8 +1558,8 @@ export const FALLBACK_PARAGRAPHS = [
   },
   {
     "seif": "4",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "titre_seif": "La juste mesure du sommeil",
     "texte_integral": {
       "hebreu_sans_voyelles": "ד אל יחשוב האדם על השינה שכל מה שתהיה בריבוי, יש בה תועלת לגוף, שהרי הסכימו הרופאים המובהקים שלא ישן אדם פחות משש שעות, ולא יותר משמונה שעות. ויותר מזה מזיק לבריאות. ואמרו בגמרא: שינה לצדיקים רע להם ורע לעולם. שהתורה שהן עוסקים בה מגינה על הדור, וכשהן מתבטלין פורענות באה לעולם. ועוד אמרו בגמרא תלמידי חכמים העוסקים בתורה בלילה, מעלה עליהן הכתוב כאילו עוסקים בעבודת הקרבנות. ועוד אמרו בירושלמי היגע בתלמודו בצינעא [בלילה], לא במהרה הוא שוכח. והרמב\"ם כתב: אף שמצוה ללמוד ביום ובלילה, אין אדם לומד רוב חכמתו אלא בלילה. לפיכך מי שרצה לזכות בכתר התורה, יזהר בכל לילותיו, ולא יאבד אפילו אחד מהם בשינה ואכילה ושיחה, אלא בתורה ודברי חכמה. [ילקו\"י מהדורת תשס\"ד, הל' השכמת הבוקר עמוד סד. ושם מאמרי חז\"ל בשבח לימוד התורה בלילה].",
@@ -2364,8 +2364,8 @@ export const FALLBACK_PARAGRAPHS = [
   },
   {
     "seif": "5",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "titre_seif": "Le sommeil pendant la journée",
     "texte_integral": {
       "hebreu_sans_voyelles": "ה ראוי לו לאדם להמנע משינה ביום, משום ביטול תורה. אולם אם על ידי שישן מעט ביום יוכל ללמוד בלילה עד שעה מאוחרת יותר, או שיוכל ללמוד יותר בריכוז ובעיון, מותר לישון ביום. אך לא ירבה בשינה. [ואמנם על פי הקבלה יש להמנע מלישון ביום]. וכן בשבת מותר לישון ביום. [ילקו\"י על הלכות השכמת הבוקר, מהדורת תשס\"ד, עמוד עב].",
@@ -3530,8 +3530,8 @@ export const FALLBACK_PARAGRAPHS = [
       }
     ],
     "titre_seif": "L'horaire idéal pour dormir et étudier",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin"
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever"
   },
   {
     "id": "p7",
@@ -4532,8 +4532,8 @@ export const FALLBACK_PARAGRAPHS = [
       }
     ],
     "titre_seif": "Étudier tard dans la nuit",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin"
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever"
   },
   {
     "id": "p8",
@@ -5331,8 +5331,8 @@ export const FALLBACK_PARAGRAPHS = [
       }
     ],
     "titre_seif": "Se lever avec vivacité et éviter la paresse",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin"
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever"
   },
   {
     "id": "p9",
@@ -6228,8 +6228,8 @@ export const FALLBACK_PARAGRAPHS = [
       }
     ],
     "titre_seif": "Le Modé Ani dès le réveil",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin"
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever"
   },
   {
     "id": "p10",
@@ -6677,14 +6677,14 @@ export const FALLBACK_PARAGRAPHS = [
       }
     ],
     "titre_seif": "Consacrer le début de sa journée à Dieu",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin"
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever"
   },
   {
     "id": "p11",
     "numero": "11",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "11",
     "titre_seif": "Le Modé Ani pour les enfants",
     "texte_integral": {
@@ -6887,8 +6887,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p12",
     "numero": "12",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "12",
     "titre_seif": "Garder Dieu à l'esprit en permanence",
     "texte_integral": {
@@ -7371,8 +7371,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p13",
     "numero": "13",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "13",
     "titre_seif": "Ségoulot pour renforcer la crainte du Ciel",
     "texte_integral": {
@@ -7659,8 +7659,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p14",
     "numero": "14",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "14",
     "titre_seif": "Ne pas se quereller avec les moqueurs",
     "texte_integral": {
@@ -8045,8 +8045,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p15",
     "numero": "15",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "15",
     "titre_seif": "Porter le Talit et les Téfilines en public",
     "texte_integral": {
@@ -8256,8 +8256,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p16",
     "numero": "16",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "16",
     "titre_seif": "Accomplir les Mitsvot en secret",
     "texte_integral": {
@@ -8558,8 +8558,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p17",
     "numero": "17",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "17",
     "titre_seif": "Modifier ses paroles par humilité",
     "texte_integral": {
@@ -8797,8 +8797,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p18",
     "numero": "18",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "18",
     "titre_seif": "Accepter l'amour de Dieu avant la prière",
     "texte_integral": {
@@ -9134,8 +9134,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p19",
     "numero": "19",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "19",
     "titre_seif": "Aimer son prochain avant la prière",
     "texte_integral": {
@@ -9758,8 +9758,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p20",
     "numero": "20",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "20",
     "titre_seif": "Peu de supplications avec intention valent mieux que beaucoup sans",
     "texte_integral": {
@@ -10494,8 +10494,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p21",
     "numero": "21",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "21",
     "titre_seif": "Volume de la voix pendant la prière",
     "texte_integral": {
@@ -11121,8 +11121,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p22",
     "numero": "22",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "22",
     "titre_seif": "Lecture quotidienne de la Parachat Haakedah",
     "texte_integral": {
@@ -11851,8 +11851,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p23",
     "numero": "23",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "23",
     "titre_seif": "Parachat Haakedah le Chabbat et Fêtes",
     "texte_integral": {
@@ -12008,8 +12008,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p24",
     "numero": "24",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "24",
     "titre_seif": "Arrivée tardive à la synagogue le Chabbat",
     "texte_integral": {
@@ -12414,8 +12414,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p25",
     "numero": "25",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "25",
     "titre_seif": "Verset suivant la Parachat Haakedah",
     "texte_integral": {
@@ -12892,8 +12892,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p26",
     "numero": "26",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "26",
     "titre_seif": "Lecture quotidienne du sacrifice perpétuel",
     "texte_integral": {
@@ -13126,8 +13126,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p27",
     "numero": "27",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "27",
     "titre_seif": "Sacrifices pour étudiants et érudits",
     "texte_integral": {
@@ -13555,8 +13555,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p28",
     "numero": "28",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "28",
     "titre_seif": "Sacrifices les jours de Chabbat et Fêtes",
     "texte_integral": {
@@ -13746,8 +13746,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p29",
     "numero": "29",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "29",
     "titre_seif": "Réciter les sacrifices à la synagogue",
     "texte_integral": {
@@ -14132,8 +14132,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p30",
     "numero": "30",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "30",
     "titre_seif": "Récitation des autres passages de sacrifices",
     "texte_integral": {
@@ -14541,8 +14541,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p31",
     "numero": "31",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "31",
     "titre_seif": "Prières des sacrifices en maison de deuil",
     "texte_integral": {
@@ -14785,8 +14785,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p32",
     "numero": "32",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "32",
     "titre_seif": "Position assise pour la lecture des sacrifices",
     "texte_integral": {
@@ -15231,8 +15231,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p33",
     "numero": "33",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "33",
     "titre_seif": "Les femmes et la lecture des sacrifices",
     "texte_integral": {
@@ -15452,8 +15452,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p34",
     "numero": "34",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "34",
     "titre_seif": "L'ordre des prières avant Baroukh Chéamar",
     "texte_integral": {
@@ -16106,8 +16106,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p35",
     "numero": "35",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "35",
     "titre_seif": "Heure de récitation des sacrifices",
     "texte_integral": {
@@ -16285,8 +16285,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p36",
     "numero": "36",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "36",
     "titre_seif": "Travailleurs matinaux et lecture des sacrifices",
     "texte_integral": {
@@ -16516,8 +16516,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p37",
     "numero": "37",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "37",
     "titre_seif": "Prononciation du passage Abayé Havé",
     "texte_integral": {
@@ -16773,8 +16773,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p38",
     "numero": "38",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lois du réveil du matin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "38",
     "titre_seif": "Lecture de l'encens avec ferveur",
     "texte_integral": {
@@ -17596,8 +17596,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p39",
     "numero": "39",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lire les onze épices dans un livre",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "39",
     "titre_seif": "Lire les onze épices dans un livre",
     "texte_integral": {
@@ -17732,8 +17732,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p40",
     "numero": "40",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Écrire la Qetoret sur un parchemin",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "40",
     "titre_seif": "Écrire la Qetoret sur un parchemin",
     "texte_integral": {
@@ -18140,8 +18140,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p41",
     "numero": "41",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Inscriptions et versets dans la synagogue",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "41",
     "titre_seif": "Inscriptions et versets dans la synagogue",
     "texte_integral": {
@@ -19112,8 +19112,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p42",
     "numero": "42",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Lecture quotidienne des Dix Commandements",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "42",
     "titre_seif": "Lecture quotidienne des Dix Commandements",
     "texte_integral": {
@@ -19595,8 +19595,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p43",
     "numero": "43",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "S'attrister lors du Tikkoun 'Hatsot",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "43",
     "titre_seif": "S'attrister lors du Tikkoun 'Hatsot",
     "texte_integral": {
@@ -20418,8 +20418,8 @@ export const FALLBACK_PARAGRAPHS = [
   {
     "id": "p44",
     "numero": "44",
-    "sujet": "הלכות השכמת הבוקר",
-    "sujet_fr": "Posture pendant le Tikkoun 'Hatsot",
+    "sujet": "הנהגה",
+    "sujet_fr": "Comportement au lever",
     "seif": "44",
     "titre_seif": "Posture pendant le Tikkoun 'Hatsot",
     "texte_integral": {

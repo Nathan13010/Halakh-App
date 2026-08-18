@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import Icon from './Icon';
 import QuickSettingsPopover from './QuickSettingsPopover';
+import ReportModal from './ReportModal';
 
 // Helpers
 const parseToken = (token) => {
@@ -50,6 +51,7 @@ const ParagraphCard = React.memo(({
   onToggleFavorite,
   onToggleBookmark,
   onWordClick,
+  onReportError,
   setHoveredWordId,
   wordRefs,
   isToolbarVisible
@@ -200,26 +202,6 @@ const FRENCH_STOP_WORDS = new Set([
 
   return (
     <div id={`seif-card-${pIndex}`} className="space-y-4">
-      {/* Sujet Section Banner */}
-      {isFirstOfSubject && currentSubjectTitle && (
-        <div 
-          className={`bg-emerald-500/10 border border-emerald-500/30 rounded-xl p-3 flex items-center justify-between gap-2 text-xs sticky top-[125px] z-10 backdrop-blur-md shadow-lg transition-all duration-300 ease-in-out ${
-            isToolbarVisible ? 'translate-y-0 opacity-100' : '-translate-y-[150%] opacity-0 pointer-events-none'
-          }`}
-        >
-          <div className="flex items-center gap-2">
-            <span className="text-emerald-600 dark:text-emerald-400 font-bold uppercase tracking-wider text-[9px] bg-emerald-500/20 px-2 py-0.5 rounded">
-              Sujet
-            </span>
-            <span className="text-zinc-800 dark:text-zinc-100 font-semibold text-sm">
-              {currentSubjectTitle}
-            </span>
-          </div>
-          <span className="text-[10px] text-emerald-600 dark:text-emerald-400 font-mono font-bold">
-            {availableSeifCount} Seïf{availableSeifCount > 1 ? 's' : ''}
-          </span>
-        </div>
-      )}
 
       {/* Sefaria Halakha Card */}
       <div
@@ -284,6 +266,18 @@ const FRENCH_STOP_WORDS = new Set([
               }`}
             >
               <Icon name="star" className={`w-3.5 h-3.5 ${isFav ? "text-amber-500 fill-amber-500" : ""}`} />
+            </button>
+
+            {/* Report Error button */}
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                onReportError && onReportError(p, pIndex);
+              }}
+              title="Signaler une erreur"
+              className="flex items-center justify-center p-1.5 rounded-lg border text-[11px] font-semibold cursor-pointer transition-all bg-zinc-100 dark:bg-zinc-800 border-zinc-300 dark:border-zinc-700/80 text-rose-500 dark:text-rose-400 hover:text-rose-600 dark:hover:text-rose-300"
+            >
+              <Icon name="alert" className="w-3.5 h-3.5" />
             </button>
           </div>
         </div>
@@ -404,6 +398,90 @@ const cleanSujetTitle = (str) => {
     .trim();
 };
 
+const FullScreenSelector = ({ label, title, value, displayValue, options, onChange, icon }) => {
+  const [isOpen, setIsOpen] = React.useState(false);
+  
+  React.useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => { document.body.style.overflow = ''; }
+  }, [isOpen]);
+
+  return (
+    <>
+      <button 
+        onClick={() => setIsOpen(true)}
+        className="flex-1 flex flex-col items-start justify-center px-4 py-2 hover:bg-zinc-100 dark:hover:bg-zinc-800/50 transition-colors w-full"
+      >
+        <div className="flex items-center gap-1.5 mb-0.5">
+          {icon && <Icon name={icon} className="w-3 h-3 text-emerald-600 dark:text-emerald-500" />}
+          <span className="text-[9px] uppercase tracking-widest text-emerald-600 dark:text-emerald-500 font-bold">{label}</span>
+        </div>
+        <div className="flex items-center justify-between w-full">
+           <span className="text-sm font-bold text-zinc-900 dark:text-zinc-100 truncate pr-2">{displayValue || value}</span>
+           <Icon name="chevronDown" className="w-4 h-4 text-zinc-400 shrink-0" />
+        </div>
+      </button>
+
+      {isOpen && createPortal(
+        <div className="fixed inset-0 z-[100] flex flex-col bg-white dark:bg-[#25282D] animate-in fade-in slide-in-from-bottom-4 duration-300">
+          <div className="flex items-center justify-between px-6 py-5 border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#25282D] sticky top-0 z-10 shadow-sm">
+            <h2 className="text-xl font-serif font-bold text-zinc-900 dark:text-zinc-100">{title || `Sélectionner ${label}`}</h2>
+            <button 
+              onClick={() => setIsOpen(false)}
+              className="p-2 bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 rounded-full transition-colors flex items-center justify-center cursor-pointer"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+          </div>
+          
+          <div className="flex-1 overflow-y-auto px-4 sm:px-6 py-4 space-y-2.5 pb-24">
+            {options.map((opt, i) => {
+              const isSelected = opt.value === value || opt.label === value;
+              return (
+                <button
+                  key={i}
+                  onClick={() => { onChange(opt.value); setIsOpen(false); }}
+                  className={`w-full text-left px-5 py-4 rounded-2xl transition-all flex items-center justify-between group ${
+                    isSelected 
+                      ? 'bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-500/30 shadow-sm' 
+                      : 'bg-zinc-50 hover:bg-zinc-100 dark:bg-zinc-800/50 dark:hover:bg-zinc-800 border border-zinc-200/50 dark:border-zinc-700/50'
+                  }`}
+                >
+                  <div className="flex items-center gap-3.5 pr-4 overflow-hidden">
+                    {opt.badge && (
+                      <span className={`flex items-center justify-center shrink-0 min-w-[32px] h-[32px] rounded-lg text-sm font-bold font-mono ${
+                        isSelected 
+                          ? 'bg-emerald-500/20 text-emerald-700 dark:text-emerald-400' 
+                          : 'bg-zinc-200 dark:bg-zinc-700/60 text-zinc-600 dark:text-zinc-400'
+                      }`}>
+                        {opt.badge}
+                      </span>
+                    )}
+                    <span className={`text-base md:text-lg truncate ${isSelected ? 'text-emerald-700 dark:text-emerald-400 font-bold' : 'text-zinc-700 dark:text-zinc-300 font-medium'}`}>
+                      {opt.title || opt.label}
+                    </span>
+                  </div>
+                  {opt.count !== undefined && (
+                    <span className={`text-xs px-2.5 py-1 rounded-full shrink-0 ${isSelected ? 'bg-emerald-100 dark:bg-emerald-500/30 text-emerald-800 dark:text-emerald-300 font-bold' : 'bg-zinc-200 dark:bg-zinc-700 text-zinc-600 dark:text-zinc-400'}`}>
+                      {opt.count}
+                    </span>
+                  )}
+                  {isSelected && <Icon name="check" className="w-5 h-5 text-emerald-600 dark:text-emerald-400 shrink-0 ml-2" />}
+                </button>
+              );
+            })}
+          </div>
+        </div>,
+        document.body
+      )}
+    </>
+  );
+};
+
 // ─── Composant Principal ReaderScreen ────────────────────────────────────────
 const ReaderScreen = ({
   bookTitle,
@@ -446,6 +524,20 @@ const ReaderScreen = ({
   const lastScrollY = useRef(0);
   const toolbarRef = useRef(null);
   const [toolbarHeight, setToolbarHeight] = useState(52);
+
+  const [isReportModalOpen, setIsReportModalOpen] = useState(false);
+  const [selectedSeifForReport, setSelectedSeifForReport] = useState(null);
+
+  const handleOpenReportModal = (p, pIndex) => {
+    setSelectedSeifForReport({
+      bookTitle: bookTitle,
+      chapterTitle: chapterTitle,
+      seifNumber: p.seif || (pIndex + 1),
+      seifTitle: getSeifTitle(p),
+      paragraphIndex: pIndex
+    });
+    setIsReportModalOpen(true);
+  };
 
   useEffect(() => {
     const measure = () => {
@@ -710,99 +802,64 @@ const ReaderScreen = ({
       )}
 
       {/* Toolbar Sub-Navigation */}
+      {/* Full-width Toolbar Sub-Navigation */}
       <section 
         ref={toolbarRef}
-        className={`fixed left-0 right-0 bg-white/95 dark:bg-zinc-900/90 border-b border-zinc-200 dark:border-zinc-800/80 px-3 sm:px-6 py-2.5 sm:py-3 z-30 transition-all duration-300 ease-in-out backdrop-blur-md w-full shadow-sm ${
-          isToolbarVisible ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none -translate-y-2'
+        className={`fixed left-0 right-0 z-30 transition-all duration-300 ease-in-out bg-white/95 dark:bg-[#25282D]/95 border-b border-zinc-200 dark:border-zinc-800/80 backdrop-blur-md shadow-sm w-full ${
+          isToolbarVisible ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none -translate-y-4'
         }`}
         style={{ top: 'calc(var(--header-height, 4rem) + var(--safe-top, 0px))' }}
       >
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-3 sm:gap-4">
-          <div className="flex flex-wrap items-center gap-2.5 sm:gap-4">
-            {/* Chapitre Dropdown */}
-            <div className="flex items-center gap-2">
-              <label className="text-[10px] uppercase tracking-widest text-zinc-500 dark:text-zinc-400 font-bold">Chapitre</label>
-              <select
-                value={activeBookId || ''}
-                onChange={(e) => onSelectBook && onSelectBook(e.target.value)}
-                className="bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-lg px-2.5 py-1 text-xs font-semibold text-amber-600 dark:text-amber-400 focus:outline-none cursor-pointer"
-              >
-                {books.filter(b => b.isUnlocked).map(b => (
-                  <option key={b.id} value={b.id}>
-                    {b.chapters && b.chapters[0] ? b.chapters[0].title : b.title}
-                  </option>
-                ))}
-              </select>
-            </div>
+        <div className="max-w-6xl mx-auto flex items-stretch divide-x divide-zinc-200 dark:divide-zinc-800/50">
+          
+          {/* Sujet Dropdown */}
+          <FullScreenSelector 
+            label="Sujet"
+            title="Choisir le Sujet"
+            value={selectedSubjectTitle === 'ALL' && uniqueSubjects.length === 1 ? uniqueSubjects[0]?.title : selectedSubjectTitle}
+            options={[
+              ...(uniqueSubjects.length > 1 ? [{ label: `Tous (${paragraphs.length} Seifim)`, value: 'ALL' }] : []),
+              ...uniqueSubjects.map(s => ({ label: s.title, value: s.title, count: s.items.length }))
+            ]}
+            onChange={(val) => {
+              setSelectedSubjectTitle(val);
+              if (val !== 'ALL') {
+                const group = uniqueSubjects.find(s => s.title === val);
+                if (group) scrollToSeifCard(group.firstIndex);
+              }
+            }}
+          />
 
-            {/* Sujet / Thème Dropdown strictly deduplicated */}
-            <div className="flex items-center gap-2">
-              <label className="text-[10px] uppercase tracking-widest text-emerald-600 dark:text-emerald-400 font-bold">Sujet</label>
-              <select
-                value={selectedSubjectTitle === 'ALL' && uniqueSubjects.length === 1 ? uniqueSubjects[0]?.title : selectedSubjectTitle}
-                onChange={(e) => {
-                  const val = e.target.value;
-                  setSelectedSubjectTitle(val);
-                  if (val !== 'ALL') {
-                    const group = uniqueSubjects.find(s => s.title === val);
-                    if (group) scrollToSeifCard(group.firstIndex);
-                  }
-                }}
-                className="bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-lg px-2.5 py-1 text-xs font-semibold text-emerald-700 dark:text-emerald-300 focus:outline-none focus:border-emerald-500/50 cursor-pointer max-w-xs truncate"
-              >
-                {uniqueSubjects.length > 1 && (
-                  <option value="ALL">Tous ({paragraphs.length} Seifim)</option>
-                )}
-                {uniqueSubjects.map((s, idx) => (
-                  <option key={idx} value={s.title}>
-                    {s.title} ({s.items.length})
-                  </option>
-                ))}
-              </select>
-            </div>
+          {/* Seïf Dropdown */}
+          <FullScreenSelector 
+            label="Seïf"
+            title="Choisir le Seïf"
+            value={currentParagraphIndex}
+            displayValue={availableSeifOptions.find(o => o.index === currentParagraphIndex)?.seif || "..."}
+            options={availableSeifOptions.map(opt => ({ 
+              label: `${opt.seif}${opt.title ? ` — ${opt.title}` : ''}`, 
+              title: opt.title || `Seïf ${opt.seif}`,
+              badge: opt.seif,
+              value: opt.index 
+            }))}
+            onChange={(val) => scrollToSeifCard(Number(val))}
+          />
 
-            {/* Paragraphe Dropdown filtered strictly to selected subject */}
-            <div className="flex items-center gap-2">
-              <label className="text-[10px] uppercase tracking-widest text-zinc-500 dark:text-zinc-400 font-bold">Seïf</label>
-              <select
-                value={currentParagraphIndex}
-                onChange={(e) => scrollToSeifCard(Number(e.target.value))}
-                className="bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 rounded-lg px-2.5 py-1 text-xs font-semibold text-zinc-800 dark:text-zinc-300 focus:outline-none focus:border-amber-500/50 cursor-pointer"
-              >
-                {availableSeifOptions.map((opt) => (
-                  <option key={opt.index} value={opt.index}>
-                    {opt.seif}{opt.title ? ` — ${opt.title}` : ''}
-                  </option>
-                ))}
-              </select>
-            </div>
+          {/* Repères Dropdown */}
+          {bookmarks.filter(bm => !bm.bookId || bm.bookId === activeBookId).length > 0 && (
+            <FullScreenSelector 
+              label="Repères"
+              title="Aller au marque-page"
+              icon="bookmark"
+              value="Mes repères"
+              options={bookmarks.filter(bm => !bm.bookId || bm.bookId === activeBookId).map(bm => ({
+                label: `Seïf ${bm.seif} - ${bm.previewFrench || bm.previewHebrew}`,
+                value: bm.paragraphIndex
+              }))}
+              onChange={(val) => scrollToSeifCard(Number(val))}
+            />
+          )}
 
-            {/* Quick Marque-pages Dropdown if any exist */}
-            {bookmarks.filter(bm => !bm.bookId || bm.bookId === activeBookId).length > 0 && (
-              <div className="flex items-center gap-1.5">
-                <label className="text-[10px] uppercase tracking-widest text-amber-600 dark:text-amber-400 font-bold flex items-center gap-1">
-                  <Icon name="bookmark" className="w-3 h-3 text-amber-500 dark:text-amber-400 fill-amber-500 dark:fill-amber-400" />
-                  <span>Repères</span>
-                </label>
-                <select
-                  value=""
-                  onChange={(e) => {
-                    if (e.target.value !== "") scrollToSeifCard(Number(e.target.value));
-                  }}
-                  className="bg-zinc-50 dark:bg-zinc-800 border border-amber-500/40 rounded-lg px-2.5 py-1 text-xs font-semibold text-amber-600 dark:text-amber-300 focus:outline-none cursor-pointer"
-                >
-                  <option value="" disabled>Repères ({bookmarks.filter(bm => !bm.bookId || bm.bookId === activeBookId).length})...</option>
-                  {bookmarks
-                    .filter(bm => !bm.bookId || bm.bookId === activeBookId)
-                    .map((bm, i) => (
-                      <option key={i} value={bm.paragraphIndex}>
-                        Seïf {bm.seif || (bm.paragraphIndex + 1)}
-                      </option>
-                    ))}
-                </select>
-              </div>
-            )}
-          </div>
         </div>
       </section>
 
@@ -933,6 +990,7 @@ const ReaderScreen = ({
                     onToggleFavorite={onToggleFavorite}
                     onToggleBookmark={onToggleBookmark}
                     onWordClick={handleWordClick}
+                    onReportError={handleOpenReportModal}
                     setHoveredWordId={setHoveredWordId}
                     wordRefs={wordRefs}
                     isToolbarVisible={isToolbarVisible}
@@ -964,6 +1022,13 @@ const ReaderScreen = ({
           <span>{bookTitle} : {chapterTitle}</span>
         </div>
       </main>
+
+      {/* Report Modal */}
+      <ReportModal 
+        isOpen={isReportModalOpen} 
+        onClose={() => setIsReportModalOpen(false)} 
+        seifContext={selectedSeifForReport} 
+      />
     </div>
   );
 };

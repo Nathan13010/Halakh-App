@@ -44,13 +44,14 @@ export const SCORE_THRESHOLDS = {
 export const CHECK_WEIGHTS = {
   json_structure:     20,  // Clés manquantes → critique
   alignment_count:    20,  // Désalignement → critique
+  alignment_accuracy: 20,  // Décalage brutal des mots → critique
   no_terme:           15,  // "Terme" dans francais_mot → critique
   no_pipes:            5,  // Pipes dans le texte → mineur
   no_double_spaces:    3,  // Doubles espaces → cosmétique
   badge_correct:      10,  // Badge numérotation correct → important
   titre_seif_present:  5,  // Titre du seif présent → important
-  sujet_present:       5,  // Sujet et sujet_fr présents → important
-  ktiv_male:           8,  // Ktiv Male cohérent → important
+  sujet_present:       0,  // Sujet et sujet_fr présents → (Désactivé pour ne pas baisser le score)
+  // ktiv_male:           8,  // Ktiv Male cohérent → (Désactivé à la demande de l'utilisateur)
   no_punctuation_word: 5,  // Pas de ponctuation isolée → mineur
   no_empty_words:      7,  // Pas de mots vides → important
   no_hebrew_in_french: 7,  // Pas d'hébreu dans francais_mot → important
@@ -63,6 +64,7 @@ export const MAX_SCORE = Object.values(CHECK_WEIGHTS).reduce((a, b) => a + b, 0)
 export const CHECK_LABELS = {
   json_structure:     'Structure JSON',
   alignment_count:    'Alignement mots',
+  alignment_accuracy: 'Justesse alignement',
   no_terme:           'Pas de "Terme"',
   no_pipes:           'Pas de pipes |',
   no_double_spaces:   'Pas de doubles espaces',

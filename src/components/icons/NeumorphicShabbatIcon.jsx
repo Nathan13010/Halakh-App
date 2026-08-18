@@ -77,32 +77,14 @@ const NeumorphicShabbatIcon = ({ className = "w-12 h-12 shrink-0" }) => {
         </g>
         <defs>
           <filter id="filter0_ddi_dark" x="40" y="57.4658" width="262.347" height="284.88" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-            {/* Create the solid background for proper overlay blending in the browser */}
-            <feFlood floodColor="#25282D" floodOpacity="1" result="bg"/>
-            
-            {/* 1. White shadow (-12, -12, blur 20, white 0.4) */}
+            <feFlood floodOpacity="0" result="BackgroundImageFix"/>
             <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-            <feOffset dx="-12" dy="-12"/>
-            <feGaussianBlur stdDeviation="20"/>
+            <feOffset dx="6" dy="8"/>
+            <feGaussianBlur stdDeviation="6"/>
             <feComposite in2="hardAlpha" operator="out"/>
-            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0" result="whiteShadow"/>
-            <feBlend mode="overlay" in="whiteShadow" in2="bg" result="effect1_dropShadow_dark"/>
-            
-            {/* 2. Black shadow (12, 12, blur 20, black 0.44) */}
-            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-            <feOffset dx="12" dy="12"/>
-            <feGaussianBlur stdDeviation="20"/>
-            <feComposite in2="hardAlpha" operator="out"/>
-            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.44 0" result="blackShadow"/>
-            <feBlend mode="overlay" in="blackShadow" in2="effect1_dropShadow_dark" result="effect2_dropShadow_dark"/>
-            
-            <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_dark" result="shape"/>
-            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-            <feOffset dx="4" dy="4"/>
-            <feGaussianBlur stdDeviation="2.5"/>
-            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"/>
-            <feBlend mode="normal" in2="shape" result="effect3_innerShadow_dark"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.7 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_dark"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_dark" result="shape"/>
           </filter>
           <filter id="filter1_d_dark" x="62.3891" y="-9.91821e-05" width="217.436" height="149.659" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
             <feFlood floodOpacity="0" result="BackgroundImageFix"/>

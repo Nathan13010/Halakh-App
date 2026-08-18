@@ -88,8 +88,17 @@ Halakha Learning/
 
 ### 4. Assistant IA (AIScreen)
 - **Chat conversationnel** pour poser des questions halakhiques
-- Interface type messagerie instantanée
-- *(À développer : connexion à un vrai backend IA)*
+- **Architecture RAG (Retrieval-Augmented Generation) 100% Locale** :
+  - Un index lexical généré localement (`public/search_index.json`) regroupant 13 604 Seifim extraits du dossier `complet/`.
+  - Pas de base de données backend (Firestore) requise pour la recherche, ce qui permet de rester sous les limites du plan gratuit (Spark).
+- **Service IA (`aiService.js`)** :
+  1. *Traduction/Extraction* : Convertit la question française en mots-clés hébreux via Gemini.
+  2. *Recherche* : Cherche ces mots-clés dans l'index local.
+  3. *Validation (Anti-Hallucination)* : Envoie le contexte à Gemini et vérifie que les citations renvoyées par l'IA existent bien dans les sources fournies.
+- **État actuel (Août 2026)** : 
+  - L'implémentation frontend, la logique RAG (searchTopSources) et la connexion Gemini sont 100% développées.
+  - **Problème à résoudre** : Erreurs persistantes d'authentification et de modèles avec la Clé d'API. L'API (via le SDK standard `@google/genai` sur `generativelanguage.googleapis.com`) refuse la clé API fournie (`AQ...` ou `AIzaSy...`) avec l'erreur 400 API_KEY_INVALID ou 404 Model Not Found.
+  - *Prochaine étape (reprise)* : Créer une toute nouvelle clé API standard directement depuis [Google AI Studio](https://aistudio.google.com/), la remplacer dans `src/firebase.js` et s'assurer que le modèle défini dans l'API (`gemini-1.5-flash`) y est bien accessible sans restriction.
 
 ### 5. Paramètres (SettingsModal)
 - **Thème** : Mode sombre / clair
@@ -139,8 +148,8 @@ graph TD
 ## 🚀 Fonctionnalités Futures (Roadmap)
 
 ### Court terme
+- [ ] Résoudre le problème de clé API pour débloquer l'Assistant IA (Gemini)
 - [ ] Terminer la génération des Seifim 21 à 59 du Siman 1
-- [ ] Connecter l'assistant IA à un vrai backend (Gemini API)
 - [ ] Ajouter plus de quiz dans le parcours d'apprentissage
 
 ### Moyen terme
