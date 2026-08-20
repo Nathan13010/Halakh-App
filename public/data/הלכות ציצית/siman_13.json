@@ -1,0 +1,4868 @@
+{
+  "_meta": {
+    "source": "entree.txt (texte pré-vocalisé)",
+    "siman": 13,
+    "siman_hebrew": "יג",
+    "generated_at": "2026-08-20T13:57:07.779Z",
+    "total_seifim": 18
+  },
+  "halakhot": [
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Interdépendance des quatre franges du Tsitsit",
+      "siman": "13",
+      "seif": "1",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "א. ארבע ציציות מעכבות זו את זו, שכל זמן שאין בה כל הארבע ציציות אינה מצוייצת כהלכתה, והיוצא בה לרשות הרבים בשבת חייב חטאת. ולכרמלית אסור מדרבנן. [ילקו\"י על הל' ציצית, מהדורת תשס\"ד עמוד רכט. ובמהדורת תשס\"ו עמוד קסב. ושאר\"י ח\"א עמוד רט].",
+        "hebreu_avec_voyelles": "א אַרְבַּע צִיצִיּוֹת מְעַכְּבוֹת זוֹ אֶת זוֹ, שֶׁכָּל זְמַן שֶׁאֵין בָּהּ כָּל הָאַרְבַּע צִיצִיּוֹת אֵינָהּ מְצֻיֶּצֶת כְּהִלְכָתָהּ, וְהַיּוֹצֵא בָּהּ לִרְשׁוּת הָרַבִּים בְּשַׁבָּת חַיָּב חַטָּאת. וּלְכַרְמְלִית אָסוּר מִדְּרַבָּנַן. [ילקו\"י עַל הֵל' צִיצִית, מַהֲדוּרַת תשס\"ד עַמּוּד רכט. וּבְמַהֲדוּרַת תשס\"ו עַמּוּד קסב. ושאר\"י ח\"א עַמּוּד רט].",
+        "francais": "1. Les quatre franges (tsitsiyot) sont indispensables les unes aux autres : tant que le vêtement ne comporte pas ses quatre franges, il n'est pas muni de tsitsiyot conformément à la Halakha, et celui qui sort avec ce vêtement dans le domaine public le Chabbat est passible d'un sacrifice expiatoire (Hattat). Et vers un domaine semi-public (Karmelit), cela est interdit par décret rabbinique. [Yalkout Yossef sur les lois du Tsitsit, édition 5764, page 229 ; édition 5766, page 162 ; Che'erit Yossef vol. 1, page 209]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "א.",
+          "hebreu_voyelles": "א.",
+          "francais_mot": "1.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "ארבע",
+          "hebreu_voyelles": "אַרְבַּע",
+          "francais_mot": "Quatre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "ציציות",
+          "hebreu_voyelles": "צִיצִיּוֹת",
+          "francais_mot": "franges",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "מעכבות",
+          "hebreu_voyelles": "מְעַכְּבוֹת",
+          "francais_mot": "s'empêchent",
+          "expression_contexte": "מְעַכְּבוֹת זוֹ אֶת זוֹ = sont indispensables les unes aux autres",
+          "infinitif": "לְעַכֵּב = Empêcher / Retenir"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "זו",
+          "hebreu_voyelles": "זוֹ",
+          "francais_mot": "l'une",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[accusatif]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "זו,",
+          "hebreu_voyelles": "זוֹ,",
+          "francais_mot": "l'autre,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "שכל",
+          "hebreu_voyelles": "שֶׁכָּל",
+          "francais_mot": "car tout",
+          "expression_contexte": "שֶׁכָּל זְמַן = tant que"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "זמן",
+          "hebreu_voyelles": "זְמַן",
+          "francais_mot": "temps",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "qu'il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "en elle",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "toutes",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "הארבע",
+          "hebreu_voyelles": "הָאַרְבַּע",
+          "francais_mot": "les quatre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ציציות",
+          "hebreu_voyelles": "צִיצִיּוֹת",
+          "francais_mot": "franges",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "אינה",
+          "hebreu_voyelles": "אֵינָהּ",
+          "francais_mot": "elle n'est pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "מצוייצת",
+          "hebreu_voyelles": "מְצֻיֶּצֶת",
+          "francais_mot": "pourvue de tsitsiyot",
+          "expression_contexte": "",
+          "infinitif": "לְצַיֵּץ = Munir de tsitsiyot"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "כהלכתה,",
+          "hebreu_voyelles": "כְּהִלְכָתָהּ,",
+          "francais_mot": "selon sa règle,",
+          "expression_contexte": "כְּהִלְכָתָהּ = conformément à la Halakha"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "והיוצא",
+          "hebreu_voyelles": "וְהַיּוֹצֵא",
+          "francais_mot": "et celui qui sort",
+          "expression_contexte": "",
+          "infinitif": "לָצֵאת = Sortir"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "avec elle",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "vers le domaine",
+          "expression_contexte": "לִרְשׁוּת הָרַבִּים = dans le domaine public"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "הרבים",
+          "hebreu_voyelles": "הָרַבִּים",
+          "francais_mot": "public",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "le Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "חייב",
+          "hebreu_voyelles": "חַיָּב",
+          "francais_mot": "est passible de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "חטאת.",
+          "hebreu_voyelles": "חַטָּאת.",
+          "francais_mot": "sacrifice expiatoire.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "ולכרמלית",
+          "hebreu_voyelles": "וּלְכַרְמְלִית",
+          "francais_mot": "et vers un domaine semi-public",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "אסור",
+          "hebreu_voyelles": "אָסוּר",
+          "francais_mot": "interdit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "מדרבנן.",
+          "hebreu_voyelles": "מִדְּרַבָּנַן.",
+          "francais_mot": "par décret rabbinique.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "les lois de",
+          "expression_contexte": "הל' = הלכות"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "מהדורת",
+          "hebreu_voyelles": "מַהֲדוּרַת",
+          "francais_mot": "édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "תשס\"ד",
+          "hebreu_voyelles": "תשס\"ד",
+          "francais_mot": "5764",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "רכט.",
+          "hebreu_voyelles": "רכט.",
+          "francais_mot": "229.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "ובמהדורת",
+          "hebreu_voyelles": "וּבְמַהֲדוּרַת",
+          "francais_mot": "et dans l'édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "תשס\"ו",
+          "hebreu_voyelles": "תשס\"ו",
+          "francais_mot": "5766",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "קסב.",
+          "hebreu_voyelles": "קסב.",
+          "francais_mot": "162.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "et Che'erit Yossef",
+          "expression_contexte": "ושאר\"י = ושארית יוסף"
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1",
+          "expression_contexte": "ח\"א = חלק א'"
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "רט].",
+          "hebreu_voyelles": "רט].",
+          "francais_mot": "209].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 1
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Sortir avec un Talit dans le domaine public",
+      "siman": "13",
+      "seif": "2",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ב. אם הטלית מצוייצת כהלכתה מותר לצאת בה לרשות הרבים, בין טלית קטן בין טלית גדול, אפילו בזמן הזה שאין לנו תכלת, ואפילו בטלית של שאר מינין [לא של צמר ופשתים], כגון טלית משי, שחיובן רק מדרבנן. [ילקו\"י ציצית, עמוד רמד. ושאר\"י ח\"א עמוד רטז].",
+        "hebreu_avec_voyelles": "ב אִם הַטַּלִּית מְצֻיֶּצֶת כְּהִלְכָתָהּ מֻתָּר לָצֵאת בָּהּ לִרְשׁוּת הָרַבִּים, בֵּין טַלִּית קָטָן בֵּין טַלִּית גָּדוֹל, אֲפִלּוּ בַּזְּמַן הַזֶּה שֶׁאֵין לָנוּ תְּכֵלֶת, וַאֲפִלּוּ בְּטַלִּית שֶׁל שְׁאָר מִינִין [לֹא שֶׁל צֶמֶר וּפִשְׁתִּים], כְּגוֹן טַלִּית מֶשִׁי, שֶׁחִיּוּבָן רַק מִדְּרַבָּנַן. [ילקו\"י צִיצִית, עַמּוּד רמד. ושאר\"י ח\"א עַמּוּד רטז].",
+        "francais": "2. Si le Talit est pourvu de franges (Tsitsit) conformes à la halakha, il est permis de sortir avec dans le domaine public, qu'il s'agisse d'un Talit Katan ou d'un Talit Gadol, même à notre époque où nous n'avons pas le fil d'azur (Tékhélet), et même avec un Talit fait d'autres matières [qui ne sont pas de la laine ni du lin], comme un Talit en soie, dont l'obligation n'est que d'ordre rabbinique. [Yalkout Yossef Tsitsit, page 244 ; Che'erit Yossef vol. 1, page 216]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ב.",
+          "hebreu_voyelles": "ב.",
+          "francais_mot": "2.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "Si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "le Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "מצוייצת",
+          "hebreu_voyelles": "מְצֻיֶּצֶת",
+          "francais_mot": "est pourvu de franges",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "כהלכתה",
+          "hebreu_voyelles": "כְּהִלְכָתָהּ",
+          "francais_mot": "selon sa règle",
+          "expression_contexte": "conformément à la halakha"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "לצאת",
+          "hebreu_voyelles": "לָצֵאת",
+          "francais_mot": "de sortir",
+          "expression_contexte": "",
+          "infinitif": "לָצֵאת = Sortir"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "avec lui",
+          "expression_contexte": "avec le Talit"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "dans le domaine",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "הרבים,",
+          "hebreu_voyelles": "הָרַבִּים,",
+          "francais_mot": "public,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "בין",
+          "hebreu_voyelles": "בֵּין",
+          "francais_mot": "qu'il s'agisse de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "קטן",
+          "hebreu_voyelles": "קָטָן",
+          "francais_mot": "Katan",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "בין",
+          "hebreu_voyelles": "בֵּין",
+          "francais_mot": "ou de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "גדול,",
+          "hebreu_voyelles": "גָּדוֹל,",
+          "francais_mot": "Gadol,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "אפילו",
+          "hebreu_voyelles": "אֲפִלּוּ",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "בזמן",
+          "hebreu_voyelles": "בַּזְּמַן",
+          "francais_mot": "à l'époque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "הזה",
+          "hebreu_voyelles": "הַזֶּה",
+          "francais_mot": "actuelle",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "où il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "לנו",
+          "hebreu_voyelles": "לָנוּ",
+          "francais_mot": "pour nous",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "תכלת,",
+          "hebreu_voyelles": "תְּכֵלֶת,",
+          "francais_mot": "de fil d'azur,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "ואפילו",
+          "hebreu_voyelles": "וַאֲפִלּוּ",
+          "francais_mot": "et même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "בטלית",
+          "hebreu_voyelles": "בְּטַלִּית",
+          "francais_mot": "avec un Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "fait de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "שאר",
+          "hebreu_voyelles": "שְׁאָר",
+          "francais_mot": "d'autres",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "מינין",
+          "hebreu_voyelles": "מִינִין",
+          "francais_mot": "matières",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "[לא",
+          "hebreu_voyelles": "[לֹא",
+          "francais_mot": "[qui ne sont pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "צמר",
+          "hebreu_voyelles": "צֶמֶר",
+          "francais_mot": "laine",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "ופשתים],",
+          "hebreu_voyelles": "וּפִשְׁתִּים],",
+          "francais_mot": "ni de lin],",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "כגון",
+          "hebreu_voyelles": "כְּגוֹן",
+          "francais_mot": "comme",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "un Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "משי,",
+          "hebreu_voyelles": "מֶשִׁי,",
+          "francais_mot": "en soie,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "שחיובן",
+          "hebreu_voyelles": "שֶׁחִיּוּבָן",
+          "francais_mot": "dont l'obligation",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "רק",
+          "hebreu_voyelles": "רַק",
+          "francais_mot": "n'est que",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "מדרבנן.",
+          "hebreu_voyelles": "מִדְּרַבָּנַן.",
+          "francais_mot": "d'ordre rabbinique.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "רמד.",
+          "hebreu_voyelles": "רמד.",
+          "francais_mot": "244.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "et Che'erit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "רטז].",
+          "hebreu_voyelles": "רטז].",
+          "francais_mot": "216].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 2
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Porter un Talit le vendredi soir",
+      "siman": "13",
+      "seif": "3",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ג. מותר לצאת גם בליל שבת בטלית מצוייצת כהלכתה, כדרך לבושו, אף לרשות הרבים גמורה. [ילקו\"י על הל' ציצית, מהדו' תשס\"ד עמו' רמה. ובמהדו' תשס\"ו עמ' קעד. ושאר\"י ח\"א עמ' ריז].",
+        "hebreu_avec_voyelles": "ג מֻתָּר לָצֵאת גַּם בְּלֵיל שַׁבָּת בְּטַלִּית מְצֻיֶּצֶת כְּהִלְכָתָהּ, כְּדֶרֶךְ לְבוּשׁוֹ, אַף לִרְשׁוּת הָרַבִּים גְּמוּרָה. [ילקו\"י עַל הֵל' צִיצִית, מֵהַדּוּ' תשס\"ד עַמּוֹ' רָמָה. וּבְמַהַדּוֹ' תשס\"ו עמ' קעד. ושאר\"י ח\"א עמ' ריז].",
+        "francais": "3. Il est permis de sortir, même le soir de Chabbat, vêtu d'un talit muni de tsitsit conformément à la Halakha, de la manière habituelle dont on s'habille, même dans un domaine public absolu. [Yalkout Yossef sur les lois de la Tsitsit, éd. 5764, p. 245 ; et éd. 5766, p. 174 ; et Ché'érit Yossef vol. 1, p. 217]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ג.",
+          "hebreu_voyelles": "ג.",
+          "francais_mot": "3.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "Permis",
+          "expression_contexte": "Il est permis"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לצאת",
+          "hebreu_voyelles": "לָצֵאת",
+          "francais_mot": "De sortir",
+          "expression_contexte": "",
+          "infinitif": "לָצֵאת = Sortir"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "גם",
+          "hebreu_voyelles": "גַּם",
+          "francais_mot": "Même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "בליל",
+          "hebreu_voyelles": "בְּלֵיל",
+          "francais_mot": "Le soir de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "בטלית",
+          "hebreu_voyelles": "בְּטַלִּית",
+          "francais_mot": "Avec un talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "מצוייצת",
+          "hebreu_voyelles": "מְצֻיֶּצֶת",
+          "francais_mot": "Muni de tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "כהלכתה,",
+          "hebreu_voyelles": "כְּהִלְכָתָהּ,",
+          "francais_mot": "Conformément à la Halakha,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "כדרך",
+          "hebreu_voyelles": "כְּדֶרֶךְ",
+          "francais_mot": "Selon la façon de",
+          "expression_contexte": "De la manière habituelle"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "לבושו,",
+          "hebreu_voyelles": "לְבוּשׁוֹ,",
+          "francais_mot": "Son vêtement,",
+          "expression_contexte": "Dont on s'habille"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "אף",
+          "hebreu_voyelles": "אַף",
+          "francais_mot": "Même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "Vers le domaine",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "הרבים",
+          "hebreu_voyelles": "הָרַבִּים",
+          "francais_mot": "Public",
+          "expression_contexte": "Domaine public"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "גמורה.",
+          "hebreu_voyelles": "גְּמוּרָה.",
+          "francais_mot": "Absolu.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": "Abréviation de ילקוט יוסף"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "Sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "les lois de",
+          "expression_contexte": "Abréviation de הלכות"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "מהדו'",
+          "hebreu_voyelles": "מֵהַדּוּ'",
+          "francais_mot": "éd.",
+          "expression_contexte": "Abréviation de מהדורה (Édition)"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "תשס\"ד",
+          "hebreu_voyelles": "תשס\"ד",
+          "francais_mot": "5764",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "עמו'",
+          "hebreu_voyelles": "עַמּוֹ'",
+          "francais_mot": "p.",
+          "expression_contexte": "Abréviation de עמוד (Page)"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "רמה.",
+          "hebreu_voyelles": "רָמָה.",
+          "francais_mot": "245.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "ובמהדו'",
+          "hebreu_voyelles": "וּבְמַהַדּוֹ'",
+          "francais_mot": "et éd.",
+          "expression_contexte": "Et dans l'édition"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "תשס\"ו",
+          "hebreu_voyelles": "תשס\"ו",
+          "francais_mot": "5766",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "p.",
+          "expression_contexte": "Page"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "קעד.",
+          "hebreu_voyelles": "קעד.",
+          "francais_mot": "174.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "et Ché'érit Yossef",
+          "expression_contexte": "Abréviation de שארית יוסף"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1",
+          "expression_contexte": "Abréviation de חלק א (Partie 1)"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "p.",
+          "expression_contexte": "Page"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "ריז].",
+          "hebreu_voyelles": "ריז].",
+          "francais_mot": "217].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 3
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Sortir le Chabbat avec un Talit non vérifié",
+      "siman": "13",
+      "seif": "4",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ד. טלית שהחוטים בה לא נבדקו, אפילו הכי מותר לצאת בה בשבת לרשות הרבים, ואין חוששין שמא נקרעו החוטין, ואין צריך לבדוק הציציות קודם שיוצא לרשות הרבים, דמוקמינן אחזקתייהו.[ילקו\"י על הל' ציצית, מהדו' תשס\"ד עמו' רמה. ובמהדו' תשס\"ו עמ' קעד].",
+        "hebreu_avec_voyelles": "ד טַלִּית שֶׁהַחוּטִים בָּהּ לֹא נִבְדְּקוּ, אֲפִלּוּ הָכֵי מֻתָּר לָצֵאת בָּהּ בְּשַׁבָּת לִרְשׁוּת הָרַבִּים, וְאֵין חוֹשְׁשִׁין שֶׁמָּא נִקְרְעוּ הַחוּטִין, וְאֵין צָרִיךְ לִבְדֹּק הַצִּיצִיּוֹת קֹדֶם שֶׁיּוֹצֵא לִרְשׁוּת הָרַבִּים, דמוקמינן אחזקתייהו.[ילקו\"י עַל הֵל' צִיצִית, מֵהַדּוּ' תשס\"ד עַמּוֹ' רָמָה. וּבְמַהַדּוֹ' תשס\"ו עמ' קעד].",
+        "francais": "4. Un Talit dont les fils n'ont pas été vérifiés, il est malgré tout permis de sortir avec pendant le Chabbat dans le domaine public, et l'on ne craint pas que les fils se soient déchirés. Ainsi, il n'est pas nécessaire de vérifier les Tsitsit avant de sortir dans le domaine public, car on se base sur la présomption qu'ils sont valides. [Yalkout Yossef sur les lois de Tsitsit, éd. 5764, p. 245. Et éd. 5766, p. 174]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ד.",
+          "hebreu_voyelles": "ד.",
+          "francais_mot": "4.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Un Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שהחוטים",
+          "hebreu_voyelles": "שֶׁהַחוּטִים",
+          "francais_mot": "dont les fils",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "sur lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "לא",
+          "hebreu_voyelles": "לֹא",
+          "francais_mot": "n'ont pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "נבדקו,",
+          "hebreu_voyelles": "נִבְדְּקוּ,",
+          "francais_mot": "été vérifiés,",
+          "expression_contexte": "",
+          "infinitif": "לִבְדֹּק = Vérifier"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "אפילו",
+          "hebreu_voyelles": "אֲפִלּוּ",
+          "francais_mot": "même",
+          "expression_contexte": "אֲפִלּוּ הָכֵי = malgré tout"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "הכי",
+          "hebreu_voyelles": "הָכֵי",
+          "francais_mot": "ainsi",
+          "expression_contexte": "אֲפִלּוּ הָכֵי = malgré tout"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "לצאת",
+          "hebreu_voyelles": "לָצֵאת",
+          "francais_mot": "de sortir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "avec",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "pendant le Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "dans le domaine",
+          "expression_contexte": "לִרְשׁוּת הָרַבִּים = dans le domaine public"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "הרבים,",
+          "hebreu_voyelles": "הָרַבִּים,",
+          "francais_mot": "public,",
+          "expression_contexte": "לִרְשׁוּת הָרַבִּים = dans le domaine public"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "et l'on ne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "חוששין",
+          "hebreu_voyelles": "חוֹשְׁשִׁין",
+          "francais_mot": "craint pas",
+          "expression_contexte": "",
+          "infinitif": "לַחְשׁוֹשׁ = Craindre / Avoir peur"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "שמא",
+          "hebreu_voyelles": "שֶׁמָּא",
+          "francais_mot": "que peut-être",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "נקרעו",
+          "hebreu_voyelles": "נִקְרְעוּ",
+          "francais_mot": "se soient déchirés",
+          "expression_contexte": "",
+          "infinitif": "לְהִקָּרַע = Se déchirer"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "החוטין,",
+          "hebreu_voyelles": "הַחוּטִין,",
+          "francais_mot": "les fils,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "et il n'est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "pas nécessaire",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "לבדוק",
+          "hebreu_voyelles": "לִבְדֹּק",
+          "francais_mot": "de vérifier",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "הציציות",
+          "hebreu_voyelles": "הַצִּיצִיּוֹת",
+          "francais_mot": "les Tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "קודם",
+          "hebreu_voyelles": "קֹדֶם",
+          "francais_mot": "avant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "שיוצא",
+          "hebreu_voyelles": "שֶׁיּוֹצֵא",
+          "francais_mot": "de sortir",
+          "expression_contexte": "",
+          "infinitif": "לָצֵאת = Sortir"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "dans le domaine",
+          "expression_contexte": "לִרְשׁוּת הָרַבִּים = dans le domaine public"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "הרבים,",
+          "hebreu_voyelles": "הָרַבִּים,",
+          "francais_mot": "public,",
+          "expression_contexte": "לִרְשׁוּת הָרַבִּים = dans le domaine public"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "דמוקמינן",
+          "hebreu_voyelles": "דמוקמינן",
+          "francais_mot": "car on les maintient",
+          "expression_contexte": "דמוקמינן אחזקתייהו = car on se base sur la présomption qu'ils sont valides"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "אחזקתייהו.[ילקו\"י",
+          "hebreu_voyelles": "אחזקתייהו.[ילקו\"י",
+          "francais_mot": "sur leur présomption.[Yalkout Yossef",
+          "expression_contexte": "דמוקמינן אחזקתייהו = car on se base sur la présomption qu'ils sont valides"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "les lois de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "מהדו'",
+          "hebreu_voyelles": "מֵהַדּוּ'",
+          "francais_mot": "éd.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "תשס\"ד",
+          "hebreu_voyelles": "תשס\"ד",
+          "francais_mot": "5764,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "עמו'",
+          "hebreu_voyelles": "עַמּוֹ'",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "רמה.",
+          "hebreu_voyelles": "רָמָה.",
+          "francais_mot": "245.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "ובמהדו'",
+          "hebreu_voyelles": "וּבְמַהַדּוֹ'",
+          "francais_mot": "Et éd.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "תשס\"ו",
+          "hebreu_voyelles": "תשס\"ו",
+          "francais_mot": "5766,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "קעד].",
+          "hebreu_voyelles": "קעד].",
+          "francais_mot": "174].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 4
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Talit Katan trop petit le Chabbat",
+      "siman": "13",
+      "seif": "5",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ה. מותר לצאת בשבת לרשות הרבים בטלית קטן שאין בה כשיעור, אף אם אין שם עירוב. [ילקו\"י על הל' ציצית, עמוד רמז. ובמהדו' תשס\"ו עמ' קעה. ושאר\"י ח\"א עמוד ריח].",
+        "hebreu_avec_voyelles": "ה מֻתָּר לָצֵאת בְּשַׁבָּת לִרְשׁוּת הָרַבִּים בְּטַלִּית קָטָן שֶׁאֵין בָּהּ כְּשִׁעוּר, אַף אִם אֵין שָׁם עֵרוּב. [ילקו\"י עַל הֵל' צִיצִית, עַמּוּד רֶמֶז. וּבְמֶהַדּוּ' תשס\"ו עמ' קעה. ושאר\"י ח\"א עַמּוּד רֵיחַ].",
+        "francais": "5. Il est permis de sortir le Chabbat dans le domaine public en portant un Talit Katan qui n'a pas la taille minimale requise, même s'il n'y a pas d'Erouv à cet endroit. [Yalkout Yossef sur les Lois de Tsitsit, page 247 ; et dans l'édition 5766, page 175 ; et Ché'érit Yossef vol. 1, page 218]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ה.",
+          "hebreu_voyelles": "ה.",
+          "francais_mot": "5.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "permis",
+          "expression_contexte": "il est permis"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לצאת",
+          "hebreu_voyelles": "לָצֵאת",
+          "francais_mot": "de sortir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "le Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "dans le domaine",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "הרבים",
+          "hebreu_voyelles": "הָרַבִּים",
+          "francais_mot": "public",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "בטלית",
+          "hebreu_voyelles": "בְּטַלִּית",
+          "francais_mot": "en (portant un) Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "קטן",
+          "hebreu_voyelles": "קָטָן",
+          "francais_mot": "Katan",
+          "expression_contexte": "petit Talit"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "qui n'a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "en lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "כשיעור,",
+          "hebreu_voyelles": "כְּשִׁעוּר,",
+          "francais_mot": "la mesure requise,",
+          "expression_contexte": "la taille minimale requise"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "אף",
+          "hebreu_voyelles": "אַף",
+          "francais_mot": "même",
+          "expression_contexte": "même si"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "שם",
+          "hebreu_voyelles": "שָׁם",
+          "francais_mot": "là-bas",
+          "expression_contexte": "à cet endroit"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "עירוב.",
+          "hebreu_voyelles": "עֵרוּב.",
+          "francais_mot": "d'Erouv.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "les Lois de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "רמז.",
+          "hebreu_voyelles": "רֶמֶז.",
+          "francais_mot": "247.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "ובמהדו'",
+          "hebreu_voyelles": "וּבְמֶהַדּוּ'",
+          "francais_mot": "et dans l'édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "תשס\"ו",
+          "hebreu_voyelles": "תשס\"ו",
+          "francais_mot": "5766",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "קעה.",
+          "hebreu_voyelles": "קעה.",
+          "francais_mot": "175 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "et Ché'érit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "ריח].",
+          "hebreu_voyelles": "רֵיחַ].",
+          "francais_mot": "218].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 5
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Sortir le Chabbat avec un Talit emprunté",
+      "siman": "13",
+      "seif": "6",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ו. מותר לצאת בשבת בטלית שאולה לרשות הרבים. והמחמיר על עצמו תבוא עליו ברכה. [ילקו\"י ספר על הל' ציצית, עמוד רמח. ובמהדו' תשס\"ו עמ' קעו. ושאר\"י ח\"א עמוד ריט].",
+        "hebreu_avec_voyelles": "ו מֻתָּר לָצֵאת בְּשַׁבָּת בְּטַלִּית שְׁאוּלָה לִרְשׁוּת הָרַבִּים. וְהַמַּחֲמִיר עַל עַצְמוֹ תָּבוֹא עָלָיו בְּרָכָה. [ילקו\"י סֵפֶר עַל הֵל' צִיצִית, עַמּוּד רמח. וּבְמֶהַדּוּ' תשס\"ו עמ' קעו. ושאר\"י ח\"א עַמּוּד ריט].",
+        "francais": "6. Il est permis de sortir pendant le Chabbat dans le domaine public vêtu d'un Talit emprunté. Et celui qui s'impose une rigueur envers lui-même sera béni. [Yalkout Yossef, livre sur les lois de Tzitzit, page 248 ; et dans l'édition de 5766, page 176 ; et Che'erit Yossef, tome 1, page 219]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ו.",
+          "hebreu_voyelles": "ו.",
+          "francais_mot": "6.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לצאת",
+          "hebreu_voyelles": "לָצֵאת",
+          "francais_mot": "de sortir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "pendant le Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "בטלית",
+          "hebreu_voyelles": "בְּטַלִּית",
+          "francais_mot": "vêtu d'un Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "שאולה",
+          "hebreu_voyelles": "שְׁאוּלָה",
+          "francais_mot": "emprunté",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "dans le domaine",
+          "expression_contexte": "domaine public"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "הרבים.",
+          "hebreu_voyelles": "הָרַבִּים.",
+          "francais_mot": "public.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "והמחמיר",
+          "hebreu_voyelles": "וְהַמַּחֲמִיר",
+          "francais_mot": "Et celui qui s'impose une rigueur",
+          "expression_contexte": "",
+          "infinitif": "לְהַחְמִיר = Être rigoureux / S'imposer une rigueur"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "envers",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "עצמו",
+          "hebreu_voyelles": "עַצְמוֹ",
+          "francais_mot": "lui-même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "תבוא",
+          "hebreu_voyelles": "תָּבוֹא",
+          "francais_mot": "viendra",
+          "expression_contexte": "sera béni",
+          "infinitif": "לָבוֹא = Venir"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "עליו",
+          "hebreu_voyelles": "עָלָיו",
+          "francais_mot": "sur lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ברכה.",
+          "hebreu_voyelles": "בְּרָכָה.",
+          "francais_mot": "une bénédiction.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "ספר",
+          "hebreu_voyelles": "סֵפֶר",
+          "francais_mot": "livre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "les lois de",
+          "expression_contexte": "Halakhot"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tzitzit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "רמח.",
+          "hebreu_voyelles": "רמח.",
+          "francais_mot": "248 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "ובמהדו'",
+          "hebreu_voyelles": "וּבְמֶהַדּוּ'",
+          "francais_mot": "et dans l'édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "תשס\"ו",
+          "hebreu_voyelles": "תשס\"ו",
+          "francais_mot": "de 5766,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "קעו.",
+          "hebreu_voyelles": "קעו.",
+          "francais_mot": "176 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "et Che'erit Yossef,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "tome 1,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "ריט].",
+          "hebreu_voyelles": "ריט].",
+          "francais_mot": "219].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 6
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Sortir avec tallit sous un manteau",
+      "siman": "13",
+      "seif": "7",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ז. מותר להתעטף בטלית גדול וללבוש עליו מעיל חורף, ולצאת כך לרשות הרבים גם במקומות שאין בהם עירוב. [ילקו\"י על הל' ציצית, עמוד רמט. ושאר\"י ח\"א עמוד ריט].",
+        "hebreu_avec_voyelles": "ז מֻתָּר לְהִתְעַטֵּף בְּטַלִּית גָּדוֹל וְלִלְבֹּשׁ עָלָיו מְעִיל חֹרֶף, וְלָצֵאת כָּךְ לִרְשׁוּת הָרַבִּים גַּם בִּמְקוֹמוֹת שֶׁאֵין בָּהֶם עֵרוּב. [ילקו\"י עַל הֵל' צִיצִית, עַמּוּד רמט. ושאר\"י ח\"א עַמּוּד ריט].",
+        "francais": "7. Il est permis de s'envelopper d'un grand tallit, de porter par-dessus un manteau d'hiver et de sortir ainsi dans le domaine public, même dans des endroits où il n'y a pas d'érouv. [Yalkout Yossef sur les lois de Tzitzit, page 249 ; Che'erit Yossef vol. 1, page 219]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ז.",
+          "hebreu_voyelles": "ז.",
+          "francais_mot": "7.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "Il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "להתעטף",
+          "hebreu_voyelles": "לְהִתְעַטֵּף",
+          "francais_mot": "de s'envelopper",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְעַטֵּף = S'envelopper"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בטלית",
+          "hebreu_voyelles": "בְּטַלִּית",
+          "francais_mot": "d'un tallit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "גדול",
+          "hebreu_voyelles": "גָּדוֹל",
+          "francais_mot": "grand",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "וללבוש",
+          "hebreu_voyelles": "וְלִלְבֹּשׁ",
+          "francais_mot": "et de porter",
+          "expression_contexte": "",
+          "infinitif": "לִלְבֹּשׁ = Porter / Mettre (un vêtement)"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "עליו",
+          "hebreu_voyelles": "עָלָיו",
+          "francais_mot": "par-dessus",
+          "expression_contexte": "sur lui / par-dessus lui"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "מעיל",
+          "hebreu_voyelles": "מְעִיל",
+          "francais_mot": "un manteau",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "חורף,",
+          "hebreu_voyelles": "חֹרֶף,",
+          "francais_mot": "d'hiver,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "ולצאת",
+          "hebreu_voyelles": "וְלָצֵאת",
+          "francais_mot": "et de sortir",
+          "expression_contexte": "",
+          "infinitif": "לָצֵאת = Sortir"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "כך",
+          "hebreu_voyelles": "כָּךְ",
+          "francais_mot": "ainsi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "dans le domaine",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "הרבים",
+          "hebreu_voyelles": "הָרַבִּים",
+          "francais_mot": "public",
+          "expression_contexte": "רְשׁוּת הָרַבִּים = Domaine public"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "גם",
+          "hebreu_voyelles": "גַּם",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "במקומות",
+          "hebreu_voyelles": "בִּמְקוֹמוֹת",
+          "francais_mot": "dans des endroits",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "où il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "בהם",
+          "hebreu_voyelles": "בָּהֶם",
+          "francais_mot": "en eux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "עירוב.",
+          "hebreu_voyelles": "עֵרוּב.",
+          "francais_mot": "d'érouv.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "les lois de",
+          "expression_contexte": "הלכות = Lois de"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tzitzit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "רמט.",
+          "hebreu_voyelles": "רמט.",
+          "francais_mot": "249.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "et Che'erit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1",
+          "expression_contexte": "חלק א = Volume 1"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "ריט].",
+          "hebreu_voyelles": "ריט].",
+          "francais_mot": "219].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 7
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Interdiction d'attacher des Tsitsit le Chabbat",
+      "siman": "13",
+      "seif": "8",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ח. מי שאין לו ציצית בשבת, אסור להטיל ציציות בטלית של ד' כנפות בשבת, משום דקשר עליון מדאורייתא, ועובר על איסור קושר. [ילקו\"י ציצית עמוד רמט. ושאר\"י ח\"א עמ' רכ].",
+        "hebreu_avec_voyelles": "ח מִי שֶׁאֵין לוֹ צִיצִית בְּשַׁבָּת, אָסוּר לְהַטִּיל צִיצִיּוֹת בְּטַלִּית שֶׁל ד' כְּנָפוֹת בְּשַׁבָּת, מִשּׁוּם דְּקֶשֶׂר עֶלְיוֹן מִדְּאוֹרָיְתָא, וְעוֹבֵר עַל אִסּוּר קוֹשֵׁר. [ילקו\"י צִיצִית עַמּוּד רמט. ושאר\"י ח\"א עמ' רכ].",
+        "francais": "8. Celui qui n'a pas de Tsitsit le Chabbat, il lui est interdit d'attacher des franges (Tsitsit) sur un habit à quatre coins le Chabbat, car le nœud supérieur est de prescription torahique (d'Oraïta), et il transgresse ainsi l'interdiction d'attacher un nœud (Kosher). [Yalkout Yossef Tsitsit page 249 ; She'erit Yossef vol. 1 page 220]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ח.",
+          "hebreu_voyelles": "ח.",
+          "francais_mot": "8.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מי",
+          "hebreu_voyelles": "מִי",
+          "francais_mot": "Celui",
+          "expression_contexte": "Celui qui"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "qui n'a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "ציצית",
+          "hebreu_voyelles": "צִיצִית",
+          "francais_mot": "Tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "בשבת,",
+          "hebreu_voyelles": "בְּשַׁבָּת,",
+          "francais_mot": "le Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "אסור",
+          "hebreu_voyelles": "אָסוּר",
+          "francais_mot": "il est interdit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "להטיל",
+          "hebreu_voyelles": "לְהַטִּיל",
+          "francais_mot": "d'attacher",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "ציציות",
+          "hebreu_voyelles": "צִיצִיּוֹת",
+          "francais_mot": "des franges",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "בטלית",
+          "hebreu_voyelles": "בְּטַלִּית",
+          "francais_mot": "sur un habit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "quatre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "כנפות",
+          "hebreu_voyelles": "כְּנָפוֹת",
+          "francais_mot": "coins",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "בשבת,",
+          "hebreu_voyelles": "בְּשַׁבָּת,",
+          "francais_mot": "le Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "משום",
+          "hebreu_voyelles": "מִשּׁוּם",
+          "francais_mot": "car",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "דקשר",
+          "hebreu_voyelles": "דְּקֶשֶׂר",
+          "francais_mot": "le nœud",
+          "expression_contexte": "que le nœud"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "עליון",
+          "hebreu_voyelles": "עֶלְיוֹן",
+          "francais_mot": "supérieur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "מדאורייתא,",
+          "hebreu_voyelles": "מִדְּאוֹרָיְתָא,",
+          "francais_mot": "est de prescription torahique,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "ועובר",
+          "hebreu_voyelles": "וְעוֹבֵר",
+          "francais_mot": "et il transgresse",
+          "expression_contexte": "",
+          "infinitif": "לַעֲבוֹר = Transgresser"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "איסור",
+          "hebreu_voyelles": "אִסּוּר",
+          "francais_mot": "l'interdiction",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "קושר.",
+          "hebreu_voyelles": "קוֹשֵׁר.",
+          "francais_mot": "d'attacher un nœud.",
+          "expression_contexte": "",
+          "infinitif": "לִקְשׁוֹר = Nouer / Attacher"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "ציצית",
+          "hebreu_voyelles": "צִיצִית",
+          "francais_mot": "Tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "רמט.",
+          "hebreu_voyelles": "רמט.",
+          "francais_mot": "249 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "She'erit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "רכ].",
+          "hebreu_voyelles": "רכ].",
+          "francais_mot": "220].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 8
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Pliage du Talit pendant Chabbat",
+      "siman": "13",
+      "seif": "9",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ט. מותר לקפל את הטלית בשבת שלא כסדר קיפולו הראשון, אפילו אם אינו חוזר להתעטף בציצית בו ביום. והנוהגים לקפלו כסדר קיפולו הראשון, אין למחות בידם, שיש להם על מה שיסמוכו. [ילקו\"י ציצית עמו' רנב. ושאר\"י ח\"א עמו' רכ, וילקו\"י שבת ב' עמ' עט].",
+        "hebreu_avec_voyelles": "ט מֻתָּר לְקַפֵּל אֶת הַטַּלִּית בְּשַׁבָּת שֶׁלֹּא כְּסֵדֶר קִפּוּלוֹ הָרִאשׁוֹן, אֲפִלּוּ אִם אֵינוֹ חוֹזֵר לְהִתְעַטֵּף בְּצִיצִית בּוֹ בַּיּוֹם. וְהַנּוֹהֲגִים לְקִפְלוֹ כְּסֵדֶר קִפּוּלוֹ הָרִאשׁוֹן, אֵין לִמְחוֹת בְּיָדָם, שֶׁיֵּשׁ לָהֶם עַל מַה שֶּׁיִּסְמוֹכוּ. [ילקו\"י צִיצִית עַמּוֹ' רנב. ושאר\"י ח\"א עַמּוֹ' רכ, וילקו\"י שַׁבָּת ב' עמ' עֵט].",
+        "francais": "9. Il est permis de plier le Talit pendant Chabbat différemment de ses plis d'origine, même si l'on ne compte pas s'en envelopper à nouveau ce jour-même. Et quant à ceux qui ont la coutume de le plier selon ses plis d'origine, il ne faut pas les réprimander, car ils ont des autorités halakhiques sur lesquelles s'appuyer. [Yalkout Yossef Tsitsit page 252 ; Chérit Yossef volume 1 page 220 ; et Yalkout Yossef Chabbat volume 2 page 79]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ט.",
+          "hebreu_voyelles": "ט.",
+          "francais_mot": "9.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "Permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לקפל",
+          "hebreu_voyelles": "לְקַפֵּל",
+          "francais_mot": "de plier",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[déterminant]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "le Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "pendant Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "non",
+          "expression_contexte": "différemment de"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "כסדר",
+          "hebreu_voyelles": "כְּסֵדֶר",
+          "francais_mot": "selon l'ordre de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "קיפולו",
+          "hebreu_voyelles": "קִפּוּלוֹ",
+          "francais_mot": "son pliage",
+          "expression_contexte": "ses plis"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "הראשון,",
+          "hebreu_voyelles": "הָרִאשׁוֹן,",
+          "francais_mot": "premier,",
+          "expression_contexte": "d'origine"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "אפילו",
+          "hebreu_voyelles": "אֲפִלּוּ",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "אינו",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "il ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "חוזר",
+          "hebreu_voyelles": "חוֹזֵר",
+          "francais_mot": "revient",
+          "expression_contexte": "à nouveau",
+          "infinitif": "לַחֲזוֹר = Revenir"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "להתעטף",
+          "hebreu_voyelles": "לְהִתְעַטֵּף",
+          "francais_mot": "de s'envelopper",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "בציצית",
+          "hebreu_voyelles": "בְּצִיצִית",
+          "francais_mot": "dans le Tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "בו",
+          "hebreu_voyelles": "בּוֹ",
+          "francais_mot": "en ce",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "ביום.",
+          "hebreu_voyelles": "בַּיּוֹם.",
+          "francais_mot": "jour.",
+          "expression_contexte": "ce jour-même"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "והנוהגים",
+          "hebreu_voyelles": "וְהַנּוֹהֲגִים",
+          "francais_mot": "et ceux qui ont la coutume",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "לקפלו",
+          "hebreu_voyelles": "לְקִפְלוֹ",
+          "francais_mot": "de le plier",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "כסדר",
+          "hebreu_voyelles": "כְּסֵדֶר",
+          "francais_mot": "selon l'ordre de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "קיפולו",
+          "hebreu_voyelles": "קִפּוּלוֹ",
+          "francais_mot": "son pliage",
+          "expression_contexte": "ses plis"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "הראשון,",
+          "hebreu_voyelles": "הָרִאשׁוֹן,",
+          "francais_mot": "premier,",
+          "expression_contexte": "d'origine"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "il n'y a pas",
+          "expression_contexte": "il ne faut pas"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "למחות",
+          "hebreu_voyelles": "לִמְחוֹת",
+          "francais_mot": "à réprimander",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "בידם,",
+          "hebreu_voyelles": "בְּיָדָם,",
+          "francais_mot": "en leur main,",
+          "expression_contexte": "les réprimander"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "שיש",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "car il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "להם",
+          "hebreu_voyelles": "לָהֶם",
+          "francais_mot": "pour eux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "מה",
+          "hebreu_voyelles": "מַה",
+          "francais_mot": "ce que",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "שיסמוכו.",
+          "hebreu_voyelles": "שֶּׁיִּסְמוֹכוּ.",
+          "francais_mot": "qu'ils s'appuieront.",
+          "expression_contexte": "sur quoi s'appuyer",
+          "infinitif": "לִסְמֹךְ = S'appuyer"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "ציצית",
+          "hebreu_voyelles": "צִיצִית",
+          "francais_mot": "Tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "עמו'",
+          "hebreu_voyelles": "עַמּוֹ'",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "רנב.",
+          "hebreu_voyelles": "רנב.",
+          "francais_mot": "252.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "et Chérit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "עמו'",
+          "hebreu_voyelles": "עַמּוֹ'",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "רכ,",
+          "hebreu_voyelles": "רכ,",
+          "francais_mot": "220,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "וילקו\"י",
+          "hebreu_voyelles": "וילקו\"י",
+          "francais_mot": "et Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "ב'",
+          "hebreu_voyelles": "ב'",
+          "francais_mot": "vol. 2",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "עט].",
+          "hebreu_voyelles": "עֵט].",
+          "francais_mot": "79].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 9
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Interdépendance des quatre franges du Tzitzit",
+      "siman": "13",
+      "seif": "10",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "י. ארבע ציציות מעכבות זו את זו, שכל זמן שאין בה כל הארבע ציציות אינה מצוייצת כהלכתה, והיוצא בה לרשות הרבים בשבת חייב חטאת. ולכרמלית אסור מדרבנן. [ילקו\"י על הל' ציצית, מהדורת תשס\"ד עמוד רכט. ובמהדורת תשס\"ו עמוד קסב. ושאר\"י ח\"א עמוד רט].",
+        "hebreu_avec_voyelles": "י. אַרְבַּע צִיצִיּוֹת מְעַכְּבוֹת זוֹ אֶת זוֹ, שֶׁכָּל זְמַן שֶׁאֵין בָּהּ כָּל הָאַרְבַּע צִיצִיּוֹת אֵינָהּ מְצֻיֶּצֶת כְּהִלְכָתָהּ, וְהַיּוֹצֵא בָּהּ לִרְשׁוּת הָרַבִּים בְּשַׁבָּת חַיָּב חַטָּאת. וּלְכַרְמְלִית אָסוּר מִדְּרַבָּנַן. [ילקו\"י עַל הֵל' צִיצִית, מַהֲדוּרַת תשס\"ד עַמּוּד רכט. וּבְמַהֲדוּרַת תשס\"ו עַמּוּד קסב. ושאר\"י ח\"א עַמּוּד רט].",
+        "francais": "10. 1. Les quatre franges sont indispensables les unes aux autres : tant que le vêtement ne comporte pas l'intégralité des quatre franges, il n'est pas muni de Tzitzit conformément à la loi. Ainsi, celui qui sort avec ce vêtement dans le domaine public le Chabbat est redevable d'un sacrifice d'expiation (Hattat). Quant au fait de sortir avec dans un Karmelit, cela est interdit par décret rabbinique. [Yalkout Yossef sur les lois de Tzitzit, édition 5764, page 229 ; et dans l'édition 5766, page 162 ; et Che'erit Yossef vol. 1, page 209]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "י.",
+          "hebreu_voyelles": "י.",
+          "francais_mot": "10.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "ארבע",
+          "hebreu_voyelles": "אַרְבַּע",
+          "francais_mot": "quatre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "ציציות",
+          "hebreu_voyelles": "צִיצִיּוֹת",
+          "francais_mot": "franges",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "מעכבות",
+          "hebreu_voyelles": "מְעַכְּבוֹת",
+          "francais_mot": "sont indispensables",
+          "expression_contexte": "sont indispensables les unes aux autres",
+          "infinitif": "לְעַכֵּב = Empêcher / Rendre invalide"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "זו",
+          "hebreu_voyelles": "זוֹ",
+          "francais_mot": "l'une",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "à",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "זו,",
+          "hebreu_voyelles": "זוֹ,",
+          "francais_mot": "l'autre,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "שכל",
+          "hebreu_voyelles": "שֶׁכָּל",
+          "francais_mot": "car tout",
+          "expression_contexte": "tant que"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "זמן",
+          "hebreu_voyelles": "זְמַן",
+          "francais_mot": "temps",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "qu'il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "en lui",
+          "expression_contexte": "dans le vêtement"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "toutes",
+          "expression_contexte": "l'intégralité de"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "הארבע",
+          "hebreu_voyelles": "הָאַרְבַּע",
+          "francais_mot": "les quatre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ציציות",
+          "hebreu_voyelles": "צִיצִיּוֹת",
+          "francais_mot": "franges",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "אינה",
+          "hebreu_voyelles": "אֵינָהּ",
+          "francais_mot": "il n'est pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "מצוייצת",
+          "hebreu_voyelles": "מְצֻיֶּצֶת",
+          "francais_mot": "muni de Tzitzit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "כהלכתה,",
+          "hebreu_voyelles": "כְּהִלְכָתָהּ,",
+          "francais_mot": "selon sa loi,",
+          "expression_contexte": "conformément à la loi"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "והיוצא",
+          "hebreu_voyelles": "וְהַיּוֹצֵא",
+          "francais_mot": "et celui qui sort",
+          "expression_contexte": "",
+          "infinitif": "לָצֵאת = Sortir"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "avec lui",
+          "expression_contexte": "avec ce vêtement"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "dans le domaine",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "הרבים",
+          "hebreu_voyelles": "הָרַבִּים",
+          "francais_mot": "public",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "le Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "חייב",
+          "hebreu_voyelles": "חַיָּב",
+          "francais_mot": "est redevable de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "חטאת.",
+          "hebreu_voyelles": "חַטָּאת.",
+          "francais_mot": "un sacrifice d'expiation.",
+          "expression_contexte": "Hattat"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "ולכרמלית",
+          "hebreu_voyelles": "וּלְכַרְמְלִית",
+          "francais_mot": "et dans un Karmelit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "אסור",
+          "hebreu_voyelles": "אָסוּר",
+          "francais_mot": "est interdit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "מדרבנן.",
+          "hebreu_voyelles": "מִדְּרַבָּנַן.",
+          "francais_mot": "par décret rabbinique.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "les lois de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tzitzit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "מהדורת",
+          "hebreu_voyelles": "מַהֲדוּרַת",
+          "francais_mot": "édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "תשס\"ד",
+          "hebreu_voyelles": "תשס\"ד",
+          "francais_mot": "5764",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "רכט.",
+          "hebreu_voyelles": "רכט.",
+          "francais_mot": "229 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "ובמהדורת",
+          "hebreu_voyelles": "וּבְמַהֲדוּרַת",
+          "francais_mot": "et dans l'édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "תשס\"ו",
+          "hebreu_voyelles": "תשס\"ו",
+          "francais_mot": "5766,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "קסב.",
+          "hebreu_voyelles": "קסב.",
+          "francais_mot": "162 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "et Che'erit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "רט].",
+          "hebreu_voyelles": "רט].",
+          "francais_mot": "209].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 10
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Sortir dans le domaine public avec un Talit",
+      "siman": "13",
+      "seif": "11",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "יא. אם הטלית מצוייצת כהלכתה מותר לצאת בה לרשות הרבים, בין טלית קטן בין טלית גדול, אפילו בזמן הזה שאין לנו תכלת, ואפילו בטלית של שאר מינין [לא של צמר ופשתים], כגון טלית משי, שחיובן רק מדרבנן. [ילקו\"י ציצית, עמוד רמד. ושאר\"י ח\"א עמוד רטז].",
+        "hebreu_avec_voyelles": "יא. אִם הַטַּלִּית מְצֻיֶּצֶת כְּהִלְכָתָהּ מֻתָּר לָצֵאת בָּהּ לִרְשׁוּת הָרַבִּים, בֵּין טַלִּית קָטָן בֵּין טַלִּית גָּדוֹל, אֲפִלּוּ בַּזְּמַן הַזֶּה שֶׁאֵין לָנוּ תְּכֵלֶת, וַאֲפִלּוּ בְּטַלִּית שֶׁל שְׁאָר מִינִין [לֹא שֶׁל צֶמֶר וּפִשְׁתִּים], כְּגוֹן טַלִּית מֶשִׁי, שֶׁחִיּוּבָן רַק מִדְּרַבָּנַן. [ילקו\"י צִיצִית, עַמּוּד רמד. ושאר\"י ח\"א עַמּוּד רטז].",
+        "francais": "11. 2. Si le talit est muni de tsitsit conformément à la halakha, il est permis de sortir avec dans le domaine public, qu'il s'agisse d'un talit katan ou d'un talit gadol, même à notre époque où nous ne possédons pas le tekhelet, et même avec un talit constitué d'autres matières [qui ne sont pas de la laine ni du lin], comme un talit en soie, dont l'obligation n'est que d'origine rabbinique. [Yalkout Yossef Tsitsit, page 244 ; Che'erit Yossef vol. 1, page 216]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "יא.",
+          "hebreu_voyelles": "יא.",
+          "francais_mot": "11.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "le talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "מצוייצת",
+          "hebreu_voyelles": "מְצֻיֶּצֶת",
+          "francais_mot": "est muni de franges",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "כהלכתה",
+          "hebreu_voyelles": "כְּהִלְכָתָהּ",
+          "francais_mot": "conformément à sa règle",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "לצאת",
+          "hebreu_voyelles": "לָצֵאת",
+          "francais_mot": "de sortir",
+          "expression_contexte": "",
+          "infinitif": "לָצֵאת = Sortir"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "avec",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "dans le domaine",
+          "expression_contexte": "לרשות הרבים = dans le domaine public"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "הרבים,",
+          "hebreu_voyelles": "הָרַבִּים,",
+          "francais_mot": "public,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "בין",
+          "hebreu_voyelles": "בֵּין",
+          "francais_mot": "qu'il s'agisse",
+          "expression_contexte": "בין... בין... = qu'il s'agisse de... ou de..."
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "d'un talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "קטן",
+          "hebreu_voyelles": "קָטָן",
+          "francais_mot": "katan",
+          "expression_contexte": "טלית קטן = petit talit"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "בין",
+          "hebreu_voyelles": "בֵּין",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "d'un talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "גדול,",
+          "hebreu_voyelles": "גָּדוֹל,",
+          "francais_mot": "gadol,",
+          "expression_contexte": "טלית גדול = grand talit"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "אפילו",
+          "hebreu_voyelles": "אֲפִלּוּ",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "בזמן",
+          "hebreu_voyelles": "בַּזְּמַן",
+          "francais_mot": "à l'époque",
+          "expression_contexte": "בזמן הזה = à notre époque"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "הזה",
+          "hebreu_voyelles": "הַזֶּה",
+          "francais_mot": "actuelle",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "où nous n'avons pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "לנו",
+          "hebreu_voyelles": "לָנוּ",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "תכלת,",
+          "hebreu_voyelles": "תְּכֵלֶת,",
+          "francais_mot": "tekhelet,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "ואפילו",
+          "hebreu_voyelles": "וַאֲפִלּוּ",
+          "francais_mot": "et même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "בטלית",
+          "hebreu_voyelles": "בְּטַלִּית",
+          "francais_mot": "avec un talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "fait d'",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "שאר",
+          "hebreu_voyelles": "שְׁאָר",
+          "francais_mot": "autres",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "מינין",
+          "hebreu_voyelles": "מִינִין",
+          "francais_mot": "matières",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "[לא",
+          "hebreu_voyelles": "[לֹא",
+          "francais_mot": "[qui ne sont pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "צמר",
+          "hebreu_voyelles": "צֶמֶר",
+          "francais_mot": "laine",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "ופשתים],",
+          "hebreu_voyelles": "וּפִשְׁתִּים],",
+          "francais_mot": "ni de lin],",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "כגון",
+          "hebreu_voyelles": "כְּגוֹן",
+          "francais_mot": "comme",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "un talit en",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "משי,",
+          "hebreu_voyelles": "מֶשִׁי,",
+          "francais_mot": "soie,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "שחיובן",
+          "hebreu_voyelles": "שֶׁחִיּוּבָן",
+          "francais_mot": "dont l'obligation",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "רק",
+          "hebreu_voyelles": "רַק",
+          "francais_mot": "n'est que",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "מדרבנן.",
+          "hebreu_voyelles": "מִדְּרַבָּנַן.",
+          "francais_mot": "d'origine rabbinique.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "רמד.",
+          "hebreu_voyelles": "רמד.",
+          "francais_mot": "244.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "et Che'erit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "רטז].",
+          "hebreu_voyelles": "רטז].",
+          "francais_mot": "216].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 11
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Sortir le Chabbat avec un Talit conforme",
+      "siman": "13",
+      "seif": "12",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "יב. מותר לצאת גם בליל שבת בטלית מצוייצת כהלכתה, כדרך לבושו, אף לרשות הרבים גמורה. [ילקו\"י על הל' ציצית, מהדו' תשס\"ד עמו' רמה. ובמהדו' תשס\"ו עמ' קעד. ושאר\"י ח\"א עמ' ריז].",
+        "hebreu_avec_voyelles": "יב. ג מֻתָּר לָצֵאת גַּם בְּלֵיל שַׁבָּת בְּטַלִּית מְצֻיֶּצֶת כְּהִלְכָתָהּ, כְּדֶרֶךְ לְבוּשׁוֹ, אַף לִרְשׁוּת הָרַבִּים גְּמוּרָה. [ילקו\"י עַל הֵל' צִיצִית, מֵהַדּוּ' תשס\"ד עַמּוֹ' רָמָה. וּבְמַהַדּוֹ' תשס\"ו עמ' קעד. ושאר\"י ח\"א עמ' ריז].",
+        "francais": "12. 3. Il est permis de sortir, même le vendredi soir, vêtu d'un Talit muni de Tzitzit conformes à la Halakha, selon la manière habituelle de se vêtir, y compris dans un domaine public absolu. [Yalkout Yossef sur les lois de Tzitzit, éd. 5764, p. 245 ; éd. 5766, p. 174 ; Ché'érit Yossef vol. 1, p. 217]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "יב.",
+          "hebreu_voyelles": "יב.",
+          "francais_mot": "12.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "ג",
+          "francais_mot": "Il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לצאת",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "de sortir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "גם",
+          "hebreu_voyelles": "לָצֵאת",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "בליל",
+          "hebreu_voyelles": "גַּם",
+          "francais_mot": "la nuit de",
+          "expression_contexte": "בליל שבת = le vendredi soir"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "בְּלֵיל",
+          "francais_mot": "Shabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "בטלית",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "vêtu d'un Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "מצוייצת",
+          "hebreu_voyelles": "בְּטַלִּית",
+          "francais_mot": "muni de Tzitzit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "כהלכתה,",
+          "hebreu_voyelles": "מְצֻיֶּצֶת",
+          "francais_mot": "conformes à la Halakha,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "כדרך",
+          "hebreu_voyelles": "כְּהִלְכָתָהּ,",
+          "francais_mot": "selon la manière",
+          "expression_contexte": "כדרך לבושו = selon la manière habituelle de s'habiller"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "לבושו,",
+          "hebreu_voyelles": "כְּדֶרֶךְ",
+          "francais_mot": "de son vêtement,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "אף",
+          "hebreu_voyelles": "לְבוּשׁוֹ,",
+          "francais_mot": "y compris",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "אַף",
+          "francais_mot": "dans le domaine",
+          "expression_contexte": "לרשות הרבים = dans le domaine public"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "הרבים",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "public",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "גמורה.",
+          "hebreu_voyelles": "הָרַבִּים",
+          "francais_mot": "absolu.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "גְּמוּרָה.",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "les lois de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "Tzitzit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "מהדו'",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "éd.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "תשס\"ד",
+          "hebreu_voyelles": "מֵהַדּוּ'",
+          "francais_mot": "5764,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "עמו'",
+          "hebreu_voyelles": "תשס\"ד",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "רמה.",
+          "hebreu_voyelles": "עַמּוֹ'",
+          "francais_mot": "245 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "ובמהדו'",
+          "hebreu_voyelles": "רָמָה.",
+          "francais_mot": "éd.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "תשס\"ו",
+          "hebreu_voyelles": "וּבְמַהַדּוֹ'",
+          "francais_mot": "5766,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "תשס\"ו",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "קעד.",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "174 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "קעד.",
+          "francais_mot": "Ché'érit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "vol. 1,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "ריז].",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "217].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 12
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Port du Talit non vérifié le Chabbat",
+      "siman": "13",
+      "seif": "13",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "יג. טלית שהחוטים בה לא נבדקו, אפילו הכי מותר לצאת בה בשבת לרשות הרבים, ואין חוששין שמא נקרעו החוטין, ואין צריך לבדוק הציציות קודם שיוצא לרשות הרבים, דמוקמינן אחזקתייהו. [ילקו\"י על הל' ציצית, מהדו' תשס\"ד עמו' רמה. ובמהדו' תשס\"ו עמ' קעד].",
+        "hebreu_avec_voyelles": "יג. טַלִּית שֶׁהַחוּטִים בָּהּ לֹא נִבְדְּקוּ, אֲפִלּוּ הָכֵי מֻתָּר לָצֵאת בָּהּ בְּשַׁבָּת לִרְשׁוּת הָרַבִּים, וְאֵין חוֹשְׁשִׁין שֶׁמָּא נִקְרְעוּ הַחוּטִין, וְאֵין צָרִיךְ לִבְדֹּק הַצִּיצִיּוֹת קֹדֶם שֶׁיּוֹצֵא לִרְשׁוּת הָרַבִּים, דמוקמינן אַחְזָקָתַיְהוּ. [ילקו\"י עַל הֵל' צִיצִית, מֵהַדּוּ' תשס\"ד עַמּוֹ' רָמָה. וּבְמַהַדּוֹ' תשס\"ו עמ' קעד].",
+        "francais": "13. 4. Un Talit dont les fils n'ont pas été vérifiés, il est malgré tout permis de sortir avec pendant le Chabbat dans le domaine public, et l'on ne craint pas que les fils se soient déchirés, et il n'est pas nécessaire de vérifier les Tsitsiot avant de sortir dans le domaine public, car on les maintient sur leur présomption de validité. [Yalkout Yossef sur les lois de Tsitsit, éd. 5764, p. 245. Et éd. 5766, p. 174]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "יג.",
+          "hebreu_voyelles": "יג.",
+          "francais_mot": "13.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Un Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שהחוטים",
+          "hebreu_voyelles": "שֶׁהַחוּטִים",
+          "francais_mot": "dont les fils",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "en lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "לא",
+          "hebreu_voyelles": "לֹא",
+          "francais_mot": "ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "נבדקו,",
+          "hebreu_voyelles": "נִבְדְּקוּ,",
+          "francais_mot": "ont été vérifiés,",
+          "expression_contexte": "",
+          "infinitif": "לְהִבָּדֵק = Être vérifié"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "אפילו",
+          "hebreu_voyelles": "אֲפִלּוּ",
+          "francais_mot": "même",
+          "expression_contexte": "אפילו הכי = malgré tout"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "הכי",
+          "hebreu_voyelles": "הָכֵי",
+          "francais_mot": "ainsi",
+          "expression_contexte": "אפילו הכי = malgré tout"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "לצאת",
+          "hebreu_voyelles": "לָצֵאת",
+          "francais_mot": "de sortir",
+          "expression_contexte": "",
+          "infinitif": "לָצֵאת = Sortir"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "avec lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "pendant le Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "dans le domaine",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "הרבים,",
+          "hebreu_voyelles": "הָרַבִּים,",
+          "francais_mot": "public,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "et l'on ne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "חוששין",
+          "hebreu_voyelles": "חוֹשְׁשִׁין",
+          "francais_mot": "craint pas",
+          "expression_contexte": "",
+          "infinitif": "לַחְשֹׁשׁ = Craindre / S'inquiéter"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "שמא",
+          "hebreu_voyelles": "שֶׁמָּא",
+          "francais_mot": "que",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "נקרעו",
+          "hebreu_voyelles": "נִקְרְעוּ",
+          "francais_mot": "se soient déchirés",
+          "expression_contexte": "",
+          "infinitif": "לְהִקָּרַע = Se déchirer"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "החוטין,",
+          "hebreu_voyelles": "הַחוּטִין,",
+          "francais_mot": "les fils,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "et il n'est pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "nécessaire",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "לבדוק",
+          "hebreu_voyelles": "לִבְדֹּק",
+          "francais_mot": "de vérifier",
+          "expression_contexte": "",
+          "infinitif": "לִבְדֹּק = Vérifier"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "הציציות",
+          "hebreu_voyelles": "הַצִּיצִיּוֹת",
+          "francais_mot": "les Tsitsiot",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "קודם",
+          "hebreu_voyelles": "קֹדֶם",
+          "francais_mot": "avant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "שיוצא",
+          "hebreu_voyelles": "שֶׁיּוֹצֵא",
+          "francais_mot": "de sortir",
+          "expression_contexte": "",
+          "infinitif": "לָצֵאת = Sortir"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "dans le domaine",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "הרבים,",
+          "hebreu_voyelles": "הָרַבִּים,",
+          "francais_mot": "public,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "דמוקמינן",
+          "hebreu_voyelles": "דמוקמינן",
+          "francais_mot": "car on les maintient",
+          "expression_contexte": "",
+          "infinitif": "לְהַעֲמִיד = Maintenir / Placer"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "אחזקתייהו.",
+          "hebreu_voyelles": "אַחְזָקָתַיְהוּ.",
+          "francais_mot": "sur leur présomption de validité.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "les lois de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "מהדו'",
+          "hebreu_voyelles": "מֵהַדּוּ'",
+          "francais_mot": "éd.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "תשס\"ד",
+          "hebreu_voyelles": "תשס\"ד",
+          "francais_mot": "5764",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "עמו'",
+          "hebreu_voyelles": "עַמּוֹ'",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "רמה.",
+          "hebreu_voyelles": "רָמָה.",
+          "francais_mot": "245.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "ובמהדו'",
+          "hebreu_voyelles": "וּבְמַהַדּוֹ'",
+          "francais_mot": "Et éd.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "תשס\"ו",
+          "hebreu_voyelles": "תשס\"ו",
+          "francais_mot": "5766",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "קעד].",
+          "hebreu_voyelles": "קעד].",
+          "francais_mot": "174].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 13
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Sortir le Chabbat en Tallit Katan trop petit",
+      "siman": "13",
+      "seif": "14",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "יד. מותר לצאת בשבת לרשות הרבים בטלית קטן שאין בה כשיעור, אף אם אין שם עירוב. [ילקו\"י על הל' ציצית, עמוד רמז. ובמהדו' תשס\"ו עמ' קעה. ושאר\"י ח\"א עמוד ריח].",
+        "hebreu_avec_voyelles": "יד. ה מֻתָּר לָצֵאת בְּשַׁבָּת לִרְשׁוּת הָרַבִּים בְּטַלִּית קָטָן שֶׁאֵין בָּהּ כְּשִׁעוּר, אַף אִם אֵין שָׁם עֵרוּב. [ילקו\"י עַל הֵל' צִיצִית, עַמּוּד רֶמֶז. וּבְמֶהַדּוּ' תשס\"ו עמ' קעה. ושאר\"י ח\"א עַמּוּד רֵיחַ].",
+        "francais": "14. 5. Il est permis de sortir le Chabbat dans le domaine public en portant un Tallit Katan qui n'a pas la taille minimale requise, même s'il n'y a pas d'Érouv. [Yalkout Yossef sur les lois de Tsitsit, page 247. Et dans l'édition de 5766, page 175. Et Che'erit Yossef, vol. 1, page 218]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "יד.",
+          "hebreu_voyelles": "יד.",
+          "francais_mot": "14.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "ה",
+          "francais_mot": "Il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לצאת",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "de sortir",
+          "expression_contexte": "",
+          "infinitif": "לָצֵאת = Sortir"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "לָצֵאת",
+          "francais_mot": "le Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "dans le domaine",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "הרבים",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "public",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "בטלית",
+          "hebreu_voyelles": "הָרַבִּים",
+          "francais_mot": "en portant un Tallit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "קטן",
+          "hebreu_voyelles": "בְּטַלִּית",
+          "francais_mot": "Katan",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "קָטָן",
+          "francais_mot": "qui n'a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "en lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "כשיעור,",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "la taille requise,",
+          "expression_contexte": "la mesure minimale requise"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "אף",
+          "hebreu_voyelles": "כְּשִׁעוּר,",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אַף",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "שם",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "là-bas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "עירוב.",
+          "hebreu_voyelles": "שָׁם",
+          "francais_mot": "d'Érouv.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "עֵרוּב.",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "les lois de",
+          "expression_contexte": "Abréviation de Halakhot"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "רמז.",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "247.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "ובמהדו'",
+          "hebreu_voyelles": "רֶמֶז.",
+          "francais_mot": "Et dans l'édition de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "תשס\"ו",
+          "hebreu_voyelles": "וּבְמֶהַדּוּ'",
+          "francais_mot": "5766",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "תשס\"ו",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "קעה.",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "175.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "קעה.",
+          "francais_mot": "Et Che'erit Yossef,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "vol. 1,",
+          "expression_contexte": "Chelek Aleph (Partie 1)"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "ריח].",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "218].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 14
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Port d'un Talit emprunté le Chabbat",
+      "siman": "13",
+      "seif": "15",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "טו. מותר לצאת בשבת בטלית שאולה לרשות הרבים. והמחמיר על עצמו תבוא עליו ברכה. [ילקו\"י ספר על הל' ציצית, עמוד רמח. ובמהדו' תשס\"ו עמ' קעו. ושאר\"י ח\"א עמוד ריט].",
+        "hebreu_avec_voyelles": "טו. ו מֻתָּר לָצֵאת בְּשַׁבָּת בְּטַלִּית שְׁאוּלָה לִרְשׁוּת הָרַבִּים. וְהַמַּחֲמִיר עַל עַצְמוֹ תָּבוֹא עָלָיו בְּרָכָה. [ילקו\"י סֵפֶר עַל הֵל' צִיצִית, עַמּוּד רמח. וּבְמֶהַדּוּ' תשס\"ו עמ' קעו. ושאר\"י ח\"א עַמּוּד ריט].",
+        "francais": "15. 6. Il est permis de sortir le Chabbat dans le domaine public vêtu d'un Talit emprunté. Toutefois, celui qui se montre rigoureux envers lui-même sera béni. [Yalkout Yossef, livre sur les lois de Tsitsit, page 248 ; et dans l'édition 5766, page 176 ; et Che'erit Yossef, volume 1, page 219]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "טו.",
+          "hebreu_voyelles": "טו.",
+          "francais_mot": "15.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "ו",
+          "francais_mot": "Il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לצאת",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "de sortir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "לָצֵאת",
+          "francais_mot": "le Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "בטלית",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "vêtu d'un Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "שאולה",
+          "hebreu_voyelles": "בְּטַלִּית",
+          "francais_mot": "emprunté",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "שְׁאוּלָה",
+          "francais_mot": "dans le domaine",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "הרבים.",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "public.",
+          "expression_contexte": "רְשׁוּת הָרַבִּים = Domaine public"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "והמחמיר",
+          "hebreu_voyelles": "הָרַבִּים.",
+          "francais_mot": "Toutefois, celui qui se montre rigoureux",
+          "expression_contexte": "",
+          "infinitif": "לְהַחְמִיר = Se montrer rigoureux"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "וְהַמַּחֲמִיר",
+          "francais_mot": "envers",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "עצמו",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "lui-même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "תבוא",
+          "hebreu_voyelles": "עַצְמוֹ",
+          "francais_mot": "viendra",
+          "expression_contexte": "",
+          "infinitif": "לָבוֹא = Venir"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "עליו",
+          "hebreu_voyelles": "תָּבוֹא",
+          "francais_mot": "sur lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ברכה.",
+          "hebreu_voyelles": "עָלָיו",
+          "francais_mot": "une bénédiction.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "בְּרָכָה.",
+          "francais_mot": "[Yalkout Yossef,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "ספר",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "livre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "סֵפֶר",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "les lois de",
+          "expression_contexte": "abréviation de הלכות"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "רמח.",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "248 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "ובמהדו'",
+          "hebreu_voyelles": "רמח.",
+          "francais_mot": "et dans l'édition",
+          "expression_contexte": "abréviation de במהדורה"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "תשס\"ו",
+          "hebreu_voyelles": "וּבְמֶהַדּוּ'",
+          "francais_mot": "5766,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "תשס\"ו",
+          "francais_mot": "page",
+          "expression_contexte": "abréviation de עמוד"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "קעו.",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "176 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "קעו.",
+          "francais_mot": "et Che'erit Yossef,",
+          "expression_contexte": "abréviation de ושארית יוסף"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "volume 1,",
+          "expression_contexte": "abréviation de חלק א"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "ריט].",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "219].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 15
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Port du Tallit sous un manteau sans Erouv",
+      "siman": "13",
+      "seif": "16",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "טז. מותר להתעטף בטלית גדול וללבוש עליו מעיל חורף, ולצאת כך לרשות הרבים גם במקומות שאין בהם עירוב. [ילקו י על הל' ציצית, עמוד רמט. ושאר י ח א עמוד ריט].",
+        "hebreu_avec_voyelles": "טז. ז מֻתָּר לְהִתְעַטֵּף בְּטַלִּית גָּדוֹל וְלִלְבֹּשׁ עָלָיו מְעִיל חֹרֶף, וְלָצֵאת כָּךְ לִרְשׁוּת הָרַבִּים גַּם בִּמְקוֹמוֹת שֶׁאֵין בָּהֶם עֵרוּב. [ילקו\"י עַל הֵל' צִיצִית, עַמּוּד רמט. ושאר\"י ח\"א עַמּוּד ריט].",
+        "francais": "16. 7. Il est permis de s'envelopper dans un grand Tallit, de porter par-dessus un manteau d'hiver et de sortir ainsi dans le domaine public, même dans les endroits dépourvus d'Erouv. [Yalkout Yossef sur les lois du Tsitsit, page 249 ; et Ché'érit Yossef tome 1, page 219]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "טז.",
+          "hebreu_voyelles": "טז.",
+          "francais_mot": "16.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "ז",
+          "francais_mot": "Il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "להתעטף",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "de s'envelopper",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְעַטֵּף = S'envelopper"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בטלית",
+          "hebreu_voyelles": "לְהִתְעַטֵּף",
+          "francais_mot": "dans un Tallit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "גדול",
+          "hebreu_voyelles": "בְּטַלִּית",
+          "francais_mot": "grand",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "וללבוש",
+          "hebreu_voyelles": "גָּדוֹל",
+          "francais_mot": "et de porter",
+          "expression_contexte": "",
+          "infinitif": "לִלְבֹּשׁ = Porter"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "עליו",
+          "hebreu_voyelles": "וְלִלְבֹּשׁ",
+          "francais_mot": "par-dessus",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "מעיל",
+          "hebreu_voyelles": "עָלָיו",
+          "francais_mot": "un manteau",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "חורף,",
+          "hebreu_voyelles": "מְעִיל",
+          "francais_mot": "d'hiver,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "ולצאת",
+          "hebreu_voyelles": "חֹרֶף,",
+          "francais_mot": "et de sortir",
+          "expression_contexte": "",
+          "infinitif": "לָצֵאת = Sortir"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "כך",
+          "hebreu_voyelles": "וְלָצֵאת",
+          "francais_mot": "ainsi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "לרשות",
+          "hebreu_voyelles": "כָּךְ",
+          "francais_mot": "dans le domaine",
+          "expression_contexte": "לִרְשׁוּת הָרַבִּים = Dans le domaine public"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "הרבים",
+          "hebreu_voyelles": "לִרְשׁוּת",
+          "francais_mot": "public",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "גם",
+          "hebreu_voyelles": "הָרַבִּים",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "במקומות",
+          "hebreu_voyelles": "גַּם",
+          "francais_mot": "dans des endroits",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "בִּמְקוֹמוֹת",
+          "francais_mot": "où il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "בהם",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "en eux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "עירוב.",
+          "hebreu_voyelles": "בָּהֶם",
+          "francais_mot": "d'Erouv.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "[ילקו",
+          "hebreu_voyelles": "עֵרוּב.",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "Yossef",
+          "expression_contexte": "ילקו\"י = Yalkout Yossef"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "les lois de",
+          "expression_contexte": "הל' = הלכות (lois de)"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "רמט.",
+          "hebreu_voyelles": "רמט.",
+          "francais_mot": "249.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "ושאר",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "et Ché'érit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "י",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "Yossef",
+          "expression_contexte": "ושאר\"י = ושארית יוסף (et Ché'érit Yossef)"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "ח",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "tome",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "א",
+          "hebreu_voyelles": "ריט].",
+          "francais_mot": "1",
+          "expression_contexte": "ח\"א = חלק א (tome 1)"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "ריט].",
+          "hebreu_voyelles": "ריט].",
+          "francais_mot": "219].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 16
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Interdiction d'attacher des tsitsit le Chabbat",
+      "siman": "13",
+      "seif": "17",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "יז. מי שאין לו ציצית בשבת, אסור להטיל ציציות בטלית של ד' כנפות בשבת, משום דקשר עליון מדאורייתא, ועובר על איסור קושר. [ילקו\"י ציצית עמוד רמט. ושאר\"י ח\"א עמ' רכ].",
+        "hebreu_avec_voyelles": "יז. מִי שֶׁאֵין לוֹ צִיצִית בְּשַׁבָּת, אָסוּר לְהַטִּיל צִיצִיּוֹת בְּטַלִּית שֶׁל ד' כְּנָפוֹת בְּשַׁבָּת, מִשּׁוּם דְּקֶשֶׂר עֶלְיוֹן מִדְּאוֹרָיְתָא, וְעוֹבֵר עַל אִסּוּר קוֹשֵׁר. [ילקו\"י צִיצִית עַמּוּד רמט. ושאר\"י ח\"א עמ' רכ].",
+        "francais": "17. 8. Celui qui n'a pas de tsitsit le Chabbat, il lui est interdit d'attacher des tsitsit sur un talit à quatre coins pendant le Chabbat, car le nœud supérieur est un interdit d'origine torahique (d'Oraïta), et il transgresse ainsi l'interdiction de nouer (Kocher). [Yalkout Yossef Tsitsit page 249 ; She'erit Yossef vol. 1 page 220]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "יז.",
+          "hebreu_voyelles": "יז.",
+          "francais_mot": "17.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מי",
+          "hebreu_voyelles": "מִי",
+          "francais_mot": "celui",
+          "expression_contexte": "celui qui"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "qui n'a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "de",
+          "expression_contexte": "pour lui"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "ציצית",
+          "hebreu_voyelles": "צִיצִית",
+          "francais_mot": "tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "בשבת,",
+          "hebreu_voyelles": "בְּשַׁבָּת,",
+          "francais_mot": "le Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "אסור",
+          "hebreu_voyelles": "אָסוּר",
+          "francais_mot": "il est interdit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "להטיל",
+          "hebreu_voyelles": "לְהַטִּיל",
+          "francais_mot": "d'attacher",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "ציציות",
+          "hebreu_voyelles": "צִיצִיּוֹת",
+          "francais_mot": "des tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "בטלית",
+          "hebreu_voyelles": "בְּטַלִּית",
+          "francais_mot": "sur un talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "à",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "quatre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "כנפות",
+          "hebreu_voyelles": "כְּנָפוֹת",
+          "francais_mot": "coins",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "בשבת,",
+          "hebreu_voyelles": "בְּשַׁבָּת,",
+          "francais_mot": "pendant le Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "משום",
+          "hebreu_voyelles": "מִשּׁוּם",
+          "francais_mot": "car",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "דקשר",
+          "hebreu_voyelles": "דְּקֶשֶׂר",
+          "francais_mot": "le nœud",
+          "expression_contexte": "parce que le nœud"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "עליון",
+          "hebreu_voyelles": "עֶלְיוֹן",
+          "francais_mot": "supérieur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "מדאורייתא,",
+          "hebreu_voyelles": "מִדְּאוֹרָיְתָא,",
+          "francais_mot": "d'origine torahique,",
+          "expression_contexte": "d'Oraïta"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "ועובר",
+          "hebreu_voyelles": "וְעוֹבֵר",
+          "francais_mot": "et il transgresse",
+          "expression_contexte": "",
+          "infinitif": "לַעֲבוֹר = Transgresser"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "איסור",
+          "hebreu_voyelles": "אִסּוּר",
+          "francais_mot": "l'interdiction de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "קושר.",
+          "hebreu_voyelles": "קוֹשֵׁר.",
+          "francais_mot": "nouer.",
+          "expression_contexte": "Kocher",
+          "infinitif": "לִקְשׁוֹר = Nouer"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "ציצית",
+          "hebreu_voyelles": "צִיצִית",
+          "francais_mot": "Tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "רמט.",
+          "hebreu_voyelles": "רמט.",
+          "francais_mot": "249 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "She'erit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "רכ].",
+          "hebreu_voyelles": "רכ].",
+          "francais_mot": "220].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 17
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Pliage du tallit pendant le Shabbat",
+      "siman": "13",
+      "seif": "18",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "יח. מותר לקפל את הטלית בשבת שלא כסדר קיפולו הראשון, אפילו אם אינו חוזר להתעטף בציצית בו ביום. והנוהגים לקפלו כסדר קיפולו הראשון, אין למחלות בידם, שיש להם על מה שיסמוכו. [ילקו\"י ציצית עמו' רנב. ושאר\"י ח\"א עמו' רכ, וילקו\"י שבת ב' עמ' עט].",
+        "hebreu_avec_voyelles": "יח. ט מֻתָּר לְקַפֵּל אֶת הַטַּלִּית בְּשַׁבָּת שֶׁלֹּא כְּסֵדֶר קִפּוּלוֹ הָרִאשׁוֹן, אֲפִלּוּ אִם אֵינוֹ חוֹזֵר לְהִתְעַטֵּף בְּצִיצִית בּוֹ בַּיּוֹם. וְהַנּוֹהֲגִים לְקִפְלוֹ כְּסֵדֶר קִפּוּלוֹ הָרִאשׁוֹן, אֵין לִמְחוֹת בְּיָדָם, שֶׁיֵּשׁ לָהֶם עַל מַה שֶּׁיִּסְמוֹכוּ. [ילקו\"י צִיצִית עַמּוֹ' רנב. ושאר\"י ח\"א עַמּוֹ' רכ, וילקו\"י שַׁבָּת ב' עמ' עֵט].",
+        "francais": "18. 9. Il est permis de plier le talith le Shabbat autrement que selon ses pliures d'origine, même si l'on ne prévoit pas de le revêtir à nouveau ce jour-là. Quant à ceux qui ont pour habitude de le plier selon ses pliures d'origine, il ne faut pas les en empêcher, car ils ont sur quoi s'appuyer. [Yalkout Yossef Tsitsit p. 252 ; Ché'érit Yossef Vol. 1 p. 220 ; Yalkout Yossef Shabbat Vol. 2 p. 79]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "יח.",
+          "hebreu_voyelles": "יח.",
+          "francais_mot": "18.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "ט",
+          "francais_mot": "Il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לקפל",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "de plier",
+          "expression_contexte": "",
+          "infinitif": "לְקַפֵּל = Plier"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "לְקַפֵּל",
+          "francais_mot": "[marqueur du C.O.D.]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "le talith",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "le Shabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "non",
+          "expression_contexte": "autrement que"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "כסדר",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "selon l'ordre de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "קיפולו",
+          "hebreu_voyelles": "כְּסֵדֶר",
+          "francais_mot": "son pliage",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "הראשון,",
+          "hebreu_voyelles": "קִפּוּלוֹ",
+          "francais_mot": "d'origine,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "אפילו",
+          "hebreu_voyelles": "הָרִאשׁוֹן,",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אֲפִלּוּ",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "אינו",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "il ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "חוזר",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "revient",
+          "expression_contexte": "ne prévoit de à nouveau",
+          "infinitif": "לַחְזוֹר = Revenir / Retourner"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "להתעטף",
+          "hebreu_voyelles": "חוֹזֵר",
+          "francais_mot": "à se revêtir",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְעַטֵּף = S'envelopper / Se revêtir"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "בציצית",
+          "hebreu_voyelles": "לְהִתְעַטֵּף",
+          "francais_mot": "du tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "בו",
+          "hebreu_voyelles": "בְּצִיצִית",
+          "francais_mot": "en ce",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "ביום.",
+          "hebreu_voyelles": "בּוֹ",
+          "francais_mot": "jour-là.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "והנוהגים",
+          "hebreu_voyelles": "בַּיּוֹם.",
+          "francais_mot": "Et ceux qui ont pour habitude",
+          "expression_contexte": "",
+          "infinitif": "לִנְהֹג = Avoir pour habitude / Conduire"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "לקפלו",
+          "hebreu_voyelles": "וְהַנּוֹהֲגִים",
+          "francais_mot": "de le plier",
+          "expression_contexte": "",
+          "infinitif": "לְקַפֵּל = Plier"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "כסדר",
+          "hebreu_voyelles": "לְקִפְלוֹ",
+          "francais_mot": "selon l'ordre de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "קיפולו",
+          "hebreu_voyelles": "כְּסֵדֶר",
+          "francais_mot": "son pliage",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "הראשון,",
+          "hebreu_voyelles": "קִפּוּלוֹ",
+          "francais_mot": "d'origine,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "הָרִאשׁוֹן,",
+          "francais_mot": "il ne faut pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "למחלות",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "protester",
+          "expression_contexte": "les en empêcher",
+          "infinitif": "לִמְחוֹת = Protester / Empêcher"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "בידם,",
+          "hebreu_voyelles": "לִמְחוֹת",
+          "francais_mot": "contre eux,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "שיש",
+          "hebreu_voyelles": "בְּיָדָם,",
+          "francais_mot": "car il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "להם",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "pour eux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "לָהֶם",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "מה",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "quoi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "שיסמוכו.",
+          "hebreu_voyelles": "מַה",
+          "francais_mot": "qu'ils s'appuieront.",
+          "expression_contexte": "",
+          "infinitif": "לִסְמֹךְ = S'appuyer"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "שֶּׁיִּסְמוֹכוּ.",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "ציצית",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "Tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "עמו'",
+          "hebreu_voyelles": "צִיצִית",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "רנב.",
+          "hebreu_voyelles": "עַמּוֹ'",
+          "francais_mot": "252 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "רנב.",
+          "francais_mot": "et Ché'érit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "Vol. 1",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "עמו'",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "רכ,",
+          "hebreu_voyelles": "עַמּוֹ'",
+          "francais_mot": "220 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "וילקו\"י",
+          "hebreu_voyelles": "רכ,",
+          "francais_mot": "et Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "וילקו\"י",
+          "francais_mot": "Shabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "ב'",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Vol. 2",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "ב'",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "עט].",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "79].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 18
+    }
+  ]
+}

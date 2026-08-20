@@ -1,0 +1,111 @@
+{
+  "siman": 16,
+  "file": "siman_16.json",
+  "timestamp": "2026-08-20T14:26:56.062Z",
+  "summary": {
+    "total": 4,
+    "pass": 3,
+    "warn": 1,
+    "fail": 0,
+    "avg_score": 96
+  },
+  "seifim": [
+    {
+      "seif": 1,
+      "status": "WARN",
+      "score": 83,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "ALIGNMENT_MISMATCH_WORD",
+          "severity": "error",
+          "detail": "1 mot(s) ont un décalage majeur entre brut et voyelles",
+          "words": [
+            {
+              "id": 109,
+              "hebreu_brut": "שבשואל",
+              "hebreu_voyelles": "שֶׁבְּשׁוּ\"ת"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seif": 2,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 3,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 4,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "siman": 14,
+  "file": "siman_14.json",
+  "timestamp": "2026-08-20T14:13:30.334Z",
+  "summary": {
+    "total": 17,
+    "pass": 15,
+    "warn": 2,
+    "fail": 0,
+    "avg_score": 98
+  },
+  "seifim": [
+    {
+      "seif": 1,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 2,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 3,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 4,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 5,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 6,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 7,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 8,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 9,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 10,
+      "status": "WARN",
+      "score": 83,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "ALIGNMENT_MISMATCH_WORD",
+          "severity": "error",
+          "detail": "1 mot(s) ont un décalage majeur entre brut et voyelles",
+          "words": [
+            {
+              "id": 48,
+              "hebreu_brut": "שאאם",
+              "hebreu_voyelles": "שֶׁאִם"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seif": 11,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 12,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 13,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 14,
+      "status": "WARN",
+      "score": 83,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "ALIGNMENT_MISMATCH_WORD",
+          "severity": "error",
+          "detail": "95 mot(s) ont un décalage majeur entre brut et voyelles",
+          "words": [
+            {
+              "id": 1,
+              "hebreu_brut": "מותר",
+              "hebreu_voyelles": "ז"
+            },
+            {
+              "id": 2,
+              "hebreu_brut": "לקחת",
+              "hebreu_voyelles": "מֻתָּר"
+            },
+            {
+              "id": 3,
+              "hebreu_brut": "בשאלה",
+              "hebreu_voyelles": "לָקַחַת"
+            },
+            {
+              "id": 4,
+              "hebreu_brut": "טלית",
+              "hebreu_voyelles": "בִּשְׁאֵלָה"
+            },
+            {
+              "id": 5,
+              "hebreu_brut": "מחבירו",
+              "hebreu_voyelles": "טַלִּית"
+            },
+            {
+              "id": 6,
+              "hebreu_brut": "בלא",
+              "hebreu_voyelles": "מֵחֲבֵרוֹ"
+            },
+            {
+              "id": 7,
+              "hebreu_brut": "ידיעתו,",
+              "hebreu_voyelles": "בְּלֹא"
+            },
+            {
+              "id": 8,
+              "hebreu_brut": "כדי",
+              "hebreu_voyelles": "יְדִיעָתוֹ,"
+            },
+            {
+              "id": 9,
+              "hebreu_brut": "לקיים",
+              "hebreu_voyelles": "כְּדֵי"
+            },
+            {
+              "id": 10,
+              "hebreu_brut": "מצות",
+              "hebreu_voyelles": "לְקַיֵּם"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seif": 15,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 16,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 17,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    }
+  ]
+}

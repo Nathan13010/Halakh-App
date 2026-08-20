@@ -1,0 +1,682 @@
+{
+  "siman": 13,
+  "file": "siman_13.json",
+  "timestamp": "2026-08-20T13:57:07.974Z",
+  "summary": {
+    "total": 18,
+    "pass": 13,
+    "warn": 5,
+    "fail": 0,
+    "avg_score": 95
+  },
+  "seifim": [
+    {
+      "seif": 1,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 2,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 3,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 4,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 5,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 6,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 7,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 8,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 9,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 10,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 11,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 12,
+      "status": "WARN",
+      "score": 83,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "ALIGNMENT_MISMATCH_WORD",
+          "severity": "error",
+          "detail": "30 mot(s) ont un décalage majeur entre brut et voyelles",
+          "words": [
+            {
+              "id": 1,
+              "hebreu_brut": "מותר",
+              "hebreu_voyelles": "ג"
+            },
+            {
+              "id": 2,
+              "hebreu_brut": "לצאת",
+              "hebreu_voyelles": "מֻתָּר"
+            },
+            {
+              "id": 3,
+              "hebreu_brut": "גם",
+              "hebreu_voyelles": "לָצֵאת"
+            },
+            {
+              "id": 4,
+              "hebreu_brut": "בליל",
+              "hebreu_voyelles": "גַּם"
+            },
+            {
+              "id": 5,
+              "hebreu_brut": "שבת",
+              "hebreu_voyelles": "בְּלֵיל"
+            },
+            {
+              "id": 6,
+              "hebreu_brut": "בטלית",
+              "hebreu_voyelles": "שַׁבָּת"
+            },
+            {
+              "id": 7,
+              "hebreu_brut": "מצוייצת",
+              "hebreu_voyelles": "בְּטַלִּית"
+            },
+            {
+              "id": 8,
+              "hebreu_brut": "כהלכתה,",
+              "hebreu_voyelles": "מְצֻיֶּצֶת"
+            },
+            {
+              "id": 9,
+              "hebreu_brut": "כדרך",
+              "hebreu_voyelles": "כְּהִלְכָתָהּ,"
+            },
+            {
+              "id": 10,
+              "hebreu_brut": "לבושו,",
+              "hebreu_voyelles": "כְּדֶרֶךְ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seif": 13,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 14,
+      "status": "WARN",
+      "score": 83,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "ALIGNMENT_MISMATCH_WORD",
+          "severity": "error",
+          "detail": "29 mot(s) ont un décalage majeur entre brut et voyelles",
+          "words": [
+            {
+              "id": 1,
+              "hebreu_brut": "מותר",
+              "hebreu_voyelles": "ה"
+            },
+            {
+              "id": 2,
+              "hebreu_brut": "לצאת",
+              "hebreu_voyelles": "מֻתָּר"
+            },
+            {
+              "id": 3,
+              "hebreu_brut": "בשבת",
+              "hebreu_voyelles": "לָצֵאת"
+            },
+            {
+              "id": 4,
+              "hebreu_brut": "לרשות",
+              "hebreu_voyelles": "בְּשַׁבָּת"
+            },
+            {
+              "id": 5,
+              "hebreu_brut": "הרבים",
+              "hebreu_voyelles": "לִרְשׁוּת"
+            },
+            {
+              "id": 6,
+              "hebreu_brut": "בטלית",
+              "hebreu_voyelles": "הָרַבִּים"
+            },
+            {
+              "id": 7,
+              "hebreu_brut": "קטן",
+              "hebreu_voyelles": "בְּטַלִּית"
+            },
+            {
+              "id": 8,
+              "hebreu_brut": "שאין",
+              "hebreu_voyelles": "קָטָן"
+            },
+            {
+              "id": 9,
+              "hebreu_brut": "בה",
+              "hebreu_voyelles": "שֶׁאֵין"
+            },
+            {
+              "id": 10,
+              "hebreu_brut": "כשיעור,",
+              "hebreu_voyelles": "בָּהּ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seif": 15,
+      "status": "WARN",
+      "score": 83,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "ALIGNMENT_MISMATCH_WORD",
+          "severity": "error",
+          "detail": "27 mot(s) ont un décalage majeur entre brut et voyelles",
+          "words": [
+            {
+              "id": 2,
+              "hebreu_brut": "לצאת",
+              "hebreu_voyelles": "מֻתָּר"
+            },
+            {
+              "id": 3,
+              "hebreu_brut": "בשבת",
+              "hebreu_voyelles": "לָצֵאת"
+            },
+            {
+              "id": 4,
+              "hebreu_brut": "בטלית",
+              "hebreu_voyelles": "בְּשַׁבָּת"
+            },
+            {
+              "id": 5,
+              "hebreu_brut": "שאולה",
+              "hebreu_voyelles": "בְּטַלִּית"
+            },
+            {
+              "id": 6,
+              "hebreu_brut": "לרשות",
+              "hebreu_voyelles": "שְׁאוּלָה"
+            },
+            {
+              "id": 7,
+              "hebreu_brut": "הרבים.",
+              "hebreu_voyelles": "לִרְשׁוּת"
+            },
+            {
+              "id": 8,
+              "hebreu_brut": "והמחמיר",
+              "hebreu_voyelles": "הָרַבִּים."
+            },
+            {
+              "id": 9,
+              "hebreu_brut": "על",
+              "hebreu_voyelles": "וְהַמַּחֲמִיר"
+            },
+            {
+              "id": 10,
+              "hebreu_brut": "עצמו",
+              "hebreu_voyelles": "עַל"
+            },
+            {
+              "id": 11,
+              "hebreu_brut": "תבוא",
+              "hebreu_voyelles": "עַצְמוֹ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seif": 16,
+      "status": "WARN",
+      "score": 83,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "ALIGNMENT_MISMATCH_WORD",
+          "severity": "error",
+          "detail": "19 mot(s) ont un décalage majeur entre brut et voyelles",
+          "words": [
+            {
+              "id": 1,
+              "hebreu_brut": "מותר",
+              "hebreu_voyelles": "ז"
+            },
+            {
+              "id": 2,
+              "hebreu_brut": "להתעטף",
+              "hebreu_voyelles": "מֻתָּר"
+            },
+            {
+              "id": 3,
+              "hebreu_brut": "בטלית",
+              "hebreu_voyelles": "לְהִתְעַטֵּף"
+            },
+            {
+              "id": 4,
+              "hebreu_brut": "גדול",
+              "hebreu_voyelles": "בְּטַלִּית"
+            },
+            {
+              "id": 5,
+              "hebreu_brut": "וללבוש",
+              "hebreu_voyelles": "גָּדוֹל"
+            },
+            {
+              "id": 6,
+              "hebreu_brut": "עליו",
+              "hebreu_voyelles": "וְלִלְבֹּשׁ"
+            },
+            {
+              "id": 8,
+              "hebreu_brut": "חורף,",
+              "hebreu_voyelles": "מְעִיל"
+            },
+            {
+              "id": 9,
+              "hebreu_brut": "ולצאת",
+              "hebreu_voyelles": "חֹרֶף,"
+            },
+            {
+              "id": 10,
+              "hebreu_brut": "כך",
+              "hebreu_voyelles": "וְלָצֵאת"
+            },
+            {
+              "id": 11,
+              "hebreu_brut": "לרשות",
+              "hebreu_voyelles": "כָּךְ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seif": 17,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 18,
+      "status": "WARN",
+      "score": 83,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "ALIGNMENT_MISMATCH_WORD",
+          "severity": "error",
+          "detail": "40 mot(s) ont un décalage majeur entre brut et voyelles",
+          "words": [
+            {
+              "id": 1,
+              "hebreu_brut": "מותר",
+              "hebreu_voyelles": "ט"
+            },
+            {
+              "id": 2,
+              "hebreu_brut": "לקפל",
+              "hebreu_voyelles": "מֻתָּר"
+            },
+            {
+              "id": 3,
+              "hebreu_brut": "את",
+              "hebreu_voyelles": "לְקַפֵּל"
+            },
+            {
+              "id": 4,
+              "hebreu_brut": "הטלית",
+              "hebreu_voyelles": "אֶת"
+            },
+            {
+              "id": 5,
+              "hebreu_brut": "בשבת",
+              "hebreu_voyelles": "הַטַּלִּית"
+            },
+            {
+              "id": 6,
+              "hebreu_brut": "שלא",
+              "hebreu_voyelles": "בְּשַׁבָּת"
+            },
+            {
+              "id": 7,
+              "hebreu_brut": "כסדר",
+              "hebreu_voyelles": "שֶׁלֹּא"
+            },
+            {
+              "id": 8,
+              "hebreu_brut": "קיפולו",
+              "hebreu_voyelles": "כְּסֵדֶר"
+            },
+            {
+              "id": 9,
+              "hebreu_brut": "הראשון,",
+              "hebreu_voyelles": "קִפּוּלוֹ"
+            },
+            {
+              "id": 10,
+              "hebreu_brut": "אפילו",
+              "hebreu_voyelles": "הָרִאשׁוֹן,"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

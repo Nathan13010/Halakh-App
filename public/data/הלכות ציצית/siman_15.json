@@ -1,0 +1,2285 @@
+{
+  "_meta": {
+    "source": "entree.txt (texte pré-vocalisé)",
+    "siman": 15,
+    "siman_hebrew": "טו",
+    "generated_at": "2026-08-20T14:20:27.286Z",
+    "total_seifim": 5
+  },
+  "halakhot": [
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Transformer un grand Talit en petit Talit",
+      "siman": "15",
+      "seif": "1",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "א. מותר לעשות מטלית גדול טלית קטן אחד או יותר, ואפילו אם הטלית גדול עדיין ראוי הוא למצותו, ואין לומר בזה הכלל \"מעלין בקודש ואין מורידין\", שאפילו אם נאמר שטלית קטן נחשב כהורדה ביחס לטלית גדול, מכל מקום אין כלל זה שייך אלא בתשמישי קדושה, מה שאין כן בתשמישי מצוה כגון ציצית. ואפשר להקל בזה גם כשהטלית קטן אין בו כשיעור, וטוב להחמיר בזה שיהיה הטלית קטן לפחות כשיעור אמה על אמה, אף על פי שבאופן כזה אין לברך עליו. [ילקו\"י שם עמ' רפד. ושאר\"י ח\"א עמ' רלח].",
+        "hebreu_avec_voyelles": "א מֻתָּר לַעֲשׂוֹת מַטְלִית גָּדוֹל טַלִּית קָטָן אֶחָד אוֹ יוֹתֵר, וַאֲפִלּוּ אִם הַטַּלִּית גָּדוֹל עֲדַיִן רָאוּי הוּא לְמַצּוֹתוֹ, וְאֵין לוֹמַר בָּזֶה הַכְּלָל \"מַעֲלִין בַּקֹּדֶשׁ וְאֵין מוֹרִידִין\", שֶׁאֲפִלּוּ אִם נֶאֱמַר שֶׁטַּלִּית קָטָן נֶחֱשָׁב כְּהוֹרָדָה בְּיַחַס לְטַלִּית גָּדוֹל, מִכָּל מָקוֹם אֵין כְּלָל זֶה שַׁיָּךְ אֶלָּא בְּתַשְׁמִישֵׁי קְדֻשָּׁה, מָה שֶׁאֵין כֵּן בְּתַשְׁמִישֵׁי מִצְוָה כְּגוֹן צִיצִית. וְאֶפְשָׁר לְהָקֵל בָּזֶה גַּם כְּשֶׁהַטַּלִּית קָטָן אֵין בּוֹ כְּשִׁעוּר, וְטוֹב לְהַחֲמִיר בָּזֶה שֶׁיִּהְיֶה הַטַּלִּית קָטָן לְפָחוֹת כְּשִׁעוּר אַמָּה עַל אַמָּה, אַף עַל פִּי שֶׁבְּאֹפֶן כָּזֶה אֵין לְבָרֵךְ עָלָיו. [ילקו\"י שָׁם עמ' רַפָּד. ושאר\"י ח\"א עמ' רלח].",
+        "francais": "1. Il est permis de confectionner, à partir d'un grand Talit, un ou plusieurs petits Talitot, et ce même si le grand Talit est encore propre à l'accomplissement de la mitsva. On n'applique pas ici le principe selon lequel « on élève en sainteté et l'on ne rétrograde pas », car même si l'on considérait la confection d'un petit Talit comme une rétrogradation par rapport à un grand Talit, ce principe ne s'applique qu'aux objets de sainteté (Tachmiché Kédoucha), et non aux objets de mitsva (Tachmiché Mitsva) comme les Tzitzit. Il est possible de se montrer indulgent en la matière même lorsque le petit Talit n'a pas la taille minimale requise, bien qu'il soit bon de se montrer rigoureux pour que le petit Talit mesure au moins une coudée sur une coudée (Amah al Amah), même si dans un tel cas on ne prononcera pas de bénédiction dessus. [Yalkout Yossef ibid., p. 284 ; Che'erit Yossef vol. 1, p. 238]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "א.",
+          "hebreu_voyelles": "א.",
+          "francais_mot": "1.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לעשות",
+          "hebreu_voyelles": "לַעֲשׂוֹת",
+          "francais_mot": "de confectionner",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "מטלית",
+          "hebreu_voyelles": "מַטְלִית",
+          "francais_mot": "à partir d'un [morceau de]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "גדול",
+          "hebreu_voyelles": "גָּדוֹל",
+          "francais_mot": "grand",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "קטן",
+          "hebreu_voyelles": "קָטָן",
+          "francais_mot": "petit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "אחד",
+          "hebreu_voyelles": "אֶחָד",
+          "francais_mot": "un",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "יותר,",
+          "hebreu_voyelles": "יוֹתֵר,",
+          "francais_mot": "plus,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "ואפילו",
+          "hebreu_voyelles": "וַאֲפִלּוּ",
+          "francais_mot": "et même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "le Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "גדול",
+          "hebreu_voyelles": "גָּדוֹל",
+          "francais_mot": "grand",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "עדיין",
+          "hebreu_voyelles": "עֲדַיִן",
+          "francais_mot": "encore",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "ראוי",
+          "hebreu_voyelles": "רָאוּי",
+          "francais_mot": "propre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "הוא",
+          "hebreu_voyelles": "הוּא",
+          "francais_mot": "il est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "למצותו,",
+          "hebreu_voyelles": "לְמַצּוֹתוֹ,",
+          "francais_mot": "à l'accomplissement de sa mitsva,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "et il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "לומר",
+          "hebreu_voyelles": "לוֹמַר",
+          "francais_mot": "à appliquer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "en ceci",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "הכלל",
+          "hebreu_voyelles": "הַכְּלָל",
+          "francais_mot": "le principe",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "\"מעלין",
+          "hebreu_voyelles": "\"מַעֲלִין",
+          "francais_mot": "\"on élève",
+          "expression_contexte": "",
+          "infinitif": "לְהַעֲלוֹת = Élever"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "בקודש",
+          "hebreu_voyelles": "בַּקֹּדֶשׁ",
+          "francais_mot": "en sainteté",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "et l'on ne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "מורידין\",",
+          "hebreu_voyelles": "מוֹרִידִין\",",
+          "francais_mot": "rétrograde pas\",",
+          "expression_contexte": "",
+          "infinitif": "לְהוֹרִיד = Rétrograder / Descendre"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "שאפילו",
+          "hebreu_voyelles": "שֶׁאֲפִלּוּ",
+          "francais_mot": "car même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "נאמר",
+          "hebreu_voyelles": "נֶאֱמַר",
+          "francais_mot": "l'on considérait",
+          "expression_contexte": "",
+          "infinitif": "לְהֵאָמֵר = Être dit"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "שטלית",
+          "hebreu_voyelles": "שֶׁטַּלִּית",
+          "francais_mot": "qu'un Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "קטן",
+          "hebreu_voyelles": "קָטָן",
+          "francais_mot": "petit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "נחשב",
+          "hebreu_voyelles": "נֶחֱשָׁב",
+          "francais_mot": "est considéré",
+          "expression_contexte": "",
+          "infinitif": "לְהֵחָשֵׁב = Être considéré"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "כהורדה",
+          "hebreu_voyelles": "כְּהוֹרָדָה",
+          "francais_mot": "comme une rétrogradation",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "ביחס",
+          "hebreu_voyelles": "בְּיַחַס",
+          "francais_mot": "par rapport",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "לטלית",
+          "hebreu_voyelles": "לְטַלִּית",
+          "francais_mot": "à un Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "גדול,",
+          "hebreu_voyelles": "גָּדוֹל,",
+          "francais_mot": "grand,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "מכל",
+          "hebreu_voyelles": "מִכָּל",
+          "francais_mot": "de toute",
+          "expression_contexte": "מִכָּל מָקוֹם = néanmoins"
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "מקום",
+          "hebreu_voyelles": "מָקוֹם",
+          "francais_mot": "façon",
+          "expression_contexte": "מִכָּל מָקוֹם = néanmoins"
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "כלל",
+          "hebreu_voyelles": "כְּלָל",
+          "francais_mot": "principe",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "זה",
+          "hebreu_voyelles": "זֶה",
+          "francais_mot": "ce",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "שייך",
+          "hebreu_voyelles": "שַׁיָּךְ",
+          "francais_mot": "s'applique",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "qu'",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "בתשמישי",
+          "hebreu_voyelles": "בְּתַשְׁמִישֵׁי",
+          "francais_mot": "aux objets de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "קדושה,",
+          "hebreu_voyelles": "קְדֻשָּׁה,",
+          "francais_mot": "sainteté,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "מה",
+          "hebreu_voyelles": "מָה",
+          "francais_mot": "ce",
+          "expression_contexte": "מָה שֶׁאֵין כֵּן = ce qui n'est pas le cas"
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "qui n'est pas",
+          "expression_contexte": "מָה שֶׁאֵין כֵּן = ce qui n'est pas le cas"
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "כן",
+          "hebreu_voyelles": "כֵּן",
+          "francais_mot": "ainsi",
+          "expression_contexte": "מָה שֶׁאֵין כֵּן = ce qui n'est pas le cas"
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "בתשמישי",
+          "hebreu_voyelles": "בְּתַשְׁמִישֵׁי",
+          "francais_mot": "aux objets de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "מצוה",
+          "hebreu_voyelles": "מִצְוָה",
+          "francais_mot": "mitsva",
+          "expression_contexte": ""
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "כגון",
+          "hebreu_voyelles": "כְּגוֹן",
+          "francais_mot": "comme",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "ציצית.",
+          "hebreu_voyelles": "צִיצִית.",
+          "francais_mot": "les Tzitzit.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "ואפשר",
+          "hebreu_voyelles": "וְאֶפְשָׁר",
+          "francais_mot": "Et il est possible",
+          "expression_contexte": ""
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "להקל",
+          "hebreu_voyelles": "לְהָקֵל",
+          "francais_mot": "de se montrer indulgent",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "en la matière",
+          "expression_contexte": ""
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "גם",
+          "hebreu_voyelles": "גַּם",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "כשהטלית",
+          "hebreu_voyelles": "כְּשֶׁהַטַּלִּית",
+          "francais_mot": "lorsque le Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "קטן",
+          "hebreu_voyelles": "קָטָן",
+          "francais_mot": "petit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "n'a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "בו",
+          "hebreu_voyelles": "בּוֹ",
+          "francais_mot": "en lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "כשיעור,",
+          "hebreu_voyelles": "כְּשִׁעוּר,",
+          "francais_mot": "la mesure [requise],",
+          "expression_contexte": ""
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "וטוב",
+          "hebreu_voyelles": "וְטוֹב",
+          "francais_mot": "et il est bon",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "להחמיר",
+          "hebreu_voyelles": "לְהַחֲמִיר",
+          "francais_mot": "de se montrer rigoureux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "en ceci",
+          "expression_contexte": ""
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "שיהיה",
+          "hebreu_voyelles": "שֶׁיִּהְיֶה",
+          "francais_mot": "pour que soit",
+          "expression_contexte": "",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "le Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "קטן",
+          "hebreu_voyelles": "קָטָן",
+          "francais_mot": "petit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "לפחות",
+          "hebreu_voyelles": "לְפָחוֹת",
+          "francais_mot": "au moins",
+          "expression_contexte": ""
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "כשיעור",
+          "hebreu_voyelles": "כְּשִׁעוּר",
+          "francais_mot": "comme la mesure de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "אמה",
+          "hebreu_voyelles": "אַמָּה",
+          "francais_mot": "une coudée",
+          "expression_contexte": ""
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "אמה,",
+          "hebreu_voyelles": "אַמָּה,",
+          "francais_mot": "une coudée,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "אף",
+          "hebreu_voyelles": "אַף",
+          "francais_mot": "même",
+          "expression_contexte": "אַף עַל פִּי = bien que"
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": "אַף עַל פִּי = bien que"
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "פי",
+          "hebreu_voyelles": "פִּי",
+          "francais_mot": "bouche",
+          "expression_contexte": "אַף עַל פִּי = bien que"
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "שבאופן",
+          "hebreu_voyelles": "שֶׁבְּאֹפֶן",
+          "francais_mot": "que dans un cas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "כזה",
+          "hebreu_voyelles": "כָּזֶה",
+          "francais_mot": "tel",
+          "expression_contexte": ""
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "on ne [doit] pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "לברך",
+          "hebreu_voyelles": "לְבָרֵךְ",
+          "francais_mot": "prononcer de bénédiction",
+          "expression_contexte": ""
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "עליו.",
+          "hebreu_voyelles": "עָלָיו.",
+          "francais_mot": "dessus.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "שם",
+          "hebreu_voyelles": "שָׁם",
+          "francais_mot": "ibid.,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 82,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 83,
+          "hebreu_brut": "רפד.",
+          "hebreu_voyelles": "רַפָּד.",
+          "francais_mot": "284 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 84,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "Che'erit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 85,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 86,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 87,
+          "hebreu_brut": "רלח].",
+          "hebreu_voyelles": "רלח].",
+          "francais_mot": "238].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 1
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Transfert des Tsitsit d'un Tallit à l'autre",
+      "siman": "15",
+      "seif": "2",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ב. מותר להתיר הציציות של טלית גדול, להעבירם לטלית קטן שאין בו ציצית, ואפילו עדיין הטלית גדול ראוי למצותו. ואין בזה משום מעלין בקודש ואין מורידין, מהטעם שביארנו, שאין כלל זה נוהג בתשמישי מצוה. ונכון להקפיד שקודם התרת הציציות תהיה הטלית החדשה מוכנה ומזומנת להטיל בה הציציות, ולא יסיר הציציות מהבגד שבלה עד שהבגד החדש יהיה מוכן, דחישינן לפשיעותא. [ילקו\"י על הל' ציצית, מהדורת תשס\"ד עמוד רפו. ובמהדורת תשס\"ו עמוד רג. ושאר\"י ח\"א עמוד רמ].",
+        "hebreu_avec_voyelles": "ב מֻתָּר לְהַתִּיר הַצִּיצִיּוֹת שֶׁל טַלִּית גָּדוֹל, לְהַעֲבִירָם לְטַלִּית קָטָן שֶׁאֵין בּוֹ צִיצִית, וַאֲפִלּוּ עֲדַיִן הַטַּלִּית גָּדוֹל רָאוּי לְמַצּוֹתוֹ. וְאֵין בָּזֶה מִשּׁוּם מַעֲלִין בַּקֹּדֶשׁ וְאֵין מוֹרִידִין, מֵהַטַּעַם שֶׁבֵּאַרְנוּ, שֶׁאֵין כְּלָל זֶה נוֹהֵג בְּתַשְׁמִישֵׁי מִצְוָה. וְנָכוֹן לְהַקְפִּיד שֶׁקֹּדֶם הַתָּרַת הַצִּיצִיּוֹת תִּהְיֶה הַטַּלִּית הַחֲדָשָׁה מוּכָנָה וּמְזֻמֶּנֶת לְהַטִּיל בָּהּ הַצִּיצִיּוֹת, וְלֹא יָסִיר הַצִּיצִיּוֹת מֵהַבֶּגֶד שֶׁבֵּלָה עַד שֶׁהַבֶּגֶד הֶחָדָשׁ יִהְיֶה מוּכָן, דַּחְיָשִׁינָן לִפְשִׁיעוּתָא. [ילקו\"י עַל הֵל' צִיצִית, מַהֲדוּרַת תשס\"ד עַמּוּד רָפוּ. וּבְמַהֲדוּרַת תשס\"ו עַמּוּד רג. ושאר\"י ח\"א עַמּוּד רמ].",
+        "francais": "2. Il est permis de défaire les franges (Tsitsit) d'un grand Tallit pour les transférer sur un petit Tallit (Tallit Katan) qui n'a pas de Tsitsit, et ce, même si le grand Tallit est encore propre à l'accomplissement de la mitsva. Et il n'y a pas en cela de transgression du principe selon lequel « on augmente en sainteté mais on ne diminue pas », pour la raison que nous avons expliquée, à savoir que ce principe ne s'applique pas aux objets servant à l'accomplissement d'une mitsva (Tashmishei Mitsva). Toutefois, il convient de veiller à ce qu'avant de défaire les Tsitsit, le nouveau Tallit soit prêt et préparé pour qu'on y mette les Tsitsit, et on ne retirera pas les Tsitsit du vêtement usé tant que le nouveau vêtement n'est pas prêt, car nous craignons la négligence. [Yalkout Yossef sur les lois de Tsitsit, édition 5764, page 286. Et dans l'édition 5766, page 203. Et Chérit Yossef vol. 1, page 240]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ב.",
+          "hebreu_voyelles": "ב.",
+          "francais_mot": "2.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "Il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "להתיר",
+          "hebreu_voyelles": "לְהַתִּיר",
+          "francais_mot": "de défaire",
+          "expression_contexte": "",
+          "infinitif": "לְהַתִּיר = Défaire / Détacher"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "הציציות",
+          "hebreu_voyelles": "הַצִּיצִיּוֹת",
+          "francais_mot": "les franges (Tsitsit)",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "Tallit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "גדול,",
+          "hebreu_voyelles": "גָּדוֹל,",
+          "francais_mot": "grand,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "להעבירם",
+          "hebreu_voyelles": "לְהַעֲבִירָם",
+          "francais_mot": "pour les transférer",
+          "expression_contexte": "",
+          "infinitif": "לְהַעֲבִיר = Transférer"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "לטלית",
+          "hebreu_voyelles": "לְטַלִּית",
+          "francais_mot": "sur un Tallit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "קטן",
+          "hebreu_voyelles": "קָטָן",
+          "francais_mot": "petit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "qui n'a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "בו",
+          "hebreu_voyelles": "בּוֹ",
+          "francais_mot": "en lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "de Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ואפילו",
+          "hebreu_voyelles": "וַאֲפִלּוּ",
+          "francais_mot": "et même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "עדיין",
+          "hebreu_voyelles": "עֲדַיִן",
+          "francais_mot": "encore",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "le Tallit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "גדול",
+          "hebreu_voyelles": "גָּדוֹל",
+          "francais_mot": "grand",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "ראוי",
+          "hebreu_voyelles": "רָאוּי",
+          "francais_mot": "propre",
+          "expression_contexte": "propre à l'accomplissement"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "למצותו.",
+          "hebreu_voyelles": "לְמַצּוֹתוֹ.",
+          "francais_mot": "à sa mitsva.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "Et il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "en cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "משום",
+          "hebreu_voyelles": "מִשּׁוּם",
+          "francais_mot": "au titre de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "מעלין",
+          "hebreu_voyelles": "מַעֲלִין",
+          "francais_mot": "on élève",
+          "expression_contexte": "on augmente en sainteté",
+          "infinitif": "לְהַעֲלוֹת = Élever / Augmenter"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "בקודש",
+          "hebreu_voyelles": "בַּקֹּדֶשׁ",
+          "francais_mot": "en sainteté",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "et on ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "מורידין,",
+          "hebreu_voyelles": "מוֹרִידִין,",
+          "francais_mot": "diminue pas,",
+          "expression_contexte": "",
+          "infinitif": "לְהוֹרִיד = Diminuer / Abaisser"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "מהטעם",
+          "hebreu_voyelles": "מֵהַטַּעַם",
+          "francais_mot": "pour la raison",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "שביארנו,",
+          "hebreu_voyelles": "שֶׁבֵּאַרְנוּ,",
+          "francais_mot": "que nous avons expliquée,",
+          "expression_contexte": "",
+          "infinitif": "לְבָאֵר = Expliquer"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "que ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "כלל",
+          "hebreu_voyelles": "כְּלָל",
+          "francais_mot": "principe",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "זה",
+          "hebreu_voyelles": "זֶה",
+          "francais_mot": "ce",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "נוהג",
+          "hebreu_voyelles": "נוֹהֵג",
+          "francais_mot": "s'applique",
+          "expression_contexte": "",
+          "infinitif": "לִנְהֹג = S'appliquer / Agir"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "בתשמישי",
+          "hebreu_voyelles": "בְּתַשְׁמִישֵׁי",
+          "francais_mot": "aux objets d'usage de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "מצוה.",
+          "hebreu_voyelles": "מִצְוָה.",
+          "francais_mot": "mitsva.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "ונכון",
+          "hebreu_voyelles": "וְנָכוֹן",
+          "francais_mot": "Et il convient",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "להקפיד",
+          "hebreu_voyelles": "לְהַקְפִּיד",
+          "francais_mot": "de veiller",
+          "expression_contexte": "",
+          "infinitif": "לְהַקְפִּיד = Veiller / Faire attention"
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "שקודם",
+          "hebreu_voyelles": "שֶׁקֹּדֶם",
+          "francais_mot": "qu'avant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "התרת",
+          "hebreu_voyelles": "הַתָּרַת",
+          "francais_mot": "le fait de défaire",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "הציציות",
+          "hebreu_voyelles": "הַצִּיצִיּוֹת",
+          "francais_mot": "les Tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "תהיה",
+          "hebreu_voyelles": "תִּהְיֶה",
+          "francais_mot": "soit",
+          "expression_contexte": "",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "הטלית",
+          "hebreu_voyelles": "הַטַּלִּית",
+          "francais_mot": "le Tallit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "החדשה",
+          "hebreu_voyelles": "הַחֲדָשָׁה",
+          "francais_mot": "nouveau",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "מוכנה",
+          "hebreu_voyelles": "מוּכָנָה",
+          "francais_mot": "prêt",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "ומזומנת",
+          "hebreu_voyelles": "וּמְזֻמֶּנֶת",
+          "francais_mot": "et préparé",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "להטיל",
+          "hebreu_voyelles": "לְהַטִּיל",
+          "francais_mot": "pour placer",
+          "expression_contexte": "pour qu'on y mette",
+          "infinitif": "לְהַטִּיל = Placer / Mettre"
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "y",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "הציציות,",
+          "hebreu_voyelles": "הַצִּיצִיּוֹת,",
+          "francais_mot": "les Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "ולא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "et on ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "יסיר",
+          "hebreu_voyelles": "יָסִיר",
+          "francais_mot": "retirera",
+          "expression_contexte": "",
+          "infinitif": "לְהָסִיר = Retirer / Enlever"
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "הציציות",
+          "hebreu_voyelles": "הַצִּיצִיּוֹת",
+          "francais_mot": "les Tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "מהבגד",
+          "hebreu_voyelles": "מֵהַבֶּגֶד",
+          "francais_mot": "du vêtement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "שבלה",
+          "hebreu_voyelles": "שֶׁבֵּלָה",
+          "francais_mot": "usé",
+          "expression_contexte": "qui s'est usé",
+          "infinitif": "לִבְלוֹת = S'user"
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "עד",
+          "hebreu_voyelles": "עַד",
+          "francais_mot": "jusqu'à ce que",
+          "expression_contexte": ""
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "שהבגד",
+          "hebreu_voyelles": "שֶׁהַבֶּגֶד",
+          "francais_mot": "que le vêtement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "החדש",
+          "hebreu_voyelles": "הֶחָדָשׁ",
+          "francais_mot": "nouveau",
+          "expression_contexte": ""
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "יהיה",
+          "hebreu_voyelles": "יִהְיֶה",
+          "francais_mot": "soit",
+          "expression_contexte": "",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "מוכן,",
+          "hebreu_voyelles": "מוּכָן,",
+          "francais_mot": "prêt,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "דחישינן",
+          "hebreu_voyelles": "דַּחְיָשִׁינָן",
+          "francais_mot": "car nous craignons",
+          "expression_contexte": "",
+          "infinitif": "לַחְשֹׁשׁ = Craindre"
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "לפשיעותא.",
+          "hebreu_voyelles": "לִפְשִׁיעוּתָא.",
+          "francais_mot": "la négligence.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "les lois de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "מהדורת",
+          "hebreu_voyelles": "מַהֲדוּרַת",
+          "francais_mot": "édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "תשס\"ד",
+          "hebreu_voyelles": "תשס\"ד",
+          "francais_mot": "5764",
+          "expression_contexte": ""
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "רפו.",
+          "hebreu_voyelles": "רָפוּ.",
+          "francais_mot": "286.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "ובמהדורת",
+          "hebreu_voyelles": "וּבְמַהֲדוּרַת",
+          "francais_mot": "Et dans l'édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "תשס\"ו",
+          "hebreu_voyelles": "תשס\"ו",
+          "francais_mot": "5766",
+          "expression_contexte": ""
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "רג.",
+          "hebreu_voyelles": "רג.",
+          "francais_mot": "203.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "Et Chérit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1",
+          "expression_contexte": ""
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "רמ].",
+          "hebreu_voyelles": "רמ].",
+          "francais_mot": "240].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 2
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Remplacer des tsitsit par de plus beaux",
+      "siman": "15",
+      "seif": "3",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ג. וכן מותר להסיר הציציות הכשרות מהטלית, בכדי לתת במקומן ציציות מהודרות יותר. [ילקו\"י על הל' ציצית, עמוד רפו. ובמהדו' תשס\"ו עמוד רג. ושאר\"י ח\"א עמוד רמא].",
+        "hebreu_avec_voyelles": "ג וְכֵן מֻתָּר לְהָסִיר הַצִּיצִיּוֹת הַכַּשְׁרוּת מֵהַטַּלִּית, בִּכְדֵי לָתֵת בִּמְקוֹמָן צִיצִיּוֹת מְהֻדָּרוֹת יוֹתֵר. [ילקו\"י עַל הֵל' צִיצִית, עַמּוּד רָפוּ. וּבְמֶהַדּוֹ' תשס\"ו עַמּוּד רג. ושאר\"י ח\"א עַמּוּד רָמָא].",
+        "francais": "3. De même, il est permis de retirer des tsitsit conformes d'un talit afin de mettre à leur place des tsitsit plus embellis. [Yalkout Yossef sur les lois de Tsitsit, page 286. Et dans l'édition 5766, page 203. Et Che'erit Yossef vol. 1, page 241]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ג.",
+          "hebreu_voyelles": "ג.",
+          "francais_mot": "3.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "וכן",
+          "hebreu_voyelles": "וְכֵן",
+          "francais_mot": "De même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "להסיר",
+          "hebreu_voyelles": "לְהָסִיר",
+          "francais_mot": "de retirer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "הציציות",
+          "hebreu_voyelles": "הַצִּיצִיּוֹת",
+          "francais_mot": "des tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "הכשרות",
+          "hebreu_voyelles": "הַכַּשְׁרוּת",
+          "francais_mot": "conformes",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "מהטלית,",
+          "hebreu_voyelles": "מֵהַטַּלִּית,",
+          "francais_mot": "d'un talit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "בכדי",
+          "hebreu_voyelles": "בִּכְדֵי",
+          "francais_mot": "afin",
+          "expression_contexte": "afin de"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "לתת",
+          "hebreu_voyelles": "לָתֵת",
+          "francais_mot": "de mettre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "במקומן",
+          "hebreu_voyelles": "בִּמְקוֹמָן",
+          "francais_mot": "à leur place",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "ציציות",
+          "hebreu_voyelles": "צִיצִיּוֹת",
+          "francais_mot": "des tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "מהודרות",
+          "hebreu_voyelles": "מְהֻדָּרוֹת",
+          "francais_mot": "embellis",
+          "expression_contexte": "plus embellis"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "יותר.",
+          "hebreu_voyelles": "יוֹתֵר.",
+          "francais_mot": "plus.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "les lois de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "רפו.",
+          "hebreu_voyelles": "רָפוּ.",
+          "francais_mot": "286.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "ובמהדו'",
+          "hebreu_voyelles": "וּבְמֶהַדּוֹ'",
+          "francais_mot": "Et dans l'édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "תשס\"ו",
+          "hebreu_voyelles": "תשס\"ו",
+          "francais_mot": "5766,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "רג.",
+          "hebreu_voyelles": "רג.",
+          "francais_mot": "203.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "Et Che'erit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "רמא].",
+          "hebreu_voyelles": "רָמָא].",
+          "francais_mot": "241].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 3
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Dénouer les enroulements évoquant le Nom Divin",
+      "siman": "15",
+      "seif": "4",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ד. אפילו אם עשה הכריכות כמנין שם הוי ברוך הוא, מותר להתיר הכריכות, ואין בזה כל חשש משום מוחק שם ה', הואיל ואין זה אלא מספר כריכות כעין גימטריא בעלמא. [ילקו\"י על הל' ציצית, עמוד רפז. ושאר\"י ח\"א עמוד רמא].",
+        "hebreu_avec_voyelles": "ד אֲפִלּוּ אִם עָשָׂה הַכְּרִיכוֹת כִּמְנִין שֵׁם הוי\"ה בָּרוּךְ הוּא, מֻתָּר לְהַתִּיר הַכְּרִיכוֹת, וְאֵין בָּזֶה כָּל חֲשָׁשׁ מִשּׁוּם מוֹחֵק שֵׁם ה', הוֹאִיל וְאֵין זֶה אֶלָּא מִסְפַּר כְּרִיכוֹת כְּעֵין גִּימַטְרִיָּא בְּעָלְמָא. [ילקו\"י עַל הֵל' צִיצִית, עַמּוּד רפז. ושאר\"י ח\"א עַמּוּד רָמָא].",
+        "francais": "4. Même s'il a réalisé les enroulements selon le nombre correspondant au Nom Divin béni soit-Il, il est permis de défaire ces enroulements, et cela ne comporte aucune crainte de transgresser l'interdiction d'effacer le Nom de Dieu, puisqu'il ne s'agit que d'un nombre d'enroulements constituant une simple équivalence numérique (gématria). [Yalkout Yossef sur les lois de Tzitzit, page 287 ; Che'erit Yossef vol. 1, page 241]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ד.",
+          "hebreu_voyelles": "ד.",
+          "francais_mot": "4.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "אפילו",
+          "hebreu_voyelles": "אֲפִלּוּ",
+          "francais_mot": "Même",
+          "expression_contexte": "Même si"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "עשה",
+          "hebreu_voyelles": "עָשָׂה",
+          "francais_mot": "il a réalisé",
+          "expression_contexte": "",
+          "infinitif": "לַעֲשׂוֹת = Faire / Réaliser"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "הכריכות",
+          "hebreu_voyelles": "הַכְּרִיכוֹת",
+          "francais_mot": "les enroulements",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "כמנין",
+          "hebreu_voyelles": "כִּמְנִין",
+          "francais_mot": "selon le nombre de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "שם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "Nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "הוי",
+          "hebreu_voyelles": "הוי\"ה",
+          "francais_mot": "l'Éternel",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "ברוך",
+          "hebreu_voyelles": "בָּרוּךְ",
+          "francais_mot": "béni",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "הוא,",
+          "hebreu_voyelles": "הוּא,",
+          "francais_mot": "soit-Il,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "להתיר",
+          "hebreu_voyelles": "לְהַתִּיר",
+          "francais_mot": "de défaire",
+          "expression_contexte": "",
+          "infinitif": "לְהַתִּיר = Défaire / Permettre"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "הכריכות,",
+          "hebreu_voyelles": "הַכְּרִיכוֹת,",
+          "francais_mot": "les enroulements,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "et il n'y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "en cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "aucune",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "crainte",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "משום",
+          "hebreu_voyelles": "מִשּׁוּם",
+          "francais_mot": "au titre de",
+          "expression_contexte": "interdiction de"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "מוחק",
+          "hebreu_voyelles": "מוֹחֵק",
+          "francais_mot": "effacer",
+          "expression_contexte": "",
+          "infinitif": "לִמְחוֹק = Effacer"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "שם",
+          "hebreu_voyelles": "שֵׁם",
+          "francais_mot": "le Nom de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "ה',",
+          "hebreu_voyelles": "ה',",
+          "francais_mot": "Dieu,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "הואיל",
+          "hebreu_voyelles": "הוֹאִיל",
+          "francais_mot": "puisqu'",
+          "expression_contexte": "puisque"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "ce n'est",
+          "expression_contexte": "ne s'agit"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "זה",
+          "hebreu_voyelles": "זֶה",
+          "francais_mot": "ceci",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "que",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "מספר",
+          "hebreu_voyelles": "מִסְפַּר",
+          "francais_mot": "un nombre de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "כריכות",
+          "hebreu_voyelles": "כְּרִיכוֹת",
+          "francais_mot": "d'enroulements",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "כעין",
+          "hebreu_voyelles": "כְּעֵין",
+          "francais_mot": "comme une sorte de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "גימטריא",
+          "hebreu_voyelles": "גִּימַטְרִיָּא",
+          "francais_mot": "gématria",
+          "expression_contexte": "équivalence numérique"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "בעלמא.",
+          "hebreu_voyelles": "בְּעָלְמָא.",
+          "francais_mot": "simple.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "lois de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tzitzit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "רפז.",
+          "hebreu_voyelles": "רפז.",
+          "francais_mot": "287.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "et Che'erit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "רמא].",
+          "hebreu_voyelles": "רָמָא].",
+          "francais_mot": "241].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 4
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Marque distinctive (Atara) sur le Talit",
+      "siman": "15",
+      "seif": "5",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ה. יש נוהגים לעשות עטרה מחתיכת משי ורקמה בטלית בחלק שמעל ראשו, לסימן, שאותן הציציות שלפניו יהיו לעולם לפניו, וכמו שאמרו בירושלמי קרש של המשכן שזכה להנתן בצפון לעולם בצפון וכו'. אבל לפי האמור לעיל אין להשוות תשמישי מצוה לתשמישי קדושה. וכן העידו על רבינו האר ז שלא היה מקפיד על כך. וכן עיקר להקל. ובפרט סומא שאינו צריך להקפיד בזה כלל. [ילקו\"י על הל' ציצית, מהדורת תשס\"ד עמוד רפח. ובמהדורת תשס\"ו עמוד רד. ושאר\"י ח\"א עמוד רמא].",
+        "hebreu_avec_voyelles": "ה יֵשׁ נוֹהֲגִים לַעֲשׂוֹת עֲטָרָה מֵחֲתִיכַת מֶשִׁי וְרִקְמָה בְּטַלִּית בַּחֵלֶק שֶׁמֵּעַל רֹאשׁוֹ, לְסִימָן, שֶׁאוֹתָן הַצִּיצִיּוֹת שֶׁלְּפָנָיו יִהְיוּ לְעוֹלָם לְפָנָיו, וּכְמוֹ שֶׁאָמְרוּ בַּיְּרוּשַׁלְמִי קֶרֶשׁ שֶׁל הַמִּשְׁכָּן שֶׁזָּכָה לְהִנָּתֵן בַּצָּפוֹן לְעוֹלָם בַּצָּפוֹן וְכוּ'. אֲבָל לְפִי הָאָמוּר לְעֵיל אֵין לְהַשְׁווֹת תַּשְׁמִישֵׁי מִצְוָה לְתַשְׁמִישֵׁי קְדֻשָּׁה. וְכֵן הֵעִידוּ עַל רַבֵּנוּ הָאֲרִ\"י זַ\"ל שֶׁלֹּא הָיָה מַקְפִּיד עַל כָּךְ. וְכֵן עִקָּר לְהָקֵל. וּבִפְרָט סוּמָא שֶׁאֵינוֹ צָרִיךְ לְהַקְפִּיד בָּזֶה כְּלָל. [ילקו\"י עַל הֵל' צִיצִית, מַהֲדוּרַת תשס\"ד עַמּוּד רפח. וּבְמַהֲדוּרַת תשס\"ו עַמּוּד רֵד. ושאר\"י ח\"א עַמּוּד רָמָא].",
+        "francais": "5. Certains ont l'habitude d'ajouter un col (Atara) fait d'un morceau de soie brodée sur le Talit, au niveau de la tête, en guise de repère afin que les Tsitsiyot situées devant restent toujours devant, comme l'ont enseigné nos Sages dans le Talmud de Jérusalem : une poutre du Tabernacle qui a eu le mérite d'être placée au nord restera toujours au nord, etc. Cependant, d'après ce qui a été mentionné précédemment, il ne faut pas assimiler les objets d'accomplissement de mitzva (Tashmishei Mitzva) aux objets de sainteté (Tashmishei Kedoucha). De même, il a été rapporté au sujet de notre maître le Ari z.l. qu'il ne s'en souciait pas. Telle est donc la règle essentielle : se montrer indulgent. C'est d'autant plus le cas pour une personne aveugle, qui n'a pas du tout besoin d'être rigoureuse sur ce point. [Yalkout Yossef sur les lois relatives aux Tsitsit, édition 5764, page 288 ; édition 5766, page 204 ; et She'erit Yossef volume 1, page 241]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ה.",
+          "hebreu_voyelles": "ה.",
+          "francais_mot": "5.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il y a",
+          "expression_contexte": "certains ont l'habitude"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "נוהגים",
+          "hebreu_voyelles": "נוֹהֲגִים",
+          "francais_mot": "qui ont l'habitude",
+          "expression_contexte": "",
+          "infinitif": "לִנְהֹג = Avoir l'habitude"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "לעשות",
+          "hebreu_voyelles": "לַעֲשׂוֹת",
+          "francais_mot": "de faire",
+          "expression_contexte": "d'ajouter",
+          "infinitif": "לַעֲשׂוֹת = Faire"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "עטרה",
+          "hebreu_voyelles": "עֲטָרָה",
+          "francais_mot": "un col",
+          "expression_contexte": "col de Talit (Atara)"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "מחתיכת",
+          "hebreu_voyelles": "מֵחֲתִיכַת",
+          "francais_mot": "d'un morceau de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "משי",
+          "hebreu_voyelles": "מֶשִׁי",
+          "francais_mot": "soie",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "ורקמה",
+          "hebreu_voyelles": "וְרִקְמָה",
+          "francais_mot": "et de broderie",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "בטלית",
+          "hebreu_voyelles": "בְּטַלִּית",
+          "francais_mot": "sur le Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "בחלק",
+          "hebreu_voyelles": "בַּחֵלֶק",
+          "francais_mot": "dans la partie",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "שמעל",
+          "hebreu_voyelles": "שֶׁמֵּעַל",
+          "francais_mot": "qui est au-dessus de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "ראשו,",
+          "hebreu_voyelles": "רֹאשׁוֹ,",
+          "francais_mot": "sa tête,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "לסימן,",
+          "hebreu_voyelles": "לְסִימָן,",
+          "francais_mot": "comme repère,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "שאותן",
+          "hebreu_voyelles": "שֶׁאוֹתָן",
+          "francais_mot": "afin que ces",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "הציציות",
+          "hebreu_voyelles": "הַצִּיצִיּוֹת",
+          "francais_mot": "Tsitsiyot",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "שלפניו",
+          "hebreu_voyelles": "שֶׁלְּפָנָיו",
+          "francais_mot": "qui sont devant lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "יהיו",
+          "hebreu_voyelles": "יִהְיוּ",
+          "francais_mot": "soient",
+          "expression_contexte": "restent",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "לעולם",
+          "hebreu_voyelles": "לְעוֹלָם",
+          "francais_mot": "toujours",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "לפניו,",
+          "hebreu_voyelles": "לְפָנָיו,",
+          "francais_mot": "devant lui,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "וכמו",
+          "hebreu_voyelles": "וּכְמוֹ",
+          "francais_mot": "et comme",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "שאמרו",
+          "hebreu_voyelles": "שֶׁאָמְרוּ",
+          "francais_mot": "qu'ils ont dit",
+          "expression_contexte": "comme ils ont enseigné",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "בירושלמי",
+          "hebreu_voyelles": "בַּיְּרוּשַׁלְמִי",
+          "francais_mot": "dans le Talmud de Jérusalem",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "קרש",
+          "hebreu_voyelles": "קֶרֶשׁ",
+          "francais_mot": "une poutre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "המשכן",
+          "hebreu_voyelles": "הַמִּשְׁכָּן",
+          "francais_mot": "le Tabernacle",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "שזכה",
+          "hebreu_voyelles": "שֶׁזָּכָה",
+          "francais_mot": "qui a eu le mérite",
+          "expression_contexte": "",
+          "infinitif": "לִזְכּוֹת = Mériter / Avoir le privilège"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "להנתן",
+          "hebreu_voyelles": "לְהִנָּתֵן",
+          "francais_mot": "d'être placée",
+          "expression_contexte": "",
+          "infinitif": "לְהִנָּתֵן = Être donné / Être placé"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "בצפון",
+          "hebreu_voyelles": "בַּצָּפוֹן",
+          "francais_mot": "au nord",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "לעולם",
+          "hebreu_voyelles": "לְעוֹלָם",
+          "francais_mot": "toujours",
+          "expression_contexte": "restera toujours"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "בצפון",
+          "hebreu_voyelles": "בַּצָּפוֹן",
+          "francais_mot": "au nord",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "וכו'.",
+          "hebreu_voyelles": "וְכוּ'.",
+          "francais_mot": "etc.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "אבל",
+          "hebreu_voyelles": "אֲבָל",
+          "francais_mot": "mais",
+          "expression_contexte": "Cependant"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "לפי",
+          "hebreu_voyelles": "לְפִי",
+          "francais_mot": "selon",
+          "expression_contexte": "d'après"
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "האמור",
+          "hebreu_voyelles": "הָאָמוּר",
+          "francais_mot": "ce qui a été dit",
+          "expression_contexte": "ce qui a été mentionné"
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "לעיל",
+          "hebreu_voyelles": "לְעֵיל",
+          "francais_mot": "ci-dessus",
+          "expression_contexte": "précédemment"
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "il ne faut pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "להשוות",
+          "hebreu_voyelles": "לְהַשְׁווֹת",
+          "francais_mot": "d'assimiler",
+          "expression_contexte": "assimiler",
+          "infinitif": "לְהַשְׁווֹת = Comparer / Assimiler"
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "תשמישי",
+          "hebreu_voyelles": "תַּשְׁמִישֵׁי",
+          "francais_mot": "les objets d'usage de",
+          "expression_contexte": "les objets d'accomplissement de"
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "מצוה",
+          "hebreu_voyelles": "מִצְוָה",
+          "francais_mot": "Mitzva",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "לתשמישי",
+          "hebreu_voyelles": "לְתַשְׁמִישֵׁי",
+          "francais_mot": "aux objets d'usage de",
+          "expression_contexte": "aux objets de"
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "קדושה.",
+          "hebreu_voyelles": "קְדֻשָּׁה.",
+          "francais_mot": "sainteté.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "וכן",
+          "hebreu_voyelles": "וְכֵן",
+          "francais_mot": "et de même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "העידו",
+          "hebreu_voyelles": "הֵעִידוּ",
+          "francais_mot": "ils ont témoigné",
+          "expression_contexte": "il a été rapporté",
+          "infinitif": "לְהָעִיד = Témoigner / Rapporter"
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": "au sujet de"
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "רבינו",
+          "hebreu_voyelles": "רַבֵּנוּ",
+          "francais_mot": "notre maître",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "האר",
+          "hebreu_voyelles": "הָאֲרִ\"י",
+          "francais_mot": "le Ari",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "ז",
+          "hebreu_voyelles": "זַ\"ל",
+          "francais_mot": "z.l.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "qu'il ne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "היה",
+          "hebreu_voyelles": "הָיָה",
+          "francais_mot": "était",
+          "expression_contexte": "",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "מקפיד",
+          "hebreu_voyelles": "מַקְפִּיד",
+          "francais_mot": "rigoureux",
+          "expression_contexte": "il ne s'en souciait pas",
+          "infinitif": "לְהַקְפִּיד = Être rigoureux / Faire attention"
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "כך.",
+          "hebreu_voyelles": "כָּךְ.",
+          "francais_mot": "cela.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "וכן",
+          "hebreu_voyelles": "וְכֵן",
+          "francais_mot": "et ainsi",
+          "expression_contexte": "Telle est donc"
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "עיקר",
+          "hebreu_voyelles": "עִקָּר",
+          "francais_mot": "l'essentiel",
+          "expression_contexte": "la règle essentielle"
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "להקל.",
+          "hebreu_voyelles": "לְהָקֵל.",
+          "francais_mot": "d'être indulgent.",
+          "expression_contexte": "se montrer indulgent",
+          "infinitif": "לְהָקֵל = Être indulgent / Alléger"
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "ובפרט",
+          "hebreu_voyelles": "וּבִפְרָט",
+          "francais_mot": "et en particulier",
+          "expression_contexte": "C'est d'autant plus le cas"
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "סומא",
+          "hebreu_voyelles": "סוּמָא",
+          "francais_mot": "un aveugle",
+          "expression_contexte": "pour une personne aveugle"
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "שאינו",
+          "hebreu_voyelles": "שֶׁאֵינוֹ",
+          "francais_mot": "qui n'a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "besoin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "להקפיד",
+          "hebreu_voyelles": "לְהַקְפִּיד",
+          "francais_mot": "d'être rigoureux",
+          "expression_contexte": "",
+          "infinitif": "לְהַקְפִּיד = Être rigoureux / Faire attention"
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "en cela",
+          "expression_contexte": "sur ce point"
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "כלל.",
+          "hebreu_voyelles": "כְּלָל.",
+          "francais_mot": "du tout.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": "sur les"
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "lois de",
+          "expression_contexte": "lois relatives aux"
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "מהדורת",
+          "hebreu_voyelles": "מַהֲדוּרַת",
+          "francais_mot": "édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "תשס\"ד",
+          "hebreu_voyelles": "תשס\"ד",
+          "francais_mot": "5764,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "רפח.",
+          "hebreu_voyelles": "רפח.",
+          "francais_mot": "288 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "ובמהדורת",
+          "hebreu_voyelles": "וּבְמַהֲדוּרַת",
+          "francais_mot": "et dans l'édition",
+          "expression_contexte": "édition"
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "תשס\"ו",
+          "hebreu_voyelles": "תשס\"ו",
+          "francais_mot": "5766,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "רד.",
+          "hebreu_voyelles": "רֵד.",
+          "francais_mot": "204 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "et She'erit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "Vol. 1,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "רמא].",
+          "hebreu_voyelles": "רָמָא].",
+          "francais_mot": "241].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 5
+    }
+  ]
+}

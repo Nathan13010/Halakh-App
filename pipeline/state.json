@@ -64,9 +64,13 @@
       "completed": "2026-08-16T18:19:48.439Z"
     },
     "8": {
-      "status": "in_progress",
-      "started": "2026-08-18T12:01:29.003Z",
-      "total_seifim": 54
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 54,
+      "seifim_pass": 54,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-08-19T14:21:56.521Z"
     },
     "9": {
       "status": "complete",
@@ -78,9 +82,13 @@
       "completed": "2026-08-17T10:50:13.025Z"
     },
     "10": {
-      "status": "in_progress",
-      "started": "2026-08-18T11:57:27.125Z",
-      "total_seifim": 17
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 17,
+      "seifim_pass": 17,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-08-19T14:53:44.102Z"
     },
     "11": {
       "status": "complete",
@@ -101,14 +109,45 @@
       "completed": "2026-08-18T09:28:16.414Z"
     },
     "13": {
-      "status": "in_progress",
-      "started": "2026-08-18T09:28:21.424Z",
-      "total_seifim": 18
+      "status": "complete",
+      "score": 95,
+      "total_seifim": 18,
+      "seifim_pass": 13,
+      "seifim_warn": 5,
+      "seifim_fail": 0,
+      "completed": "2026-08-20T13:57:08.001Z"
     },
     "14": {
+      "status": "complete",
+      "score": 98,
+      "total_seifim": 17,
+      "seifim_pass": 15,
+      "seifim_warn": 2,
+      "seifim_fail": 0,
+      "completed": "2026-08-20T14:13:30.343Z"
+    },
+    "15": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 5,
+      "seifim_pass": 5,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-08-20T14:20:27.445Z"
+    },
+    "16": {
+      "status": "complete",
+      "score": 96,
+      "total_seifim": 4,
+      "seifim_pass": 3,
+      "seifim_warn": 1,
+      "seifim_fail": 0,
+      "completed": "2026-08-20T14:26:56.075Z"
+    },
+    "17": {
       "status": "in_progress",
-      "started": "2026-08-18T11:32:58.861Z",
-      "total_seifim": 17
+      "started": "2026-08-20T14:27:01.080Z",
+      "total_seifim": 6
     },
     "109": {
       "status": "complete",
@@ -138,5 +177,5 @@
       "completed": "2026-08-16T19:08:49.158Z"
     }
   },
-  "last_updated": "2026-08-18T12:01:29.004Z"
+  "last_updated": "2026-08-20T14:27:01.080Z"
 }

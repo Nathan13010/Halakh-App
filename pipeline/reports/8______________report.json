@@ -1,13 +1,13 @@
 {
   "siman": 8,
   "file": "siman_8.json",
-  "timestamp": "2026-08-18T11:30:35.162Z",
+  "timestamp": "2026-08-19T14:21:56.512Z",
   "summary": {
     "total": 54,
-    "pass": 42,
+    "pass": 54,
     "warn": 0,
-    "fail": 12,
-    "avg_score": 78
+    "fail": 0,
+    "avg_score": 100
   },
   "seifim": [
     {
@@ -894,219 +894,255 @@
     },
     {
       "seif": 43,
-      "status": "FAIL",
-      "score": 0,
-      "checks": {},
-      "issues": [
-        {
-          "type": "GENERATION_ERROR",
-          "severity": "error",
-          "detail": "Le script de génération a planté sur ce seif."
-        },
-        {
-          "type": "EMPTY_ARRAY",
-          "severity": "error",
-          "detail": "Le tableau mots_alignes est vide."
-        }
-      ]
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
     },
     {
       "seif": 44,
-      "status": "FAIL",
-      "score": 0,
-      "checks": {},
-      "issues": [
-        {
-          "type": "GENERATION_ERROR",
-          "severity": "error",
-          "detail": "Le script de génération a planté sur ce seif."
-        },
-        {
-          "type": "EMPTY_ARRAY",
-          "severity": "error",
-          "detail": "Le tableau mots_alignes est vide."
-        }
-      ]
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
     },
     {
       "seif": 45,
-      "status": "FAIL",
-      "score": 0,
-      "checks": {},
-      "issues": [
-        {
-          "type": "GENERATION_ERROR",
-          "severity": "error",
-          "detail": "Le script de génération a planté sur ce seif."
-        },
-        {
-          "type": "EMPTY_ARRAY",
-          "severity": "error",
-          "detail": "Le tableau mots_alignes est vide."
-        }
-      ]
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
     },
     {
       "seif": 46,
-      "status": "FAIL",
-      "score": 0,
-      "checks": {},
-      "issues": [
-        {
-          "type": "GENERATION_ERROR",
-          "severity": "error",
-          "detail": "Le script de génération a planté sur ce seif."
-        },
-        {
-          "type": "EMPTY_ARRAY",
-          "severity": "error",
-          "detail": "Le tableau mots_alignes est vide."
-        }
-      ]
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
     },
     {
       "seif": 47,
-      "status": "FAIL",
-      "score": 0,
-      "checks": {},
-      "issues": [
-        {
-          "type": "GENERATION_ERROR",
-          "severity": "error",
-          "detail": "Le script de génération a planté sur ce seif."
-        },
-        {
-          "type": "EMPTY_ARRAY",
-          "severity": "error",
-          "detail": "Le tableau mots_alignes est vide."
-        }
-      ]
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
     },
     {
       "seif": 48,
-      "status": "FAIL",
-      "score": 0,
-      "checks": {},
-      "issues": [
-        {
-          "type": "GENERATION_ERROR",
-          "severity": "error",
-          "detail": "Le script de génération a planté sur ce seif."
-        },
-        {
-          "type": "EMPTY_ARRAY",
-          "severity": "error",
-          "detail": "Le tableau mots_alignes est vide."
-        }
-      ]
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
     },
     {
       "seif": 49,
-      "status": "FAIL",
-      "score": 0,
-      "checks": {},
-      "issues": [
-        {
-          "type": "GENERATION_ERROR",
-          "severity": "error",
-          "detail": "Le script de génération a planté sur ce seif."
-        },
-        {
-          "type": "EMPTY_ARRAY",
-          "severity": "error",
-          "detail": "Le tableau mots_alignes est vide."
-        }
-      ]
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
     },
     {
       "seif": 50,
-      "status": "FAIL",
-      "score": 0,
-      "checks": {},
-      "issues": [
-        {
-          "type": "GENERATION_ERROR",
-          "severity": "error",
-          "detail": "Le script de génération a planté sur ce seif."
-        },
-        {
-          "type": "EMPTY_ARRAY",
-          "severity": "error",
-          "detail": "Le tableau mots_alignes est vide."
-        }
-      ]
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
     },
     {
       "seif": 51,
-      "status": "FAIL",
-      "score": 0,
-      "checks": {},
-      "issues": [
-        {
-          "type": "GENERATION_ERROR",
-          "severity": "error",
-          "detail": "Le script de génération a planté sur ce seif."
-        },
-        {
-          "type": "EMPTY_ARRAY",
-          "severity": "error",
-          "detail": "Le tableau mots_alignes est vide."
-        }
-      ]
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
     },
     {
       "seif": 52,
-      "status": "FAIL",
-      "score": 0,
-      "checks": {},
-      "issues": [
-        {
-          "type": "GENERATION_ERROR",
-          "severity": "error",
-          "detail": "Le script de génération a planté sur ce seif."
-        },
-        {
-          "type": "EMPTY_ARRAY",
-          "severity": "error",
-          "detail": "Le tableau mots_alignes est vide."
-        }
-      ]
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
     },
     {
       "seif": 53,
-      "status": "FAIL",
-      "score": 0,
-      "checks": {},
-      "issues": [
-        {
-          "type": "GENERATION_ERROR",
-          "severity": "error",
-          "detail": "Le script de génération a planté sur ce seif."
-        },
-        {
-          "type": "EMPTY_ARRAY",
-          "severity": "error",
-          "detail": "Le tableau mots_alignes est vide."
-        }
-      ]
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
     },
     {
       "seif": 54,
-      "status": "FAIL",
-      "score": 0,
-      "checks": {},
-      "issues": [
-        {
-          "type": "GENERATION_ERROR",
-          "severity": "error",
-          "detail": "Le script de génération a planté sur ce seif."
-        },
-        {
-          "type": "EMPTY_ARRAY",
-          "severity": "error",
-          "detail": "Le tableau mots_alignes est vide."
-        }
-      ]
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
     }
   ]
 }

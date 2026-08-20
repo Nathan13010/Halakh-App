@@ -1,0 +1,65 @@
+{
+  "siman": 14,
+  "timestamp": "2026-08-20T14:13:30.259Z",
+  "dryRun": false,
+  "totalFixes": 8,
+  "seifimFixed": 8,
+  "details": [
+    {
+      "seif": "8",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"א\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "9",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"ב\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "10",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"ג\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "11",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"ד\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "12",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"ה\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "15",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"ח\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "16",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"ט\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "17",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"י\"). Réalignement..."
+      ]
+    }
+  ]
+}
