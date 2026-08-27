@@ -145,9 +145,99 @@
       "completed": "2026-08-20T14:26:56.075Z"
     },
     "17": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 6,
+      "seifim_pass": 6,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-08-23T09:02:22.394Z"
+    },
+    "18": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 11,
+      "seifim_pass": 11,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-08-23T09:16:58.001Z"
+    },
+    "19": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 4,
+      "seifim_pass": 4,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-08-23T09:22:43.771Z"
+    },
+    "20": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 2,
+      "seifim_pass": 2,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-08-23T09:25:34.912Z"
+    },
+    "21": {
+      "status": "complete",
+      "score": 98,
+      "total_seifim": 14,
+      "seifim_pass": 12,
+      "seifim_warn": 2,
+      "seifim_fail": 0,
+      "completed": "2026-08-23T09:51:10.788Z"
+    },
+    "22": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 3,
+      "seifim_pass": 3,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-08-23T09:55:59.072Z"
+    },
+    "23": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 5,
+      "seifim_pass": 5,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-08-23T10:05:31.383Z"
+    },
+    "24": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 15,
+      "seifim_pass": 15,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-08-24T16:26:41.054Z"
+    },
+    "25": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 95,
+      "seifim_pass": 93,
+      "seifim_warn": 2,
+      "seifim_fail": 0,
+      "completed": "2026-08-27T21:03:05.849Z"
+    },
+    "26": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 4,
+      "seifim_pass": 4,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-08-27T21:12:05.510Z"
+    },
+    "27": {
       "status": "in_progress",
-      "started": "2026-08-20T14:27:01.080Z",
-      "total_seifim": 6
+      "started": "2026-08-27T21:12:10.524Z",
+      "total_seifim": 27
     },
     "109": {
       "status": "complete",
@@ -167,6 +257,15 @@
       "seifim_fail": 0,
       "completed": "2026-08-16T18:19:48.437Z"
     },
+    "330": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 12,
+      "seifim_pass": 12,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-08-24T16:41:43.836Z"
+    },
     "9::הלכות אבלות דיני אבלות": {
       "status": "complete",
       "score": 100,
@@ -177,5 +276,5 @@
       "completed": "2026-08-16T19:08:49.158Z"
     }
   },
-  "last_updated": "2026-08-20T14:27:01.080Z"
+  "last_updated": "2026-08-27T21:12:10.524Z"
 }

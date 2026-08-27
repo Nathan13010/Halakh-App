@@ -1,0 +1,4088 @@
+{
+  "meta": {
+    "siman": 1,
+    "siman_hebrew": "א",
+    "title": "הלכות הנהגת אדם בבוקר",
+    "source": "siman_1.json",
+    "source_seifim": 59,
+    "knowledge_points": 76,
+    "version": "1.0",
+    "method": "source-grounded editorial extraction",
+    "external_sources_used": false
+  },
+  "knowledge_points": [
+    {
+      "id": "s1-kp-001",
+      "title": "Ne pas avoir honte d'accomplir une Mitsva",
+      "rule": "Lorsqu'une personne accomplit une Mitsva, elle ne doit pas avoir honte des personnes qui se moquent d'elle.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "essential",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Lorsqu'une personne accomplit une Mitsva, elle ne doit pas avoir honte des personnes qui se moquent d'elle.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 1
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 1
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Ne pas avoir honte d'accomplir une Mitsva",
+        "simple_explanation": "Lorsqu'une personne accomplit une Mitsva, elle ne doit pas avoir honte des personnes qui se moquent d'elle.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-001-flashcard-01",
+            "knowledge_point_id": "s1-kp-001",
+            "source_seif": "1",
+            "title": "Ne pas avoir honte d'accomplir une Mitsva",
+            "question": "Que dit la Halakha concernant : Ne pas avoir honte d'accomplir une Mitsva ?",
+            "answer": "Lorsqu'une personne accomplit une Mitsva, elle ne doit pas avoir honte des personnes qui se moquent d'elle.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-002",
+      "title": "Ne pas se quereller avec les moqueurs",
+      "rule": "Bien qu'il ne faille pas avoir honte d'accomplir les Mitsvot face aux moqueurs, il ne faut pas se quereller avec eux.",
+      "explanation": "Le Seif explique que cela permet notamment de ne pas s'habituer à l'effronterie.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "prohibition",
+      "halakha_status": "conditional",
+      "claims": [
+        {
+          "text": "Il ne faut pas se quereller avec les personnes qui se moquent de l'accomplissement des Mitsvot.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 1
+            },
+            {
+              "siman": 1,
+              "seif": 14
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 1
+        },
+        {
+          "siman": 1,
+          "seif": 14
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Ne pas se quereller avec les moqueurs",
+        "simple_explanation": "Bien qu'il ne faille pas avoir honte d'accomplir les Mitsvot face aux moqueurs, il ne faut pas se quereller avec eux.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-002-flashcard-01",
+            "knowledge_point_id": "s1-kp-002",
+            "source_seif": "1, 14",
+            "title": "Ne pas se quereller avec les moqueurs",
+            "question": "Que dit la Halakha concernant : Ne pas se quereller avec les moqueurs ?",
+            "answer": "Bien qu'il ne faille pas avoir honte d'accomplir les Mitsvot face aux moqueurs, il ne faut pas se quereller avec eux.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-002-practical-01",
+              "knowledge_point_id": "s1-kp-002",
+              "source_seif": "1, 14",
+              "validated": true,
+              "explanation": "Le Seif explique que cela permet notamment de ne pas s'habituer à l'effronterie.",
+              "situation": "Une personne se trouve dans la condition suivante : \"Ne pas se quereller avec les moqueurs\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Bien qu'il ne faille pas avoir honte d'accomplir les Mitsvot face aux moqueurs, il ne faut pas se quereller avec eux."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-003",
+      "title": "S'écarter de la vision du mal",
+      "rule": "Il faut se hâter de fermer les yeux afin de ne pas regarder ce qui est mauvais, car la vue est présentée comme le commencement de la faute.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "La personne doit se hâter de fermer les yeux pour ne pas voir le mal.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 1
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 1
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : S'écarter de la vision du mal",
+        "simple_explanation": "Il faut se hâter de fermer les yeux afin de ne pas regarder ce qui est mauvais, car la vue est présentée comme le commencement de la faute.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-003-flashcard-01",
+            "knowledge_point_id": "s1-kp-003",
+            "source_seif": "1",
+            "title": "S'écarter de la vision du mal",
+            "question": "Que dit la Halakha concernant : S'écarter de la vision du mal ?",
+            "answer": "Il faut se hâter de fermer les yeux afin de ne pas regarder ce qui est mauvais, car la vue est présentée comme le commencement de la faute.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-004",
+      "title": "Se lever avec force pour servir Hachem",
+      "rule": "Il faut se renforcer pour se lever le matin au service de son Créateur.",
+      "explanation": "Le Seif présente cette force comme la capacité du cœur à vaincre le penchant qui cherche à empêcher l'accomplissement du service divin.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "essential",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Il faut se renforcer pour se lever le matin au service de son Créateur.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 1
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 1
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Se lever avec force pour servir Hachem",
+        "simple_explanation": "Il faut se renforcer pour se lever le matin au service de son Créateur.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-004-flashcard-01",
+            "knowledge_point_id": "s1-kp-004",
+            "source_seif": "1",
+            "title": "Se lever avec force pour servir Hachem",
+            "question": "Que dit la Halakha concernant : Se lever avec force pour servir Hachem ?",
+            "answer": "Il faut se renforcer pour se lever le matin au service de son Créateur.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-005",
+      "title": "Ne pas dépasser les temps du Chema et de la prière",
+      "rule": "Il ne faut en aucun cas laisser passer le temps du Chema et de la prière.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "essential",
+      "knowledge_type": "time",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Il ne faut pas retarder le temps de la prière et du Chema.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 1
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 1
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Ne pas dépasser les temps du Chema et de la prière",
+        "simple_explanation": "Il ne faut en aucun cas laisser passer le temps du Chema et de la prière.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-005-flashcard-01",
+            "knowledge_point_id": "s1-kp-005",
+            "source_seif": "1",
+            "title": "Ne pas dépasser les temps du Chema et de la prière",
+            "question": "Que dit la Halakha concernant : Ne pas dépasser les temps du Chema et de la prière ?",
+            "answer": "Il ne faut en aucun cas laisser passer le temps du Chema et de la prière.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-006",
+      "title": "La véritable Zrizout",
+      "rule": "Courir vers la synagogue après s'être attardé au lit n'est pas la Zrizout idéale.",
+      "explanation": "Le Seif distingue l'empressement véritable, qui consiste à se lever tôt, de la précipitation provoquée par un réveil tardif.",
+      "practical_example": null,
+      "common_trap": "Confondre le fait de courir parce qu'on est en retard avec la Zrizout.",
+      "learning_level": 1,
+      "importance": "essential",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Courir vers la synagogue après s'être attardé au lit n'est pas considéré comme la mesure de Zrizout recherchée.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 2
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 2
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : La véritable Zrizout",
+        "simple_explanation": "Courir vers la synagogue après s'être attardé au lit n'est pas la Zrizout idéale.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-006-flashcard-01",
+            "knowledge_point_id": "s1-kp-006",
+            "source_seif": "2",
+            "title": "La véritable Zrizout",
+            "question": "Que dit la Halakha concernant : La véritable Zrizout ?",
+            "answer": "Courir vers la synagogue après s'être attardé au lit n'est pas la Zrizout idéale.",
+            "conditions": "",
+            "validated": true
+          },
+          "multiple_choice": [
+            {
+              "activity_id": "s1-kp-006-qcm-01",
+              "knowledge_point_id": "s1-kp-006",
+              "source_seif": "2",
+              "validated": true,
+              "explanation": "Le Seif distingue l'empressement véritable, qui consiste à se lever tôt, de la précipitation provoquée par un réveil tardif.",
+              "question": "Quelle est la règle concernant : La véritable Zrizout ?",
+              "options": [
+                "Courir vers la synagogue après s'être attardé au lit n'est pas la Zrizout idéale.",
+                "Confondre le fait de courir parce qu'on est en retard avec la Zrizout."
+              ],
+              "correct_answer": "Courir vers la synagogue après s'être attardé au lit n'est pas la Zrizout idéale."
+            }
+          ],
+          "true_false": [
+            {
+              "activity_id": "s1-kp-006-vf-01",
+              "knowledge_point_id": "s1-kp-006",
+              "source_seif": "2",
+              "statement": "Confondre le fait de courir parce qu'on est en retard avec la Zrizout.",
+              "is_true": false,
+              "explanation": "La règle est : Courir vers la synagogue après s'être attardé au lit n'est pas la Zrizout idéale.",
+              "validated": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-007",
+      "title": "Ne pas se laisser entraîner par le sommeil et les plaisirs",
+      "rule": "Il ne faut pas se laisser entraîner par le sommeil et les plaisirs au point de négliger la Torah et les Mitsvot.",
+      "explanation": "Le Seif oppose les biens passagers de ce monde à la Torah et à sa récompense, présentées comme durables.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "essential",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Il ne faut pas se laisser entraîner par le sommeil et les plaisirs au détriment du service divin.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 2
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 2
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Ne pas se laisser entraîner par le sommeil et les plaisirs",
+        "simple_explanation": "Il ne faut pas se laisser entraîner par le sommeil et les plaisirs au point de négliger la Torah et les Mitsvot.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-007-flashcard-01",
+            "knowledge_point_id": "s1-kp-007",
+            "source_seif": "2",
+            "title": "Ne pas se laisser entraîner par le sommeil et les plaisirs",
+            "question": "Que dit la Halakha concernant : Ne pas se laisser entraîner par le sommeil et les plaisirs ?",
+            "answer": "Il ne faut pas se laisser entraîner par le sommeil et les plaisirs au point de négliger la Torah et les Mitsvot.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-008",
+      "title": "Se lever assez tôt pour se préparer à la prière",
+      "rule": "Il faut se lever suffisamment tôt pour pouvoir se préparer à prier avec la communauté et dans un état de propreté, sans perdre le temps de la prière.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "time",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Il faut se lever tôt afin d'avoir le temps de se préparer à la prière communautaire et de ne pas perdre son temps.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 3
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 3
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Se lever assez tôt pour se préparer à la prière",
+        "simple_explanation": "Il faut se lever suffisamment tôt pour pouvoir se préparer à prier avec la communauté et dans un état de propreté, sans perdre le temps de la prière.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-008-flashcard-01",
+            "knowledge_point_id": "s1-kp-008",
+            "source_seif": "3",
+            "title": "Se lever assez tôt pour se préparer à la prière",
+            "question": "Que dit la Halakha concernant : Se lever assez tôt pour se préparer à la prière ?",
+            "answer": "Il faut se lever suffisamment tôt pour pouvoir se préparer à prier avec la communauté et dans un état de propreté, sans perdre le temps de la prière.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-009",
+      "title": "Durée du sommeil mentionnée par le Seif",
+      "rule": "Le Seif rapporte que, selon les médecins qu'il cite, une personne ne devrait pas dormir moins de six heures ni plus de huit heures, et que davantage peut nuire à la santé.",
+      "explanation": "Il s'agit de la recommandation médicale rapportée par le texte source, et non d'une règle médicale générale ajoutée à partir d'une source extérieure.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "reference",
+      "knowledge_type": "time",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif rapporte six à huit heures comme durée de sommeil citée par les médecins.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 4
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 4
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Durée du sommeil mentionnée par le Seif",
+        "simple_explanation": "Le Seif rapporte que, selon les médecins qu'il cite, une personne ne devrait pas dormir moins de six heures ni plus de huit heures, et que davantage peut nuire à la santé.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-009-flashcard-01",
+            "knowledge_point_id": "s1-kp-009",
+            "source_seif": "4",
+            "title": "Durée du sommeil mentionnée par le Seif",
+            "question": "Que dit la Halakha concernant : Durée du sommeil mentionnée par le Seif ?",
+            "answer": "Le Seif rapporte que, selon les médecins qu'il cite, une personne ne devrait pas dormir moins de six heures ni plus de huit heures, et que davantage peut nuire à la santé.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-010",
+      "title": "Valeur de l'étude nocturne",
+      "rule": "Le Seif souligne la valeur particulière de l'étude de la Torah durant la nuit.",
+      "explanation": "Il rapporte notamment que l'homme n'acquiert pas la majeure partie de sa sagesse uniquement pendant le jour, et encourage celui qui cherche la Torah à consacrer ses nuits à la Torah et à la sagesse plutôt qu'au sommeil, à la nourriture ou aux conversations inutiles.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "important",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif rapporte que la nuit a une importance particulière pour l'étude de la Torah.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 4
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 4
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Valeur de l'étude nocturne",
+        "simple_explanation": "Le Seif souligne la valeur particulière de l'étude de la Torah durant la nuit.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-010-flashcard-01",
+            "knowledge_point_id": "s1-kp-010",
+            "source_seif": "4",
+            "title": "Valeur de l'étude nocturne",
+            "question": "Que dit la Halakha concernant : Valeur de l'étude nocturne ?",
+            "answer": "Le Seif souligne la valeur particulière de l'étude de la Torah durant la nuit.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-011",
+      "title": "Éviter le sommeil pendant la journée",
+      "rule": "Il convient de s'abstenir de dormir pendant la journée afin de ne pas perdre du temps destiné à l'étude de la Torah.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif recommande de ne pas dormir pendant la journée afin de ne pas perdre du temps d'étude.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 5
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 5
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Éviter le sommeil pendant la journée",
+        "simple_explanation": "Il convient de s'abstenir de dormir pendant la journée afin de ne pas perdre du temps destiné à l'étude de la Torah.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-011-flashcard-01",
+            "knowledge_point_id": "s1-kp-011",
+            "source_seif": "5",
+            "title": "Éviter le sommeil pendant la journée",
+            "question": "Que dit la Halakha concernant : Éviter le sommeil pendant la journée ?",
+            "answer": "Il convient de s'abstenir de dormir pendant la journée afin de ne pas perdre du temps destiné à l'étude de la Torah.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-012",
+      "title": "Cas où le sommeil diurne est permis",
+      "rule": "Le Seif permet le sommeil pendant la journée dans certains cas, notamment lorsqu'il aide à pouvoir étudier la nuit, ainsi que le Chabbat.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "exception",
+      "halakha_status": "conditional",
+      "claims": [
+        {
+          "text": "Le Seif prévoit des cas où le sommeil diurne est permis, notamment pour permettre une meilleure étude nocturne et le Chabbat.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 5
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 5
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Cas où le sommeil diurne est permis",
+        "simple_explanation": "Le Seif permet le sommeil pendant la journée dans certains cas, notamment lorsqu'il aide à pouvoir étudier la nuit, ainsi que le Chabbat.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-012-flashcard-01",
+            "knowledge_point_id": "s1-kp-012",
+            "source_seif": "5",
+            "title": "Cas où le sommeil diurne est permis",
+            "question": "Que dit la Halakha concernant : Cas où le sommeil diurne est permis ?",
+            "answer": "Le Seif permet le sommeil pendant la journée dans certains cas, notamment lorsqu'il aide à pouvoir étudier la nuit, ainsi que le Chabbat.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-012-practical-01",
+              "knowledge_point_id": "s1-kp-012",
+              "source_seif": "5",
+              "validated": true,
+              "explanation": "-",
+              "situation": "Une personne se trouve dans la condition suivante : \"Cas où le sommeil diurne est permis\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Le Seif permet le sommeil pendant la journée dans certains cas, notamment lorsqu'il aide à pouvoir étudier la nuit, ainsi que le Chabbat."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-013",
+      "title": "Moment du sommeil le plus bénéfique",
+      "rule": "Le Seif rapporte que le sommeil de fin de nuit, à proximité de l'aube, est considéré comme particulièrement bénéfique pour le corps.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "time",
+      "halakha_status": "multiple_opinions",
+      "claims": [
+        {
+          "text": "Le Seif traite du moment du sommeil considéré comme le plus bénéfique et rapporte une préférence pour le sommeil proche de l'aube.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 6
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 6
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Moment du sommeil le plus bénéfique",
+        "simple_explanation": "Le Seif rapporte que le sommeil de fin de nuit, à proximité de l'aube, est considéré comme particulièrement bénéfique pour le corps.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-013-flashcard-01",
+            "knowledge_point_id": "s1-kp-013",
+            "source_seif": "6",
+            "title": "Moment du sommeil le plus bénéfique",
+            "question": "Que dit la Halakha concernant : Moment du sommeil le plus bénéfique ?",
+            "answer": "Le Seif rapporte que le sommeil de fin de nuit, à proximité de l'aube, est considéré comme particulièrement bénéfique pour le corps.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-014",
+      "title": "L'étude nocturne ne doit pas faire manquer le Chema",
+      "rule": "Celui qui étudie la Torah tard dans la nuit doit veiller à ne pas dépasser le temps du Chema.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "essential",
+      "knowledge_type": "time",
+      "halakha_status": "conditional",
+      "claims": [
+        {
+          "text": "L'étude nocturne ne justifie pas de manquer le temps du Chema.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 7
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 7
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : L'étude nocturne ne doit pas faire manquer le Chema",
+        "simple_explanation": "Celui qui étudie la Torah tard dans la nuit doit veiller à ne pas dépasser le temps du Chema.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-014-flashcard-01",
+            "knowledge_point_id": "s1-kp-014",
+            "source_seif": "7",
+            "title": "L'étude nocturne ne doit pas faire manquer le Chema",
+            "question": "Que dit la Halakha concernant : L'étude nocturne ne doit pas faire manquer le Chema ?",
+            "answer": "Celui qui étudie la Torah tard dans la nuit doit veiller à ne pas dépasser le temps du Chema.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-014-practical-01",
+              "knowledge_point_id": "s1-kp-014",
+              "source_seif": "7",
+              "validated": true,
+              "explanation": "-",
+              "situation": "Une personne se trouve dans la condition suivante : \"L'étude nocturne ne doit pas faire manquer le Chema\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Celui qui étudie la Torah tard dans la nuit doit veiller à ne pas dépasser le temps du Chema."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-015",
+      "title": "Étude nocturne et prière à Nets",
+      "rule": "Le Seif permet, dans certaines conditions liées à l'étude de la Torah, de ne pas prier à Nets, à condition de ne pas dépasser le temps du Chema et de la prière.",
+      "explanation": "Cette possibilité est liée à la personne dont l'étude nocturne renforce l'assiduité dans l'étude.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "secondary",
+      "knowledge_type": "exception",
+      "halakha_status": "conditional",
+      "claims": [
+        {
+          "text": "Le Seif distingue le fait de manquer le Chema du fait de ne pas prier à Nets lorsque l'étude nocturne le justifie.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 7
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 7
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Étude nocturne et prière à Nets",
+        "simple_explanation": "Le Seif permet, dans certaines conditions liées à l'étude de la Torah, de ne pas prier à Nets, à condition de ne pas dépasser le temps du Chema et de la prière.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-015-flashcard-01",
+            "knowledge_point_id": "s1-kp-015",
+            "source_seif": "7",
+            "title": "Étude nocturne et prière à Nets",
+            "question": "Que dit la Halakha concernant : Étude nocturne et prière à Nets ?",
+            "answer": "Le Seif permet, dans certaines conditions liées à l'étude de la Torah, de ne pas prier à Nets, à condition de ne pas dépasser le temps du Chema et de la prière.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-015-practical-01",
+              "knowledge_point_id": "s1-kp-015",
+              "source_seif": "7",
+              "validated": true,
+              "explanation": "Cette possibilité est liée à la personne dont l'étude nocturne renforce l'assiduité dans l'étude.",
+              "situation": "Une personne se trouve dans la condition suivante : \"Étude nocturne et prière à Nets\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Le Seif permet, dans certaines conditions liées à l'étude de la Torah, de ne pas prier à Nets, à condition de ne pas dépasser le temps du Chema et de la prière."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-016",
+      "title": "Ne pas se lever brusquement",
+      "rule": "Au réveil, il ne faut pas se mettre debout brusquement, car le Seif rapporte que cela nuit à la santé.",
+      "explanation": "On peut patienter un peu, notamment en s'asseyant sur le lit avant de se mettre debout.",
+      "practical_example": null,
+      "common_trap": "Croire que l'empressement impose de se lever brusquement.",
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "practical_case",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Il ne faut pas se lever brusquement après le sommeil.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 8
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 8
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Ne pas se lever brusquement",
+        "simple_explanation": "Au réveil, il ne faut pas se mettre debout brusquement, car le Seif rapporte que cela nuit à la santé.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-016-flashcard-01",
+            "knowledge_point_id": "s1-kp-016",
+            "source_seif": "8",
+            "title": "Ne pas se lever brusquement",
+            "question": "Que dit la Halakha concernant : Ne pas se lever brusquement ?",
+            "answer": "Au réveil, il ne faut pas se mettre debout brusquement, car le Seif rapporte que cela nuit à la santé.",
+            "conditions": "",
+            "validated": true
+          },
+          "multiple_choice": [
+            {
+              "activity_id": "s1-kp-016-qcm-01",
+              "knowledge_point_id": "s1-kp-016",
+              "source_seif": "8",
+              "validated": true,
+              "explanation": "On peut patienter un peu, notamment en s'asseyant sur le lit avant de se mettre debout.",
+              "question": "Quelle est la règle concernant : Ne pas se lever brusquement ?",
+              "options": [
+                "Au réveil, il ne faut pas se mettre debout brusquement, car le Seif rapporte que cela nuit à la santé.",
+                "Croire que l'empressement impose de se lever brusquement."
+              ],
+              "correct_answer": "Au réveil, il ne faut pas se mettre debout brusquement, car le Seif rapporte que cela nuit à la santé."
+            }
+          ],
+          "true_false": [
+            {
+              "activity_id": "s1-kp-016-vf-01",
+              "knowledge_point_id": "s1-kp-016",
+              "source_seif": "8",
+              "statement": "Croire que l'empressement impose de se lever brusquement.",
+              "is_true": false,
+              "explanation": "La règle est : Au réveil, il ne faut pas se mettre debout brusquement, car le Seif rapporte que cela nuit à la santé.",
+              "validated": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-017",
+      "title": "Éviter les paroles profanes au lever",
+      "rule": "Le Seif rapporte que de grands cabalistes veillaient à ne pas prononcer de paroles profanes avant d'avoir commencé les cantiques.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "secondary",
+      "knowledge_type": "custom",
+      "halakha_status": "custom",
+      "claims": [
+        {
+          "text": "Le Seif rapporte cette pratique de certains grands cabalistes.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 8
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 8
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Éviter les paroles profanes au lever",
+        "simple_explanation": "Le Seif rapporte que de grands cabalistes veillaient à ne pas prononcer de paroles profanes avant d'avoir commencé les cantiques.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-017-flashcard-01",
+            "knowledge_point_id": "s1-kp-017",
+            "source_seif": "8",
+            "title": "Éviter les paroles profanes au lever",
+            "question": "Que dit la Halakha concernant : Éviter les paroles profanes au lever ?",
+            "answer": "Le Seif rapporte que de grands cabalistes veillaient à ne pas prononcer de paroles profanes avant d'avoir commencé les cantiques.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-018",
+      "title": "Dire Modé Ani au réveil",
+      "rule": "Au réveil, on récite Modé Ani pour remercier Hachem de nous avoir rendu notre âme.",
+      "explanation": "Le Seif précise également la formulation féminine : une femme dit Modah Ani.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "essential",
+      "knowledge_type": "obligation",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Au réveil, on récite Modé Ani.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 9
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 9
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Dire Modé Ani au réveil",
+        "simple_explanation": "Au réveil, on récite Modé Ani pour remercier Hachem de nous avoir rendu notre âme.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-018-flashcard-01",
+            "knowledge_point_id": "s1-kp-018",
+            "source_seif": "9",
+            "title": "Dire Modé Ani au réveil",
+            "question": "Que dit la Halakha concernant : Dire Modé Ani au réveil ?",
+            "answer": "Au réveil, on récite Modé Ani pour remercier Hachem de nous avoir rendu notre âme.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-019",
+      "title": "Modé Ani avant Nétilat Yadaïm",
+      "rule": "Il est permis de réciter Modé Ani avant d'avoir effectué Nétilat Yadaïm.",
+      "explanation": "Le Seif précise que cette récitation est permise avant le lavage des mains.",
+      "practical_example": null,
+      "common_trap": "Penser qu'il faut obligatoirement attendre Nétilat Yadaïm pour dire Modé Ani.",
+      "learning_level": 1,
+      "importance": "essential",
+      "knowledge_type": "permission",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Modé Ani peut être récité avant Nétilat Yadaïm.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 9
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 9
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Modé Ani avant Nétilat Yadaïm",
+        "simple_explanation": "Il est permis de réciter Modé Ani avant d'avoir effectué Nétilat Yadaïm.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-019-flashcard-01",
+            "knowledge_point_id": "s1-kp-019",
+            "source_seif": "9",
+            "title": "Modé Ani avant Nétilat Yadaïm",
+            "question": "Que dit la Halakha concernant : Modé Ani avant Nétilat Yadaïm ?",
+            "answer": "Il est permis de réciter Modé Ani avant d'avoir effectué Nétilat Yadaïm.",
+            "conditions": "",
+            "validated": true
+          },
+          "multiple_choice": [
+            {
+              "activity_id": "s1-kp-019-qcm-01",
+              "knowledge_point_id": "s1-kp-019",
+              "source_seif": "9",
+              "validated": true,
+              "explanation": "Le Seif précise que cette récitation est permise avant le lavage des mains.",
+              "question": "Quelle est la règle concernant : Modé Ani avant Nétilat Yadaïm ?",
+              "options": [
+                "Il est permis de réciter Modé Ani avant d'avoir effectué Nétilat Yadaïm.",
+                "Penser qu'il faut obligatoirement attendre Nétilat Yadaïm pour dire Modé Ani."
+              ],
+              "correct_answer": "Il est permis de réciter Modé Ani avant d'avoir effectué Nétilat Yadaïm."
+            }
+          ],
+          "true_false": [
+            {
+              "activity_id": "s1-kp-019-vf-01",
+              "knowledge_point_id": "s1-kp-019",
+              "source_seif": "9",
+              "statement": "Penser qu'il faut obligatoirement attendre Nétilat Yadaïm pour dire Modé Ani.",
+              "is_true": false,
+              "explanation": "La règle est : Il est permis de réciter Modé Ani avant d'avoir effectué Nétilat Yadaïm.",
+              "validated": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-020",
+      "title": "Consacrer le début de la journée à Hachem",
+      "rule": "La première pensée, la première démarche, la première parole et la première action de la journée doivent être orientées vers le service de Hachem.",
+      "explanation": "Le Seif insiste sur l'importance spirituelle du commencement de la journée.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "essential",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif demande d'orienter le commencement de la journée vers le service divin.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 10
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 10
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Consacrer le début de la journée à Hachem",
+        "simple_explanation": "La première pensée, la première démarche, la première parole et la première action de la journée doivent être orientées vers le service de Hachem.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-020-flashcard-01",
+            "knowledge_point_id": "s1-kp-020",
+            "source_seif": "10",
+            "title": "Consacrer le début de la journée à Hachem",
+            "question": "Que dit la Halakha concernant : Consacrer le début de la journée à Hachem ?",
+            "answer": "La première pensée, la première démarche, la première parole et la première action de la journée doivent être orientées vers le service de Hachem.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-021",
+      "title": "Éducation des enfants au réveil",
+      "rule": "Il convient d'habituer un enfant qui sait parler à réciter Modé Ani et à se laver les mains au réveil.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "practical_case",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Il convient d'habituer un enfant qui sait parler à réciter Modé Ani et à se laver les mains.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 11
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 11
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Éducation des enfants au réveil",
+        "simple_explanation": "Il convient d'habituer un enfant qui sait parler à réciter Modé Ani et à se laver les mains au réveil.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-021-flashcard-01",
+            "knowledge_point_id": "s1-kp-021",
+            "source_seif": "11",
+            "title": "Éducation des enfants au réveil",
+            "question": "Que dit la Halakha concernant : Éducation des enfants au réveil ?",
+            "answer": "Il convient d'habituer un enfant qui sait parler à réciter Modé Ani et à se laver les mains au réveil.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-022",
+      "title": "Avoir Hachem constamment présent à l'esprit",
+      "rule": "La personne doit prendre à cœur que le Roi se tient au-dessus d'elle et voit ses actions.",
+      "explanation": "Le Seif présente cette conscience comme un moyen d'éveiller la crainte et la soumission devant Hachem.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "essential",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "La personne doit constamment garder à l'esprit la présence de Hachem et le fait qu'Il voit ses actions.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 12
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 12
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Avoir Hachem constamment présent à l'esprit",
+        "simple_explanation": "La personne doit prendre à cœur que le Roi se tient au-dessus d'elle et voit ses actions.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-022-flashcard-01",
+            "knowledge_point_id": "s1-kp-022",
+            "source_seif": "12",
+            "title": "Avoir Hachem constamment présent à l'esprit",
+            "question": "Que dit la Halakha concernant : Avoir Hachem constamment présent à l'esprit ?",
+            "answer": "La personne doit prendre à cœur que le Roi se tient au-dessus d'elle et voit ses actions.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-023",
+      "title": "Renforcer la crainte du Ciel",
+      "rule": "Le Seif cite plusieurs comportements qui renforcent la crainte du Ciel, notamment la fréquentation de la synagogue, la recherche de la paix, le respect des personnes âgées, la dîme et l'honnêteté en affaires.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif énumère plusieurs comportements comme moyens de renforcer la crainte du Ciel.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 13
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 13
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Renforcer la crainte du Ciel",
+        "simple_explanation": "Le Seif cite plusieurs comportements qui renforcent la crainte du Ciel, notamment la fréquentation de la synagogue, la recherche de la paix, le respect des personnes âgées, la dîme et l'honnêteté en affaires.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-023-flashcard-01",
+            "knowledge_point_id": "s1-kp-023",
+            "source_seif": "13",
+            "title": "Renforcer la crainte du Ciel",
+            "question": "Que dit la Halakha concernant : Renforcer la crainte du Ciel ?",
+            "answer": "Le Seif cite plusieurs comportements qui renforcent la crainte du Ciel, notamment la fréquentation de la synagogue, la recherche de la paix, le respect des personnes âgées, la dîme et l'honnêteté en affaires.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-024",
+      "title": "Cas exceptionnel d'affrontement pour défendre les intérêts de la Torah",
+      "rule": "Si l'objectif est d'influencer les affaires communautaires de Torah et de Mitsvot et que les voies pacifiques ont échoué, le Seif rapporte qu'il est permis d'affronter ceux qui cherchent à empêcher cette influence.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": "Transformer cette exception en permission générale de se disputer.",
+      "learning_level": 3,
+      "importance": "secondary",
+      "knowledge_type": "exception",
+      "halakha_status": "conditional",
+      "claims": [
+        {
+          "text": "Le Seif prévoit une exception lorsque l'objectif concerne les affaires communautaires de Torah et de Mitsvot et que les voies pacifiques ont échoué.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 1
+            },
+            {
+              "siman": 1,
+              "seif": 14
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 1
+        },
+        {
+          "siman": 1,
+          "seif": 14
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Cas exceptionnel d'affrontement pour défendre les intérêts de la Torah",
+        "simple_explanation": "Si l'objectif est d'influencer les affaires communautaires de Torah et de Mitsvot et que les voies pacifiques ont échoué, le Seif rapporte qu'il est permis d'affronter ceux qui cherchent à empêcher cette influence.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-024-flashcard-01",
+            "knowledge_point_id": "s1-kp-024",
+            "source_seif": "1, 14",
+            "title": "Cas exceptionnel d'affrontement pour défendre les intérêts de la Torah",
+            "question": "Que dit la Halakha concernant : Cas exceptionnel d'affrontement pour défendre les intérêts de la Torah ?",
+            "answer": "Si l'objectif est d'influencer les affaires communautaires de Torah et de Mitsvot et que les voies pacifiques ont échoué, le Seif rapporte qu'il est permis d'affronter ceux qui cherchent à empêcher cette influence.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "multiple_choice": [
+            {
+              "activity_id": "s1-kp-024-qcm-01",
+              "knowledge_point_id": "s1-kp-024",
+              "source_seif": "1, 14",
+              "validated": true,
+              "explanation": "-",
+              "question": "Quelle est la règle concernant : Cas exceptionnel d'affrontement pour défendre les intérêts de la Torah ?",
+              "options": [
+                "Si l'objectif est d'influencer les affaires communautaires de Torah et de Mitsvot et que les voies pacifiques ont échoué, le Seif rapporte qu'il est permis d'affronter ceux qui cherchent à empêcher cette influence.",
+                "Transformer cette exception en permission générale de se disputer."
+              ],
+              "correct_answer": "Si l'objectif est d'influencer les affaires communautaires de Torah et de Mitsvot et que les voies pacifiques ont échoué, le Seif rapporte qu'il est permis d'affronter ceux qui cherchent à empêcher cette influence."
+            }
+          ],
+          "true_false": [
+            {
+              "activity_id": "s1-kp-024-vf-01",
+              "knowledge_point_id": "s1-kp-024",
+              "source_seif": "1, 14",
+              "statement": "Transformer cette exception en permission générale de se disputer.",
+              "is_true": false,
+              "explanation": "La règle est : Si l'objectif est d'influencer les affaires communautaires de Torah et de Mitsvot et que les voies pacifiques ont échoué, le Seif rapporte qu'il est permis d'affronter ceux qui cherchent à empêcher cette influence.",
+              "validated": true
+            }
+          ],
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-024-practical-01",
+              "knowledge_point_id": "s1-kp-024",
+              "source_seif": "1, 14",
+              "validated": true,
+              "explanation": "-",
+              "situation": "Une personne se trouve dans la condition suivante : \"Cas exceptionnel d'affrontement pour défendre les intérêts de la Torah\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Si l'objectif est d'influencer les affaires communautaires de Torah et de Mitsvot et que les voies pacifiques ont échoué, le Seif rapporte qu'il est permis d'affronter ceux qui cherchent à empêcher cette influence."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-025",
+      "title": "Ne pas provoquer inutilement la colère des non-Juifs",
+      "rule": "Si le port visible du Talit et des Téfiline dans la rue provoque la colère des non-Juifs dans un lieu donné, le Seif indique de s'en abstenir dans ce contexte.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "secondary",
+      "knowledge_type": "exception",
+      "halakha_status": "conditional",
+      "claims": [
+        {
+          "text": "Le Seif traite du cas où le port du Talit et des Téfiline dans la rue provoque la colère des non-Juifs.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 15
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 15
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Ne pas provoquer inutilement la colère des non-Juifs",
+        "simple_explanation": "Si le port visible du Talit et des Téfiline dans la rue provoque la colère des non-Juifs dans un lieu donné, le Seif indique de s'en abstenir dans ce contexte.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-025-flashcard-01",
+            "knowledge_point_id": "s1-kp-025",
+            "source_seif": "15",
+            "title": "Ne pas provoquer inutilement la colère des non-Juifs",
+            "question": "Que dit la Halakha concernant : Ne pas provoquer inutilement la colère des non-Juifs ?",
+            "answer": "Si le port visible du Talit et des Téfiline dans la rue provoque la colère des non-Juifs dans un lieu donné, le Seif indique de s'en abstenir dans ce contexte.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-025-practical-01",
+              "knowledge_point_id": "s1-kp-025",
+              "source_seif": "15",
+              "validated": true,
+              "explanation": "-",
+              "situation": "Une personne se trouve dans la condition suivante : \"Ne pas provoquer inutilement la colère des non-Juifs\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Si le port visible du Talit et des Téfiline dans la rue provoque la colère des non-Juifs dans un lieu donné, le Seif indique de s'en abstenir dans ce contexte."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-026",
+      "title": "Dissimuler ses bonnes actions",
+      "rule": "La personne doit chercher à cacher et à dissimuler ses bonnes actions autant qu'elle le peut.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif recommande de cacher ses bonnes actions autant que possible.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 16
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 16
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Dissimuler ses bonnes actions",
+        "simple_explanation": "La personne doit chercher à cacher et à dissimuler ses bonnes actions autant qu'elle le peut.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-026-flashcard-01",
+            "knowledge_point_id": "s1-kp-026",
+            "source_seif": "16",
+            "title": "Dissimuler ses bonnes actions",
+            "question": "Que dit la Halakha concernant : Dissimuler ses bonnes actions ?",
+            "answer": "La personne doit chercher à cacher et à dissimuler ses bonnes actions autant qu'elle le peut.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-027",
+      "title": "Modifier ses paroles par humilité",
+      "rule": "Lorsqu'une personne accomplit une Mitsva ou un acte de piété et souhaite modifier ses paroles par humilité ou pour ne pas paraître orgueilleuse, le Seif permet cette modification.",
+      "explanation": "Le but rapporté est de préserver la discrétion et l'humilité.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "permission",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif permet de modifier ses paroles dans ce contexte afin de préserver l'humilité et la discrétion.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 17
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 17
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Modifier ses paroles par humilité",
+        "simple_explanation": "Lorsqu'une personne accomplit une Mitsva ou un acte de piété et souhaite modifier ses paroles par humilité ou pour ne pas paraître orgueilleuse, le Seif permet cette modification.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-027-flashcard-01",
+            "knowledge_point_id": "s1-kp-027",
+            "source_seif": "17",
+            "title": "Modifier ses paroles par humilité",
+            "question": "Que dit la Halakha concernant : Modifier ses paroles par humilité ?",
+            "answer": "Lorsqu'une personne accomplit une Mitsva ou un acte de piété et souhaite modifier ses paroles par humilité ou pour ne pas paraître orgueilleuse, le Seif permet cette modification.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-028",
+      "title": "Accepter l'amour de Hachem avant la prière",
+      "rule": "Avant la prière de Cha'harit, il faut accepter sur soi l'amour de Hachem et orienter sa pensée vers Lui.",
+      "explanation": "Le Seif rattache cette démarche à l'attachement à Hachem par l'accomplissement de Ses Mitsvot.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Avant Cha'harit, la personne doit accepter sur elle l'amour de Hachem.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 18
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 18
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Accepter l'amour de Hachem avant la prière",
+        "simple_explanation": "Avant la prière de Cha'harit, il faut accepter sur soi l'amour de Hachem et orienter sa pensée vers Lui.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-028-flashcard-01",
+            "knowledge_point_id": "s1-kp-028",
+            "source_seif": "18",
+            "title": "Accepter l'amour de Hachem avant la prière",
+            "question": "Que dit la Halakha concernant : Accepter l'amour de Hachem avant la prière ?",
+            "answer": "Avant la prière de Cha'harit, il faut accepter sur soi l'amour de Hachem et orienter sa pensée vers Lui.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-029",
+      "title": "Accepter la Mitsva de ואהבת לרעך כמוך avant la prière",
+      "rule": "Le Seif rapporte la coutume de dire chaque matin avant la prière : « הריני מקבל עלי מצות עשה של ואהבת לרעך כמוך ».",
+      "explanation": "Le texte explique que cette démarche associe la prière de la personne aux prières de l'ensemble d'Israël.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "custom",
+      "halakha_status": "custom",
+      "claims": [
+        {
+          "text": "Le Seif rapporte cette coutume avant la prière.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 19
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 19
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Accepter la Mitsva de ואהבת לרעך כמוך avant la prière",
+        "simple_explanation": "Le Seif rapporte la coutume de dire chaque matin avant la prière : « הריני מקבל עלי מצות עשה של ואהבת לרעך כמוך ».",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-029-flashcard-01",
+            "knowledge_point_id": "s1-kp-029",
+            "source_seif": "19",
+            "title": "Accepter la Mitsva de ואהבת לרעך כמוך avant la prière",
+            "question": "Que dit la Halakha concernant : Accepter la Mitsva de ואהבת לרעך כמוך avant la prière ?",
+            "answer": "Le Seif rapporte la coutume de dire chaque matin avant la prière : « הריני מקבל עלי מצות עשה של ואהבת לרעך כמוך ».",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-030",
+      "title": "La qualité de l'intention prime sur la quantité",
+      "rule": "Peu de supplications récitées avec intention valent mieux que beaucoup de supplications récitées sans intention.",
+      "explanation": "Le Seif ajoute que celui qui peut faire davantage avec intention doit le faire.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "essential",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif préfère peu de supplications avec intention à beaucoup sans intention.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 20
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 20
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : La qualité de l'intention prime sur la quantité",
+        "simple_explanation": "Peu de supplications récitées avec intention valent mieux que beaucoup de supplications récitées sans intention.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-030-flashcard-01",
+            "knowledge_point_id": "s1-kp-030",
+            "source_seif": "20",
+            "title": "La qualité de l'intention prime sur la quantité",
+            "question": "Que dit la Halakha concernant : La qualité de l'intention prime sur la quantité ?",
+            "answer": "Peu de supplications récitées avec intention valent mieux que beaucoup de supplications récitées sans intention.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-031",
+      "title": "Étudier avec suffisamment de force et de profondeur",
+      "rule": "Le Seif ne considère pas comme la bonne voie le fait de se priver de sommeil pour étudier ensuite sans profondeur d'analyse.",
+      "explanation": "Il rapporte que certains érudits dorment et mangent suffisamment afin d'avoir la force d'étudier avec compréhension et profondeur.",
+      "practical_example": null,
+      "common_trap": "Penser que moins dormir est toujours préférable, indépendamment de la qualité de l'étude.",
+      "learning_level": 3,
+      "importance": "important",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif critique le manque de sommeil lorsqu'il conduit à étudier sans profondeur.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 20
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 20
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Étudier avec suffisamment de force et de profondeur",
+        "simple_explanation": "Le Seif ne considère pas comme la bonne voie le fait de se priver de sommeil pour étudier ensuite sans profondeur d'analyse.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-031-flashcard-01",
+            "knowledge_point_id": "s1-kp-031",
+            "source_seif": "20",
+            "title": "Étudier avec suffisamment de force et de profondeur",
+            "question": "Que dit la Halakha concernant : Étudier avec suffisamment de force et de profondeur ?",
+            "answer": "Le Seif ne considère pas comme la bonne voie le fait de se priver de sommeil pour étudier ensuite sans profondeur d'analyse.",
+            "conditions": "",
+            "validated": true
+          },
+          "multiple_choice": [
+            {
+              "activity_id": "s1-kp-031-qcm-01",
+              "knowledge_point_id": "s1-kp-031",
+              "source_seif": "20",
+              "validated": true,
+              "explanation": "Il rapporte que certains érudits dorment et mangent suffisamment afin d'avoir la force d'étudier avec compréhension et profondeur.",
+              "question": "Quelle est la règle concernant : Étudier avec suffisamment de force et de profondeur ?",
+              "options": [
+                "Le Seif ne considère pas comme la bonne voie le fait de se priver de sommeil pour étudier ensuite sans profondeur d'analyse.",
+                "Penser que moins dormir est toujours préférable, indépendamment de la qualité de l'étude."
+              ],
+              "correct_answer": "Le Seif ne considère pas comme la bonne voie le fait de se priver de sommeil pour étudier ensuite sans profondeur d'analyse."
+            }
+          ],
+          "true_false": [
+            {
+              "activity_id": "s1-kp-031-vf-01",
+              "knowledge_point_id": "s1-kp-031",
+              "source_seif": "20",
+              "statement": "Penser que moins dormir est toujours préférable, indépendamment de la qualité de l'étude.",
+              "is_true": false,
+              "explanation": "La règle est : Le Seif ne considère pas comme la bonne voie le fait de se priver de sommeil pour étudier ensuite sans profondeur d'analyse.",
+              "validated": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-032",
+      "title": "Adapter la voix et les mouvements à la concentration",
+      "rule": "Le Seif rapporte que la manière de prier à voix haute ou basse et les mouvements du corps dépendent de ce qui aide réellement la personne à avoir de la concentration.",
+      "explanation": "Il rapporte également des pratiques différentes, dont celle attribuée au Ari.",
+      "practical_example": null,
+      "common_trap": "Croire qu'une seule manière de prier à voix haute, basse ou avec des mouvements est obligatoire pour tout le monde.",
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "permission",
+      "halakha_status": "multiple_opinions",
+      "claims": [
+        {
+          "text": "Le Seif traite de différentes manières de prier et les rapporte en fonction de la concentration de la personne.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 21
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 21
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Adapter la voix et les mouvements à la concentration",
+        "simple_explanation": "Le Seif rapporte que la manière de prier à voix haute ou basse et les mouvements du corps dépendent de ce qui aide réellement la personne à avoir de la concentration.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-032-flashcard-01",
+            "knowledge_point_id": "s1-kp-032",
+            "source_seif": "21",
+            "title": "Adapter la voix et les mouvements à la concentration",
+            "question": "Que dit la Halakha concernant : Adapter la voix et les mouvements à la concentration ?",
+            "answer": "Le Seif rapporte que la manière de prier à voix haute ou basse et les mouvements du corps dépendent de ce qui aide réellement la personne à avoir de la concentration.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "multiple_choice": [
+            {
+              "activity_id": "s1-kp-032-qcm-01",
+              "knowledge_point_id": "s1-kp-032",
+              "source_seif": "21",
+              "validated": true,
+              "explanation": "Il rapporte également des pratiques différentes, dont celle attribuée au Ari.",
+              "question": "Quelle est la règle concernant : Adapter la voix et les mouvements à la concentration ?",
+              "options": [
+                "Le Seif rapporte que la manière de prier à voix haute ou basse et les mouvements du corps dépendent de ce qui aide réellement la personne à avoir de la concentration.",
+                "Croire qu'une seule manière de prier à voix haute, basse ou avec des mouvements est obligatoire pour tout le monde."
+              ],
+              "correct_answer": "Le Seif rapporte que la manière de prier à voix haute ou basse et les mouvements du corps dépendent de ce qui aide réellement la personne à avoir de la concentration."
+            }
+          ],
+          "true_false": [
+            {
+              "activity_id": "s1-kp-032-vf-01",
+              "knowledge_point_id": "s1-kp-032",
+              "source_seif": "21",
+              "statement": "Croire qu'une seule manière de prier à voix haute, basse ou avec des mouvements est obligatoire pour tout le monde.",
+              "is_true": false,
+              "explanation": "La règle est : Le Seif rapporte que la manière de prier à voix haute ou basse et les mouvements du corps dépendent de ce qui aide réellement la personne à avoir de la concentration.",
+              "validated": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-033",
+      "title": "Réciter la Parachat HaAkéda avant Cha'harit",
+      "rule": "Le Seif rapporte qu'il est bon de réciter chaque jour la Parachat HaAkéda avant la prière.",
+      "explanation": "Il est préférable de la réciter après avoir mis le Talit et les Téfiline, mais le Seif permet de la lire avant si leur heure n'est pas encore arrivée.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "custom",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Il est bon de réciter chaque jour la Parachat HaAkéda avant la prière.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 22
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 22
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Réciter la Parachat HaAkéda avant Cha'harit",
+        "simple_explanation": "Le Seif rapporte qu'il est bon de réciter chaque jour la Parachat HaAkéda avant la prière.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-033-flashcard-01",
+            "knowledge_point_id": "s1-kp-033",
+            "source_seif": "22",
+            "title": "Réciter la Parachat HaAkéda avant Cha'harit",
+            "question": "Que dit la Halakha concernant : Réciter la Parachat HaAkéda avant Cha'harit ?",
+            "answer": "Le Seif rapporte qu'il est bon de réciter chaque jour la Parachat HaAkéda avant la prière.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-034",
+      "title": "Parachat HaAkéda à Min'ha",
+      "rule": "La coutume rapportée est de ne pas réciter la Parachat HaAkéda à Min'ha, sauf le jour de Kippour.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "custom",
+      "halakha_status": "custom",
+      "claims": [
+        {
+          "text": "La coutume rapportée n'est pas de réciter la Parachat HaAkéda à Min'ha, sauf à Yom Kippour.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 22
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 22
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Parachat HaAkéda à Min'ha",
+        "simple_explanation": "La coutume rapportée est de ne pas réciter la Parachat HaAkéda à Min'ha, sauf le jour de Kippour.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-034-flashcard-01",
+            "knowledge_point_id": "s1-kp-034",
+            "source_seif": "22",
+            "title": "Parachat HaAkéda à Min'ha",
+            "question": "Que dit la Halakha concernant : Parachat HaAkéda à Min'ha ?",
+            "answer": "La coutume rapportée est de ne pas réciter la Parachat HaAkéda à Min'ha, sauf le jour de Kippour.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-035",
+      "title": "Parachat HaAkéda le Chabbat et les jours de fête",
+      "rule": "La coutume rapportée est de réciter la Parachat HaAkéda à Cha'harit également le Chabbat et les jours de fête.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "secondary",
+      "knowledge_type": "custom",
+      "halakha_status": "custom",
+      "claims": [
+        {
+          "text": "La Parachat HaAkéda est récitée à Cha'harit également le Chabbat et les jours de fête selon la coutume rapportée.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 23
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 23
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Parachat HaAkéda le Chabbat et les jours de fête",
+        "simple_explanation": "La coutume rapportée est de réciter la Parachat HaAkéda à Cha'harit également le Chabbat et les jours de fête.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-035-flashcard-01",
+            "knowledge_point_id": "s1-kp-035",
+            "source_seif": "23",
+            "title": "Parachat HaAkéda le Chabbat et les jours de fête",
+            "question": "Que dit la Halakha concernant : Parachat HaAkéda le Chabbat et les jours de fête ?",
+            "answer": "La coutume rapportée est de réciter la Parachat HaAkéda à Cha'harit également le Chabbat et les jours de fête.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-036",
+      "title": "En cas de retard, préserver la prière avec la communauté",
+      "rule": "Lorsqu'une personne arrive en retard, elle peut devoir sauter certaines parties préliminaires afin de pouvoir prier avec la communauté.",
+      "explanation": "Le Seif établit une priorité entre les passages préliminaires et la possibilité de prier avec la communauté.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "essential",
+      "knowledge_type": "priority",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "En cas de retard, certains passages préliminaires peuvent être sautés pour prier avec la communauté.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 24
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 24
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : En cas de retard, préserver la prière avec la communauté",
+        "simple_explanation": "Lorsqu'une personne arrive en retard, elle peut devoir sauter certaines parties préliminaires afin de pouvoir prier avec la communauté.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-036-flashcard-01",
+            "knowledge_point_id": "s1-kp-036",
+            "source_seif": "24",
+            "title": "En cas de retard, préserver la prière avec la communauté",
+            "question": "Que dit la Halakha concernant : En cas de retard, préserver la prière avec la communauté ?",
+            "answer": "Lorsqu'une personne arrive en retard, elle peut devoir sauter certaines parties préliminaires afin de pouvoir prier avec la communauté.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-037",
+      "title": "Priorité des passages en cas de retard le Chabbat",
+      "rule": "Le Seif rapporte plusieurs avis concernant les passages à supprimer lorsque l'on est en retard le Chabbat, et retient celui qui donne priorité au maintien de la Parachat HaAkéda par rapport aux Psaumes du Chabbat.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "secondary",
+      "knowledge_type": "priority",
+      "halakha_status": "multiple_opinions",
+      "claims": [
+        {
+          "text": "Le Seif rapporte plusieurs avis puis retient la suppression des Psaumes du Chabbat plutôt que de la Parachat HaAkéda.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 24
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 24
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Priorité des passages en cas de retard le Chabbat",
+        "simple_explanation": "Le Seif rapporte plusieurs avis concernant les passages à supprimer lorsque l'on est en retard le Chabbat, et retient celui qui donne priorité au maintien de la Parachat HaAkéda par rapport aux Psaumes du Chabbat.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-037-flashcard-01",
+            "knowledge_point_id": "s1-kp-037",
+            "source_seif": "24",
+            "title": "Priorité des passages en cas de retard le Chabbat",
+            "question": "Que dit la Halakha concernant : Priorité des passages en cas de retard le Chabbat ?",
+            "answer": "Le Seif rapporte plusieurs avis concernant les passages à supprimer lorsque l'on est en retard le Chabbat, et retient celui qui donne priorité au maintien de la Parachat HaAkéda par rapport aux Psaumes du Chabbat.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-037-practical-01",
+              "knowledge_point_id": "s1-kp-037",
+              "source_seif": "24",
+              "validated": true,
+              "explanation": "-",
+              "situation": "Une personne se trouve dans la condition suivante : \"Priorité des passages en cas de retard le Chabbat\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Le Seif rapporte plusieurs avis concernant les passages à supprimer lorsque l'on est en retard le Chabbat, et retient celui qui donne priorité au maintien de la Parachat HaAkéda par rapport aux Psaumes du Chabbat."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-038",
+      "title": "Verset récité après la Parachat HaAkéda",
+      "rule": "La coutume séfarade rapportée est de réciter après la Parachat HaAkéda le verset « ושחט אותו על ירך המזבח... ».",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "custom",
+      "halakha_status": "custom",
+      "claims": [
+        {
+          "text": "La coutume séfarade rapportée consiste à réciter ce verset après la Parachat HaAkéda.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 25
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 25
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Verset récité après la Parachat HaAkéda",
+        "simple_explanation": "La coutume séfarade rapportée est de réciter après la Parachat HaAkéda le verset « ושחט אותו על ירך המזבח... ».",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-038-flashcard-01",
+            "knowledge_point_id": "s1-kp-038",
+            "source_seif": "25",
+            "title": "Verset récité après la Parachat HaAkéda",
+            "question": "Que dit la Halakha concernant : Verset récité après la Parachat HaAkéda ?",
+            "answer": "La coutume séfarade rapportée est de réciter après la Parachat HaAkéda le verset « ושחט אותו על ירך המזבח... ».",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-039",
+      "title": "Récitation quotidienne des Korbanot",
+      "rule": "Le Seif recommande de réciter chaque jour le passage du sacrifice perpétuel et Ézéhou Mekoman, y compris pour les Talmidé 'Hakhamim et les étudiants de Yéchiva selon la conclusion rapportée.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "custom",
+      "halakha_status": "multiple_opinions",
+      "claims": [
+        {
+          "text": "Le Seif conclut qu'il convient aux Talmidé 'Hakhamim et aux étudiants de Yéchiva de réciter également ces passages quotidiennement.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 26
+            },
+            {
+              "siman": 1,
+              "seif": 27
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 26
+        },
+        {
+          "siman": 1,
+          "seif": 27
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Récitation quotidienne des Korbanot",
+        "simple_explanation": "Le Seif recommande de réciter chaque jour le passage du sacrifice perpétuel et Ézéhou Mekoman, y compris pour les Talmidé 'Hakhamim et les étudiants de Yéchiva selon la conclusion rapportée.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-039-flashcard-01",
+            "knowledge_point_id": "s1-kp-039",
+            "source_seif": "26, 27",
+            "title": "Récitation quotidienne des Korbanot",
+            "question": "Que dit la Halakha concernant : Récitation quotidienne des Korbanot ?",
+            "answer": "Le Seif recommande de réciter chaque jour le passage du sacrifice perpétuel et Ézéhou Mekoman, y compris pour les Talmidé 'Hakhamim et les étudiants de Yéchiva selon la conclusion rapportée.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-040",
+      "title": "Korbanot le Chabbat et les jours de fête",
+      "rule": "La coutume rapportée est de réciter les passages des Korbanot et Ézéhou Mekoman également le Chabbat et les jours de fête.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "secondary",
+      "knowledge_type": "custom",
+      "halakha_status": "custom",
+      "claims": [
+        {
+          "text": "Les passages des Korbanot et Ézéhou Mekoman sont également récités le Chabbat et les jours de fête selon la coutume rapportée.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 28
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 28
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Korbanot le Chabbat et les jours de fête",
+        "simple_explanation": "La coutume rapportée est de réciter les passages des Korbanot et Ézéhou Mekoman également le Chabbat et les jours de fête.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-040-flashcard-01",
+            "knowledge_point_id": "s1-kp-040",
+            "source_seif": "28",
+            "title": "Korbanot le Chabbat et les jours de fête",
+            "question": "Que dit la Halakha concernant : Korbanot le Chabbat et les jours de fête ?",
+            "answer": "La coutume rapportée est de réciter les passages des Korbanot et Ézéhou Mekoman également le Chabbat et les jours de fête.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-041",
+      "title": "Vertu attribuée à la récitation des Korbanot",
+      "rule": "Le Seif rapporte une grande vertu attribuée à la récitation des passages des Korbanot, notamment en temps d'épidémie.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif rapporte une vertu protectrice associée à la récitation des Korbanot.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 29
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 29
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Vertu attribuée à la récitation des Korbanot",
+        "simple_explanation": "Le Seif rapporte une grande vertu attribuée à la récitation des passages des Korbanot, notamment en temps d'épidémie.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-041-flashcard-01",
+            "knowledge_point_id": "s1-kp-041",
+            "source_seif": "29",
+            "title": "Vertu attribuée à la récitation des Korbanot",
+            "question": "Que dit la Halakha concernant : Vertu attribuée à la récitation des Korbanot ?",
+            "answer": "Le Seif rapporte une grande vertu attribuée à la récitation des passages des Korbanot, notamment en temps d'épidémie.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-042",
+      "title": "Omission de certains passages de Korbanot",
+      "rule": "La coutume rapportée est de ne pas réciter séparément les passages de l'Olah, du Hatat et de la Ménorah, notamment parce qu'Ézéhou Mekoman contient l'ordre des sacrifices.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "custom",
+      "halakha_status": "custom",
+      "claims": [
+        {
+          "text": "La coutume rapportée n'est pas de réciter séparément ces passages.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 30
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 30
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Omission de certains passages de Korbanot",
+        "simple_explanation": "La coutume rapportée est de ne pas réciter séparément les passages de l'Olah, du Hatat et de la Ménorah, notamment parce qu'Ézéhou Mekoman contient l'ordre des sacrifices.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-042-flashcard-01",
+            "knowledge_point_id": "s1-kp-042",
+            "source_seif": "30",
+            "title": "Omission de certains passages de Korbanot",
+            "question": "Que dit la Halakha concernant : Omission de certains passages de Korbanot ?",
+            "answer": "La coutume rapportée est de ne pas réciter séparément les passages de l'Olah, du Hatat et de la Ménorah, notamment parce qu'Ézéhou Mekoman contient l'ordre des sacrifices.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-043",
+      "title": "Korbanot dans la maison d'un endeuillé",
+      "rule": "Le Seif indique de réciter les passages des Korbanot et de l'encens dans la maison de l'endeuillé, y compris par l'endeuillé lui-même, sous réserve de la coutume locale rapportée.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "secondary",
+      "knowledge_type": "practical_case",
+      "halakha_status": "conditional",
+      "claims": [
+        {
+          "text": "Le Seif traite de la récitation des Korbanot et de l'encens dans la maison d'un endeuillé et mentionne la possibilité d'une coutume locale différente.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 31
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 31
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Korbanot dans la maison d'un endeuillé",
+        "simple_explanation": "Le Seif indique de réciter les passages des Korbanot et de l'encens dans la maison de l'endeuillé, y compris par l'endeuillé lui-même, sous réserve de la coutume locale rapportée.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-043-flashcard-01",
+            "knowledge_point_id": "s1-kp-043",
+            "source_seif": "31",
+            "title": "Korbanot dans la maison d'un endeuillé",
+            "question": "Que dit la Halakha concernant : Korbanot dans la maison d'un endeuillé ?",
+            "answer": "Le Seif indique de réciter les passages des Korbanot et de l'encens dans la maison de l'endeuillé, y compris par l'endeuillé lui-même, sous réserve de la coutume locale rapportée.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-043-practical-01",
+              "knowledge_point_id": "s1-kp-043",
+              "source_seif": "31",
+              "validated": true,
+              "explanation": "-",
+              "situation": "Une personne se trouve dans la condition suivante : \"Korbanot dans la maison d'un endeuillé\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Le Seif indique de réciter les passages des Korbanot et de l'encens dans la maison de l'endeuillé, y compris par l'endeuillé lui-même, sous réserve de la coutume locale rapportée."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-044",
+      "title": "Ne pas se lever par Yohara pendant les Korbanot",
+      "rule": "La coutume rapportée est de réciter les Korbanot assis ; si la communauté est assise, se lever par rigueur personnelle peut constituer une démonstration de piété (Yohara).",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "prohibition",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif met en garde contre le fait de se lever ostensiblement lorsque la communauté est assise.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 32
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 32
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Ne pas se lever par Yohara pendant les Korbanot",
+        "simple_explanation": "La coutume rapportée est de réciter les Korbanot assis ; si la communauté est assise, se lever par rigueur personnelle peut constituer une démonstration de piété (Yohara).",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-044-flashcard-01",
+            "knowledge_point_id": "s1-kp-044",
+            "source_seif": "32",
+            "title": "Ne pas se lever par Yohara pendant les Korbanot",
+            "question": "Que dit la Halakha concernant : Ne pas se lever par Yohara pendant les Korbanot ?",
+            "answer": "La coutume rapportée est de réciter les Korbanot assis ; si la communauté est assise, se lever par rigueur personnelle peut constituer une démonstration de piété (Yohara).",
+            "conditions": "",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-044-practical-01",
+              "knowledge_point_id": "s1-kp-044",
+              "source_seif": "32",
+              "validated": true,
+              "explanation": "-",
+              "situation": "Une personne se trouve dans la condition suivante : \"Ne pas se lever par Yohara pendant les Korbanot\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "La coutume rapportée est de réciter les Korbanot assis ; si la communauté est assise, se lever par rigueur personnelle peut constituer une démonstration de piété (Yohara)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-045",
+      "title": "Formulation du Yehi Ratzon après les Korbanot",
+      "rule": "Le Seif rapporte que notre coutume n'est pas de dire dans le Yehi Ratzon la formulation « comme si j'étais redevable d'un sacrifice expiatoire » après les Korbanot.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "custom",
+      "halakha_status": "custom",
+      "claims": [
+        {
+          "text": "La coutume rapportée n'est pas de dire cette formulation dans le Yehi Ratzon.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 32
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 32
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Formulation du Yehi Ratzon après les Korbanot",
+        "simple_explanation": "Le Seif rapporte que notre coutume n'est pas de dire dans le Yehi Ratzon la formulation « comme si j'étais redevable d'un sacrifice expiatoire » après les Korbanot.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-045-flashcard-01",
+            "knowledge_point_id": "s1-kp-045",
+            "source_seif": "32",
+            "title": "Formulation du Yehi Ratzon après les Korbanot",
+            "question": "Que dit la Halakha concernant : Formulation du Yehi Ratzon après les Korbanot ?",
+            "answer": "Le Seif rapporte que notre coutume n'est pas de dire dans le Yehi Ratzon la formulation « comme si j'étais redevable d'un sacrifice expiatoire » après les Korbanot.",
+            "conditions": "",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-045-practical-01",
+              "knowledge_point_id": "s1-kp-045",
+              "source_seif": "32",
+              "validated": true,
+              "explanation": "-",
+              "situation": "Une personne se trouve dans la condition suivante : \"Formulation du Yehi Ratzon après les Korbanot\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Le Seif rapporte que notre coutume n'est pas de dire dans le Yehi Ratzon la formulation « comme si j'étais redevable d'un sacrifice expiatoire » après les Korbanot."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-046",
+      "title": "Les femmes et la récitation des Korbanot",
+      "rule": "Le Seif présente une discussion concernant la récitation des Korbanot par les femmes et rapporte que cette récitation n'est pas une obligation stricte pour elles.",
+      "explanation": "Il faut conserver la discussion présentée par le Seif plutôt que d'en faire une règle uniforme sur toutes les femmes.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "secondary",
+      "knowledge_type": "permission",
+      "halakha_status": "multiple_opinions",
+      "claims": [
+        {
+          "text": "Le Seif présente plusieurs positions concernant la récitation des Korbanot par les femmes.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 33
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 33
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Les femmes et la récitation des Korbanot",
+        "simple_explanation": "Le Seif présente une discussion concernant la récitation des Korbanot par les femmes et rapporte que cette récitation n'est pas une obligation stricte pour elles.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-046-flashcard-01",
+            "knowledge_point_id": "s1-kp-046",
+            "source_seif": "33",
+            "title": "Les femmes et la récitation des Korbanot",
+            "question": "Que dit la Halakha concernant : Les femmes et la récitation des Korbanot ?",
+            "answer": "Le Seif présente une discussion concernant la récitation des Korbanot par les femmes et rapporte que cette récitation n'est pas une obligation stricte pour elles.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-047",
+      "title": "Ordre des Korbanot avant Baroukh Chéamar",
+      "rule": "A priori, les passages des Korbanot doivent être récités avant Baroukh Chéamar et avec soin dans la prononciation, sans avaler les mots.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "sequence",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Les Korbanot sont à dire a priori avant Baroukh Chéamar.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 34
+            }
+          ]
+        },
+        {
+          "text": "Il faut prendre soin de ne pas avaler les mots.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 34
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 34
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Ordre des Korbanot avant Baroukh Chéamar",
+        "simple_explanation": "A priori, les passages des Korbanot doivent être récités avant Baroukh Chéamar et avec soin dans la prononciation, sans avaler les mots.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-047-flashcard-01",
+            "knowledge_point_id": "s1-kp-047",
+            "source_seif": "34",
+            "title": "Ordre des Korbanot avant Baroukh Chéamar",
+            "question": "Que dit la Halakha concernant : Ordre des Korbanot avant Baroukh Chéamar ?",
+            "answer": "A priori, les passages des Korbanot doivent être récités avant Baroukh Chéamar et avec soin dans la prononciation, sans avaler les mots.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-048",
+      "title": "Sauter les Korbanot en cas de retard",
+      "rule": "Lorsqu'une personne arrive en retard et qu'il n'y a pas d'autre possibilité, elle peut sauter les Korbanot pour prier avec la communauté et les réciter après la prière.",
+      "explanation": "Le Seif recommande, lorsque cela reste possible, d'en dire au moins une partie.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "priority",
+      "halakha_status": "conditional",
+      "claims": [
+        {
+          "text": "En cas de retard, les Korbanot peuvent être sautés pour prier avec la communauté puis récités après la prière.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 34
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 34
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Sauter les Korbanot en cas de retard",
+        "simple_explanation": "Lorsqu'une personne arrive en retard et qu'il n'y a pas d'autre possibilité, elle peut sauter les Korbanot pour prier avec la communauté et les réciter après la prière.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-048-flashcard-01",
+            "knowledge_point_id": "s1-kp-048",
+            "source_seif": "34",
+            "title": "Sauter les Korbanot en cas de retard",
+            "question": "Que dit la Halakha concernant : Sauter les Korbanot en cas de retard ?",
+            "answer": "Lorsqu'une personne arrive en retard et qu'il n'y a pas d'autre possibilité, elle peut sauter les Korbanot pour prier avec la communauté et les réciter après la prière.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-048-practical-01",
+              "knowledge_point_id": "s1-kp-048",
+              "source_seif": "34",
+              "validated": true,
+              "explanation": "Le Seif recommande, lorsque cela reste possible, d'en dire au moins une partie.",
+              "situation": "Une personne se trouve dans la condition suivante : \"Sauter les Korbanot en cas de retard\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Lorsqu'une personne arrive en retard et qu'il n'y a pas d'autre possibilité, elle peut sauter les Korbanot pour prier avec la communauté et les réciter après la prière."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-049",
+      "title": "Ne pas réciter les Korbanot pendant la Hazarah",
+      "rule": "Il faut éviter de réciter les Korbanot pendant la répétition de la Amida de l'officiant, car il faut écouter la Hazarah et répondre Amen.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "prohibition",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Il ne faut pas réciter les Korbanot au milieu de la Hazarah.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 34
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 34
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Ne pas réciter les Korbanot pendant la Hazarah",
+        "simple_explanation": "Il faut éviter de réciter les Korbanot pendant la répétition de la Amida de l'officiant, car il faut écouter la Hazarah et répondre Amen.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-049-flashcard-01",
+            "knowledge_point_id": "s1-kp-049",
+            "source_seif": "34",
+            "title": "Ne pas réciter les Korbanot pendant la Hazarah",
+            "question": "Que dit la Halakha concernant : Ne pas réciter les Korbanot pendant la Hazarah ?",
+            "answer": "Il faut éviter de réciter les Korbanot pendant la répétition de la Amida de l'officiant, car il faut écouter la Hazarah et répondre Amen.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-050",
+      "title": "Moment de la récitation des Korbanot",
+      "rule": "Le Seif traite de la récitation des Korbanot pendant le jour et la rattache au moment à partir de l'aube.",
+      "explanation": "La règle générale est présentée en lien avec les horaires des sacrifices dans le Temple ; le Seif 35-36 traite également d'un cas particulier pour les personnes qui se lèvent très tôt.",
+      "practical_example": null,
+      "common_trap": "Transformer le principe général en supprimant les nuances du cas particulier traité ensuite.",
+      "learning_level": 3,
+      "importance": "important",
+      "knowledge_type": "time",
+      "halakha_status": "conditional",
+      "claims": [
+        {
+          "text": "Le Seif traite de la récitation des Korbanot à partir du moment de l'aube.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 35
+            },
+            {
+              "siman": 1,
+              "seif": 36
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 35
+        },
+        {
+          "siman": 1,
+          "seif": 36
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Moment de la récitation des Korbanot",
+        "simple_explanation": "Le Seif traite de la récitation des Korbanot pendant le jour et la rattache au moment à partir de l'aube.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-050-flashcard-01",
+            "knowledge_point_id": "s1-kp-050",
+            "source_seif": "35, 36",
+            "title": "Moment de la récitation des Korbanot",
+            "question": "Que dit la Halakha concernant : Moment de la récitation des Korbanot ?",
+            "answer": "Le Seif traite de la récitation des Korbanot pendant le jour et la rattache au moment à partir de l'aube.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "multiple_choice": [
+            {
+              "activity_id": "s1-kp-050-qcm-01",
+              "knowledge_point_id": "s1-kp-050",
+              "source_seif": "35, 36",
+              "validated": true,
+              "explanation": "La règle générale est présentée en lien avec les horaires des sacrifices dans le Temple ; le Seif 35-36 traite également d'un cas particulier pour les personnes qui se lèvent très tôt.",
+              "question": "Quelle est la règle concernant : Moment de la récitation des Korbanot ?",
+              "options": [
+                "Le Seif traite de la récitation des Korbanot pendant le jour et la rattache au moment à partir de l'aube.",
+                "Transformer le principe général en supprimant les nuances du cas particulier traité ensuite."
+              ],
+              "correct_answer": "Le Seif traite de la récitation des Korbanot pendant le jour et la rattache au moment à partir de l'aube."
+            }
+          ],
+          "true_false": [
+            {
+              "activity_id": "s1-kp-050-vf-01",
+              "knowledge_point_id": "s1-kp-050",
+              "source_seif": "35, 36",
+              "statement": "Transformer le principe général en supprimant les nuances du cas particulier traité ensuite.",
+              "is_true": false,
+              "explanation": "La règle est : Le Seif traite de la récitation des Korbanot pendant le jour et la rattache au moment à partir de l'aube.",
+              "validated": true
+            }
+          ],
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-050-practical-01",
+              "knowledge_point_id": "s1-kp-050",
+              "source_seif": "35, 36",
+              "validated": true,
+              "explanation": "La règle générale est présentée en lien avec les horaires des sacrifices dans le Temple ; le Seif 35-36 traite également d'un cas particulier pour les personnes qui se lèvent très tôt.",
+              "situation": "Une personne se trouve dans la condition suivante : \"Moment de la récitation des Korbanot\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Le Seif traite de la récitation des Korbanot pendant le jour et la rattache au moment à partir de l'aube."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-051",
+      "title": "Cas des personnes qui se lèvent très tôt",
+      "rule": "Le Seif rapporte une discussion sur l'horaire auquel les personnes qui doivent se lever très tôt peuvent réciter les Korbanot, avec l'avis mentionné d'environ 90 minutes avant le lever du soleil.",
+      "explanation": "Cette règle doit être comprise comme un cas particulier rapporté avec des avis, et non comme une définition universelle de l'aube.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "time",
+      "halakha_status": "multiple_opinions",
+      "claims": [
+        {
+          "text": "Le Seif rapporte un avis permettant aux personnes qui se lèvent très tôt de commencer les Korbanot avant le lever du soleil selon l'horaire mentionné.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 35
+            },
+            {
+              "siman": 1,
+              "seif": 36
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 35
+        },
+        {
+          "siman": 1,
+          "seif": 36
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Cas des personnes qui se lèvent très tôt",
+        "simple_explanation": "Le Seif rapporte une discussion sur l'horaire auquel les personnes qui doivent se lever très tôt peuvent réciter les Korbanot, avec l'avis mentionné d'environ 90 minutes avant le lever du soleil.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-051-flashcard-01",
+            "knowledge_point_id": "s1-kp-051",
+            "source_seif": "35, 36",
+            "title": "Cas des personnes qui se lèvent très tôt",
+            "question": "Que dit la Halakha concernant : Cas des personnes qui se lèvent très tôt ?",
+            "answer": "Le Seif rapporte une discussion sur l'horaire auquel les personnes qui doivent se lever très tôt peuvent réciter les Korbanot, avec l'avis mentionné d'environ 90 minutes avant le lever du soleil.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-052",
+      "title": "Pause dans « Abayé havé mesader »",
+      "rule": "Il est permis de réciter « Abayé havé mesader » sans pause, mais le Seif indique qu'il est préférable de marquer une légère pause entre « Abayé » et « havé ».",
+      "explanation": "Cette précaution vise à éviter une prononciation qui pourrait ressembler au Nom divin.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "sequence",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif recommande une légère pause entre « Abayé » et « havé ».",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 37
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 37
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Pause dans « Abayé havé mesader »",
+        "simple_explanation": "Il est permis de réciter « Abayé havé mesader » sans pause, mais le Seif indique qu'il est préférable de marquer une légère pause entre « Abayé » et « havé ».",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-052-flashcard-01",
+            "knowledge_point_id": "s1-kp-052",
+            "source_seif": "37",
+            "title": "Pause dans « Abayé havé mesader »",
+            "question": "Que dit la Halakha concernant : Pause dans « Abayé havé mesader » ?",
+            "answer": "Il est permis de réciter « Abayé havé mesader » sans pause, mais le Seif indique qu'il est préférable de marquer une légère pause entre « Abayé » et « havé ».",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-053",
+      "title": "Réciter le Pitoum HaKetoret",
+      "rule": "Il est bon de réciter chaque matin le Pitoum HaKetoret avec concentration, ainsi qu'à Min'ha selon la pratique rapportée.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "custom",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif recommande la récitation du Pitoum HaKetoret le matin et à Min'ha.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 38
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 38
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Réciter le Pitoum HaKetoret",
+        "simple_explanation": "Il est bon de réciter chaque matin le Pitoum HaKetoret avec concentration, ainsi qu'à Min'ha selon la pratique rapportée.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-053-flashcard-01",
+            "knowledge_point_id": "s1-kp-053",
+            "source_seif": "38",
+            "title": "Réciter le Pitoum HaKetoret",
+            "question": "Que dit la Halakha concernant : Réciter le Pitoum HaKetoret ?",
+            "answer": "Il est bon de réciter chaque matin le Pitoum HaKetoret avec concentration, ainsi qu'à Min'ha selon la pratique rapportée.",
+            "conditions": "",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-053-practical-01",
+              "knowledge_point_id": "s1-kp-053",
+              "source_seif": "38",
+              "validated": true,
+              "explanation": "-",
+              "situation": "Une personne se trouve dans la condition suivante : \"Réciter le Pitoum HaKetoret\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Il est bon de réciter chaque matin le Pitoum HaKetoret avec concentration, ainsi qu'à Min'ha selon la pratique rapportée."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-054",
+      "title": "Intention lors du Pitoum HaKetoret",
+      "rule": "Le Seif rapporte qu'on ne demande pas verbalement que la récitation de l'encens remplace l'offrande ; cette intention est pensée dans le cœur.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif distingue la pensée intérieure de la demande verbale concernant la récitation de l'encens.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 38
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 38
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Intention lors du Pitoum HaKetoret",
+        "simple_explanation": "Le Seif rapporte qu'on ne demande pas verbalement que la récitation de l'encens remplace l'offrande ; cette intention est pensée dans le cœur.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-054-flashcard-01",
+            "knowledge_point_id": "s1-kp-054",
+            "source_seif": "38",
+            "title": "Intention lors du Pitoum HaKetoret",
+            "question": "Que dit la Halakha concernant : Intention lors du Pitoum HaKetoret ?",
+            "answer": "Le Seif rapporte qu'on ne demande pas verbalement que la récitation de l'encens remplace l'offrande ; cette intention est pensée dans le cœur.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-055",
+      "title": "Écrire le Pitoum HaKetoret sur parchemin",
+      "rule": "Le Seif rapporte la pratique d'écrire le passage de l'encens sur un parchemin comme Ségoula et discute de la possibilité de l'écrire isolément.",
+      "explanation": "Le Seif présente une réserve concernant l'écriture isolée de ce passage ; il faut conserver la discussion plutôt que d'en faire une permission générale.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "exception",
+      "halakha_status": "multiple_opinions",
+      "claims": [
+        {
+          "text": "Le Seif discute de l'écriture du passage de l'encens sur parchemin et de son écriture isolée.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 40
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 40
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Écrire le Pitoum HaKetoret sur parchemin",
+        "simple_explanation": "Le Seif rapporte la pratique d'écrire le passage de l'encens sur un parchemin comme Ségoula et discute de la possibilité de l'écrire isolément.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-055-flashcard-01",
+            "knowledge_point_id": "s1-kp-055",
+            "source_seif": "40",
+            "title": "Écrire le Pitoum HaKetoret sur parchemin",
+            "question": "Que dit la Halakha concernant : Écrire le Pitoum HaKetoret sur parchemin ?",
+            "answer": "Le Seif rapporte la pratique d'écrire le passage de l'encens sur un parchemin comme Ségoula et discute de la possibilité de l'écrire isolément.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-056",
+      "title": "Versets écrits sur des supports",
+      "rule": "Le Seif traite de la coutume d'écrire des versets sur des murs, pupitres ou boîtes de Tsedaka et rapporte les considérations halakhiques liées à cette pratique.",
+      "explanation": "Le texte présente des nuances et des usages ; il ne faut pas transformer cela en permission absolue pour toute inscription de versets.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "permission",
+      "halakha_status": "multiple_opinions",
+      "claims": [
+        {
+          "text": "Le Seif traite de l'écriture de versets sur différents supports et rapporte des nuances à ce sujet.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 41
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 41
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Versets écrits sur des supports",
+        "simple_explanation": "Le Seif traite de la coutume d'écrire des versets sur des murs, pupitres ou boîtes de Tsedaka et rapporte les considérations halakhiques liées à cette pratique.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-056-flashcard-01",
+            "knowledge_point_id": "s1-kp-056",
+            "source_seif": "41",
+            "title": "Versets écrits sur des supports",
+            "question": "Que dit la Halakha concernant : Versets écrits sur des supports ?",
+            "answer": "Le Seif traite de la coutume d'écrire des versets sur des murs, pupitres ou boîtes de Tsedaka et rapporte les considérations halakhiques liées à cette pratique.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-057",
+      "title": "Dix Commandements et Manne",
+      "rule": "La coutume rapportée n'est pas de réciter publiquement les Dix Commandements et la Manne dans l'office, mais le Seif mentionne la possibilité de les lire en privé.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "custom",
+      "halakha_status": "custom",
+      "claims": [
+        {
+          "text": "Le Seif rapporte la coutume de ne pas réciter publiquement ces passages dans l'office.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 42
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 42
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Dix Commandements et Manne",
+        "simple_explanation": "La coutume rapportée n'est pas de réciter publiquement les Dix Commandements et la Manne dans l'office, mais le Seif mentionne la possibilité de les lire en privé.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-057-flashcard-01",
+            "knowledge_point_id": "s1-kp-057",
+            "source_seif": "42",
+            "title": "Dix Commandements et Manne",
+            "question": "Que dit la Halakha concernant : Dix Commandements et Manne ?",
+            "answer": "La coutume rapportée n'est pas de réciter publiquement les Dix Commandements et la Manne dans l'office, mais le Seif mentionne la possibilité de les lire en privé.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-058",
+      "title": "But du Tikkoun 'Hatsot",
+      "rule": "Le Tikkoun 'Hatsot exprime la peine pour la destruction du Temple et l'exil de la Chékhina.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Tikkoun 'Hatsot exprime la peine liée à la destruction du Temple et à l'exil de la Chékhina.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 43
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 43
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : But du Tikkoun 'Hatsot",
+        "simple_explanation": "Le Tikkoun 'Hatsot exprime la peine pour la destruction du Temple et l'exil de la Chékhina.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-058-flashcard-01",
+            "knowledge_point_id": "s1-kp-058",
+            "source_seif": "43",
+            "title": "But du Tikkoun 'Hatsot",
+            "question": "Que dit la Halakha concernant : But du Tikkoun 'Hatsot ?",
+            "answer": "Le Tikkoun 'Hatsot exprime la peine pour la destruction du Temple et l'exil de la Chékhina.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-059",
+      "title": "Joie pendant la prière et l'étude",
+      "rule": "Même lorsqu'une personne exprime sa peine pour la destruction dans le Tikkoun 'Hatsot, elle doit être joyeuse lorsqu'elle prie et étudie la Torah.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "important",
+      "knowledge_type": "principle",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif distingue la peine exprimée dans le Tikkoun 'Hatsot de la joie requise pendant la prière et l'étude.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 43
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 43
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Joie pendant la prière et l'étude",
+        "simple_explanation": "Même lorsqu'une personne exprime sa peine pour la destruction dans le Tikkoun 'Hatsot, elle doit être joyeuse lorsqu'elle prie et étudie la Torah.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-059-flashcard-01",
+            "knowledge_point_id": "s1-kp-059",
+            "source_seif": "43",
+            "title": "Joie pendant la prière et l'étude",
+            "question": "Que dit la Halakha concernant : Joie pendant la prière et l'étude ?",
+            "answer": "Même lorsqu'une personne exprime sa peine pour la destruction dans le Tikkoun 'Hatsot, elle doit être joyeuse lorsqu'elle prie et étudie la Torah.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-060",
+      "title": "Posture pour Tikkoun Rachel",
+      "rule": "La coutume rapportée est de s'asseoir par terre, ou sur un petit support, pour réciter le Tikkoun Rachel.",
+      "explanation": "Cette posture est liée à l'expression du deuil et de la peine.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "secondary",
+      "knowledge_type": "custom",
+      "halakha_status": "custom",
+      "claims": [
+        {
+          "text": "Le Seif rapporte une posture assise au sol pour Tikkoun Rachel.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 44
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 44
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Posture pour Tikkoun Rachel",
+        "simple_explanation": "La coutume rapportée est de s'asseoir par terre, ou sur un petit support, pour réciter le Tikkoun Rachel.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-060-flashcard-01",
+            "knowledge_point_id": "s1-kp-060",
+            "source_seif": "44",
+            "title": "Posture pour Tikkoun Rachel",
+            "question": "Que dit la Halakha concernant : Posture pour Tikkoun Rachel ?",
+            "answer": "La coutume rapportée est de s'asseoir par terre, ou sur un petit support, pour réciter le Tikkoun Rachel.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-061",
+      "title": "Tikkoun 'Hatsot pendant les Ben HaMetsarim",
+      "rule": "Pendant les Ben HaMetsarim, le Seif rapporte la coutume de réciter le Tikkoun 'Hatsot l'après-midi, après le milieu de la journée.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "secondary",
+      "knowledge_type": "custom",
+      "halakha_status": "custom",
+      "claims": [
+        {
+          "text": "Pendant les Ben HaMetsarim, le Tikkoun 'Hatsot est récité l'après-midi selon la coutume rapportée.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 45
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 45
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Tikkoun 'Hatsot pendant les Ben HaMetsarim",
+        "simple_explanation": "Pendant les Ben HaMetsarim, le Seif rapporte la coutume de réciter le Tikkoun 'Hatsot l'après-midi, après le milieu de la journée.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-061-flashcard-01",
+            "knowledge_point_id": "s1-kp-061",
+            "source_seif": "45",
+            "title": "Tikkoun 'Hatsot pendant les Ben HaMetsarim",
+            "question": "Que dit la Halakha concernant : Tikkoun 'Hatsot pendant les Ben HaMetsarim ?",
+            "answer": "Pendant les Ben HaMetsarim, le Seif rapporte la coutume de réciter le Tikkoun 'Hatsot l'après-midi, après le milieu de la journée.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-062",
+      "title": "Ne pas réciter le Tikkoun ou des Psaumes avant 'Hatsot",
+      "rule": "Le Seif enseigne qu'en règle générale on ne récite pas le Tikkoun 'Hatsot ni des Psaumes avant le milieu de la nuit.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "secondary",
+      "knowledge_type": "time",
+      "halakha_status": "conditional",
+      "claims": [
+        {
+          "text": "Le Seif pose une règle générale concernant la récitation du Tikkoun et des Psaumes avant 'Hatsot.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 46
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 46
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Ne pas réciter le Tikkoun ou des Psaumes avant 'Hatsot",
+        "simple_explanation": "Le Seif enseigne qu'en règle générale on ne récite pas le Tikkoun 'Hatsot ni des Psaumes avant le milieu de la nuit.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-062-flashcard-01",
+            "knowledge_point_id": "s1-kp-062",
+            "source_seif": "46",
+            "title": "Ne pas réciter le Tikkoun ou des Psaumes avant 'Hatsot",
+            "question": "Que dit la Halakha concernant : Ne pas réciter le Tikkoun ou des Psaumes avant 'Hatsot ?",
+            "answer": "Le Seif enseigne qu'en règle générale on ne récite pas le Tikkoun 'Hatsot ni des Psaumes avant le milieu de la nuit.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-062-practical-01",
+              "knowledge_point_id": "s1-kp-062",
+              "source_seif": "46",
+              "validated": true,
+              "explanation": "-",
+              "situation": "Une personne se trouve dans la condition suivante : \"Ne pas réciter le Tikkoun ou des Psaumes avant 'Hatsot\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Le Seif enseigne qu'en règle générale on ne récite pas le Tikkoun 'Hatsot ni des Psaumes avant le milieu de la nuit."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-063",
+      "title": "Exceptions à la récitation avant 'Hatsot",
+      "rule": "Le Seif rapporte des exceptions à la règle générale concernant les Psaumes avant 'Hatsot, notamment certaines nuits et des besoins particuliers.",
+      "explanation": "Les exceptions doivent être considérées dans les conditions précises exposées par le Seif.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "exception",
+      "halakha_status": "conditional",
+      "claims": [
+        {
+          "text": "Le Seif rapporte des exceptions à la règle générale concernant la récitation des Psaumes avant 'Hatsot.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 46
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 46
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Exceptions à la récitation avant 'Hatsot",
+        "simple_explanation": "Le Seif rapporte des exceptions à la règle générale concernant les Psaumes avant 'Hatsot, notamment certaines nuits et des besoins particuliers.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-063-flashcard-01",
+            "knowledge_point_id": "s1-kp-063",
+            "source_seif": "46",
+            "title": "Exceptions à la récitation avant 'Hatsot",
+            "question": "Que dit la Halakha concernant : Exceptions à la récitation avant 'Hatsot ?",
+            "answer": "Le Seif rapporte des exceptions à la règle générale concernant les Psaumes avant 'Hatsot, notamment certaines nuits et des besoins particuliers.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-063-practical-01",
+              "knowledge_point_id": "s1-kp-063",
+              "source_seif": "46",
+              "validated": true,
+              "explanation": "Les exceptions doivent être considérées dans les conditions précises exposées par le Seif.",
+              "situation": "Une personne se trouve dans la condition suivante : \"Exceptions à la récitation avant 'Hatsot\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Le Seif rapporte des exceptions à la règle générale concernant les Psaumes avant 'Hatsot, notamment certaines nuits et des besoins particuliers."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-064",
+      "title": "Calcul du moment de 'Hatsot",
+      "rule": "Le moment de 'Hatsot est calculé en fonction du lieu où se trouve la personne, en déterminant le milieu du temps entre le lever et le coucher du soleil puis en ajoutant douze heures.",
+      "explanation": "Le calcul est présenté dans le Seif à partir des horaires du lever et du coucher du soleil du lieu concerné.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "important",
+      "knowledge_type": "time",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif décrit le calcul de 'Hatsot à partir du milieu du temps entre le lever et le coucher du soleil.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 47
+            },
+            {
+              "siman": 1,
+              "seif": 48
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 47
+        },
+        {
+          "siman": 1,
+          "seif": 48
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Calcul du moment de 'Hatsot",
+        "simple_explanation": "Le moment de 'Hatsot est calculé en fonction du lieu où se trouve la personne, en déterminant le milieu du temps entre le lever et le coucher du soleil puis en ajoutant douze heures.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-064-flashcard-01",
+            "knowledge_point_id": "s1-kp-064",
+            "source_seif": "47, 48",
+            "title": "Calcul du moment de 'Hatsot",
+            "question": "Que dit la Halakha concernant : Calcul du moment de 'Hatsot ?",
+            "answer": "Le moment de 'Hatsot est calculé en fonction du lieu où se trouve la personne, en déterminant le milieu du temps entre le lever et le coucher du soleil puis en ajoutant douze heures.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-065",
+      "title": "Tikkoun Rachel et Tikkoun Léa après l'aube",
+      "rule": "A priori, il est préférable de réciter Tikkoun Léa avant l'aube, mais le Seif permet de le réciter après l'aube. Tikkoun Rachel ne doit pas être récité après l'aube.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": "Confondre les règles de Tikkoun Rachel et de Tikkoun Léa après l'aube.",
+      "learning_level": 3,
+      "importance": "important",
+      "knowledge_type": "time",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Tikkoun Léa peut être récité après l'aube alors que Tikkoun Rachel ne doit pas l'être.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 49
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 49
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Tikkoun Rachel et Tikkoun Léa après l'aube",
+        "simple_explanation": "A priori, il est préférable de réciter Tikkoun Léa avant l'aube, mais le Seif permet de le réciter après l'aube. Tikkoun Rachel ne doit pas être récité après l'aube.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-065-flashcard-01",
+            "knowledge_point_id": "s1-kp-065",
+            "source_seif": "49",
+            "title": "Tikkoun Rachel et Tikkoun Léa après l'aube",
+            "question": "Que dit la Halakha concernant : Tikkoun Rachel et Tikkoun Léa après l'aube ?",
+            "answer": "A priori, il est préférable de réciter Tikkoun Léa avant l'aube, mais le Seif permet de le réciter après l'aube. Tikkoun Rachel ne doit pas être récité après l'aube.",
+            "conditions": "",
+            "validated": true
+          },
+          "multiple_choice": [
+            {
+              "activity_id": "s1-kp-065-qcm-01",
+              "knowledge_point_id": "s1-kp-065",
+              "source_seif": "49",
+              "validated": true,
+              "explanation": "-",
+              "question": "Quelle est la règle concernant : Tikkoun Rachel et Tikkoun Léa après l'aube ?",
+              "options": [
+                "A priori, il est préférable de réciter Tikkoun Léa avant l'aube, mais le Seif permet de le réciter après l'aube. Tikkoun Rachel ne doit pas être récité après l'aube.",
+                "Confondre les règles de Tikkoun Rachel et de Tikkoun Léa après l'aube."
+              ],
+              "correct_answer": "A priori, il est préférable de réciter Tikkoun Léa avant l'aube, mais le Seif permet de le réciter après l'aube. Tikkoun Rachel ne doit pas être récité après l'aube."
+            }
+          ],
+          "true_false": [
+            {
+              "activity_id": "s1-kp-065-vf-01",
+              "knowledge_point_id": "s1-kp-065",
+              "source_seif": "49",
+              "statement": "Confondre les règles de Tikkoun Rachel et de Tikkoun Léa après l'aube.",
+              "is_true": false,
+              "explanation": "La règle est : A priori, il est préférable de réciter Tikkoun Léa avant l'aube, mais le Seif permet de le réciter après l'aube. Tikkoun Rachel ne doit pas être récité après l'aube.",
+              "validated": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-066",
+      "title": "Réciter Tikkoun 'Hatsot en public",
+      "rule": "Le Seif permet à une partie de la communauté de réciter Tikkoun 'Hatsot publiquement à la synagogue sans que cela soit considéré comme Yohara.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "secondary",
+      "knowledge_type": "permission",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Une partie de la communauté peut réciter publiquement le Tikkoun 'Hatsot sans craindre la Yohara selon le Seif.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 50
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 50
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Réciter Tikkoun 'Hatsot en public",
+        "simple_explanation": "Le Seif permet à une partie de la communauté de réciter Tikkoun 'Hatsot publiquement à la synagogue sans que cela soit considéré comme Yohara.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-066-flashcard-01",
+            "knowledge_point_id": "s1-kp-066",
+            "source_seif": "50",
+            "title": "Réciter Tikkoun 'Hatsot en public",
+            "question": "Que dit la Halakha concernant : Réciter Tikkoun 'Hatsot en public ?",
+            "answer": "Le Seif permet à une partie de la communauté de réciter Tikkoun 'Hatsot publiquement à la synagogue sans que cela soit considéré comme Yohara.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-067",
+      "title": "Les femmes et le Tikkoun 'Hatsot",
+      "rule": "Le Seif rapporte que les femmes n'ont pas la coutume répandue de réciter Tikkoun 'Hatsot, mais que si elles souhaitent le réciter, on ne doit pas les en empêcher selon la conclusion rapportée.",
+      "explanation": "Le Seif présente plusieurs positions ; la formulation doit conserver cette discussion.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "permission",
+      "halakha_status": "multiple_opinions",
+      "claims": [
+        {
+          "text": "Le Seif rapporte plusieurs avis concernant la récitation du Tikkoun 'Hatsot par les femmes et une conclusion permettant de ne pas les en empêcher si elles souhaitent le réciter.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 51
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 51
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Les femmes et le Tikkoun 'Hatsot",
+        "simple_explanation": "Le Seif rapporte que les femmes n'ont pas la coutume répandue de réciter Tikkoun 'Hatsot, mais que si elles souhaitent le réciter, on ne doit pas les en empêcher selon la conclusion rapportée.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-067-flashcard-01",
+            "knowledge_point_id": "s1-kp-067",
+            "source_seif": "51",
+            "title": "Les femmes et le Tikkoun 'Hatsot",
+            "question": "Que dit la Halakha concernant : Les femmes et le Tikkoun 'Hatsot ?",
+            "answer": "Le Seif rapporte que les femmes n'ont pas la coutume répandue de réciter Tikkoun 'Hatsot, mais que si elles souhaitent le réciter, on ne doit pas les en empêcher selon la conclusion rapportée.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-067-practical-01",
+              "knowledge_point_id": "s1-kp-067",
+              "source_seif": "51",
+              "validated": true,
+              "explanation": "Le Seif présente plusieurs positions ; la formulation doit conserver cette discussion.",
+              "situation": "Une personne se trouve dans la condition suivante : \"Les femmes et le Tikkoun 'Hatsot\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Le Seif rapporte que les femmes n'ont pas la coutume répandue de réciter Tikkoun 'Hatsot, mais que si elles souhaitent le réciter, on ne doit pas les en empêcher selon la conclusion rapportée."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-068",
+      "title": "Priorité de l'étude pour le Talmid 'Hakham",
+      "rule": "Le Talmid 'Hakham récite le Tikkoun 'Hatsot mais ne doit pas s'attarder en lamentations supplémentaires au détriment de son étude de la Torah.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "priority",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif donne priorité au retour du Talmid 'Hakham à son étude après le Tikkoun.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 52
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 52
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Priorité de l'étude pour le Talmid 'Hakham",
+        "simple_explanation": "Le Talmid 'Hakham récite le Tikkoun 'Hatsot mais ne doit pas s'attarder en lamentations supplémentaires au détriment de son étude de la Torah.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-068-flashcard-01",
+            "knowledge_point_id": "s1-kp-068",
+            "source_seif": "52",
+            "title": "Priorité de l'étude pour le Talmid 'Hakham",
+            "question": "Que dit la Halakha concernant : Priorité de l'étude pour le Talmid 'Hakham ?",
+            "answer": "Le Talmid 'Hakham récite le Tikkoun 'Hatsot mais ne doit pas s'attarder en lamentations supplémentaires au détriment de son étude de la Torah.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-069",
+      "title": "Priorité du Tikkoun 'Hatsot sur les Séli'hot",
+      "rule": "Lorsque la personne ne peut pas accomplir les deux, le Seif donne priorité au Tikkoun 'Hatsot sur les Séli'hot dans le contexte traité.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "priority",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif donne priorité au Tikkoun 'Hatsot lorsque les deux pratiques ne peuvent pas être accomplies ensemble.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 53
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 53
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Priorité du Tikkoun 'Hatsot sur les Séli'hot",
+        "simple_explanation": "Lorsque la personne ne peut pas accomplir les deux, le Seif donne priorité au Tikkoun 'Hatsot sur les Séli'hot dans le contexte traité.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-069-flashcard-01",
+            "knowledge_point_id": "s1-kp-069",
+            "source_seif": "53",
+            "title": "Priorité du Tikkoun 'Hatsot sur les Séli'hot",
+            "question": "Que dit la Halakha concernant : Priorité du Tikkoun 'Hatsot sur les Séli'hot ?",
+            "answer": "Lorsque la personne ne peut pas accomplir les deux, le Seif donne priorité au Tikkoun 'Hatsot sur les Séli'hot dans le contexte traité.",
+            "conditions": "",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-069-practical-01",
+              "knowledge_point_id": "s1-kp-069",
+              "source_seif": "53",
+              "validated": true,
+              "explanation": "-",
+              "situation": "Une personne se trouve dans la condition suivante : \"Priorité du Tikkoun 'Hatsot sur les Séli'hot\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Lorsque la personne ne peut pas accomplir les deux, le Seif donne priorité au Tikkoun 'Hatsot sur les Séli'hot dans le contexte traité."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-070",
+      "title": "Dispenses liées au mariage et à la Brit Mila",
+      "rule": "Le Seif traite de situations dans lesquelles le Tikkoun 'Hatsot n'est pas récité dans la maison d'un jeune marié et recommande certaines dispenses la nuit précédant une Brit Mila pour le père, le Mohel et le Sandak.",
+      "explanation": "Les différentes personnes et le degré de la règle doivent être conservés tels qu'ils sont présentés dans le Seif.",
+      "practical_example": null,
+      "common_trap": "Transformer toutes ces situations en une seule interdiction générale.",
+      "learning_level": 3,
+      "importance": "secondary",
+      "knowledge_type": "exception",
+      "halakha_status": "conditional",
+      "claims": [
+        {
+          "text": "Le Seif traite séparément la maison d'un jeune marié et la nuit précédant une Brit Mila pour certaines personnes concernées.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 54
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 54
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Dispenses liées au mariage et à la Brit Mila",
+        "simple_explanation": "Le Seif traite de situations dans lesquelles le Tikkoun 'Hatsot n'est pas récité dans la maison d'un jeune marié et recommande certaines dispenses la nuit précédant une Brit Mila pour le père, le Mohel et le Sandak.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-070-flashcard-01",
+            "knowledge_point_id": "s1-kp-070",
+            "source_seif": "54",
+            "title": "Dispenses liées au mariage et à la Brit Mila",
+            "question": "Que dit la Halakha concernant : Dispenses liées au mariage et à la Brit Mila ?",
+            "answer": "Le Seif traite de situations dans lesquelles le Tikkoun 'Hatsot n'est pas récité dans la maison d'un jeune marié et recommande certaines dispenses la nuit précédant une Brit Mila pour le père, le Mohel et le Sandak.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "multiple_choice": [
+            {
+              "activity_id": "s1-kp-070-qcm-01",
+              "knowledge_point_id": "s1-kp-070",
+              "source_seif": "54",
+              "validated": true,
+              "explanation": "Les différentes personnes et le degré de la règle doivent être conservés tels qu'ils sont présentés dans le Seif.",
+              "question": "Quelle est la règle concernant : Dispenses liées au mariage et à la Brit Mila ?",
+              "options": [
+                "Le Seif traite de situations dans lesquelles le Tikkoun 'Hatsot n'est pas récité dans la maison d'un jeune marié et recommande certaines dispenses la nuit précédant une Brit Mila pour le père, le Mohel et le Sandak.",
+                "Transformer toutes ces situations en une seule interdiction générale."
+              ],
+              "correct_answer": "Le Seif traite de situations dans lesquelles le Tikkoun 'Hatsot n'est pas récité dans la maison d'un jeune marié et recommande certaines dispenses la nuit précédant une Brit Mila pour le père, le Mohel et le Sandak."
+            }
+          ],
+          "true_false": [
+            {
+              "activity_id": "s1-kp-070-vf-01",
+              "knowledge_point_id": "s1-kp-070",
+              "source_seif": "54",
+              "statement": "Transformer toutes ces situations en une seule interdiction générale.",
+              "is_true": false,
+              "explanation": "La règle est : Le Seif traite de situations dans lesquelles le Tikkoun 'Hatsot n'est pas récité dans la maison d'un jeune marié et recommande certaines dispenses la nuit précédant une Brit Mila pour le père, le Mohel et le Sandak.",
+              "validated": true
+            }
+          ],
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-070-practical-01",
+              "knowledge_point_id": "s1-kp-070",
+              "source_seif": "54",
+              "validated": true,
+              "explanation": "Les différentes personnes et le degré de la règle doivent être conservés tels qu'ils sont présentés dans le Seif.",
+              "situation": "Une personne se trouve dans la condition suivante : \"Dispenses liées au mariage et à la Brit Mila\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Le Seif traite de situations dans lesquelles le Tikkoun 'Hatsot n'est pas récité dans la maison d'un jeune marié et recommande certaines dispenses la nuit précédant une Brit Mila pour le père, le Mohel et le Sandak."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-071",
+      "title": "Les deux parties du Tikkoun 'Hatsot",
+      "rule": "Le Tikkoun 'Hatsot se divise en deux parties : Tikkoun Rachel, lié à la destruction, et Tikkoun Léa, principalement composé de louanges, demandes et remerciements.",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 2,
+      "importance": "important",
+      "knowledge_type": "definition",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "Le Seif définit Tikkoun Rachel et Tikkoun Léa comme les deux parties du Tikkoun 'Hatsot.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 55
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 55
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Les deux parties du Tikkoun 'Hatsot",
+        "simple_explanation": "Le Tikkoun 'Hatsot se divise en deux parties : Tikkoun Rachel, lié à la destruction, et Tikkoun Léa, principalement composé de louanges, demandes et remerciements.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-071-flashcard-01",
+            "knowledge_point_id": "s1-kp-071",
+            "source_seif": "55",
+            "title": "Les deux parties du Tikkoun 'Hatsot",
+            "question": "Que dit la Halakha concernant : Les deux parties du Tikkoun 'Hatsot ?",
+            "answer": "Le Tikkoun 'Hatsot se divise en deux parties : Tikkoun Rachel, lié à la destruction, et Tikkoun Léa, principalement composé de louanges, demandes et remerciements.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-072",
+      "title": "Jours où Tikkoun Rachel ou les deux parties sont omis",
+      "rule": "Le Seif indique qu'il existe des jours où seul Tikkoun Léa est récité et d'autres jours festifs où les deux parties sont omises.",
+      "explanation": "La raison donnée pour certaines omissions est notamment qu'il ne convient pas d'y évoquer la tristesse.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "important",
+      "knowledge_type": "exception",
+      "halakha_status": "conditional",
+      "claims": [
+        {
+          "text": "Le Seif distingue les jours où seul Tikkoun Léa est récité des jours où les deux parties sont omises.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 55
+            },
+            {
+              "siman": 1,
+              "seif": 57
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 55
+        },
+        {
+          "siman": 1,
+          "seif": 57
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Jours où Tikkoun Rachel ou les deux parties sont omis",
+        "simple_explanation": "Le Seif indique qu'il existe des jours où seul Tikkoun Léa est récité et d'autres jours festifs où les deux parties sont omises.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-072-flashcard-01",
+            "knowledge_point_id": "s1-kp-072",
+            "source_seif": "55, 57",
+            "title": "Jours où Tikkoun Rachel ou les deux parties sont omis",
+            "question": "Que dit la Halakha concernant : Jours où Tikkoun Rachel ou les deux parties sont omis ?",
+            "answer": "Le Seif indique qu'il existe des jours où seul Tikkoun Léa est récité et d'autres jours festifs où les deux parties sont omises.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-072-practical-01",
+              "knowledge_point_id": "s1-kp-072",
+              "source_seif": "55, 57",
+              "validated": true,
+              "explanation": "La raison donnée pour certaines omissions est notamment qu'il ne convient pas d'y évoquer la tristesse.",
+              "situation": "Une personne se trouve dans la condition suivante : \"Jours où Tikkoun Rachel ou les deux parties sont omis\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Le Seif indique qu'il existe des jours où seul Tikkoun Léa est récité et d'autres jours festifs où les deux parties sont omises."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-073",
+      "title": "Tikkoun 'Hatsot à Ticha Béav",
+      "rule": "La nuit de Ticha Béav, seul Tikkoun Rachel est récité ; Tikkoun Léa n'est pas récité dans le contexte décrit par le Seif.",
+      "explanation": "Le Seif rattache cette distinction à la restriction concernant l'étude de la Torah à Ticha Béav et au caractère du contenu de Tikkoun Rachel.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 3,
+      "importance": "secondary",
+      "knowledge_type": "exception",
+      "halakha_status": "clear",
+      "claims": [
+        {
+          "text": "La nuit de Ticha Béav, le Seif indique de réciter Tikkoun Rachel sans Tikkoun Léa.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 56
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 56
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Tikkoun 'Hatsot à Ticha Béav",
+        "simple_explanation": "La nuit de Ticha Béav, seul Tikkoun Rachel est récité ; Tikkoun Léa n'est pas récité dans le contexte décrit par le Seif.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-073-flashcard-01",
+            "knowledge_point_id": "s1-kp-073",
+            "source_seif": "56",
+            "title": "Tikkoun 'Hatsot à Ticha Béav",
+            "question": "Que dit la Halakha concernant : Tikkoun 'Hatsot à Ticha Béav ?",
+            "answer": "La nuit de Ticha Béav, seul Tikkoun Rachel est récité ; Tikkoun Léa n'est pas récité dans le contexte décrit par le Seif.",
+            "conditions": "",
+            "validated": true
+          }
+        }
+      }
+    },
+    {
+      "id": "s1-kp-074",
+      "title": "Année de Chémita en Terre d'Israël",
+      "rule": "Le Seif rapporte une différence concernant Tikkoun Rachel pendant l'année de Chémita en Terre d'Israël, par rapport à la diaspora.",
+      "explanation": "La règle doit être conservée comme la pratique spécifique rapportée par le Seif, sans la généraliser à d'autres années ou lieux.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "exception",
+      "halakha_status": "conditional",
+      "claims": [
+        {
+          "text": "Le Seif traite d'une pratique particulière de Tikkoun Rachel pendant l'année de Chémita en Terre d'Israël.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 57
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 57
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Année de Chémita en Terre d'Israël",
+        "simple_explanation": "Le Seif rapporte une différence concernant Tikkoun Rachel pendant l'année de Chémita en Terre d'Israël, par rapport à la diaspora.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-074-flashcard-01",
+            "knowledge_point_id": "s1-kp-074",
+            "source_seif": "57",
+            "title": "Année de Chémita en Terre d'Israël",
+            "question": "Que dit la Halakha concernant : Année de Chémita en Terre d'Israël ?",
+            "answer": "Le Seif rapporte une différence concernant Tikkoun Rachel pendant l'année de Chémita en Terre d'Israël, par rapport à la diaspora.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-074-practical-01",
+              "knowledge_point_id": "s1-kp-074",
+              "source_seif": "57",
+              "validated": true,
+              "explanation": "La règle doit être conservée comme la pratique spécifique rapportée par le Seif, sans la généraliser à d'autres années ou lieux.",
+              "situation": "Une personne se trouve dans la condition suivante : \"Année de Chémita en Terre d'Israël\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Le Seif rapporte une différence concernant Tikkoun Rachel pendant l'année de Chémita en Terre d'Israël, par rapport à la diaspora."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-075",
+      "title": "Vidouï avant Tikkoun 'Hatsot",
+      "rule": "Le Seif rapporte la coutume de réciter le Vidouï avant Tikkoun 'Hatsot, mais précise des situations où il ne faut pas répéter le Vidouï lorsqu'il vient d'être récité auparavant.",
+      "explanation": "Les exemples donnés comprennent notamment une proximité avec Min'ha, le Vidouï de la lecture sur le lit et certaines Séli'hot.",
+      "practical_example": null,
+      "common_trap": "Répéter systématiquement le Vidouï sans tenir compte du Vidouï déjà récité auparavant.",
+      "learning_level": 3,
+      "importance": "important",
+      "knowledge_type": "sequence",
+      "halakha_status": "conditional",
+      "claims": [
+        {
+          "text": "Le Seif rapporte le Vidouï avant Tikkoun 'Hatsot et plusieurs cas où il n'est pas répété.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 58
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 58
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Vidouï avant Tikkoun 'Hatsot",
+        "simple_explanation": "Le Seif rapporte la coutume de réciter le Vidouï avant Tikkoun 'Hatsot, mais précise des situations où il ne faut pas répéter le Vidouï lorsqu'il vient d'être récité auparavant.",
+        "human_review_required": false,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-075-flashcard-01",
+            "knowledge_point_id": "s1-kp-075",
+            "source_seif": "58",
+            "title": "Vidouï avant Tikkoun 'Hatsot",
+            "question": "Que dit la Halakha concernant : Vidouï avant Tikkoun 'Hatsot ?",
+            "answer": "Le Seif rapporte la coutume de réciter le Vidouï avant Tikkoun 'Hatsot, mais précise des situations où il ne faut pas répéter le Vidouï lorsqu'il vient d'être récité auparavant.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          },
+          "multiple_choice": [
+            {
+              "activity_id": "s1-kp-075-qcm-01",
+              "knowledge_point_id": "s1-kp-075",
+              "source_seif": "58",
+              "validated": true,
+              "explanation": "Les exemples donnés comprennent notamment une proximité avec Min'ha, le Vidouï de la lecture sur le lit et certaines Séli'hot.",
+              "question": "Quelle est la règle concernant : Vidouï avant Tikkoun 'Hatsot ?",
+              "options": [
+                "Le Seif rapporte la coutume de réciter le Vidouï avant Tikkoun 'Hatsot, mais précise des situations où il ne faut pas répéter le Vidouï lorsqu'il vient d'être récité auparavant.",
+                "Répéter systématiquement le Vidouï sans tenir compte du Vidouï déjà récité auparavant."
+              ],
+              "correct_answer": "Le Seif rapporte la coutume de réciter le Vidouï avant Tikkoun 'Hatsot, mais précise des situations où il ne faut pas répéter le Vidouï lorsqu'il vient d'être récité auparavant."
+            }
+          ],
+          "true_false": [
+            {
+              "activity_id": "s1-kp-075-vf-01",
+              "knowledge_point_id": "s1-kp-075",
+              "source_seif": "58",
+              "statement": "Répéter systématiquement le Vidouï sans tenir compte du Vidouï déjà récité auparavant.",
+              "is_true": false,
+              "explanation": "La règle est : Le Seif rapporte la coutume de réciter le Vidouï avant Tikkoun 'Hatsot, mais précise des situations où il ne faut pas répéter le Vidouï lorsqu'il vient d'être récité auparavant.",
+              "validated": true
+            }
+          ],
+          "practical_situation": [
+            {
+              "activity_id": "s1-kp-075-practical-01",
+              "knowledge_point_id": "s1-kp-075",
+              "source_seif": "58",
+              "validated": true,
+              "explanation": "Les exemples donnés comprennent notamment une proximité avec Min'ha, le Vidouï de la lecture sur le lit et certaines Séli'hot.",
+              "situation": "Une personne se trouve dans la condition suivante : \"Vidouï avant Tikkoun 'Hatsot\".",
+              "question": "Que doit-elle faire ?",
+              "answer": "Le Seif rapporte la coutume de réciter le Vidouï avant Tikkoun 'Hatsot, mais précise des situations où il ne faut pas répéter le Vidouï lorsqu'il vient d'être récité auparavant."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s1-kp-076",
+      "title": "Tikkoun 'Hatsot dans une maison de deuil",
+      "rule": "Le Seif rapporte plusieurs avis concernant le Tikkoun 'Hatsot dans une maison de deuil, notamment l'omission de Tikkoun Rachel et, selon un autre avis, l'omission des deux parties.",
+      "explanation": "Les différentes opinions doivent être conservées telles qu'elles sont présentées par le Seif.",
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 4,
+      "importance": "reference",
+      "knowledge_type": "exception",
+      "halakha_status": "multiple_opinions",
+      "claims": [
+        {
+          "text": "Le Seif rapporte plusieurs avis concernant la récitation de Tikkoun Rachel et Tikkoun Léa dans une maison de deuil.",
+          "sources": [
+            {
+              "siman": 1,
+              "seif": 59
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 1,
+          "seif": 59
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Règle concernant : Tikkoun 'Hatsot dans une maison de deuil",
+        "simple_explanation": "Le Seif rapporte plusieurs avis concernant le Tikkoun 'Hatsot dans une maison de deuil, notamment l'omission de Tikkoun Rachel et, selon un autre avis, l'omission des deux parties.",
+        "human_review_required": true,
+        "activities": {
+          "flashcard": {
+            "activity_id": "s1-kp-076-flashcard-01",
+            "knowledge_point_id": "s1-kp-076",
+            "source_seif": "59",
+            "title": "Tikkoun 'Hatsot dans une maison de deuil",
+            "question": "Que dit la Halakha concernant : Tikkoun 'Hatsot dans une maison de deuil ?",
+            "answer": "Le Seif rapporte plusieurs avis concernant le Tikkoun 'Hatsot dans une maison de deuil, notamment l'omission de Tikkoun Rachel et, selon un autre avis, l'omission des deux parties.",
+            "conditions": "Attention aux conditions ou aux multiples opinions détaillées dans la règle.",
+            "validated": true
+          }
+        }
+      }
+    }
+  ]
+}

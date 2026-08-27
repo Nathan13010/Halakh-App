@@ -1,10 +1,10 @@
 {
-  "siman": 9,
-  "file": "siman_9.json",
-  "timestamp": "2026-08-24T19:12:31.368Z",
+  "siman": 21,
+  "file": "siman_21.json",
+  "timestamp": "2026-08-24T19:12:31.338Z",
   "summary": {
-    "total": 13,
-    "pass": 13,
+    "total": 14,
+    "pass": 14,
     "warn": 0,
     "fail": 0,
     "avg_score": 100
@@ -264,6 +264,27 @@
     },
     {
       "seif": 13,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 14,
       "status": "PASS",
       "score": 100,
       "checks": {

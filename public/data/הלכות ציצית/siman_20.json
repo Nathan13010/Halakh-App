@@ -1,0 +1,792 @@
+{
+  "_meta": {
+    "source": "entree.txt (texte pré-vocalisé)",
+    "siman": 20,
+    "siman_hebrew": "כ",
+    "generated_at": "2026-08-23T09:25:34.754Z",
+    "total_seifim": 2
+  },
+  "halakhot": [
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Achat de Tzitzit chez un non-Juif",
+      "siman": "20",
+      "seif": "1",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "א. הלוקח טלית מצוייצת מישראל, או מחנות של אינו יהודי, ואומר שלקחן מישראל, כשר. דכיון שהוא אומן חזקה שלקחה מישראל, דלא מרע אנפשיה. אבל אם לקח מאינו יהודי שאינו תגר, פסולה. ולכן אין לסמוך לקנות ציצית מכל עובר אורח המציג תכולתו ברבים, שידוע שיש בהם מיעוט אנשים מצוי מאד, שאינם נאמנים כלל. [ילקו\"י על הל' ציצית, מהדורת תשס\"ד עמוד שמט. ובמהדורת תשס\"ו עמוד רמז. ושאר\"י ח\"א עמוד רע].",
+        "hebreu_avec_voyelles": "א הַלּוֹקֵחַ טַלִּית מְצֻיֶּצֶת מִיִּשְׂרָאֵל, אוֹ מַחֲנוֹת שֶׁל אֵינוֹ יְהוּדִי, וְאוֹמֵר שֶׁלִּקְחָן מִיִּשְׂרָאֵל, כָּשֵׁר. דֵּכֵיוָן שֶׁהוּא אֻמָּן חֲזָקָה שֶׁלָּקְחָה מִיִּשְׂרָאֵל, דְּלָא מֵרַע אַנְפַּשְׁיָה. אֲבָל אִם לָקַח מְאַיְּנוֹ יְהוּדִי שֶׁאֵינוֹ תַּגָּר, פְּסוּלָה. וְלָכֵן אֵין לִסְמֹךְ לִקְנוֹת צִיצִית מִכָּל עוֹבֵר אֹרַח הַמַּצִּיג תְּכוּלָתוֹ בָּרַבִּים, שֶׁיָּדוּעַ שֶׁיֵּשׁ בָּהֶם מִעוּט אֲנָשִׁים מָצוּי מְאֹד, שֶׁאֵינָם נֶאֱמָנִים כְּלָל. [ילקו\"י עַל הֵל' צִיצִית, מַהֲדוּרַת תשס\"ד עַמּוּד שָׁמַט. וּבְמַהֲדוּרַת תשס\"ו עַמּוּד רֶמֶז. ושאר\"י ח\"א עַמּוּד רַע].",
+        "francais": "1. Celui qui achète un Talit muni de Tzitzit auprès d'un Juif, ou auprès d'un marchand non-juif qui affirme les avoir achetés à un Juif, le Talit est cacher. Car puisqu'il est marchand, il existe une présomption qu'il les a achetés à un Juif, n'ayant pas intérêt à nuire à sa propre réputation professionnelle. Cependant, s'il l'a acheté auprès d'un non-Juif qui n'est pas un marchand, il est impropre (passoul). C'est pourquoi on ne doit pas se fier à l'achat de Tzitzit auprès de n'importe quel marchand ambulant qui expose sa marchandise en public, car il est connu qu'il existe parmi eux une minorité très fréquente d'individus à qui l'on ne peut pas du tout faire confiance. [Yalkout Yossef sur les lois de Tzitzit, édition 5764 page 349. Et dans l'édition 5766 page 247. Et Chéérit Yossef vol. 1 page 270]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "א.",
+          "hebreu_voyelles": "א.",
+          "francais_mot": "1.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "הלוקח",
+          "hebreu_voyelles": "הַלּוֹקֵחַ",
+          "francais_mot": "Celui qui achète",
+          "expression_contexte": "",
+          "infinitif": "לָקַחַת = Prendre / Acheter"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "un Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "מצוייצת",
+          "hebreu_voyelles": "מְצֻיֶּצֶת",
+          "francais_mot": "muni de Tzitzit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "מישראל,",
+          "hebreu_voyelles": "מִיִּשְׂרָאֵל,",
+          "francais_mot": "auprès d'un Juif,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "מחנות",
+          "hebreu_voyelles": "מַחֲנוֹת",
+          "francais_mot": "auprès de la boutique",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "אינו",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "un non-",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "יהודי,",
+          "hebreu_voyelles": "יְהוּדִי,",
+          "francais_mot": "Juif,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "ואומר",
+          "hebreu_voyelles": "וְאוֹמֵר",
+          "francais_mot": "et il dit",
+          "expression_contexte": "",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "שלקחן",
+          "hebreu_voyelles": "שֶׁלִּקְחָן",
+          "francais_mot": "qu'il les a achetés",
+          "expression_contexte": "",
+          "infinitif": "לָקַחַת = Prendre / Acheter"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "מישראל,",
+          "hebreu_voyelles": "מִיִּשְׂרָאֵל,",
+          "francais_mot": "à un Juif,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "כשר.",
+          "hebreu_voyelles": "כָּשֵׁר.",
+          "francais_mot": "est cacher.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "דכיון",
+          "hebreu_voyelles": "דֵּכֵיוָן",
+          "francais_mot": "Car puisqu'",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "שהוא",
+          "hebreu_voyelles": "שֶׁהוּא",
+          "francais_mot": "il est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "אומן",
+          "hebreu_voyelles": "אֻמָּן",
+          "francais_mot": "marchand",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "חזקה",
+          "hebreu_voyelles": "חֲזָקָה",
+          "francais_mot": "il existe une présomption",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "שלקחה",
+          "hebreu_voyelles": "שֶׁלָּקְחָה",
+          "francais_mot": "qu'il l'a acheté",
+          "expression_contexte": "",
+          "infinitif": "לָקַחַת = Prendre / Acheter"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "מישראל,",
+          "hebreu_voyelles": "מִיִּשְׂרָאֵל,",
+          "francais_mot": "à un Juif,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "דלא",
+          "hebreu_voyelles": "דְּלָא",
+          "francais_mot": "car il ne va pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "מרע",
+          "hebreu_voyelles": "מֵרַע",
+          "francais_mot": "nuire",
+          "expression_contexte": "",
+          "infinitif": "לְהָרַע = Nuire"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "אנפשיה.",
+          "hebreu_voyelles": "אַנְפַּשְׁיָה.",
+          "francais_mot": "à lui-même.",
+          "expression_contexte": "דלא מרע אנפשיה = n'ayant pas intérêt à nuire à sa propre réputation professionnelle"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "אבל",
+          "hebreu_voyelles": "אֲבָל",
+          "francais_mot": "Cependant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "לקח",
+          "hebreu_voyelles": "לָקַח",
+          "francais_mot": "il l'a acheté",
+          "expression_contexte": "",
+          "infinitif": "לָקַחַת = Prendre / Acheter"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "מאינו",
+          "hebreu_voyelles": "מְאַיְּנוֹ",
+          "francais_mot": "auprès d'un non-",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "יהודי",
+          "hebreu_voyelles": "יְהוּדִי",
+          "francais_mot": "Juif",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "שאינו",
+          "hebreu_voyelles": "שֶׁאֵינוֹ",
+          "francais_mot": "qui n'est pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "תגר,",
+          "hebreu_voyelles": "תַּגָּר,",
+          "francais_mot": "un marchand,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "פסולה.",
+          "hebreu_voyelles": "פְּסוּלָה.",
+          "francais_mot": "il est impropre.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "ולכן",
+          "hebreu_voyelles": "וְלָכֵן",
+          "francais_mot": "C'est pourquoi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "il ne faut pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "לסמוך",
+          "hebreu_voyelles": "לִסְמֹךְ",
+          "francais_mot": "se fier",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "לקנות",
+          "hebreu_voyelles": "לִקְנוֹת",
+          "francais_mot": "à l'achat de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "ציצית",
+          "hebreu_voyelles": "צִיצִית",
+          "francais_mot": "Tzitzit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "מכל",
+          "hebreu_voyelles": "מִכָּל",
+          "francais_mot": "auprès de tout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "עובר",
+          "hebreu_voyelles": "עוֹבֵר",
+          "francais_mot": "passant",
+          "expression_contexte": "",
+          "infinitif": "לַעֲבֹר = Passer"
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "אורח",
+          "hebreu_voyelles": "אֹרַח",
+          "francais_mot": "voyageur",
+          "expression_contexte": "עובר אורח = marchand ambulant"
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "המציג",
+          "hebreu_voyelles": "הַמַּצִּיג",
+          "francais_mot": "qui expose",
+          "expression_contexte": "",
+          "infinitif": "לְהַצִּיג = Présenter / Exposer"
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "תכולתו",
+          "hebreu_voyelles": "תְּכוּלָתוֹ",
+          "francais_mot": "sa marchandise",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "ברבים,",
+          "hebreu_voyelles": "בָּרַבִּים,",
+          "francais_mot": "en public,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "שידוע",
+          "hebreu_voyelles": "שֶׁיָּדוּעַ",
+          "francais_mot": "car il est connu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "שיש",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "qu'il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "בהם",
+          "hebreu_voyelles": "בָּהֶם",
+          "francais_mot": "parmi eux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "מיעוט",
+          "hebreu_voyelles": "מִעוּט",
+          "francais_mot": "une minorité",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "אנשים",
+          "hebreu_voyelles": "אֲנָשִׁים",
+          "francais_mot": "d'individus",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "מצוי",
+          "hebreu_voyelles": "מָצוּי",
+          "francais_mot": "fréquente",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "מאד,",
+          "hebreu_voyelles": "מְאֹד,",
+          "francais_mot": "très,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "שאינם",
+          "hebreu_voyelles": "שֶׁאֵינָם",
+          "francais_mot": "à qui l'on ne peut pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "נאמנים",
+          "hebreu_voyelles": "נֶאֱמָנִים",
+          "francais_mot": "faire confiance",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "כלל.",
+          "hebreu_voyelles": "כְּלָל.",
+          "francais_mot": "du tout.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "les lois de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tzitzit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "מהדורת",
+          "hebreu_voyelles": "מַהֲדוּרַת",
+          "francais_mot": "édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "תשס\"ד",
+          "hebreu_voyelles": "תשס\"ד",
+          "francais_mot": "5764",
+          "expression_contexte": ""
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "שמט.",
+          "hebreu_voyelles": "שָׁמַט.",
+          "francais_mot": "349.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "ובמהדורת",
+          "hebreu_voyelles": "וּבְמַהֲדוּרַת",
+          "francais_mot": "Et dans l'édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "תשס\"ו",
+          "hebreu_voyelles": "תשס\"ו",
+          "francais_mot": "5766",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "רמז.",
+          "hebreu_voyelles": "רֶמֶז.",
+          "francais_mot": "247.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "Et Chéérit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1",
+          "expression_contexte": ""
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "רע].",
+          "hebreu_voyelles": "רַע].",
+          "francais_mot": "270].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 1
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Interdiction de donner un Talit à un non-juif",
+      "siman": "20",
+      "seif": "2",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ב. אין מוכרים טלית מצוייצת לגוי, וכן אין נותנים לו במתנה טלית מצוייצת. ואפילו למשכן ולהפקיד טלית מצוייצת לגוי אסור, אלא אם כן הוא לפי שעה. [ילקו\"י הל' ציצית, מהדורת תשס\"ד עמ' שנ. ובמהדורת תשס\"ו עמוד רמט].",
+        "hebreu_avec_voyelles": "ב אֵין מוֹכְרִים טַלִּית מְצֻיֶּצֶת לְגוֹי, וְכֵן אֵין נוֹתְנִים לוֹ בְּמַתָּנָה טַלִּית מְצֻיֶּצֶת. וַאֲפִלּוּ לַמִּשְׁכָּן וּלְהַפְקִיד טַלִּית מְצֻיֶּצֶת לְגוֹי אָסוּר, אֶלָּא אִם כֵּן הוּא לְפִי שָׁעָה. [ילקו\"י הֵל' צִיצִית, מַהֲדוּרַת תשס\"ד עמ' שנ. וּבְמַהֲדוּרַת תשס\"ו עַמּוּד רמט].",
+        "francais": "2. On ne vend pas un talit muni de tsitsit à un non-juif, et de même, on ne lui offre pas un talit muni de tsitsit en cadeau. Il est même interdit de donner en gage ou de confier en dépôt un talit muni de tsitsit à un non-juif, à moins que ce ne soit que de manière temporaire. [Yalkout Yossef, Lois des Tsitsit, édition 5764, page 350 ; et dans l'édition 5766, page 249]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ב.",
+          "hebreu_voyelles": "ב.",
+          "francais_mot": "2.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "ne pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "מוכרים",
+          "hebreu_voyelles": "מוֹכְרִים",
+          "francais_mot": "vend",
+          "expression_contexte": "",
+          "infinitif": "לִמְכֹּר = Vendre"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "un talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "מצוייצת",
+          "hebreu_voyelles": "מְצֻיֶּצֶת",
+          "francais_mot": "muni de tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "לגוי,",
+          "hebreu_voyelles": "לְגוֹי,",
+          "francais_mot": "à un non-juif,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "וכן",
+          "hebreu_voyelles": "וְכֵן",
+          "francais_mot": "et de même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "on ne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "נותנים",
+          "hebreu_voyelles": "נוֹתְנִים",
+          "francais_mot": "donne",
+          "expression_contexte": "",
+          "infinitif": "לָתֵת = Donner"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "במתנה",
+          "hebreu_voyelles": "בְּמַתָּנָה",
+          "francais_mot": "en cadeau",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "un talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "מצוייצת.",
+          "hebreu_voyelles": "מְצֻיֶּצֶת.",
+          "francais_mot": "muni de tsitsit.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ואפילו",
+          "hebreu_voyelles": "וַאֲפִלּוּ",
+          "francais_mot": "Et même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "למשכן",
+          "hebreu_voyelles": "לַמִּשְׁכָּן",
+          "francais_mot": "donner en gage",
+          "expression_contexte": "",
+          "infinitif": "לְמַשְׁכֵּן = Donner en gage"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "ולהפקיד",
+          "hebreu_voyelles": "וּלְהַפְקִיד",
+          "francais_mot": "et confier en dépôt",
+          "expression_contexte": "",
+          "infinitif": "לְהַפְקִיד = Confier en dépôt"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "טלית",
+          "hebreu_voyelles": "טַלִּית",
+          "francais_mot": "un talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "מצוייצת",
+          "hebreu_voyelles": "מְצֻיֶּצֶת",
+          "francais_mot": "muni de tsitsit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "לגוי",
+          "hebreu_voyelles": "לְגוֹי",
+          "francais_mot": "à un non-juif",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "אסור,",
+          "hebreu_voyelles": "אָסוּר,",
+          "francais_mot": "est interdit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "sauf",
+          "expression_contexte": "אלא אם כן = à moins que"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": "אלא אם כן = à moins que"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "כן",
+          "hebreu_voyelles": "כֵּן",
+          "francais_mot": "ainsi",
+          "expression_contexte": "אלא אם כן = à moins que"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "הוא",
+          "hebreu_voyelles": "הוּא",
+          "francais_mot": "ce soit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "לפי",
+          "hebreu_voyelles": "לְפִי",
+          "francais_mot": "selon",
+          "expression_contexte": "לפי שעה = de manière temporaire"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "שעה.",
+          "hebreu_voyelles": "שָׁעָה.",
+          "francais_mot": "heure.",
+          "expression_contexte": "לפי שעה = de manière temporaire"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "Lois des",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tsitsit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "מהדורת",
+          "hebreu_voyelles": "מַהֲדוּרַת",
+          "francais_mot": "édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "תשס\"ד",
+          "hebreu_voyelles": "תשס\"ד",
+          "francais_mot": "5764",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "שנ.",
+          "hebreu_voyelles": "שנ.",
+          "francais_mot": "350 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "ובמהדורת",
+          "hebreu_voyelles": "וּבְמַהֲדוּרַת",
+          "francais_mot": "et dans l'édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "תשס\"ו",
+          "hebreu_voyelles": "תשס\"ו",
+          "francais_mot": "5766,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "רמט].",
+          "hebreu_voyelles": "רמט].",
+          "francais_mot": "249].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 2
+    }
+  ]
+}

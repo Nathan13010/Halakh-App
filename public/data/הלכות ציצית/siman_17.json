@@ -3,8 +3,8 @@
     "source": "entree.txt (texte pré-vocalisé)",
     "siman": 17,
     "siman_hebrew": "יז",
-    "generated_at": "2026-08-20T15:05:05.155Z",
-    "total_seifim": 5
+    "generated_at": "2026-08-23T09:02:22.213Z",
+    "total_seifim": 6
   },
   "halakhot": [
     {
@@ -2175,6 +2175,728 @@
         }
       ],
       "_globalId": 5
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Exemption des femmes de la mitsva de Tzitzit",
+      "siman": "17",
+      "seif": "6",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ו. נשים פטורות ממצות ציצית, ככל מצוות עשה שהזמן גרמא. ואף על פי שבשופר וסוכה ולולב אם רצו הנשים לקיימן רשאיות, ובלבד שלא תברכנה על המצוה, [למנהג הספרדים ועדות המזרח], ואין בזה משום כל הפטור מן הדבר ועושהו נקרא הדיוט, מכל מקום במצות ציצית אין להן לחייב את עצמן ולהתעטף בציצית, אפילו בלי ברכה, דמיחזי כיוהרא. ויש אומרים שיש בזה גם חשש משום לא יהיה כלי גבר על אשה, ואף על פי שהעיקר לדינא שאין בזה האיסור הנז' מכל מקום ראוי למונען מזה, ובפרט בזמן הזה כאשר הרפורמים מנהיגים כן בקהילותיהם. [ילקו\"י שם עמוד שכג. ושאר\"י ח\"א עמוד רס].",
+        "hebreu_avec_voyelles": "ו נָשִׁים פְּטוּרוֹת מִמִּצְוַת צִיצִית, כְּכָל מִצְווֹת עֲשֵׂה שֶׁהַזְּמַן גְּרָמָא. וְאַף עַל פִּי שֶׁבַּשּׁוֹפָר וְסֻכָּה וְלוּלָב אִם רָצוּ הַנָּשִׁים לְקַיְּמָן רַשָּׁאִיּוֹת, וּבִלְבַד שֶׁלֹּא תְּבָרֵכְנָה עַל הַמִּצְוָה, [לְמִנְהַג הַסְּפָרַדִּים וַעֲדוֹת הַמִּזְרָח], וְאֵין בָּזֶה מִשּׁוּם כָּל הַפְּטוֹר מִן הַדָּבָר וְעוֹשֵׂהוּ נִקְרָא הֶדְיוֹט, מִכָּל מָקוֹם בְּמִצְוַת צִיצִית אֵין לָהֶן לְחַיֵּב אֶת עַצְמָן וּלְהִתְעַטֵּף בְּצִיצִית, אֲפִלּוּ בְּלִי בְּרָכָה, דְּמִחֲזִי כְּיֻהֲרָא. וְיֵשׁ אוֹמְרִים שֶׁיֵּשׁ בָּזֶה גַּם חֲשָׁשׁ מִשּׁוּם לֹא יִהְיֶה כְלִי גֶבֶר עַל אִשָּׁה, וְאַף עַל פִּי שֶׁהָעִקָּר לְדִינָא שֶׁאֵין בָּזֶה הָאִסּוּר הַנז' מִכָּל מָקוֹם רָאוּי לְמוּנָעָן מִזֶּה, וּבִפְרָט בַּזְּמַן הַזֶּה כַּאֲשֶׁר הָרֵפוֹרְמִים מַנְהִיגִים כֵּן בִּקְהִלּוֹתֵיהֶם. [ילקו\"י שָׁם עַמּוּד שכג. ושאר\"י ח\"א עַמּוּד רס].",
+        "francais": "6. Les femmes sont exemptées de la mitsva de Tzitzit, comme de toutes les mitsvot d'action dépendant du temps. Et bien que concernant le Chofar, la Soukka et le Loulav, si les femmes désirent les accomplir, elles y sont autorisées — à condition de ne pas réciter de bénédiction sur la mitsva [selon la coutume des Sfaradime et des communautés d'Orient] —, et qu'il n'y ait pas en cela d'application du principe « quiconque est exempté d'une chose et l'accomplit est appelé un ignorant (Hedyot) », malgré tout, concernant la mitsva de Tzitzit, elles ne doivent pas s'imposer cette obligation ni s'envelopper d'un Tzitzit, même sans bénédiction, car cela apparaît comme de l'ostentation (Yo'hara). Certains disent qu'il y a également une appréhension quant à l'interdiction selon laquelle « un vêtement d'homme ne doit pas être porté par une femme », et bien que l'essentiel de la loi stricte soit que cet interdit susmentionné ne s'applique pas ici, il convient néanmoins de les en dissuader, en particulier à notre époque où les réformés instaurent cette pratique dans leurs communautés. [Yalkout Yossef ibid. page 323 ; Chérit Yossef vol. 1 page 260]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ו.",
+          "hebreu_voyelles": "ו.",
+          "francais_mot": "6.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "נשים",
+          "hebreu_voyelles": "נָשִׁים",
+          "francais_mot": "Les femmes",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "פטורות",
+          "hebreu_voyelles": "פְּטוּרוֹת",
+          "francais_mot": "sont exemptées",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "ממצות",
+          "hebreu_voyelles": "מִמִּצְוַת",
+          "francais_mot": "de la mitsva de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "ציצית,",
+          "hebreu_voyelles": "צִיצִית,",
+          "francais_mot": "Tzitzit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "ככל",
+          "hebreu_voyelles": "כְּכָל",
+          "francais_mot": "comme toutes",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "מצוות",
+          "hebreu_voyelles": "מִצְווֹת",
+          "francais_mot": "les mitsvot",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "עשה",
+          "hebreu_voyelles": "עֲשֵׂה",
+          "francais_mot": "d'action",
+          "expression_contexte": "מִצְוַת עֲשֵׂה = Mitsva d'action"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "שהזמן",
+          "hebreu_voyelles": "שֶׁהַזְּמַן",
+          "francais_mot": "que le temps",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "גרמא.",
+          "hebreu_voyelles": "גְּרָמָא.",
+          "francais_mot": "en est la cause.",
+          "expression_contexte": "שֶׁהַזְּמַן גְּרָמָא = Dépendant du temps"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "ואף",
+          "hebreu_voyelles": "וְאַף",
+          "francais_mot": "Et même",
+          "expression_contexte": "וְאַף עַל פִּי = Et bien que"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "פי",
+          "hebreu_voyelles": "פִּי",
+          "francais_mot": "la bouche de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "שבשופר",
+          "hebreu_voyelles": "שֶׁבַּשּׁוֹפָר",
+          "francais_mot": "que concernant le Chofar",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "וסוכה",
+          "hebreu_voyelles": "וְסֻכָּה",
+          "francais_mot": "et la Soukka",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "ולולב",
+          "hebreu_voyelles": "וְלוּלָב",
+          "francais_mot": "et le Loulav",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "רצו",
+          "hebreu_voyelles": "רָצוּ",
+          "francais_mot": "ont voulu",
+          "expression_contexte": "",
+          "infinitif": "לִרְצוֹת = Vouloir / Désirer"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "הנשים",
+          "hebreu_voyelles": "הַנָּשִׁים",
+          "francais_mot": "les femmes",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "לקיימן",
+          "hebreu_voyelles": "לְקַיְּמָן",
+          "francais_mot": "de les accomplir",
+          "expression_contexte": "",
+          "infinitif": "לְקַיֵּם = Accomplir / Obéir"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "רשאיות,",
+          "hebreu_voyelles": "רַשָּׁאִיּוֹת,",
+          "francais_mot": "elles y sont autorisées,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "ובלבד",
+          "hebreu_voyelles": "וּבִלְבַד",
+          "francais_mot": "à condition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "de ne pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "תברכנה",
+          "hebreu_voyelles": "תְּבָרֵכְנָה",
+          "francais_mot": "récitent de bénédiction",
+          "expression_contexte": "",
+          "infinitif": "לְבָרֵךְ = Bénir / Réciter une bénédiction"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "המצוה,",
+          "hebreu_voyelles": "הַמִּצְוָה,",
+          "francais_mot": "la mitsva,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "[למנהג",
+          "hebreu_voyelles": "[לְמִנְהַג",
+          "francais_mot": "[selon la coutume de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "הספרדים",
+          "hebreu_voyelles": "הַסְּפָרַדִּים",
+          "francais_mot": "les Sfaradime",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "ועדות",
+          "hebreu_voyelles": "וַעֲדוֹת",
+          "francais_mot": "et des communautés de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "המזרח],",
+          "hebreu_voyelles": "הַמִּזְרָח],",
+          "francais_mot": "l'Orient],",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "et il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "en cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "משום",
+          "hebreu_voyelles": "מִשּׁוּם",
+          "francais_mot": "d'application de",
+          "expression_contexte": "מִשּׁוּם = En raison de / Au titre de"
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "tout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "הפטור",
+          "hebreu_voyelles": "הַפְּטוֹר",
+          "francais_mot": "celui qui est exempté",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "מן",
+          "hebreu_voyelles": "מִן",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "הדבר",
+          "hebreu_voyelles": "הַדָּבָר",
+          "francais_mot": "la chose",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "ועושהו",
+          "hebreu_voyelles": "וְעוֹשֵׂהוּ",
+          "francais_mot": "et l'accomplit",
+          "expression_contexte": "",
+          "infinitif": "לַעֲשׂוֹת = Faire / Accomplir"
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "נקרא",
+          "hebreu_voyelles": "נִקְרָא",
+          "francais_mot": "est appelé",
+          "expression_contexte": "",
+          "infinitif": "לְהִקָּרֵא = Être appelé"
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "הדיוט,",
+          "hebreu_voyelles": "הֶדְיוֹט,",
+          "francais_mot": "un ignorant (Hedyot),",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "מכל",
+          "hebreu_voyelles": "מִכָּל",
+          "francais_mot": "De tout",
+          "expression_contexte": "מִכָּל מָקוֹם = Malgré tout / Néanmoins"
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "מקום",
+          "hebreu_voyelles": "מָקוֹם",
+          "francais_mot": "lieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "במצות",
+          "hebreu_voyelles": "בְּמִצְוַת",
+          "francais_mot": "concernant la mitsva de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "ציצית",
+          "hebreu_voyelles": "צִיצִית",
+          "francais_mot": "Tzitzit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "il n'y a pas",
+          "expression_contexte": "אֵין לָהֶן = Elles ne doivent pas"
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "להן",
+          "hebreu_voyelles": "לָהֶן",
+          "francais_mot": "pour elles",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "לחייב",
+          "hebreu_voyelles": "לְחַיֵּב",
+          "francais_mot": "d'imposer",
+          "expression_contexte": "",
+          "infinitif": "לְחַיֵּב = Obliger / Imposer"
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[C.O.D.]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "עצמן",
+          "hebreu_voyelles": "עַצְמָן",
+          "francais_mot": "elles-mêmes",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "ולהתעטף",
+          "hebreu_voyelles": "וּלְהִתְעַטֵּף",
+          "francais_mot": "ni de s'envelopper",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְעַטֵּף = S'envelopper"
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "בציצית,",
+          "hebreu_voyelles": "בְּצִיצִית,",
+          "francais_mot": "d'un Tzitzit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "אפילו",
+          "hebreu_voyelles": "אֲפִלּוּ",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "בלי",
+          "hebreu_voyelles": "בְּלִי",
+          "francais_mot": "sans",
+          "expression_contexte": ""
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "ברכה,",
+          "hebreu_voyelles": "בְּרָכָה,",
+          "francais_mot": "bénédiction,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "דמיחזי",
+          "hebreu_voyelles": "דְּמִחֲזִי",
+          "francais_mot": "car cela apparaît",
+          "expression_contexte": "",
+          "infinitif": "לְהֵרָאוֹת = Paraître / Apparaître"
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "כיוהרא.",
+          "hebreu_voyelles": "כְּיֻהֲרָא.",
+          "francais_mot": "comme de l'ostentation.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "ויש",
+          "hebreu_voyelles": "וְיֵשׁ",
+          "francais_mot": "Et certains",
+          "expression_contexte": "וְיֵשׁ אוֹמְרִים = Et certains disent"
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "אומרים",
+          "hebreu_voyelles": "אוֹמְרִים",
+          "francais_mot": "disent",
+          "expression_contexte": "",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "שיש",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "qu'il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "en cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "גם",
+          "hebreu_voyelles": "גַּם",
+          "francais_mot": "également",
+          "expression_contexte": ""
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "une appréhension",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "משום",
+          "hebreu_voyelles": "מִשּׁוּם",
+          "francais_mot": "quant à l'interdiction de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "לא",
+          "hebreu_voyelles": "לֹא",
+          "francais_mot": "ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "יהיה",
+          "hebreu_voyelles": "יִהְיֶה",
+          "francais_mot": "sera",
+          "expression_contexte": "",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "כלי",
+          "hebreu_voyelles": "כְלִי",
+          "francais_mot": "un vêtement de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "גבר",
+          "hebreu_voyelles": "גֶבֶר",
+          "francais_mot": "l'homme",
+          "expression_contexte": ""
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "אשה,",
+          "hebreu_voyelles": "אִשָּׁה,",
+          "francais_mot": "une femme,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "ואף",
+          "hebreu_voyelles": "וְאַף",
+          "francais_mot": "et bien que",
+          "expression_contexte": "וְאַף עַל פִּי = Et bien que"
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "פי",
+          "hebreu_voyelles": "פִּי",
+          "francais_mot": "la bouche de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "שהעיקר",
+          "hebreu_voyelles": "שֶׁהָעִקָּר",
+          "francais_mot": "que l'essentiel",
+          "expression_contexte": ""
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "לדינא",
+          "hebreu_voyelles": "לְדִינָא",
+          "francais_mot": "de la loi stricte",
+          "expression_contexte": ""
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "est que ne s'applique pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "en cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "האיסור",
+          "hebreu_voyelles": "הָאִסּוּר",
+          "francais_mot": "l'interdit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "הנז'",
+          "hebreu_voyelles": "הַנז'",
+          "francais_mot": "susmentionné,",
+          "expression_contexte": "הַנִּזְכָּר = Le mentionné"
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "מכל",
+          "hebreu_voyelles": "מִכָּל",
+          "francais_mot": "de tout",
+          "expression_contexte": "מִכָּל מָקוֹם = Néanmoins / Malgré tout"
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "מקום",
+          "hebreu_voyelles": "מָקוֹם",
+          "francais_mot": "lieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "ראוי",
+          "hebreu_voyelles": "רָאוּי",
+          "francais_mot": "il convient",
+          "expression_contexte": ""
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "למונען",
+          "hebreu_voyelles": "לְמוּנָעָן",
+          "francais_mot": "de les dissuader",
+          "expression_contexte": "",
+          "infinitif": "לִמְנֹעַ = Empêcher / Dissuader"
+        },
+        {
+          "id": 82,
+          "hebreu_brut": "מזה,",
+          "hebreu_voyelles": "מִזֶּה,",
+          "francais_mot": "de cela,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 83,
+          "hebreu_brut": "ובפרט",
+          "hebreu_voyelles": "וּבִפְרָט",
+          "francais_mot": "et en particulier",
+          "expression_contexte": ""
+        },
+        {
+          "id": 84,
+          "hebreu_brut": "בזמן",
+          "hebreu_voyelles": "בַּזְּמַן",
+          "francais_mot": "à l'époque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 85,
+          "hebreu_brut": "הזה",
+          "hebreu_voyelles": "הַזֶּה",
+          "francais_mot": "actuelle",
+          "expression_contexte": "בַּזְּמַן הַזֶּה = À notre époque"
+        },
+        {
+          "id": 86,
+          "hebreu_brut": "כאשר",
+          "hebreu_voyelles": "כַּאֲשֶׁר",
+          "francais_mot": "où",
+          "expression_contexte": ""
+        },
+        {
+          "id": 87,
+          "hebreu_brut": "הרפורמים",
+          "hebreu_voyelles": "הָרֵפוֹרְמִים",
+          "francais_mot": "les réformés",
+          "expression_contexte": ""
+        },
+        {
+          "id": 88,
+          "hebreu_brut": "מנהיגים",
+          "hebreu_voyelles": "מַנְהִיגִים",
+          "francais_mot": "instaurent",
+          "expression_contexte": "",
+          "infinitif": "לְהַנְהִיג = Instaurer / Diriger"
+        },
+        {
+          "id": 89,
+          "hebreu_brut": "כן",
+          "hebreu_voyelles": "כֵּן",
+          "francais_mot": "cette pratique",
+          "expression_contexte": ""
+        },
+        {
+          "id": 90,
+          "hebreu_brut": "בקהילותיהם.",
+          "hebreu_voyelles": "בִּקְהִלּוֹתֵיהֶם.",
+          "francais_mot": "dans leurs communautés.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 91,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 92,
+          "hebreu_brut": "שם",
+          "hebreu_voyelles": "שָׁם",
+          "francais_mot": "ibid.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 93,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 94,
+          "hebreu_brut": "שכג.",
+          "hebreu_voyelles": "שכג.",
+          "francais_mot": "323 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 95,
+          "hebreu_brut": "ושאר\"י",
+          "hebreu_voyelles": "ושאר\"י",
+          "francais_mot": "Chérit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 96,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1",
+          "expression_contexte": ""
+        },
+        {
+          "id": 97,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 98,
+          "hebreu_brut": "רס].",
+          "hebreu_voyelles": "רס].",
+          "francais_mot": "260].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 6
     }
   ]
 }

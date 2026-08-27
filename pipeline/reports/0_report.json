@@ -1,0 +1,12 @@
+{
+  "siman": 0,
+  "file": "הלכות ציצית",
+  "error": "Fichier JSON invalide: EISDIR: illegal operation on a directory, read",
+  "summary": {
+    "total": 0,
+    "pass": 0,
+    "warn": 0,
+    "fail": 0
+  },
+  "seifim": []
+}

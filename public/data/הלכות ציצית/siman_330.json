@@ -1,0 +1,5999 @@
+{
+  "_meta": {
+    "source": "entree.txt (texte pré-vocalisé)",
+    "siman": 330,
+    "siman_hebrew": "330",
+    "generated_at": "2026-08-24T16:41:43.653Z",
+    "total_seifim": 12
+  },
+  "halakhot": [
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Action policière le Chabbat et Piku'ah Nefech",
+      "siman": "330",
+      "seif": "1",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "א. כז הדבר פשוט שחובה קדושה על אנשי המשטרה להתייעץ עם רבנים מורי הוראות בכל הקשור לחילולי שבת במסגרת תפקידם במשטרה, שפעמים ואין צורך בחילול השבת, ואינו בכלל ספק פיקוח נפש הדוחה את השבת. וכגון, מרדפים אחרי גנבים, לאחר שביצעו את הגניבה, שאין לבצעם בשבת, אחר שאין בדבר כל חשש לספק נפשות. אבל אם הזעיקו את המשטרה בעת שהגנב נמצא בדירה, ויש חשש שיפגע בבעלי הדירה, מותר לשוטרים לבוא ולתופסו, מאחר שהדבר גובל בפיקוח נפש. [ילקוט יוסף שבת כרך ד' עמוד רפז].",
+        "hebreu_avec_voyelles": "א. כז הַדָּבָר פָּשׁוּט שֶׁחוֹבָה קְדוֹשָׁה עַל אַנְשֵׁי הַמִּשְׁטָרָה לְהִתְיַעֵץ עִם רַבָּנִים מוֹרֵי הוֹרָאוֹת בְּכָל הַקָּשׁוּר לְחִלּוּלֵי שַׁבָּת בְּמִסְגֶּרֶת תַּפְקִידָם בַּמִּשְׁטָרָה, שֶׁפְּעָמִים וְאֵין צֹרֶךְ בְּחִלּוּל הַשַּׁבָּת, וְאֵינוֹ בִּכְלַל סָפֵק פִּקּוּחַ נֶפֶשׁ הַדּוֹחֶה אֶת הַשַּׁבָּת. וּכְגוֹן, מִרְדָּפִים אַחֲרֵי גַּנָּבִים, לְאַחַר שֶׁבִּצְּעוּ אֶת הַגְּנֵבָה, שֶׁאֵין לְבַצְּעָם בְּשַׁבָּת, אַחַר שֶׁאֵין בַּדָּבָר כָּל חֲשָׁשׁ לְסַפֵּק נְפָשׁוֹת. אֲבָל אִם הִזְעִיקוּ אֶת הַמִּשְׁטָרָה בְּעֵת שֶׁהַגַּנָּב נִמְצָא בַּדִּירָה, וְיֵשׁ חֲשָׁשׁ שֶׁיִּפְגַּע בְּבַעֲלֵי הַדִּירָה, מֻתָּר לַשּׁוֹטְרִים לָבוֹא וּלְתוֹפְסוֹ, מֵאַחַר שֶׁהַדָּבָר גּוֹבֵל בְּפִקּוּחַ נֶפֶשׁ. [יַלְקוּט יוֹסֵף שַׁבָּת כֶּרֶךְ ד' עַמּוּד רפז].",
+        "francais": "1. 27. Il est évident qu'il incombe aux policiers le devoir sacré de consulter des rabbins décideurs halachiques pour tout ce qui concerne les profanations du Chabbat dans le cadre de leurs fonctions policières, car il arrive parfois qu'il n'y ait aucune nécessité de profaner le Chabbat, cela n'entrant pas dans la catégorie de doute de danger de mort (Safek Piku'ah Nefech) qui repousse le Chabbat. Par exemple, des poursuites contre des voleurs après qu'ils ont commis le vol ne doivent pas être effectuées pendant le Chabbat, puisqu'il n'y a dans ce cas aucune crainte de danger pour les vies humaines. Cependant, si l'on a appelé la police alors que le voleur se trouve encore dans l'appartement et qu'il existe une crainte qu'il s'en prenne aux occupants, il est permis aux policiers d'intervenir et de l'arrêter, car la situation relève du Piku'ah Nefech (sauvegarde de la vie). [Yalkout Yossef Chabbat volume 4, page 287]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "א.",
+          "hebreu_voyelles": "א.",
+          "francais_mot": "1.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "כז",
+          "hebreu_voyelles": "כז",
+          "francais_mot": "27.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "הדבר",
+          "hebreu_voyelles": "הַדָּבָר",
+          "francais_mot": "la chose",
+          "expression_contexte": "il est évident"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "פשוט",
+          "hebreu_voyelles": "פָּשׁוּט",
+          "francais_mot": "évidente",
+          "expression_contexte": "il est évident"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "שחובה",
+          "hebreu_voyelles": "שֶׁחוֹבָה",
+          "francais_mot": "qu'un devoir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "קדושה",
+          "hebreu_voyelles": "קְדוֹשָׁה",
+          "francais_mot": "sacré",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "incombe à",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "אנשי",
+          "hebreu_voyelles": "אַנְשֵׁי",
+          "francais_mot": "les hommes de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "המשטרה",
+          "hebreu_voyelles": "הַמִּשְׁטָרָה",
+          "francais_mot": "la police",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "להתייעץ",
+          "hebreu_voyelles": "לְהִתְיַעֵץ",
+          "francais_mot": "de consulter",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "עם",
+          "hebreu_voyelles": "עִם",
+          "francais_mot": "avec",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "רבנים",
+          "hebreu_voyelles": "רַבָּנִים",
+          "francais_mot": "des rabbins",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "מורי",
+          "hebreu_voyelles": "מוֹרֵי",
+          "francais_mot": "décideurs",
+          "expression_contexte": "מורי הוראות = décidant de la loi / autorités rabbiniques"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "הוראות",
+          "hebreu_voyelles": "הוֹרָאוֹת",
+          "francais_mot": "de la loi halachique",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "בכל",
+          "hebreu_voyelles": "בְּכָל",
+          "francais_mot": "dans tout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "הקשור",
+          "hebreu_voyelles": "הַקָּשׁוּר",
+          "francais_mot": "ce qui concerne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "לחילולי",
+          "hebreu_voyelles": "לְחִלּוּלֵי",
+          "francais_mot": "les profanations de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "במסגרת",
+          "hebreu_voyelles": "בְּמִסְגֶּרֶת",
+          "francais_mot": "dans le cadre de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "תפקידם",
+          "hebreu_voyelles": "תַּפְקִידָם",
+          "francais_mot": "leur fonction",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "במשטרה,",
+          "hebreu_voyelles": "בַּמִּשְׁטָרָה,",
+          "francais_mot": "dans la police,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "שפעמים",
+          "hebreu_voyelles": "שֶׁפְּעָמִים",
+          "francais_mot": "car parfois",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "et il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "צורך",
+          "hebreu_voyelles": "צֹרֶךְ",
+          "francais_mot": "nécessité",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "בחילול",
+          "hebreu_voyelles": "בְּחִלּוּל",
+          "francais_mot": "de profaner",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "השבת,",
+          "hebreu_voyelles": "הַשַּׁבָּת,",
+          "francais_mot": "le Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "ואינו",
+          "hebreu_voyelles": "וְאֵינוֹ",
+          "francais_mot": "et cela n'est pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "בכלל",
+          "hebreu_voyelles": "בִּכְלַל",
+          "francais_mot": "dans la catégorie de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "ספק",
+          "hebreu_voyelles": "סָפֵק",
+          "francais_mot": "doute de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "פיקוח",
+          "hebreu_voyelles": "פִּקּוּחַ",
+          "francais_mot": "sauvegarde de",
+          "expression_contexte": "פיקוח נפש = sauvegarde de la vie humaines"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "נפש",
+          "hebreu_voyelles": "נֶפֶשׁ",
+          "francais_mot": "la vie",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "הדוחה",
+          "hebreu_voyelles": "הַדּוֹחֶה",
+          "francais_mot": "qui repousse",
+          "expression_contexte": "",
+          "infinitif": "לִדְחוֹת = Repousser / L'emporter sur"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[l'observance du]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "השבת.",
+          "hebreu_voyelles": "הַשַּׁבָּת.",
+          "francais_mot": "Chabbat.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "וכגון,",
+          "hebreu_voyelles": "וּכְגוֹן,",
+          "francais_mot": "Comme par exemple,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "מרדפים",
+          "hebreu_voyelles": "מִרְדָּפִים",
+          "francais_mot": "des poursuites",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "אחרי",
+          "hebreu_voyelles": "אַחֲרֵי",
+          "francais_mot": "contre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "גנבים,",
+          "hebreu_voyelles": "גַּנָּבִים,",
+          "francais_mot": "des voleurs,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "לאחר",
+          "hebreu_voyelles": "לְאַחַר",
+          "francais_mot": "après",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "שביצעו",
+          "hebreu_voyelles": "שֶׁבִּצְּעוּ",
+          "francais_mot": "qu'ils ont commis",
+          "expression_contexte": "",
+          "infinitif": "לְבַצֵּעַ = Effectuer / Commettre"
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[le]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "הגניבה,",
+          "hebreu_voyelles": "הַגְּנֵבָה,",
+          "francais_mot": "vol,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "qu'il ne faut",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "לבצעם",
+          "hebreu_voyelles": "לְבַצְּעָם",
+          "francais_mot": "pas les effectuer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "בשבת,",
+          "hebreu_voyelles": "בְּשַׁבָּת,",
+          "francais_mot": "pendant le Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "אחר",
+          "hebreu_voyelles": "אַחַר",
+          "francais_mot": "puisqu'",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "il n'y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "בדבר",
+          "hebreu_voyelles": "בַּדָּבָר",
+          "francais_mot": "dans ce cas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "aucune",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "crainte",
+          "expression_contexte": ""
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "לספק",
+          "hebreu_voyelles": "לְסַפֵּק",
+          "francais_mot": "de doute pour les",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "נפשות.",
+          "hebreu_voyelles": "נְפָשׁוֹת.",
+          "francais_mot": "vies humaines.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "אבל",
+          "hebreu_voyelles": "אֲבָל",
+          "francais_mot": "Cependant,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "הזעיקו",
+          "hebreu_voyelles": "הִזְעִיקוּ",
+          "francais_mot": "l'on a appelé en urgence",
+          "expression_contexte": "",
+          "infinitif": "לְהַזְעִיק = Appeler d'urgence / Alerter"
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[la]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "המשטרה",
+          "hebreu_voyelles": "הַמִּשְׁטָרָה",
+          "francais_mot": "police",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "בעת",
+          "hebreu_voyelles": "בְּעֵת",
+          "francais_mot": "au moment où",
+          "expression_contexte": ""
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "שהגנב",
+          "hebreu_voyelles": "שֶׁהַגַּנָּב",
+          "francais_mot": "le voleur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "נמצא",
+          "hebreu_voyelles": "נִמְצָא",
+          "francais_mot": "se trouve",
+          "expression_contexte": "",
+          "infinitif": "לְהִמָּצֵא = Se trouver"
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "בדירה,",
+          "hebreu_voyelles": "בַּדִּירָה,",
+          "francais_mot": "dans l'appartement,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "ויש",
+          "hebreu_voyelles": "וְיֵשׁ",
+          "francais_mot": "et qu'il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "une crainte",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "שיפגע",
+          "hebreu_voyelles": "שֶׁיִּפְגַּע",
+          "francais_mot": "qu'il s'en prenne",
+          "expression_contexte": "",
+          "infinitif": "לִפְגֹּעַ = Toucher / Blesser / S'en prendre à"
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "בבעלי",
+          "hebreu_voyelles": "בְּבַעֲלֵי",
+          "francais_mot": "aux occupants de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "הדירה,",
+          "hebreu_voyelles": "הַדִּירָה,",
+          "francais_mot": "l'appartement,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "לשוטרים",
+          "hebreu_voyelles": "לַשּׁוֹטְרִים",
+          "francais_mot": "aux policiers",
+          "expression_contexte": ""
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "לבוא",
+          "hebreu_voyelles": "לָבוֹא",
+          "francais_mot": "d'intervenir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "ולתופסו,",
+          "hebreu_voyelles": "וּלְתוֹפְסוֹ,",
+          "francais_mot": "et de l'arrêter,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "מאחר",
+          "hebreu_voyelles": "מֵאַחַר",
+          "francais_mot": "car",
+          "expression_contexte": ""
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "שהדבר",
+          "hebreu_voyelles": "שֶׁהַדָּבָר",
+          "francais_mot": "la situation",
+          "expression_contexte": ""
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "גובל",
+          "hebreu_voyelles": "גּוֹבֵל",
+          "francais_mot": "relève",
+          "expression_contexte": "",
+          "infinitif": "לִגְבֹּל = Border / Toucher à"
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "בפיקוח",
+          "hebreu_voyelles": "בְּפִקּוּחַ",
+          "francais_mot": "du Piku'ah",
+          "expression_contexte": ""
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "נפש.",
+          "hebreu_voyelles": "נֶפֶשׁ.",
+          "francais_mot": "Nefech (sauvegarde de la vie).",
+          "expression_contexte": ""
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "[ילקוט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "יוסף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "כרך",
+          "hebreu_voyelles": "כֶּרֶךְ",
+          "francais_mot": "volume",
+          "expression_contexte": ""
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "4,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "רפז].",
+          "hebreu_voyelles": "רפז].",
+          "francais_mot": "287].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 1
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Appeler la police le Chabbat lors d'un cambriolage",
+      "siman": "330",
+      "seif": "2",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ב. כח לפיכך, גנב הפורץ לדירה, מכיון שיש חשש שיתקוף את הנמצאים בה ויבואו לידי ספק סכנה, מותר לבעל הדירה, או לשכן, להזעיק את המשטרה בטלפון, [כל שאינו יכול להבריחו מבלי להכנס לספק סכנה]. אך אם ברור לו בלי ספק שאין כל חשש שהגנב יתקוף ויסכן חיי אדם, וכגון שרואה שהגנב מריק את כל הארונות מבלי שיתחשב בנוכחתו של בעל הדירה, ואינו מאיים על בעל הבית, על זה לא נאמר דין בא במחתרת, וממילא אסור לטלפן למשטרה, גם אם יפסיד את כל ממונו, וזהו שנאמר, ובכל מאודך, אפילו נוטל את כל ממונך. ועל כל אחד לעמוד בניסיון זה, ושכרו כפול מן השמים. והכל לפי הענין. [ילקוט יוסף שבת ד' עמוד רפח].",
+        "hebreu_avec_voyelles": "ב. כֹּחַ לְפִיכָךְ, גַּנָּב הַפּוֹרֵץ לַדִּירָה, מִכֵּיוָן שֶׁיֵּשׁ חֲשָׁשׁ שֶׁיִּתְקֹף אֶת הַנִּמְצָאִים בָּהּ וְיָבוֹאוּ לִידֵי סְפֵק סַכָּנָה, מֻתָּר לְבַעַל הַדִּירָה, אוֹ לַשָּׁכֵן, לְהַזְעִיק אֶת הַמִּשְׁטָרָה בַּטֵּלֵפוֹן, [כָּל שֶׁאֵינוֹ יָכוֹל לְהַבְרִיחוֹ מִבְּלִי לְהִכָּנֵס לְסָפֵק סַכָּנָה]. אַךְ אִם בָּרוּר לוֹ בְּלִי סָפֵק שֶׁאֵין כָּל חֲשָׁשׁ שֶׁהַגַּנָּב יִתְקֹף וִיסַכֵּן חַיֵּי אָדָם, וּכְגוֹן שֶׁרוֹאֶה שֶׁהַגַּנָּב מֵרִיק אֶת כָּל הָאֲרוֹנוֹת מִבְּלִי שֶׁיִּתְחַשֵּׁב בְּנוֹכַחְתּוֹ שֶׁל בַּעַל הַדִּירָה, וְאֵינוֹ מְאַיֵּם עַל בַּעַל הַבַּיִת, עַל זֶה לֹא נֶאֱמַר דִּין בָּא בַּמַּחְתֶּרֶת, וּמִמֵּילָא אָסוּר לְטַלְפֵּן לַמִּשְׁטָרָה, גַּם אִם יַפְסִיד אֶת כָּל מָמוֹנוֹ, וְזֶהוּ שֶׁנֶּאֱמַר, וּבְכָל מְאוֹדְךָ, אֲפִלּוּ נוֹטֵל אֶת כָּל מָמוֹנְךָ. וְעַל כָּל אֶחָד לַעֲמֹד בְּנִסָּיוֹן זֶה, וּשְׂכָרוֹ כָּפוּל מִן הַשָּׁמַיִם. וְהַכֹּל לְפִי הָעִנְיָן. [יַלְקוּט יוֹסֵף שַׁבָּת ד' עַמּוּד רפח].",
+        "francais": "2. C'est pourquoi, lorsqu'un voleur s’introduit par effraction dans un appartement, puisqu'il existe une crainte qu'il n'attaque les personnes s'y trouvant et qu'elles se retrouvent en situation de danger potentiel, il est permis au propriétaire du logement, ou à un voisin, d'appeler la police par téléphone, [tant qu'il ne peut pas le faire fuir sans s'exposer lui-même à un danger potentiel]. Cependant, s'il lui est absolument clair et sans aucun doute qu'il n'y a aucune crainte que le voleur n'attaque ou ne mette en danger des vies humaines — comme lorsqu'il voit que le voleur vide tous les placards sans se soucier de la présence du propriétaire et sans menacer ce dernier —, la règle concernant « celui qui vient par effraction » (*ba bamakhteret*) ne s'applique pas à ce cas. Par conséquent, il est interdit de téléphoner à la police, même s'il doit perdre la totalité de ses biens financialisés, et c'est ce qui est dit : « Et de tout ton pouvoir » (*ouvkhol me'odekha*), c'est-à-dire même s'Il prend tout ton argent. Et chacun doit surmonter cette épreuve, et sa récompense sera doublée depuis le Ciel. Et tout dépend des circonstances. [Yalkout Yossef, Chabbat vol. 4, page 288]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ב.",
+          "hebreu_voyelles": "ב.",
+          "francais_mot": "2.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "כח",
+          "hebreu_voyelles": "כֹּחַ",
+          "francais_mot": "28.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לפיכך,",
+          "hebreu_voyelles": "לְפִיכָךְ,",
+          "francais_mot": "C'est pourquoi,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "גנב",
+          "hebreu_voyelles": "גַּנָּב",
+          "francais_mot": "un voleur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "הפורץ",
+          "hebreu_voyelles": "הַפּוֹרֵץ",
+          "francais_mot": "qui s'introduit par effraction",
+          "expression_contexte": "",
+          "infinitif": "לִפְרֹץ = S'introduire par effraction"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "לדירה,",
+          "hebreu_voyelles": "לַדִּירָה,",
+          "francais_mot": "dans un appartement,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "מכיון",
+          "hebreu_voyelles": "מִכֵּיוָן",
+          "francais_mot": "puisqu'",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "שיש",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "une crainte",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "שיתקוף",
+          "hebreu_voyelles": "שֶׁיִּתְקֹף",
+          "francais_mot": "qu'il n'attaque",
+          "expression_contexte": "",
+          "infinitif": "לִתְקֹף = Attaquer"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "les",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "הנמצאים",
+          "hebreu_voyelles": "הַנִּמְצָאִים",
+          "francais_mot": "personnes présentes",
+          "expression_contexte": "",
+          "infinitif": "לְהִמָּצֵא = Se trouver"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "בה",
+          "hebreu_voyelles": "בָּהּ",
+          "francais_mot": "y",
+          "expression_contexte": "s'y trouvant"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ויבואו",
+          "hebreu_voyelles": "וְיָבוֹאוּ",
+          "francais_mot": "et qu'elles n'arrivent",
+          "expression_contexte": "",
+          "infinitif": "לָבוֹא = Venir / Arriver"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "לידי",
+          "hebreu_voyelles": "לִידֵי",
+          "francais_mot": "à une situation de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "ספק",
+          "hebreu_voyelles": "סְפֵק",
+          "francais_mot": "doute de",
+          "expression_contexte": "danger potentiel"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "סכנה,",
+          "hebreu_voyelles": "סַכָּנָה,",
+          "francais_mot": "danger,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "לבעל",
+          "hebreu_voyelles": "לְבַעַל",
+          "francais_mot": "au propriétaire de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "הדירה,",
+          "hebreu_voyelles": "הַדִּירָה,",
+          "francais_mot": "l'appartement,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "לשכן,",
+          "hebreu_voyelles": "לַשָּׁכֵן,",
+          "francais_mot": "au voisin,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "להזעיק",
+          "hebreu_voyelles": "לְהַזְעִיק",
+          "francais_mot": "d'appeler",
+          "expression_contexte": "",
+          "infinitif": "לְהַזְעִיק = Appeler en urgence / Alerter"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "la",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "המשטרה",
+          "hebreu_voyelles": "הַמִּשְׁטָרָה",
+          "francais_mot": "police",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "בטלפון,",
+          "hebreu_voyelles": "בַּטֵּלֵפוֹן,",
+          "francais_mot": "par téléphone,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "[כל",
+          "hebreu_voyelles": "[כָּל",
+          "francais_mot": "[tant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "שאינו",
+          "hebreu_voyelles": "שֶׁאֵינוֹ",
+          "francais_mot": "qu'il ne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "יכול",
+          "hebreu_voyelles": "יָכוֹל",
+          "francais_mot": "peut pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "להבריחו",
+          "hebreu_voyelles": "לְהַבְרִיחוֹ",
+          "francais_mot": "le faire fuir",
+          "expression_contexte": "",
+          "infinitif": "לְהַבְרִיחַ = Faire fuir"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "מבלי",
+          "hebreu_voyelles": "מִבְּלִי",
+          "francais_mot": "sans",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "להכנס",
+          "hebreu_voyelles": "לְהִכָּנֵס",
+          "francais_mot": "entrer",
+          "expression_contexte": "",
+          "infinitif": "לְהִכָּנֵס = Entrer / S'engager"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "לספק",
+          "hebreu_voyelles": "לְסָפֵק",
+          "francais_mot": "dans un doute de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "סכנה].",
+          "hebreu_voyelles": "סַכָּנָה].",
+          "francais_mot": "danger].",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "אך",
+          "hebreu_voyelles": "אַךְ",
+          "francais_mot": "Cependant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "ברור",
+          "hebreu_voyelles": "בָּרוּר",
+          "francais_mot": "clair",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "à lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "בלי",
+          "hebreu_voyelles": "בְּלִי",
+          "francais_mot": "sans",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "ספק",
+          "hebreu_voyelles": "סָפֵק",
+          "francais_mot": "doute",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "qu'il n'y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "aucune",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "crainte",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "שהגנב",
+          "hebreu_voyelles": "שֶׁהַגַּנָּב",
+          "francais_mot": "que le voleur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "יתקוף",
+          "hebreu_voyelles": "יִתְקֹף",
+          "francais_mot": "n'attaque",
+          "expression_contexte": "",
+          "infinitif": "לִתְקֹף = Attaquer"
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "ויסכן",
+          "hebreu_voyelles": "וִיסַכֵּן",
+          "francais_mot": "ou ne mette en danger",
+          "expression_contexte": "",
+          "infinitif": "לְסַכֵּן = Mettre en danger"
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "חיי",
+          "hebreu_voyelles": "חַיֵּי",
+          "francais_mot": "la vie de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "אדם,",
+          "hebreu_voyelles": "אָדָם,",
+          "francais_mot": "l'homme,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "וכגון",
+          "hebreu_voyelles": "וּכְגוֹן",
+          "francais_mot": "et comme par exemple",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "שרואה",
+          "hebreu_voyelles": "שֶׁרוֹאֶה",
+          "francais_mot": "qu'il voit",
+          "expression_contexte": "",
+          "infinitif": "לִרְאוֹת = Voir"
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "שהגנב",
+          "hebreu_voyelles": "שֶׁהַגַּנָּב",
+          "francais_mot": "que le voleur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "מריק",
+          "hebreu_voyelles": "מֵרִיק",
+          "francais_mot": "vide",
+          "expression_contexte": "",
+          "infinitif": "לְהָרִיק = Vider"
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "tous",
+          "expression_contexte": ""
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "les",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "הארונות",
+          "hebreu_voyelles": "הָאֲרוֹנוֹת",
+          "francais_mot": "placards",
+          "expression_contexte": ""
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "מבלי",
+          "hebreu_voyelles": "מִבְּלִי",
+          "francais_mot": "sans",
+          "expression_contexte": ""
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "שיתחשב",
+          "hebreu_voyelles": "שֶׁיִּתְחַשֵּׁב",
+          "francais_mot": "qu'il se soucie",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְחַשֵּׁב = Se soucier de / Prendre en compte"
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "בנוכחתו",
+          "hebreu_voyelles": "בְּנוֹכַחְתּוֹ",
+          "francais_mot": "de la présence de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "du",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "בעל",
+          "hebreu_voyelles": "בַּעַל",
+          "francais_mot": "propriétaire de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "הדירה,",
+          "hebreu_voyelles": "הַדִּירָה,",
+          "francais_mot": "l'appartement,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "ואינו",
+          "hebreu_voyelles": "וְאֵינוֹ",
+          "francais_mot": "et qu'il ne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "מאיים",
+          "hebreu_voyelles": "מְאַיֵּם",
+          "francais_mot": "menace pas",
+          "expression_contexte": "",
+          "infinitif": "לְאַיֵּם = Menacer"
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "le",
+          "expression_contexte": ""
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "בעל",
+          "hebreu_voyelles": "בַּעַל",
+          "francais_mot": "propriétaire de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "הבית,",
+          "hebreu_voyelles": "הַבַּיִת,",
+          "francais_mot": "la maison,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "זה",
+          "hebreu_voyelles": "זֶה",
+          "francais_mot": "ce cas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "לא",
+          "hebreu_voyelles": "לֹא",
+          "francais_mot": "ne pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "נאמר",
+          "hebreu_voyelles": "נֶאֱמַר",
+          "francais_mot": "s'applique",
+          "expression_contexte": "",
+          "infinitif": "לְהֵאָמֵר = Être dit"
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "דין",
+          "hebreu_voyelles": "דִּין",
+          "francais_mot": "la règle de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "בא",
+          "hebreu_voyelles": "בָּא",
+          "francais_mot": "celui qui vient",
+          "expression_contexte": "",
+          "infinitif": "לָבוֹא = Venir"
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "במחתרת,",
+          "hebreu_voyelles": "בַּמַּחְתֶּרֶת,",
+          "francais_mot": "par effraction,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "וממילא",
+          "hebreu_voyelles": "וּמִמֵּילָא",
+          "francais_mot": "et par conséquent",
+          "expression_contexte": ""
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "אסור",
+          "hebreu_voyelles": "אָסוּר",
+          "francais_mot": "il est interdit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "לטלפן",
+          "hebreu_voyelles": "לְטַלְפֵּן",
+          "francais_mot": "de téléphoner",
+          "expression_contexte": "",
+          "infinitif": "לְטַלְפֵּן = Téléphoner"
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "למשטרה,",
+          "hebreu_voyelles": "לַמִּשְׁטָרָה,",
+          "francais_mot": "à la police,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "גם",
+          "hebreu_voyelles": "גַּם",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "s'il",
+          "expression_contexte": ""
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "יפסיד",
+          "hebreu_voyelles": "יַפְסִיד",
+          "francais_mot": "doit perdre",
+          "expression_contexte": "",
+          "infinitif": "לְהַפְסִיד = Perdre"
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "la totalité de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "tout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 82,
+          "hebreu_brut": "ממונו,",
+          "hebreu_voyelles": "מָמוֹנוֹ,",
+          "francais_mot": "ses biens,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 83,
+          "hebreu_brut": "וזהו",
+          "hebreu_voyelles": "וְזֶהוּ",
+          "francais_mot": "et c'est ce",
+          "expression_contexte": ""
+        },
+        {
+          "id": 84,
+          "hebreu_brut": "שנאמר,",
+          "hebreu_voyelles": "שֶׁנֶּאֱמַר,",
+          "francais_mot": "qui est dit,",
+          "expression_contexte": "",
+          "infinitif": "לְהֵאָמֵר = Être dit"
+        },
+        {
+          "id": 85,
+          "hebreu_brut": "ובכל",
+          "hebreu_voyelles": "וּבְכָל",
+          "francais_mot": "et de tout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 86,
+          "hebreu_brut": "מאודך,",
+          "hebreu_voyelles": "מְאוֹדְךָ,",
+          "francais_mot": "ton pouvoir,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 87,
+          "hebreu_brut": "אפילו",
+          "hebreu_voyelles": "אֲפִלּוּ",
+          "francais_mot": "même si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 88,
+          "hebreu_brut": "נוטל",
+          "hebreu_voyelles": "נוֹטֵל",
+          "francais_mot": "Il prend",
+          "expression_contexte": "",
+          "infinitif": "לָקַחַת = Prendre"
+        },
+        {
+          "id": 89,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "tout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 90,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "ton",
+          "expression_contexte": ""
+        },
+        {
+          "id": 91,
+          "hebreu_brut": "ממונך.",
+          "hebreu_voyelles": "מָמוֹנְךָ.",
+          "francais_mot": "argent.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 92,
+          "hebreu_brut": "ועל",
+          "hebreu_voyelles": "וְעַל",
+          "francais_mot": "Et sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 93,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "chacun",
+          "expression_contexte": ""
+        },
+        {
+          "id": 94,
+          "hebreu_brut": "אחד",
+          "hebreu_voyelles": "אֶחָד",
+          "francais_mot": "un",
+          "expression_contexte": ""
+        },
+        {
+          "id": 95,
+          "hebreu_brut": "לעמוד",
+          "hebreu_voyelles": "לַעֲמֹד",
+          "francais_mot": "de surmonter",
+          "expression_contexte": "",
+          "infinitif": "לַעֲמֹד = Surmonter / Se tenir"
+        },
+        {
+          "id": 96,
+          "hebreu_brut": "בניסיון",
+          "hebreu_voyelles": "בְּנִסָּיוֹן",
+          "francais_mot": "cette épreuve",
+          "expression_contexte": ""
+        },
+        {
+          "id": 97,
+          "hebreu_brut": "זה,",
+          "hebreu_voyelles": "זֶה,",
+          "francais_mot": "ci,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 98,
+          "hebreu_brut": "ושכרו",
+          "hebreu_voyelles": "וּשְׂכָרוֹ",
+          "francais_mot": "et sa récompense",
+          "expression_contexte": ""
+        },
+        {
+          "id": 99,
+          "hebreu_brut": "כפול",
+          "hebreu_voyelles": "כָּפוּל",
+          "francais_mot": "sera doublée",
+          "expression_contexte": ""
+        },
+        {
+          "id": 100,
+          "hebreu_brut": "מן",
+          "hebreu_voyelles": "מִן",
+          "francais_mot": "depuis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 101,
+          "hebreu_brut": "השמים.",
+          "hebreu_voyelles": "הַשָּׁמַיִם.",
+          "francais_mot": "le Ciel.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 102,
+          "hebreu_brut": "והכל",
+          "hebreu_voyelles": "וְהַכֹּל",
+          "francais_mot": "Et tout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 103,
+          "hebreu_brut": "לפי",
+          "hebreu_voyelles": "לְפִי",
+          "francais_mot": "selon",
+          "expression_contexte": ""
+        },
+        {
+          "id": 104,
+          "hebreu_brut": "הענין.",
+          "hebreu_voyelles": "הָעִנְיָן.",
+          "francais_mot": "les circonstances.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 105,
+          "hebreu_brut": "[ילקוט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 106,
+          "hebreu_brut": "יוסף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 107,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 108,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "vol. 4,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 109,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 110,
+          "hebreu_brut": "רפח].",
+          "hebreu_voyelles": "רפח].",
+          "francais_mot": "288].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 2
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Appeler la police après un cambriolage",
+      "siman": "330",
+      "seif": "3",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ג. וכן גנב שפרץ לדירה ולאחר שגנב נס על נפשו, אין להזעיק את המשטרה בשבת כדי שיתפסוהו ולהחזיר הממון, שהרי אין בכך כל חשש של פיקוח נפש. [ילקוט יוסף שבת כרך ד' עמוד רפט].",
+        "hebreu_avec_voyelles": "ג. וְכֵן גַּנָּב שֶׁפָּרַץ לַדִּירָה וּלְאַחַר שֶׁגָּנַב נָס עַל נַפְשׁוֹ, אֵין לְהַזְעִיק אֶת הַמִּשְׁטָרָה בְּשַׁבָּת כְּדֵי שֶׁיִּתְפְּסוּהוּ וּלְהַחֲזִיר הַמָּמוֹן, שֶׁהֲרֵי אֵין בְּכָךְ כָּל חֲשָׁשׁ שֶׁל פִּקּוּחַ נֶפֶשׁ. [יַלְקוּט יוֹסֵף שַׁבָּת כֶּרֶךְ ד' עַמּוּד רַפֵּט].",
+        "francais": "3. 29. De même, si un voleur s'est introduit par effraction dans un appartement et qu'après avoir volé, il s'est enfui, on ne doit pas appeler la police le Chabbat afin qu'ils l'attrapent et pour récupérer les biens, car il n'y a là aucun risque de danger de mort (Pikouah' Nefech). [Yalkout Yossef Chabbat volume 4, page 289]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ג.",
+          "hebreu_voyelles": "ג.",
+          "francais_mot": "3.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "וכן",
+          "hebreu_voyelles": "וְכֵן",
+          "francais_mot": "De même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "גנב",
+          "hebreu_voyelles": "גַּנָּב",
+          "francais_mot": "un voleur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "שפרץ",
+          "hebreu_voyelles": "שֶׁפָּרַץ",
+          "francais_mot": "qui s'est introduit par effraction",
+          "expression_contexte": "",
+          "infinitif": "לִפְרֹץ = S'introduire par effraction"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "לדירה",
+          "hebreu_voyelles": "לַדִּירָה",
+          "francais_mot": "dans l'appartement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "ולאחר",
+          "hebreu_voyelles": "וּלְאַחַר",
+          "francais_mot": "et après",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "שגנב",
+          "hebreu_voyelles": "שֶׁגָּנַב",
+          "francais_mot": "qu'il a volé",
+          "expression_contexte": "",
+          "infinitif": "לִגְנֹב = Voler"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "נס",
+          "hebreu_voyelles": "נָס",
+          "francais_mot": "s'est enfui",
+          "expression_contexte": "",
+          "infinitif": "לָנוּס = S'enfuir"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "נפשו,",
+          "hebreu_voyelles": "נַפְשׁוֹ,",
+          "francais_mot": "sa vie",
+          "expression_contexte": "נָס עַל נַפְשׁוֹ = S'enfuir pour sauver sa vie"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "on ne doit pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "להזעיק",
+          "hebreu_voyelles": "לְהַזְעִיק",
+          "francais_mot": "appeler en urgence",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[particule d'accusatif]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "המשטרה",
+          "hebreu_voyelles": "הַמִּשְׁטָרָה",
+          "francais_mot": "la police",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "le Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "afin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "שיתפסוהו",
+          "hebreu_voyelles": "שֶׁיִּתְפְּסוּהוּ",
+          "francais_mot": "qu'ils l'attrapent",
+          "expression_contexte": "",
+          "infinitif": "לִתְפֹּס = Attraper"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "ולהחזיר",
+          "hebreu_voyelles": "וּלְהַחֲזִיר",
+          "francais_mot": "et pour récupérer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "הממון,",
+          "hebreu_voyelles": "הַמָּמוֹן,",
+          "francais_mot": "les biens,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "שהרי",
+          "hebreu_voyelles": "שֶׁהֲרֵי",
+          "francais_mot": "car",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "בכך",
+          "hebreu_voyelles": "בְּכָךְ",
+          "francais_mot": "en cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "aucun",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "risque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "פיקוח",
+          "hebreu_voyelles": "פִּקּוּחַ",
+          "francais_mot": "sauvegarde de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "נפש.",
+          "hebreu_voyelles": "נֶפֶשׁ.",
+          "francais_mot": "vie.",
+          "expression_contexte": "פִּקּוּחַ נֶפֶשׁ = Danger de mort"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "[ילקוט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "יוסף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "כרך",
+          "hebreu_voyelles": "כֶּרֶךְ",
+          "francais_mot": "volume",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "4,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "רפט].",
+          "hebreu_voyelles": "רַפֵּט].",
+          "francais_mot": "289].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 3
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Cambriolage sans danger vital pendant Chabbat",
+      "siman": "330",
+      "seif": "4",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ד. ל הרואה גנב הפורץ לבנק או לחנות [סגורים] בשבת, מאחר ואין בזה שום חשש לפיקוח נפש, אסור לו להזעיק את המשטרה, אך יכול להקים קול צעקה להבריח את הגנב, אף שעל-ידי הקמת קול צעקה יש חשש שאחד מהשכנים שאינם שומרי תורה ומצוות יזעיקו את המשטרה ויגרמו לחילול שבת. [ילקוט יוסף שבת כרך ד' עמוד רפט].",
+        "hebreu_avec_voyelles": "ד. ל הָרוֹאֶה גַּנָּב הַפּוֹרֵץ לַבַּנְק אוֹ לַחֲנוּת [סְגוּרִים] בְּשַׁבָּת, מֵאַחַר וְאֵין בָּזֶה שׁוּם חֲשָׁשׁ לְפִקּוּחַ נֶפֶשׁ, אָסוּר לוֹ לְהַזְעִיק אֶת הַמִּשְׁטָרָה, אַךְ יָכוֹל לְהָקִים קוֹל צְעָקָה לְהַבְרִיחַ אֶת הַגַּנָּב, אַף שֶׁעַל-יְדֵי הֲקָמַת קוֹל צְעָקָה יֵשׁ חֲשָׁשׁ שֶׁאֶחָד מֵהַשְּׁכֵנִים שֶׁאֵינָם שׁוֹמְרֵי תּוֹרָה וּמִצְווֹת יַזְעִיקוּ אֶת הַמִּשְׁטָרָה וְיִגְרְמוּ לְחִלּוּל שַׁבָּת. [יַלְקוּט יוֹסֵף שַׁבָּת כֶּרֶךְ ד' עַמּוּד רַפֵּט].",
+        "francais": "4. 30. Celui qui voit un voleur s'introduire dans une banque ou un magasin [fermés] pendant Chabbat, étant donné qu'il n'y a là aucun risque de danger de mort (Pikouach Nefech), il lui est interdit d'appeler la police. Cependant, il peut crier pour faire fuir le voleur, même si en criant, on craint qu'un des voisins qui ne pratiquent pas la Torah et les commandements n'appelle la police et ne provoque ainsi une profanation du Chabbat. [Yalkout Yossef Chabbat, volume 4, page 289]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ד.",
+          "hebreu_voyelles": "ד.",
+          "francais_mot": "4.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "ל",
+          "hebreu_voyelles": "ל",
+          "francais_mot": "30.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "הרואה",
+          "hebreu_voyelles": "הָרוֹאֶה",
+          "francais_mot": "Celui qui voit",
+          "expression_contexte": "",
+          "infinitif": "לִרְאוֹת = Voir"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "גנב",
+          "hebreu_voyelles": "גַּנָּב",
+          "francais_mot": "un voleur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "הפורץ",
+          "hebreu_voyelles": "הַפּוֹרֵץ",
+          "francais_mot": "s'introduisant",
+          "expression_contexte": "s'introduire par effraction",
+          "infinitif": "לִפְרֹץ = S'introduire / Casser"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "לבנק",
+          "hebreu_voyelles": "לַבַּנְק",
+          "francais_mot": "dans une banque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "לחנות",
+          "hebreu_voyelles": "לַחֲנוּת",
+          "francais_mot": "dans un magasin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "[סגורים]",
+          "hebreu_voyelles": "[סְגוּרִים]",
+          "francais_mot": "[fermés]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "בשבת,",
+          "hebreu_voyelles": "בְּשַׁבָּת,",
+          "francais_mot": "pendant Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "מאחר",
+          "hebreu_voyelles": "מֵאַחַר",
+          "francais_mot": "étant donné",
+          "expression_contexte": "étant donné que"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "ואין",
+          "hebreu_voyelles": "וְאֵין",
+          "francais_mot": "qu'il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "en cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "שום",
+          "hebreu_voyelles": "שׁוּם",
+          "francais_mot": "aucun",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "risque",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "לפיקוח",
+          "hebreu_voyelles": "לְפִקּוּחַ",
+          "francais_mot": "de danger",
+          "expression_contexte": "פיקוח נפש = Danger de mort"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "נפש,",
+          "hebreu_voyelles": "נֶפֶשׁ,",
+          "francais_mot": "de mort,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "אסור",
+          "hebreu_voyelles": "אָסוּר",
+          "francais_mot": "il est interdit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "à lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "להזעיק",
+          "hebreu_voyelles": "לְהַזְעִיק",
+          "francais_mot": "d'appeler en urgence",
+          "expression_contexte": "",
+          "infinitif": "לְהַזְעִיק = Appeler en urgence / Alerter"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[Cible]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "המשטרה,",
+          "hebreu_voyelles": "הַמִּשְׁטָרָה,",
+          "francais_mot": "la police,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "אך",
+          "hebreu_voyelles": "אַךְ",
+          "francais_mot": "Cependant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "יכול",
+          "hebreu_voyelles": "יָכוֹל",
+          "francais_mot": "il peut",
+          "expression_contexte": "",
+          "infinitif": "לִהְיוֹת יָכוֹל = Pouvoir"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "להקים",
+          "hebreu_voyelles": "לְהָקִים",
+          "francais_mot": "élever",
+          "expression_contexte": "",
+          "infinitif": "לְהָקִים = Élever / Dresser"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "קול",
+          "hebreu_voyelles": "קוֹל",
+          "francais_mot": "une voix de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "צעקה",
+          "hebreu_voyelles": "צְעָקָה",
+          "francais_mot": "cri",
+          "expression_contexte": "קול צעקה = des cris"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "להבריח",
+          "hebreu_voyelles": "לְהַבְרִיחַ",
+          "francais_mot": "pour faire fuir",
+          "expression_contexte": "",
+          "infinitif": "לְהַבְרִיחַ = Faire fuir"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[Cible]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "הגנב,",
+          "hebreu_voyelles": "הַגַּנָּב,",
+          "francais_mot": "le voleur,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "אף",
+          "hebreu_voyelles": "אַף",
+          "francais_mot": "même",
+          "expression_contexte": "אף ש... = même si"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "שעל-ידי",
+          "hebreu_voyelles": "שֶׁעַל-יְדֵי",
+          "francais_mot": "si par le biais de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "הקמת",
+          "hebreu_voyelles": "הֲקָמַת",
+          "francais_mot": "l'émission de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "קול",
+          "hebreu_voyelles": "קוֹל",
+          "francais_mot": "la voix de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "צעקה",
+          "hebreu_voyelles": "צְעָקָה",
+          "francais_mot": "cri",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "une crainte",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "שאחד",
+          "hebreu_voyelles": "שֶׁאֶחָד",
+          "francais_mot": "qu'un",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "מהשכנים",
+          "hebreu_voyelles": "מֵהַשְּׁכֵנִים",
+          "francais_mot": "des voisins",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "שאינם",
+          "hebreu_voyelles": "שֶׁאֵינָם",
+          "francais_mot": "qui ne sont pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "שומרי",
+          "hebreu_voyelles": "שׁוֹמְרֵי",
+          "francais_mot": "observateurs de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "תורה",
+          "hebreu_voyelles": "תּוֹרָה",
+          "francais_mot": "la Torah",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "ומצוות",
+          "hebreu_voyelles": "וּמִצְווֹת",
+          "francais_mot": "et des commandements",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "יזעיקו",
+          "hebreu_voyelles": "יַזְעִיקוּ",
+          "francais_mot": "appelleront",
+          "expression_contexte": "",
+          "infinitif": "לְהַזְעִיק = Appeler en urgence / Alerter"
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[Cible]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "המשטרה",
+          "hebreu_voyelles": "הַמִּשְׁטָרָה",
+          "francais_mot": "la police",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "ויגרמו",
+          "hebreu_voyelles": "וְיִגְרְמוּ",
+          "francais_mot": "et causeront",
+          "expression_contexte": "",
+          "infinitif": "לִגְרֹם = Causer / Provoquer"
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "לחילול",
+          "hebreu_voyelles": "לְחִלּוּל",
+          "francais_mot": "une profanation de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "שבת.",
+          "hebreu_voyelles": "שַׁבָּת.",
+          "francais_mot": "Chabbat.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "[ילקוט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "יוסף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "כרך",
+          "hebreu_voyelles": "כֶּרֶךְ",
+          "francais_mot": "volume",
+          "expression_contexte": ""
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "4,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "רפט].",
+          "hebreu_voyelles": "רַפֵּט].",
+          "francais_mot": "289].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 4
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Police le Chabbat en cas de danger",
+      "siman": "330",
+      "seif": "5",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ה. לא במקרה של ריב בין אנשים בשבת, והריב מחריף מבלי יכולת להרגיע את הרוחות, ויש חשש לשפיכות דמים, מותר להזעיק את המשטרה. ומותר לשוטרים לחלל את השבת כדי להפריד בין הניצים. אבל אם אין חשש לפיקוח נפש, חלילה לחלל את השבת לצורך זה. [ילקוט יוסף שבת כרך ד' עמוד רפט].",
+        "hebreu_avec_voyelles": "ה. לֹא בְּמִקְרֶה שֶׁל רִיב בֵּין אֲנָשִׁים בְּשַׁבָּת, וְהָרִיב מַחֲרִיף מִבְּלִי יְכֹלֶת לְהַרְגִּיעַ אֶת הָרוּחוֹת, וְיֵשׁ חֲשָׁשׁ לִשְׁפִיכוּת דָּמִים, מֻתָּר לְהַזְעִיק אֶת הַמִּשְׁטָרָה. וּמֻתָּר לַשּׁוֹטְרִים לְחַלֵּל אֶת הַשַּׁבָּת כְּדֵי לְהַפְרִיד בֵּין הַנִּצִּים. אֲבָל אִם אֵין חֲשָׁשׁ לְפִקּוּחַ נֶפֶשׁ, חָלִילָה לְחַלֵּל אֶת הַשַּׁבָּת לְצֹרֶךְ זֶה. [יַלְקוּט יוֹסֵף שַׁבָּת כֶּרֶךְ ד' עַמּוּד רַפֵּט].",
+        "francais": "5. En cas de dispute entre des personnes pendant le Chabbat, si la dispute s'envenime sans qu'il soit possible de calmer les esprits et qu'il existe une crainte d'effusion de sang, il est permis d'appeler la police. Il est également permis aux policiers de profaner le Chabbat afin de séparer les belligérants. Mais s'il n'y a pas de crainte de danger de mort (Pikouach Nefech), à Dieu ne plaise de profaner le Chabbat pour cela. [Yalkout Yossef Chabbat, volume 4, page 289]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ה.",
+          "hebreu_voyelles": "ה.",
+          "francais_mot": "5.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "לא",
+          "hebreu_voyelles": "לֹא",
+          "francais_mot": "Non",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "במקרה",
+          "hebreu_voyelles": "בְּמִקְרֶה",
+          "francais_mot": "en cas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "ריב",
+          "hebreu_voyelles": "רִיב",
+          "francais_mot": "dispute",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "בין",
+          "hebreu_voyelles": "בֵּין",
+          "francais_mot": "entre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "אנשים",
+          "hebreu_voyelles": "אֲנָשִׁים",
+          "francais_mot": "des personnes",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "בשבת,",
+          "hebreu_voyelles": "בְּשַׁבָּת,",
+          "francais_mot": "pendant le Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "והריב",
+          "hebreu_voyelles": "וְהָרִיב",
+          "francais_mot": "et la dispute",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "מחריף",
+          "hebreu_voyelles": "מַחֲרִיף",
+          "francais_mot": "s'envenime",
+          "expression_contexte": "",
+          "infinitif": "לְהַחֲרִיף = S'envenimer"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "מבלי",
+          "hebreu_voyelles": "מִבְּלִי",
+          "francais_mot": "sans",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "יכולת",
+          "hebreu_voyelles": "יְכֹלֶת",
+          "francais_mot": "possibilité",
+          "expression_contexte": "sans qu'il soit possible"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "להרגיע",
+          "hebreu_voyelles": "לְהַרְגִּיעַ",
+          "francais_mot": "de calmer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[particule de l'accusatif]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "הרוחות,",
+          "hebreu_voyelles": "הָרוּחוֹת,",
+          "francais_mot": "les esprits,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "ויש",
+          "hebreu_voyelles": "וְיֵשׁ",
+          "francais_mot": "et il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "une crainte",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "לשפיכות",
+          "hebreu_voyelles": "לִשְׁפִיכוּת",
+          "francais_mot": "d'effusion de",
+          "expression_contexte": "לשפיכות דמים = d'effusion de sang"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "דמים,",
+          "hebreu_voyelles": "דָּמִים,",
+          "francais_mot": "sang,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "להזעיק",
+          "hebreu_voyelles": "לְהַזְעִיק",
+          "francais_mot": "d'appeler",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[particule de l'accusatif]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "המשטרה.",
+          "hebreu_voyelles": "הַמִּשְׁטָרָה.",
+          "francais_mot": "la police.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "ומותר",
+          "hebreu_voyelles": "וּמֻתָּר",
+          "francais_mot": "Et il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "לשוטרים",
+          "hebreu_voyelles": "לַשּׁוֹטְרִים",
+          "francais_mot": "aux policiers",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "לחלל",
+          "hebreu_voyelles": "לְחַלֵּל",
+          "francais_mot": "de profaner",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[particule de l'accusatif]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "השבת",
+          "hebreu_voyelles": "הַשַּׁבָּת",
+          "francais_mot": "le Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "afin de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "להפריד",
+          "hebreu_voyelles": "לְהַפְרִיד",
+          "francais_mot": "séparer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "בין",
+          "hebreu_voyelles": "בֵּין",
+          "francais_mot": "entre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "הניצים.",
+          "hebreu_voyelles": "הַנִּצִּים.",
+          "francais_mot": "les belligérants.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "אבל",
+          "hebreu_voyelles": "אֲבָל",
+          "francais_mot": "Mais",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "il n'y a pas de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "crainte de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "לפיקוח",
+          "hebreu_voyelles": "לְפִקּוּחַ",
+          "francais_mot": "danger de",
+          "expression_contexte": "פיקוח נפש = danger de mort"
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "נפש,",
+          "hebreu_voyelles": "נֶפֶשׁ,",
+          "francais_mot": "mort,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "חלילה",
+          "hebreu_voyelles": "חָלִילָה",
+          "francais_mot": "à Dieu ne plaise",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "לחלל",
+          "hebreu_voyelles": "לְחַלֵּל",
+          "francais_mot": "de profaner",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[particule de l'accusatif]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "השבת",
+          "hebreu_voyelles": "הַשַּׁבָּת",
+          "francais_mot": "le Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "לצורך",
+          "hebreu_voyelles": "לְצֹרֶךְ",
+          "francais_mot": "pour le besoin de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "זה.",
+          "hebreu_voyelles": "זֶה.",
+          "francais_mot": "cela.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "[ילקוט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "יוסף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "כרך",
+          "hebreu_voyelles": "כֶּרֶךְ",
+          "francais_mot": "volume",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "4,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "רפט].",
+          "hebreu_voyelles": "רַפֵּט].",
+          "francais_mot": "289].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 5
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Rapports de police et enregistrements pendant Chabbat",
+      "siman": "330",
+      "seif": "6",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ו. לב הדבר ברור שאין כל היתר לשוטרים לרשום בשבת פרוטוקולים ודוחו\"ת למיניהם. וכן יש להחמיר שלא לדבר כנגד מכונת הקלטה [או שהופעלה על ידי נכרי, או שהופעלה מער\"ש].",
+        "hebreu_avec_voyelles": "ו. לֵב הַדָּבָר בָּרוּר שֶׁאֵין כָּל הֶתֵּר לַשּׁוֹטְרִים לִרְשֹׁם בְּשַׁבָּת פְּרוֹטוֹקוֹלִים וְדוּחוֹ\"ת לְמִינֵיהֶם. וְכֵן יֵשׁ לְהַחֲמִיר שֶׁלֹּא לְדַבֵּר כְּנֶגֶד מְכוֹנַת הַקְלָטָה [אוֹ שֶׁהֻפְעֲלָה עַל יְדֵי נָכְרִי, אוֹ שֶׁהֻפְעֲלָה מער\"ש].",
+        "francais": "6. Il est tout à fait clair qu'il n'y a aucune permission pour les policiers d'écrire pendant Chabbat des procès-verbaux et des rapports de toutes sortes. De même, il convient d'être rigoureux et de ne pas parler devant un appareil d'enregistrement [qu'il ait été activé par un non-Juif ou qu'il ait été activé avant le Chabbat]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ו.",
+          "hebreu_voyelles": "ו.",
+          "francais_mot": "6.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "לב",
+          "hebreu_voyelles": "לֵב",
+          "francais_mot": "Le cœur",
+          "expression_contexte": "לב הדבר = L'essentiel du sujet"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "הדבר",
+          "hebreu_voyelles": "הַדָּבָר",
+          "francais_mot": "du sujet",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "ברור",
+          "hebreu_voyelles": "בָּרוּר",
+          "francais_mot": "est clair",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "qu'il n'y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "aucune",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "היתר",
+          "hebreu_voyelles": "הֶתֵּר",
+          "francais_mot": "permission",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "לשוטרים",
+          "hebreu_voyelles": "לַשּׁוֹטְרִים",
+          "francais_mot": "pour les policiers",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "לרשום",
+          "hebreu_voyelles": "לִרְשֹׁם",
+          "francais_mot": "d'écrire",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "pendant Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "פרוטוקולים",
+          "hebreu_voyelles": "פְּרוֹטוֹקוֹלִים",
+          "francais_mot": "des procès-verbaux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "ודוחו\"ת",
+          "hebreu_voyelles": "וְדוּחוֹ\"ת",
+          "francais_mot": "et des rapports",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "למיניהם.",
+          "hebreu_voyelles": "לְמִינֵיהֶם.",
+          "francais_mot": "de toutes sortes.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "וכן",
+          "hebreu_voyelles": "וְכֵן",
+          "francais_mot": "De même,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il y a lieu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "להחמיר",
+          "hebreu_voyelles": "לְהַחֲמִיר",
+          "francais_mot": "d'être rigoureux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "de ne pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "לדבר",
+          "hebreu_voyelles": "לְדַבֵּר",
+          "francais_mot": "parler",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "כנגד",
+          "hebreu_voyelles": "כְּנֶגֶד",
+          "francais_mot": "devant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "מכונת",
+          "hebreu_voyelles": "מְכוֹנַת",
+          "francais_mot": "un appareil de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "הקלטה",
+          "hebreu_voyelles": "הַקְלָטָה",
+          "francais_mot": "d'enregistrement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "[או",
+          "hebreu_voyelles": "[אוֹ",
+          "francais_mot": "[ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "שהופעלה",
+          "hebreu_voyelles": "שֶׁהֻפְעֲלָה",
+          "francais_mot": "qu'il ait été activé",
+          "expression_contexte": "",
+          "infinitif": "לְהַפְעִיל = Activer"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "par",
+          "expression_contexte": "על ידי = Par l'intermédiaire de"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "ידי",
+          "hebreu_voyelles": "יְדֵי",
+          "francais_mot": "l'intermédiaire de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "נכרי,",
+          "hebreu_voyelles": "נָכְרִי,",
+          "francais_mot": "un non-Juif,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "שהופעלה",
+          "hebreu_voyelles": "שֶׁהֻפְעֲלָה",
+          "francais_mot": "qu'il ait été activé",
+          "expression_contexte": "",
+          "infinitif": "לְהַפְעִיל = Activer"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "מער\"ש].",
+          "hebreu_voyelles": "מער\"ש].",
+          "francais_mot": "avant le Chabbat].",
+          "expression_contexte": "מער\"ש = מֵעֶרֶב שַׁבָּת (depuis la veille du Chabbat)"
+        }
+      ],
+      "_globalId": 6
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Interdiction d'enregistrer un dossier médical le Chabbat",
+      "siman": "330",
+      "seif": "7",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ז. לפיכך חולה שהוחלט לשחררו מחדר המיון של בית החולים בשבת, מלבד שאין שום היתר שיהודי יכתוב את סיבת השחרור בשבת, אלא גם אין להשתמש לצורך זה בדיבור כנגד מכונת הקלטה, ובמוצאי שבת יכתבו את הנאמר בהקלטה. [ילקוט יוסף שבת ד' עמוד רצא].",
+        "hebreu_avec_voyelles": "ז. לְפִיכָךְ חוֹלֶה שֶׁהֻחְלַט לְשַׁחְרְרוֹ מֵחֲדַר הַמִּיּוּן שֶׁל בֵּית הַחוֹלִים בְּשַׁבָּת, מִלְּבַד שֶׁאֵין שׁוּם הֶתֵּר שֶׁיְּהוּדִי יִכְתֹּב אֶת סִבַּת הַשִּׁחְרוּר בְּשַׁבָּת, אֶלָּא גַּם אֵין לְהִשְׁתַּמֵּשׁ לְצֹרֶךְ זֶה בְּדִבּוּר כְּנֶגֶד מְכוֹנַת הַקְלָטָה, וּבְמוֹצָאֵי שַׁבָּת יִכְתְּבוּ אֶת הַנֶּאֱמָר בַּהַקְלָטָה. [יַלְקוּט יוֹסֵף שַׁבָּת ד' עַמּוּד רצא].",
+        "francais": "7. 33. C'est pourquoi, concernant un malade qu'il a été décidé de libérer des urgences de l'hôpital le Chabbat, non seulement il n'y a aucune permission qu'un Juif écrive la raison de sa sortie le Chabbat, mais il est également interdit d'utiliser à cette fin un enregistreur vocal pour que ce qui a été dit enregistre soit retranscrit à la sortie du Chabbat. [Yalkout Yossef Chabbat vol. 4, page 291]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ז.",
+          "hebreu_voyelles": "ז.",
+          "francais_mot": "7.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "לפיכך",
+          "hebreu_voyelles": "לְפִיכָךְ",
+          "francais_mot": "c'est pourquoi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "חולה",
+          "hebreu_voyelles": "חוֹלֶה",
+          "francais_mot": "un malade",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "שהוחלט",
+          "hebreu_voyelles": "שֶׁהֻחְלַט",
+          "francais_mot": "qu'il a été décidé",
+          "expression_contexte": "",
+          "infinitif": "לְהַחְלִיט = Décider"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "לשחררו",
+          "hebreu_voyelles": "לְשַׁחְרְרוֹ",
+          "francais_mot": "de le libérer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "מחדר",
+          "hebreu_voyelles": "מֵחֲדַר",
+          "francais_mot": "de la salle",
+          "expression_contexte": "מחדר המיון = des urgences"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "המיון",
+          "hebreu_voyelles": "הַמִּיּוּן",
+          "francais_mot": "de tri",
+          "expression_contexte": "חדר המיון = le service des urgences"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "בית",
+          "hebreu_voyelles": "בֵּית",
+          "francais_mot": "maison de",
+          "expression_contexte": "בית החולים = l'hôpital"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "החולים",
+          "hebreu_voyelles": "הַחוֹלִים",
+          "francais_mot": "les malades",
+          "expression_contexte": "בית החולים = l'hôpital"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "בשבת,",
+          "hebreu_voyelles": "בְּשַׁבָּת,",
+          "francais_mot": "le Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "מלבד",
+          "hebreu_voyelles": "מִלְּבַד",
+          "francais_mot": "outre",
+          "expression_contexte": "מלבד ש... = non seulement"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "qu'il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "שום",
+          "hebreu_voyelles": "שׁוּם",
+          "francais_mot": "aucune",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "היתר",
+          "hebreu_voyelles": "הֶתֵּר",
+          "francais_mot": "permission",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "שיהודי",
+          "hebreu_voyelles": "שֶׁיְּהוּדִי",
+          "francais_mot": "qu'un Juif",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "יכתוב",
+          "hebreu_voyelles": "יִכְתֹּב",
+          "francais_mot": "écrive",
+          "expression_contexte": "",
+          "infinitif": "לִכְתֹּב = Écrire"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[élément introduisant le COD]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "סיבת",
+          "hebreu_voyelles": "סִבַּת",
+          "francais_mot": "la raison de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "השחרור",
+          "hebreu_voyelles": "הַשִּׁחְרוּר",
+          "francais_mot": "la sortie",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "בשבת,",
+          "hebreu_voyelles": "בְּשַׁבָּת,",
+          "francais_mot": "le Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "mais",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "גם",
+          "hebreu_voyelles": "גַּם",
+          "francais_mot": "aussi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "il n'y a pas",
+          "expression_contexte": "אין להשתמש = il est interdit d'utiliser"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "להשתמש",
+          "hebreu_voyelles": "לְהִשְׁתַּמֵּשׁ",
+          "francais_mot": "d'utiliser",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "לצורך",
+          "hebreu_voyelles": "לְצֹרֶךְ",
+          "francais_mot": "pour le besoin de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "זה",
+          "hebreu_voyelles": "זֶה",
+          "francais_mot": "cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "בדיבור",
+          "hebreu_voyelles": "בְּדִבּוּר",
+          "francais_mot": "la parole",
+          "expression_contexte": "בדיבור = en parlant"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "כנגד",
+          "hebreu_voyelles": "כְּנֶגֶד",
+          "francais_mot": "devant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "מכונת",
+          "hebreu_voyelles": "מְכוֹנַת",
+          "francais_mot": "une machine de",
+          "expression_contexte": "מכונת הקלטה = un enregistreur"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "הקלטה,",
+          "hebreu_voyelles": "הַקְלָטָה,",
+          "francais_mot": "enregistrement,",
+          "expression_contexte": "מכונת הקלטה = un enregistreur"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "ובמוצאי",
+          "hebreu_voyelles": "וּבְמוֹצָאֵי",
+          "francais_mot": "et à la sortie de",
+          "expression_contexte": "מוצאי שבת = la sortie du Chabbat"
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "יכתבו",
+          "hebreu_voyelles": "יִכְתְּבוּ",
+          "francais_mot": "ils retranscriront",
+          "expression_contexte": "",
+          "infinitif": "לִכְתֹּב = Écrire"
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[élément introduisant le COD]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "הנאמר",
+          "hebreu_voyelles": "הַנֶּאֱמָר",
+          "francais_mot": "ce qui a été dit",
+          "expression_contexte": "",
+          "infinitif": "לְהֵאָמֵר = Être dit"
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "בהקלטה.",
+          "hebreu_voyelles": "בַּהַקְלָטָה.",
+          "francais_mot": "dans l'enregistrement.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "[ילקוט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "יוסף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "vol. 4,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "רצא].",
+          "hebreu_voyelles": "רצא].",
+          "francais_mot": "291].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 7
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Enregistrement d'un témoignage criminel le Chabbat",
+      "siman": "330",
+      "seif": "8",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ח. לד כאשר יש חשש שאם לא תוקלט העדות בשבת [באופן שהטייפ מופעל מערב שבת, או ע\"י גוי], זיהוי הרוצח יישכח, יש שכתבו להקל להקליט בשבת את דברי העדות בטייפ הפועל ע\"י בטריות [לא על ידי חשמל קוי], שאין בהפעלתו אלא איסור דרבנן. [ילקוט יוסף שבת ד' עמוד רצא].",
+        "hebreu_avec_voyelles": "ח. לֵד כַּאֲשֶׁר יֵשׁ חֲשָׁשׁ שֶׁאִם לֹא תֻּקְלַט הָעֵדוּת בְּשַׁבָּת [בְּאֹפֶן שֶׁהַטֵּיְפּ מֻפְעָל מֵעֶרֶב שַׁבָּת, אוֹ ע\"י גּוֹי], זִהוּי הָרוֹצֵחַ יִשָּׁכַח, יֵשׁ שֶׁכָּתְבוּ לְהָקֵל לְהַקְלִיט בְּשַׁבָּת אֶת דִּבְרֵי הָעֵדוּת בְּטֵיְפּ הַפּוֹעֵל ע\"י בָּטֵרִיּוֹת [לֹא עַל יְדֵי חַשְׁמַל קַוֵּי], שֶׁאֵין בְּהַפְעָלָתוֹ אֶלָּא אִסּוּר דְּרַבָּנַן. [יַלְקוּט יוֹסֵף שַׁבָּת ד' עַמּוּד רצא].",
+        "francais": "8. 34. Lorsqu'il y a une crainte que si le témoignage n'est pas enregistré pendant Chabbat [de sorte que le magnétophone soit activé depuis la veille de Chabbat, ou par l'intermédiaire d'un non-Juif], l'identification du meurtrier ne soit oubliée, certains auteurs ont écrit qu'il convient de se montrer indulgent et d'enregistrer le témoignage pendant Chabbat sur un magnétophone fonctionnant sur piles [et non sur le réseau électrique], son fonctionnement ne relevant que d'une interdiction rabbinique. [Yalkout Yossef Chabbat vol. 4, page 291]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ח.",
+          "hebreu_voyelles": "ח.",
+          "francais_mot": "8.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "לד",
+          "hebreu_voyelles": "לֵד",
+          "francais_mot": "34",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "כאשר",
+          "hebreu_voyelles": "כַּאֲשֶׁר",
+          "francais_mot": "lorsqu'",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "une crainte",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "שאם",
+          "hebreu_voyelles": "שֶׁאִם",
+          "francais_mot": "que si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "לא",
+          "hebreu_voyelles": "לֹא",
+          "francais_mot": "ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "תוקלט",
+          "hebreu_voyelles": "תֻּקְלַט",
+          "francais_mot": "est enregistré",
+          "expression_contexte": "",
+          "infinitif": "לְהַקְלִיט = Enregistrer"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "העדות",
+          "hebreu_voyelles": "הָעֵדוּת",
+          "francais_mot": "le témoignage",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "pendant Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "[באופן",
+          "hebreu_voyelles": "[בְּאֹפֶן",
+          "francais_mot": "[de sorte",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "שהטייפ",
+          "hebreu_voyelles": "שֶׁהַטֵּיְפּ",
+          "francais_mot": "que le magnétophone",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "מופעל",
+          "hebreu_voyelles": "מֻפְעָל",
+          "francais_mot": "soit activé",
+          "expression_contexte": "",
+          "infinitif": "לְהַפְעִיל = Activer / Mettre en marche"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "מערב",
+          "hebreu_voyelles": "מֵעֶרֶב",
+          "francais_mot": "depuis la veille de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "שבת,",
+          "hebreu_voyelles": "שַׁבָּת,",
+          "francais_mot": "Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "ע\"י",
+          "hebreu_voyelles": "ע\"י",
+          "francais_mot": "par l'intermédiaire de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "גוי],",
+          "hebreu_voyelles": "גּוֹי],",
+          "francais_mot": "un non-Juif],",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "זיהוי",
+          "hebreu_voyelles": "זִהוּי",
+          "francais_mot": "l'identification",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "הרוצח",
+          "hebreu_voyelles": "הָרוֹצֵחַ",
+          "francais_mot": "du meurtrier",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "יישכח,",
+          "hebreu_voyelles": "יִשָּׁכַח,",
+          "francais_mot": "ne soit oubliée,",
+          "expression_contexte": "",
+          "infinitif": "לְהִשָּׁכַח = Être oublié"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "certains",
+          "expression_contexte": "יש שכתבו = certains ont écrit"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "שכתבו",
+          "hebreu_voyelles": "שֶׁכָּתְבוּ",
+          "francais_mot": "ont écrit",
+          "expression_contexte": "",
+          "infinitif": "לִכְתֹּב = Écrire"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "להקל",
+          "hebreu_voyelles": "לְהָקֵל",
+          "francais_mot": "de se montrer indulgent",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "להקליט",
+          "hebreu_voyelles": "לְהַקְלִיט",
+          "francais_mot": "et d'enregistrer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "pendant Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[marqueur d'objet]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "דברי",
+          "hebreu_voyelles": "דִּבְרֵי",
+          "francais_mot": "les propos de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "העדות",
+          "hebreu_voyelles": "הָעֵדוּת",
+          "francais_mot": "l'attestation",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "בטייפ",
+          "hebreu_voyelles": "בְּטֵיְפּ",
+          "francais_mot": "sur un magnétophone",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "הפועל",
+          "hebreu_voyelles": "הַפּוֹעֵל",
+          "francais_mot": "fonctionnant",
+          "expression_contexte": "",
+          "infinitif": "לִפְעֹל = Fonctionner / Agir"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "ע\"י",
+          "hebreu_voyelles": "ע\"י",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "בטריות",
+          "hebreu_voyelles": "בָּטֵרִיּוֹת",
+          "francais_mot": "piles",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "[לא",
+          "hebreu_voyelles": "[לֹא",
+          "francais_mot": "[et non",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "par",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "ידי",
+          "hebreu_voyelles": "יְדֵי",
+          "francais_mot": "le moyen de",
+          "expression_contexte": "על ידי = par le moyen de / sur"
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "חשמל",
+          "hebreu_voyelles": "חַשְׁמַל",
+          "francais_mot": "l'électricité",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "קוי],",
+          "hebreu_voyelles": "קַוֵּי],",
+          "francais_mot": "du secteur],",
+          "expression_contexte": "חשמל קוי = réseau électrique filaire"
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "car il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "בהפעלתו",
+          "hebreu_voyelles": "בְּהַפְעָלָתוֹ",
+          "francais_mot": "dans son activation",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "que",
+          "expression_contexte": "אין... אלא = ne... que"
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "איסור",
+          "hebreu_voyelles": "אִסּוּר",
+          "francais_mot": "une interdiction",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "דרבנן.",
+          "hebreu_voyelles": "דְּרַבָּנַן.",
+          "francais_mot": "rabbinique.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "[ילקוט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "יוסף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "vol. 4,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "רצא].",
+          "hebreu_voyelles": "רצא].",
+          "francais_mot": "291].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 8
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Prise d'empreintes et arrestations le Chabbat",
+      "siman": "330",
+      "seif": "9",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ט. לה אסור ליתן טביעת אצבעות בשבת וביום טוב, ולכן במקרה שהגנב נתפס בשבת, אין לשוטרים לחלל את השבת כדי לקחת מהגנב טביעת אצבעות. וגם כן לא יקחוהו לבית המעצר בשבת ברכב, אלא ילווהו השוטרים ברגל, על-ידי אזיקים. ושוטר שקיבל פקודה להסיע ברכב עצירים בשבת, או כל פקודה אחרת הכרוכה בחילול שבת שלא לצורך פיקוח נפש, עליו לסרב לפקודה זו, ולא לחלל את השבת שלא לצורך פיקוח נפש, ואפילו אם יפטרוהו מעבודתו. וה' הטוב ישלם שכרו. [ומי שנעצר בשבת ונתבקש על-ידי המשטרה ליתן טביעת אצבעות, עליו לסרב ויבקש לדחות הענין למוצאי שבת]. [ילקוט יוסף שבת כרך ד עמוד רפט].",
+        "hebreu_avec_voyelles": "ט. לָהּ אָסוּר לִתֵּן טְבִיעַת אֶצְבָּעוֹת בְּשַׁבָּת וּבְיוֹם טוֹב, וְלָכֵן בְּמִקְרֶה שֶׁהַגַּנָּב נִתְפַּס בְּשַׁבָּת, אֵין לַשּׁוֹטְרִים לְחַלֵּל אֶת הַשַּׁבָּת כְּדֵי לָקַחַת מֵהַגַּנָּב טְבִיעַת אֶצְבָּעוֹת. וְגַם כֵּן לֹא יִקָּחוּהוּ לְבֵית הַמַּעֲצָר בְּשַׁבָּת בְּרֶכֶב, אֶלָּא יְלַוּוּהוּ הַשּׁוֹטְרִים בָּרֶגֶל, עַל-יְדֵי אֲזִקִּים. וְשׁוֹטֵר שֶׁקִּבֵּל פְּקֻדָּה לְהַסִּיעַ בְּרֶכֶב עֲצִירִים בְּשַׁבָּת, אוֹ כָּל פְּקֻדָּה אַחֶרֶת הַכְּרוּכָה בְּחִלּוּל שַׁבָּת שֶׁלֹּא לְצֹרֶךְ פִּקּוּחַ נֶפֶשׁ, עָלָיו לְסָרֵב לִפְקֻדָּה זוֹ, וְלֹא לְחַלֵּל אֶת הַשַּׁבָּת שֶׁלֹּא לְצֹרֶךְ פִּקּוּחַ נֶפֶשׁ, וַאֲפִלּוּ אִם יְפַטְּרוּהוּ מֵעֲבוֹדָתוֹ. וָהּ' הַטּוֹב יְשַׁלֵּם שְׂכָרוֹ. [וּמִי שֶׁנֶּעֱצַר בְּשַׁבָּת וְנִתְבַּקֵּשׁ עַל-יְדֵי הַמִּשְׁטָרָה לִתֵּן טְבִיעַת אֶצְבָּעוֹת, עָלָיו לְסָרֵב וִיבַקֵּשׁ לִדְחוֹת הָעִנְיָן לְמוֹצָאֵי שַׁבָּת]. [יַלְקוּט יוֹסֵף שַׁבָּת כֶּרֶךְ ד עַמּוּד רַפֵּט].",
+        "francais": "9. Il est interdit de donner des empreintes digitales pendant le Shabbat et Yom Tov. Par conséquent, dans le cas où un voleur a été capturé le Shabbat, les policiers ne doivent pas profaner le Shabbat afin de prendre les empreintes digitales du voleur. De même, ils ne l'emmèneront pas au centre de détention le Shabbat en véhicule, mais les policiers l'accompagneront à pied, au moyen de menottes. Et un policier qui a reçu l'ordre de transporter des détenus en véhicule le Shabbat, ou toute autre instruction impliquant la profanation du Shabbat sans qu'il ne s'agisse d'un cas de danger de mort (Pikou'ah Nefesh), doit refuser cet ordre et ne pas profaner le Shabbat en l'absence de danger de mort, même si on le renvoie de son travail. Et l'Éternel, dans Sa bonté, lui en accordera le salaire. [Et celui qui est arrêté le Shabbat et à qui la police demande de donner ses empreintes digitales doit refuser et demander à reporter la procédure à la sortie du Shabbat.] [Yalkout Yossef Shabbat volume 4 page 289]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ט.",
+          "hebreu_voyelles": "ט.",
+          "francais_mot": "9.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "לה",
+          "hebreu_voyelles": "לָהּ",
+          "francais_mot": "[35]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "אסור",
+          "hebreu_voyelles": "אָסוּר",
+          "francais_mot": "il est interdit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "ליתן",
+          "hebreu_voyelles": "לִתֵּן",
+          "francais_mot": "de donner",
+          "expression_contexte": "",
+          "infinitif": "לָתֵת = Donner"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "טביעת",
+          "hebreu_voyelles": "טְבִיעַת",
+          "francais_mot": "empreintes",
+          "expression_contexte": "טְבִיעַת אֶצְבָּעוֹת = empreintes digitales"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "אצבעות",
+          "hebreu_voyelles": "אֶצְבָּעוֹת",
+          "francais_mot": "digitales",
+          "expression_contexte": "טְבִיעַת אֶצְבָּעוֹת = empreintes digitales"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "pendant le Shabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "וביום",
+          "hebreu_voyelles": "וּבְיוֹם",
+          "francais_mot": "et le jour de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "טוב,",
+          "hebreu_voyelles": "טוֹב,",
+          "francais_mot": "Fête,",
+          "expression_contexte": "יוֹם טוֹב = Yom Tov / jour de Fête"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "ולכן",
+          "hebreu_voyelles": "וְלָכֵן",
+          "francais_mot": "par conséquent",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "במקרה",
+          "hebreu_voyelles": "בְּמִקְרֶה",
+          "francais_mot": "dans le cas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "שהגנב",
+          "hebreu_voyelles": "שֶׁהַגַּנָּב",
+          "francais_mot": "où le voleur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "נתפס",
+          "hebreu_voyelles": "נִתְפַּס",
+          "francais_mot": "a été capturé",
+          "expression_contexte": "",
+          "infinitif": "לְהִתָּפֵס = Être capturé"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "בשבת,",
+          "hebreu_voyelles": "בְּשַׁבָּת,",
+          "francais_mot": "le Shabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "ils ne doivent pas",
+          "expression_contexte": "אֵין לַשּׁוֹטְרִים = les policiers ne doivent pas"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "לשוטרים",
+          "hebreu_voyelles": "לַשּׁוֹטְרִים",
+          "francais_mot": "pour les policiers",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "לחלל",
+          "hebreu_voyelles": "לְחַלֵּל",
+          "francais_mot": "profaner",
+          "expression_contexte": "",
+          "infinitif": "לְחַלֵּל = Profaner"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[objet]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "השבת",
+          "hebreu_voyelles": "הַשַּׁבָּת",
+          "francais_mot": "le Shabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "afin de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "לקחת",
+          "hebreu_voyelles": "לָקַחַת",
+          "francais_mot": "prendre",
+          "expression_contexte": "",
+          "infinitif": "לָקַחַת = Prendre"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "מהגנב",
+          "hebreu_voyelles": "מֵהַגַּנָּב",
+          "francais_mot": "du voleur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "טביעת",
+          "hebreu_voyelles": "טְבִיעַת",
+          "francais_mot": "des empreintes",
+          "expression_contexte": "טְבִיעַת אֶצְבָּעוֹת = empreintes digitales"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "אצבעות.",
+          "hebreu_voyelles": "אֶצְבָּעוֹת.",
+          "francais_mot": "digitales.",
+          "expression_contexte": "טְבִיעַת אֶצְבָּעוֹת = empreintes digitales"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "וגם",
+          "hebreu_voyelles": "וְגַם",
+          "francais_mot": "et aussi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "כן",
+          "hebreu_voyelles": "כֵּן",
+          "francais_mot": "ainsi",
+          "expression_contexte": "וְגַם כֵּן = De même"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "לא",
+          "hebreu_voyelles": "לֹא",
+          "francais_mot": "ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "יקחוהו",
+          "hebreu_voyelles": "יִקָּחוּהוּ",
+          "francais_mot": "ils l'emmèneront",
+          "expression_contexte": "",
+          "infinitif": "לָקַחַת = Prendre / Emmener"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "לבית",
+          "hebreu_voyelles": "לְבֵית",
+          "francais_mot": "à la maison de",
+          "expression_contexte": "לְבֵית הַמַּעֲצָר = au centre de détention"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "המעצר",
+          "hebreu_voyelles": "הַמַּעֲצָר",
+          "francais_mot": "l'arrestation",
+          "expression_contexte": "בֵּית הַמַּעֲצָר = centre de détention"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "le Shabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "ברכב,",
+          "hebreu_voyelles": "בְּרֶכֶב,",
+          "francais_mot": "en véhicule,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "mais",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "ילווהו",
+          "hebreu_voyelles": "יְלַוּוּהוּ",
+          "francais_mot": "l'accompagneront",
+          "expression_contexte": "",
+          "infinitif": "לְלַוּוֹת = Accompagner"
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "השוטרים",
+          "hebreu_voyelles": "הַשּׁוֹטְרִים",
+          "francais_mot": "les policiers",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "ברגל,",
+          "hebreu_voyelles": "בָּרֶגֶל,",
+          "francais_mot": "à pied,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "על-ידי",
+          "hebreu_voyelles": "עַל-יְדֵי",
+          "francais_mot": "au moyen de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "אזיקים.",
+          "hebreu_voyelles": "אֲזִקִּים.",
+          "francais_mot": "menottes.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "ושוטר",
+          "hebreu_voyelles": "וְשׁוֹטֵר",
+          "francais_mot": "Et un policier",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "שקיבל",
+          "hebreu_voyelles": "שֶׁקִּבֵּל",
+          "francais_mot": "qui a reçu",
+          "expression_contexte": "",
+          "infinitif": "לְקַבֵּל = Recevoir"
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "פקודה",
+          "hebreu_voyelles": "פְּקֻדָּה",
+          "francais_mot": "un ordre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "להסיע",
+          "hebreu_voyelles": "לְהַסִּיעַ",
+          "francais_mot": "de transporter",
+          "expression_contexte": "",
+          "infinitif": "לְהַסִּיעַ = Transporter / Conduire"
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "ברכב",
+          "hebreu_voyelles": "בְּרֶכֶב",
+          "francais_mot": "en véhicule",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "עצירים",
+          "hebreu_voyelles": "עֲצִירִים",
+          "francais_mot": "des détenus",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "בשבת,",
+          "hebreu_voyelles": "בְּשַׁבָּת,",
+          "francais_mot": "le Shabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "toute",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "פקודה",
+          "hebreu_voyelles": "פְּקֻדָּה",
+          "francais_mot": "instruction",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "אחרת",
+          "hebreu_voyelles": "אַחֶרֶת",
+          "francais_mot": "autre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "הכרוכה",
+          "hebreu_voyelles": "הַכְּרוּכָה",
+          "francais_mot": "qui implique",
+          "expression_contexte": ""
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "בחילול",
+          "hebreu_voyelles": "בְּחִלּוּל",
+          "francais_mot": "la profanation de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Shabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "qui n'est pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "לצורך",
+          "hebreu_voyelles": "לְצֹרֶךְ",
+          "francais_mot": "pour le besoin de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "פיקוח",
+          "hebreu_voyelles": "פִּקּוּחַ",
+          "francais_mot": "sauvegarde de",
+          "expression_contexte": "פִּקּוּחַ נֶפֶשׁ = danger de mort / sauvegarde de la vie"
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "נפש,",
+          "hebreu_voyelles": "נֶפֶשׁ,",
+          "francais_mot": "la vie,",
+          "expression_contexte": "פִּקּוּחַ נֶפֶשׁ = danger de mort / sauvegarde de la vie"
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "עליו",
+          "hebreu_voyelles": "עָלָיו",
+          "francais_mot": "doit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "לסרב",
+          "hebreu_voyelles": "לְסָרֵב",
+          "francais_mot": "refuser",
+          "expression_contexte": "",
+          "infinitif": "לְסָרֵב = Refuser"
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "לפקודה",
+          "hebreu_voyelles": "לִפְקֻדָּה",
+          "francais_mot": "cet ordre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "זו,",
+          "hebreu_voyelles": "זוֹ,",
+          "francais_mot": "ci,",
+          "expression_contexte": "לִפְקֻדָּה זוֹ = cet ordre"
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "ולא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "et ne pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "לחלל",
+          "hebreu_voyelles": "לְחַלֵּל",
+          "francais_mot": "profaner",
+          "expression_contexte": "",
+          "infinitif": "לְחַלֵּל = Profaner"
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[objet]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "השבת",
+          "hebreu_voyelles": "הַשַּׁבָּת",
+          "francais_mot": "le Shabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "en l'absence de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "לצורך",
+          "hebreu_voyelles": "לְצֹרֶךְ",
+          "francais_mot": "besoin de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "פיקוח",
+          "hebreu_voyelles": "פִּקּוּחַ",
+          "francais_mot": "sauvegarde de",
+          "expression_contexte": "פִּקּוּחַ נֶפֶשׁ = danger de mort / sauvegarde de la vie"
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "נפש,",
+          "hebreu_voyelles": "נֶפֶשׁ,",
+          "francais_mot": "la vie,",
+          "expression_contexte": "פִּקּוּחַ נֶפֶשׁ = danger de mort / sauvegarde de la vie"
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "ואפילו",
+          "hebreu_voyelles": "וַאֲפִלּוּ",
+          "francais_mot": "et même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "יפטרוהו",
+          "hebreu_voyelles": "יְפַטְּרוּהוּ",
+          "francais_mot": "on le renvoie",
+          "expression_contexte": "",
+          "infinitif": "לְפַטֵּר = Licencier / Renvoyer"
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "מעבודתו.",
+          "hebreu_voyelles": "מֵעֲבוֹדָתוֹ.",
+          "francais_mot": "de son travail.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "וה'",
+          "hebreu_voyelles": "וָהּ'",
+          "francais_mot": "Et l'Éternel",
+          "expression_contexte": ""
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "הטוב",
+          "hebreu_voyelles": "הַטּוֹב",
+          "francais_mot": "le bon",
+          "expression_contexte": ""
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "ישלם",
+          "hebreu_voyelles": "יְשַׁלֵּם",
+          "francais_mot": "accordera",
+          "expression_contexte": "",
+          "infinitif": "לְשַׁלֵּם = Payer / Accorder"
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "שכרו.",
+          "hebreu_voyelles": "שְׂכָרוֹ.",
+          "francais_mot": "sa récompense.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "[ומי",
+          "hebreu_voyelles": "[וּמִי",
+          "francais_mot": "[Et celui qui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "שנעצר",
+          "hebreu_voyelles": "שֶׁנֶּעֱצַר",
+          "francais_mot": "est arrêté",
+          "expression_contexte": "",
+          "infinitif": "לְהֵעָצֵר = Être arrêté"
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "le Shabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "ונתבקש",
+          "hebreu_voyelles": "וְנִתְבַּקֵּשׁ",
+          "francais_mot": "et à qui on demande",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְבַּקֵּשׁ = Être demandé"
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "על-ידי",
+          "hebreu_voyelles": "עַל-יְדֵי",
+          "francais_mot": "par",
+          "expression_contexte": ""
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "המשטרה",
+          "hebreu_voyelles": "הַמִּשְׁטָרָה",
+          "francais_mot": "la police",
+          "expression_contexte": ""
+        },
+        {
+          "id": 82,
+          "hebreu_brut": "ליתן",
+          "hebreu_voyelles": "לִתֵּן",
+          "francais_mot": "de donner",
+          "expression_contexte": "",
+          "infinitif": "לָתֵת = Donner"
+        },
+        {
+          "id": 83,
+          "hebreu_brut": "טביעת",
+          "hebreu_voyelles": "טְבִיעַת",
+          "francais_mot": "des empreintes",
+          "expression_contexte": "טְבִיעַת אֶצְבָּעוֹת = empreintes digitales"
+        },
+        {
+          "id": 84,
+          "hebreu_brut": "אצבעות,",
+          "hebreu_voyelles": "אֶצְבָּעוֹת,",
+          "francais_mot": "digitales,",
+          "expression_contexte": "טְבִיעַת אֶצְבָּעוֹת = empreintes digitales"
+        },
+        {
+          "id": 85,
+          "hebreu_brut": "עליו",
+          "hebreu_voyelles": "עָלָיו",
+          "francais_mot": "doit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 86,
+          "hebreu_brut": "לסרב",
+          "hebreu_voyelles": "לְסָרֵב",
+          "francais_mot": "refuser",
+          "expression_contexte": "",
+          "infinitif": "לְסָרֵב = Refuser"
+        },
+        {
+          "id": 87,
+          "hebreu_brut": "ויבקש",
+          "hebreu_voyelles": "וִיבַקֵּשׁ",
+          "francais_mot": "et demander",
+          "expression_contexte": "",
+          "infinitif": "לְבַקֵּשׁ = Demander"
+        },
+        {
+          "id": 88,
+          "hebreu_brut": "לדחות",
+          "hebreu_voyelles": "לִדְחוֹת",
+          "francais_mot": "de reporter",
+          "expression_contexte": "",
+          "infinitif": "לִדְחוֹת = Reporter / Repousser"
+        },
+        {
+          "id": 89,
+          "hebreu_brut": "הענין",
+          "hebreu_voyelles": "הָעִנְיָן",
+          "francais_mot": "la procédure",
+          "expression_contexte": ""
+        },
+        {
+          "id": 90,
+          "hebreu_brut": "למוצאי",
+          "hebreu_voyelles": "לְמוֹצָאֵי",
+          "francais_mot": "à la sortie du",
+          "expression_contexte": "מוֹצָאֵי שַׁבָּת = la sortie du Shabbat"
+        },
+        {
+          "id": 91,
+          "hebreu_brut": "שבת].",
+          "hebreu_voyelles": "שַׁבָּת].",
+          "francais_mot": "Shabbat].",
+          "expression_contexte": ""
+        },
+        {
+          "id": 92,
+          "hebreu_brut": "[ילקוט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 93,
+          "hebreu_brut": "יוסף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 94,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Shabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 95,
+          "hebreu_brut": "כרך",
+          "hebreu_voyelles": "כֶּרֶךְ",
+          "francais_mot": "volume",
+          "expression_contexte": ""
+        },
+        {
+          "id": 96,
+          "hebreu_brut": "ד",
+          "hebreu_voyelles": "ד",
+          "francais_mot": "4",
+          "expression_contexte": ""
+        },
+        {
+          "id": 97,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 98,
+          "hebreu_brut": "רפט].",
+          "hebreu_voyelles": "רַפֵּט].",
+          "francais_mot": "289].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 9
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Alerter la police le Chabbat si activité suspecte",
+      "siman": "330",
+      "seif": "10",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "י. לו הרואה בשבת תנועה חשודה או אנשים חשודים, וקיים חשש סביר שמחבלים נמצאים במקום, מצוה להזעיק את המשטרה כדי למנוע ספק סכנת נפשות. [ילקוט יוסף שבת ד עמוד רצא].",
+        "hebreu_avec_voyelles": "י. לוּ הָרוֹאֶה בְּשַׁבָּת תְּנוּעָה חֲשׁוּדָה אוֹ אֲנָשִׁים חֲשׁוּדִים, וְקַיָּם חֲשָׁשׁ סָבִיר שֶׁמְּחַבְּלִים נִמְצָאִים בַּמָּקוֹם, מִצְוָה לְהַזְעִיק אֶת הַמִּשְׁטָרָה כְּדֵי לִמְנֹעַ סָפֵק סַכָּנַת נְפָשׁוֹת. [יַלְקוּט יוֹסֵף שַׁבָּת ד עַמּוּד רצא].",
+        "francais": "10. Si l'on aperçoit le Chabbat un mouvement suspect ou des personnes suspectes, et qu'il existe une crainte raisonnable de la présence de terroristes sur les lieux, c'est une Mitsva d'alerter la police afin d'écarter tout risque de danger de mort. [Yalkout Yossef Chabbat vol. 4, page 291]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "י.",
+          "hebreu_voyelles": "י.",
+          "francais_mot": "10.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוּ",
+          "francais_mot": "Si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "הרואה",
+          "hebreu_voyelles": "הָרוֹאֶה",
+          "francais_mot": "celui qui voit",
+          "expression_contexte": "Si l'on aperçoit",
+          "infinitif": "לִרְאוֹת = Voir"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "le Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "תנועה",
+          "hebreu_voyelles": "תְּנוּעָה",
+          "francais_mot": "un mouvement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "חשודה",
+          "hebreu_voyelles": "חֲשׁוּדָה",
+          "francais_mot": "suspect",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "אנשים",
+          "hebreu_voyelles": "אֲנָשִׁים",
+          "francais_mot": "des personnes",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "חשודים,",
+          "hebreu_voyelles": "חֲשׁוּדִים,",
+          "francais_mot": "suspectes,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "וקיים",
+          "hebreu_voyelles": "וְקַיָּם",
+          "francais_mot": "et il existe",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "une crainte",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "סביר",
+          "hebreu_voyelles": "סָבִיר",
+          "francais_mot": "raisonnable",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "שמחבלים",
+          "hebreu_voyelles": "שֶׁמְּחַבְּלִים",
+          "francais_mot": "que des terroristes",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "נמצאים",
+          "hebreu_voyelles": "נִמְצָאִים",
+          "francais_mot": "se trouvent",
+          "expression_contexte": "la présence de",
+          "infinitif": "לְהִמָּצֵא = Se trouver / Être présent"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "במקום,",
+          "hebreu_voyelles": "בַּמָּקוֹם,",
+          "francais_mot": "sur les lieux,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "מצוה",
+          "hebreu_voyelles": "מִצְוָה",
+          "francais_mot": "c'est une Mitsva",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "להזעיק",
+          "hebreu_voyelles": "לְהַזְעִיק",
+          "francais_mot": "d'alerter",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "(COD)",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "המשטרה",
+          "hebreu_voyelles": "הַמִּשְׁטָרָה",
+          "francais_mot": "la police",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "afin de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "למנוע",
+          "hebreu_voyelles": "לִמְנֹעַ",
+          "francais_mot": "d'écarter",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "ספק",
+          "hebreu_voyelles": "סָפֵק",
+          "francais_mot": "un doute",
+          "expression_contexte": "tout risque de"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "סכנת",
+          "hebreu_voyelles": "סַכָּנַת",
+          "francais_mot": "danger de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "נפשות.",
+          "hebreu_voyelles": "נְפָשׁוֹת.",
+          "francais_mot": "vie.",
+          "expression_contexte": "danger de mort"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "[ילקוט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "יוסף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "ד",
+          "hebreu_voyelles": "ד",
+          "francais_mot": "vol. 4",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "רצא].",
+          "hebreu_voyelles": "רצא].",
+          "francais_mot": "291].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 10
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Signalement d'un objet suspect durant Chabbat",
+      "siman": "330",
+      "seif": "11",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "יא. המוצא חפץ חשוד בשבת, שיש חשש סביר שיש חומר נפץ בחפץ, צריך להזמין מיד את המשטרה, ואף שיכול לעמוד על המשמר ולהרחיק את האנשים מהמקום עד מוצאי- שבת, מכל מקום יש לחשוש שמא יש במקום עוד חפץ חשוד, כפי שקרה כן כמה פעמים, ולכן יש להזעיק את המשטרה באופן מיידי, ובפרט שמעיקר הדין אינו חייב לעמוד על מקומו במשך כל השבת ולהזהיר את הבריות לבל יתקרבו למקום הסכנה. [ילקוט יוסף שבת כרך ד' עמוד רצא].",
+        "hebreu_avec_voyelles": "יא. הַמּוֹצֵא חֵפֶץ חָשׁוּד בְּשַׁבָּת, שֶׁיֵּשׁ חֲשָׁשׁ סָבִיר שֶׁיֵּשׁ חֹמֶר נֶפֶץ בַּחֵפֶץ, צָרִיךְ לְהַזְמִין מִיָּד אֶת הַמִּשְׁטָרָה, וְאַף שֶׁיָּכוֹל לַעֲמֹד עַל הַמִּשְׁמָר וּלְהַרְחִיק אֶת הָאֲנָשִׁים מֵהַמָּקוֹם עַד מוֹצָאֵי- שַׁבָּת, מִכָּל מָקוֹם יֵשׁ לַחֲשֹׁשׁ שֶׁמָּא יֵשׁ בַּמָּקוֹם עוֹד חֵפֶץ חָשׁוּד, כְּפִי שֶׁקָּרָה כֵּן כַּמָּה פְּעָמִים, וְלָכֵן יֵשׁ לְהַזְעִיק אֶת הַמִּשְׁטָרָה בְּאֹפֶן מִיָּדִי, וּבִפְרָט שֶׁמֵּעִקַּר הַדִּין אֵינוֹ חַיָּב לַעֲמֹד עַל מְקוֹמוֹ בְּמֶשֶׁךְ כָּל הַשַּׁבָּת וּלְהַזְהִיר אֶת הַבְּרִיּוֹת לְבַל יִתְקָרְבוּ לִמְקוֹם הַסַּכָּנָה. [יַלְקוּט יוֹסֵף שַׁבָּת כֶּרֶךְ ד' עַמּוּד רצא].",
+        "francais": "11. 37. Celui qui trouve un objet suspect pendant Chabbat, lorsqu'il existe une crainte raisonnable que l'objet contienne des explosifs, doit immédiatement appeler la police. Et bien qu'il puisse monter la garde et éloigner les gens de l'endroit jusqu'à la fin du Chabbat, il faut néanmoins craindre qu'il n'y ait un autre objet suspect sur les lieux, comme cela s'est déjà produit à plusieurs reprises ; c'est pourquoi il faut alerter la police de manière immédiate. D'autant plus que, selon la stricte loi, il n'est pas tenu de rester à sa place pendant tout le Chabbat pour avertir les gens de ne pas s'approcher du lieu de danger. [Yalkout Yossef Chabbat, volume 4, page 291]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "יא.",
+          "hebreu_voyelles": "יא.",
+          "francais_mot": "11.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "המוצא",
+          "hebreu_voyelles": "הַמּוֹצֵא",
+          "francais_mot": "celui qui trouve",
+          "expression_contexte": "",
+          "infinitif": "לִמְצֹא = Trouver"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "חפץ",
+          "hebreu_voyelles": "חֵפֶץ",
+          "francais_mot": "un objet",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "חשוד",
+          "hebreu_voyelles": "חָשׁוּד",
+          "francais_mot": "suspect",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "בשבת,",
+          "hebreu_voyelles": "בְּשַׁבָּת,",
+          "francais_mot": "pendant Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "שיש",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "lorsqu'il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "une crainte",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "סביר",
+          "hebreu_voyelles": "סָבִיר",
+          "francais_mot": "raisonnable",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "שיש",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "qu'il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "חומר",
+          "hebreu_voyelles": "חֹמֶר",
+          "francais_mot": "de la matière",
+          "expression_contexte": "חֹמֶר נֶפֶץ = Explosif"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "נפץ",
+          "hebreu_voyelles": "נֶפֶץ",
+          "francais_mot": "explosive",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "בחפץ,",
+          "hebreu_voyelles": "בַּחֵפֶץ,",
+          "francais_mot": "dans l'objet,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "il doit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "להזמין",
+          "hebreu_voyelles": "לְהַזְמִין",
+          "francais_mot": "appeler",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "מיד",
+          "hebreu_voyelles": "מִיָּד",
+          "francais_mot": "immédiatement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "(COD)",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "המשטרה,",
+          "hebreu_voyelles": "הַמִּשְׁטָרָה,",
+          "francais_mot": "la police,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "ואף",
+          "hebreu_voyelles": "וְאַף",
+          "francais_mot": "et bien que",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "שיכול",
+          "hebreu_voyelles": "שֶׁיָּכוֹל",
+          "francais_mot": "qu'il puisse",
+          "expression_contexte": "",
+          "infinitif": "לָכוֹל = Pouvoir"
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "לעמוד",
+          "hebreu_voyelles": "לַעֲמֹד",
+          "francais_mot": "monter",
+          "expression_contexte": "לַעֲמֹד עַל הַמִּשְׁמָר = Monter la garde"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "המשמר",
+          "hebreu_voyelles": "הַמִּשְׁמָר",
+          "francais_mot": "la garde",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "ולהרחיק",
+          "hebreu_voyelles": "וּלְהַרְחִיק",
+          "francais_mot": "et éloigner",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "(COD)",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "האנשים",
+          "hebreu_voyelles": "הָאֲנָשִׁים",
+          "francais_mot": "les gens",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "מהמקום",
+          "hebreu_voyelles": "מֵהַמָּקוֹם",
+          "francais_mot": "de l'endroit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "עד",
+          "hebreu_voyelles": "עַד",
+          "francais_mot": "jusqu'à",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "מוצאי-",
+          "hebreu_voyelles": "מוֹצָאֵי-",
+          "francais_mot": "la fin de",
+          "expression_contexte": "מוֹצָאֵי שַׁבָּת = La fin du Chabbat"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "שבת,",
+          "hebreu_voyelles": "שַׁבָּת,",
+          "francais_mot": "Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "מכל",
+          "hebreu_voyelles": "מִכָּל",
+          "francais_mot": "de tout",
+          "expression_contexte": "מִכָּל מָקוֹם = Néanmoins"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "מקום",
+          "hebreu_voyelles": "מָקוֹם",
+          "francais_mot": "endroit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il faut",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "לחשוש",
+          "hebreu_voyelles": "לַחֲשֹׁשׁ",
+          "francais_mot": "craindre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "שמא",
+          "hebreu_voyelles": "שֶׁמָּא",
+          "francais_mot": "de peur qu'",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il n'y ait",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "במקום",
+          "hebreu_voyelles": "בַּמָּקוֹם",
+          "francais_mot": "sur les lieux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "עוד",
+          "hebreu_voyelles": "עוֹד",
+          "francais_mot": "un autre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "חפץ",
+          "hebreu_voyelles": "חֵפֶץ",
+          "francais_mot": "objet",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "חשוד,",
+          "hebreu_voyelles": "חָשׁוּד,",
+          "francais_mot": "suspect,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "כפי",
+          "hebreu_voyelles": "כְּפִי",
+          "francais_mot": "comme",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "שקרה",
+          "hebreu_voyelles": "שֶׁקָּרָה",
+          "francais_mot": "cela s'est produit",
+          "expression_contexte": "",
+          "infinitif": "לִקְרוֹת = Arriver / Se produire"
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "כן",
+          "hebreu_voyelles": "כֵּן",
+          "francais_mot": "ainsi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "כמה",
+          "hebreu_voyelles": "כַּמָּה",
+          "francais_mot": "plusieurs",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "פעמים,",
+          "hebreu_voyelles": "פְּעָמִים,",
+          "francais_mot": "reprises,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "ולכן",
+          "hebreu_voyelles": "וְלָכֵן",
+          "francais_mot": "c'est pourquoi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il faut",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "להזעיק",
+          "hebreu_voyelles": "לְהַזְעִיק",
+          "francais_mot": "alerter",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "(COD)",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "המשטרה",
+          "hebreu_voyelles": "הַמִּשְׁטָרָה",
+          "francais_mot": "la police",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "באופן",
+          "hebreu_voyelles": "בְּאֹפֶן",
+          "francais_mot": "de manière",
+          "expression_contexte": ""
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "מיידי,",
+          "hebreu_voyelles": "מִיָּדִי,",
+          "francais_mot": "immédiate,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "ובפרט",
+          "hebreu_voyelles": "וּבִפְרָט",
+          "francais_mot": "d'autant plus",
+          "expression_contexte": "וּבִפְרָט שֶׁ... = D'autant plus que..."
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "שמעיקר",
+          "hebreu_voyelles": "שֶׁמֵּעִקַּר",
+          "francais_mot": "que selon la stricte",
+          "expression_contexte": "מֵעִקַּר הַדִּין = Selon la stricte loi"
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "הדין",
+          "hebreu_voyelles": "הַדִּין",
+          "francais_mot": "loi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "אינו",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "il n'est pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "חייב",
+          "hebreu_voyelles": "חַיָּב",
+          "francais_mot": "tenu",
+          "expression_contexte": ""
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "לעמוד",
+          "hebreu_voyelles": "לַעֲמֹד",
+          "francais_mot": "de rester",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "à",
+          "expression_contexte": ""
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "מקומו",
+          "hebreu_voyelles": "מְקוֹמוֹ",
+          "francais_mot": "sa place",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "במשך",
+          "hebreu_voyelles": "בְּמֶשֶׁךְ",
+          "francais_mot": "pendant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "tout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "השבת",
+          "hebreu_voyelles": "הַשַּׁבָּת",
+          "francais_mot": "le Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "ולהזהיר",
+          "hebreu_voyelles": "וּלְהַזְהִיר",
+          "francais_mot": "pour avertir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "(COD)",
+          "expression_contexte": ""
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "הבריות",
+          "hebreu_voyelles": "הַבְּרִיּוֹת",
+          "francais_mot": "les gens",
+          "expression_contexte": ""
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "לבל",
+          "hebreu_voyelles": "לְבַל",
+          "francais_mot": "de ne pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "יתקרבו",
+          "hebreu_voyelles": "יִתְקָרְבוּ",
+          "francais_mot": "s'approcher",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְקָרֵב = S'approcher"
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "למקום",
+          "hebreu_voyelles": "לִמְקוֹם",
+          "francais_mot": "du lieu de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "הסכנה.",
+          "hebreu_voyelles": "הַסַּכָּנָה.",
+          "francais_mot": "danger.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "[ילקוט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "יוסף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "כרך",
+          "hebreu_voyelles": "כֶּרֶךְ",
+          "francais_mot": "volume",
+          "expression_contexte": ""
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "4,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "רצא].",
+          "hebreu_voyelles": "רצא].",
+          "francais_mot": "291].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 11
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Notifications de victimes et déplacements d'urgence le Chabbat",
+      "siman": "330",
+      "seif": "12",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "יב. קצין של הצבא שהתבקש על ידי השלטונות להעביר הודעות למדור נפגעים על כל מקרה של פצוע או הרוג עם קבלת ההודעה, כולל שבת, אין לו להודיע על כך בשבת. ואם הרופא אומר שעל קרובי הפצוע להופיע מיד לצורך פיקוח נפש, כגון התרמת דם וכיו\"ב, בודאי שמותר לנסוע אף ברכב שעל ידי ישראל, וכן כשהרופא אומר שיש סכנה אם לא יקיימו את דברי הפצוע המבקש שקרוביו יבואו, ורק על ידי כך יירגע ויצא מכלל סכנה, יש להתיר לנסוע, ולכתחלה יעשו כן על ידי גוי. ואם אין שם גוי, כל שיש בדבר ספק הצלת נפשות, שיוכלו להרגיעו או להשכיר עבורו טובי הרופאים, מותר לחלל שבת כדי להצילו. וכן מי שקיבל מברק בערב שבת שאביו חולה מסוכן, ורוצה לראותו ויש חשש שיכבד עליו חוליו אם לא יבא אליו, יש להתיר לו לנסוע בשבת על ידי גוי, וישתדל לעשות באופן שלא יכירוהו, שלא יצמח חשדא וחילול ה' לרואים שהוא נוסע בשבת. [ילקו\"י שבת ד' עמוד תטו].",
+        "hebreu_avec_voyelles": "יב. קָצִין שֶׁל הַצָּבָא שֶׁהִתְבַּקֵּשׁ עַל יְדֵי הַשִּׁלְטוֹנוֹת לְהַעֲבִיר הוֹדָעוֹת לִמְדוֹר נִפְגָּעִים עַל כָּל מִקְרֶה שֶׁל פָּצוּעַ אוֹ הָרוּג עִם קַבָּלַת הַהוֹדָעָה, כּוֹלֵל שַׁבָּת, אֵין לוֹ לְהוֹדִיעַ עַל כָּךְ בְּשַׁבָּת. וְאִם הָרוֹפֵא אוֹמֵר שֶׁעַל קְרוֹבֵי הַפָּצוּעַ לְהוֹפִיעַ מִיָּד לְצֹרֶךְ פִּקּוּחַ נֶפֶשׁ, כְּגוֹן הַתְרָמַת דָּם וכיו\"ב, בְּוַדַּאי שֶׁמֻּתָּר לִנְסֹעַ אַף בְּרֶכֶב שֶׁעַל יְדֵי יִשְׂרָאֵל, וְכֵן כְּשֶׁהָרוֹפֵא אוֹמֵר שֶׁיֵּשׁ סַכָּנָה אִם לֹא יְקַיְּמוּ אֶת דִּבְרֵי הַפָּצוּעַ הַמְּבַקֵּשׁ שֶׁקְּרוֹבָיו יָבוֹאוּ, וְרַק עַל יְדֵי כָּךְ יֵרָגַע וְיֵצֵא מִכְּלַל סַכָּנָה, יֵשׁ לְהַתִּיר לִנְסֹעַ, וְלִכְתַחֲלָהּ יַעֲשׂוּ כֵּן עַל יְדֵי גּוֹי. וְאִם אֵין שָׁם גּוֹי, כָּל שֶׁיֵּשׁ בִּדְבַר סָפֵק הַצָּלַת נְפָשׁוֹת, שֶׁיּוּכְלוּ לְהַרְגִּיעוֹ אוֹ לְהַשְׂכִּיר עֲבוּרוֹ טוֹבֵי הָרוֹפְאִים, מֻתָּר לְחַלֵּל שַׁבָּת כְּדֵי לְהַצִּילוֹ. וְכֵן מִי שֶׁקִּבֵּל מִבְרָק בְּעֶרֶב שַׁבָּת שֶׁאָבִיו חוֹלֶה מְסֻכָּן, וְרוֹצֶה לִרְאוֹתוֹ וְיֵשׁ חֲשָׁשׁ שֶׁיְּכַבֵּד עָלָיו חָלְיוֹ אִם לֹא יָבֹא אֵלָיו, יֵשׁ לְהַתִּיר לוֹ לִנְסֹעַ בְּשַׁבָּת עַל יְדֵי גּוֹי, וְיִשְׁתַּדֵּל לַעֲשׂוֹת בְּאֹפֶן שֶׁלֹּא יַכִּירוּהוּ, שֶׁלֹּא יִצְמַח חֲשָׁדָא וְחִלּוּל ה' לָרוֹאִים שֶׁהוּא נוֹסֵעַ בְּשַׁבָּת. [ילקו\"י שַׁבָּת ד' עַמּוּד תטו].",
+        "francais": "12. 38. Un officier de l'armée à qui les autorités ont demandé de transmettre des notifications au service des victimes pour tout cas de blessé ou de tué dès la réception du message, y compris le Chabbat, ne doit pas transmettre cette notification le Chabbat. Cependant, si le médecin affirme que les proches du blessé doivent se présenter immédiatement pour un besoin de sauvegarde de la vie humaine (Pikou'ah Nefech), comme pour un don de sang ou équivalent, il est certainement permis de voyager, même dans un véhicule conduit par un Juif. De même, lorsque le médecin indique qu'il y a un danger si l'on ne réalise pas le souhait du blessé qui demande la venue de ses proches, et que c'est seulement ainsi qu'il s'apaisera et sera hors de danger, il faut autoriser le déplacement, et a priori cela se fera par l'intermédiaire d'un non-Juif. S'il n'y a pas de non-Juif sur place, dès lors qu'il existe un doute quant au sauvetage d'une vie humaine — afin de pouvoir le calmer ou d'engager pour lui les meilleurs médecins —, il est permis de profaner le Chabbat pour le sauver. De même, celui qui a reçu un télégramme la veille de Chabbat l'informant que son père est dangereusement malade et souhaite le voir, s'il y a crainte que son état n'empire s'il ne vient pas auprès de lui, il est permis de lui autoriser à voyager le Chabbat par l'intermédiaire d'un non-Juif ; il s'efforcera d'agir de façon à ne pas être reconnu, afin de ne pas susciter de soupçon ni de profanation du Nom Divin (Hilloul Hachem) aux yeux de ceux qui le verraient voyager le Chabbat. [Yalkout Yossef Chabbat vol. 4, page 415]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "יב.",
+          "hebreu_voyelles": "יב.",
+          "francais_mot": "12.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "קצין",
+          "hebreu_voyelles": "קָצִין",
+          "francais_mot": "un officier",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "הצבא",
+          "hebreu_voyelles": "הַצָּבָא",
+          "francais_mot": "l'armée",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "שהתבקש",
+          "hebreu_voyelles": "שֶׁהִתְבַּקֵּשׁ",
+          "francais_mot": "à qui il a été demandé",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְבַּקֵּשׁ = Être demandé"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "par",
+          "expression_contexte": "על ידי"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "ידי",
+          "hebreu_voyelles": "יְדֵי",
+          "francais_mot": "l'intermédiaire de",
+          "expression_contexte": "על ידי"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "השלטונות",
+          "hebreu_voyelles": "הַשִּׁלְטוֹנוֹת",
+          "francais_mot": "les autorités",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "להעביר",
+          "hebreu_voyelles": "לְהַעֲבִיר",
+          "francais_mot": "de transmettre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "הודעות",
+          "hebreu_voyelles": "הוֹדָעוֹת",
+          "francais_mot": "des notifications",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "למדור",
+          "hebreu_voyelles": "לִמְדוֹר",
+          "francais_mot": "au service",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "נפגעים",
+          "hebreu_voyelles": "נִפְגָּעִים",
+          "francais_mot": "des victimes",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "pour",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "tout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "מקרה",
+          "hebreu_voyelles": "מִקְרֶה",
+          "francais_mot": "cas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "פצוע",
+          "hebreu_voyelles": "פָּצוּעַ",
+          "francais_mot": "blessé",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "הרוג",
+          "hebreu_voyelles": "הָרוּג",
+          "francais_mot": "tué",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "עם",
+          "hebreu_voyelles": "עִם",
+          "francais_mot": "dès",
+          "expression_contexte": "עם קבלת"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "קבלת",
+          "hebreu_voyelles": "קַבָּלַת",
+          "francais_mot": "la réception de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "ההודעה,",
+          "hebreu_voyelles": "הַהוֹדָעָה,",
+          "francais_mot": "le message,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "כולל",
+          "hebreu_voyelles": "כּוֹלֵל",
+          "francais_mot": "y compris",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "שבת,",
+          "hebreu_voyelles": "שַׁבָּת,",
+          "francais_mot": "le Chabbat,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "il ne doit pas",
+          "expression_contexte": "אין לו"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "pour lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "להודיע",
+          "hebreu_voyelles": "לְהוֹדִיעַ",
+          "francais_mot": "transmettre / informer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": "על כך"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "כך",
+          "hebreu_voyelles": "כָּךְ",
+          "francais_mot": "cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "בשבת.",
+          "hebreu_voyelles": "בְּשַׁבָּת.",
+          "francais_mot": "le Chabbat.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "ואם",
+          "hebreu_voyelles": "וְאִם",
+          "francais_mot": "et si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "הרופא",
+          "hebreu_voyelles": "הָרוֹפֵא",
+          "francais_mot": "le médecin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "אומר",
+          "hebreu_voyelles": "אוֹמֵר",
+          "francais_mot": "affirme / dit",
+          "expression_contexte": "",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "שעל",
+          "hebreu_voyelles": "שֶׁעַל",
+          "francais_mot": "que [c'est un devoir pour]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "קרובי",
+          "hebreu_voyelles": "קְרוֹבֵי",
+          "francais_mot": "les proches de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "הפצוע",
+          "hebreu_voyelles": "הַפָּצוּעַ",
+          "francais_mot": "le blessé",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "להופיע",
+          "hebreu_voyelles": "לְהוֹפִיעַ",
+          "francais_mot": "de se présenter",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "מיד",
+          "hebreu_voyelles": "מִיָּד",
+          "francais_mot": "immédiatement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "לצורך",
+          "hebreu_voyelles": "לְצֹרֶךְ",
+          "francais_mot": "pour un besoin de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "פיקוח",
+          "hebreu_voyelles": "פִּקּוּחַ",
+          "francais_mot": "la sauvegarde de",
+          "expression_contexte": "פיקוח נפש"
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "נפש,",
+          "hebreu_voyelles": "נֶפֶשׁ,",
+          "francais_mot": "la vie,",
+          "expression_contexte": "פיקוח נפש"
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "כגון",
+          "hebreu_voyelles": "כְּגוֹן",
+          "francais_mot": "comme",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "התרמת",
+          "hebreu_voyelles": "הַתְרָמַת",
+          "francais_mot": "un don de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "דם",
+          "hebreu_voyelles": "דָּם",
+          "francais_mot": "sang",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "וכיו\"ב,",
+          "hebreu_voyelles": "וכיו\"ב,",
+          "francais_mot": "et équivalent,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "בודאי",
+          "hebreu_voyelles": "בְּוַדַּאי",
+          "francais_mot": "certainement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "שמותר",
+          "hebreu_voyelles": "שֶׁמֻּתָּר",
+          "francais_mot": "qu'il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "לנסוע",
+          "hebreu_voyelles": "לִנְסֹעַ",
+          "francais_mot": "de voyager",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "אף",
+          "hebreu_voyelles": "אַף",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "ברכב",
+          "hebreu_voyelles": "בְּרֶכֶב",
+          "francais_mot": "dans un véhicule",
+          "expression_contexte": ""
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "שעל",
+          "hebreu_voyelles": "שֶׁעַל",
+          "francais_mot": "qui [est conduit] par",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "ידי",
+          "hebreu_voyelles": "יְדֵי",
+          "francais_mot": "l'intermédiaire de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "ישראל,",
+          "hebreu_voyelles": "יִשְׂרָאֵל,",
+          "francais_mot": "un Juif,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "וכן",
+          "hebreu_voyelles": "וְכֵן",
+          "francais_mot": "et de même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "כשהרופא",
+          "hebreu_voyelles": "כְּשֶׁהָרוֹפֵא",
+          "francais_mot": "lorsque le médecin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "אומר",
+          "hebreu_voyelles": "אוֹמֵר",
+          "francais_mot": "indique / dit",
+          "expression_contexte": "",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "שיש",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "qu'il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "סכנה",
+          "hebreu_voyelles": "סַכָּנָה",
+          "francais_mot": "un danger",
+          "expression_contexte": ""
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "לא",
+          "hebreu_voyelles": "לֹא",
+          "francais_mot": "ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "יקיימו",
+          "hebreu_voyelles": "יְקַיְּמוּ",
+          "francais_mot": "l'on ne réalise pas",
+          "expression_contexte": "",
+          "infinitif": "לְקַיֵּם = Réaliser / Accomplir"
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[déterminant COD]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "דברי",
+          "hebreu_voyelles": "דִּבְרֵי",
+          "francais_mot": "le souhait de / les paroles de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "הפצוע",
+          "hebreu_voyelles": "הַפָּצוּעַ",
+          "francais_mot": "le blessé",
+          "expression_contexte": ""
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "המבקש",
+          "hebreu_voyelles": "הַמְּבַקֵּשׁ",
+          "francais_mot": "qui demande",
+          "expression_contexte": "",
+          "infinitif": "לְבַקֵּשׁ = Demander"
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "שקרוביו",
+          "hebreu_voyelles": "שֶׁקְּרוֹבָיו",
+          "francais_mot": "que ses proches",
+          "expression_contexte": ""
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "יבואו,",
+          "hebreu_voyelles": "יָבוֹאוּ,",
+          "francais_mot": "viennent,",
+          "expression_contexte": "",
+          "infinitif": "לָבוֹא = Venir"
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "ורק",
+          "hebreu_voyelles": "וְרַק",
+          "francais_mot": "et seulement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "par",
+          "expression_contexte": "על ידי"
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "ידי",
+          "hebreu_voyelles": "יְדֵי",
+          "francais_mot": "l'intermédiaire de",
+          "expression_contexte": "על ידי"
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "כך",
+          "hebreu_voyelles": "כָּךְ",
+          "francais_mot": "cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "יירגע",
+          "hebreu_voyelles": "יֵרָגַע",
+          "francais_mot": "il s'apaisera",
+          "expression_contexte": "",
+          "infinitif": "לְהֵרָגַע = S'apaiser / Se calmer"
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "ויצא",
+          "hebreu_voyelles": "וְיֵצֵא",
+          "francais_mot": "et sortira",
+          "expression_contexte": "",
+          "infinitif": "לָצֵאת = Sortir"
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "מכלל",
+          "hebreu_voyelles": "מִכְּלַל",
+          "francais_mot": "de l'état de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "סכנה,",
+          "hebreu_voyelles": "סַכָּנָה,",
+          "francais_mot": "danger,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il faut",
+          "expression_contexte": "יש להתיר"
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "להתיר",
+          "hebreu_voyelles": "לְהַתִּיר",
+          "francais_mot": "autoriser",
+          "expression_contexte": ""
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "לנסוע,",
+          "hebreu_voyelles": "לִנְסֹעַ,",
+          "francais_mot": "le déplacement,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "ולכתחלה",
+          "hebreu_voyelles": "וְלִכְתַחֲלָהּ",
+          "francais_mot": "et a priori",
+          "expression_contexte": ""
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "יעשו",
+          "hebreu_voyelles": "יַעֲשׂוּ",
+          "francais_mot": "cela se fera",
+          "expression_contexte": "",
+          "infinitif": "לַעֲשׂוֹת = Faire"
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "כן",
+          "hebreu_voyelles": "כֵּן",
+          "francais_mot": "ainsi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "par",
+          "expression_contexte": "על ידי"
+        },
+        {
+          "id": 82,
+          "hebreu_brut": "ידי",
+          "hebreu_voyelles": "יְדֵי",
+          "francais_mot": "l'intermédiaire d'",
+          "expression_contexte": "על ידי"
+        },
+        {
+          "id": 83,
+          "hebreu_brut": "גוי.",
+          "hebreu_voyelles": "גּוֹי.",
+          "francais_mot": "un non-Juif.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 84,
+          "hebreu_brut": "ואם",
+          "hebreu_voyelles": "וְאִם",
+          "francais_mot": "Et s'il",
+          "expression_contexte": ""
+        },
+        {
+          "id": 85,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 86,
+          "hebreu_brut": "שם",
+          "hebreu_voyelles": "שָׁם",
+          "francais_mot": "sur place",
+          "expression_contexte": ""
+        },
+        {
+          "id": 87,
+          "hebreu_brut": "גוי,",
+          "hebreu_voyelles": "גּוֹי,",
+          "francais_mot": "de non-Juif,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 88,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "dès lors",
+          "expression_contexte": "כל שיש"
+        },
+        {
+          "id": 89,
+          "hebreu_brut": "שיש",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "qu'il existe",
+          "expression_contexte": ""
+        },
+        {
+          "id": 90,
+          "hebreu_brut": "בדבר",
+          "hebreu_voyelles": "בִּדְבַר",
+          "francais_mot": "en la matière",
+          "expression_contexte": ""
+        },
+        {
+          "id": 91,
+          "hebreu_brut": "ספק",
+          "hebreu_voyelles": "סָפֵק",
+          "francais_mot": "un doute [de]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 92,
+          "hebreu_brut": "הצלת",
+          "hebreu_voyelles": "הַצָּלַת",
+          "francais_mot": "sauvetage de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 93,
+          "hebreu_brut": "נפשות,",
+          "hebreu_voyelles": "נְפָשׁוֹת,",
+          "francais_mot": "une vie humaine,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 94,
+          "hebreu_brut": "שיוכלו",
+          "hebreu_voyelles": "שֶׁיּוּכְלוּ",
+          "francais_mot": "afin de pouvoir",
+          "expression_contexte": "",
+          "infinitif": "לִיכֹל = Pouvoir"
+        },
+        {
+          "id": 95,
+          "hebreu_brut": "להרגיעו",
+          "hebreu_voyelles": "לְהַרְגִּיעוֹ",
+          "francais_mot": "le calmer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 96,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 97,
+          "hebreu_brut": "להשכיר",
+          "hebreu_voyelles": "לְהַשְׂכִּיר",
+          "francais_mot": "d'engager",
+          "expression_contexte": ""
+        },
+        {
+          "id": 98,
+          "hebreu_brut": "עבורו",
+          "hebreu_voyelles": "עֲבוּרוֹ",
+          "francais_mot": "pour lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 99,
+          "hebreu_brut": "טובי",
+          "hebreu_voyelles": "טוֹבֵי",
+          "francais_mot": "les meilleurs",
+          "expression_contexte": ""
+        },
+        {
+          "id": 100,
+          "hebreu_brut": "הרופאים,",
+          "hebreu_voyelles": "הָרוֹפְאִים,",
+          "francais_mot": "médecins,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 101,
+          "hebreu_brut": "מותר",
+          "hebreu_voyelles": "מֻתָּר",
+          "francais_mot": "il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 102,
+          "hebreu_brut": "לחלל",
+          "hebreu_voyelles": "לְחַלֵּל",
+          "francais_mot": "de profaner",
+          "expression_contexte": ""
+        },
+        {
+          "id": 103,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 104,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "afin de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 105,
+          "hebreu_brut": "להצילו.",
+          "hebreu_voyelles": "לְהַצִּילוֹ.",
+          "francais_mot": "le sauver.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 106,
+          "hebreu_brut": "וכן",
+          "hebreu_voyelles": "וְכֵן",
+          "francais_mot": "De même,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 107,
+          "hebreu_brut": "מי",
+          "hebreu_voyelles": "מִי",
+          "francais_mot": "celui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 108,
+          "hebreu_brut": "שקיבל",
+          "hebreu_voyelles": "שֶׁקִּבֵּל",
+          "francais_mot": "qui a reçu",
+          "expression_contexte": "",
+          "infinitif": "לְקַבֵּל = Recevoir"
+        },
+        {
+          "id": 109,
+          "hebreu_brut": "מברק",
+          "hebreu_voyelles": "מִבְרָק",
+          "francais_mot": "un télégramme",
+          "expression_contexte": ""
+        },
+        {
+          "id": 110,
+          "hebreu_brut": "בערב",
+          "hebreu_voyelles": "בְּעֶרֶב",
+          "francais_mot": "la veille de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 111,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 112,
+          "hebreu_brut": "שאביו",
+          "hebreu_voyelles": "שֶׁאָבִיו",
+          "francais_mot": "[l'informant] que son père",
+          "expression_contexte": ""
+        },
+        {
+          "id": 113,
+          "hebreu_brut": "חולה",
+          "hebreu_voyelles": "חוֹלֶה",
+          "francais_mot": "est malade",
+          "expression_contexte": ""
+        },
+        {
+          "id": 114,
+          "hebreu_brut": "מסוכן,",
+          "hebreu_voyelles": "מְסֻכָּן,",
+          "francais_mot": "dangerousement,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 115,
+          "hebreu_brut": "ורוצה",
+          "hebreu_voyelles": "וְרוֹצֶה",
+          "francais_mot": "et souhaite",
+          "expression_contexte": "",
+          "infinitif": "לִרְצוֹת = Vouloir"
+        },
+        {
+          "id": 116,
+          "hebreu_brut": "לראותו",
+          "hebreu_voyelles": "לִרְאוֹתוֹ",
+          "francais_mot": "le voir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 117,
+          "hebreu_brut": "ויש",
+          "hebreu_voyelles": "וְיֵשׁ",
+          "francais_mot": "et s'il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 118,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "une crainte",
+          "expression_contexte": ""
+        },
+        {
+          "id": 119,
+          "hebreu_brut": "שיכבד",
+          "hebreu_voyelles": "שֶׁיְּכַבֵּד",
+          "francais_mot": "que n'empire",
+          "expression_contexte": "",
+          "infinitif": "לִכְבֹּד = S'alourdir / Empirer"
+        },
+        {
+          "id": 120,
+          "hebreu_brut": "עליו",
+          "hebreu_voyelles": "עָלָיו",
+          "francais_mot": "sur lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 121,
+          "hebreu_brut": "חוליו",
+          "hebreu_voyelles": "חָלְיוֹ",
+          "francais_mot": "son état / sa maladie",
+          "expression_contexte": ""
+        },
+        {
+          "id": 122,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "s'il",
+          "expression_contexte": ""
+        },
+        {
+          "id": 123,
+          "hebreu_brut": "לא",
+          "hebreu_voyelles": "לֹא",
+          "francais_mot": "ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 124,
+          "hebreu_brut": "יבא",
+          "hebreu_voyelles": "יָבֹא",
+          "francais_mot": "vient",
+          "expression_contexte": "",
+          "infinitif": "לָבוֹא = Venir"
+        },
+        {
+          "id": 125,
+          "hebreu_brut": "אליו,",
+          "hebreu_voyelles": "אֵלָיו,",
+          "francais_mot": "auprès de lui,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 126,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il est",
+          "expression_contexte": "יש להתיר"
+        },
+        {
+          "id": 127,
+          "hebreu_brut": "להתיר",
+          "hebreu_voyelles": "לְהַתִּיר",
+          "francais_mot": "permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 128,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "de lui autoriser",
+          "expression_contexte": ""
+        },
+        {
+          "id": 129,
+          "hebreu_brut": "לנסוע",
+          "hebreu_voyelles": "לִנְסֹעַ",
+          "francais_mot": "à voyager",
+          "expression_contexte": ""
+        },
+        {
+          "id": 130,
+          "hebreu_brut": "בשבת",
+          "hebreu_voyelles": "בְּשַׁבָּת",
+          "francais_mot": "le Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 131,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "par",
+          "expression_contexte": "על ידי"
+        },
+        {
+          "id": 132,
+          "hebreu_brut": "ידי",
+          "hebreu_voyelles": "יְדֵי",
+          "francais_mot": "l'intermédiaire d'",
+          "expression_contexte": "על ידי"
+        },
+        {
+          "id": 133,
+          "hebreu_brut": "גוי,",
+          "hebreu_voyelles": "גּוֹי,",
+          "francais_mot": "un non-Juif ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 134,
+          "hebreu_brut": "וישתדל",
+          "hebreu_voyelles": "וְיִשְׁתַּדֵּל",
+          "francais_mot": "et il s'efforcera",
+          "expression_contexte": "",
+          "infinitif": "לְהִשְׁתַּדֵּל = S'efforcer"
+        },
+        {
+          "id": 135,
+          "hebreu_brut": "לעשות",
+          "hebreu_voyelles": "לַעֲשׂוֹת",
+          "francais_mot": "d'agir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 136,
+          "hebreu_brut": "באופן",
+          "hebreu_voyelles": "בְּאֹפֶן",
+          "francais_mot": "de façon",
+          "expression_contexte": ""
+        },
+        {
+          "id": 137,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "à ne pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 138,
+          "hebreu_brut": "יכירוהו,",
+          "hebreu_voyelles": "יַכִּירוּהוּ,",
+          "francais_mot": "être reconnu,",
+          "expression_contexte": "",
+          "infinitif": "לְהַכִּיר = Reconnaître"
+        },
+        {
+          "id": 139,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "afin de ne pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 140,
+          "hebreu_brut": "יצמח",
+          "hebreu_voyelles": "יִצְמַח",
+          "francais_mot": "susciter",
+          "expression_contexte": "",
+          "infinitif": "לִצְמֹחַ = Naître / Surgir"
+        },
+        {
+          "id": 141,
+          "hebreu_brut": "חשדא",
+          "hebreu_voyelles": "חֲשָׁדָא",
+          "francais_mot": "de soupçon",
+          "expression_contexte": ""
+        },
+        {
+          "id": 142,
+          "hebreu_brut": "וחילול",
+          "hebreu_voyelles": "וְחִלּוּל",
+          "francais_mot": "ni profanation de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 143,
+          "hebreu_brut": "ה'",
+          "hebreu_voyelles": "ה'",
+          "francais_mot": "le Nom Divin",
+          "expression_contexte": "חילול ה'"
+        },
+        {
+          "id": 144,
+          "hebreu_brut": "לרואים",
+          "hebreu_voyelles": "לָרוֹאִים",
+          "francais_mot": "aux yeux de ceux qui voient",
+          "expression_contexte": "",
+          "infinitif": "לִרְאוֹת = Voir"
+        },
+        {
+          "id": 145,
+          "hebreu_brut": "שהוא",
+          "hebreu_voyelles": "שֶׁהוּא",
+          "francais_mot": "qu'il",
+          "expression_contexte": ""
+        },
+        {
+          "id": 146,
+          "hebreu_brut": "נוסע",
+          "hebreu_voyelles": "נוֹסֵעַ",
+          "francais_mot": "voyage",
+          "expression_contexte": "",
+          "infinitif": "לִנְסֹעַ = Voyager"
+        },
+        {
+          "id": 147,
+          "hebreu_brut": "בשבת.",
+          "hebreu_voyelles": "בְּשַׁבָּת.",
+          "francais_mot": "le Chabbat.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 148,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 149,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 150,
+          "hebreu_brut": "ד'",
+          "hebreu_voyelles": "ד'",
+          "francais_mot": "vol. 4,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 151,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 152,
+          "hebreu_brut": "תטו].",
+          "hebreu_voyelles": "תטו].",
+          "francais_mot": "415].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 12
+    }
+  ]
+}

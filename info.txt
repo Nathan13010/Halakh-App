@@ -84,7 +84,7 @@ node pipeline/queue.js --from 10 --to 50
 node pipeline/queue.js --from 1 --to 694
 
 # Pour traiter tout un dossier
-node pipeline/queue.js --categorie "הלכות ציצית"
+node pipeline/queue.js --categorie "הלכות תפילין"
 
 ///
 

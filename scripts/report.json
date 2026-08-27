@@ -1,0 +1,17 @@
+{
+  "total_kp": 76,
+  "used_kp": 76,
+  "level_1_used": 11,
+  "level_2_used": 23,
+  "generated_activities": 96,
+  "quiz_count": 10,
+  "tf_count": 10,
+  "card_count": 76,
+  "refused_activities": 132,
+  "refusal_reasons": {
+    "Pas de distracteur sûr (common_trap absent)": 66,
+    "Pas de distracteur sûr pour générer une affirmation fausse": 66
+  },
+  "no_source_activities": 0,
+  "invalid_activities": 0
+}

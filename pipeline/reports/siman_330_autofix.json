@@ -1,0 +1,37 @@
+{
+  "siman": 330,
+  "timestamp": "2026-08-24T16:41:43.749Z",
+  "dryRun": false,
+  "totalFixes": 4,
+  "seifimFixed": 4,
+  "details": [
+    {
+      "seif": "3",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"כט\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "7",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"לג\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "11",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"לז\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "12",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"לח\"). Réalignement..."
+      ]
+    }
+  ]
+}

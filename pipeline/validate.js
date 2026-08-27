@@ -583,10 +583,15 @@ async function main() {
   let files = [];
   if (specificFile) {
     if (!fs.existsSync(specificFile)) {
-      console.error(`❌ Fichier introuvable : ${specificFile}`);
+      console.error(`❌ Fichier ou dossier introuvable : ${specificFile}`);
       process.exit(1);
     }
-    files = [specificFile];
+    if (fs.statSync(specificFile).isDirectory()) {
+      const catFiles = fs.readdirSync(specificFile).filter(f => /^siman_\d+\.json$/.test(f));
+      files.push(...catFiles.map(f => path.join(specificFile, f)));
+    } else {
+      files = [specificFile];
+    }
   } else if (all) {
     const rootItems = fs.readdirSync(DATA_DIR);
     for (const item of rootItems) {
