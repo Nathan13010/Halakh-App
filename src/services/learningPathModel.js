@@ -1,4 +1,8 @@
-import { isObjectivelyAssessable, validateActivity } from "./activityValidator.js";
+import {
+  getBeginnerLearningContent,
+  removeLearningJargon
+} from "../data/beginnerLearningContent.js";
+import { getGlossaryForText } from "../data/learningGlossary.js";
 
 export const LEARNING_CATEGORY = Object.freeze({
   id: "morning_conduct",
@@ -9,18 +13,16 @@ export const LEARNING_CATEGORY = Object.freeze({
 
 export const LESSON_SIZE = 3;
 
-// Le JSON du Siman 1 suit l'ordre d'extraction éditoriale. Pour un débutant,
-// le parcours commence plutôt par les gestes réellement vécus au réveil.
 const SIMAN_1_PEDAGOGICAL_START = Object.freeze([
-  "s1-kp-004", // Se lever avec force
-  "s1-kp-016", // Ne pas se lever brusquement
-  "s1-kp-018", // Modé Ani
-  "s1-kp-019", // Modé Ani avant Nétilat Yadaïm
-  "s1-kp-020", // Consacrer le début de la journée
-  "s1-kp-021", // Éducation des enfants
-  "s1-kp-008", // Se préparer à la prière
-  "s1-kp-005", // Horaires du Chema et de la prière
-  "s1-kp-006", // Définition de la Zrizout, après sa mise en contexte
+  "s1-kp-004",
+  "s1-kp-016",
+  "s1-kp-018",
+  "s1-kp-019",
+  "s1-kp-020",
+  "s1-kp-021",
+  "s1-kp-008",
+  "s1-kp-005",
+  "s1-kp-006",
   "s1-kp-007",
   "s1-kp-009",
   "s1-kp-010",
@@ -62,7 +64,7 @@ const cleanText = (value) => String(value || "")
   .replace(/\s+/g, " ")
   .trim();
 
-const getSourceSeif = (kp) => String(
+const getSourceParagraph = (kp) => String(
   kp?.sources?.[0]?.seif
   || kp?.source_seif
   || Object.values(kp?.pedagogy?.activities || {})
@@ -70,12 +72,13 @@ const getSourceSeif = (kp) => String(
     .find(Boolean)?.source_seif
   || ""
 );
-const getSeifNumber = (kp) => {
-  const match = getSourceSeif(kp).match(/\d+/);
+
+const getParagraphNumber = (kp) => {
+  const match = getSourceParagraph(kp).match(/\d+/);
   return match ? Number(match[0]) : Number.MAX_SAFE_INTEGER;
 };
 
-const sentenceExcerpt = (value, maxLength = 330) => {
+const sentenceExcerpt = (value, maxLength = 360) => {
   const text = cleanText(value);
   if (text.length <= maxLength) return text;
 
@@ -94,30 +97,27 @@ const deterministicRotate = (values, seed) => {
   return [...values.slice(offset), ...values.slice(0, offset)];
 };
 
-const getEditorialObjectiveActivity = (kp) => {
-  const activities = kp?.pedagogy?.activities || {};
-  const orderedTypes = ["multiple_choice", "true_false", "practical_situation"];
-
-  for (const type of orderedTypes) {
-    const rawActivities = activities[type];
-    if (!rawActivities) continue;
-
-    for (const rawActivity of Array.isArray(rawActivities) ? rawActivities : [rawActivities]) {
-      const activity = { ...rawActivity, type };
-      if (validateActivity(activity, kp).isValid && isObjectivelyAssessable(activity)) {
-        return activity;
-      }
-    }
-  }
-
-  return null;
+const getSourceNumbers = (kp) => {
+  const sourceValues = (kp?.sources || []).map((source) => source?.seif);
+  if (sourceValues.length === 0) sourceValues.push(getSourceParagraph(kp));
+  return [...new Set(sourceValues.flatMap((value) => String(value || "").match(/\d+/g) || []))];
 };
+
+const buildSourceIndex = (sourceData) => new Map((sourceData?.halakhot || []).map((halakha) => [
+  String(halakha.seif),
+  {
+    siman: sourceData?._meta?.siman,
+    paragraph: String(halakha.seif),
+    title: halakha.titre_seif || halakha.sujet_fr || `Paragraphe ${halakha.seif}`,
+    french: String(halakha.texte_integral?.francais || "").trim()
+  }
+]));
 
 export const getOrderedKnowledgePoints = (knowledgeData, simanId) => {
   const points = [...(knowledgeData?.knowledge_points || [])];
   const originalIndex = new Map(points.map((kp, index) => [kp.id, index]));
   const bySource = points.sort((left, right) => (
-    getSeifNumber(left) - getSeifNumber(right)
+    getParagraphNumber(left) - getParagraphNumber(right)
     || originalIndex.get(left.id) - originalIndex.get(right.id)
   ));
 
@@ -129,122 +129,141 @@ export const getOrderedKnowledgePoints = (knowledgeData, simanId) => {
   return [...preferred, ...bySource.filter((kp) => !preferredIds.has(kp.id))];
 };
 
-export const createLearningItem = (kp) => {
-  const sourceText = cleanText(kp?.rule || kp?.pedagogy?.simple_explanation);
-  const simpleText = cleanText(kp?.pedagogy?.simple_explanation || kp?.rule);
-  const coreText = sentenceExcerpt(simpleText || sourceText);
-  const explanation = cleanText(kp?.explanation);
+export const createLearningItem = (kp, sourceIndex = new Map()) => {
+  const rawRule = cleanText(kp?.rule || kp?.pedagogy?.simple_explanation);
+  const beginnerContent = getBeginnerLearningContent(kp, rawRule);
+  const references = getSourceNumbers(kp).map((number) => sourceIndex.get(number)).filter(Boolean);
 
   return {
     id: kp.id,
-    title: kp.title,
-    sourceSeif: getSourceSeif(kp),
-    coreText,
-    explanation: explanation && explanation !== coreText ? explanation : null,
-    fullText: sourceText && sourceText !== coreText ? sourceText : null,
+    title: beginnerContent.title || removeLearningJargon(kp.title),
+    sourceParagraph: getSourceParagraph(kp),
+    coreText: sentenceExcerpt(beginnerContent.coreText),
+    explanation: beginnerContent.explanation || null,
+    references,
+    vocabulary: [],
     halakhaStatus: kp.halakha_status || "unclassified",
     needsEditorialReview: kp?.pedagogy?.human_review_required === true
   };
 };
 
-const createRecognitionQuestion = (kp, optionPool, scopeId) => {
-  const item = createLearningItem(kp);
-  const optionTitles = [...new Set(optionPool.map((candidate) => candidate.title))];
-  if (!optionTitles.includes(kp.title)) optionTitles.push(kp.title);
-  const options = deterministicRotate(optionTitles.slice(0, 4), `${scopeId}-${kp.id}`);
-
-  return {
-    id: `${scopeId}-${kp.id}-recognition`,
-    knowledgePointId: kp.id,
-    sourceSeif: item.sourceSeif,
-    kind: "choice",
-    eyebrow: "Relie la règle à son thème",
-    prompt: "À quelle notion correspond ce rappel ?",
-    context: item.coreText,
-    options,
-    correctAnswer: kp.title,
-    explanation: `Cette règle appartient à la notion « ${kp.title} » (סעיף ${item.sourceSeif}).`,
-    provenance: "source_recognition"
-  };
+const scheduleVocabulary = (items) => {
+  const appearances = new Map();
+  return items.map((item) => {
+    const vocabulary = getGlossaryForText(`${item.title} ${item.coreText} ${item.explanation || ""}`)
+      .filter((entry) => (appearances.get(entry.term) || 0) < 2)
+      .map((entry) => {
+        const exposure = (appearances.get(entry.term) || 0) + 1;
+        appearances.set(entry.term, exposure);
+        return { ...entry, exposure };
+      });
+    return { ...item, vocabulary };
+  });
 };
 
-const normalizeEditorialQuestion = (kp, activity, scopeId) => {
-  const common = {
-    id: `${scopeId}-${activity.activity_id}`,
-    activityId: activity.activity_id,
-    knowledgePointId: kp.id,
-    sourceSeif: activity.source_seif,
-    explanation: cleanText(activity.explanation) || createLearningItem(kp).coreText,
-    provenance: "validated_editorial_activity",
-    conditions: cleanText(activity.conditions) || null
-  };
+const makeOptionPool = (allItems, lessonItems) => {
+  const pool = [...lessonItems];
+  const usedIds = new Set(pool.map((item) => item.id));
 
-  if (activity.type === "true_false") {
-    return {
-      ...common,
-      kind: "true_false",
-      eyebrow: "Vrai ou faux",
-      prompt: activity.statement,
-      context: null,
-      options: ["Vrai", "Faux"],
-      correctAnswer: activity.is_true ? "Vrai" : "Faux"
-    };
-  }
-
-  return {
-    ...common,
-    kind: "choice",
-    eyebrow: activity.type === "practical_situation" ? "Mise en situation" : "Choisis la bonne réponse",
-    prompt: activity.type === "practical_situation"
-      ? `${activity.situation} ${activity.question}`.trim()
-      : activity.question,
-    context: null,
-    options: activity.options,
-    correctAnswer: activity.correct_answer
-  };
-};
-
-const makeOptionPool = (allPoints, lessonPoints) => {
-  const pool = [...lessonPoints];
-  const usedIds = new Set(pool.map((kp) => kp.id));
-
-  for (const kp of allPoints) {
+  for (const item of allItems) {
     if (pool.length >= 3) break;
-    if (!usedIds.has(kp.id)) {
-      usedIds.add(kp.id);
-      pool.push(kp);
+    if (!usedIds.has(item.id)) {
+      usedIds.add(item.id);
+      pool.push(item);
     }
   }
-
   return pool;
 };
 
-const createCheckpointQuestion = (kp, optionPool, scopeId) => {
-  const editorialActivity = getEditorialObjectiveActivity(kp);
-  return editorialActivity
-    ? normalizeEditorialQuestion(kp, editorialActivity, scopeId)
-    : createRecognitionQuestion(kp, optionPool, scopeId);
+const getRuleOptions = (optionPool, seed) => deterministicRotate(
+  [...new Set(optionPool.map((item) => item.coreText))].slice(0, 4),
+  seed
+);
+
+const createMemoryQuestion = (item, optionPool, scopeId) => ({
+  id: `${scopeId}-${item.id}-memory`,
+  knowledgePointId: item.id,
+  sourceParagraph: item.sourceParagraph,
+  kind: "memory_choice",
+  eyebrow: "Défi mémoire",
+  prompt: `Que faut-il retenir au sujet de « ${item.title} » ?`,
+  context: null,
+  options: getRuleOptions(optionPool, `${scopeId}-${item.id}-memory`),
+  correctAnswer: item.coreText,
+  explanation: `Le rappel à retenir est : ${item.coreText}`,
+  provenance: "learned_rules_only"
+});
+
+const createTrueFalseQuestion = (item, optionPool, scopeId, questionIndex) => {
+  const checksum = [...`${scopeId}-${item.id}-${questionIndex}`]
+    .reduce((sum, char) => sum + char.charCodeAt(0), 0);
+  const isMatch = checksum % 2 === 0;
+  const otherItem = optionPool.find((candidate) => candidate.id !== item.id) || item;
+  const comparedItem = isMatch ? item : otherItem;
+  return {
+    id: `${scopeId}-${item.id}-true-false`,
+    knowledgePointId: item.id,
+    sourceParagraph: item.sourceParagraph,
+    kind: "true_false",
+    eyebrow: "Vrai ou faux",
+    prompt: `Ce rappel parle-t-il de « ${comparedItem.title} » ?`,
+    context: item.coreText,
+    options: ["Vrai", "Faux"],
+    correctAnswer: isMatch ? "Vrai" : "Faux",
+    explanation: `Ce rappel concerne « ${item.title} » : ${item.coreText}`,
+    provenance: "learned_rules_only"
+  };
 };
 
-export const buildSimanCurriculum = (simanConfig, knowledgeData, lessonSize = LESSON_SIZE) => {
+const createBeginnerChallengeQuestion = (item, optionPool, scopeId) => ({
+  id: `${scopeId}-${item.id}-beginner-challenge`,
+  knowledgePointId: item.id,
+  sourceParagraph: item.sourceParagraph,
+  kind: "beginner_challenge",
+  eyebrow: "Explique-le à un ami",
+  prompt: `Une personne découvre « ${item.title} ». Quelle explication doit-elle retenir ?`,
+  context: null,
+  options: getRuleOptions(optionPool, `${scopeId}-${item.id}-challenge`),
+  correctAnswer: item.coreText,
+  explanation: `La formulation la plus juste est : ${item.coreText}`,
+  provenance: "learned_rules_only"
+});
+
+const createCheckpointQuestion = (item, optionPool, scopeId, questionIndex) => {
+  const format = questionIndex % 3;
+  if (format === 1) return createTrueFalseQuestion(item, optionPool, scopeId, questionIndex);
+  if (format === 2) return createBeginnerChallengeQuestion(item, optionPool, scopeId);
+  return createMemoryQuestion(item, optionPool, scopeId);
+};
+
+export const buildSimanCurriculum = (
+  simanConfig,
+  knowledgeData,
+  sourceData = null,
+  lessonSize = LESSON_SIZE
+) => {
   const simanId = simanConfig.id;
   const orderedPoints = getOrderedKnowledgePoints(knowledgeData, simanId);
+  const sourceIndex = buildSourceIndex(sourceData);
+  const allItems = scheduleVocabulary(orderedPoints.map((kp) => createLearningItem(kp, sourceIndex)));
   const lessons = [];
 
-  for (let start = 0; start < orderedPoints.length; start += lessonSize) {
-    const lessonPoints = orderedPoints.slice(start, start + lessonSize);
+  for (let start = 0; start < allItems.length; start += lessonSize) {
+    const lessonItems = allItems.slice(start, start + lessonSize);
     const lessonIndex = lessons.length;
     const lessonId = `${simanId}-lesson-${lessonIndex + 1}`;
-    const optionPool = makeOptionPool(orderedPoints, lessonPoints);
+    const optionPool = makeOptionPool(allItems, lessonItems);
     const customTitle = LESSON_TITLES[simanId]?.[lessonIndex];
 
     lessons.push({
       id: lessonId,
       index: lessonIndex,
       number: lessonIndex + 1,
-      title: customTitle || lessonPoints[0]?.title || `Leçon ${lessonIndex + 1}`,
-      items: lessonPoints.map(createLearningItem),
-      questions: lessonPoints.map((kp) => createCheckpointQuestion(kp, optionPool, lessonId))
+      title: customTitle || lessonItems[0]?.title || `Leçon ${lessonIndex + 1}`,
+      items: lessonItems,
+      questions: lessonItems.map((item, questionIndex) => (
+        createCheckpointQuestion(item, optionPool, lessonId, questionIndex)
+      ))
     });
   }
 

@@ -13,6 +13,8 @@ dans un parcours séquentiel pour la catégorie `הלכות הנהגת אדם ב
   suivant.
 - Le test final de catégorie prend deux questions dans chaque Siman.
 - Sa réussite débloque une fiche de révision permanente et imprimable.
+- Chaque notion propose un bouton « Voir la loi complète en français » qui
+  ouvre le texte source exact, avec le numéro du Siman et du paragraphe.
 
 - Le Siman 1 conserve son Knowledge JSON éditorial complet.
 - Les Simanim 2 et 3 utilisent un pilote d'exposition fidèle à la source :
@@ -23,12 +25,32 @@ dans un parcours séquentiel pour la catégorie `הלכות הנהגת אדם ב
   exposés. Ils ne fournissent volontairement ni faux énoncé halakhique, ni
   situation pratique inventée avant la revue éditoriale.
 
-Pour rendre le parcours testable sans créer de fausse règle, le moteur produit
-pour ces pilotes des questions de reconnaissance : il affiche un extrait exact
-de la règle déjà lue et demande de l'associer à l'un des trois titres réellement
-étudiés. Les options sont donc des noms de notions vraies, jamais des lois
-fabriquées. Cette réussite vérifie le repérage du contenu pilote ; elle ne
-remplace pas la future validation éditoriale de questions halakhiques fines.
+Pour rendre le parcours varié sans créer de fausse règle, le moteur alterne
+trois formats : défi de mémoire, vrai ou faux et explication à un ami débutant.
+Les réponses proposées reprennent uniquement les règles réellement présentées
+dans la leçon. Une réponse fausse peut associer une règle vraie à un mauvais
+sujet, mais aucune fausse règle halakhique n'est fabriquée. Cette réussite
+vérifie la compréhension du contenu pilote ; elle ne remplace pas la future
+validation éditoriale de questions halakhiques fines.
+
+## Langage pour débutants
+
+Le parcours s'adresse à une personne qui peut ne connaître aucun vocabulaire
+juif. Chaque carte sépare donc trois niveaux :
+
+1. une règle courte et directement compréhensible ;
+2. une explication donnant le contexte nécessaire ;
+3. la loi française complète, accessible à la demande pour approfondir.
+
+Les mots techniques comme « Seif » ne sont pas employés dans l'explication
+destinée à l'élève. Le vocabulaire utile est défini lors de sa première
+apparition, puis rappelé une seule fois au maximum dans le même Siman. La source
+intégrale reste inchangée dans la fenêtre de référence afin de ne pas altérer la
+loi d'origine.
+
+La première séquence bénéficie en plus d'une rédaction éditoriale dédiée :
+définition complète de Hachem, texte et traduction de Modé/Moda Ani, contexte du
+réveil et explications accessibles à une personne qui débute entièrement.
 
 ## Ordre pédagogique du Siman 1
 
@@ -99,10 +121,12 @@ conditions suivantes :
    npm run build
    ```
 
-5. Une projection exacte de la source peut être intégrée comme pilote si elle
-   est clairement identifiée comme telle. Seules les reconnaissances
-   source-vers-titre sont alors produites automatiquement ; les QCM fondés sur
-   des affirmations halakhiques restent interdits avant validation éditoriale.
+5. Ajouter `sourcePath` pour relier chaque notion à la loi française complète.
+6. Une projection exacte de la source peut être intégrée comme pilote si elle
+   est clairement identifiée comme telle. Les contrôles peuvent varier leur
+   présentation, mais leurs règles et leurs réponses doivent provenir
+   exclusivement des notions déjà lues ; les affirmations halakhiques inventées
+   restent interdites avant validation éditoriale.
 
 ## Politique d'échec
 

@@ -1,18 +1,33 @@
 import React, { useEffect, useState } from "react";
-import { getGlossaryForText } from "../../data/learningGlossary.js";
 import QuizFlow from "./QuizFlow.jsx";
+import SourceReferenceModal from "./SourceReferenceModal.jsx";
+
+const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+const GlossaryDefinition = ({ entry }) => {
+  const emphasis = [...(entry.emphasis || [])].sort((left, right) => right.length - left.length);
+  if (emphasis.length === 0) return entry.definition;
+  const parts = entry.definition.split(new RegExp(`(${emphasis.map(escapeRegExp).join("|")})`, "g"));
+  return parts.map((part, index) => (
+    emphasis.includes(part)
+      ? <strong key={`${part}-${index}`} className="text-violet-800 dark:text-violet-200">{part}</strong>
+      : <React.Fragment key={`${part}-${index}`}>{part}</React.Fragment>
+  ));
+};
 
 const LessonPlayer = ({ lesson, simanNumber, alreadyCompleted, onClose, onComplete }) => {
   const [phase, setPhase] = useState("learning");
   const [itemIndex, setItemIndex] = useState(0);
+  const [showReference, setShowReference] = useState(false);
 
   useEffect(() => {
     setPhase("learning");
     setItemIndex(0);
+    setShowReference(false);
   }, [lesson.id]);
 
   const item = lesson.items[itemIndex];
-  const glossary = getGlossaryForText(`${item.title} ${item.coreText}`);
+  const glossary = item.vocabulary || [];
 
   if (phase === "quiz") {
     return (
@@ -72,7 +87,7 @@ const LessonPlayer = ({ lesson, simanNumber, alreadyCompleted, onClose, onComple
             <span className="text-[9px] font-black uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/30 px-3 py-1.5 rounded-full">
               Notion {itemIndex + 1} sur {lesson.items.length}
             </span>
-            <span className="text-[10px] font-bold text-zinc-400">Paragraphe {item.sourceSeif}</span>
+            <span className="text-[10px] font-bold text-zinc-400">Paragraphe {item.sourceParagraph}</span>
           </div>
 
           <h1 className="mt-6 text-2xl sm:text-3xl font-serif font-black leading-tight">{item.title}</h1>
@@ -81,29 +96,34 @@ const LessonPlayer = ({ lesson, simanNumber, alreadyCompleted, onClose, onComple
           </p>
 
           {item.explanation && (
-            <div className="mt-5 rounded-2xl bg-blue-50 dark:bg-blue-950/30 border-l-4 border-blue-500 p-4">
-              <span className="text-[9px] font-black uppercase tracking-widest text-blue-700 dark:text-blue-300">En mots simples</span>
-              <p className="mt-1.5 text-sm leading-relaxed text-blue-950 dark:text-blue-100">{item.explanation}</p>
+            <div className="mt-5 rounded-2xl bg-blue-50 dark:bg-blue-950/30 border-l-4 border-blue-500 p-4 flex items-start gap-3">
+              <span aria-hidden="true" className="text-lg">💡</span>
+              <p className="whitespace-pre-line text-sm leading-relaxed text-blue-950 dark:text-blue-100">{item.explanation}</p>
             </div>
           )}
 
           {glossary.length > 0 && (
             <div className="mt-5 space-y-2" data-testid="lesson-glossary">
-              <span className="text-[9px] font-black uppercase tracking-widest text-violet-700 dark:text-violet-300">Vocabulaire utile</span>
+              <span className="text-[9px] font-black uppercase tracking-widest text-violet-700 dark:text-violet-300">
+                {glossary.every((entry) => entry.exposure === 2) ? "Rappel vocabulaire" : "Vocabulaire utile"}
+              </span>
               {glossary.map((entry) => (
                 <div key={entry.term} className="rounded-2xl bg-violet-50 dark:bg-violet-950/25 border border-violet-200 dark:border-violet-900 px-4 py-3 text-sm">
-                  <strong className="text-violet-800 dark:text-violet-200">{entry.term}</strong>
-                  <span className="text-zinc-600 dark:text-zinc-300"> — {entry.definition}</span>
+                  <p className="text-zinc-600 dark:text-zinc-300"><GlossaryDefinition entry={entry} /></p>
                 </div>
               ))}
             </div>
           )}
 
-          {item.fullText && (
-            <details className="mt-5 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-950/60 p-4">
-              <summary className="cursor-pointer text-xs font-black text-zinc-600 dark:text-zinc-300">Voir la règle complète et ses nuances</summary>
-              <p className="mt-3 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{item.fullText}</p>
-            </details>
+          {item.references.length > 0 && (
+            <button
+              type="button"
+              onClick={() => setShowReference(true)}
+              className="mt-5 w-full rounded-2xl border-2 border-amber-300 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/25 px-4 py-3.5 flex items-center justify-center gap-2 text-sm font-black text-amber-900 dark:text-amber-200 hover:bg-amber-100 dark:hover:bg-amber-950/40"
+            >
+              <span aria-hidden="true">📜</span>
+              Voir la loi complète en français
+            </button>
           )}
 
           <button
@@ -118,6 +138,8 @@ const LessonPlayer = ({ lesson, simanNumber, alreadyCompleted, onClose, onComple
           </button>
         </article>
       </main>
+
+      {showReference && <SourceReferenceModal item={item} onClose={() => setShowReference(false)} />}
     </div>
   );
 };

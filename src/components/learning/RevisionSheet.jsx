@@ -1,9 +1,11 @@
 import React, { useMemo, useState } from "react";
 import { LEARNING_CATEGORY } from "../../services/learningPathModel.js";
+import SourceReferenceModal from "./SourceReferenceModal.jsx";
 
 const RevisionSheet = ({ curricula, onBack }) => {
   const [selectedSimanId, setSelectedSimanId] = useState(LEARNING_CATEGORY.simanIds[0]);
   const [query, setQuery] = useState("");
+  const [referenceItem, setReferenceItem] = useState(null);
   const curriculum = curricula[selectedSimanId];
   const items = useMemo(() => curriculum.lessons.flatMap((lesson) => lesson.items).filter((item) => {
     const normalizedQuery = query.trim().toLocaleLowerCase("fr");
@@ -60,19 +62,24 @@ const RevisionSheet = ({ curricula, onBack }) => {
       <div className="mt-5 grid gap-4 sm:grid-cols-2">
         {items.map((item) => (
           <article key={item.id} className="rounded-3xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 p-5 shadow-sm break-inside-avoid">
-            <span className="text-[9px] font-black uppercase tracking-widest text-emerald-700 dark:text-emerald-400">Paragraphe {item.sourceSeif}</span>
+            <span className="text-[9px] font-black uppercase tracking-widest text-emerald-700 dark:text-emerald-400">Paragraphe {item.sourceParagraph}</span>
             <h3 className="mt-1.5 font-serif font-black text-base">{item.title}</h3>
             <p className="mt-3 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{item.coreText}</p>
-            {item.explanation && <p className="mt-3 text-xs leading-relaxed text-blue-700 dark:text-blue-300">{item.explanation}</p>}
-            {item.fullText && (
-              <details className="mt-3 text-xs text-zinc-500 dark:text-zinc-400">
-                <summary className="font-bold cursor-pointer">Nuances de la règle</summary>
-                <p className="mt-2 leading-relaxed">{item.fullText}</p>
-              </details>
+            {item.explanation && <p className="mt-3 whitespace-pre-line text-xs leading-relaxed text-blue-700 dark:text-blue-300">{item.explanation}</p>}
+            {item.references.length > 0 && (
+              <button
+                type="button"
+                onClick={() => setReferenceItem(item)}
+                className="mt-4 w-full rounded-xl border border-amber-300 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/25 px-3 py-2.5 text-xs font-black text-amber-900 dark:text-amber-200"
+              >
+                📜 Voir la loi source en français
+              </button>
             )}
           </article>
         ))}
       </div>
+
+      {referenceItem && <SourceReferenceModal item={referenceItem} onClose={() => setReferenceItem(null)} />}
     </div>
   );
 };

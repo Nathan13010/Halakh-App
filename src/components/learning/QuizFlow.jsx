@@ -16,6 +16,7 @@ const QuizFlow = ({
   const reportedAttemptRef = useRef(false);
   const question = questions[questionIndex];
   const isCorrect = selectedAnswer === question?.correctAnswer;
+  const isTrueFalse = question?.kind === "true_false";
   const correctCount = useMemo(() => answers.filter(Boolean).length, [answers]);
 
   useEffect(() => {
@@ -128,7 +129,7 @@ const QuizFlow = ({
             )}
             <h2 className="mt-5 text-xl sm:text-2xl font-serif font-black leading-snug">{question.prompt}</h2>
 
-            <div className="mt-7 space-y-3">
+            <div className={`mt-7 ${isTrueFalse ? "grid grid-cols-2 gap-3" : "space-y-3"}`}>
               {question.options.map((option, optionIndex) => {
                 const selected = selectedAnswer === option;
                 const correctOption = option === question.correctAnswer;
@@ -146,10 +147,12 @@ const QuizFlow = ({
                     data-testid="quiz-option"
                     disabled={selectedAnswer !== null}
                     onClick={() => setSelectedAnswer(option)}
-                    className={`w-full rounded-2xl border-2 p-4 flex items-center gap-3 text-left transition-all ${style}`}
+                    className={`w-full rounded-2xl border-2 p-4 flex items-center gap-3 transition-all ${
+                      isTrueFalse ? "min-h-24 flex-col justify-center text-center" : "text-left"
+                    } ${style}`}
                   >
                     <span className="w-8 h-8 rounded-xl shrink-0 flex items-center justify-center bg-white/70 dark:bg-zinc-800 border border-current/10 text-xs font-black">
-                      {String.fromCharCode(65 + optionIndex)}
+                      {isTrueFalse ? (option === "Vrai" ? "✓" : "×") : String.fromCharCode(65 + optionIndex)}
                     </span>
                     <span className="text-sm sm:text-base font-bold leading-snug">{option}</span>
                   </button>

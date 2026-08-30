@@ -19,7 +19,8 @@ const dataDirectory = new URL(
 
 const curricula = Object.fromEntries(LEARNING_CATEGORY.simanIds.map((simanId, index) => {
   const knowledge = JSON.parse(readFileSync(new URL(`siman_${index + 1}_knowledge.json`, dataDirectory), "utf8"));
-  return [simanId, buildSimanCurriculum(LEARNING_SIMANS[simanId], knowledge)];
+  const source = JSON.parse(readFileSync(new URL(`siman_${index + 1}.json`, dataDirectory), "utf8"));
+  return [simanId, buildSimanCurriculum(LEARNING_SIMANS[simanId], knowledge, source)];
 }));
 
 const simanExams = Object.fromEntries(Object.entries(curricula).map(([simanId, curriculum]) => [
@@ -87,16 +88,30 @@ test("le parcours commence par le réveil, puis seulement par un quiz sur les no
   const lessonPlayer = page.getByTestId("lesson-player");
   await expect(lessonPlayer).toHaveAttribute("data-item-id", "s1-kp-004");
   await expect(page.getByRole("heading", { name: "Se lever avec force pour servir Hachem" })).toBeVisible();
-  await expect(page.getByTestId("lesson-glossary")).toContainText("Hachem");
+  await expect(lessonPlayer).toContainText("Paragraphe 1");
+  await expect(lessonPlayer).toContainText("Au réveil, on essaie de dépasser l'envie de rester au lit");
+  await expect(page.getByTestId("lesson-glossary")).toContainText("Hachem signifie littéralement « le Nom »");
+  await expect(page.getByText("En mots simples", { exact: true })).toHaveCount(0);
   await expect(page.getByText("La véritable Zrizout", { exact: true })).toHaveCount(0);
+
+  await page.getByRole("button", { name: "Voir la loi complète en français", exact: true }).click();
+  const reference = page.getByTestId("source-reference-modal");
+  await expect(reference).toBeVisible();
+  await expect(reference).toContainText("Nous avons appris dans le traité Avot");
+  await expect(reference).toContainText("Siman 1 · Paragraphe 1");
+  await page.getByRole("button", { name: "Fermer la référence", exact: true }).click();
 
   await page.getByRole("button", { name: "Notion suivante", exact: true }).click();
   await expect(lessonPlayer).toHaveAttribute("data-item-id", "s1-kp-016");
   await page.getByRole("button", { name: "Notion suivante", exact: true }).click();
   await expect(lessonPlayer).toHaveAttribute("data-item-id", "s1-kp-018");
+  await expect(lessonPlayer).toContainText("Modé ani lefanékha");
+  await expect(lessonPlayer).toContainText("Je Te remercie, Roi vivant et éternel");
+  await expect(lessonPlayer).toContainText("une fille dit « Moda Ani »");
   await page.getByRole("button", { name: "Vérifier ce que j'ai appris", exact: true }).click();
 
   await expect(page.getByTestId("quiz-flow")).toBeVisible();
+  await expect(page.getByText("Défi mémoire", { exact: true })).toBeVisible();
   await expect(page.getByText("La véritable Zrizout", { exact: true })).toHaveCount(0);
   await completeQuiz(page, curricula.siman_1.lessons[0].questions);
   await page.getByRole("button", { name: "Valider cette leçon", exact: true }).click();
@@ -148,6 +163,7 @@ test("le test de catégorie réunit les trois Simanim et débloque la fiche perm
   await expect(sheet).toContainText("Fiche de révision obtenue");
   await sheet.getByRole("button", { name: "Siman 2", exact: true }).click();
   await expect(sheet.getByRole("heading", { name: /Siman 2/ })).toBeVisible();
+  await expect(sheet).toContainText("Paragraphe 1");
   await expect(sheet).toContainText("Pudeur en s'habillant et se déshabillant");
 
   const stored = await page.evaluate((storageKey) => JSON.parse(localStorage.getItem(storageKey)), LEARNING_PATH_STORAGE_KEY);

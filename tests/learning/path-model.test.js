@@ -20,6 +20,17 @@ const loadKnowledge = (simanNumber) => JSON.parse(readFileSync(
   "utf8"
 ));
 
+const loadSource = (simanNumber) => JSON.parse(readFileSync(
+  new URL(`siman_${simanNumber}.json`, dataDirectory),
+  "utf8"
+));
+
+const buildCurriculum = (simanNumber) => buildSimanCurriculum(
+  LEARNING_SIMANS[`siman_${simanNumber}`],
+  loadKnowledge(simanNumber),
+  loadSource(simanNumber)
+);
+
 test("le Siman 1 commence par le réveil avant toute question sur la Zrizout", () => {
   const data = loadKnowledge(1);
   const ordered = getOrderedKnowledgePoints(data, "siman_1");
@@ -29,7 +40,7 @@ test("le Siman 1 commence par le réveil avant toute question sur la Zrizout", (
     "s1-kp-018"
   ]);
 
-  const curriculum = buildSimanCurriculum(LEARNING_SIMANS.siman_1, data);
+  const curriculum = buildCurriculum(1);
   assert.deepEqual(curriculum.lessons[0].items.map((item) => item.title), [
     "Se lever avec force pour servir Hachem",
     "Ne pas se lever brusquement",
@@ -45,11 +56,25 @@ test("le Siman 1 commence par le réveil avant toute question sur la Zrizout", (
   assert.ok(zrizoutLesson);
   assert.ok(zrizoutLesson.questions.some((question) => question.knowledgePointId === "s1-kp-006"));
 });
+
+test("les premières explications parlent à un débutant et Modé Ani est présenté intégralement", () => {
+  const curriculum = buildCurriculum(1);
+  const firstItems = curriculum.lessons[0].items;
+  assert.equal(
+    firstItems[0].coreText,
+    "Au réveil, on essaie de dépasser l'envie de rester au lit afin de commencer la journée avec courage et de se tourner vers Dieu."
+  );
+  assert.match(firstItems[0].vocabulary[0].definition, /Hachem signifie littéralement « le Nom »/);
+  assert.match(firstItems[2].explanation, /Modé ani lefanékha/);
+  assert.match(`${firstItems[2].coreText} ${firstItems[2].explanation}`, /une fille dit « Moda Ani »/i);
+  assert.match(firstItems[2].explanation, /Je Te remercie, Roi vivant et éternel/);
+});
+
 test("chaque leçon contient au plus trois notions et ne teste que des notions déjà présentées", () => {
   for (const simanNumber of [1, 2, 3]) {
     const simanId = `siman_${simanNumber}`;
     const data = loadKnowledge(simanNumber);
-    const curriculum = buildSimanCurriculum(LEARNING_SIMANS[simanId], data);
+    const curriculum = buildCurriculum(simanNumber);
     const learnedIds = curriculum.lessons.flatMap((lesson) => lesson.items.map((item) => item.id));
 
     assert.equal(new Set(learnedIds).size, data.knowledge_points.length);
@@ -63,24 +88,55 @@ test("chaque leçon contient au plus trois notions et ne teste que des notions d
   }
 });
 
-test("les questions de reconnaissance n'inventent pas de fausses règles", () => {
-  const curriculum = buildSimanCurriculum(LEARNING_SIMANS.siman_2, loadKnowledge(2));
-  const recognitionQuestions = curriculum.lessons.flatMap((lesson) => lesson.questions)
-    .filter((question) => question.provenance === "source_recognition");
+test("les contrôles alternent trois formats sans inventer de fausses règles", () => {
+  const curriculum = buildCurriculum(2);
+  const questions = curriculum.lessons.flatMap((lesson) => lesson.questions);
+  const learnedRules = new Set(curriculum.lessons.flatMap((lesson) => (
+    lesson.items.map((item) => item.coreText)
+  )));
 
-  assert.ok(recognitionQuestions.length > 0);
-  recognitionQuestions.forEach((question) => {
+  assert.deepEqual(
+    new Set(questions.map((question) => question.kind)),
+    new Set(["memory_choice", "true_false", "beginner_challenge"])
+  );
+  assert.equal(questions.some((question) => /à quelle notion correspond/i.test(question.prompt)), false);
+  questions.forEach((question) => {
     assert.ok(question.options.includes(question.correctAnswer));
-    assert.ok(question.options.every((option) => (
-      curriculum.knowledgePoints.some((kp) => kp.title === option)
-    )));
+    assert.equal(question.provenance, "learned_rules_only");
+    if (question.kind === "true_false") {
+      assert.deepEqual(question.options, ["Vrai", "Faux"]);
+    } else {
+      assert.ok(question.options.every((option) => learnedRules.has(option)));
+    }
   });
+});
+
+test("chaque notion ouvre sa référence française, sans jargon Seif, et le vocabulaire apparaît au maximum deux fois", () => {
+  for (const simanNumber of [1, 2, 3]) {
+    const curriculum = buildCurriculum(simanNumber);
+    const items = curriculum.lessons.flatMap((lesson) => lesson.items);
+    const questions = curriculum.lessons.flatMap((lesson) => lesson.questions);
+    const vocabularyCounts = {};
+
+    items.forEach((item) => {
+      assert.ok(item.references.length >= 1);
+      assert.ok(item.references.every((reference) => reference.french.length > 0));
+      assert.doesNotMatch(`${item.title} ${item.coreText} ${item.explanation}`, /\bSeif\b|סעיף/i);
+      item.vocabulary.forEach((entry) => {
+        vocabularyCounts[entry.term] = (vocabularyCounts[entry.term] || 0) + 1;
+      });
+    });
+    questions.forEach((question) => {
+      assert.doesNotMatch(`${question.prompt} ${question.context} ${question.explanation}`, /\bSeif\b|סעיף/i);
+    });
+    assert.ok(Object.values(vocabularyCounts).every((count) => count <= 2));
+  }
 });
 
 test("les examens couvrent le Siman et le test final prend des questions des trois Simanim", () => {
   const curricula = Object.fromEntries(LEARNING_CATEGORY.simanIds.map((simanId, index) => [
     simanId,
-    buildSimanCurriculum(LEARNING_SIMANS[simanId], loadKnowledge(index + 1))
+    buildCurriculum(index + 1)
   ]));
 
   for (const curriculum of Object.values(curricula)) {

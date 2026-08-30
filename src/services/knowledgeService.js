@@ -8,6 +8,7 @@
 import { getLearningSimanConfig } from "../data/learningSimans.js";
 
 const CACHE = {};
+const SOURCE_CACHE = {};
 
 export const fetchKnowledgeForSiman = async (simanId) => {
   // simanId ex: "siman_1"
@@ -34,6 +35,25 @@ export const fetchKnowledgeForSiman = async (simanId) => {
     return data;
   } catch (error) {
     console.error("Erreur dans fetchKnowledgeForSiman:", error);
+    return null;
+  }
+};
+
+export const fetchSourceForSiman = async (simanId) => {
+  if (SOURCE_CACHE[simanId]) return SOURCE_CACHE[simanId];
+
+  try {
+    const config = getLearningSimanConfig(simanId);
+    if (!config.sourcePath) throw new Error(`Chemin source manquant pour ${simanId}`);
+
+    const response = await fetch(config.sourcePath);
+    if (!response.ok) throw new Error(`Impossible de charger la source française pour ${simanId}`);
+
+    const data = await response.json();
+    SOURCE_CACHE[simanId] = data;
+    return data;
+  } catch (error) {
+    console.error("Erreur dans fetchSourceForSiman:", error);
     return null;
   }
 };

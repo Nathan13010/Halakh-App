@@ -7,6 +7,7 @@ export const LEARNING_SIMANS = Object.freeze({
     id: "siman_1",
     simanNumber: 1,
     shortLabel: "Siman 1",
+    sourcePath: "/data/הלכות הנהגת אדם בבוקר/siman_1.json",
     knowledgePath: "/data/הלכות הנהגת אדם בבוקר/siman_1_knowledge.json",
     contentContract: Object.freeze({
       totalActivities: 117,

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { AVAILABLE_LEARNING_SIMANS } from "../data/learningSimans.js";
-import { fetchKnowledgeForSiman } from "../services/knowledgeService.js";
+import { fetchKnowledgeForSiman, fetchSourceForSiman } from "../services/knowledgeService.js";
 import {
   buildCategoryExamQuestions,
   buildSimanCurriculum,
@@ -27,9 +27,12 @@ export const useLearningPath = () => {
       setStatus("loading");
       try {
         const entries = await Promise.all(AVAILABLE_LEARNING_SIMANS.map(async (config) => {
-          const knowledgeData = await fetchKnowledgeForSiman(config.id);
-          if (!knowledgeData) throw new Error(`Données manquantes pour ${config.id}`);
-          return [config.id, buildSimanCurriculum(config, knowledgeData)];
+          const [knowledgeData, sourceData] = await Promise.all([
+            fetchKnowledgeForSiman(config.id),
+            fetchSourceForSiman(config.id)
+          ]);
+          if (!knowledgeData || !sourceData) throw new Error(`Données manquantes pour ${config.id}`);
+          return [config.id, buildSimanCurriculum(config, knowledgeData, sourceData)];
         }));
 
         if (!isMounted) return;
