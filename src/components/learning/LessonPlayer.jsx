@@ -34,7 +34,7 @@ const LessonPlayer = ({ lesson, simanNumber, alreadyCompleted, onClose, onComple
       <QuizFlow
         questions={lesson.questions}
         title={`Leçon ${lesson.number} · Siman ${simanNumber}`}
-        subtitle="Les questions portent uniquement sur les notions que tu viens de découvrir."
+        subtitle={null}
         onClose={onClose}
         onPassed={() => setPhase("success")}
         successLabel="Valider cette leçon"

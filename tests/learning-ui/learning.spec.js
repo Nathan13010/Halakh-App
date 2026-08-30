@@ -111,7 +111,10 @@ test("le parcours commence par le réveil, puis seulement par un quiz sur les no
   await page.getByRole("button", { name: "Vérifier ce que j'ai appris", exact: true }).click();
 
   await expect(page.getByTestId("quiz-flow")).toBeVisible();
-  await expect(page.getByText("Défi mémoire", { exact: true })).toBeVisible();
+  await expect(page.getByText("QCM", { exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Que signifie « se lever avec force » au réveil ?" })).toBeVisible();
+  await expect(page.getByRole("button", { name: /Vaincre la paresse pour commencer la journée avec entrain/ })).toBeVisible();
+  await expect(page.getByText("Les questions portent uniquement sur les notions que tu viens de découvrir.", { exact: true })).toHaveCount(0);
   await expect(page.getByText("La véritable Zrizout", { exact: true })).toHaveCount(0);
   await completeQuiz(page, curricula.siman_1.lessons[0].questions);
   await page.getByRole("button", { name: "Valider cette leçon", exact: true }).click();

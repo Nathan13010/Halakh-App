@@ -25,13 +25,17 @@ dans un parcours séquentiel pour la catégorie `הלכות הנהגת אדם ב
   exposés. Ils ne fournissent volontairement ni faux énoncé halakhique, ni
   situation pratique inventée avant la revue éditoriale.
 
-Pour rendre le parcours varié sans créer de fausse règle, le moteur alterne
-trois formats : défi de mémoire, vrai ou faux et explication à un ami débutant.
-Les réponses proposées reprennent uniquement les règles réellement présentées
-dans la leçon. Une réponse fausse peut associer une règle vraie à un mauvais
-sujet, mais aucune fausse règle halakhique n'est fabriquée. Cette réussite
-vérifie la compréhension du contenu pilote ; elle ne remplace pas la future
-validation éditoriale de questions halakhiques fines.
+Les contrôles utilisent des QCM directs et, lorsqu'un énoncé a été rédigé et
+validé, des vrais ou faux directs. Ils ne demandent plus d'associer un rappel à
+une notion ni d'« expliquer à un ami ». Une question tient en 100 caractères et
+chaque choix en 90 caractères, sans phrase tronquée. Les réponses proposées
+résument uniquement les règles réellement présentées dans la leçon. Cette
+réussite vérifie la compréhension du contenu pilote ; elle ne remplace pas la
+future validation éditoriale de questions halakhiques fines.
+
+Chaque notion active possède une formulation de quiz dédiée dans
+`learningQuizContent.js`. Un nouveau Siman ne doit pas être publié tant que ses
+questions et réponses courtes n'ont pas été relues avec leur source française.
 
 ## Langage pour débutants
 

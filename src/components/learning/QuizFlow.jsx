@@ -112,8 +112,8 @@ const QuizFlow = ({
 
       <main className="flex-1 overflow-y-auto px-4 py-6 sm:py-10 custom-scrollbar">
         <div className="w-full max-w-2xl mx-auto">
-          <p className="text-center text-xs font-bold text-zinc-500 dark:text-zinc-400">{subtitle}</p>
-          <section className="mt-5 rounded-[2rem] bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 p-5 sm:p-7 shadow-xl">
+          {subtitle && <p className="text-center text-xs font-bold text-zinc-500 dark:text-zinc-400">{subtitle}</p>}
+          <section className={`${subtitle ? "mt-5" : ""} rounded-[2rem] bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 p-5 sm:p-7 shadow-xl`}>
             <span className="inline-flex text-[9px] font-black uppercase tracking-[0.18em] px-3 py-1.5 rounded-full bg-indigo-50 dark:bg-indigo-950/40 text-indigo-700 dark:text-indigo-300">
               {question.eyebrow}
             </span>

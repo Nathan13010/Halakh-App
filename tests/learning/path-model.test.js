@@ -88,27 +88,58 @@ test("chaque leçon contient au plus trois notions et ne teste que des notions d
   }
 });
 
-test("les contrôles alternent trois formats sans inventer de fausses règles", () => {
-  const curriculum = buildCurriculum(2);
-  const questions = curriculum.lessons.flatMap((lesson) => lesson.questions);
-  const learnedRules = new Set(curriculum.lessons.flatMap((lesson) => (
-    lesson.items.map((item) => item.coreText)
-  )));
+test("la première leçon utilise les trois questions directes proposées", () => {
+  const questions = buildCurriculum(1).lessons[0].questions;
 
-  assert.deepEqual(
-    new Set(questions.map((question) => question.kind)),
-    new Set(["memory_choice", "true_false", "beginner_challenge"])
+  assert.deepEqual(questions.map((question) => question.kind), [
+    "quick_choice",
+    "true_false",
+    "quick_choice"
+  ]);
+  assert.equal(questions[0].prompt, "Que signifie « se lever avec force » au réveil ?");
+  assert.deepEqual(questions[0].options, [
+    "Remercier Dieu avec la prière du Modé Ani.",
+    "Vaincre la paresse pour commencer la journée avec entrain.",
+    "S'asseoir quelques instants sur le lit avant de se lever."
+  ]);
+  assert.equal(questions[0].correctAnswer, questions[0].options[1]);
+  assert.equal(
+    questions[1].prompt,
+    "« Il faut s'asseoir quelques instants sur le lit pour éviter de se lever trop brusquement. »"
   );
-  assert.equal(questions.some((question) => /à quelle notion correspond/i.test(question.prompt)), false);
-  questions.forEach((question) => {
-    assert.ok(question.options.includes(question.correctAnswer));
-    assert.equal(question.provenance, "learned_rules_only");
-    if (question.kind === "true_false") {
-      assert.deepEqual(question.options, ["Vrai", "Faux"]);
-    } else {
-      assert.ok(question.options.every((option) => learnedRules.has(option)));
-    }
-  });
+  assert.equal(questions[1].context, null);
+  assert.equal(questions[1].correctAnswer, "Vrai");
+  assert.equal(questions[2].prompt, "Quel est le rôle de la prière Modé Ani dès le réveil ?");
+  assert.equal(questions[2].correctAnswer, "Remercier Dieu pour le retour de notre âme.");
+});
+
+test("toutes les questions restent directes et toutes les réponses sont courtes", () => {
+  const forbiddenMetaText = /que faut-il retenir|une personne découvre|ce rappel parle-t-il|à quelle notion correspond|explique-le à un ami/i;
+
+  for (const simanNumber of [1, 2, 3]) {
+    const curriculum = buildCurriculum(simanNumber);
+    const items = new Map(curriculum.lessons.flatMap((lesson) => lesson.items).map((item) => [item.id, item]));
+    const questions = curriculum.lessons.flatMap((lesson) => lesson.questions);
+
+    questions.forEach((question) => {
+      const item = items.get(question.knowledgePointId);
+      assert.ok(item);
+      assert.doesNotMatch(question.prompt, forbiddenMetaText);
+      assert.equal(question.context, null);
+      assert.ok(question.prompt.length <= 100, `${question.id}: question trop longue`);
+      assert.ok(question.options.every((option) => option.length <= 90), `${question.id}: réponse trop longue`);
+      assert.ok(question.options.every((option) => !option.includes("…")), `${question.id}: réponse tronquée`);
+      assert.ok(question.options.includes(question.correctAnswer));
+      assert.equal(question.provenance, "learned_rules_only");
+      if (question.kind === "true_false") {
+        assert.deepEqual(question.options, ["Vrai", "Faux"]);
+        assert.equal(question.correctAnswer, item.quizTrueFalse.answer);
+      } else {
+        assert.equal(question.kind, "quick_choice");
+        assert.equal(question.correctAnswer, item.quizAnswer);
+      }
+    });
+  }
 });
 
 test("chaque notion ouvre sa référence française, sans jargon Seif, et le vocabulaire apparaît au maximum deux fois", () => {

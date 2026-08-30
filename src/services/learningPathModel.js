@@ -91,6 +91,51 @@ const sentenceExcerpt = (value, maxLength = 360) => {
   return `${slice.slice(0, lastSpace > 120 ? lastSpace : maxLength).trim()}…`;
 };
 
+const trimAtWord = (value, maxLength) => {
+  const text = cleanText(value);
+  if (text.length <= maxLength) return text;
+  const slice = text.slice(0, maxLength - 1);
+  const lastSpace = slice.lastIndexOf(" ");
+  return `${slice.slice(0, lastSpace > 45 ? lastSpace : maxLength - 1).trim()}…`;
+};
+
+const compactQuizAnswer = (value, maxLength = 110) => {
+  const text = cleanText(value)
+    .replace(/\s*\[(?:[^\]]*(?:Ibid|Yalkout|Halikhot|Chéérit|tome|p\.)[^\]]*)\]\s*/gi, " ")
+    .replace(/^Cette règle (?:indique|souligne|présente) (?:que )?/i, "")
+    .replace(/^La règle indique (?:que )?/i, "")
+    .replace(/^On veillera à /i, "Il faut ");
+
+  if (text.length <= maxLength) return text;
+
+  const clauseEnd = [text.indexOf(";"), text.indexOf(",")]
+    .filter((index) => index >= 45 && index < maxLength)
+    .sort((left, right) => left - right)[0];
+  if (Number.isInteger(clauseEnd)) return `${text.slice(0, clauseEnd).trim()}.`;
+
+  return trimAtWord(text, maxLength);
+};
+
+const lowerFirst = (value) => value.charAt(0).toLocaleLowerCase("fr") + value.slice(1);
+
+const createDirectQuizPrompt = (title) => {
+  const normalizedTitle = cleanText(title);
+  const patterns = [
+    [/^Ordre (?:pour|de) (.+)$/i, (subject) => `Dans quel ordre faut-il ${lowerFirst(subject)} ?`],
+    [/^Façon de (.+)$/i, (subject) => `Comment faut-il ${lowerFirst(subject)} ?`],
+    [/^Autorisation de (.+)$/i, (subject) => `Quand peut-on ${lowerFirst(subject)} ?`],
+    [/^Pudeur (.+)$/i, (subject) => `Comment préserver la pudeur ${lowerFirst(subject)} ?`],
+    [/^Interdiction de (.+)$/i, (subject) => `Que faut-il éviter concernant ${lowerFirst(subject)} ?`],
+    [/^Obligation de (.+)$/i, (subject) => `Quelle obligation concerne ${lowerFirst(subject)} ?`]
+  ];
+
+  for (const [pattern, buildPrompt] of patterns) {
+    const match = normalizedTitle.match(pattern);
+    if (match) return buildPrompt(match[1]);
+  }
+  return `Que signifie « ${normalizedTitle} » ?`;
+};
+
 const deterministicRotate = (values, seed) => {
   if (values.length < 2) return values;
   const offset = [...String(seed)].reduce((sum, char) => sum + char.charCodeAt(0), 0) % values.length;
@@ -133,15 +178,21 @@ export const createLearningItem = (kp, sourceIndex = new Map()) => {
   const rawRule = cleanText(kp?.rule || kp?.pedagogy?.simple_explanation);
   const beginnerContent = getBeginnerLearningContent(kp, rawRule);
   const references = getSourceNumbers(kp).map((number) => sourceIndex.get(number)).filter(Boolean);
+  const title = beginnerContent.title || removeLearningJargon(kp.title);
+  const coreText = sentenceExcerpt(beginnerContent.coreText);
 
   return {
     id: kp.id,
-    title: beginnerContent.title || removeLearningJargon(kp.title),
+    title,
     sourceParagraph: getSourceParagraph(kp),
-    coreText: sentenceExcerpt(beginnerContent.coreText),
+    coreText,
     explanation: beginnerContent.explanation || null,
     references,
     vocabulary: [],
+    quizPrompt: beginnerContent.quizPrompt || createDirectQuizPrompt(title),
+    quizAnswer: beginnerContent.quizAnswer || compactQuizAnswer(coreText),
+    quizOptions: beginnerContent.quizOptions || null,
+    quizTrueFalse: beginnerContent.quizTrueFalse || null,
     halakhaStatus: kp.halakha_status || "unclassified",
     needsEditorialReview: kp?.pedagogy?.human_review_required === true
   };
@@ -175,66 +226,46 @@ const makeOptionPool = (allItems, lessonItems) => {
   return pool;
 };
 
-const getRuleOptions = (optionPool, seed) => deterministicRotate(
-  [...new Set(optionPool.map((item) => item.coreText))].slice(0, 4),
-  seed
+const getQuizOptions = (item, optionPool, seed) => {
+  if (item.quizOptions) return item.quizOptions;
+  const answers = [...new Set(optionPool.map((candidate) => candidate.quizAnswer))];
+  if (!answers.includes(item.quizAnswer)) answers.push(item.quizAnswer);
+  return deterministicRotate(answers.slice(0, 3), seed);
+};
+
+const createQuickChoiceQuestion = (item, optionPool, scopeId) => ({
+  id: `${scopeId}-${item.id}-quick-choice`,
+  knowledgePointId: item.id,
+  sourceParagraph: item.sourceParagraph,
+  kind: "quick_choice",
+  eyebrow: "QCM",
+  prompt: item.quizPrompt,
+  context: null,
+  options: getQuizOptions(item, optionPool, `${scopeId}-${item.id}-quick-choice`),
+  correctAnswer: item.quizAnswer,
+  explanation: `Bonne réponse : ${item.quizAnswer}`,
+  provenance: "learned_rules_only"
+});
+
+const createTrueFalseQuestion = (item, scopeId) => ({
+  id: `${scopeId}-${item.id}-true-false`,
+  knowledgePointId: item.id,
+  sourceParagraph: item.sourceParagraph,
+  kind: "true_false",
+  eyebrow: "Vrai ou faux",
+  prompt: `« ${item.quizTrueFalse.statement} »`,
+  context: null,
+  options: ["Vrai", "Faux"],
+  correctAnswer: item.quizTrueFalse.answer,
+  explanation: `À retenir : ${item.quizAnswer}`,
+  provenance: "learned_rules_only"
+});
+
+const createCheckpointQuestion = (item, optionPool, scopeId) => (
+  item.quizTrueFalse
+    ? createTrueFalseQuestion(item, scopeId)
+    : createQuickChoiceQuestion(item, optionPool, scopeId)
 );
-
-const createMemoryQuestion = (item, optionPool, scopeId) => ({
-  id: `${scopeId}-${item.id}-memory`,
-  knowledgePointId: item.id,
-  sourceParagraph: item.sourceParagraph,
-  kind: "memory_choice",
-  eyebrow: "Défi mémoire",
-  prompt: `Que faut-il retenir au sujet de « ${item.title} » ?`,
-  context: null,
-  options: getRuleOptions(optionPool, `${scopeId}-${item.id}-memory`),
-  correctAnswer: item.coreText,
-  explanation: `Le rappel à retenir est : ${item.coreText}`,
-  provenance: "learned_rules_only"
-});
-
-const createTrueFalseQuestion = (item, optionPool, scopeId, questionIndex) => {
-  const checksum = [...`${scopeId}-${item.id}-${questionIndex}`]
-    .reduce((sum, char) => sum + char.charCodeAt(0), 0);
-  const isMatch = checksum % 2 === 0;
-  const otherItem = optionPool.find((candidate) => candidate.id !== item.id) || item;
-  const comparedItem = isMatch ? item : otherItem;
-  return {
-    id: `${scopeId}-${item.id}-true-false`,
-    knowledgePointId: item.id,
-    sourceParagraph: item.sourceParagraph,
-    kind: "true_false",
-    eyebrow: "Vrai ou faux",
-    prompt: `Ce rappel parle-t-il de « ${comparedItem.title} » ?`,
-    context: item.coreText,
-    options: ["Vrai", "Faux"],
-    correctAnswer: isMatch ? "Vrai" : "Faux",
-    explanation: `Ce rappel concerne « ${item.title} » : ${item.coreText}`,
-    provenance: "learned_rules_only"
-  };
-};
-
-const createBeginnerChallengeQuestion = (item, optionPool, scopeId) => ({
-  id: `${scopeId}-${item.id}-beginner-challenge`,
-  knowledgePointId: item.id,
-  sourceParagraph: item.sourceParagraph,
-  kind: "beginner_challenge",
-  eyebrow: "Explique-le à un ami",
-  prompt: `Une personne découvre « ${item.title} ». Quelle explication doit-elle retenir ?`,
-  context: null,
-  options: getRuleOptions(optionPool, `${scopeId}-${item.id}-challenge`),
-  correctAnswer: item.coreText,
-  explanation: `La formulation la plus juste est : ${item.coreText}`,
-  provenance: "learned_rules_only"
-});
-
-const createCheckpointQuestion = (item, optionPool, scopeId, questionIndex) => {
-  const format = questionIndex % 3;
-  if (format === 1) return createTrueFalseQuestion(item, optionPool, scopeId, questionIndex);
-  if (format === 2) return createBeginnerChallengeQuestion(item, optionPool, scopeId);
-  return createMemoryQuestion(item, optionPool, scopeId);
-};
 
 export const buildSimanCurriculum = (
   simanConfig,
@@ -261,9 +292,7 @@ export const buildSimanCurriculum = (
       number: lessonIndex + 1,
       title: customTitle || lessonItems[0]?.title || `Leçon ${lessonIndex + 1}`,
       items: lessonItems,
-      questions: lessonItems.map((item, questionIndex) => (
-        createCheckpointQuestion(item, optionPool, lessonId, questionIndex)
-      ))
+      questions: lessonItems.map((item) => createCheckpointQuestion(item, optionPool, lessonId))
     });
   }
 
