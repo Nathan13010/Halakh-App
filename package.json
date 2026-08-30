@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test:learning": "node --test tests/learning/progression.test.js tests/learning/validator.test.js tests/learning/selector.test.js tests/learning/session.test.js tests/learning/knowledge.test.js",
+    "test:learning": "node --test tests/learning/progression.test.js tests/learning/validator.test.js tests/learning/selector.test.js tests/learning/session.test.js tests/learning/knowledge.test.js tests/learning/path-model.test.js tests/learning/path-progress.test.js",
     "test:learning:ui": "playwright test --config=playwright.learning.config.js",
     "generate": "node scripts/generate-siman.js",
     "generate:siman318": "node scripts/generate-siman.js --siman 318",

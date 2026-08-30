@@ -9,6 +9,7 @@ import QuickSettingsPopover from './components/QuickSettingsPopover';
 import SettingsModal from './components/SettingsModal';
 import { BOOKS, FALLBACK_PARAGRAPHS } from './data/books';
 import { resetAllProgressions } from './services/progressionTracker';
+import { resetLearningPathState } from './services/learningPathProgress';
 
 export const HEBREW_FONTS = [
   { id: 'noto-serif-hebrew', name: 'Noto Serif Hebrew', family: "'Noto Serif Hebrew', serif", style: 'Traditionnel • Torah' },
@@ -436,6 +437,7 @@ function App() {
     localStorage.removeItem("mishne_mikra_last_streak_date");
     localStorage.removeItem("mishne_mikra_xp");
     resetAllProgressions();
+    resetLearningPathState();
     triggerToast("Progression réinitialisée");
   };
 

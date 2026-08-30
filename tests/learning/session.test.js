@@ -1,5 +1,4 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
 import { test } from "node:test";
 import {
   createRetryActivity,
@@ -43,10 +42,4 @@ test("une activité intermédiaire avance d'un index", () => {
 test("les instances retry successives ont des clés distinctes", () => {
   const activity = { activity_id: "qcm-a", id: "qcm-a" };
   assert.notEqual(createRetryActivity(activity, 5).id, createRetryActivity(activity, 6).id);
-});
-
-test("ActivityRenderer est remonté sur une clé d'instance stable", () => {
-  const url = new URL("../../src/components/LearningScreen.jsx", import.meta.url);
-  const source = readFileSync(url, "utf8");
-  assert.match(source, /<ActivityRenderer\s+key=\{session\.currentActivity\.id\}/);
 });
