@@ -8,6 +8,7 @@ import ProfileScreen from './components/ProfileScreen';
 import QuickSettingsPopover from './components/QuickSettingsPopover';
 import SettingsModal from './components/SettingsModal';
 import { BOOKS, FALLBACK_PARAGRAPHS } from './data/books';
+import { resetAllProgressions } from './services/progressionTracker';
 
 export const HEBREW_FONTS = [
   { id: 'noto-serif-hebrew', name: 'Noto Serif Hebrew', family: "'Noto Serif Hebrew', serif", style: 'Traditionnel • Torah' },
@@ -407,29 +408,35 @@ function App() {
   };
 
   const activeBook = BOOKS.find(b => b.id === activeBookId) || BOOKS[0];
-  const todayDateStr = new Date().toISOString().split('T')[0];
-  const isDailyCompleted = lastStreakDate === todayDateStr;
-
-  const handleUpdateStreak = () => {
-    const today = new Date().toISOString().split('T')[0];
-    if (lastStreakDate === today) {
-      triggerToast("Halakha du jour déjà validée aujourd'hui !", "info");
-      return false;
-    }
-    const newStreak = streak + 1;
-    setStreak(newStreak);
-    setLastStreakDate(today);
-    localStorage.setItem("mishne_mikra_streak", newStreak);
-    localStorage.setItem("mishne_mikra_last_streak_date", today);
-    triggerToast("Streak augmenté ! 🔥");
-    return true;
-  };
-
   const handleAddXp = (amount) => {
     const newXp = xp + amount;
     setXp(newXp);
     localStorage.setItem("mishne_mikra_xp", newXp);
     triggerToast(`+${amount} XP gagnés ! 🏆`);
+  };
+
+  const handleLearningDayCompleted = () => {
+    const today = new Date().toISOString().split('T')[0];
+    if (lastStreakDate === today) return false;
+
+    const nextStreak = streak + 1;
+    setStreak(nextStreak);
+    setLastStreakDate(today);
+    localStorage.setItem("mishne_mikra_streak", nextStreak);
+    localStorage.setItem("mishne_mikra_last_streak_date", today);
+    triggerToast("Journée d'étude validée ! 🔥");
+    return true;
+  };
+
+  const handleResetProgression = () => {
+    setStreak(0);
+    setXp(0);
+    setLastStreakDate("");
+    localStorage.removeItem("mishne_mikra_streak");
+    localStorage.removeItem("mishne_mikra_last_streak_date");
+    localStorage.removeItem("mishne_mikra_xp");
+    resetAllProgressions();
+    triggerToast("Progression réinitialisée");
   };
 
   const totalSeifim = new Set(paragraphs.map(p => p.seif).filter(Boolean)).size;
@@ -572,8 +579,7 @@ function App() {
             xp={xp} 
             onAddXp={handleAddXp} 
             streak={streak} 
-            isDailyCompleted={isDailyCompleted}
-            onIncreaseStreak={handleUpdateStreak}
+            onCompleteDay={handleLearningDayCompleted}
           />
         )}
 
@@ -597,13 +603,7 @@ function App() {
             setFrenchFont={(ff) => { setFrenchFont(ff); localStorage.setItem("mishne_mikra_french_font", ff); }}
             hebrewFontsList={HEBREW_FONTS}
             frenchFontsList={FRENCH_FONTS}
-            onReset={() => {
-              setStreak(0); setXp(0); setLastStreakDate("");
-              localStorage.removeItem("mishne_mikra_streak");
-              localStorage.removeItem("mishne_mikra_last_streak_date");
-              localStorage.removeItem("mishne_mikra_xp");
-              triggerToast("Progression réinitialisée");
-            }}
+            onReset={handleResetProgression}
           />
         )}
       </main>
@@ -670,13 +670,7 @@ function App() {
           hebrewFontsList={HEBREW_FONTS}
           frenchFontsList={FRENCH_FONTS}
           onClose={() => setIsSettingsOpen(false)}
-          onReset={() => {
-            setStreak(0); setXp(0); setLastStreakDate("");
-            localStorage.removeItem("mishne_mikra_streak");
-            localStorage.removeItem("mishne_mikra_last_streak_date");
-            localStorage.removeItem("mishne_mikra_xp");
-            triggerToast("Progression réinitialisée");
-          }}
+          onReset={handleResetProgression}
         />
       )}
     </div>

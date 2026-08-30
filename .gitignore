@@ -4,6 +4,8 @@ node_modules/
 # Production build outputs
 dist/
 dist-ssr/
+test-results/
+playwright-report/
 
 # Logs
 *.log

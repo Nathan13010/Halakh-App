@@ -1,4 +1,8 @@
-// Data source for the Gamified Learning Hub (Duolingo Style)
+/**
+ * @deprecated LEGACY EN QUARANTAINE — ne pas importer dans le Learning Core.
+ * Ces données historiques ne sont pas une source pédagogique validée. Le chemin
+ * actif doit uniquement lire les activités des Knowledge JSON via knowledgeService.
+ */
 
 export const BADGES = [
   {

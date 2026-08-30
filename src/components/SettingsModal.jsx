@@ -342,7 +342,7 @@ const SettingsModal = ({
               onClick={onReset}
               className="w-full py-2.5 rounded-xl text-xs font-bold text-red-500 bg-red-50 hover:bg-red-100 dark:bg-red-500/10 dark:hover:bg-red-500/20 transition-colors cursor-pointer"
             >
-              Réinitialiser ma progression (Streak & XP)
+              Réinitialiser ma progression (Apprentissage, Streak & XP)
             </button>
           </div>
           

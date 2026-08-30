@@ -357,13 +357,13 @@ const ProfileScreen = ({
       <div className="bg-white dark:bg-zinc-900 border border-red-500/20 rounded-3xl p-6 shadow-sm space-y-3">
         <h3 className="text-xs font-bold uppercase tracking-wider text-red-500">Zone de Réinitialisation</h3>
         <p className="text-xs text-zinc-600 dark:text-zinc-400">
-          Remettre à zéro votre série de jours d'étude (Streak) et vos points d'XP.
+          Remettre à zéro votre apprentissage, votre série de jours d'étude (Streak) et vos points d'XP.
         </p>
         <button 
           onClick={onReset}
           className="w-full py-3 rounded-2xl text-xs font-bold text-red-500 bg-red-50 hover:bg-red-100 dark:bg-red-500/10 dark:hover:bg-red-500/20 transition-colors cursor-pointer"
         >
-          Réinitialiser ma progression (Streak & XP)
+          Réinitialiser ma progression (Apprentissage, Streak & XP)
         </button>
       </div>
 

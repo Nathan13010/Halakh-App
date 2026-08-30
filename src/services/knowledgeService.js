@@ -5,6 +5,8 @@
  * Il lit le fichier JSON éditorial du Siman correspondant.
  */
 
+import { getLearningSimanConfig } from "../data/learningSimans.js";
+
 const CACHE = {};
 
 export const fetchKnowledgeForSiman = async (simanId) => {
@@ -14,14 +16,8 @@ export const fetchKnowledgeForSiman = async (simanId) => {
   }
 
   try {
-    const SIMAN_FOLDER_MAP = {
-      "siman_1": "הלכות הנהגת אדם בבוקר"
-    };
-
-    const folderName = SIMAN_FOLDER_MAP[simanId] || simanId;
-    
-    // Tentative de chargement avec le dossier original
-    const response = await fetch(`/data/${folderName}/${simanId}_knowledge.json`);
+    const config = getLearningSimanConfig(simanId);
+    const response = await fetch(config.knowledgePath);
     if (!response.ok) {
       // Fallback à la racine /data/ si on aplatit l'arborescence
       const fallbackResponse = await fetch(`/data/${simanId}_knowledge.json`);

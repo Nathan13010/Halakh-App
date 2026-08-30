@@ -1,0 +1,50 @@
+name: Learning Core V1
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: learning-core-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  learning-core:
+    name: Tests, UI and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Learning Core tests
+        run: npm run test:learning
+
+      - name: Build production bundle
+        run: npm run build
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run Learning UI tests
+        run: npm run test:learning:ui
+
+      - name: Upload Playwright failure artifacts
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: learning-ui-failure-${{ github.run_id }}
+          path: test-results/learning-ui
+          if-no-files-found: ignore
+          retention-days: 7

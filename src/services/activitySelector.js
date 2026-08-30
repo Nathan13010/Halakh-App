@@ -1,186 +1,203 @@
 /**
- * activitySelector.js
- * 
- * Sélectionne et ordonne les activités pédagogiques existantes sans en générer de nouvelles.
+ * Sélectionne et ordonne les activités validées sans jamais en générer.
  */
 
-import { getKpProgression } from './progressionTracker.js';
-import { getActivitiesForKp } from './knowledgeService.js';
+import { getKpProgression } from "./progressionTracker.js";
+import { getActivitiesForKp } from "./knowledgeService.js";
+import {
+  getActivityAssessmentMode,
+  getValidatedConditionContext,
+  isObjectivelyAssessable,
+  validateActivity
+} from "./activityValidator.js";
 
 const STATUS_ORDER = {
-  "needs_review": 5,
-  "non_started": 4,
-  "learning": 3,
-  "practicing": 2,
-  "mastered": 1
+  needs_review: 5,
+  non_started: 4,
+  learning: 3,
+  practicing: 2,
+  mastered: 1
 };
 
 const LEVEL_ORDER = {
-  1: 4, 
-  2: 3, 
-  3: 2, 
+  1: 4,
+  2: 3,
+  3: 2,
   4: 1
 };
 
 const IMPORTANCE_ORDER = {
-  "essential": 4, 
-  "important": 3, 
-  "useful": 2, 
-  "reference": 1
+  essential: 4,
+  important: 3,
+  secondary: 2,
+  useful: 2,
+  reference: 1
 };
 
 export const sortKpsForSelection = (kpA, kpB) => {
-  if (STATUS_ORDER[kpA.prog.status] !== STATUS_ORDER[kpB.prog.status]) {
-    return STATUS_ORDER[kpB.prog.status] - STATUS_ORDER[kpA.prog.status];
+  const statusDifference = (STATUS_ORDER[kpB.prog.status] || 0)
+    - (STATUS_ORDER[kpA.prog.status] || 0);
+  if (statusDifference !== 0) return statusDifference;
+
+  const levelDifference = (LEVEL_ORDER[kpB.kp.learning_level] || 0)
+    - (LEVEL_ORDER[kpA.kp.learning_level] || 0);
+  if (levelDifference !== 0) return levelDifference;
+
+  const importanceDifference = (IMPORTANCE_ORDER[kpB.kp.importance] || 0)
+    - (IMPORTANCE_ORDER[kpA.kp.importance] || 0);
+  if (importanceDifference !== 0) return importanceDifference;
+
+  // A priorité égale, les KPs jamais vus ou vus le plus anciennement tournent d'abord.
+  const lastSeenDifference = (kpA.prog.last_seen || 0) - (kpB.prog.last_seen || 0);
+  if (lastSeenDifference !== 0) return lastSeenDifference;
+
+  return String(kpA.kp.id).localeCompare(String(kpB.kp.id));
+};
+
+export const getValidActivitiesForKp = (kp, { logRejected = true } = {}) => getActivitiesForKp(kp)
+  .filter((activity) => {
+    const validation = validateActivity(activity, kp);
+    if (!validation.isValid && logRejected) {
+      console.warn(`[Validator] Activité ${activity.activity_id} rejetée: ${validation.reason}`);
+    }
+    return validation.isValid;
+  });
+
+const uniqueByActivityId = (activities) => {
+  const seen = new Set();
+  return activities.filter((activity) => {
+    if (seen.has(activity.activity_id)) return false;
+    seen.add(activity.activity_id);
+    return true;
+  });
+};
+
+const pickAvoidFailed = (activities, progression, recentlyUsedIds) => {
+  const candidates = uniqueByActivityId(activities);
+  if (candidates.length === 0) return null;
+
+  const ideal = candidates.find((activity) => activity.activity_id !== progression.last_failed_activity_id
+    && !recentlyUsedIds.includes(activity.activity_id));
+  if (ideal) return ideal;
+
+  const notInQueue = candidates.find((activity) => !recentlyUsedIds.includes(activity.activity_id));
+  return notInQueue || candidates[0];
+};
+
+const normalizeActivityForUi = (rawActivity, kp) => {
+  const normalized = {
+    ...rawActivity,
+    id: rawActivity.activity_id,
+    rawType: rawActivity.type,
+    halakha_status: kp.halakha_status,
+    conditions: getValidatedConditionContext(rawActivity, kp) || undefined,
+    assessmentMode: getActivityAssessmentMode(rawActivity)
+  };
+
+  if (rawActivity.type === "flashcard") {
+    normalized.type = "card";
+    normalized.title = kp.title || rawActivity.title;
+    normalized.rule = kp.rule || rawActivity.answer;
+    normalized.explanation = kp.explanation;
+    normalized.practical_example = kp.practical_example;
+  } else if (rawActivity.type === "multiple_choice") {
+    normalized.type = "quiz";
+    normalized.correctIndex = rawActivity.options.indexOf(rawActivity.correct_answer);
+  } else if (rawActivity.type === "true_false") {
+    normalized.type = "true_false";
+    normalized.question = `Vrai ou Faux : ${rawActivity.statement}`;
+    normalized.options = ["Vrai", "Faux"];
+    normalized.correctIndex = rawActivity.is_true ? 0 : 1;
+  } else if (rawActivity.type === "practical_situation") {
+    // Le type et les champs restent intacts pour rendre ScenarioGame accessible.
+    normalized.type = "practical_situation";
+    normalized.explanation = rawActivity.explanation || kp.explanation;
   }
-  
-  const lvlA = LEVEL_ORDER[kpA.kp.learning_level] || 0;
-  const lvlB = LEVEL_ORDER[kpB.kp.learning_level] || 0;
-  if (lvlA !== lvlB) {
-    return lvlB - lvlA;
-  }
-  
-  const impA = IMPORTANCE_ORDER[kpA.kp.importance] || 0;
-  const impB = IMPORTANCE_ORDER[kpB.kp.importance] || 0;
-  return impB - impA;
+
+  return normalized;
 };
 
 export const pickActivitiesForKp = (kp, progression, recentlyUsedIds = []) => {
-  const allActs = getActivitiesForKp(kp);
-  const validActs = allActs.filter(a => a.validated === true);
-  if (validActs.length === 0) return [];
+  const validActivities = getValidActivitiesForKp(kp);
+  if (validActivities.length === 0) return [];
 
-  const flashcards = validActs.filter(a => a.type === 'flashcard');
-  const tests = validActs.filter(a => a.type === 'multiple_choice' || a.type === 'true_false');
-  const situations = validActs.filter(a => a.type === 'practical_situation');
+  const flashcards = validActivities.filter((activity) => activity.type === "flashcard");
+  const tests = validActivities.filter((activity) => ["multiple_choice", "true_false"].includes(activity.type));
+  const situations = validActivities.filter((activity) => activity.type === "practical_situation");
+  const masteredIds = new Set((progression.activities_mastered || []).map((activity) => activity.id));
+  const unmasteredTests = tests.filter((activity) => !masteredIds.has(activity.activity_id));
+  const unmasteredSituations = situations.filter((activity) => !masteredIds.has(activity.activity_id));
+  const selectedActivities = [];
 
-  const masteredActs = progression.activities_mastered || [];
-  const masteredIds = masteredActs.map(a => a.id);
-  const hasMasteredFlashcard = flashcards.some(a => masteredIds.includes(a.activity_id));
-  const hasMasteredTests = tests.some(a => masteredIds.includes(a.activity_id));
-
-  let selectedActs = [];
-
-  // Fonction pour éviter la dernière erreur (et les IDs récemment utilisés dans cette même file)
-  const pickAvoidFailed = (acts) => {
-    if (acts.length === 0) return null;
-    
-    // Idéal : on évite la dernière erreur ET les IDs déjà dans la file (au cas où on mettrait plusieurs fois le même KP)
-    let others = acts.filter(a => 
-       a.activity_id !== progression.last_failed_activity_id &&
-       !recentlyUsedIds.includes(a.activity_id)
-    );
-    
-    if (others.length > 0) {
-       // Optionnel : aléatoire parmi les dispo, ou juste le premier
-       return others[0];
-    }
-    
-    // Fallback : si on ne peut pas éviter, on autorise, 
-    // SAUF si c'est déjà dans la file actuelle (recentlyUsedIds) auquel cas on prend le premier qui n'y est pas
-    const notInQueue = acts.filter(a => !recentlyUsedIds.includes(a.activity_id));
-    if (notInQueue.length > 0) return notInQueue[0];
-    
-    return acts[0]; // Ultime fallback
-  };
-
-  // 1. Si jamais vu ou learning -> Flashcard
-  if ((progression.status === "non_started" || progression.status === "learning") && !hasMasteredFlashcard) {
-    const fc = pickAvoidFailed(flashcards);
-    if (fc) selectedActs.push(fc);
+  if (progression.status === "non_started") {
+    const flashcard = pickAvoidFailed(flashcards, progression, recentlyUsedIds);
+    if (flashcard) selectedActivities.push(flashcard);
+  } else if (progression.status === "learning" && tests.length === 0 && situations.length === 0) {
+    const flashcard = pickAvoidFailed(flashcards, progression, recentlyUsedIds);
+    if (flashcard) selectedActivities.push(flashcard);
   }
 
-  // 2. Chercher une activité de test (QCM, V/F ou Situation)
-  let testAct = null;
-  if (progression.status === "needs_review") {
-    const unmasteredTests = tests.filter(a => !masteredIds.includes(a.activity_id));
-    const unmasteredSituations = situations.filter(a => !masteredIds.includes(a.activity_id));
-    
-    testAct = pickAvoidFailed(unmasteredTests) || pickAvoidFailed(unmasteredSituations);
-    
-    if (!testAct) {
-       testAct = pickAvoidFailed(tests) || pickAvoidFailed(situations);
-    }
-  } else {
-    // Cas nominal (non_started, learning, practicing, mastered)
-    const unmasteredTests = tests.filter(a => !masteredIds.includes(a.activity_id));
-    const unmasteredSituations = situations.filter(a => !masteredIds.includes(a.activity_id));
+  const orderedCandidates = [...unmasteredTests, ...unmasteredSituations, ...tests, ...situations];
 
-    if (!hasMasteredTests && unmasteredTests.length > 0) {
-      testAct = pickAvoidFailed(unmasteredTests);
-    } else if (unmasteredSituations.length > 0) {
-      testAct = pickAvoidFailed(unmasteredSituations);
-    } else {
-      const allActive = [...tests, ...situations];
-      if (allActive.length > 0) {
-        testAct = pickAvoidFailed(allActive);
-      }
-    }
-  }
+  const testActivity = pickAvoidFailed(orderedCandidates, progression, recentlyUsedIds);
+  if (testActivity) selectedActivities.push(testActivity);
 
-  if (testAct) {
-    selectedActs.push(testAct);
-  }
+  return uniqueByActivityId(selectedActivities).map((activity) => normalizeActivityForUi(activity, kp));
+};
 
-  if (selectedActs.length === 0) return [];
-
-  // Normaliser pour l'UI
-  return selectedActs.map(rawAct => {
-    let normalizedAct = { ...rawAct, id: rawAct.activity_id, rawType: rawAct.type };
-
-    if (rawAct.type === 'flashcard') {
-      normalizedAct.type = 'card';
-      normalizedAct.title = kp.title || rawAct.title;
-      normalizedAct.rule = kp.rule || rawAct.answer;
-      normalizedAct.explanation = kp.explanation;
-      normalizedAct.practical_example = kp.practical_example;
-      normalizedAct.halakha_status = kp.halakha_status;
-    } else if (rawAct.type === 'multiple_choice') {
-      normalizedAct.type = 'quiz';
-      normalizedAct.correctIndex = rawAct.options.indexOf(rawAct.correct_answer);
-    } else if (rawAct.type === 'true_false') {
-      normalizedAct.type = 'true_false';
-      normalizedAct.question = `Vrai ou Faux : ${rawAct.statement}`;
-      normalizedAct.options = ["Vrai", "Faux"];
-      normalizedAct.correctIndex = rawAct.is_true ? 0 : 1;
-    } else if (rawAct.type === 'practical_situation') {
-      normalizedAct.type = 'card';
-      normalizedAct.title = "Cas Pratique";
-      normalizedAct.rule = `Situation : ${rawAct.situation}\n\nQuestion : ${rawAct.question}\n\nRéponse attendue : ${rawAct.answer}`;
-      normalizedAct.explanation = rawAct.explanation || kp.explanation;
-      normalizedAct.halakha_status = kp.halakha_status;
-    }
-
-    return normalizedAct;
-  });
+export const isExposureOnlyLearningKp = (kp, progression) => {
+  if (progression.status !== "learning") return false;
+  const validActivities = getValidActivitiesForKp(kp, { logRejected: false });
+  return validActivities.length > 0
+    && validActivities.every((activity) => !isObjectivelyAssessable(activity));
 };
 
 export const getQueueForSession = (knowledgeData, sessionSize = 5) => {
-  if (!knowledgeData || !knowledgeData.knowledge_points) return [];
+  if (!knowledgeData?.knowledge_points || sessionSize <= 0) return [];
 
-  // 1. Evaluer chaque KP
-  const kps = knowledgeData.knowledge_points.map(kp => ({
-    kp,
-    prog: getKpProgression(kp.id)
-  }));
+  const rankedKps = knowledgeData.knowledge_points
+    .map((kp) => ({ kp, prog: getKpProgression(kp.id) }))
+    .sort(sortKpsForSelection);
 
-  // 2. Trier selon les règles strictes
-  kps.sort(sortKpsForSelection);
-
-  // 3. Prendre les N meilleurs KP (max 5)
-  let selectedKps = kps.slice(0, sessionSize);
-
-  // 4. Assigner l'activité et construire la file
   const queue = [];
   const recentlyUsedIds = [];
-  
-  selectedKps.forEach(item => {
-    const acts = pickActivitiesForKp(item.kp, item.prog, recentlyUsedIds);
-    acts.forEach(act => {
-      queue.push(act);
-      recentlyUsedIds.push(act.id);
+  const deferredExposureOnly = [];
+  let selectedKpCount = 0;
+  let exposureOnlyCount = 0;
+
+  const appendKpActivities = (item) => {
+    const activities = pickActivitiesForKp(item.kp, item.prog, recentlyUsedIds);
+    if (activities.length === 0) return false;
+
+    activities.forEach((activity) => {
+      queue.push(activity);
+      recentlyUsedIds.push(activity.id);
     });
-  });
+    selectedKpCount += 1;
+    return true;
+  };
+
+  for (const item of rankedKps) {
+    if (selectedKpCount >= sessionSize) break;
+
+    if (isExposureOnlyLearningKp(item.kp, item.prog)) {
+      if (exposureOnlyCount >= 1) {
+        deferredExposureOnly.push(item);
+        continue;
+      }
+      if (appendKpActivities(item)) exposureOnlyCount += 1;
+      continue;
+    }
+
+    appendKpActivities(item);
+  }
+
+  // Si aucun autre contenu n'est disponible, on complète malgré tout la session
+  // avec les KPs d'exposition différés, dans l'ordre déterministe de last_seen.
+  for (const item of deferredExposureOnly) {
+    if (selectedKpCount >= sessionSize) break;
+    appendKpActivities(item);
+  }
 
   return queue;
 };

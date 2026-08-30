@@ -1,8 +1,10 @@
 /**
+ * @deprecated LEGACY EN QUARANTAINE — ne pas connecter au Learning Core.
  * pedagogyEngine.js
  * 
  * Moteur pédagogique strict.
- * Règle absolue : FIDÉLITÉ > JEU. Aucune invention de règle.
+ * Le Learning Core V1 interdit toute génération runtime et lit exclusivement
+ * les activités prévalidées des Knowledge JSON.
  */
 
 /**

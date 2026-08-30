@@ -1,3 +1,7 @@
+/**
+ * @deprecated LEGACY EN QUARANTAINE — le Learning Core actif utilise
+ * learning/ActivityRenderer et ne doit pas reconnecter ce composant.
+ */
 import React, { useState } from 'react';
 import Icon from './Icon';
 import LearningCard from './LearningCard';

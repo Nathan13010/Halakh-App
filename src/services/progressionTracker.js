@@ -1,17 +1,93 @@
 /**
- * progressionTracker.js
- * 
- * Gère l'état d'apprentissage et de maîtrise de chaque Knowledge Point.
- * Implémente les bases de la répétition espacée et la logique de maîtrise complexe.
+ * Persistance et règles de progression du Learning Core.
+ *
+ * Une preuve de maîtrise est toujours une réussite objective associée à un
+ * activity_id distinct. Les expositions (Flashcard et Situation reflective)
+ * ne peuvent donc jamais produire de maîtrise.
  */
 
 const STORAGE_KEY = "halakhapp_kp_progression";
 
+export const DEFAULT_KP_PROGRESSION = Object.freeze({
+  status: "non_started",
+  attempts: 0,
+  correct: 0,
+  wrong: 0,
+  last_seen: null,
+  last_correct: null,
+  next_review: null,
+  streak: 0,
+  activities_mastered: [],
+  activity_success_counts: {},
+  last_failed_activity_id: null
+});
+
+const VALID_STATUSES = new Set([
+  "non_started",
+  "learning",
+  "practicing",
+  "needs_review",
+  "mastered"
+]);
+
+const toSafeCounter = (value) => {
+  const number = Number(value);
+  return Number.isFinite(number) && number >= 0 ? number : 0;
+};
+
+export const normalizeKpProgression = (stored = {}) => {
+  const source = stored && typeof stored === "object" ? stored : {};
+  const uniqueMastered = [];
+  const seenActivityIds = new Set();
+
+  if (Array.isArray(source.activities_mastered)) {
+    source.activities_mastered.forEach((activity) => {
+      if (!activity || typeof activity.id !== "string" || seenActivityIds.has(activity.id)) return;
+      seenActivityIds.add(activity.id);
+      uniqueMastered.push({
+        id: activity.id,
+        type: typeof activity.type === "string" ? activity.type : "unknown"
+      });
+    });
+  }
+
+  const successCounts = {};
+  if (source.activity_success_counts && typeof source.activity_success_counts === "object") {
+    Object.entries(source.activity_success_counts).forEach(([activityId, count]) => {
+      if (activityId) successCounts[activityId] = toSafeCounter(count);
+    });
+  }
+
+  return {
+    ...DEFAULT_KP_PROGRESSION,
+    ...source,
+    status: VALID_STATUSES.has(source.status) ? source.status : DEFAULT_KP_PROGRESSION.status,
+    attempts: toSafeCounter(source.attempts),
+    correct: toSafeCounter(source.correct),
+    wrong: toSafeCounter(source.wrong),
+    streak: toSafeCounter(source.streak),
+    activities_mastered: uniqueMastered,
+    activity_success_counts: successCounts,
+    last_seen: source.last_seen ?? null,
+    last_correct: source.last_correct ?? null,
+    next_review: source.next_review ?? null,
+    last_failed_activity_id: source.last_failed_activity_id ?? null
+  };
+};
+
 export const getAllProgressions = () => {
-  if (typeof window === 'undefined') return {}; // Pour les tests côté serveur
+  if (typeof window === "undefined") return {};
+
   try {
     const saved = localStorage.getItem(STORAGE_KEY);
-    return saved ? JSON.parse(saved) : {};
+    if (!saved) return {};
+
+    const parsed = JSON.parse(saved);
+    if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return {};
+
+    return Object.fromEntries(
+      Object.entries(parsed).map(([kpId, progression]) => [kpId, normalizeKpProgression(progression)])
+    );
   } catch (error) {
     console.error("Erreur lecture progression:", error);
     return {};
@@ -19,7 +95,8 @@ export const getAllProgressions = () => {
 };
 
 const saveProgressions = (progressions) => {
-  if (typeof window === 'undefined') return;
+  if (typeof window === "undefined") return;
+
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(progressions));
   } catch (error) {
@@ -29,25 +106,13 @@ const saveProgressions = (progressions) => {
 
 export const getKpProgression = (kpId) => {
   const progressions = getAllProgressions();
-  return progressions[kpId] || {
-    status: "non_started",
-    attempts: 0,
-    correct: 0,
-    wrong: 0,
-    last_seen: null,
-    last_correct: null,
-    next_review: null,
-    streak: 0,
-    activities_mastered: [], // array d'objets { id, type }
-    activity_success_counts: {}, // map activityId -> count
-    last_failed_activity_id: null
-  };
+  return normalizeKpProgression(progressions[kpId]);
 };
 
 export const markKpAsLearning = (kpId) => {
   const progressions = getAllProgressions();
   const kpProg = getKpProgression(kpId);
-  
+
   if (kpProg.status === "non_started") {
     progressions[kpId] = {
       ...kpProg,
@@ -56,87 +121,79 @@ export const markKpAsLearning = (kpId) => {
     };
     saveProgressions(progressions);
   }
+
+  return progressions[kpId] || kpProg;
 };
 
-export const updateKpProgression = (kpId, activityId, activityType, isCorrect, availableActivityTypes = []) => {
+const isObjectiveActivityType = (activityType) => ![
+  "flashcard",
+  "card",
+  "practical_situation_reflective"
+].includes(activityType);
+
+export const updateKpProgression = (
+  kpId,
+  activityId,
+  activityType,
+  isCorrect,
+  _availableActivityTypes = []
+) => {
   const progressions = getAllProgressions();
-  const kpProg = progressions[kpId] || getKpProgression(kpId);
-  
+  const kpProg = getKpProgression(kpId);
+
   let newStatus = kpProg.status;
   let newStreak = kpProg.streak;
   let newCorrect = kpProg.correct;
   let newWrong = kpProg.wrong;
-  let newMasteredActs = [...(kpProg.activities_mastered || [])];
-  let newSuccessCounts = { ...(kpProg.activity_success_counts || {}) };
-  
-  kpProg.attempts = (kpProg.attempts || 0) + 1;
-  kpProg.last_seen = Date.now();
+  let lastCorrect = kpProg.last_correct;
+  let lastFailedActivityId = kpProg.last_failed_activity_id;
+  const newMasteredActs = [...kpProg.activities_mastered];
+  const newSuccessCounts = { ...kpProg.activity_success_counts };
 
-  if (isCorrect) {
+  if (isCorrect === true) {
     newCorrect += 1;
     newStreak += 1;
-    kpProg.last_correct = Date.now();
-    kpProg.last_failed_activity_id = null; // Reset de la dernière erreur sur réussite ? Non, gardons-le pour éviter les répétitions si besoin, mais on le clear pas forcément.
-    
-    // Une flashcard ne compte pas pour la maîtrise "active"
-    if (activityType !== 'flashcard' && activityType !== 'card') {
+    lastCorrect = Date.now();
+    lastFailedActivityId = null;
+
+    if (isObjectiveActivityType(activityType)) {
       newSuccessCounts[activityId] = (newSuccessCounts[activityId] || 0) + 1;
-      if (!newMasteredActs.some(a => a.id === activityId)) {
+
+      if (!newMasteredActs.some((activity) => activity.id === activityId)) {
         newMasteredActs.push({ id: activityId, type: activityType });
       }
-    }
 
-    // Evaluation de la maîtrise
-    const typesMastered = [...new Set(newMasteredActs.map(a => a.type))];
-    const hasSituation = typesMastered.includes('practical_situation');
-    
-    const hasOtherThanFlashcard = availableActivityTypes.some(t => t !== 'flashcard' && t !== 'card');
-
-    if (!hasOtherThanFlashcard) {
-      // S'il n'y a QUE des flashcards pour ce KP (très rare dans V2)
-      newStatus = "practicing";
-    } else if (typesMastered.length >= 2) {
-      // 2 types différents réussis = mastered
-      newStatus = "mastered";
-    } else if (typesMastered.length === 1) {
-      // 1 type différent de flashcard réussi
-      const totalSuccessOnActive = Object.values(newSuccessCounts).reduce((a, b) => a + b, 0);
-      if (hasSituation) {
-        // La situation a un poids très élevé, une seule peut suffire si pas d'autres types
-        newStatus = "mastered";
-      } else if (totalSuccessOnActive >= 2) {
-        // QCM ou V/F nécessite au moins 2 réussites distinctes
-        newStatus = "mastered";
-      } else {
-        newStatus = "practicing";
-      }
-    } else {
-      newStatus = "practicing";
+      newStatus = newMasteredActs.length >= 2 ? "mastered" : "practicing";
     }
-  } else {
-    // ERREUR
+  } else if (isCorrect === false) {
     newWrong += 1;
-    newStreak = 0; // Remise à zéro
+    newStreak = 0;
     newStatus = "needs_review";
-    kpProg.last_failed_activity_id = activityId;
+    lastFailedActivityId = activityId;
+  } else if (activityType === "flashcard" && kpProg.status === "non_started") {
+    // La découverte n'est enregistrée qu'au clic final de la Flashcard.
+    newStatus = "learning";
   }
 
-  progressions[kpId] = {
+  progressions[kpId] = normalizeKpProgression({
     ...kpProg,
     status: newStatus,
+    attempts: kpProg.attempts + 1,
     correct: newCorrect,
     wrong: newWrong,
     streak: newStreak,
+    last_seen: Date.now(),
+    last_correct: lastCorrect,
     activities_mastered: newMasteredActs,
-    activity_success_counts: newSuccessCounts
-  };
+    activity_success_counts: newSuccessCounts,
+    last_failed_activity_id: lastFailedActivityId
+  });
 
   saveProgressions(progressions);
   return progressions[kpId];
 };
 
-// Pour les tests
 export const resetAllProgressions = () => {
-  if (typeof window === 'undefined') return;
+  if (typeof window === "undefined") return;
   localStorage.removeItem(STORAGE_KEY);
 };
