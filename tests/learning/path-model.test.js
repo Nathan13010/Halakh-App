@@ -175,6 +175,27 @@ test("toutes les questions restent directes et toutes les réponses sont courtes
   }
 });
 
+test("les leçons 4 à 26 n'utilisent plus le matching automatique", () => {
+  const curriculum = buildCurriculum(1);
+  const rewrittenLessons = curriculum.lessons.slice(3);
+  const fillText = /Cette phrase donne l'idée principale|référence complète est disponible/i;
+
+  rewrittenLessons.forEach((lesson) => {
+    assert.ok(lesson.questions.some((question) => question.eyebrow === "Cas pratique"));
+    lesson.questions.forEach((question) => {
+      assert.doesNotMatch(question.prompt, /^Que signifie «/i);
+      assert.ok(new Set(question.options).size === question.options.length);
+      assert.doesNotMatch(question.explanation, fillText);
+    });
+    lesson.items.forEach((item) => assert.doesNotMatch(item.explanation, fillText));
+  });
+
+  rewrittenLessons.slice(0, -1).forEach((lesson) => {
+    assert.ok(lesson.questions.some((question) => question.kind === "true_false"));
+    assert.ok(lesson.questions.some((question) => question.kind === "quick_choice"));
+  });
+});
+
 test("chaque notion ouvre sa référence française, sans jargon Seif, et le vocabulaire apparaît au maximum deux fois", () => {
   for (const simanNumber of [1, 2, 3]) {
     const curriculum = buildCurriculum(simanNumber);

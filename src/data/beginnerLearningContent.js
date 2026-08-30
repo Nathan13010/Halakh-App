@@ -1,4 +1,5 @@
 import { getLearningQuizOverride } from "./learningQuizContent.js";
+import { getSiman1LearningRewrite } from "./siman1LearningRewrite.js";
 
 const CONTENT_OVERRIDES = Object.freeze({
   "s1-kp-004": Object.freeze({
@@ -165,13 +166,15 @@ const fallbackExplanation = (coreText) => {
 export const getBeginnerLearningContent = (kp, sourceText) => {
   const override = CONTENT_OVERRIDES[kp?.id];
   const quizOverride = getLearningQuizOverride(kp?.id) || {};
-  if (override) return { ...quizOverride, ...override };
+  const simanRewrite = getSiman1LearningRewrite(kp?.id) || {};
+  if (override) return { ...quizOverride, ...simanRewrite, ...override };
 
   const simpleText = removeLearningJargon(kp?.pedagogy?.simple_explanation || sourceText);
   const explanation = removeLearningJargon(kp?.explanation);
   return {
     ...quizOverride,
+    ...simanRewrite,
     coreText: simpleText,
-    explanation: explanation || fallbackExplanation(simpleText)
+    explanation: simanRewrite.explanation || explanation || fallbackExplanation(simpleText)
   };
 };

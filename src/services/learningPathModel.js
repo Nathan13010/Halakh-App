@@ -193,6 +193,8 @@ export const createLearningItem = (kp, sourceIndex = new Map()) => {
     quizAnswer: beginnerContent.quizAnswer || compactQuizAnswer(coreText),
     quizOptions: beginnerContent.quizOptions || null,
     quizTrueFalse: beginnerContent.quizTrueFalse || null,
+    quizExplanation: beginnerContent.quizExplanation || null,
+    quizEyebrow: beginnerContent.quizEyebrow || null,
     halakhaStatus: kp.halakha_status || "unclassified",
     needsEditorialReview: kp?.pedagogy?.human_review_required === true
   };
@@ -238,12 +240,12 @@ const createQuickChoiceQuestion = (item, optionPool, scopeId) => ({
   knowledgePointId: item.id,
   sourceParagraph: item.sourceParagraph,
   kind: "quick_choice",
-  eyebrow: "QCM",
+  eyebrow: item.quizEyebrow || "QCM",
   prompt: item.quizPrompt,
   context: null,
   options: getQuizOptions(item, optionPool, `${scopeId}-${item.id}-quick-choice`),
   correctAnswer: item.quizAnswer,
-  explanation: `Bonne réponse : ${item.quizAnswer}`,
+  explanation: item.quizExplanation || `Bonne réponse : ${item.quizAnswer}`,
   provenance: "learned_rules_only"
 });
 
@@ -257,7 +259,7 @@ const createTrueFalseQuestion = (item, scopeId) => ({
   context: null,
   options: ["Vrai", "Faux"],
   correctAnswer: item.quizTrueFalse.answer,
-  explanation: `À retenir : ${item.quizAnswer}`,
+  explanation: item.quizExplanation || `À retenir : ${item.quizAnswer}`,
   provenance: "learned_rules_only"
 });
 
