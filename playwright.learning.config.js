@@ -1,6 +1,7 @@
 import { defineConfig } from "playwright/test";
 
-const browserChannel = process.env.CI ? {} : { channel: "msedge" };
+const useBundledChromium = Boolean(process.env.CI || process.env.PLAYWRIGHT_USE_CHROMIUM);
+const browserChannel = useBundledChromium ? {} : { channel: "msedge" };
 
 export default defineConfig({
   testDir: "./tests/learning-ui",

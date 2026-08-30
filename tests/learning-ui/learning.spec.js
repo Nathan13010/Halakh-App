@@ -35,15 +35,37 @@ const readProgression = (page, kpId) => page.evaluate((id) => {
   return all[id];
 }, kpId);
 
+const waitForNextActivityOrCompletion = async (page, previousInstanceId) => {
+  const getState = async () => {
+    if (await page.getByText("Session complétée", { exact: true }).isVisible().catch(() => false)) {
+      return "complete";
+    }
+
+    const renderer = page.getByTestId("activity-renderer");
+    if (!await renderer.isVisible().catch(() => false)) return "transitioning";
+    const instanceId = await renderer.getAttribute("data-instance-id");
+    return instanceId && instanceId !== previousInstanceId ? "activity" : "transitioning";
+  };
+
+  await expect.poll(getState, { timeout: 10_000 }).not.toBe("transitioning");
+  return getState();
+};
+
 const completeCurrentActivityCorrectly = async (page) => {
+  if (await page.getByText("Session complétée", { exact: true }).isVisible().catch(() => false)) {
+    return "complete";
+  }
+
   const renderer = page.getByTestId("activity-renderer");
+  await expect(renderer).toBeVisible();
   const activityId = await renderer.getAttribute("data-activity-id");
+  const instanceId = await renderer.getAttribute("data-instance-id");
   const rawType = await renderer.getAttribute("data-raw-type");
   const sourceActivity = activitiesById.get(activityId);
 
   if (rawType === "flashcard") {
     await page.getByRole("button", { name: "J'ai compris" }).click();
-    return;
+    return waitForNextActivityOrCompletion(page, instanceId);
   }
 
   if (rawType === "multiple_choice") {
@@ -51,14 +73,14 @@ const completeCurrentActivityCorrectly = async (page) => {
       .getByText(sourceActivity.correct_answer, { exact: true })
       .click();
     await page.getByTestId("classic-quiz").getByRole("button", { name: /Continuer/ }).click();
-    return;
+    return waitForNextActivityOrCompletion(page, instanceId);
   }
 
   if (rawType === "true_false") {
     const answer = sourceActivity.is_true ? "VRAI" : "FAUX";
     await page.getByTestId("swipe-game").getByRole("button", { name: answer, exact: true }).click();
     await page.getByTestId("swipe-game").getByRole("button", { name: /Continuer/ }).click();
-    return;
+    return waitForNextActivityOrCompletion(page, instanceId);
   }
 
   if (rawType === "practical_situation") {
@@ -70,7 +92,7 @@ const completeCurrentActivityCorrectly = async (page) => {
       await scenario.getByRole("button", { name: /Révéler la conduite/ }).click();
     }
     await scenario.getByRole("button", { name: /Continuer/ }).click();
-    return;
+    return waitForNextActivityOrCompletion(page, instanceId);
   }
 
   throw new Error(`Type UI inattendu: ${rawType}`);
@@ -94,8 +116,7 @@ test("parcours complet, persistance et fin de session", async ({ page }) => {
   expect((await readProgression(page, firstKpId)).status).toBe("learning");
 
   for (let step = 0; step < 20; step += 1) {
-    if (await page.getByText("Session complétée", { exact: true }).isVisible().catch(() => false)) break;
-    await completeCurrentActivityCorrectly(page);
+    if (await completeCurrentActivityCorrectly(page) === "complete") break;
   }
 
   await expect(page.getByText("Session complétée", { exact: true })).toBeVisible();
@@ -162,8 +183,7 @@ test("desktop: une session objective crédite et persiste les XP", async ({ page
 
   await openLearning(page, progressions);
   for (let step = 0; step < 10; step += 1) {
-    if (await page.getByText("Session complétée", { exact: true }).isVisible().catch(() => false)) break;
-    await completeCurrentActivityCorrectly(page);
+    if (await completeCurrentActivityCorrectly(page) === "complete") break;
   }
 
   await expect(page.getByText("Session complétée", { exact: true })).toBeVisible();
