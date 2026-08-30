@@ -2,9 +2,22 @@
 
 ## État actuel
 
-Un seul Knowledge JSON validé est disponible : `siman_1_knowledge.json`.
-Aucun deuxième Siman ne doit être activé à partir des fichiers `siman_N.json`
-de lecture : ils ne remplacent pas un Knowledge JSON éditorial validé.
+Les Simanim 1, 2 et 3 sont déclarés dans le manifeste Learning.
+
+- Le Siman 1 conserve son Knowledge JSON éditorial complet.
+- Les Simanim 2 et 3 utilisent un pilote d'exposition fidèle à la source :
+  un Knowledge Point et une flashcard par סעיף, reprenant sans reformulation la
+  traduction française du fichier de lecture.
+- Ces deux pilotes portent `human_review_required: true` et
+  `pilot_scope: source_exposure_only`. Leur progression mesure les סעיפים déjà
+  exposés, et non une maîtrise objective. Ils ne fournissent volontairement ni
+  QCM, ni vrai/faux, ni situation pratique avant la revue éditoriale.
+
+Les pilotes sont reproductibles avec :
+
+```bash
+node scripts/generate-learning-pilot.cjs
+```
 
 ## Conditions d'entrée d'un nouveau Siman
 
@@ -37,8 +50,9 @@ conditions suivantes :
    npm run build
    ```
 
-5. Ne rendre le Siman sélectionnable dans le produit qu'après réussite des
-   trois gates et validation humaine du rapport de contenu.
+5. Une projection exacte de la source peut être rendue sélectionnable comme
+   pilote d'exposition si elle est clairement identifiée comme telle. Les
+   activités objectives restent interdites avant validation éditoriale.
 
 ## Politique d'échec
 

@@ -1,6 +1,12 @@
 import React from 'react';
 
 const LearningCard = ({ activity }) => {
+  const statusLabels = {
+    conditional: 'Règle conditionnelle',
+    multiple_opinions: 'Divergence d\'opinions',
+    unclassified: 'Pilote source à revoir'
+  };
+
   return (
     <div className="space-y-4 animate-fade-in">
       <div className="inline-block text-[10px] font-mono font-bold uppercase tracking-widest text-emerald-700 dark:text-emerald-500 bg-emerald-500/10 px-2.5 py-1 rounded-full border border-emerald-500/20">
@@ -38,7 +44,7 @@ const LearningCard = ({ activity }) => {
       {activity.halakha_status && activity.halakha_status !== 'clear' && (
         <div className="flex items-center gap-2 mt-4 text-xs font-bold text-rose-600 dark:text-rose-400 bg-rose-50 dark:bg-rose-900/20 px-3 py-2 rounded-lg">
           <span className="text-base">⚠️</span>
-          {activity.halakha_status === 'multiple_opinions' ? 'Divergence d\'opinions' : 'Règle Conditionnelle'}
+          {statusLabels[activity.halakha_status] || `Statut : ${activity.halakha_status}`}
         </div>
       )}
     </div>

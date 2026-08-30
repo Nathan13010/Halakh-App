@@ -1,0 +1,1362 @@
+{
+  "meta": {
+    "siman": 2,
+    "siman_hebrew": "ב",
+    "title": "Lois de l'habillement et de la conduite du matin",
+    "title_hebrew": "הלכות לבישת בגדים והנהגת הבוקר",
+    "source": "siman_2.json",
+    "source_seifim": 28,
+    "knowledge_points": 28,
+    "version": "pilot-1.0",
+    "method": "direct source-grounded seif projection",
+    "learning_mode": "exposure_only",
+    "review_status": "pilot_needs_human_editorial_review",
+    "external_sources_used": false
+  },
+  "knowledge_points": [
+    {
+      "id": "s2-kp-001",
+      "title": "Pudeur en s'habillant et se déshabillant",
+      "rule": "1. On veillera à faire preuve de pudeur en s'habillant ou en se déshabillant, et l'on ne dira pas : \"Je suis dans la pièce la plus reculée, qui me voit ?\", car la gloire du Saint béni soit-Il emplit toute la terre. Tout ce qui est habituellement couvert doit être traité avec pudeur pour ne pas être dévoilé, par respect pour l'Éternel. On se hâtera de se lever avec zèle et de s'habiller. Il convient d'habituer l'enfant en âge de comprendre, dès son plus jeune âge, à s'habiller avec pudeur. [Yalkout Yossef, Lois du lever du matin, édition 5764, p. 207].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "1. On veillera à faire preuve de pudeur en s'habillant ou en se déshabillant, et l'on ne dira pas : \"Je suis dans la pièce la plus reculée, qui me voit ?\", car la gloire du Saint béni soit-Il emplit toute la terre. Tout ce qui est habituellement couvert doit être traité avec pudeur pour ne pas être dévoilé, par respect pour l'Éternel. On se hâtera de se lever avec zèle et de s'habiller. Il convient d'habituer l'enfant en âge de comprendre, dès son plus jeune âge, à s'habiller avec pudeur. [Yalkout Yossef, Lois du lever du matin, édition 5764, p. 207].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "1"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "1"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 1 : Pudeur en s'habillant et se déshabillant",
+        "simple_explanation": "1. On veillera à faire preuve de pudeur en s'habillant ou en se déshabillant, et l'on ne dira pas : \"Je suis dans la pièce la plus reculée, qui me voit ?\", car la gloire du Saint béni soit-Il emplit toute la terre. Tout ce qui est habituellement couvert doit être traité avec pudeur pour ne pas être dévoilé, par respect pour l'Éternel. On se hâtera de se lever avec zèle et de s'habiller. Il convient d'habituer l'enfant en âge de comprendre, dès son plus jeune âge, à s'habiller avec pudeur. [Yalkout Yossef, Lois du lever du matin, édition 5764, p. 207].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-001-flashcard-01",
+            "knowledge_point_id": "s2-kp-001",
+            "source_seif": "1",
+            "title": "Pudeur en s'habillant et se déshabillant",
+            "question": "Que présente le סעיף 1 concernant « Pudeur en s'habillant et se déshabillant » ?",
+            "answer": "1. On veillera à faire preuve de pudeur en s'habillant ou en se déshabillant, et l'on ne dira pas : \"Je suis dans la pièce la plus reculée, qui me voit ?\", car la gloire du Saint béni soit-Il emplit toute la terre. Tout ce qui est habituellement couvert doit être traité avec pudeur pour ne pas être dévoilé, par respect pour l'Éternel. On se hâtera de se lever avec zèle et de s'habiller. Il convient d'habituer l'enfant en âge de comprendre, dès son plus jeune âge, à s'habiller avec pudeur. [Yalkout Yossef, Lois du lever du matin, édition 5764, p. 207].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-002",
+      "title": "Pudeur dans les lieux de baignade",
+      "rule": "2. Même dans un endroit où il est impossible de ne pas découvrir son corps, comme dans des bains publics, ou lorsqu'on se baigne dans un fleuve ou à la mer, on s'efforcera dans la mesure du possible de ne pas marcher le corps découvert sans nécessité. On veillera à se déshabiller et à se rhabiller le plus près possible de l'endroit où l'on se baigne. [Yalkout Yossef, Lever du matin 5764, p. 211].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "2. Même dans un endroit où il est impossible de ne pas découvrir son corps, comme dans des bains publics, ou lorsqu'on se baigne dans un fleuve ou à la mer, on s'efforcera dans la mesure du possible de ne pas marcher le corps découvert sans nécessité. On veillera à se déshabiller et à se rhabiller le plus près possible de l'endroit où l'on se baigne. [Yalkout Yossef, Lever du matin 5764, p. 211].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "2"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "2"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 2 : Pudeur dans les lieux de baignade",
+        "simple_explanation": "2. Même dans un endroit où il est impossible de ne pas découvrir son corps, comme dans des bains publics, ou lorsqu'on se baigne dans un fleuve ou à la mer, on s'efforcera dans la mesure du possible de ne pas marcher le corps découvert sans nécessité. On veillera à se déshabiller et à se rhabiller le plus près possible de l'endroit où l'on se baigne. [Yalkout Yossef, Lever du matin 5764, p. 211].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-002-flashcard-01",
+            "knowledge_point_id": "s2-kp-002",
+            "source_seif": "2",
+            "title": "Pudeur dans les lieux de baignade",
+            "question": "Que présente le סעיף 2 concernant « Pudeur dans les lieux de baignade » ?",
+            "answer": "2. Même dans un endroit où il est impossible de ne pas découvrir son corps, comme dans des bains publics, ou lorsqu'on se baigne dans un fleuve ou à la mer, on s'efforcera dans la mesure du possible de ne pas marcher le corps découvert sans nécessité. On veillera à se déshabiller et à se rhabiller le plus près possible de l'endroit où l'on se baigne. [Yalkout Yossef, Lever du matin 5764, p. 211].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-003",
+      "title": "Soin des vêtements et tenues à l'endroit",
+      "rule": "3. On veillera à ne pas porter ses vêtements de manière à se rendre méprisable aux yeux d'autrui, car quiconque ne trouve pas grâce aux yeux des hommes ne trouve pas grâce aux yeux de Dieu, et sa prière n'est pas acceptée par l'Éternel. C'est pourquoi, en s'habillant, on fera attention à ne pas mettre son vêtement à l'envers, laissant les coutures apparentes. Il faut y veiller scrupuleusement, même pour les sous-vêtements, car outre la raison mentionnée, porter un vêtement à l'envers provoque l'oubli. [Yalkout Yossef, Lois du lever du matin, 5764, p. 211].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "3. On veillera à ne pas porter ses vêtements de manière à se rendre méprisable aux yeux d'autrui, car quiconque ne trouve pas grâce aux yeux des hommes ne trouve pas grâce aux yeux de Dieu, et sa prière n'est pas acceptée par l'Éternel. C'est pourquoi, en s'habillant, on fera attention à ne pas mettre son vêtement à l'envers, laissant les coutures apparentes. Il faut y veiller scrupuleusement, même pour les sous-vêtements, car outre la raison mentionnée, porter un vêtement à l'envers provoque l'oubli. [Yalkout Yossef, Lois du lever du matin, 5764, p. 211].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "3"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "3"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 3 : Soin des vêtements et tenues à l'endroit",
+        "simple_explanation": "3. On veillera à ne pas porter ses vêtements de manière à se rendre méprisable aux yeux d'autrui, car quiconque ne trouve pas grâce aux yeux des hommes ne trouve pas grâce aux yeux de Dieu, et sa prière n'est pas acceptée par l'Éternel. C'est pourquoi, en s'habillant, on fera attention à ne pas mettre son vêtement à l'envers, laissant les coutures apparentes. Il faut y veiller scrupuleusement, même pour les sous-vêtements, car outre la raison mentionnée, porter un vêtement à l'envers provoque l'oubli. [Yalkout Yossef, Lois du lever du matin, 5764, p. 211].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-003-flashcard-01",
+            "knowledge_point_id": "s2-kp-003",
+            "source_seif": "3",
+            "title": "Soin des vêtements et tenues à l'endroit",
+            "question": "Que présente le סעיף 3 concernant « Soin des vêtements et tenues à l'endroit » ?",
+            "answer": "3. On veillera à ne pas porter ses vêtements de manière à se rendre méprisable aux yeux d'autrui, car quiconque ne trouve pas grâce aux yeux des hommes ne trouve pas grâce aux yeux de Dieu, et sa prière n'est pas acceptée par l'Éternel. C'est pourquoi, en s'habillant, on fera attention à ne pas mettre son vêtement à l'envers, laissant les coutures apparentes. Il faut y veiller scrupuleusement, même pour les sous-vêtements, car outre la raison mentionnée, porter un vêtement à l'envers provoque l'oubli. [Yalkout Yossef, Lois du lever du matin, 5764, p. 211].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-004",
+      "title": "Propreté vestimentaire des érudits en Torah",
+      "rule": "4. De même, on veillera à ce qu'aucune mauvaise odeur ne se dégage de ses vêtements, et on agira en toutes choses selon les normes de bienséance. Les étudiants en Torah y prêteront une attention toute particulière, afin que l'on ne dise pas à leur sujet : \"Malheur aux étudiants en Torah qui sont repoussants et méprisables\". Le Rambam a écrit : \"Le vêtement d'un érudit en Torah doit être beau et propre. Il lui est interdit d'avoir sur son vêtement une tache, de la graisse ou similaire. Il ne portera ni des vêtements royaux qui attirent tous les regards, ni des vêtements de pauvres qui déshonorent ceux qui les portent, mais de beaux vêtements de qualité moyenne\". [Rambam].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "4. De même, on veillera à ce qu'aucune mauvaise odeur ne se dégage de ses vêtements, et on agira en toutes choses selon les normes de bienséance. Les étudiants en Torah y prêteront une attention toute particulière, afin que l'on ne dise pas à leur sujet : \"Malheur aux étudiants en Torah qui sont repoussants et méprisables\". Le Rambam a écrit : \"Le vêtement d'un érudit en Torah doit être beau et propre. Il lui est interdit d'avoir sur son vêtement une tache, de la graisse ou similaire. Il ne portera ni des vêtements royaux qui attirent tous les regards, ni des vêtements de pauvres qui déshonorent ceux qui les portent, mais de beaux vêtements de qualité moyenne\". [Rambam].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "4"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "4"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 4 : Propreté vestimentaire des érudits en Torah",
+        "simple_explanation": "4. De même, on veillera à ce qu'aucune mauvaise odeur ne se dégage de ses vêtements, et on agira en toutes choses selon les normes de bienséance. Les étudiants en Torah y prêteront une attention toute particulière, afin que l'on ne dise pas à leur sujet : \"Malheur aux étudiants en Torah qui sont repoussants et méprisables\". Le Rambam a écrit : \"Le vêtement d'un érudit en Torah doit être beau et propre. Il lui est interdit d'avoir sur son vêtement une tache, de la graisse ou similaire. Il ne portera ni des vêtements royaux qui attirent tous les regards, ni des vêtements de pauvres qui déshonorent ceux qui les portent, mais de beaux vêtements de qualité moyenne\". [Rambam].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-004-flashcard-01",
+            "knowledge_point_id": "s2-kp-004",
+            "source_seif": "4",
+            "title": "Propreté vestimentaire des érudits en Torah",
+            "question": "Que présente le סעיף 4 concernant « Propreté vestimentaire des érudits en Torah » ?",
+            "answer": "4. De même, on veillera à ce qu'aucune mauvaise odeur ne se dégage de ses vêtements, et on agira en toutes choses selon les normes de bienséance. Les étudiants en Torah y prêteront une attention toute particulière, afin que l'on ne dise pas à leur sujet : \"Malheur aux étudiants en Torah qui sont repoussants et méprisables\". Le Rambam a écrit : \"Le vêtement d'un érudit en Torah doit être beau et propre. Il lui est interdit d'avoir sur son vêtement une tache, de la graisse ou similaire. Il ne portera ni des vêtements royaux qui attirent tous les regards, ni des vêtements de pauvres qui déshonorent ceux qui les portent, mais de beaux vêtements de qualité moyenne\". [Rambam].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-005",
+      "title": "Ordre pour s'habiller et se déshabiller",
+      "rule": "5. Lorsqu'on s'habille [ou que l'on se lave], il est juste de commencer par la tête, car la tête est le roi de tous les membres. De même, on donnera la priorité à la droite, car nous voyons à plusieurs endroits dans la Torah que la droite a une importance supérieure. En revanche, pour se déshabiller ou se déchausser, on commencera par retirer le côté gauche, et par enlever la chaussure gauche, par respect pour la droite. [Chéérit Yossef vol. 1 p. 19, et Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "5. Lorsqu'on s'habille [ou que l'on se lave], il est juste de commencer par la tête, car la tête est le roi de tous les membres. De même, on donnera la priorité à la droite, car nous voyons à plusieurs endroits dans la Torah que la droite a une importance supérieure. En revanche, pour se déshabiller ou se déchausser, on commencera par retirer le côté gauche, et par enlever la chaussure gauche, par respect pour la droite. [Chéérit Yossef vol. 1 p. 19, et Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "5"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "5"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 5 : Ordre pour s'habiller et se déshabiller",
+        "simple_explanation": "5. Lorsqu'on s'habille [ou que l'on se lave], il est juste de commencer par la tête, car la tête est le roi de tous les membres. De même, on donnera la priorité à la droite, car nous voyons à plusieurs endroits dans la Torah que la droite a une importance supérieure. En revanche, pour se déshabiller ou se déchausser, on commencera par retirer le côté gauche, et par enlever la chaussure gauche, par respect pour la droite. [Chéérit Yossef vol. 1 p. 19, et Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-005-flashcard-01",
+            "knowledge_point_id": "s2-kp-005",
+            "source_seif": "5",
+            "title": "Ordre pour s'habiller et se déshabiller",
+            "question": "Que présente le סעיף 5 concernant « Ordre pour s'habiller et se déshabiller » ?",
+            "answer": "5. Lorsqu'on s'habille [ou que l'on se lave], il est juste de commencer par la tête, car la tête est le roi de tous les membres. De même, on donnera la priorité à la droite, car nous voyons à plusieurs endroits dans la Torah que la droite a une importance supérieure. En revanche, pour se déshabiller ou se déchausser, on commencera par retirer le côté gauche, et par enlever la chaussure gauche, par respect pour la droite. [Chéérit Yossef vol. 1 p. 19, et Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-006",
+      "title": "Ordre pour chausser et lacer ses souliers",
+      "rule": "6. Lorsqu'on met ses chaussures, on enfilera d'abord la droite sans la lacer. Ensuite, on enfilera la gauche et on la lacera, puis on reviendra à la droite pour la lacer. La raison pour laquelle on lace la gauche en premier est qu'en matière de nouage, la Torah a accordé de l'importance au côté gauche, sur lequel on attache les Téfilines. Certains disent que c'est pour soumettre le mauvais penchant, qui réside à gauche. Pour les chaussures sans lacets, on enfilera d'abord la droite puis la gauche. Pour se déchausser, on retirera d'abord la gauche puis la droite. Lors du délaçage, il convient également de détacher les lacets de la gauche en premier, puis ceux de la droite. [Chéérit Yossef, Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "6. Lorsqu'on met ses chaussures, on enfilera d'abord la droite sans la lacer. Ensuite, on enfilera la gauche et on la lacera, puis on reviendra à la droite pour la lacer. La raison pour laquelle on lace la gauche en premier est qu'en matière de nouage, la Torah a accordé de l'importance au côté gauche, sur lequel on attache les Téfilines. Certains disent que c'est pour soumettre le mauvais penchant, qui réside à gauche. Pour les chaussures sans lacets, on enfilera d'abord la droite puis la gauche. Pour se déchausser, on retirera d'abord la gauche puis la droite. Lors du délaçage, il convient également de détacher les lacets de la gauche en premier, puis ceux de la droite. [Chéérit Yossef, Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "6"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "6"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 6 : Ordre pour chausser et lacer ses souliers",
+        "simple_explanation": "6. Lorsqu'on met ses chaussures, on enfilera d'abord la droite sans la lacer. Ensuite, on enfilera la gauche et on la lacera, puis on reviendra à la droite pour la lacer. La raison pour laquelle on lace la gauche en premier est qu'en matière de nouage, la Torah a accordé de l'importance au côté gauche, sur lequel on attache les Téfilines. Certains disent que c'est pour soumettre le mauvais penchant, qui réside à gauche. Pour les chaussures sans lacets, on enfilera d'abord la droite puis la gauche. Pour se déchausser, on retirera d'abord la gauche puis la droite. Lors du délaçage, il convient également de détacher les lacets de la gauche en premier, puis ceux de la droite. [Chéérit Yossef, Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-006-flashcard-01",
+            "knowledge_point_id": "s2-kp-006",
+            "source_seif": "6",
+            "title": "Ordre pour chausser et lacer ses souliers",
+            "question": "Que présente le סעיף 6 concernant « Ordre pour chausser et lacer ses souliers » ?",
+            "answer": "6. Lorsqu'on met ses chaussures, on enfilera d'abord la droite sans la lacer. Ensuite, on enfilera la gauche et on la lacera, puis on reviendra à la droite pour la lacer. La raison pour laquelle on lace la gauche en premier est qu'en matière de nouage, la Torah a accordé de l'importance au côté gauche, sur lequel on attache les Téfilines. Certains disent que c'est pour soumettre le mauvais penchant, qui réside à gauche. Pour les chaussures sans lacets, on enfilera d'abord la droite puis la gauche. Pour se déchausser, on retirera d'abord la gauche puis la droite. Lors du délaçage, il convient également de détacher les lacets de la gauche en premier, puis ceux de la droite. [Chéérit Yossef, Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-007",
+      "title": "Façon de se chausser pour un gaucher",
+      "rule": "7. Un gaucher, qui met les Téfilines sur le bras droit [contrairement à la majorité], enfilera ses chaussures comme tout le monde : d'abord la droite, puis la gauche. Concernant le laçage, certains avis disent qu'il doit lacer la chaussure gauche en premier, comme tout le monde. D'autres estiment qu'il doit lacer la droite en premier, puisque c'est sur ce bras qu'il met les Téfilines. La Halakha retient le premier avis. Cependant, une personne gauchère de la main et du pied, ou uniquement du pied, enfilera et lacera la droite en premier. [Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "7. Un gaucher, qui met les Téfilines sur le bras droit [contrairement à la majorité], enfilera ses chaussures comme tout le monde : d'abord la droite, puis la gauche. Concernant le laçage, certains avis disent qu'il doit lacer la chaussure gauche en premier, comme tout le monde. D'autres estiment qu'il doit lacer la droite en premier, puisque c'est sur ce bras qu'il met les Téfilines. La Halakha retient le premier avis. Cependant, une personne gauchère de la main et du pied, ou uniquement du pied, enfilera et lacera la droite en premier. [Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "7"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "7"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 7 : Façon de se chausser pour un gaucher",
+        "simple_explanation": "7. Un gaucher, qui met les Téfilines sur le bras droit [contrairement à la majorité], enfilera ses chaussures comme tout le monde : d'abord la droite, puis la gauche. Concernant le laçage, certains avis disent qu'il doit lacer la chaussure gauche en premier, comme tout le monde. D'autres estiment qu'il doit lacer la droite en premier, puisque c'est sur ce bras qu'il met les Téfilines. La Halakha retient le premier avis. Cependant, une personne gauchère de la main et du pied, ou uniquement du pied, enfilera et lacera la droite en premier. [Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-007-flashcard-01",
+            "knowledge_point_id": "s2-kp-007",
+            "source_seif": "7",
+            "title": "Façon de se chausser pour un gaucher",
+            "question": "Que présente le סעיף 7 concernant « Façon de se chausser pour un gaucher » ?",
+            "answer": "7. Un gaucher, qui met les Téfilines sur le bras droit [contrairement à la majorité], enfilera ses chaussures comme tout le monde : d'abord la droite, puis la gauche. Concernant le laçage, certains avis disent qu'il doit lacer la chaussure gauche en premier, comme tout le monde. D'autres estiment qu'il doit lacer la droite en premier, puisque c'est sur ce bras qu'il met les Téfilines. La Halakha retient le premier avis. Cependant, une personne gauchère de la main et du pied, ou uniquement du pied, enfilera et lacera la droite en premier. [Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-008",
+      "title": "Chaussure se laçant des deux côtés",
+      "rule": "8. Pour une chaussure qui se lace aussi bien du côté droit que du côté gauche, il faut d'abord nouer le côté gauche, puis le côté droit. [Halikhot Chlomo Prière, p. 21].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "8. Pour une chaussure qui se lace aussi bien du côté droit que du côté gauche, il faut d'abord nouer le côté gauche, puis le côté droit. [Halikhot Chlomo Prière, p. 21].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "8"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "8"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 8 : Chaussure se laçant des deux côtés",
+        "simple_explanation": "8. Pour une chaussure qui se lace aussi bien du côté droit que du côté gauche, il faut d'abord nouer le côté gauche, puis le côté droit. [Halikhot Chlomo Prière, p. 21].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-008-flashcard-01",
+            "knowledge_point_id": "s2-kp-008",
+            "source_seif": "8",
+            "title": "Chaussure se laçant des deux côtés",
+            "question": "Que présente le סעיף 8 concernant « Chaussure se laçant des deux côtés » ?",
+            "answer": "8. Pour une chaussure qui se lace aussi bien du côté droit que du côté gauche, il faut d'abord nouer le côté gauche, puis le côté droit. [Halikhot Chlomo Prière, p. 21].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-009",
+      "title": "Ordre de chaussage pour les femmes",
+      "rule": "9. Pour une femme, certains estiment que puisqu'elle ne met pas les Téfilines (et qu'on l'en empêche même si elle le désire), elle doit enfiler et lacer la chaussure droite en premier. D'autres avis considèrent que la femme doit également lacer la chaussure gauche en premier. [Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "9. Pour une femme, certains estiment que puisqu'elle ne met pas les Téfilines (et qu'on l'en empêche même si elle le désire), elle doit enfiler et lacer la chaussure droite en premier. D'autres avis considèrent que la femme doit également lacer la chaussure gauche en premier. [Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "9"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "9"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 9 : Ordre de chaussage pour les femmes",
+        "simple_explanation": "9. Pour une femme, certains estiment que puisqu'elle ne met pas les Téfilines (et qu'on l'en empêche même si elle le désire), elle doit enfiler et lacer la chaussure droite en premier. D'autres avis considèrent que la femme doit également lacer la chaussure gauche en premier. [Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-009-flashcard-01",
+            "knowledge_point_id": "s2-kp-009",
+            "source_seif": "9",
+            "title": "Ordre de chaussage pour les femmes",
+            "question": "Que présente le סעיף 9 concernant « Ordre de chaussage pour les femmes » ?",
+            "answer": "9. Pour une femme, certains estiment que puisqu'elle ne met pas les Téfilines (et qu'on l'en empêche même si elle le désire), elle doit enfiler et lacer la chaussure droite en premier. D'autres avis considèrent que la femme doit également lacer la chaussure gauche en premier. [Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-010",
+      "title": "Retrait des chaussures pour accomplir une Mitsva",
+      "rule": "10. Celui qui retire ses chaussures pour en mettre d'autres en l'honneur du Chabbat, ou pour les nettoyer en l'honneur du Chabbat, retirera la droite en premier, puisqu'il le fait en vue d'une Mitsva. En revanche, s'il se déchausse à la veille de Yom Kippour, ou à la veille de Ticha Béav, pour mettre des chaussures adaptées à l'affliction, il retirera la gauche en premier. [Ibid.].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "10. Celui qui retire ses chaussures pour en mettre d'autres en l'honneur du Chabbat, ou pour les nettoyer en l'honneur du Chabbat, retirera la droite en premier, puisqu'il le fait en vue d'une Mitsva. En revanche, s'il se déchausse à la veille de Yom Kippour, ou à la veille de Ticha Béav, pour mettre des chaussures adaptées à l'affliction, il retirera la gauche en premier. [Ibid.].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "10"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "10"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 10 : Retrait des chaussures pour accomplir une Mitsva",
+        "simple_explanation": "10. Celui qui retire ses chaussures pour en mettre d'autres en l'honneur du Chabbat, ou pour les nettoyer en l'honneur du Chabbat, retirera la droite en premier, puisqu'il le fait en vue d'une Mitsva. En revanche, s'il se déchausse à la veille de Yom Kippour, ou à la veille de Ticha Béav, pour mettre des chaussures adaptées à l'affliction, il retirera la gauche en premier. [Ibid.].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-010-flashcard-01",
+            "knowledge_point_id": "s2-kp-010",
+            "source_seif": "10",
+            "title": "Retrait des chaussures pour accomplir une Mitsva",
+            "question": "Que présente le סעיף 10 concernant « Retrait des chaussures pour accomplir une Mitsva » ?",
+            "answer": "10. Celui qui retire ses chaussures pour en mettre d'autres en l'honneur du Chabbat, ou pour les nettoyer en l'honneur du Chabbat, retirera la droite en premier, puisqu'il le fait en vue d'une Mitsva. En revanche, s'il se déchausse à la veille de Yom Kippour, ou à la veille de Ticha Béav, pour mettre des chaussures adaptées à l'affliction, il retirera la gauche en premier. [Ibid.].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-011",
+      "title": "Interdiction d'enfiler deux vêtements simultanément",
+      "rule": "11. On veillera à ne pas enfiler deux vêtements à la fois, car cela provoque l'oubli de l'étude. Certains disent qu'il faut également faire attention, en se déshabillant, à ne pas retirer deux vêtements ensemble. D'autres estiment qu'il ne faut s'en préoccuper que lorsqu'on s'habille. Bien que la loi fondamentale permette la souplesse pour se déshabiller, il est juste d'y prêter attention, notamment parce que si l'on retire deux vêtements en même temps, on craint de les renfiler ensemble par la suite. [Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "11. On veillera à ne pas enfiler deux vêtements à la fois, car cela provoque l'oubli de l'étude. Certains disent qu'il faut également faire attention, en se déshabillant, à ne pas retirer deux vêtements ensemble. D'autres estiment qu'il ne faut s'en préoccuper que lorsqu'on s'habille. Bien que la loi fondamentale permette la souplesse pour se déshabiller, il est juste d'y prêter attention, notamment parce que si l'on retire deux vêtements en même temps, on craint de les renfiler ensemble par la suite. [Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "11"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "11"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 11 : Interdiction d'enfiler deux vêtements simultanément",
+        "simple_explanation": "11. On veillera à ne pas enfiler deux vêtements à la fois, car cela provoque l'oubli de l'étude. Certains disent qu'il faut également faire attention, en se déshabillant, à ne pas retirer deux vêtements ensemble. D'autres estiment qu'il ne faut s'en préoccuper que lorsqu'on s'habille. Bien que la loi fondamentale permette la souplesse pour se déshabiller, il est juste d'y prêter attention, notamment parce que si l'on retire deux vêtements en même temps, on craint de les renfiler ensemble par la suite. [Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-011-flashcard-01",
+            "knowledge_point_id": "s2-kp-011",
+            "source_seif": "11",
+            "title": "Interdiction d'enfiler deux vêtements simultanément",
+            "question": "Que présente le סעיף 11 concernant « Interdiction d'enfiler deux vêtements simultanément » ?",
+            "answer": "11. On veillera à ne pas enfiler deux vêtements à la fois, car cela provoque l'oubli de l'étude. Certains disent qu'il faut également faire attention, en se déshabillant, à ne pas retirer deux vêtements ensemble. D'autres estiment qu'il ne faut s'en préoccuper que lorsqu'on s'habille. Bien que la loi fondamentale permette la souplesse pour se déshabiller, il est juste d'y prêter attention, notamment parce que si l'on retire deux vêtements en même temps, on craint de les renfiler ensemble par la suite. [Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-012",
+      "title": "Autorisation de porter des couvre-chaussures",
+      "rule": "12. Les chaussures équipées de couvre-chaussures (galoches) que l'on a coutume de superposer en hiver, peuvent être enfilées ainsi, et cela n'est pas considéré comme porter deux vêtements à la fois. [Ibid. p. 221].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "12. Les chaussures équipées de couvre-chaussures (galoches) que l'on a coutume de superposer en hiver, peuvent être enfilées ainsi, et cela n'est pas considéré comme porter deux vêtements à la fois. [Ibid. p. 221].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "12"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "12"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 12 : Autorisation de porter des couvre-chaussures",
+        "simple_explanation": "12. Les chaussures équipées de couvre-chaussures (galoches) que l'on a coutume de superposer en hiver, peuvent être enfilées ainsi, et cela n'est pas considéré comme porter deux vêtements à la fois. [Ibid. p. 221].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-012-flashcard-01",
+            "knowledge_point_id": "s2-kp-012",
+            "source_seif": "12",
+            "title": "Autorisation de porter des couvre-chaussures",
+            "question": "Que présente le סעיף 12 concernant « Autorisation de porter des couvre-chaussures » ?",
+            "answer": "12. Les chaussures équipées de couvre-chaussures (galoches) que l'on a coutume de superposer en hiver, peuvent être enfilées ainsi, et cela n'est pas considéré comme porter deux vêtements à la fois. [Ibid. p. 221].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-013",
+      "title": "Placer des vêtements sous sa tête",
+      "rule": "13. On ne placera pas ses vêtements sous sa tête pour dormir, car certains affirment que cela provoque l'oubli. D'autres disent que ceci ne s'applique qu'à ses propres vêtements, mais qu'il n'y a pas d'objection avec les vêtements d'autrui. Certains sont en désaccord avec cela, il faudra donc, si possible, l'éviter même avec les vêtements d'autrui. Si l'oreiller s'interpose entre la tête et les vêtements, c'est permis. Il est également juste de veiller à ne pas placer ses chaussures sous le lit, au niveau de la tête. [Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "13. On ne placera pas ses vêtements sous sa tête pour dormir, car certains affirment que cela provoque l'oubli. D'autres disent que ceci ne s'applique qu'à ses propres vêtements, mais qu'il n'y a pas d'objection avec les vêtements d'autrui. Certains sont en désaccord avec cela, il faudra donc, si possible, l'éviter même avec les vêtements d'autrui. Si l'oreiller s'interpose entre la tête et les vêtements, c'est permis. Il est également juste de veiller à ne pas placer ses chaussures sous le lit, au niveau de la tête. [Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "13"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "13"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 13 : Placer des vêtements sous sa tête",
+        "simple_explanation": "13. On ne placera pas ses vêtements sous sa tête pour dormir, car certains affirment que cela provoque l'oubli. D'autres disent que ceci ne s'applique qu'à ses propres vêtements, mais qu'il n'y a pas d'objection avec les vêtements d'autrui. Certains sont en désaccord avec cela, il faudra donc, si possible, l'éviter même avec les vêtements d'autrui. Si l'oreiller s'interpose entre la tête et les vêtements, c'est permis. Il est également juste de veiller à ne pas placer ses chaussures sous le lit, au niveau de la tête. [Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-013-flashcard-01",
+            "knowledge_point_id": "s2-kp-013",
+            "source_seif": "13",
+            "title": "Placer des vêtements sous sa tête",
+            "question": "Que présente le סעיף 13 concernant « Placer des vêtements sous sa tête » ?",
+            "answer": "13. On ne placera pas ses vêtements sous sa tête pour dormir, car certains affirment que cela provoque l'oubli. D'autres disent que ceci ne s'applique qu'à ses propres vêtements, mais qu'il n'y a pas d'objection avec les vêtements d'autrui. Certains sont en désaccord avec cela, il faudra donc, si possible, l'éviter même avec les vêtements d'autrui. Si l'oreiller s'interpose entre la tête et les vêtements, c'est permis. Il est également juste de veiller à ne pas placer ses chaussures sous le lit, au niveau de la tête. [Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-014",
+      "title": "Interdiction de marcher le buste trop droit",
+      "rule": "14. Il ne faut pas marcher avec une posture excessivement altière, car celui qui marche ainsi repousse, pour ainsi dire, la Présence divine (Chékhina). Même en restant sur place sans marcher, cette posture hautaine est interdite. Cette règle s'applique à tout le monde, et pas seulement aux érudits (Talmidé Hakhamim). De plus, elle ne concerne pas que la maison d'étude, mais tout endroit, car la gloire de Dieu remplit toute la terre. Toutefois, on ne courbera pas la tête à l'excès, mais on gardera une inclinaison moyenne permettant de voir celui qui vient en face sans trop lever les yeux. [Yalkout Yossef, Chéérit Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "14. Il ne faut pas marcher avec une posture excessivement altière, car celui qui marche ainsi repousse, pour ainsi dire, la Présence divine (Chékhina). Même en restant sur place sans marcher, cette posture hautaine est interdite. Cette règle s'applique à tout le monde, et pas seulement aux érudits (Talmidé Hakhamim). De plus, elle ne concerne pas que la maison d'étude, mais tout endroit, car la gloire de Dieu remplit toute la terre. Toutefois, on ne courbera pas la tête à l'excès, mais on gardera une inclinaison moyenne permettant de voir celui qui vient en face sans trop lever les yeux. [Yalkout Yossef, Chéérit Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "14"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "14"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 14 : Interdiction de marcher le buste trop droit",
+        "simple_explanation": "14. Il ne faut pas marcher avec une posture excessivement altière, car celui qui marche ainsi repousse, pour ainsi dire, la Présence divine (Chékhina). Même en restant sur place sans marcher, cette posture hautaine est interdite. Cette règle s'applique à tout le monde, et pas seulement aux érudits (Talmidé Hakhamim). De plus, elle ne concerne pas que la maison d'étude, mais tout endroit, car la gloire de Dieu remplit toute la terre. Toutefois, on ne courbera pas la tête à l'excès, mais on gardera une inclinaison moyenne permettant de voir celui qui vient en face sans trop lever les yeux. [Yalkout Yossef, Chéérit Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-014-flashcard-01",
+            "knowledge_point_id": "s2-kp-014",
+            "source_seif": "14",
+            "title": "Interdiction de marcher le buste trop droit",
+            "question": "Que présente le סעיף 14 concernant « Interdiction de marcher le buste trop droit » ?",
+            "answer": "14. Il ne faut pas marcher avec une posture excessivement altière, car celui qui marche ainsi repousse, pour ainsi dire, la Présence divine (Chékhina). Même en restant sur place sans marcher, cette posture hautaine est interdite. Cette règle s'applique à tout le monde, et pas seulement aux érudits (Talmidé Hakhamim). De plus, elle ne concerne pas que la maison d'étude, mais tout endroit, car la gloire de Dieu remplit toute la terre. Toutefois, on ne courbera pas la tête à l'excès, mais on gardera une inclinaison moyenne permettant de voir celui qui vient en face sans trop lever les yeux. [Yalkout Yossef, Chéérit Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-015",
+      "title": "Obligation de se couvrir la tête",
+      "rule": "15. Il est interdit de marcher quatre coudées (Amot) la tête découverte. Même sans marcher, il est interdit de stationner tête nue le temps nécessaire pour parcourir cette distance. Certains disent qu'il s'agit d'une interdiction stricte, d'autres que c'est une mesure de piété. Certains font la distinction : pour un érudit en Torah c'est une interdiction stricte, alors que pour les autres c'est une mesure de piété. Bien que la loi fondamentale la considère comme une mesure de piété, il faut aujourd'hui être plus rigoureux, car le couvre-chef témoigne de l'appartenance au camp de ceux qui observent la Torah et les Mitsvot, et non l'inverse, qu'à Dieu ne plaise. Par conséquent, toute personne craignant Dieu doit veiller à se couvrir la tête dans le domaine public, afin qu'on distingue celui qui sert Dieu de celui qui ne Le sert pas. La Kippa symbolise sa piété. Marcher tête nue expose au soupçon (Marit Aïn) d'être affranchi du joug céleste. À plus forte raison en présence d'un grand Rabbin, où l'on doit couvrir sa tête selon la Halakha. [Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "15. Il est interdit de marcher quatre coudées (Amot) la tête découverte. Même sans marcher, il est interdit de stationner tête nue le temps nécessaire pour parcourir cette distance. Certains disent qu'il s'agit d'une interdiction stricte, d'autres que c'est une mesure de piété. Certains font la distinction : pour un érudit en Torah c'est une interdiction stricte, alors que pour les autres c'est une mesure de piété. Bien que la loi fondamentale la considère comme une mesure de piété, il faut aujourd'hui être plus rigoureux, car le couvre-chef témoigne de l'appartenance au camp de ceux qui observent la Torah et les Mitsvot, et non l'inverse, qu'à Dieu ne plaise. Par conséquent, toute personne craignant Dieu doit veiller à se couvrir la tête dans le domaine public, afin qu'on distingue celui qui sert Dieu de celui qui ne Le sert pas. La Kippa symbolise sa piété. Marcher tête nue expose au soupçon (Marit Aïn) d'être affranchi du joug céleste. À plus forte raison en présence d'un grand Rabbin, où l'on doit couvrir sa tête selon la Halakha. [Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "15"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "15"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 15 : Obligation de se couvrir la tête",
+        "simple_explanation": "15. Il est interdit de marcher quatre coudées (Amot) la tête découverte. Même sans marcher, il est interdit de stationner tête nue le temps nécessaire pour parcourir cette distance. Certains disent qu'il s'agit d'une interdiction stricte, d'autres que c'est une mesure de piété. Certains font la distinction : pour un érudit en Torah c'est une interdiction stricte, alors que pour les autres c'est une mesure de piété. Bien que la loi fondamentale la considère comme une mesure de piété, il faut aujourd'hui être plus rigoureux, car le couvre-chef témoigne de l'appartenance au camp de ceux qui observent la Torah et les Mitsvot, et non l'inverse, qu'à Dieu ne plaise. Par conséquent, toute personne craignant Dieu doit veiller à se couvrir la tête dans le domaine public, afin qu'on distingue celui qui sert Dieu de celui qui ne Le sert pas. La Kippa symbolise sa piété. Marcher tête nue expose au soupçon (Marit Aïn) d'être affranchi du joug céleste. À plus forte raison en présence d'un grand Rabbin, où l'on doit couvrir sa tête selon la Halakha. [Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-015-flashcard-01",
+            "knowledge_point_id": "s2-kp-015",
+            "source_seif": "15",
+            "title": "Obligation de se couvrir la tête",
+            "question": "Que présente le סעיף 15 concernant « Obligation de se couvrir la tête » ?",
+            "answer": "15. Il est interdit de marcher quatre coudées (Amot) la tête découverte. Même sans marcher, il est interdit de stationner tête nue le temps nécessaire pour parcourir cette distance. Certains disent qu'il s'agit d'une interdiction stricte, d'autres que c'est une mesure de piété. Certains font la distinction : pour un érudit en Torah c'est une interdiction stricte, alors que pour les autres c'est une mesure de piété. Bien que la loi fondamentale la considère comme une mesure de piété, il faut aujourd'hui être plus rigoureux, car le couvre-chef témoigne de l'appartenance au camp de ceux qui observent la Torah et les Mitsvot, et non l'inverse, qu'à Dieu ne plaise. Par conséquent, toute personne craignant Dieu doit veiller à se couvrir la tête dans le domaine public, afin qu'on distingue celui qui sert Dieu de celui qui ne Le sert pas. La Kippa symbolise sa piété. Marcher tête nue expose au soupçon (Marit Aïn) d'être affranchi du joug céleste. À plus forte raison en présence d'un grand Rabbin, où l'on doit couvrir sa tête selon la Halakha. [Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-016",
+      "title": "Taille requise pour la Kippa",
+      "rule": "16. C'est une mesure de piété que de veiller à porter une grande Kippa recouvrant l'intégralité de la tête, ou sa majorité. Néanmoins, il est permis, selon la loi stricte, de porter une petite Kippa, même si elle ne couvre pas la majorité de la tête, à condition qu'elle soit bien visible de tous les côtés, de face comme de dos. Toutefois, lors de la lecture du Chéma, de la prière (Tefila) et du Birkat Hamazone, il convient [si possible] de porter un chapeau, ou au minimum une Kippa recouvrant la majorité de la tête. [Chéérit Yossef, Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "16. C'est une mesure de piété que de veiller à porter une grande Kippa recouvrant l'intégralité de la tête, ou sa majorité. Néanmoins, il est permis, selon la loi stricte, de porter une petite Kippa, même si elle ne couvre pas la majorité de la tête, à condition qu'elle soit bien visible de tous les côtés, de face comme de dos. Toutefois, lors de la lecture du Chéma, de la prière (Tefila) et du Birkat Hamazone, il convient [si possible] de porter un chapeau, ou au minimum une Kippa recouvrant la majorité de la tête. [Chéérit Yossef, Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "16"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "16"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 16 : Taille requise pour la Kippa",
+        "simple_explanation": "16. C'est une mesure de piété que de veiller à porter une grande Kippa recouvrant l'intégralité de la tête, ou sa majorité. Néanmoins, il est permis, selon la loi stricte, de porter une petite Kippa, même si elle ne couvre pas la majorité de la tête, à condition qu'elle soit bien visible de tous les côtés, de face comme de dos. Toutefois, lors de la lecture du Chéma, de la prière (Tefila) et du Birkat Hamazone, il convient [si possible] de porter un chapeau, ou au minimum une Kippa recouvrant la majorité de la tête. [Chéérit Yossef, Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-016-flashcard-01",
+            "knowledge_point_id": "s2-kp-016",
+            "source_seif": "16",
+            "title": "Taille requise pour la Kippa",
+            "question": "Que présente le סעיף 16 concernant « Taille requise pour la Kippa » ?",
+            "answer": "16. C'est une mesure de piété que de veiller à porter une grande Kippa recouvrant l'intégralité de la tête, ou sa majorité. Néanmoins, il est permis, selon la loi stricte, de porter une petite Kippa, même si elle ne couvre pas la majorité de la tête, à condition qu'elle soit bien visible de tous les côtés, de face comme de dos. Toutefois, lors de la lecture du Chéma, de la prière (Tefila) et du Birkat Hamazone, il convient [si possible] de porter un chapeau, ou au minimum une Kippa recouvrant la majorité de la tête. [Chéérit Yossef, Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-017",
+      "title": "Tête découverte à la plage ou aux bains",
+      "rule": "17. Il est permis de marcher la tête découverte dans des bains publics. Selon la loi stricte, il est également permis de marcher tête nue à la plage, non seulement dans l'eau, mais aussi en sortant sur le rivage. [Il n'est pas nécessaire, selon la loi stricte, de retourner aux vestiaires pour mettre une Kippa à chaque sortie de l'eau]. Cependant, lorsqu'on s'assoit pour manger ou se détendre un moment sur la plage, il est convenable et juste de mettre une Kippa, et de ne pas rester longuement sans couvre-chef. [D'autant plus qu'il faut prononcer une bénédiction avant de manger, ce qui est interdit la tête nue]. Quoi qu'il en soit, on ne doit pas réprimander celui qui ne le fait pas. [Chéérit Yossef, Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "17. Il est permis de marcher la tête découverte dans des bains publics. Selon la loi stricte, il est également permis de marcher tête nue à la plage, non seulement dans l'eau, mais aussi en sortant sur le rivage. [Il n'est pas nécessaire, selon la loi stricte, de retourner aux vestiaires pour mettre une Kippa à chaque sortie de l'eau]. Cependant, lorsqu'on s'assoit pour manger ou se détendre un moment sur la plage, il est convenable et juste de mettre une Kippa, et de ne pas rester longuement sans couvre-chef. [D'autant plus qu'il faut prononcer une bénédiction avant de manger, ce qui est interdit la tête nue]. Quoi qu'il en soit, on ne doit pas réprimander celui qui ne le fait pas. [Chéérit Yossef, Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "17"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "17"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 17 : Tête découverte à la plage ou aux bains",
+        "simple_explanation": "17. Il est permis de marcher la tête découverte dans des bains publics. Selon la loi stricte, il est également permis de marcher tête nue à la plage, non seulement dans l'eau, mais aussi en sortant sur le rivage. [Il n'est pas nécessaire, selon la loi stricte, de retourner aux vestiaires pour mettre une Kippa à chaque sortie de l'eau]. Cependant, lorsqu'on s'assoit pour manger ou se détendre un moment sur la plage, il est convenable et juste de mettre une Kippa, et de ne pas rester longuement sans couvre-chef. [D'autant plus qu'il faut prononcer une bénédiction avant de manger, ce qui est interdit la tête nue]. Quoi qu'il en soit, on ne doit pas réprimander celui qui ne le fait pas. [Chéérit Yossef, Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-017-flashcard-01",
+            "knowledge_point_id": "s2-kp-017",
+            "source_seif": "17",
+            "title": "Tête découverte à la plage ou aux bains",
+            "question": "Que présente le סעיף 17 concernant « Tête découverte à la plage ou aux bains » ?",
+            "answer": "17. Il est permis de marcher la tête découverte dans des bains publics. Selon la loi stricte, il est également permis de marcher tête nue à la plage, non seulement dans l'eau, mais aussi en sortant sur le rivage. [Il n'est pas nécessaire, selon la loi stricte, de retourner aux vestiaires pour mettre une Kippa à chaque sortie de l'eau]. Cependant, lorsqu'on s'assoit pour manger ou se détendre un moment sur la plage, il est convenable et juste de mettre une Kippa, et de ne pas rester longuement sans couvre-chef. [D'autant plus qu'il faut prononcer une bénédiction avant de manger, ce qui est interdit la tête nue]. Quoi qu'il en soit, on ne doit pas réprimander celui qui ne le fait pas. [Chéérit Yossef, Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-018",
+      "title": "Se couvrir la tête pour dormir",
+      "rule": "18. D'après la loi stricte, il n'y a pas d'objection à dormir la tête découverte. Néanmoins, par mesure de piété, il est bon de veiller, \"lorsque cela est possible\", à avoir la tête couverte la nuit, même pendant le sommeil. [Chéérit Yossef, Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "18. D'après la loi stricte, il n'y a pas d'objection à dormir la tête découverte. Néanmoins, par mesure de piété, il est bon de veiller, \"lorsque cela est possible\", à avoir la tête couverte la nuit, même pendant le sommeil. [Chéérit Yossef, Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "18"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "18"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 18 : Se couvrir la tête pour dormir",
+        "simple_explanation": "18. D'après la loi stricte, il n'y a pas d'objection à dormir la tête découverte. Néanmoins, par mesure de piété, il est bon de veiller, \"lorsque cela est possible\", à avoir la tête couverte la nuit, même pendant le sommeil. [Chéérit Yossef, Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-018-flashcard-01",
+            "knowledge_point_id": "s2-kp-018",
+            "source_seif": "18",
+            "title": "Se couvrir la tête pour dormir",
+            "question": "Que présente le סעיף 18 concernant « Se couvrir la tête pour dormir » ?",
+            "answer": "18. D'après la loi stricte, il n'y a pas d'objection à dormir la tête découverte. Néanmoins, par mesure de piété, il est bon de veiller, \"lorsque cela est possible\", à avoir la tête couverte la nuit, même pendant le sommeil. [Chéérit Yossef, Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-019",
+      "title": "Éduquer les enfants au port de la Kippa",
+      "rule": "19. Il faut éduquer les jeunes enfants [dès qu'ils commencent à marcher, ou au minimum dès l'âge de trois ans après leur première coupe de cheveux] et les habituer à avoir la tête recouverte d'un couvre-chef. [Chéérit Yossef, Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "19. Il faut éduquer les jeunes enfants [dès qu'ils commencent à marcher, ou au minimum dès l'âge de trois ans après leur première coupe de cheveux] et les habituer à avoir la tête recouverte d'un couvre-chef. [Chéérit Yossef, Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "19"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "19"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 19 : Éduquer les enfants au port de la Kippa",
+        "simple_explanation": "19. Il faut éduquer les jeunes enfants [dès qu'ils commencent à marcher, ou au minimum dès l'âge de trois ans après leur première coupe de cheveux] et les habituer à avoir la tête recouverte d'un couvre-chef. [Chéérit Yossef, Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-019-flashcard-01",
+            "knowledge_point_id": "s2-kp-019",
+            "source_seif": "19",
+            "title": "Éduquer les enfants au port de la Kippa",
+            "question": "Que présente le סעיף 19 concernant « Éduquer les enfants au port de la Kippa » ?",
+            "answer": "19. Il faut éduquer les jeunes enfants [dès qu'ils commencent à marcher, ou au minimum dès l'âge de trois ans après leur première coupe de cheveux] et les habituer à avoir la tête recouverte d'un couvre-chef. [Chéérit Yossef, Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-020",
+      "title": "Récupérer une Kippa tombée au sol",
+      "rule": "20. Si le couvre-chef est tombé et que l'on doit aller le chercher à une distance de plus de quatre coudées, on se couvrira la tête avec sa manche ou un autre objet. Il est également possible de se couvrir la tête en y plaçant la main de son ami. [Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "20. Si le couvre-chef est tombé et que l'on doit aller le chercher à une distance de plus de quatre coudées, on se couvrira la tête avec sa manche ou un autre objet. Il est également possible de se couvrir la tête en y plaçant la main de son ami. [Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "20"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "20"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 20 : Récupérer une Kippa tombée au sol",
+        "simple_explanation": "20. Si le couvre-chef est tombé et que l'on doit aller le chercher à une distance de plus de quatre coudées, on se couvrira la tête avec sa manche ou un autre objet. Il est également possible de se couvrir la tête en y plaçant la main de son ami. [Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-020-flashcard-01",
+            "knowledge_point_id": "s2-kp-020",
+            "source_seif": "20",
+            "title": "Récupérer une Kippa tombée au sol",
+            "question": "Que présente le סעיף 20 concernant « Récupérer une Kippa tombée au sol » ?",
+            "answer": "20. Si le couvre-chef est tombé et que l'on doit aller le chercher à une distance de plus de quatre coudées, on se couvrira la tête avec sa manche ou un autre objet. Il est également possible de se couvrir la tête en y plaçant la main de son ami. [Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-021",
+      "title": "Bénédictions et prières sans couvre-chef",
+      "rule": "21. Il est interdit de réciter une bénédiction ou de prononcer le Nom de Dieu la tête découverte. À plus forte raison, il est interdit de réciter la prière de la Amida (Chmoné Essré) la tête découverte. Cependant, si la Kippa est tombée de la tête au milieu de la prière et qu'on ne s'en est rendu compte qu'à la fin, la prière est valide a posteriori et on n'a pas à la recommencer. A fortiori, si l'on a transgressé et prononcé une bénédiction la tête découverte, on est quitte a posteriori et l'on ne doit pas répéter la bénédiction. [Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "21. Il est interdit de réciter une bénédiction ou de prononcer le Nom de Dieu la tête découverte. À plus forte raison, il est interdit de réciter la prière de la Amida (Chmoné Essré) la tête découverte. Cependant, si la Kippa est tombée de la tête au milieu de la prière et qu'on ne s'en est rendu compte qu'à la fin, la prière est valide a posteriori et on n'a pas à la recommencer. A fortiori, si l'on a transgressé et prononcé une bénédiction la tête découverte, on est quitte a posteriori et l'on ne doit pas répéter la bénédiction. [Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "21"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "21"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 21 : Bénédictions et prières sans couvre-chef",
+        "simple_explanation": "21. Il est interdit de réciter une bénédiction ou de prononcer le Nom de Dieu la tête découverte. À plus forte raison, il est interdit de réciter la prière de la Amida (Chmoné Essré) la tête découverte. Cependant, si la Kippa est tombée de la tête au milieu de la prière et qu'on ne s'en est rendu compte qu'à la fin, la prière est valide a posteriori et on n'a pas à la recommencer. A fortiori, si l'on a transgressé et prononcé une bénédiction la tête découverte, on est quitte a posteriori et l'on ne doit pas répéter la bénédiction. [Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-021-flashcard-01",
+            "knowledge_point_id": "s2-kp-021",
+            "source_seif": "21",
+            "title": "Bénédictions et prières sans couvre-chef",
+            "question": "Que présente le סעיף 21 concernant « Bénédictions et prières sans couvre-chef » ?",
+            "answer": "21. Il est interdit de réciter une bénédiction ou de prononcer le Nom de Dieu la tête découverte. À plus forte raison, il est interdit de réciter la prière de la Amida (Chmoné Essré) la tête découverte. Cependant, si la Kippa est tombée de la tête au milieu de la prière et qu'on ne s'en est rendu compte qu'à la fin, la prière est valide a posteriori et on n'a pas à la recommencer. A fortiori, si l'on a transgressé et prononcé une bénédiction la tête découverte, on est quitte a posteriori et l'on ne doit pas répéter la bénédiction. [Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-022",
+      "title": "Penser à la Torah la tête découverte",
+      "rule": "22. Celui qui est contraint de séjourner la tête découverte, comme dans un tribunal non-juif ou lorsqu'il se fait couper les cheveux, est autorisé à méditer sur des paroles de Torah. De même, celui qui se baigne à la mer la tête nue, ou dans une salle de bain privée [ne contenant pas de toilettes], est autorisé à méditer sur la Torah bien qu'il ait la tête découverte. On ne fera pas preuve de rigueur en s'empêchant de penser à la Torah la tête découverte, car cela causerait une annulation de l'étude (Bitoul Torah). [Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "22. Celui qui est contraint de séjourner la tête découverte, comme dans un tribunal non-juif ou lorsqu'il se fait couper les cheveux, est autorisé à méditer sur des paroles de Torah. De même, celui qui se baigne à la mer la tête nue, ou dans une salle de bain privée [ne contenant pas de toilettes], est autorisé à méditer sur la Torah bien qu'il ait la tête découverte. On ne fera pas preuve de rigueur en s'empêchant de penser à la Torah la tête découverte, car cela causerait une annulation de l'étude (Bitoul Torah). [Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "22"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "22"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 22 : Penser à la Torah la tête découverte",
+        "simple_explanation": "22. Celui qui est contraint de séjourner la tête découverte, comme dans un tribunal non-juif ou lorsqu'il se fait couper les cheveux, est autorisé à méditer sur des paroles de Torah. De même, celui qui se baigne à la mer la tête nue, ou dans une salle de bain privée [ne contenant pas de toilettes], est autorisé à méditer sur la Torah bien qu'il ait la tête découverte. On ne fera pas preuve de rigueur en s'empêchant de penser à la Torah la tête découverte, car cela causerait une annulation de l'étude (Bitoul Torah). [Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-022-flashcard-01",
+            "knowledge_point_id": "s2-kp-022",
+            "source_seif": "22",
+            "title": "Penser à la Torah la tête découverte",
+            "question": "Que présente le סעיף 22 concernant « Penser à la Torah la tête découverte » ?",
+            "answer": "22. Celui qui est contraint de séjourner la tête découverte, comme dans un tribunal non-juif ou lorsqu'il se fait couper les cheveux, est autorisé à méditer sur des paroles de Torah. De même, celui qui se baigne à la mer la tête nue, ou dans une salle de bain privée [ne contenant pas de toilettes], est autorisé à méditer sur la Torah bien qu'il ait la tête découverte. On ne fera pas preuve de rigueur en s'empêchant de penser à la Torah la tête découverte, car cela causerait une annulation de l'étude (Bitoul Torah). [Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-023",
+      "title": "Répondre Amen la tête découverte",
+      "rule": "23. Celui qui a la tête découverte et entend une bénédiction de son prochain, ou un Kaddich, est autorisé à répondre Amen la tête découverte. Par conséquent, celui qui met les Téfilines de la tête, dont la tête est encore découverte, et qui entend le Kaddich arriver à la phrase \"Amen Yéhé Chémé Rabba\", y répondra avec l'assemblée. [Ibid. p. 244].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "23. Celui qui a la tête découverte et entend une bénédiction de son prochain, ou un Kaddich, est autorisé à répondre Amen la tête découverte. Par conséquent, celui qui met les Téfilines de la tête, dont la tête est encore découverte, et qui entend le Kaddich arriver à la phrase \"Amen Yéhé Chémé Rabba\", y répondra avec l'assemblée. [Ibid. p. 244].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "23"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "23"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 23 : Répondre Amen la tête découverte",
+        "simple_explanation": "23. Celui qui a la tête découverte et entend une bénédiction de son prochain, ou un Kaddich, est autorisé à répondre Amen la tête découverte. Par conséquent, celui qui met les Téfilines de la tête, dont la tête est encore découverte, et qui entend le Kaddich arriver à la phrase \"Amen Yéhé Chémé Rabba\", y répondra avec l'assemblée. [Ibid. p. 244].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-023-flashcard-01",
+            "knowledge_point_id": "s2-kp-023",
+            "source_seif": "23",
+            "title": "Répondre Amen la tête découverte",
+            "question": "Que présente le סעיף 23 concernant « Répondre Amen la tête découverte » ?",
+            "answer": "23. Celui qui a la tête découverte et entend une bénédiction de son prochain, ou un Kaddich, est autorisé à répondre Amen la tête découverte. Par conséquent, celui qui met les Téfilines de la tête, dont la tête est encore découverte, et qui entend le Kaddich arriver à la phrase \"Amen Yéhé Chémé Rabba\", y répondra avec l'assemblée. [Ibid. p. 244].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-024",
+      "title": "Travailler sans couvre-chef",
+      "rule": "24. Celui qui travaille dans un endroit où on ne le laisse porter ni Kippa, ni casquette ou autre, et qui n'a pas d'autre moyen de subvenir à ses besoins : certains disent que pour les nécessités de la subsistance (Parnassa), il lui est permis de rester la tête découverte. De toute façon, s'il n'y a pas de contrainte absolue, il ne doit pas craindre les moqueries des arrogants. Certains affirment qu'il devrait porter une perruque afin d'avoir la tête couverte. D'autres disent que ce n'est pas nécessaire, d'autant plus que le problème du soupçon visuel (Marit Aïn) persisterait. Il convient de consulter un Sage qui jugera chaque cas spécifiquement. [Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "24. Celui qui travaille dans un endroit où on ne le laisse porter ni Kippa, ni casquette ou autre, et qui n'a pas d'autre moyen de subvenir à ses besoins : certains disent que pour les nécessités de la subsistance (Parnassa), il lui est permis de rester la tête découverte. De toute façon, s'il n'y a pas de contrainte absolue, il ne doit pas craindre les moqueries des arrogants. Certains affirment qu'il devrait porter une perruque afin d'avoir la tête couverte. D'autres disent que ce n'est pas nécessaire, d'autant plus que le problème du soupçon visuel (Marit Aïn) persisterait. Il convient de consulter un Sage qui jugera chaque cas spécifiquement. [Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "24"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "24"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 24 : Travailler sans couvre-chef",
+        "simple_explanation": "24. Celui qui travaille dans un endroit où on ne le laisse porter ni Kippa, ni casquette ou autre, et qui n'a pas d'autre moyen de subvenir à ses besoins : certains disent que pour les nécessités de la subsistance (Parnassa), il lui est permis de rester la tête découverte. De toute façon, s'il n'y a pas de contrainte absolue, il ne doit pas craindre les moqueries des arrogants. Certains affirment qu'il devrait porter une perruque afin d'avoir la tête couverte. D'autres disent que ce n'est pas nécessaire, d'autant plus que le problème du soupçon visuel (Marit Aïn) persisterait. Il convient de consulter un Sage qui jugera chaque cas spécifiquement. [Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-024-flashcard-01",
+            "knowledge_point_id": "s2-kp-024",
+            "source_seif": "24",
+            "title": "Travailler sans couvre-chef",
+            "question": "Que présente le סעיף 24 concernant « Travailler sans couvre-chef » ?",
+            "answer": "24. Celui qui travaille dans un endroit où on ne le laisse porter ni Kippa, ni casquette ou autre, et qui n'a pas d'autre moyen de subvenir à ses besoins : certains disent que pour les nécessités de la subsistance (Parnassa), il lui est permis de rester la tête découverte. De toute façon, s'il n'y a pas de contrainte absolue, il ne doit pas craindre les moqueries des arrogants. Certains affirment qu'il devrait porter une perruque afin d'avoir la tête couverte. D'autres disent que ce n'est pas nécessaire, d'autant plus que le problème du soupçon visuel (Marit Aïn) persisterait. Il convient de consulter un Sage qui jugera chaque cas spécifiquement. [Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-025",
+      "title": "Saluer avec le mot Chalom",
+      "rule": "25. Il est permis de saluer son prochain le premier, même si ce dernier a la tête découverte. Bien que nos Sages de mémoire bénie aient dit que l'un des noms de Dieu est \"Chalom\" (Paix), on ne place pas une pierre d'achoppement devant son prochain en l'obligeant à répondre \"Chalom\" la tête découverte. En effet, seule la prononciation du nom de l'Éternel ou d'Elokim est interdite tête nue, mais il est permis de dire \"Chalom\" selon la stricte loi. Il est également permis de dire \"Chabbat Chalom\" à une personne tête nue. Si possible, il est préférable d'utiliser une autre formule, comme \"Bonjour\" ou \"Comment vas-tu ?\". [De nos jours, c'est une Mitsva de saluer le premier toute personne afin de leur faire aimer les érudits et ceux qui craignent Dieu]. [Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "25. Il est permis de saluer son prochain le premier, même si ce dernier a la tête découverte. Bien que nos Sages de mémoire bénie aient dit que l'un des noms de Dieu est \"Chalom\" (Paix), on ne place pas une pierre d'achoppement devant son prochain en l'obligeant à répondre \"Chalom\" la tête découverte. En effet, seule la prononciation du nom de l'Éternel ou d'Elokim est interdite tête nue, mais il est permis de dire \"Chalom\" selon la stricte loi. Il est également permis de dire \"Chabbat Chalom\" à une personne tête nue. Si possible, il est préférable d'utiliser une autre formule, comme \"Bonjour\" ou \"Comment vas-tu ?\". [De nos jours, c'est une Mitsva de saluer le premier toute personne afin de leur faire aimer les érudits et ceux qui craignent Dieu]. [Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "25"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "25"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 25 : Saluer avec le mot Chalom",
+        "simple_explanation": "25. Il est permis de saluer son prochain le premier, même si ce dernier a la tête découverte. Bien que nos Sages de mémoire bénie aient dit que l'un des noms de Dieu est \"Chalom\" (Paix), on ne place pas une pierre d'achoppement devant son prochain en l'obligeant à répondre \"Chalom\" la tête découverte. En effet, seule la prononciation du nom de l'Éternel ou d'Elokim est interdite tête nue, mais il est permis de dire \"Chalom\" selon la stricte loi. Il est également permis de dire \"Chabbat Chalom\" à une personne tête nue. Si possible, il est préférable d'utiliser une autre formule, comme \"Bonjour\" ou \"Comment vas-tu ?\". [De nos jours, c'est une Mitsva de saluer le premier toute personne afin de leur faire aimer les érudits et ceux qui craignent Dieu]. [Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-025-flashcard-01",
+            "knowledge_point_id": "s2-kp-025",
+            "source_seif": "25",
+            "title": "Saluer avec le mot Chalom",
+            "question": "Que présente le סעיף 25 concernant « Saluer avec le mot Chalom » ?",
+            "answer": "25. Il est permis de saluer son prochain le premier, même si ce dernier a la tête découverte. Bien que nos Sages de mémoire bénie aient dit que l'un des noms de Dieu est \"Chalom\" (Paix), on ne place pas une pierre d'achoppement devant son prochain en l'obligeant à répondre \"Chalom\" la tête découverte. En effet, seule la prononciation du nom de l'Éternel ou d'Elokim est interdite tête nue, mais il est permis de dire \"Chalom\" selon la stricte loi. Il est également permis de dire \"Chabbat Chalom\" à une personne tête nue. Si possible, il est préférable d'utiliser une autre formule, comme \"Bonjour\" ou \"Comment vas-tu ?\". [De nos jours, c'est une Mitsva de saluer le premier toute personne afin de leur faire aimer les érudits et ceux qui craignent Dieu]. [Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-026",
+      "title": "Salutations et pensées chez le coiffeur",
+      "rule": "26. Celui qui est assis chez le coiffeur, la tête découverte, et à qui l'on adresse un salut (Chalom), est autorisé à le rendre. Lorsque c'est possible, il est préférable de répondre par une autre formule, telle que \"Bonjour\", etc. Il lui est permis de méditer sur des paroles de Torah pendant qu'il se fait couper les cheveux, bien que sa tête soit découverte et qu'il doive se laver les mains par la suite ; il n'y a pas lieu d'être rigoureux sur ce point. [Yalkout Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "26. Celui qui est assis chez le coiffeur, la tête découverte, et à qui l'on adresse un salut (Chalom), est autorisé à le rendre. Lorsque c'est possible, il est préférable de répondre par une autre formule, telle que \"Bonjour\", etc. Il lui est permis de méditer sur des paroles de Torah pendant qu'il se fait couper les cheveux, bien que sa tête soit découverte et qu'il doive se laver les mains par la suite ; il n'y a pas lieu d'être rigoureux sur ce point. [Yalkout Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "26"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "26"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 26 : Salutations et pensées chez le coiffeur",
+        "simple_explanation": "26. Celui qui est assis chez le coiffeur, la tête découverte, et à qui l'on adresse un salut (Chalom), est autorisé à le rendre. Lorsque c'est possible, il est préférable de répondre par une autre formule, telle que \"Bonjour\", etc. Il lui est permis de méditer sur des paroles de Torah pendant qu'il se fait couper les cheveux, bien que sa tête soit découverte et qu'il doive se laver les mains par la suite ; il n'y a pas lieu d'être rigoureux sur ce point. [Yalkout Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-026-flashcard-01",
+            "knowledge_point_id": "s2-kp-026",
+            "source_seif": "26",
+            "title": "Salutations et pensées chez le coiffeur",
+            "question": "Que présente le סעיף 26 concernant « Salutations et pensées chez le coiffeur » ?",
+            "answer": "26. Celui qui est assis chez le coiffeur, la tête découverte, et à qui l'on adresse un salut (Chalom), est autorisé à le rendre. Lorsque c'est possible, il est préférable de répondre par une autre formule, telle que \"Bonjour\", etc. Il lui est permis de méditer sur des paroles de Torah pendant qu'il se fait couper les cheveux, bien que sa tête soit découverte et qu'il doive se laver les mains par la suite ; il n'y a pas lieu d'être rigoureux sur ce point. [Yalkout Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-027",
+      "title": "Interdiction de marcher pieds nus",
+      "rule": "27. On ne marchera pas pieds nus sur un sol non pavé. [Nos Sages ont dit : \"L'homme devrait toujours vendre les poutres de sa maison pour s'acheter des chaussures\", car rien n'est plus dégradant que de marcher pieds nus au marché]. Tout ceci s'applique en dehors d'Israël, mais en Terre d'Israël, il n'y a fondamentalement pas d'interdiction de marcher pieds nus sur la terre. [C'est seulement par respect pour la dignité humaine qu'on ne doit pas déroger à la coutume locale]. On ne s'assiéra pas non plus sur un sol non pavé. Cependant, il est permis de marcher ou de s'asseoir sur un sol pavé, mais si possible, il est bon d'interposer un vêtement. [Yalkout Yossef, Chéérit Yossef].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "27. On ne marchera pas pieds nus sur un sol non pavé. [Nos Sages ont dit : \"L'homme devrait toujours vendre les poutres de sa maison pour s'acheter des chaussures\", car rien n'est plus dégradant que de marcher pieds nus au marché]. Tout ceci s'applique en dehors d'Israël, mais en Terre d'Israël, il n'y a fondamentalement pas d'interdiction de marcher pieds nus sur la terre. [C'est seulement par respect pour la dignité humaine qu'on ne doit pas déroger à la coutume locale]. On ne s'assiéra pas non plus sur un sol non pavé. Cependant, il est permis de marcher ou de s'asseoir sur un sol pavé, mais si possible, il est bon d'interposer un vêtement. [Yalkout Yossef, Chéérit Yossef].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "27"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "27"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 27 : Interdiction de marcher pieds nus",
+        "simple_explanation": "27. On ne marchera pas pieds nus sur un sol non pavé. [Nos Sages ont dit : \"L'homme devrait toujours vendre les poutres de sa maison pour s'acheter des chaussures\", car rien n'est plus dégradant que de marcher pieds nus au marché]. Tout ceci s'applique en dehors d'Israël, mais en Terre d'Israël, il n'y a fondamentalement pas d'interdiction de marcher pieds nus sur la terre. [C'est seulement par respect pour la dignité humaine qu'on ne doit pas déroger à la coutume locale]. On ne s'assiéra pas non plus sur un sol non pavé. Cependant, il est permis de marcher ou de s'asseoir sur un sol pavé, mais si possible, il est bon d'interposer un vêtement. [Yalkout Yossef, Chéérit Yossef].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-027-flashcard-01",
+            "knowledge_point_id": "s2-kp-027",
+            "source_seif": "27",
+            "title": "Interdiction de marcher pieds nus",
+            "question": "Que présente le סעיף 27 concernant « Interdiction de marcher pieds nus » ?",
+            "answer": "27. On ne marchera pas pieds nus sur un sol non pavé. [Nos Sages ont dit : \"L'homme devrait toujours vendre les poutres de sa maison pour s'acheter des chaussures\", car rien n'est plus dégradant que de marcher pieds nus au marché]. Tout ceci s'applique en dehors d'Israël, mais en Terre d'Israël, il n'y a fondamentalement pas d'interdiction de marcher pieds nus sur la terre. [C'est seulement par respect pour la dignité humaine qu'on ne doit pas déroger à la coutume locale]. On ne s'assiéra pas non plus sur un sol non pavé. Cependant, il est permis de marcher ou de s'asseoir sur un sol pavé, mais si possible, il est bon d'interposer un vêtement. [Yalkout Yossef, Chéérit Yossef].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    },
+    {
+      "id": "s2-kp-028",
+      "title": "Pénitence en marchant pieds nus",
+      "rule": "28. À un \"Ba'al Téchouva\" (personne revenue à la religion) qui souhaiterait s'affliger et marcher pieds nus pour expier ses fautes, on conseillera de ne pas agir ainsi. La meilleure réparation pour l'expiation de ses péchés est d'augmenter de plus en plus son étude de la Torah. [Chéérit Yossef, Yalkout Yossef, et là-bas dans la note page 251, car de nos jours il n'y a pas besoin de faire attention à porter les chaussettes seulement sous la couverture].",
+      "explanation": null,
+      "practical_example": null,
+      "common_trap": null,
+      "learning_level": 1,
+      "importance": "important",
+      "knowledge_type": "source_seif",
+      "halakha_status": "unclassified",
+      "claims": [
+        {
+          "text": "28. À un \"Ba'al Téchouva\" (personne revenue à la religion) qui souhaiterait s'affliger et marcher pieds nus pour expier ses fautes, on conseillera de ne pas agir ainsi. La meilleure réparation pour l'expiation de ses péchés est d'augmenter de plus en plus son étude de la Torah. [Chéérit Yossef, Yalkout Yossef, et là-bas dans la note page 251, car de nos jours il n'y a pas besoin de faire attention à porter les chaussettes seulement sous la couverture].",
+          "sources": [
+            {
+              "siman": 2,
+              "seif": "28"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "siman": 2,
+          "seif": "28"
+        }
+      ],
+      "pedagogy": {
+        "learning_summary": "Lecture directe du סעיף 28 : Pénitence en marchant pieds nus",
+        "simple_explanation": "28. À un \"Ba'al Téchouva\" (personne revenue à la religion) qui souhaiterait s'affliger et marcher pieds nus pour expier ses fautes, on conseillera de ne pas agir ainsi. La meilleure réparation pour l'expiation de ses péchés est d'augmenter de plus en plus son étude de la Torah. [Chéérit Yossef, Yalkout Yossef, et là-bas dans la note page 251, car de nos jours il n'y a pas besoin de faire attention à porter les chaussettes seulement sous la couverture].",
+        "human_review_required": true,
+        "pilot_scope": "source_exposure_only",
+        "activities": {
+          "flashcard": {
+            "activity_id": "s2-kp-028-flashcard-01",
+            "knowledge_point_id": "s2-kp-028",
+            "source_seif": "28",
+            "title": "Pénitence en marchant pieds nus",
+            "question": "Que présente le סעיף 28 concernant « Pénitence en marchant pieds nus » ?",
+            "answer": "28. À un \"Ba'al Téchouva\" (personne revenue à la religion) qui souhaiterait s'affliger et marcher pieds nus pour expier ses fautes, on conseillera de ne pas agir ainsi. La meilleure réparation pour l'expiation de ses péchés est d'augmenter de plus en plus son étude de la Torah. [Chéérit Yossef, Yalkout Yossef, et là-bas dans la note page 251, car de nos jours il n'y a pas besoin de faire attention à porter les chaussettes seulement sous la couverture].",
+            "conditions": "",
+            "validated": true,
+            "validation_scope": "exact_source_projection"
+          }
+        }
+      }
+    }
+  ]
+}

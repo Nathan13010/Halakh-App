@@ -168,6 +168,32 @@ test("ScenarioGame est réellement atteint et reste reflective", async ({ page }
   expect(progression.activities_mastered).toEqual([]);
 });
 
+test("desktop: le sélecteur charge les pilotes des Simanim 2 et 3", async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== "desktop");
+  await page.goto("/");
+  await page.evaluate(() => localStorage.clear());
+  await page.reload();
+  await page.getByRole("button", { name: "Apprentissage", exact: true }).click();
+
+  const siman2Button = page.getByRole("button", { name: "Siman 2", exact: true });
+  await siman2Button.click();
+  await expect(siman2Button).toHaveAttribute("aria-pressed", "true");
+  const startButton = page.getByRole("button", { name: /Commencer la session/ });
+  await expect(startButton).toBeEnabled();
+  await startButton.click();
+  await expect(page.getByTestId("activity-renderer")).toHaveAttribute("data-activity-id", /^s2-kp-/);
+  await expect(page.getByTestId("activity-renderer")).toHaveAttribute("data-raw-type", "flashcard");
+  await page.getByRole("button", { name: "Fermer la session" }).click();
+
+  const siman3Button = page.getByRole("button", { name: "Siman 3", exact: true });
+  await siman3Button.click();
+  await expect(siman3Button).toHaveAttribute("aria-pressed", "true");
+  await expect(startButton).toBeEnabled();
+  await startButton.click();
+  await expect(page.getByTestId("activity-renderer")).toHaveAttribute("data-activity-id", /^s3-kp-/);
+  await expect(page.getByTestId("activity-renderer")).toHaveAttribute("data-raw-type", "flashcard");
+});
+
 test("desktop: une session objective crédite et persiste les XP", async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== "desktop");
   const objectiveKps = knowledgeData.knowledge_points

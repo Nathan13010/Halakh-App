@@ -101,5 +101,30 @@ for (const config of Object.values(LEARNING_SIMANS)) {
     assert.ok(rejected.every(
       (result) => result.validation.reason === config.contentContract.allowedRejectionReason
     ));
+
+    if (config.contentContract.pilotScope === "source_exposure_only") {
+      const sourcePath = config.sourcePath.replace(/^\//, "");
+      const sourceUrl = new URL(`../../public/${sourcePath}`, import.meta.url);
+      const source = JSON.parse(readFileSync(sourceUrl, "utf8"));
+
+      assert.equal(data.meta.review_status, "pilot_needs_human_editorial_review");
+      assert.equal(data.meta.learning_mode, "exposure_only");
+      assert.equal(data.knowledge_points.length, source.halakhot.length);
+
+      data.knowledge_points.forEach((kp, index) => {
+        const sourceHalakha = source.halakhot[index];
+        const activityTypes = Object.keys(kp.pedagogy.activities);
+        const flashcard = kp.pedagogy.activities.flashcard;
+
+        assert.deepEqual(activityTypes, ["flashcard"]);
+        assert.equal(kp.rule, sourceHalakha.texte_integral.francais);
+        assert.equal(kp.title, sourceHalakha.titre_seif);
+        assert.equal(kp.pedagogy.human_review_required, true);
+        assert.equal(kp.pedagogy.pilot_scope, "source_exposure_only");
+        assert.equal(flashcard.answer, sourceHalakha.texte_integral.francais);
+        assert.equal(flashcard.source_seif, String(sourceHalakha.seif));
+        assert.equal(flashcard.validation_scope, "exact_source_projection");
+      });
+    }
   });
 }

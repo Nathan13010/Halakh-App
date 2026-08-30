@@ -5,6 +5,7 @@ import ActivityRenderer from "./learning/ActivityRenderer";
 import { useLearningSession } from "../hooks/useLearningSession";
 import { getAllProgressions } from "../services/progressionTracker";
 import {
+  AVAILABLE_LEARNING_SIMANS,
   DEFAULT_LEARNING_SIMAN_ID,
   getLearningSimanConfig
 } from "../data/learningSimans";
@@ -16,8 +17,15 @@ const LearningScreen = ({
   streak = 0,
   simanId = DEFAULT_LEARNING_SIMAN_ID
 }) => {
-  const session = useLearningSession(simanId, 5);
-  const simanConfig = getLearningSimanConfig(simanId);
+  const [selectedSimanId, setSelectedSimanId] = useState(() => {
+    if (typeof window === "undefined") return simanId;
+    const storedSimanId = window.localStorage.getItem("halakhapp_learning_siman_id");
+    return AVAILABLE_LEARNING_SIMANS.some((config) => config.id === storedSimanId)
+      ? storedSimanId
+      : simanId;
+  });
+  const session = useLearningSession(selectedSimanId, 5);
+  const simanConfig = getLearningSimanConfig(selectedSimanId);
   const [showConfetti, setShowConfetti] = useState(false);
   const [showVictoryModal, setShowVictoryModal] = useState(false);
   const [showBadgesModal, setShowBadgesModal] = useState(false);
@@ -37,11 +45,19 @@ const LearningScreen = ({
     }
 
     const progressions = getAllProgressions();
-    const masteredCount = knowledgePoints
-      .filter((kp) => progressions[kp.id]?.status === "mastered")
+    const isExposureOnly = session.knowledgeData?.meta?.learning_mode === "exposure_only";
+    const completedCount = knowledgePoints
+      .filter((kp) => isExposureOnly
+        ? progressions[kp.id] && progressions[kp.id].status !== "non_started"
+        : progressions[kp.id]?.status === "mastered")
       .length;
-    setSimanProgress(Math.round((masteredCount / knowledgePoints.length) * 100));
+    setSimanProgress(Math.round((completedCount / knowledgePoints.length) * 100));
   }, [session.knowledgeData, session.status]);
+
+  const selectSiman = (nextSimanId) => {
+    window.localStorage.setItem("halakhapp_learning_siman_id", nextSimanId);
+    setSelectedSimanId(nextSimanId);
+  };
 
   useEffect(() => {
     if (session.status === "active") rewardedSessionRef.current = false;
@@ -120,6 +136,30 @@ const LearningScreen = ({
         </div>
       </div>
 
+      <div className="bg-white dark:bg-zinc-900 border-b border-zinc-200 dark:border-zinc-800 px-4 py-2 shrink-0 overflow-x-auto">
+        <div className="flex items-center justify-center gap-2 min-w-max" aria-label="Choisir un Siman">
+          {AVAILABLE_LEARNING_SIMANS.map((config) => {
+            const isSelected = config.id === selectedSimanId;
+            return (
+              <button
+                key={config.id}
+                type="button"
+                onClick={() => selectSiman(config.id)}
+                disabled={session.status === "active"}
+                aria-pressed={isSelected}
+                className={`px-4 py-2 rounded-full text-xs font-bold border transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${
+                  isSelected
+                    ? "bg-blue-600 border-blue-600 text-white shadow-sm"
+                    : "bg-zinc-50 dark:bg-zinc-800 border-zinc-200 dark:border-zinc-700 text-zinc-600 dark:text-zinc-300 hover:border-blue-400"
+                }`}
+              >
+                {config.shortLabel}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
       <div className="flex-1 overflow-y-auto p-6 md:p-10 relative flex flex-col items-center justify-center custom-scrollbar">
         <div className="z-10 w-full max-w-md">
           <div className="bg-white/95 dark:bg-zinc-900/90 border border-blue-500/30 rounded-3xl p-6 shadow-xl relative overflow-hidden backdrop-blur-sm flex flex-col items-center text-center">
@@ -168,7 +208,7 @@ const LearningScreen = ({
             <div className="fixed top-20 left-4 z-[100] bg-black/90 text-green-400 p-4 rounded-xl font-mono text-[10px] w-72 max-h-[75vh] overflow-y-auto shadow-2xl border border-green-500/30 break-words">
               <h4 className="font-bold text-white mb-2 pb-2 border-b border-white/20">DEBUG LEARNING CORE</h4>
               <div className="space-y-1">
-                <p><span className="text-white/50">SIMAN:</span> {simanId}</p>
+                <p><span className="text-white/50">SIMAN:</span> {selectedSimanId}</p>
                 <p><span className="text-white/50">SEIF:</span> {debugActivity.source_seif}</p>
                 <p><span className="text-white/50">KP:</span> {debugKp.id}</p>
                 <p><span className="text-white/50">ACTIVITY:</span> {debugActivity.activity_id}</p>
