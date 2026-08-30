@@ -1,0 +1,177 @@
+{
+  "_meta": {
+    "source": "entree.txt (texte pré-vocalisé)",
+    "siman": 29,
+    "siman_hebrew": "כט",
+    "generated_at": "2026-08-28T10:18:29.822Z",
+    "total_seifim": 1
+  },
+  "halakhot": [
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Absence de bénédiction en retirant les Téfillines",
+      "siman": "29",
+      "seif": "1",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "א. אין לברך שום ברכה כשחולץ תפילין, אפילו כשחולצם בערב שבת בבין השמשות. [ילקו\"י על הלכות תפילין מהדורת תשס\"ד, סימן כט].",
+        "hebreu_avec_voyelles": "א אֵין לְבָרֵךְ שׁוּם בְּרָכָה כְּשֶׁחוֹלֵץ תְּפִלִּין, אֲפִלּוּ כְּשֶׁחוֹלְצָם בְּעֶרֶב שַׁבָּת בְּבֵין הַשְּׁמָשׁוֹת. [ילקו\"י עַל הִלְכוֹת תְּפִלִּין מַהֲדוּרַת תשס\"ד, סִימָן כט].",
+        "francais": "1. On ne doit réciter aucune bénédiction lorsqu'on retire les téfillines, même lorsqu'on les retire la veille de Chabbat au crépuscule. [Yalkout Yossef sur les lois des Téfillines, édition 5764, chapitre 29]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "א.",
+          "hebreu_voyelles": "א.",
+          "francais_mot": "1.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "il n'y a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "לברך",
+          "hebreu_voyelles": "לְבָרֵךְ",
+          "francais_mot": "de bénédiction à réciter",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "שום",
+          "hebreu_voyelles": "שׁוּם",
+          "francais_mot": "aucune",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "ברכה",
+          "hebreu_voyelles": "בְּרָכָה",
+          "francais_mot": "bénédiction",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "כשחולץ",
+          "hebreu_voyelles": "כְּשֶׁחוֹלֵץ",
+          "francais_mot": "lorsqu'on retire",
+          "expression_contexte": "",
+          "infinitif": "לַחֲלֹץ = Retirer"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "תפילין,",
+          "hebreu_voyelles": "תְּפִלִּין,",
+          "francais_mot": "les téfillines,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "אפילו",
+          "hebreu_voyelles": "אֲפִלּוּ",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "כשחולצם",
+          "hebreu_voyelles": "כְּשֶׁחוֹלְצָם",
+          "francais_mot": "lorsqu'on les retire",
+          "expression_contexte": "",
+          "infinitif": "לַחֲלֹץ = Retirer"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "בערב",
+          "hebreu_voyelles": "בְּעֶרֶב",
+          "francais_mot": "la veille de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "בבין",
+          "hebreu_voyelles": "בְּבֵין",
+          "francais_mot": "pendant",
+          "expression_contexte": "בבין השמשות = Au crépuscule"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "השמשות.",
+          "hebreu_voyelles": "הַשְּׁמָשׁוֹת.",
+          "francais_mot": "le crépuscule.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "הלכות",
+          "hebreu_voyelles": "הִלְכוֹת",
+          "francais_mot": "les lois de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "תפילין",
+          "hebreu_voyelles": "תְּפִלִּין",
+          "francais_mot": "Téfillines",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "מהדורת",
+          "hebreu_voyelles": "מַהֲדוּרַת",
+          "francais_mot": "édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "תשס\"ד,",
+          "hebreu_voyelles": "תשס\"ד,",
+          "francais_mot": "5764,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "סימן",
+          "hebreu_voyelles": "סִימָן",
+          "francais_mot": "chapitre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "כט].",
+          "hebreu_voyelles": "כט].",
+          "francais_mot": "29].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 1
+    }
+  ]
+}

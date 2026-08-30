@@ -1,0 +1,93 @@
+{
+  "siman": 28,
+  "timestamp": "2026-08-28T10:17:42.366Z",
+  "dryRun": false,
+  "totalFixes": 12,
+  "seifimFixed": 12,
+  "details": [
+    {
+      "seif": "13",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"טו\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "14",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"טז\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "15",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"יז\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "16",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"יח\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "17",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"יט\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "19",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"כא\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "20",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"א\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "21",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"ב\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "22",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"ג\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "23",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"ד\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "24",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"ה\"). Réalignement..."
+      ]
+    },
+    {
+      "seif": "25",
+      "fixes": 1,
+      "details": [
+        "Décalage d'alignement détecté (intrus: \"ו\"). Réalignement..."
+      ]
+    }
+  ]
+}

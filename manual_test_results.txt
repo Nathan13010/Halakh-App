@@ -1,0 +1,53 @@
+==================================================
+TEST 1 - NOUVEL UTILISATEUR
+Queue length: 2
+1. KP selectionne en premier: s1-kp-006
+2. Activite affichee: s1-kp-006-flashcard-01 (type UI: card, raw: flashcard)
+3. Est-ce bien une Flashcard pour un KP non_started ? true
+4. Apres la Flashcard, activite proposee: s1-kp-006-qcm-01 (type UI: quiz, raw: multiple_choice)
+5. Est-ce que le QCM/VF correspond bien au meme KP ? true
+6. Situation existe dans le JSON pour ce KP ? false
+7. Statut apres Flashcard: practicing
+TEST 1: Evaluated.
+
+==================================================
+TEST 2 - ERREUR
+Apres erreur sur s1-kp-006-qcm-01:
+status = needs_review
+wrong = 1
+streak = 0
+last_failed_activity_id = s1-kp-006-qcm-01
+Prochaine activite proposee: s1-kp-006-vf-01
+TEST 2: Evaluated.
+
+==================================================
+TEST 3 - PRIORITE NEEDS_REVIEW
+KP A (lvl 1) status: non_started
+KP B (lvl 3) status: needs_review
+Premier KP selectionne: s1-kp-024 (Est-ce KP B ? true)
+TEST 3: Evaluated.
+
+==================================================
+TEST 4 - MAITRISE
+1. Apres Flashcard: status=practicing
+3. Apres QCM: status=practicing
+5. Apres Situation: status=mastered
+Final state:
+status: mastered
+attempts: 3
+correct: 3
+wrong: 0
+streak: 3
+activities_mastered: [{"id":"s1-kp-024-qcm-01","type":"multiple_choice"},{"id":"s1-kp-024-practical-01","type":"practical_situation"}]
+TEST 4: Evaluated.
+
+==================================================
+TEST 5 - TRACABILITE
+Tracabilite OK: true
+TEST 5: Evaluated.
+
+==================================================
+TEST 6 - ANTI-REPETITION
+Activity displayed after fail: None
+Was it the same ? undefined
+TEST 6: Evaluated.

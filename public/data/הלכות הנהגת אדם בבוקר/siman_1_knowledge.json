@@ -2,7 +2,8 @@
   "meta": {
     "siman": 1,
     "siman_hebrew": "א",
-    "title": "הלכות הנהגת אדם בבוקר",
+    "title": "Le réveil et les prières du matin",
+    "title_hebrew": "הלכות הנהגת אדם בבוקר",
     "source": "siman_1.json",
     "source_seifim": 59,
     "knowledge_points": 76,

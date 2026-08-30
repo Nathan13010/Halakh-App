@@ -446,13 +446,14 @@ function App() {
   return (
     <div
       className="min-h-screen bg-[#E3E7EC] dark:bg-[#25282D] text-zinc-900 dark:text-[#E4E4E7] font-sans pb-20 md:pb-0 overflow-x-hidden w-full max-w-full"
-      style={{ paddingTop: 'calc(var(--header-height, 4rem) + var(--safe-top, 0px))' }}
+      style={{ paddingTop: activeTab === 'learning' ? 'var(--safe-top, 0px)' : 'calc(var(--header-height, 4rem) + var(--safe-top, 0px))' }}
     >
       {/* Header Mobile / Desktop Top Bar */}
-      <header
-        className="fixed top-0 left-0 right-0 bg-[#E3E7EC]/80 dark:bg-[#25282D]/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 z-40 flex items-center justify-between px-4 md:px-8 w-full max-w-full overflow-x-hidden"
-        style={{ minHeight: 'var(--header-height, 4rem)', height: 'calc(var(--header-height, 4rem) + var(--safe-top, 0px))', paddingTop: 'var(--safe-top, 0px)', boxSizing: 'border-box' }}
-      >
+      {activeTab !== 'learning' && (
+        <header
+          className="fixed top-0 left-0 right-0 bg-[#E3E7EC]/80 dark:bg-[#25282D]/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 z-40 flex items-center justify-between px-4 md:px-8 w-full max-w-full overflow-x-hidden"
+          style={{ minHeight: 'var(--header-height, 4rem)', height: 'calc(var(--header-height, 4rem) + var(--safe-top, 0px))', paddingTop: 'var(--safe-top, 0px)', boxSizing: 'border-box' }}
+        >
         {/* Left side: Back button when reading, Logo otherwise */}
         {activeTab === 'library' && currentScreen === 'reader' ? (
           <div className="flex items-center gap-2 sm:gap-3">
@@ -499,6 +500,7 @@ function App() {
           )}
         </div>
       </header>
+      )}
 
       <QuickSettingsPopover
         isOpen={isQuickSettingsOpen}

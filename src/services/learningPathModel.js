@@ -6,7 +6,8 @@ import { getGlossaryForText } from "../data/learningGlossary.js";
 
 export const LEARNING_CATEGORY = Object.freeze({
   id: "morning_conduct",
-  title: "הלכות הנהגת אדם בבוקר",
+  title: "La conduite de l'homme au réveil",
+  titleHebrew: "הלכות הנהגת אדם בבוקר",
   subtitle: "Les lois qui accompagnent le début de la journée",
   simanIds: Object.freeze(["siman_1", "siman_2", "siman_3"])
 });

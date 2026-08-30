@@ -114,7 +114,7 @@ const LearningPathMap = ({ curricula, pathState, onOpenSiman, onOpenCategoryExam
           <span className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] bg-white/15 px-3 py-1.5 rounded-full">
             Parcours guidé · {completedSimans}/{allCurricula.length} Simanim
           </span>
-          <h1 dir="rtl" className="font-serif text-3xl sm:text-4xl font-black mt-4 text-right sm:text-left">
+          <h1 className="font-serif text-2xl sm:text-4xl font-black mt-4 text-left">
             {LEARNING_CATEGORY.title}
           </h1>
           <p className="mt-3 max-w-xl text-sm sm:text-base text-blue-50/90 leading-relaxed">

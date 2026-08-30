@@ -6,6 +6,7 @@ import QuizFlow from "./learning/QuizFlow.jsx";
 import RevisionSheet from "./learning/RevisionSheet.jsx";
 import SimanPathView from "./learning/SimanPathView.jsx";
 import { useLearningPath } from "../hooks/useLearningPath.js";
+import { LEARNING_CATEGORY } from "../services/learningPathModel.js";
 
 const LearningScreen = ({ xp = 0, onAddXp, onCompleteDay, streak = 0 }) => {
   const learningPath = useLearningPath();
@@ -40,7 +41,7 @@ const LearningScreen = ({ xp = 0, onAddXp, onCompleteDay, streak = 0 }) => {
   };
 
   return (
-    <div className="flex flex-col h-[calc(100vh-8rem)] bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 overflow-hidden relative">
+    <div className="flex flex-col h-[calc(100vh-5rem)] md:h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 overflow-hidden relative">
       {showConfetti && <ConfettiCanvas onComplete={() => setShowConfetti(false)} />}
 
       <header className="shrink-0 z-20 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800 px-4 sm:px-6 py-3 flex items-center justify-between gap-3 shadow-sm">
@@ -51,7 +52,7 @@ const LearningScreen = ({ xp = 0, onAddXp, onCompleteDay, streak = 0 }) => {
           aria-label="Retourner au parcours d'apprentissage"
         >
           <span className="block text-[9px] font-black uppercase tracking-[0.18em] text-blue-600 dark:text-blue-400">Mon parcours</span>
-          <span className="block text-sm font-serif font-black truncate">הלכות הנהגת אדם בבוקר</span>
+          <span className="block text-sm font-serif font-black truncate">{LEARNING_CATEGORY.title}</span>
         </button>
 
         <div className="flex items-center gap-2 shrink-0">
@@ -137,7 +138,7 @@ const LearningScreen = ({ xp = 0, onAddXp, onCompleteDay, streak = 0 }) => {
       {view.type === "categoryExam" && (
         <QuizFlow
           questions={learningPath.categoryExam}
-          title="Test final · הלכות הנהגת אדם בבוקר"
+          title={`Test final · ${LEARNING_CATEGORY.title}`}
           subtitle="Deux questions de chaque Siman. Un sans-faute débloque ta fiche permanente."
           onClose={() => setView({ type: "path" })}
           onAttempt={recordCategoryAttempt}
