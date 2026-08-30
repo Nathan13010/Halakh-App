@@ -113,6 +113,39 @@ test("la première leçon utilise les trois questions directes proposées", () =
   assert.equal(questions[2].correctAnswer, "Remercier Dieu pour le retour de notre âme.");
 });
 
+test("la troisième leçon distingue l'horaire, la préparation et la Zrizout", () => {
+  const questions = buildCurriculum(1).lessons[2].questions;
+
+  assert.deepEqual(questions.map((question) => question.knowledgePointId), [
+    "s1-kp-005",
+    "s1-kp-008",
+    "s1-kp-006"
+  ]);
+  assert.equal(questions[0].prompt, "Pourquoi doit-on calculer son heure de réveil le matin ?");
+  assert.deepEqual(questions[0].options, [
+    "Pour accomplir la prière et le Chema avant leur heure limite.",
+    "Pour faire une longue pause avant de commencer la journée.",
+    "Pour vérifier la météo du jour."
+  ]);
+  assert.equal(questions[0].correctAnswer, questions[0].options[0]);
+
+  assert.equal(questions[1].prompt, "Pourquoi est-il conseillé de se lever bien avant le début de la prière ?");
+  assert.deepEqual(questions[1].options, [
+    "Pour pouvoir réciter la prière deux fois de suite.",
+    "Pour se préparer avec calme et avoir une meilleure concentration (Kavana).",
+    "Pour éviter de faire ses ablutions matinales."
+  ]);
+  assert.equal(questions[1].correctAnswer, questions[1].options[1]);
+
+  assert.equal(questions[2].kind, "true_false");
+  assert.equal(
+    questions[2].prompt,
+    "« Courir dans tous les sens parce qu'on est en retard est une preuve de Zrizout (empressement). »"
+  );
+  assert.equal(questions[2].context, null);
+  assert.equal(questions[2].correctAnswer, "Faux");
+});
+
 test("toutes les questions restent directes et toutes les réponses sont courtes", () => {
   const forbiddenMetaText = /que faut-il retenir|une personne découvre|ce rappel parle-t-il|à quelle notion correspond|explique-le à un ami/i;
 

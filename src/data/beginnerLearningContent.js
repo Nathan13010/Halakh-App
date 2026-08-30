@@ -56,21 +56,31 @@ const CONTENT_OVERRIDES = Object.freeze({
   "s1-kp-008": Object.freeze({
     coreText: "On essaie de se lever assez tôt pour avoir le temps de se préparer calmement et de prier sans dépasser l'horaire prévu.",
     explanation: "Se préparer à l'avance permet d'éviter la précipitation et de commencer la prière dans de bonnes conditions.",
-    quizPrompt: "Pourquoi se lever assez tôt avant la prière ?",
-    quizAnswer: "Pour se préparer calmement et respecter l'horaire de la prière."
+    quizPrompt: "Pourquoi est-il conseillé de se lever bien avant le début de la prière ?",
+    quizAnswer: "Pour se préparer avec calme et avoir une meilleure concentration (Kavana).",
+    quizOptions: [
+      "Pour pouvoir réciter la prière deux fois de suite.",
+      "Pour se préparer avec calme et avoir une meilleure concentration (Kavana).",
+      "Pour éviter de faire ses ablutions matinales."
+    ]
   }),
   "s1-kp-005": Object.freeze({
     coreText: "Le Chema et la prière du matin doivent être récités pendant des horaires précis. Il faut donc organiser son réveil pour ne pas les dépasser.",
     explanation: "Le judaïsme relie certaines prières à des moments de la journée. Les horaires exacts dépendent du lieu et de la date.",
-    quizPrompt: "Pourquoi organiser son réveil selon l'heure ?",
-    quizAnswer: "Pour réciter le Chema et la prière du matin dans les temps."
+    quizPrompt: "Pourquoi doit-on calculer son heure de réveil le matin ?",
+    quizAnswer: "Pour accomplir la prière et le Chema avant leur heure limite.",
+    quizOptions: [
+      "Pour accomplir la prière et le Chema avant leur heure limite.",
+      "Pour faire une longue pause avant de commencer la journée.",
+      "Pour vérifier la météo du jour."
+    ]
   }),
   "s1-kp-006": Object.freeze({
     coreText: "La Zrizout consiste à s'organiser pour agir avec empressement au bon moment. Courir parce que l'on s'est levé trop tard n'est pas cette qualité.",
     explanation: "La Zrizout n'est pas la précipitation. Elle consiste à anticiper, se préparer et accomplir une bonne action sans la repousser.",
-    quizAnswer: "S'organiser et agir à temps sans se précipiter.",
+    quizAnswer: "La Zrizout, c'est anticiper une Mitsva par amour, pas paniquer à cause d'un retard.",
     quizTrueFalse: Object.freeze({
-      statement: "Courir parce qu'on est en retard est une preuve de Zrizout.",
+      statement: "Courir dans tous les sens parce qu'on est en retard est une preuve de Zrizout (empressement).",
       answer: "Faux"
     })
   }),
