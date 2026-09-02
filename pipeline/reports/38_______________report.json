@@ -1,0 +1,177 @@
+{
+  "siman": 38,
+  "file": "siman_38.json",
+  "timestamp": "2026-09-02T07:22:57.659Z",
+  "summary": {
+    "total": 5,
+    "pass": 4,
+    "warn": 1,
+    "fail": 0,
+    "avg_score": 97
+  },
+  "seifim": [
+    {
+      "seif": 1,
+      "status": "WARN",
+      "score": 83,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": false,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": [
+        {
+          "type": "ALIGNMENT_MISMATCH_WORD",
+          "severity": "error",
+          "detail": "14 mot(s) ont un décalage majeur entre brut et voyelles",
+          "words": [
+            {
+              "id": 24,
+              "hebreu_brut": "ע",
+              "hebreu_voyelles": "סִי'"
+            },
+            {
+              "id": 25,
+              "hebreu_brut": "סי'",
+              "hebreu_voyelles": "לַח"
+            },
+            {
+              "id": 26,
+              "hebreu_brut": "לח",
+              "hebreu_voyelles": "ס\"ג."
+            },
+            {
+              "id": 27,
+              "hebreu_brut": "ס",
+              "hebreu_voyelles": "ילקו\"י"
+            },
+            {
+              "id": 28,
+              "hebreu_brut": "ג.",
+              "hebreu_voyelles": "תְּפִלִּין"
+            },
+            {
+              "id": 29,
+              "hebreu_brut": "ילקו",
+              "hebreu_voyelles": "סִי'"
+            },
+            {
+              "id": 31,
+              "hebreu_brut": "תפילין",
+              "hebreu_voyelles": "הֶעָרָה"
+            },
+            {
+              "id": 32,
+              "hebreu_brut": "סי'",
+              "hebreu_voyelles": "א'."
+            },
+            {
+              "id": 33,
+              "hebreu_brut": "לח",
+              "hebreu_voyelles": "(עמ'"
+            },
+            {
+              "id": 34,
+              "hebreu_brut": "הערה",
+              "hebreu_voyelles": "תרסג"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seif": 2,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 3,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 4,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    },
+    {
+      "seif": 5,
+      "status": "PASS",
+      "score": 100,
+      "checks": {
+        "json_structure": true,
+        "alignment_count": true,
+        "alignment_accuracy": true,
+        "no_terme": true,
+        "no_pipes": true,
+        "no_double_spaces": true,
+        "badge_correct": true,
+        "titre_seif_present": true,
+        "sujet_present": false,
+        "ktiv_male": true,
+        "no_punctuation_word": true,
+        "no_empty_words": true,
+        "no_hebrew_in_french": true
+      },
+      "issues": []
+    }
+  ]
+}

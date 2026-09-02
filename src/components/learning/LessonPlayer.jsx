@@ -91,35 +91,17 @@ const LessonPlayer = ({ lesson, simanNumber, alreadyCompleted, onClose, onComple
           </div>
 
           <h1 className="mt-6 text-2xl sm:text-3xl font-serif font-black leading-tight">{item.title}</h1>
-          <p className="mt-5 text-base sm:text-lg leading-relaxed font-medium text-zinc-700 dark:text-zinc-200">
+          <p className="mt-5 text-base sm:text-lg leading-relaxed font-medium text-zinc-700 dark:text-zinc-200 whitespace-pre-line">
             {item.coreText}
           </p>
 
-          {item.explanation && (
-            <div className="mt-5 rounded-2xl bg-blue-50 dark:bg-blue-950/30 border-l-4 border-blue-500 p-4 flex items-start gap-3">
-              <span aria-hidden="true" className="text-lg">💡</span>
-              <p className="whitespace-pre-line text-sm leading-relaxed text-blue-950 dark:text-blue-100">{item.explanation}</p>
-            </div>
-          )}
 
-          {glossary.length > 0 && (
-            <div className="mt-5 space-y-2" data-testid="lesson-glossary">
-              <span className="text-[9px] font-black uppercase tracking-widest text-violet-700 dark:text-violet-300">
-                {glossary.every((entry) => entry.exposure === 2) ? "Rappel vocabulaire" : "Vocabulaire utile"}
-              </span>
-              {glossary.map((entry) => (
-                <div key={entry.term} className="rounded-2xl bg-violet-50 dark:bg-violet-950/25 border border-violet-200 dark:border-violet-900 px-4 py-3 text-sm">
-                  <p className="text-zinc-600 dark:text-zinc-300"><GlossaryDefinition entry={entry} /></p>
-                </div>
-              ))}
-            </div>
-          )}
 
           {item.references.length > 0 && (
             <button
               type="button"
               onClick={() => setShowReference(true)}
-              className="mt-5 w-full rounded-2xl border-2 border-amber-300 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/25 px-4 py-3.5 flex items-center justify-center gap-2 text-sm font-black text-amber-900 dark:text-amber-200 hover:bg-amber-100 dark:hover:bg-amber-950/40"
+              className="mt-5 w-full py-2 flex items-center justify-center gap-2 text-sm font-semibold text-amber-700 dark:text-amber-500 hover:text-amber-600 dark:hover:text-amber-400 transition-colors"
             >
               <span aria-hidden="true">📜</span>
               Voir la loi complète en français

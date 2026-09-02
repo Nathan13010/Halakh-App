@@ -40,23 +40,28 @@ const SIMAN_1_PEDAGOGICAL_START = Object.freeze([
 
 const LESSON_TITLES = Object.freeze({
   siman_1: Object.freeze([
-    "Le réveil du matin",
-    "Les premiers instants de la journée",
-    "Se préparer sans précipitation",
-    "Sommeil et disponibilité",
-    "Trouver le bon rythme",
-    "Étude, réveil et vigilance",
-    "Courage et comportement"
+    "Un réveil en douceur et plein de sens ☀️",
+    "Mes premières actions donnent le ton 🎯",
+    "Rester zen et organisé 🧘‍♂️",
+    "Le sommeil : prendre soin de son corps 🌙",
+    "Fierté et bienveillance face aux autres 🛡️",
+    "Le cœur de la prière ❤️"
   ]),
   siman_2: Object.freeze([
-    "S'habiller avec pudeur",
-    "L'ordre de l'habillement",
-    "Bien se chausser"
+    "Le respect de soi dès le matin 👕",
+    "Mettre du sens dans chaque geste 👟",
+    "L'humilité dans notre attitude 🕊️",
+    "La Kippa, un rappel au-dessus de nos têtes 🧢",
+    "La religion s'adapte à la vie 🌊",
+    "Vivre sa foi dans la joie, pas la souffrance ❤️"
   ]),
   siman_3: Object.freeze([
-    "Les besoins du matin",
-    "Ne pas se retenir",
-    "La conduite aux toilettes"
+    "Écouter son corps, une règle d'or 🩺",
+    "La pudeur, même en privé 🚪",
+    "Mettre son esprit sur \"pause\" 🧠",
+    "Le respect des objets sacrés 📖",
+    "La propreté, c'est sacré 🧼",
+    "Séparer la nourriture des toilettes 🍎"
   ])
 });
 
@@ -180,7 +185,9 @@ export const createLearningItem = (kp, sourceIndex = new Map()) => {
   const beginnerContent = getBeginnerLearningContent(kp, rawRule);
   const references = getSourceNumbers(kp).map((number) => sourceIndex.get(number)).filter(Boolean);
   const title = beginnerContent.title || removeLearningJargon(kp.title);
-  const coreText = sentenceExcerpt(beginnerContent.coreText);
+  const coreText = kp?.id?.startsWith("new-") 
+    ? beginnerContent.coreText 
+    : sentenceExcerpt(beginnerContent.coreText);
 
   return {
     id: kp.id,
@@ -190,12 +197,12 @@ export const createLearningItem = (kp, sourceIndex = new Map()) => {
     explanation: beginnerContent.explanation || null,
     references,
     vocabulary: [],
-    quizPrompt: beginnerContent.quizPrompt || createDirectQuizPrompt(title),
-    quizAnswer: beginnerContent.quizAnswer || compactQuizAnswer(coreText),
-    quizOptions: beginnerContent.quizOptions || null,
-    quizTrueFalse: beginnerContent.quizTrueFalse || null,
-    quizExplanation: beginnerContent.quizExplanation || null,
-    quizEyebrow: beginnerContent.quizEyebrow || null,
+    quizPrompt: kp.quizPrompt || beginnerContent.quizPrompt || createDirectQuizPrompt(title),
+    quizAnswer: kp.quizAnswer || beginnerContent.quizAnswer || compactQuizAnswer(coreText),
+    quizOptions: kp.quizOptions || beginnerContent.quizOptions || null,
+    quizTrueFalse: kp.quizTrueFalse || beginnerContent.quizTrueFalse || null,
+    quizExplanation: kp.quizExplanation || beginnerContent.quizExplanation || null,
+    quizEyebrow: kp.quizEyebrow || beginnerContent.quizEyebrow || null,
     halakhaStatus: kp.halakha_status || "unclassified",
     needsEditorialReview: kp?.pedagogy?.human_review_required === true
   };
@@ -233,7 +240,7 @@ const getQuizOptions = (item, optionPool, seed) => {
   if (item.quizOptions) return item.quizOptions;
   const answers = [...new Set(optionPool.map((candidate) => candidate.quizAnswer))];
   if (!answers.includes(item.quizAnswer)) answers.push(item.quizAnswer);
-  return deterministicRotate(answers.slice(0, 3), seed);
+  return deterministicRotate(answers.slice(0, 2), seed);
 };
 
 const createQuickChoiceQuestion = (item, optionPool, scopeId) => ({

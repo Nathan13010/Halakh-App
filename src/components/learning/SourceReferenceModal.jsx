@@ -29,9 +29,14 @@ const SourceReferenceModal = ({ item, onClose }) => {
         </header>
 
         <div className="flex-1 overflow-y-auto custom-scrollbar px-5 sm:px-7 py-6">
-          <p className="rounded-2xl bg-blue-50 dark:bg-blue-950/25 border border-blue-200 dark:border-blue-900 p-4 text-sm leading-relaxed text-blue-950 dark:text-blue-100">
-            Voici le texte français complet dont cette notion est issue. Il permet de lire le contexte, les détails et les éventuelles exceptions.
-          </p>
+          <div className="rounded-2xl bg-blue-50 dark:bg-blue-950/25 border border-blue-200 dark:border-blue-900 p-4 text-sm leading-relaxed text-blue-950 dark:text-blue-100">
+            <p>Voici le texte français complet dont cette notion est issue. Il permet de lire le contexte, les détails et les éventuelles exceptions.</p>
+            {item.references.length > 1 && (
+              <p className="mt-2 font-bold text-blue-800 dark:text-blue-200">
+                👇 Faites défiler vers le bas pour lire les {item.references.length} paragraphes sources.
+              </p>
+            )}
+          </div>
 
           <div className="mt-5 space-y-5">
             {item.references.map((reference) => (

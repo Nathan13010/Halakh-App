@@ -280,9 +280,99 @@
       "completed": "2026-08-29T22:55:43.059Z"
     },
     "32": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 81,
+      "seifim_pass": 79,
+      "seifim_warn": 2,
+      "seifim_fail": 0,
+      "completed": "2026-09-01T07:33:56.071Z"
+    },
+    "34": {
+      "status": "complete",
+      "score": 99,
+      "total_seifim": 18,
+      "seifim_pass": 17,
+      "seifim_warn": 1,
+      "seifim_fail": 0,
+      "completed": "2026-09-01T08:00:29.073Z"
+    },
+    "35": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 4,
+      "seifim_pass": 4,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-09-01T08:05:12.393Z"
+    },
+    "36": {
+      "status": "complete",
+      "score": 98,
+      "total_seifim": 21,
+      "seifim_pass": 18,
+      "seifim_warn": 3,
+      "seifim_fail": 0,
+      "completed": "2026-09-02T06:47:44.101Z"
+    },
+    "37": {
+      "status": "complete",
+      "score": 98,
+      "total_seifim": 17,
+      "seifim_pass": 15,
+      "seifim_warn": 2,
+      "seifim_fail": 0,
+      "completed": "2026-09-02T07:18:08.146Z"
+    },
+    "38": {
+      "status": "complete",
+      "score": 97,
+      "total_seifim": 5,
+      "seifim_pass": 4,
+      "seifim_warn": 1,
+      "seifim_fail": 0,
+      "completed": "2026-09-02T07:22:57.677Z"
+    },
+    "39": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 1,
+      "seifim_pass": 1,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-09-02T07:24:34.590Z"
+    },
+    "40": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 8,
+      "seifim_pass": 8,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-09-02T07:32:37.833Z"
+    },
+    "42": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 4,
+      "seifim_pass": 4,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-09-02T07:36:38.402Z"
+    },
+    "44": {
+      "status": "complete",
+      "score": 100,
+      "total_seifim": 7,
+      "seifim_pass": 7,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-09-02T07:45:31.941Z"
+    },
+    "45": {
       "status": "in_progress",
-      "started": "2026-08-30T16:54:58.645Z",
-      "total_seifim": 81
+      "started": "2026-09-02T12:15:51.417Z",
+      "total_seifim": 16
     },
     "109": {
       "status": "complete",
@@ -327,8 +417,8 @@
       "seifim_pass": 0,
       "seifim_warn": 0,
       "seifim_fail": 0,
-      "completed": "2026-08-30T16:54:53.640Z"
+      "completed": "2026-09-02T12:15:46.408Z"
     }
   },
-  "last_updated": "2026-08-30T16:54:58.645Z"
+  "last_updated": "2026-09-02T12:15:51.417Z"
 }

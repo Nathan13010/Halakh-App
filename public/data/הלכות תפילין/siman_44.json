@@ -1,0 +1,4061 @@
+{
+  "_meta": {
+    "source": "entree.txt (texte pré-vocalisé)",
+    "siman": 44,
+    "siman_hebrew": "מד",
+    "generated_at": "2026-09-02T07:45:31.781Z",
+    "total_seifim": 7
+  },
+  "halakhot": [
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Interdiction de dormir avec les Tefillin",
+      "siman": "44",
+      "seif": "1",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "א. כל זמן שהתפילין בראשו או בזרועו אסור לישן בהם, אפילו שינת עראי. אלא אם כן הניח עליהם סודר, או שכיסה התפילין בטלית לגמרי, ומניח ראשו בין ברכיו והוא יושב וישן. [כדי שלא יגיע למצב של שינת קבע]. ובלבד שלא ישכב לישן על מטה, שיש לחוש שמא ירדם וישן שינת קבע. [ילקוט יוסף על הלכות תפילין סימן מד הערה א'. שארית יוסף ח\"א עמוד תסה].",
+        "hebreu_avec_voyelles": "א כָּל זְמַן שֶׁהַתְּפִלִּין בְּרֹאשׁוֹ אוֹ בִּזְרוֹעוֹ אָסוּר לִישֹׁן בָּהֶם, אֲפִלּוּ שִׁינַת עֲרַאי. אֶלָּא אִם כֵּן הִנִּיחַ עֲלֵיהֶם סוּדָר, אוֹ שֶׁכִּסָּה הַתְּפִלִּין בְּטַלִּית לְגַמְרֵי, וּמַנִּיחַ רֹאשׁוֹ בֵּין בִּרְכָּיו וְהוּא יוֹשֵׁב וְיָשֵׁן. [כְּדֵי שֶׁלֹּא יַגִּיעַ לְמַצָּב שֶׁל שִׁינַת קֶבַע]. וּבִלְבַד שֶׁלֹּא יִשְׁכַּב לִישֹׁן עַל מִטָּה, שֶׁיֵּשׁ לָחוּשׁ שֶׁמָּא יֵרְדֵם וְיָשֵׁן שִׁינַת קֶבַע. [יַלְקוּט יוֹסֵף עַל הִלְכוֹת תְּפִלִּין סִימָן מַד הֶעָרָה א'. שְׁאֵרִית יוֹסֵף ח\"א עַמּוּד תסה].",
+        "francais": "1. Tant que les Tefillin sont sur sa tête ou sur son bras, il est interdit de dormir en les portant, même d'un sommeil occasionnel (léger). À moins qu'il n'ait posé un foulard sur eux, ou qu'il n'ait entièrement recouvert les Tefillin d'un Talit, et qu'il pose sa tête entre ses genoux en restant assis pour dormir [afin de ne pas en arriver à un sommeil régulier (profond)]. À condition toutefois qu'il ne s'allonge pas pour dormir sur un lit, car il y a lieu de craindre qu'il ne s'endorme d'un sommeil profond. [Yalkout Yossef sur les lois des Tefillin, chapitre 44, note 1 ; Chérit Yossef vol. 1, page 465]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "א.",
+          "hebreu_voyelles": "א.",
+          "francais_mot": "1.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "Tout",
+          "expression_contexte": "כָּל זְמַן = Tant que"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "זמן",
+          "hebreu_voyelles": "זְמַן",
+          "francais_mot": "temps",
+          "expression_contexte": "כָּל זְמַן = Tant que"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "שהתפילין",
+          "hebreu_voyelles": "שֶׁהַתְּפִלִּין",
+          "francais_mot": "que les Tefillin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "בראשו",
+          "hebreu_voyelles": "בְּרֹאשׁוֹ",
+          "francais_mot": "sont sur sa tête",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "בזרועו",
+          "hebreu_voyelles": "בִּזְרוֹעוֹ",
+          "francais_mot": "sur son bras",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "אסור",
+          "hebreu_voyelles": "אָסוּר",
+          "francais_mot": "il est interdit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "לישן",
+          "hebreu_voyelles": "לִישֹׁן",
+          "francais_mot": "de dormir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "בהם,",
+          "hebreu_voyelles": "בָּהֶם,",
+          "francais_mot": "en les portant,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "אפילו",
+          "hebreu_voyelles": "אֲפִלּוּ",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "שינת",
+          "hebreu_voyelles": "שִׁינַת",
+          "francais_mot": "un sommeil de",
+          "expression_contexte": "שִׁינַת עֲרַאי = sommeil occasionnel (léger)"
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "עראי.",
+          "hebreu_voyelles": "עֲרַאי.",
+          "francais_mot": "passager.",
+          "expression_contexte": "שִׁינַת עֲרַאי = sommeil occasionnel (léger)"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "Sauf",
+          "expression_contexte": "אֶלָּא אִם כֵּן = À moins que"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": "אֶלָּא אִם כֵּן = À moins que"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "כן",
+          "hebreu_voyelles": "כֵּן",
+          "francais_mot": "ainsi",
+          "expression_contexte": "אֶלָּא אִם כֵּן = À moins que"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "הניח",
+          "hebreu_voyelles": "הִנִּיחַ",
+          "francais_mot": "il a posé",
+          "expression_contexte": "",
+          "infinitif": "לְהַנִּיחַ = Poser / Placer"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "עליהם",
+          "hebreu_voyelles": "עֲלֵיהֶם",
+          "francais_mot": "sur eux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "סודר,",
+          "hebreu_voyelles": "סוּדָר,",
+          "francais_mot": "un foulard,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "שכיסה",
+          "hebreu_voyelles": "שֶׁכִּסָּה",
+          "francais_mot": "qu'il a recouvert",
+          "expression_contexte": "",
+          "infinitif": "לְכַסּוֹת = Couvrir / Recouvrir"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "התפילין",
+          "hebreu_voyelles": "הַתְּפִלִּין",
+          "francais_mot": "les Tefillin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "בטלית",
+          "hebreu_voyelles": "בְּטַלִּית",
+          "francais_mot": "avec un Talit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "לגמרי,",
+          "hebreu_voyelles": "לְגַמְרֵי,",
+          "francais_mot": "entièrement,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "ומניח",
+          "hebreu_voyelles": "וּמַנִּיחַ",
+          "francais_mot": "et pose",
+          "expression_contexte": "",
+          "infinitif": "לְהַנִּיחַ = Poser / Placer"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "ראשו",
+          "hebreu_voyelles": "רֹאשׁוֹ",
+          "francais_mot": "sa tête",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "בין",
+          "hebreu_voyelles": "בֵּין",
+          "francais_mot": "entre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "ברכיו",
+          "hebreu_voyelles": "בִּרְכָּיו",
+          "francais_mot": "ses genoux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "והוא",
+          "hebreu_voyelles": "וְהוּא",
+          "francais_mot": "et il est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "יושב",
+          "hebreu_voyelles": "יוֹשֵׁב",
+          "francais_mot": "assis",
+          "expression_contexte": "",
+          "infinitif": "לָשֶׁבֶת = S'asseoir / Être assis"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "וישן.",
+          "hebreu_voyelles": "וְיָשֵׁן.",
+          "francais_mot": "et dort.",
+          "expression_contexte": "",
+          "infinitif": "לִישׁוֹן = Dormir"
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "[כדי",
+          "hebreu_voyelles": "[כְּדֵי",
+          "francais_mot": "[Afin de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "ne pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "יגיע",
+          "hebreu_voyelles": "יַגִּיעַ",
+          "francais_mot": "en arriver",
+          "expression_contexte": "",
+          "infinitif": "לְהַגִּיעַ = Arriver / Parvenir"
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "למצב",
+          "hebreu_voyelles": "לְמַצָּב",
+          "francais_mot": "à une situation",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "שינת",
+          "hebreu_voyelles": "שִׁינַת",
+          "francais_mot": "sommeil",
+          "expression_contexte": "שִׁינַת קֶבַע = sommeil régulier (profond)"
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "קבע].",
+          "hebreu_voyelles": "קֶבַע].",
+          "francais_mot": "régulier].",
+          "expression_contexte": "שִׁינַת קֶבַע = sommeil régulier (profond)"
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "ובלבד",
+          "hebreu_voyelles": "וּבִלְבַד",
+          "francais_mot": "À condition toutefois",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "qu'il ne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "ישכב",
+          "hebreu_voyelles": "יִשְׁכַּב",
+          "francais_mot": "s'allonge pas",
+          "expression_contexte": "",
+          "infinitif": "לִשְׁכַּב = S'allonger / Se coucher"
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "לישן",
+          "hebreu_voyelles": "לִישֹׁן",
+          "francais_mot": "pour dormir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "מטה,",
+          "hebreu_voyelles": "מִטָּה,",
+          "francais_mot": "un lit,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "שיש",
+          "hebreu_voyelles": "שֶׁיֵּשׁ",
+          "francais_mot": "car il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "לחוש",
+          "hebreu_voyelles": "לָחוּשׁ",
+          "francais_mot": "lieu de craindre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "שמא",
+          "hebreu_voyelles": "שֶׁמָּא",
+          "francais_mot": "qu'il ne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "ירדם",
+          "hebreu_voyelles": "יֵרְדֵם",
+          "francais_mot": "s'endorme",
+          "expression_contexte": "",
+          "infinitif": "לְהֵרָדֵם = S'endormir"
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "וישן",
+          "hebreu_voyelles": "וְיָשֵׁן",
+          "francais_mot": "et ne dorme",
+          "expression_contexte": "",
+          "infinitif": "לִישׁוֹן = Dormir"
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "שינת",
+          "hebreu_voyelles": "שִׁינַת",
+          "francais_mot": "d'un sommeil",
+          "expression_contexte": "שִׁינַת קֶבַע = sommeil profond"
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "קבע.",
+          "hebreu_voyelles": "קֶבַע.",
+          "francais_mot": "profond.",
+          "expression_contexte": "שִׁינַת קֶבַע = sommeil profond"
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "[ילקוט",
+          "hebreu_voyelles": "[יַלְקוּט",
+          "francais_mot": "[Yalkout",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "יוסף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "הלכות",
+          "hebreu_voyelles": "הִלְכוֹת",
+          "francais_mot": "les lois des",
+          "expression_contexte": ""
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "תפילין",
+          "hebreu_voyelles": "תְּפִלִּין",
+          "francais_mot": "Tefillin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "סימן",
+          "hebreu_voyelles": "סִימָן",
+          "francais_mot": "chapitre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "מד",
+          "hebreu_voyelles": "מַד",
+          "francais_mot": "44,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "הערה",
+          "hebreu_voyelles": "הֶעָרָה",
+          "francais_mot": "note",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "א'.",
+          "hebreu_voyelles": "א'.",
+          "francais_mot": "1 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "שארית",
+          "hebreu_voyelles": "שְׁאֵרִית",
+          "francais_mot": "Chérit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "יוסף",
+          "hebreu_voyelles": "יוֹסֵף",
+          "francais_mot": "Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "תסה].",
+          "hebreu_voyelles": "תסה].",
+          "francais_mot": "465].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 1
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Règles en cas de chute des Tefillines",
+      "siman": "44",
+      "seif": "2",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ב. ישמור התפילין כדי שלא יפלו מידיו לארץ. ומי שנפלו מידיו התפילין של יד או של ראש לארץ, ואפילו אם נפלו מגובה שהוא פחות מעשרה טפחים לקרקע, צריך להתענות יום אחד, כדי לכפר על התקלה שבאה לידו. וטוב שיקבל עליו התענית באותו היום במנחה, ויתענה למחרת, ולא ידחה התענית לאחר כמה ימים. אך אם הוא שבת או יום טוב, ידחה התענית מיד לאחר מכן. ובזמן הזה שירדה חולשה לעולם, אם קשה התענית עליו, או שימעט מלימודו אם יתענה, או שהוא פועל שכיר ויבוא למעט במלאכת בעל הבית, או שהוא מלמד תינוקות וכדומה, או שהוא בן ישיבה שתורתו אומנותו, יפדה התענית בצדקה, (כשיעור ארוחה אחת), ויכופר לו. ואם היו התפילין בתוך הכיס שלהם בשעה שנפלו, די בנתינת מעות לצדקה בכל אדם. [ילקו\"י תפילין סי' מד הע' ב'. שאר\"י ח\"א עמ' תסו].",
+        "hebreu_avec_voyelles": "ב יִשְׁמֹר הַתְּפִלִּין כְּדֵי שֶׁלֹּא יִפְּלוּ מִיָּדָיו לָאָרֶץ. וּמִי שֶׁנָּפְלוּ מִיָּדָיו הַתְּפִלִּין שֶׁל יָד אוֹ שֶׁל רֹאשׁ לָאָרֶץ, וַאֲפִלּוּ אִם נָפְלוּ מִגֹּבַהּ שֶׁהוּא פָּחוֹת מֵעֲשָׂרָה טְפָחִים לַקַּרְקַע, צָרִיךְ לְהִתְעַנּוֹת יוֹם אֶחָד, כְּדֵי לְכַפֵּר עַל הַתַּקָּלָה שֶׁבָּאָה לְיָדוֹ. וְטוֹב שֶׁיְּקַבֵּל עָלָיו הַתַּעֲנִית בְּאוֹתוֹ הַיּוֹם בְּמִנְחָה, וְיִתְעַנֶּה לְמָחֳרָת, וְלֹא יִדְחֶה הַתַּעֲנִית לְאַחַר כַּמָּה יָמִים. אַךְ אִם הוּא שַׁבָּת אוֹ יוֹם טוֹב, יִדָּחֶה הַתַּעֲנִית מִיָּד לְאַחַר מִכֵּן. וּבַזְּמַן הַזֶּה שֶׁיָּרְדָה חֻלְשָׁה לָעוֹלָם, אִם קָשָׁה הַתַּעֲנִית עָלָיו, אוֹ שֶׁיְּמַעֵט מִלִּמּוּדוֹ אִם יִתְעַנֶּה, אוֹ שֶׁהוּא פּוֹעֵל שָׂכִיר וְיָבוֹא לְמַעֵט בִּמְלֶאכֶת בַּעַל הַבַּיִת, אוֹ שֶׁהוּא מְלַמֵּד תִּינוֹקוֹת וְכַדּוֹמֶה, אוֹ שֶׁהוּא בֶּן יְשִׁיבָה שֶׁתּוֹרָתוֹ אֻמָּנוּתוֹ, יִפְדֶּה הַתַּעֲנִית בִּצְדָקָה, (כְּשִׁעוּר אֲרוּחָה אַחַת), וִיכֻפַּר לוֹ. וְאִם הָיוּ הַתְּפִלִּין בְּתוֹךְ הַכִּיס שֶׁלָּהֶם בְּשָׁעָה שֶׁנָּפְלוּ, דַּי בִּנְתִינַת מָעוֹת לִצְדָקָה בְּכָל אָדָם. [ילקו\"י תְּפִלִּין סִי' מַד הע' ב'. שאר\"י ח\"א עמ' תסו].",
+        "francais": "2. On doit veiller sur les Tefillines afin qu’elles ne tombent pas de ses mains à terre. Si les Tefillines (du bras ou de la tête) tombent des mains de quelqu'un à terre, même si elles sont tombées d’une hauteur inférieure à dix Tefahim (environ 80 cm) du sol, il doit jeûner une journée afin d’expier l’incident survenu par son intermédiaire. Il est bon d'accepter ce jeûne le jour même lors de la prière de Min'ha et de jeûner le lendemain, sans repousser le jeûne de plusieurs jours. Cependant, si ce jour est un Chabbat ou un Yom Tov, le jeûne sera repoussé à immédiatement après. De nos jours où une faiblesse générale s'est installée dans le monde, si le jeûne lui est pénible, ou s'il devait diminuer son étude en jeûnant, ou s'il est un ouvrier salarié et risquerait de réduire le travail dû à son employeur, ou s'il est enseignant pour enfants ou équivalent, ou s'il est un étudiant de Yéchiva voué exclusivement à l'étude de la Torah, il rachètera le jeûne par la charité (d'une valeur équivalente à un repas) et cela lui sera expié. Et si les Tefillines se trouvaient dans leur étui au moment où elles sont tombées, il suffit pour toute personne de donner de l'argent à la charité. [Yalkout Yossef Tefillines siman 44 note 2 ; Che'erit Yossef vol. 1 p. 466]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ב.",
+          "hebreu_voyelles": "ב.",
+          "francais_mot": "2.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "ישמור",
+          "hebreu_voyelles": "יִשְׁמֹר",
+          "francais_mot": "On doit veiller sur",
+          "expression_contexte": "il gardera / veille",
+          "infinitif": "לִשְׁמֹר = Garder / Veiller"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "התפילין",
+          "hebreu_voyelles": "הַתְּפִלִּין",
+          "francais_mot": "les Tefillines",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "afin",
+          "expression_contexte": "afin que"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "qu'elles ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "יפלו",
+          "hebreu_voyelles": "יִפְּלוּ",
+          "francais_mot": "tombent",
+          "expression_contexte": "",
+          "infinitif": "לִפֹּל = Tomber"
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "מידיו",
+          "hebreu_voyelles": "מִיָּדָיו",
+          "francais_mot": "de ses mains",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "לארץ.",
+          "hebreu_voyelles": "לָאָרֶץ.",
+          "francais_mot": "à terre.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "ומי",
+          "hebreu_voyelles": "וּמִי",
+          "francais_mot": "Et celui",
+          "expression_contexte": "Et quiconque"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "שנפלו",
+          "hebreu_voyelles": "שֶׁנָּפְלוּ",
+          "francais_mot": "de qui sont tombées",
+          "expression_contexte": "",
+          "infinitif": "לִפֹּל = Tomber"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "מידיו",
+          "hebreu_voyelles": "מִיָּדָיו",
+          "francais_mot": "de ses mains",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "התפילין",
+          "hebreu_voyelles": "הַתְּפִלִּין",
+          "francais_mot": "les Tefillines",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "יד",
+          "hebreu_voyelles": "יָד",
+          "francais_mot": "main",
+          "expression_contexte": "du bras"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "ראש",
+          "hebreu_voyelles": "רֹאשׁ",
+          "francais_mot": "tête",
+          "expression_contexte": "de la tête"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "לארץ,",
+          "hebreu_voyelles": "לָאָרֶץ,",
+          "francais_mot": "à terre,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "ואפילו",
+          "hebreu_voyelles": "וַאֲפִלּוּ",
+          "francais_mot": "et même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "נפלו",
+          "hebreu_voyelles": "נָפְלוּ",
+          "francais_mot": "elles sont tombées",
+          "expression_contexte": "",
+          "infinitif": "לִפֹּל = Tomber"
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "מגובה",
+          "hebreu_voyelles": "מִגֹּבַהּ",
+          "francais_mot": "d'une hauteur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "שהוא",
+          "hebreu_voyelles": "שֶׁהוּא",
+          "francais_mot": "qui est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "פחות",
+          "hebreu_voyelles": "פָּחוֹת",
+          "francais_mot": "inférieure",
+          "expression_contexte": "moins"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "מעשרה",
+          "hebreu_voyelles": "מֵעֲשָׂרָה",
+          "francais_mot": "à dix",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "טפחים",
+          "hebreu_voyelles": "טְפָחִים",
+          "francais_mot": "Tefahim",
+          "expression_contexte": "largeurs de paume"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "לקרקע,",
+          "hebreu_voyelles": "לַקַּרְקַע,",
+          "francais_mot": "du sol,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "il doit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "להתענות",
+          "hebreu_voyelles": "לְהִתְעַנּוֹת",
+          "francais_mot": "jeûner",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "יום",
+          "hebreu_voyelles": "יוֹם",
+          "francais_mot": "un jour",
+          "expression_contexte": "une journée"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "אחד,",
+          "hebreu_voyelles": "אֶחָד,",
+          "francais_mot": "un,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "afin de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "לכפר",
+          "hebreu_voyelles": "לְכַפֵּר",
+          "francais_mot": "d'expier",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "התקלה",
+          "hebreu_voyelles": "הַתַּקָּלָה",
+          "francais_mot": "l'incident",
+          "expression_contexte": "le faux pas"
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "שבאה",
+          "hebreu_voyelles": "שֶׁבָּאָה",
+          "francais_mot": "qui est survenu",
+          "expression_contexte": "",
+          "infinitif": "לָבוֹא = Venir"
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "לידו.",
+          "hebreu_voyelles": "לְיָדוֹ.",
+          "francais_mot": "par son intermédiaire.",
+          "expression_contexte": "par sa main"
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "וטוב",
+          "hebreu_voyelles": "וְטוֹב",
+          "francais_mot": "Et il est bon",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "שיקבל",
+          "hebreu_voyelles": "שֶׁיְּקַבֵּל",
+          "francais_mot": "qu'il accepte",
+          "expression_contexte": "",
+          "infinitif": "לְקַבֵּל = Accepter"
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "עליו",
+          "hebreu_voyelles": "עָלָיו",
+          "francais_mot": "sur lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "התענית",
+          "hebreu_voyelles": "הַתַּעֲנִית",
+          "francais_mot": "le jeûne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "באותו",
+          "hebreu_voyelles": "בְּאוֹתוֹ",
+          "francais_mot": "ce... même",
+          "expression_contexte": "en ce même"
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "היום",
+          "hebreu_voyelles": "הַיּוֹם",
+          "francais_mot": "jour",
+          "expression_contexte": "le jour"
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "במנחה,",
+          "hebreu_voyelles": "בְּמִנְחָה,",
+          "francais_mot": "à Min'ha,",
+          "expression_contexte": "lors de la prière de l'après-midi"
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "ויתענה",
+          "hebreu_voyelles": "וְיִתְעַנֶּה",
+          "francais_mot": "et qu'il jeûne",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְעַנּוֹת = Jeûner"
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "למחרת,",
+          "hebreu_voyelles": "לְמָחֳרָת,",
+          "francais_mot": "le lendemain,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "ולא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "et sans",
+          "expression_contexte": "et qu'il ne... pas"
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "ידחה",
+          "hebreu_voyelles": "יִדְחֶה",
+          "francais_mot": "repousser",
+          "expression_contexte": "repousse",
+          "infinitif": "לִדְחוֹת = Repousser"
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "התענית",
+          "hebreu_voyelles": "הַתַּעֲנִית",
+          "francais_mot": "le jeûne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "לאחר",
+          "hebreu_voyelles": "לְאַחַר",
+          "francais_mot": "à après",
+          "expression_contexte": "de"
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "כמה",
+          "hebreu_voyelles": "כַּמָּה",
+          "francais_mot": "plusieurs",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "ימים.",
+          "hebreu_voyelles": "יָמִים.",
+          "francais_mot": "jours.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "אך",
+          "hebreu_voyelles": "אַךְ",
+          "francais_mot": "Cependant,",
+          "expression_contexte": "Mais"
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "הוא",
+          "hebreu_voyelles": "הוּא",
+          "francais_mot": "ce jour est",
+          "expression_contexte": "il est"
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "שבת",
+          "hebreu_voyelles": "שַׁבָּת",
+          "francais_mot": "Chabbat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "יום",
+          "hebreu_voyelles": "יוֹם",
+          "francais_mot": "Yom",
+          "expression_contexte": ""
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "טוב,",
+          "hebreu_voyelles": "טוֹב,",
+          "francais_mot": "Tov,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "ידחה",
+          "hebreu_voyelles": "יִדָּחֶה",
+          "francais_mot": "sera repoussé",
+          "expression_contexte": "",
+          "infinitif": "לְהִדָּחוֹת = Être repoussé"
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "התענית",
+          "hebreu_voyelles": "הַתַּעֲנִית",
+          "francais_mot": "le jeûne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "מיד",
+          "hebreu_voyelles": "מִיָּד",
+          "francais_mot": "immédiatement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "לאחר",
+          "hebreu_voyelles": "לְאַחַר",
+          "francais_mot": "après",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "מכן.",
+          "hebreu_voyelles": "מִכֵּן.",
+          "francais_mot": "cela.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "ובזמן",
+          "hebreu_voyelles": "וּבַזְּמַן",
+          "francais_mot": "Et au temps",
+          "expression_contexte": "De nos jours"
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "הזה",
+          "hebreu_voyelles": "הַזֶּה",
+          "francais_mot": "actuel",
+          "expression_contexte": "ce temps-ci"
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "שירדה",
+          "hebreu_voyelles": "שֶׁיָּרְדָה",
+          "francais_mot": "où s'est installée",
+          "expression_contexte": "où est descendue",
+          "infinitif": "לָרֶדֶת = Descendre"
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "חולשה",
+          "hebreu_voyelles": "חֻלְשָׁה",
+          "francais_mot": "une faiblesse",
+          "expression_contexte": ""
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "לעולם,",
+          "hebreu_voyelles": "לָעוֹלָם,",
+          "francais_mot": "dans le monde,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "קשה",
+          "hebreu_voyelles": "קָשָׁה",
+          "francais_mot": "est pénible",
+          "expression_contexte": "difficile"
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "התענית",
+          "hebreu_voyelles": "הַתַּעֲנִית",
+          "francais_mot": "le jeûne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "עליו,",
+          "hebreu_voyelles": "עָלָיו,",
+          "francais_mot": "pour lui,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "שימעט",
+          "hebreu_voyelles": "שֶׁיְּמַעֵט",
+          "francais_mot": "s'il devait diminuer",
+          "expression_contexte": "",
+          "infinitif": "לְמַעֵט = Diminuer / Réduire"
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "מלימודו",
+          "hebreu_voyelles": "מִלִּמּוּדוֹ",
+          "francais_mot": "son étude",
+          "expression_contexte": "de son étude"
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "יתענה,",
+          "hebreu_voyelles": "יִתְעַנֶּה,",
+          "francais_mot": "il jeûne,",
+          "expression_contexte": "en jeûnant",
+          "infinitif": "לְהִתְעַנּוֹת = Jeûner"
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "שהוא",
+          "hebreu_voyelles": "שֶׁהוּא",
+          "francais_mot": "s'il est",
+          "expression_contexte": "qu'il est"
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "פועל",
+          "hebreu_voyelles": "פּוֹעֵל",
+          "francais_mot": "un ouvrier",
+          "expression_contexte": ""
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "שכיר",
+          "hebreu_voyelles": "שָׂכִיר",
+          "francais_mot": "salarié",
+          "expression_contexte": ""
+        },
+        {
+          "id": 82,
+          "hebreu_brut": "ויבוא",
+          "hebreu_voyelles": "וְיָבוֹא",
+          "francais_mot": "et risquerait",
+          "expression_contexte": "et viendra à",
+          "infinitif": "לָבוֹא = Venir"
+        },
+        {
+          "id": 83,
+          "hebreu_brut": "למעט",
+          "hebreu_voyelles": "לְמַעֵט",
+          "francais_mot": "de réduire",
+          "expression_contexte": ""
+        },
+        {
+          "id": 84,
+          "hebreu_brut": "במלאכת",
+          "hebreu_voyelles": "בִּמְלֶאכֶת",
+          "francais_mot": "le travail de",
+          "expression_contexte": "dans l'ouvrage de"
+        },
+        {
+          "id": 85,
+          "hebreu_brut": "בעל",
+          "hebreu_voyelles": "בַּעַל",
+          "francais_mot": "maître de",
+          "expression_contexte": "בעל הבית = l'employeur"
+        },
+        {
+          "id": 86,
+          "hebreu_brut": "הבית,",
+          "hebreu_voyelles": "הַבַּיִת,",
+          "francais_mot": "la maison,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 87,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 88,
+          "hebreu_brut": "שהוא",
+          "hebreu_voyelles": "שֶׁהוּא",
+          "francais_mot": "s'il est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 89,
+          "hebreu_brut": "מלמד",
+          "hebreu_voyelles": "מְלַמֵּד",
+          "francais_mot": "enseignant pour",
+          "expression_contexte": "maître d'école",
+          "infinitif": "לְלַמֵּד = Enseigner"
+        },
+        {
+          "id": 90,
+          "hebreu_brut": "תינוקות",
+          "hebreu_voyelles": "תִּינוֹקוֹת",
+          "francais_mot": "enfants",
+          "expression_contexte": ""
+        },
+        {
+          "id": 91,
+          "hebreu_brut": "וכדומה,",
+          "hebreu_voyelles": "וְכַדּוֹמֶה,",
+          "francais_mot": "ou équivalent,",
+          "expression_contexte": "et similaire"
+        },
+        {
+          "id": 92,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 93,
+          "hebreu_brut": "שהוא",
+          "hebreu_voyelles": "שֶׁהוּא",
+          "francais_mot": "s'il est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 94,
+          "hebreu_brut": "בן",
+          "hebreu_voyelles": "בֶּן",
+          "francais_mot": "étudiant de",
+          "expression_contexte": "בן ישיבה = étudiant de Yéchiva"
+        },
+        {
+          "id": 95,
+          "hebreu_brut": "ישיבה",
+          "hebreu_voyelles": "יְשִׁיבָה",
+          "francais_mot": "Yéchiva",
+          "expression_contexte": ""
+        },
+        {
+          "id": 96,
+          "hebreu_brut": "שתורתו",
+          "hebreu_voyelles": "שֶׁתּוֹרָתוֹ",
+          "francais_mot": "dont la Torah est",
+          "expression_contexte": ""
+        },
+        {
+          "id": 97,
+          "hebreu_brut": "אומנותו,",
+          "hebreu_voyelles": "אֻמָּנוּתוֹ,",
+          "francais_mot": "sa profession,",
+          "expression_contexte": "תורתו אומנותו = voué exclusivement à l'étude"
+        },
+        {
+          "id": 98,
+          "hebreu_brut": "יפדה",
+          "hebreu_voyelles": "יִפְדֶּה",
+          "francais_mot": "il rachètera",
+          "expression_contexte": "",
+          "infinitif": "לִפְדּוֹת = Racheter"
+        },
+        {
+          "id": 99,
+          "hebreu_brut": "התענית",
+          "hebreu_voyelles": "הַתַּעֲנִית",
+          "francais_mot": "le jeûne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 100,
+          "hebreu_brut": "בצדקה,",
+          "hebreu_voyelles": "בִּצְדָקָה,",
+          "francais_mot": "par la charité,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 101,
+          "hebreu_brut": "(כשיעור",
+          "hebreu_voyelles": "(כְּשִׁעוּר",
+          "francais_mot": "(d'une valeur équivalente à",
+          "expression_contexte": "selon la mesure de"
+        },
+        {
+          "id": 102,
+          "hebreu_brut": "ארוחה",
+          "hebreu_voyelles": "אֲרוּחָה",
+          "francais_mot": "un repas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 103,
+          "hebreu_brut": "אחת),",
+          "hebreu_voyelles": "אַחַת),",
+          "francais_mot": "un),",
+          "expression_contexte": ""
+        },
+        {
+          "id": 104,
+          "hebreu_brut": "ויכופר",
+          "hebreu_voyelles": "וִיכֻפַּר",
+          "francais_mot": "et cela sera expié",
+          "expression_contexte": "",
+          "infinitif": "לְכֻפַּר = Être expié"
+        },
+        {
+          "id": 105,
+          "hebreu_brut": "לו.",
+          "hebreu_voyelles": "לוֹ.",
+          "francais_mot": "pour lui.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 106,
+          "hebreu_brut": "ואם",
+          "hebreu_voyelles": "וְאִם",
+          "francais_mot": "Et si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 107,
+          "hebreu_brut": "היו",
+          "hebreu_voyelles": "הָיוּ",
+          "francais_mot": "se trouvaient",
+          "expression_contexte": "étaient",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 108,
+          "hebreu_brut": "התפילין",
+          "hebreu_voyelles": "הַתְּפִלִּין",
+          "francais_mot": "les Tefillines",
+          "expression_contexte": ""
+        },
+        {
+          "id": 109,
+          "hebreu_brut": "בתוך",
+          "hebreu_voyelles": "בְּתוֹךְ",
+          "francais_mot": "dans",
+          "expression_contexte": "à l'intérieur de"
+        },
+        {
+          "id": 110,
+          "hebreu_brut": "הכיס",
+          "hebreu_voyelles": "הַכִּיס",
+          "francais_mot": "l'étui",
+          "expression_contexte": "la pochette"
+        },
+        {
+          "id": 111,
+          "hebreu_brut": "שלהם",
+          "hebreu_voyelles": "שֶׁלָּהֶם",
+          "francais_mot": "leur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 112,
+          "hebreu_brut": "בשעה",
+          "hebreu_voyelles": "בְּשָׁעָה",
+          "francais_mot": "au moment",
+          "expression_contexte": ""
+        },
+        {
+          "id": 113,
+          "hebreu_brut": "שנפלו,",
+          "hebreu_voyelles": "שֶׁנָּפְלוּ,",
+          "francais_mot": "où elles sont tombées,",
+          "expression_contexte": "",
+          "infinitif": "לִפֹּל = Tomber"
+        },
+        {
+          "id": 114,
+          "hebreu_brut": "די",
+          "hebreu_voyelles": "דַּי",
+          "francais_mot": "il suffit",
+          "expression_contexte": ""
+        },
+        {
+          "id": 115,
+          "hebreu_brut": "בנתינת",
+          "hebreu_voyelles": "בִּנְתִינַת",
+          "francais_mot": "de donner",
+          "expression_contexte": "en donnant"
+        },
+        {
+          "id": 116,
+          "hebreu_brut": "מעות",
+          "hebreu_voyelles": "מָעוֹת",
+          "francais_mot": "de l'argent",
+          "expression_contexte": "des pièces"
+        },
+        {
+          "id": 117,
+          "hebreu_brut": "לצדקה",
+          "hebreu_voyelles": "לִצְדָקָה",
+          "francais_mot": "à la charité",
+          "expression_contexte": ""
+        },
+        {
+          "id": 118,
+          "hebreu_brut": "בכל",
+          "hebreu_voyelles": "בְּכָל",
+          "francais_mot": "pour toute",
+          "expression_contexte": ""
+        },
+        {
+          "id": 119,
+          "hebreu_brut": "אדם.",
+          "hebreu_voyelles": "אָדָם.",
+          "francais_mot": "personne.",
+          "expression_contexte": "homme"
+        },
+        {
+          "id": 120,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 121,
+          "hebreu_brut": "תפילין",
+          "hebreu_voyelles": "תְּפִלִּין",
+          "francais_mot": "Tefillines",
+          "expression_contexte": ""
+        },
+        {
+          "id": 122,
+          "hebreu_brut": "סי'",
+          "hebreu_voyelles": "סִי'",
+          "francais_mot": "siman",
+          "expression_contexte": "chapitre"
+        },
+        {
+          "id": 123,
+          "hebreu_brut": "מד",
+          "hebreu_voyelles": "מַד",
+          "francais_mot": "44",
+          "expression_contexte": ""
+        },
+        {
+          "id": 124,
+          "hebreu_brut": "הע'",
+          "hebreu_voyelles": "הע'",
+          "francais_mot": "note",
+          "expression_contexte": "remarque"
+        },
+        {
+          "id": 125,
+          "hebreu_brut": "ב'.",
+          "hebreu_voyelles": "ב'.",
+          "francais_mot": "2.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 126,
+          "hebreu_brut": "שאר\"י",
+          "hebreu_voyelles": "שאר\"י",
+          "francais_mot": "Che'erit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 127,
+          "hebreu_brut": "ח\"א",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1",
+          "expression_contexte": "tome 1"
+        },
+        {
+          "id": 128,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "p.",
+          "expression_contexte": "page"
+        },
+        {
+          "id": 129,
+          "hebreu_brut": "תסו].",
+          "hebreu_voyelles": "תסו].",
+          "francais_mot": "466].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 2
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Voir tomber les Téfilines d'autrui",
+      "siman": "44",
+      "seif": "3",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ג. הרואה תפילין שנפלו מיד חבירו, אינו צריך להתענות. ובפרט בן ישיבה שאין לו להתענות. וטוב שיתן פרוטה לצדקה. [חיים שאל ח סי' יב. ילקו על תפילין סי' מד הערה ג'. שאר ח עמ' תסח].",
+        "hebreu_avec_voyelles": "ג הָרוֹאֶה תְּפִלִּין שֶׁנָּפְלוּ מִיַּד חֲבֵרוֹ, אֵינוֹ צָרִיךְ לְהִתְעַנּוֹת. וּבִפְרָט בֶּן יְשִׁיבָה שֶׁאֵין לוֹ לְהִתְעַנּוֹת. וְטוֹב שֶׁיִּתֵּן פְּרוּטָה לִצְדָקָה. [חַיִּים שָׁאַל ח\"א סִי' יב. ילקו\"י עַל תְּפִלִּין סִי' מַד הֶעָרָה ג'. שאר\"י ח\"א עמ' תסח].",
+        "francais": "3. Celui qui voit des Téfilines tomber des mains de son prochain n'a pas besoin de jeûner. Et en particulier un élève de Yéchiva, qui ne doit pas jeûner. Et il est bon qu'il donne une pièce à la charité. ['Hayim Chaal vol. 1 siman 12 ; Yalkout Yossef sur les Téfilines siman 44 note 3 ; Chéérit Yossef vol. 1 p. 468]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ג.",
+          "hebreu_voyelles": "ג.",
+          "francais_mot": "3.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "הרואה",
+          "hebreu_voyelles": "הָרוֹאֶה",
+          "francais_mot": "Celui qui voit",
+          "expression_contexte": "",
+          "infinitif": "לִרְאוֹת = Voir"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "תפילין",
+          "hebreu_voyelles": "תְּפִלִּין",
+          "francais_mot": "des Téfilines",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "שנפלו",
+          "hebreu_voyelles": "שֶׁנָּפְלוּ",
+          "francais_mot": "qui sont tombés",
+          "expression_contexte": "",
+          "infinitif": "לִנְפּוֹל = Tomber"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "מיד",
+          "hebreu_voyelles": "מִיַּד",
+          "francais_mot": "des mains de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "חבירו,",
+          "hebreu_voyelles": "חֲבֵרוֹ,",
+          "francais_mot": "son prochain,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "אינו",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "n'a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "besoin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "להתענות.",
+          "hebreu_voyelles": "לְהִתְעַנּוֹת.",
+          "francais_mot": "de jeûner.",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְעַנּוֹת = Jeûner"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "ובפרט",
+          "hebreu_voyelles": "וּבִפְרָט",
+          "francais_mot": "Et en particulier",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "בן",
+          "hebreu_voyelles": "בֶּן",
+          "francais_mot": "un élève de",
+          "expression_contexte": "בן ישיבה = élève de Yéchiva"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "ישיבה",
+          "hebreu_voyelles": "יְשִׁיבָה",
+          "francais_mot": "Yéchiva",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "qui ne doit pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "pour lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "להתענות.",
+          "hebreu_voyelles": "לְהִתְעַנּוֹת.",
+          "francais_mot": "jeûner.",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְעַנּוֹת = Jeûner"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "וטוב",
+          "hebreu_voyelles": "וְטוֹב",
+          "francais_mot": "Et il est bon",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "שיתן",
+          "hebreu_voyelles": "שֶׁיִּתֵּן",
+          "francais_mot": "qu'il donne",
+          "expression_contexte": "",
+          "infinitif": "לָתֵת = Donner"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "פרוטה",
+          "hebreu_voyelles": "פְּרוּטָה",
+          "francais_mot": "une pièce",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "לצדקה.",
+          "hebreu_voyelles": "לִצְדָקָה.",
+          "francais_mot": "à la charité.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "[חיים",
+          "hebreu_voyelles": "[חַיִּים",
+          "francais_mot": "['Hayim",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "שאל",
+          "hebreu_voyelles": "שָׁאַל",
+          "francais_mot": "Chaal",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "ח",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "סי'",
+          "hebreu_voyelles": "סִי'",
+          "francais_mot": "siman",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "יב.",
+          "hebreu_voyelles": "יב.",
+          "francais_mot": "12 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "ילקו",
+          "hebreu_voyelles": "ילקו\"י",
+          "francais_mot": "Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "תפילין",
+          "hebreu_voyelles": "תְּפִלִּין",
+          "francais_mot": "les Téfilines",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "סי'",
+          "hebreu_voyelles": "סִי'",
+          "francais_mot": "siman",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "מד",
+          "hebreu_voyelles": "מַד",
+          "francais_mot": "44",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "הערה",
+          "hebreu_voyelles": "הֶעָרָה",
+          "francais_mot": "note",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "ג'.",
+          "hebreu_voyelles": "ג'.",
+          "francais_mot": "3 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "שאר",
+          "hebreu_voyelles": "שאר\"י",
+          "francais_mot": "Chéérit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "ח",
+          "hebreu_voyelles": "ח\"א",
+          "francais_mot": "vol. 1",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "תסח].",
+          "hebreu_voyelles": "תסח].",
+          "francais_mot": "468].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 3
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Rêver de la chute des Téfilines",
+      "siman": "44",
+      "seif": "4",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ד. מי שראה בחלום שנפלו לו התפילין או ס\"ת מידו, אין צריך להחמיר ולהתענות כלל. [ילקו\"י שם הערה ד'. שאר\"י חלק א' עמ' תסח. מרן במגיד מישרים (פרשת ויקהל) שלא להתענות].",
+        "hebreu_avec_voyelles": "ד מִי שֶׁרָאָה בַּחֲלוֹם שֶׁנָּפְלוּ לוֹ הַתְּפִלִּין אוֹ ס\"ת מִיָּדוֹ, אֵין צָרִיךְ לְהַחֲמִיר וּלְהִתְעַנּוֹת כְּלָל. [ילקו\"י שָׁם הֶעָרָה ד'. שאר\"י חֵלֶק א' עמ' תסח. מָרָן בַּמַּגִּיד מֵישָׁרִים (פָּרָשַׁת וַיַּקְהֵל) שֶׁלֹּא לְהִתְעַנּוֹת].",
+        "francais": "4. Celui qui a vu en rêve que les Téfilines ou un Sefer Torah lui tombaient des mains n'a nullement besoin d'être rigoureux ni de jeûner. [Yalkout Yossef ibid. note 4. Che'erit Yossef volume 1 p. 468. Maran dans le Maggid Mecharim (parachat Vayakhel) écrit de ne pas jeûner]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ד.",
+          "hebreu_voyelles": "ד.",
+          "francais_mot": "4.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מי",
+          "hebreu_voyelles": "מִי",
+          "francais_mot": "Celui",
+          "expression_contexte": "Celui qui"
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שראה",
+          "hebreu_voyelles": "שֶׁרָאָה",
+          "francais_mot": "qui a vu",
+          "expression_contexte": "",
+          "infinitif": "לִרְאוֹת = Voir"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בחלום",
+          "hebreu_voyelles": "בַּחֲלוֹם",
+          "francais_mot": "en rêve",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "שנפלו",
+          "hebreu_voyelles": "שֶׁנָּפְלוּ",
+          "francais_mot": "qui tombaient",
+          "expression_contexte": "",
+          "infinitif": "לִנְפּוֹל = Tomber"
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "התפילין",
+          "hebreu_voyelles": "הַתְּפִלִּין",
+          "francais_mot": "les Téfilines",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "או",
+          "hebreu_voyelles": "אוֹ",
+          "francais_mot": "ou",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "ס\"ת",
+          "hebreu_voyelles": "ס\"ת",
+          "francais_mot": "Sefer Torah",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "מידו,",
+          "hebreu_voyelles": "מִיָּדוֹ,",
+          "francais_mot": "de sa main,",
+          "expression_contexte": "de ses mains"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "n'a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "besoin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "להחמיר",
+          "hebreu_voyelles": "לְהַחֲמִיר",
+          "francais_mot": "d'être rigoureux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "ולהתענות",
+          "hebreu_voyelles": "וּלְהִתְעַנּוֹת",
+          "francais_mot": "ni de jeûner",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "כלל.",
+          "hebreu_voyelles": "כְּלָל.",
+          "francais_mot": "du tout.",
+          "expression_contexte": "nullement"
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "שם",
+          "hebreu_voyelles": "שָׁם",
+          "francais_mot": "ibid.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "הערה",
+          "hebreu_voyelles": "הֶעָרָה",
+          "francais_mot": "note",
+          "expression_contexte": ""
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "ד'.",
+          "hebreu_voyelles": "ד'.",
+          "francais_mot": "4.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "שאר\"י",
+          "hebreu_voyelles": "שאר\"י",
+          "francais_mot": "Che'erit Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "חלק",
+          "hebreu_voyelles": "חֵלֶק",
+          "francais_mot": "volume",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "א'",
+          "hebreu_voyelles": "א'",
+          "francais_mot": "1",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "תסח.",
+          "hebreu_voyelles": "תסח.",
+          "francais_mot": "468.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "מרן",
+          "hebreu_voyelles": "מָרָן",
+          "francais_mot": "Maran",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "במגיד",
+          "hebreu_voyelles": "בַּמַּגִּיד",
+          "francais_mot": "dans le Maggid",
+          "expression_contexte": ""
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "מישרים",
+          "hebreu_voyelles": "מֵישָׁרִים",
+          "francais_mot": "Mecharim",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "(פרשת",
+          "hebreu_voyelles": "(פָּרָשַׁת",
+          "francais_mot": "(parachat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "ויקהל)",
+          "hebreu_voyelles": "וַיַּקְהֵל)",
+          "francais_mot": "Vayakhel)",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "de ne pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "להתענות].",
+          "hebreu_voyelles": "לְהִתְעַנּוֹת].",
+          "francais_mot": "jeûner].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 4
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Jeûne lors de la chute des Tefillin",
+      "siman": "44",
+      "seif": "5",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ה. סומא שהרגיש בחוש השמע שלו שהתפילין נפלו לארץ, אינו צריך להתענות. וכ\"ש אם רק שמע שהתפילין נפלו, שלא צריך להתענות, כי בלאו הכי אף הרואה תפילין שנפלו מיד אחר אינו צריך להתענות. [שו\"ת פרי השדה ח\"ב סי' עב. ערוגת הבושם סי' ב'. מאזנים למשפט סי' ה'. עיקרי הד\"ט או\"ח סי' ב אות טו. ילקו\"י תפילין סי' מד הע' ה, עמ' תרצה במהדורא האחרונה].",
+        "hebreu_avec_voyelles": "ה סוּמָא שֶׁהִרְגִּישׁ בְּחוּשׁ הַשֵּׁמַע שֶׁלּוֹ שֶׁהַתְּפִלִּין נָפְלוּ לָאָרֶץ, אֵינוֹ צָרִיךְ לְהִתְעַנּוֹת. וכ\"ש אִם רַק שָׁמַע שֶׁהַתְּפִלִּין נָפְלוּ, שֶׁלֹּא צָרִיךְ לְהִתְעַנּוֹת, כִּי בְּלָאו הָכִי אַף הָרוֹאֶה תְּפִלִּין שֶׁנָּפְלוּ מִיָּד אַחֵר אֵינוֹ צָרִיךְ לְהִתְעַנּוֹת. [שׁוּ\"ת פְּרִי הַשָּׂדֶה ח\"ב סִי' עַב. עֲרוּגַת הַבֹּשֶׂם סִי' ב'. מֹאזְנַיִם לְמִשְׁפָּט סִי' ה'. עִקְּרֵי הד\"ט או\"ח סִי' ב אוֹת טוּ. ילקו\"י תְּפִלִּין סִי' מַד הע' ה, עמ' תִּרְצֶה בְּמַהֲדוּרָא הָאַחֲרוֹנָה].",
+        "francais": "5. Un aveugle qui a senti grâce à son ouïe que ses Tefillin sont tombés à terre n'a pas besoin de jeûner. Et à plus forte raison s'il a seulement entendu dire que des Tefillin étaient tombés, il n'a pas besoin de jeûner, car de toute façon, même celui qui voit des Tefillin tomber des mains d'une autre personne n'a pas besoin de jeûner. [Responsa Péri Hassadeh vol. 2 chap. 72 ; 'Arougat Habossem chap. 2 ; Moznayim Lemichpat chap. 5 ; 'Ikkarei Hadat Orach Chayim chap. 2 alinéa 15 ; Yalkout Yossef Tefillin chap. 44 note 5, p. 695 dans la dernière édition]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ה.",
+          "hebreu_voyelles": "ה.",
+          "francais_mot": "5.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "סומא",
+          "hebreu_voyelles": "סוּמָא",
+          "francais_mot": "Un aveugle",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "שהרגיש",
+          "hebreu_voyelles": "שֶׁהִרְגִּישׁ",
+          "francais_mot": "qui a senti",
+          "expression_contexte": "",
+          "infinitif": "לְהַרְגִּישׁ = Sentir / Ressentir"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בחוש",
+          "hebreu_voyelles": "בְּחוּשׁ",
+          "francais_mot": "grâce au sens de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "השמע",
+          "hebreu_voyelles": "הַשֵּׁמַע",
+          "francais_mot": "l'ouïe",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "שלו",
+          "hebreu_voyelles": "שֶׁלּוֹ",
+          "francais_mot": "à lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "שהתפילין",
+          "hebreu_voyelles": "שֶׁהַתְּפִלִּין",
+          "francais_mot": "que les Tefillin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "נפלו",
+          "hebreu_voyelles": "נָפְלוּ",
+          "francais_mot": "sont tombés",
+          "expression_contexte": "",
+          "infinitif": "לִנְפּוֹל = Tomber"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "לארץ,",
+          "hebreu_voyelles": "לָאָרֶץ,",
+          "francais_mot": "à terre,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "אינו",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "il n'est pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "tenu de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "להתענות.",
+          "hebreu_voyelles": "לְהִתְעַנּוֹת.",
+          "francais_mot": "jeûner.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "וכ\"ש",
+          "hebreu_voyelles": "וכ\"ש",
+          "francais_mot": "Et à plus forte raison",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "רק",
+          "hebreu_voyelles": "רַק",
+          "francais_mot": "seulement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "שמע",
+          "hebreu_voyelles": "שָׁמַע",
+          "francais_mot": "il a entendu",
+          "expression_contexte": "",
+          "infinitif": "לִשְׁמֹעַ = Entendre"
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "שהתפילין",
+          "hebreu_voyelles": "שֶׁהַתְּפִלִּין",
+          "francais_mot": "que les Tefillin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "נפלו,",
+          "hebreu_voyelles": "נָפְלוּ,",
+          "francais_mot": "étaient tombés,",
+          "expression_contexte": "",
+          "infinitif": "לִנְפּוֹל = Tomber"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "qu'il n'a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "besoin de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "להתענות,",
+          "hebreu_voyelles": "לְהִתְעַנּוֹת,",
+          "francais_mot": "jeûner,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "כי",
+          "hebreu_voyelles": "כִּי",
+          "francais_mot": "car",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "בלאו",
+          "hebreu_voyelles": "בְּלָאו",
+          "francais_mot": "de toute",
+          "expression_contexte": "בְּלָאו הָכִי = De toute façon"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "הכי",
+          "hebreu_voyelles": "הָכִי",
+          "francais_mot": "façon",
+          "expression_contexte": "בְּלָאו הָכִי = De toute façon"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "אף",
+          "hebreu_voyelles": "אַף",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "הרואה",
+          "hebreu_voyelles": "הָרוֹאֶה",
+          "francais_mot": "celui qui voit",
+          "expression_contexte": "",
+          "infinitif": "לִרְאוֹת = Voir"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "תפילין",
+          "hebreu_voyelles": "תְּפִלִּין",
+          "francais_mot": "des Tefillin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "שנפלו",
+          "hebreu_voyelles": "שֶׁנָּפְלוּ",
+          "francais_mot": "tomber",
+          "expression_contexte": "",
+          "infinitif": "לִנְפּוֹל = Tomber"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "מיד",
+          "hebreu_voyelles": "מִיָּד",
+          "francais_mot": "des mains de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "אחר",
+          "hebreu_voyelles": "אַחֵר",
+          "francais_mot": "quelqu'un d'autre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "אינו",
+          "hebreu_voyelles": "אֵינוֹ",
+          "francais_mot": "n'a pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "צריך",
+          "hebreu_voyelles": "צָרִיךְ",
+          "francais_mot": "besoin de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "להתענות.",
+          "hebreu_voyelles": "לְהִתְעַנּוֹת.",
+          "francais_mot": "jeûner.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "[שו\"ת",
+          "hebreu_voyelles": "[שׁוּ\"ת",
+          "francais_mot": "[Responsa",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "פרי",
+          "hebreu_voyelles": "פְּרִי",
+          "francais_mot": "Péri",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "השדה",
+          "hebreu_voyelles": "הַשָּׂדֶה",
+          "francais_mot": "Hassadeh",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "ח\"ב",
+          "hebreu_voyelles": "ח\"ב",
+          "francais_mot": "vol. 2",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "סי'",
+          "hebreu_voyelles": "סִי'",
+          "francais_mot": "chap.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "עב.",
+          "hebreu_voyelles": "עַב.",
+          "francais_mot": "72 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "ערוגת",
+          "hebreu_voyelles": "עֲרוּגַת",
+          "francais_mot": "'Arougat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "הבושם",
+          "hebreu_voyelles": "הַבֹּשֶׂם",
+          "francais_mot": "Habossem",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "סי'",
+          "hebreu_voyelles": "סִי'",
+          "francais_mot": "chap.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "ב'.",
+          "hebreu_voyelles": "ב'.",
+          "francais_mot": "2 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "מאזנים",
+          "hebreu_voyelles": "מֹאזְנַיִם",
+          "francais_mot": "Moznayim",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "למשפט",
+          "hebreu_voyelles": "לְמִשְׁפָּט",
+          "francais_mot": "Lemichpat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "סי'",
+          "hebreu_voyelles": "סִי'",
+          "francais_mot": "chap.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "ה'.",
+          "hebreu_voyelles": "ה'.",
+          "francais_mot": "5 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "עיקרי",
+          "hebreu_voyelles": "עִקְּרֵי",
+          "francais_mot": "'Ikkarei",
+          "expression_contexte": ""
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "הד\"ט",
+          "hebreu_voyelles": "הד\"ט",
+          "francais_mot": "Hadat",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "או\"ח",
+          "hebreu_voyelles": "או\"ח",
+          "francais_mot": "Orach Chayim",
+          "expression_contexte": ""
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "סי'",
+          "hebreu_voyelles": "סִי'",
+          "francais_mot": "chap.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "ב",
+          "hebreu_voyelles": "ב",
+          "francais_mot": "2",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "אות",
+          "hebreu_voyelles": "אוֹת",
+          "francais_mot": "alinéa",
+          "expression_contexte": ""
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "טו.",
+          "hebreu_voyelles": "טוּ.",
+          "francais_mot": "15 ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "ילקו\"י",
+          "hebreu_voyelles": "ילקו\"י",
+          "francais_mot": "Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "תפילין",
+          "hebreu_voyelles": "תְּפִלִּין",
+          "francais_mot": "Tefillin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "סי'",
+          "hebreu_voyelles": "סִי'",
+          "francais_mot": "chap.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "מד",
+          "hebreu_voyelles": "מַד",
+          "francais_mot": "44",
+          "expression_contexte": ""
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "הע'",
+          "hebreu_voyelles": "הע'",
+          "francais_mot": "note",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "ה,",
+          "hebreu_voyelles": "ה,",
+          "francais_mot": "5,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "p.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "תרצה",
+          "hebreu_voyelles": "תִּרְצֶה",
+          "francais_mot": "695",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "במהדורא",
+          "hebreu_voyelles": "בְּמַהֲדוּרָא",
+          "francais_mot": "dans l'édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "האחרונה].",
+          "hebreu_voyelles": "הָאַחֲרוֹנָה].",
+          "francais_mot": "la dernière].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 5
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Jeûne après la chute d'un Sefer Torah",
+      "siman": "44",
+      "seif": "6",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ו. ספר תורה שנפל לארץ, הקהל הרואים בנפילת הספר תורה צריכים להתענות. אולם אין זה חיוב מן הדין, ולכן יש להקל בזה לתשושי כח, ולתלמידי חכמים ובני ישיבות ומלמדי תינוקות, וכן לפועלים שכירים שלא יוכלו לעשות מלאכתם נאמנה, ויש בזה חשש גזל שממעיטים ממלאכת בעל הבית. ולכן יתנו פדיון התענית לצדקה. ומה טוב שקהל בית הכנסת שאירע בו כן יתאספו כולם בבית הכנסת וינהגו תענית דיבור, וילמדו שם במשך כל היום, וזה הרבה יותר חשוב מתענית שאין העיקר לסגף את עצמו בתענית, אלא ברסן פיו ותאוותיו. [ילקו\"י על תפילין סי' מד הערה ו].",
+        "hebreu_avec_voyelles": "ו סֵפֶר תּוֹרָה שֶׁנָּפַל לָאָרֶץ, הַקָּהָל הָרוֹאִים בִּנְפִילַת הַסֵּפֶר תּוֹרָה צְרִיכִים לְהִתְעַנּוֹת. אוּלָם אֵין זֶה חִיּוּב מִן הַדִּין, וְלָכֵן יֵשׁ לְהָקֵל בָּזֶה לִתְשׁוּשֵׁי כֹּחַ, וּלְתַלְמִידֵי חֲכָמִים וּבְנֵי יְשִׁיבוֹת וּמְלַמְּדֵי תִּינוֹקוֹת, וְכֵן לְפוֹעֲלִים שְׂכִירִים שֶׁלֹּא יוּכְלוּ לַעֲשׂוֹת מְלָאַכְתָּם נֶאֱמָנָה, וְיֵשׁ בָּזֶה חֲשַׁשׁ גֶּזֶל שֶׁמַּמְעִיטִים מִמְּלֶאכֶת בַּעַל הַבַּיִת. וְלָכֵן יִתְּנוּ פִּדְיוֹן הַתַּעֲנִית לִצְדָקָה. וּמָה טוֹב שֶׁקְּהַל בֵּית הַכְּנֶסֶת שֶׁאֵרַע בּוֹ כֵּן יִתְאַסְּפוּ כֻּלָּם בְּבֵית הַכְּנֶסֶת וְיִנְהֲגוּ תַּעֲנִית דִּבּוּר, וְיִלְמְדוּ שָׁם בְּמֶשֶׁךְ כָּל הַיּוֹם, וְזֶה הַרְבֵּה יוֹתֵר חָשׁוּב מִתַּעֲנִית שֶׁאֵין הָעִקָּר לְסַגֵּף אֶת עַצְמוֹ בְּתַעֲנִית, אֶלָּא בְּרֶסֶן פִּיו וְתַאֲווֹתָיו. [ילקו\"י עַל תְּפִלִּין סִי' מַד הֶעָרָה ו].",
+        "francais": "6. Lorsqu'un Sefer Torah tombe à terre, le public ayant assisté à la chute du Sefer Torah doit jeûner. Cependant, cela n'est pas une obligation stricte selon la loi halakhique ; c'est pourquoi il convient d'accorder un allègement aux personnes de constitution faible, aux érudits en Torah (Talmidé Hakhamim), aux étudiants de Yéchiva, aux enseignants d'enfants, ainsi qu'aux ouvriers salariés qui ne pourraient plus accomplir leur travail de manière fidèle, ce qui susciterait une crainte de vol (Gezel) en réduisant le travail dû à l'employeur. Par conséquent, ils donneront le rachat de ce jeûne en charité (Tsedaka). Et combien il est souhaitable que l'ensemble des fidèles de la synagogue où cela s'est produit se rassemble à la synagogue pour y observer un jeûne de la parole (Ta'anit Dibbour) et y étudier durant toute la journée ; cela est bien plus important qu'un jeûne physique, car l'essentiel n'est pas de s meurtrir par le jeûne, mais de maîtriser sa bouche et ses désirs. [Yalkout Yossef sur Tefilline, siman 44, note 6]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ו.",
+          "hebreu_voyelles": "ו.",
+          "francais_mot": "6.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "ספר",
+          "hebreu_voyelles": "סֵפֶר",
+          "francais_mot": "Sefer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "תורה",
+          "hebreu_voyelles": "תּוֹרָה",
+          "francais_mot": "Torah",
+          "expression_contexte": ""
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "שנפל",
+          "hebreu_voyelles": "שֶׁנָּפַל",
+          "francais_mot": "qui est tombé",
+          "expression_contexte": "",
+          "infinitif": "לִנְפּוֹל = Tomber"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "לארץ,",
+          "hebreu_voyelles": "לָאָרֶץ,",
+          "francais_mot": "à terre,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "הקהל",
+          "hebreu_voyelles": "הַקָּהָל",
+          "francais_mot": "le public",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "הרואים",
+          "hebreu_voyelles": "הָרוֹאִים",
+          "francais_mot": "ayant assisté",
+          "expression_contexte": "qui voit"
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "בנפילת",
+          "hebreu_voyelles": "בִּנְפִילַת",
+          "francais_mot": "à la chute de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "הספר",
+          "hebreu_voyelles": "הַסֵּפֶר",
+          "francais_mot": "le Sefer",
+          "expression_contexte": ""
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "תורה",
+          "hebreu_voyelles": "תּוֹרָה",
+          "francais_mot": "Torah",
+          "expression_contexte": ""
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "צריכים",
+          "hebreu_voyelles": "צְרִיכִים",
+          "francais_mot": "doit",
+          "expression_contexte": "doivent"
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "להתענות.",
+          "hebreu_voyelles": "לְהִתְעַנּוֹת.",
+          "francais_mot": "jeûner.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "אולם",
+          "hebreu_voyelles": "אוּלָם",
+          "francais_mot": "Cependant,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "אין",
+          "hebreu_voyelles": "אֵין",
+          "francais_mot": "n'est pas",
+          "expression_contexte": "il n'y a pas"
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "זה",
+          "hebreu_voyelles": "זֶה",
+          "francais_mot": "cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "חיוב",
+          "hebreu_voyelles": "חִיּוּב",
+          "francais_mot": "une obligation",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "מן",
+          "hebreu_voyelles": "מִן",
+          "francais_mot": "de",
+          "expression_contexte": "selon"
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "הדין,",
+          "hebreu_voyelles": "הַדִּין,",
+          "francais_mot": "la loi,",
+          "expression_contexte": "la loi halakhique"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "ולכן",
+          "hebreu_voyelles": "וְלָכֵן",
+          "francais_mot": "c'est pourquoi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il convient",
+          "expression_contexte": ""
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "להקל",
+          "hebreu_voyelles": "לְהָקֵל",
+          "francais_mot": "d'accorder un allègement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "en cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "לתשושי",
+          "hebreu_voyelles": "לִתְשׁוּשֵׁי",
+          "francais_mot": "aux personnes de",
+          "expression_contexte": "aux personnes faibles de"
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "כח,",
+          "hebreu_voyelles": "כֹּחַ,",
+          "francais_mot": "constitution faible,",
+          "expression_contexte": "לתשושי כח = personnes de constitution faible"
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "ולתלמידי",
+          "hebreu_voyelles": "וּלְתַלְמִידֵי",
+          "francais_mot": "et aux érudits",
+          "expression_contexte": "et aux élèves de"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "חכמים",
+          "hebreu_voyelles": "חֲכָמִים",
+          "francais_mot": "en Torah,",
+          "expression_contexte": "תלמידי חכמים = érudits en Torah"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "ובני",
+          "hebreu_voyelles": "וּבְנֵי",
+          "francais_mot": "et aux étudiants",
+          "expression_contexte": "et aux fils de"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "ישיבות",
+          "hebreu_voyelles": "יְשִׁיבוֹת",
+          "francais_mot": "de Yéchiva,",
+          "expression_contexte": "בני ישיבות = étudiants de Yéchiva"
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "ומלמדי",
+          "hebreu_voyelles": "וּמְלַמְּדֵי",
+          "francais_mot": "et aux enseignants",
+          "expression_contexte": ""
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "תינוקות,",
+          "hebreu_voyelles": "תִּינוֹקוֹת,",
+          "francais_mot": "d'enfants,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "וכן",
+          "hebreu_voyelles": "וְכֵן",
+          "francais_mot": "ainsi qu'",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "לפועלים",
+          "hebreu_voyelles": "לְפוֹעֲלִים",
+          "francais_mot": "aux ouvriers",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "שכירים",
+          "hebreu_voyelles": "שְׂכִירִים",
+          "francais_mot": "salariés",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "qui ne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "יוכלו",
+          "hebreu_voyelles": "יוּכְלוּ",
+          "francais_mot": "pourraient",
+          "expression_contexte": "",
+          "infinitif": "לָכוֹל = Pouvoir"
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "לעשות",
+          "hebreu_voyelles": "לַעֲשׂוֹת",
+          "francais_mot": "accomplir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "מלאכתם",
+          "hebreu_voyelles": "מְלָאַכְתָּם",
+          "francais_mot": "leur travail",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "נאמנה,",
+          "hebreu_voyelles": "נֶאֱמָנָה,",
+          "francais_mot": "de manière fidèle,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "ויש",
+          "hebreu_voyelles": "וְיֵשׁ",
+          "francais_mot": "ce qui susciterait",
+          "expression_contexte": "et il y a"
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "בזה",
+          "hebreu_voyelles": "בָּזֶה",
+          "francais_mot": "en cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשַׁשׁ",
+          "francais_mot": "une crainte de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "גזל",
+          "hebreu_voyelles": "גֶּזֶל",
+          "francais_mot": "vol",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "שממעיטים",
+          "hebreu_voyelles": "שֶׁמַּמְעִיטִים",
+          "francais_mot": "en réduisant",
+          "expression_contexte": "",
+          "infinitif": "לְהַמְעִיט = Diminuer / Réduire"
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "ממלאכת",
+          "hebreu_voyelles": "מִמְּלֶאכֶת",
+          "francais_mot": "le travail de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "בעל",
+          "hebreu_voyelles": "בַּעַל",
+          "francais_mot": "le maître de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "הבית.",
+          "hebreu_voyelles": "הַבַּיִת.",
+          "francais_mot": "l'employeur.",
+          "expression_contexte": "בעל הבית = l'employeur"
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "ולכן",
+          "hebreu_voyelles": "וְלָכֵן",
+          "francais_mot": "Par conséquent,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "יתנו",
+          "hebreu_voyelles": "יִתְּנוּ",
+          "francais_mot": "ils donneront",
+          "expression_contexte": "",
+          "infinitif": "לָתֵת = Donner"
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "פדיון",
+          "hebreu_voyelles": "פִּדְיוֹן",
+          "francais_mot": "le rachat de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "התענית",
+          "hebreu_voyelles": "הַתַּעֲנִית",
+          "francais_mot": "ce jeûne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "לצדקה.",
+          "hebreu_voyelles": "לִצְדָקָה.",
+          "francais_mot": "en charité.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "ומה",
+          "hebreu_voyelles": "וּמָה",
+          "francais_mot": "Et combien",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "טוב",
+          "hebreu_voyelles": "טוֹב",
+          "francais_mot": "il est souhaitable",
+          "expression_contexte": ""
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "שקהל",
+          "hebreu_voyelles": "שֶׁקְּהַל",
+          "francais_mot": "que l'ensemble des fidèles de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "בית",
+          "hebreu_voyelles": "בֵּית",
+          "francais_mot": "la maison de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "הכנסת",
+          "hebreu_voyelles": "הַכְּנֶסֶת",
+          "francais_mot": "la synagogue",
+          "expression_contexte": "בית הכנסת = la synagogue"
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "שאירע",
+          "hebreu_voyelles": "שֶׁאֵרַע",
+          "francais_mot": "où cela s'est produit",
+          "expression_contexte": "",
+          "infinitif": "לֶאֱרוֹעַ = Se produire / Arriver"
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "בו",
+          "hebreu_voyelles": "בּוֹ",
+          "francais_mot": "y",
+          "expression_contexte": "en elle"
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "כן",
+          "hebreu_voyelles": "כֵּן",
+          "francais_mot": "ainsi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "יתאספו",
+          "hebreu_voyelles": "יִתְאַסְּפוּ",
+          "francais_mot": "se rassemble",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְאָסֵף = Se rassembler"
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "כולם",
+          "hebreu_voyelles": "כֻּלָּם",
+          "francais_mot": "tous",
+          "expression_contexte": ""
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "בבית",
+          "hebreu_voyelles": "בְּבֵית",
+          "francais_mot": "à la maison de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "הכנסת",
+          "hebreu_voyelles": "הַכְּנֶסֶת",
+          "francais_mot": "la synagogue",
+          "expression_contexte": "בית הכנסת = la synagogue"
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "וינהגו",
+          "hebreu_voyelles": "וְיִנְהֲגוּ",
+          "francais_mot": "et y observe",
+          "expression_contexte": "",
+          "infinitif": "לִנְהֹג = Conduire / Observer / Pratiquer"
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "תענית",
+          "hebreu_voyelles": "תַּעֲנִית",
+          "francais_mot": "un jeûne de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "דיבור,",
+          "hebreu_voyelles": "דִּבּוּר,",
+          "francais_mot": "la parole,",
+          "expression_contexte": "תענית דיבור = jeûne de la parole"
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "וילמדו",
+          "hebreu_voyelles": "וְיִלְמְדוּ",
+          "francais_mot": "et y étudie",
+          "expression_contexte": "",
+          "infinitif": "לִלְמֹד = Étudier"
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "שם",
+          "hebreu_voyelles": "שָׁם",
+          "francais_mot": "là-bas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "במשך",
+          "hebreu_voyelles": "בְּמֶשֶׁךְ",
+          "francais_mot": "durant",
+          "expression_contexte": ""
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "toute",
+          "expression_contexte": ""
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "היום,",
+          "hebreu_voyelles": "הַיּוֹם,",
+          "francais_mot": "la journée ;",
+          "expression_contexte": ""
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "וזה",
+          "hebreu_voyelles": "וְזֶה",
+          "francais_mot": "et cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "הרבה",
+          "hebreu_voyelles": "הַרְבֵּה",
+          "francais_mot": "beaucoup",
+          "expression_contexte": ""
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "יותר",
+          "hebreu_voyelles": "יוֹתֵר",
+          "francais_mot": "plus",
+          "expression_contexte": ""
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "חשוב",
+          "hebreu_voyelles": "חָשׁוּב",
+          "francais_mot": "important",
+          "expression_contexte": ""
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "מתענית",
+          "hebreu_voyelles": "מִתַּעֲנִית",
+          "francais_mot": "qu'un jeûne",
+          "expression_contexte": ""
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "car ce n'est pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "העיקר",
+          "hebreu_voyelles": "הָעִקָּר",
+          "francais_mot": "l'essentiel",
+          "expression_contexte": ""
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "לסגף",
+          "hebreu_voyelles": "לְסַגֵּף",
+          "francais_mot": "de meurtrir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[accusatif]",
+          "expression_contexte": ""
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "עצמו",
+          "hebreu_voyelles": "עַצְמוֹ",
+          "francais_mot": "soi-même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "בתענית,",
+          "hebreu_voyelles": "בְּתַעֲנִית,",
+          "francais_mot": "par le jeûne,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 82,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "mais",
+          "expression_contexte": ""
+        },
+        {
+          "id": 83,
+          "hebreu_brut": "ברסן",
+          "hebreu_voyelles": "בְּרֶסֶן",
+          "francais_mot": "de maîtriser",
+          "expression_contexte": "dans le frein de"
+        },
+        {
+          "id": 84,
+          "hebreu_brut": "פיו",
+          "hebreu_voyelles": "פִּיו",
+          "francais_mot": "sa bouche",
+          "expression_contexte": ""
+        },
+        {
+          "id": 85,
+          "hebreu_brut": "ותאוותיו.",
+          "hebreu_voyelles": "וְתַאֲווֹתָיו.",
+          "francais_mot": "et ses désirs.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 86,
+          "hebreu_brut": "[ילקו\"י",
+          "hebreu_voyelles": "[ילקו\"י",
+          "francais_mot": "[Yalkout Yossef",
+          "expression_contexte": ""
+        },
+        {
+          "id": 87,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "sur",
+          "expression_contexte": ""
+        },
+        {
+          "id": 88,
+          "hebreu_brut": "תפילין",
+          "hebreu_voyelles": "תְּפִלִּין",
+          "francais_mot": "Tefilline,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 89,
+          "hebreu_brut": "סי'",
+          "hebreu_voyelles": "סִי'",
+          "francais_mot": "siman",
+          "expression_contexte": ""
+        },
+        {
+          "id": 90,
+          "hebreu_brut": "מד",
+          "hebreu_voyelles": "מַד",
+          "francais_mot": "44,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 91,
+          "hebreu_brut": "הערה",
+          "hebreu_voyelles": "הֶעָרָה",
+          "francais_mot": "note",
+          "expression_contexte": ""
+        },
+        {
+          "id": 92,
+          "hebreu_brut": "ו].",
+          "hebreu_voyelles": "ו].",
+          "francais_mot": "6].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 6
+    },
+    {
+      "livre": "Kitzur Yalkout Yossef",
+      "sujet": "",
+      "sujet_he": "",
+      "sujet_fr": "",
+      "titre_seif": "Téfilines apportées à un malade contagieux",
+      "siman": "44",
+      "seif": "7",
+      "texte_integral": {
+        "hebreu_sans_voyelles": "ז. מי ששוכב בבית חולים למחלות מדבקות ל ומבקש שיביאו לו תפילין, ועל פי החוק כל הדברים שמשתמשים בהם בעת החולי, שורפים אותם כשהחולה עוזב את בית החולים, יש אומרים שמותר למסור לו התפילין בשביל לקיים המצוה אף שגורם על ידי זה שלאחר מכן ישרפו את התפילין. ויש אומרים שאין להביא לו תפילין, אלא אם כן יש חשש שצער זה יגרום לדרדור במצבו הגופני ויבוא לידי סכנה, שאז יש להקל להביא לו את התפילין, אף שידוע שישרפו את התפילין. ואם הוא גורם שהשריפה תהיה על ידי גוי יש להקל גם שלא במקום סכנה, כדי שלא יתבטל ממצות עשה של מצות תפילין. [ובכל אופן ישתדל שהשריפה תהיה על ידי ישראל. ואם אפשר יש לשכנעם שיסתפקו בקבורת התפילין ולא בשריפתם]. [שם סי' מד הערה ז'. עמוד תרצ'ו במהדורא האחרונה. ילקו\"י ח\"ב הל' קריאת התורה עמ' שכא].",
+        "hebreu_avec_voyelles": "ז מִי שֶׁשּׁוֹכֵב בְּבֵית חוֹלִים לְמַחֲלוֹת מַדְבֵּקוֹת ל\"ע, וּמְבַקֵּשׁ שֶׁיָּבִיאוּ לוֹ תְּפִלִּין, וְעַל פִּי הַחֹק כָּל הַדְּבָרִים שֶׁמִּשְׁתַּמְּשִׁים בָּהֶם בְּעֵת הַחֹלִי, שׂוֹרְפִים אוֹתָם כְּשֶׁהַחוֹלֶה עוֹזֵב אֶת בֵּית הַחוֹלִים, יֵשׁ אוֹמְרִים שֶׁמֻּתָּר לִמְסֹר לוֹ הַתְּפִלִּין בִּשְׁבִיל לְקַיֵּם הַמִּצְוָה אַף שֶׁגּוֹרֵם עַל יְדֵי זֶה שֶׁלְּאַחַר מִכֵּן יִשְׂרְפוּ אֶת הַתְּפִלִּין. וְיֵשׁ אוֹמְרִים שֶׁאֵין לְהָבִיא לוֹ תְּפִלִּין, אֶלָּא אִם כֵּן יֵשׁ חֲשָׁשׁ שֶׁצַּעַר זֶה יִגְרֹם לְדִרְדּוּר בְּמַצָּבוֹ הַגּוּפָנִי וְיָבוֹא לִידֵי סַכָּנָה, שֶׁאָז יֵשׁ לְהָקֵל לְהָבִיא לוֹ אֶת הַתְּפִלִּין, אַף שֶׁיָּדוּעַ שֶׁיִּשְׂרְפוּ אֶת הַתְּפִלִּין. וְאִם הוּא גּוֹרֵם שֶׁהַשְּׂרֵפָה תִּהְיֶה עַל יְדֵי גּוֹי יֵשׁ לְהָקֵל גַּם שֶׁלֹּא בִּמְקוֹם סַכָּנָה, כְּדֵי שֶׁלֹּא יִתְבַּטֵּל מִמִּצְוַת עֲשֵׂה שֶׁל מִצְוַת תְּפִלִּין. [וּבְכָל אֹפֶן יִשְׁתַּדֵּל שֶׁהַשְּׂרֵפָה תִּהְיֶה עַל יְדֵי יִשְׂרָאֵל. וְאִם אֶפְשָׁר יֵשׁ לְשַׁכְנְעָם שֶׁיִּסְתַּפְּקוּ בִּקְבוּרַת הַתְּפִלִּין וְלֹא בִּשְׂרֵפָתָם]. [שָׁם סִי' מַד הֶעָרָה ז'. עַמּוּד תרצ'ו בַּמַּהֲדוֹרָא הָאַחֲרוֹנָה. ילקו\"י ח\"ב הֵל' קְרִיאַת הַתּוֹרָה עמ' שכא].",
+        "francais": "7. Un malade hospitalisé pour des maladies contagieuses (que l'on en soit préservé) et qui demande qu'on lui apporte des Téfilines, alors que selon le règlement tous les objets utilisés pendant la maladie sont brûlés lorsque le malade quitte l'hôpital : certains autorisent de lui remettre les Téfilines afin qu'il accomplisse la mitsva, bien que cela entraîne ultérieurement leur incinération. D'autres interdisent de lui apporter des Téfilines, à moins qu'il n'y ait la crainte que ce chagrin ne provoque une détérioration de son état physique et ne le mette en danger, auquel cas il est permis de lui apporter les Téfilines, bien qu'il soit certain qu'elles seront brûlées. Et s'il fait en sorte que l'incinération soit effectuée par un non-Juif, on peut se montrer indulgent même en dehors d'une situation de danger, afin qu'il ne manque pas le commandement positif de la mitsva des Téfilines. [Et en tout état de cause, il s'efforcera que l'incinération soit effectuée par un Israël. Et si cela est possible, il faut convaincre le personnel de se contenter d'enterrer les Téfilines plutôt que de les brûler]. [Ibid. siman 44, note 7. Page 696 dans la dernière édition. Yalkout Yossef vol. 2, Lois de la lecture de la Torah, p. 321]."
+      },
+      "mots_alignes": [
+        {
+          "id": 0,
+          "hebreu_brut": "ז.",
+          "hebreu_voyelles": "ז.",
+          "francais_mot": "7.",
+          "expression_contexte": "Numéro du paragraphe"
+        },
+        {
+          "id": 1,
+          "hebreu_brut": "מי",
+          "hebreu_voyelles": "מִי",
+          "francais_mot": "Celui qui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 2,
+          "hebreu_brut": "ששוכב",
+          "hebreu_voyelles": "שֶׁשּׁוֹכֵב",
+          "francais_mot": "est hospitalisé",
+          "expression_contexte": "Littéralement : qui est allongé",
+          "infinitif": "לִשְׁכַּב = Être allongé / Coucher"
+        },
+        {
+          "id": 3,
+          "hebreu_brut": "בבית",
+          "hebreu_voyelles": "בְּבֵית",
+          "francais_mot": "dans la maison de",
+          "expression_contexte": "בבית חולים = à l'hôpital"
+        },
+        {
+          "id": 4,
+          "hebreu_brut": "חולים",
+          "hebreu_voyelles": "חוֹלִים",
+          "francais_mot": "malades",
+          "expression_contexte": ""
+        },
+        {
+          "id": 5,
+          "hebreu_brut": "למחלות",
+          "hebreu_voyelles": "לְמַחֲלוֹת",
+          "francais_mot": "pour des maladies",
+          "expression_contexte": ""
+        },
+        {
+          "id": 6,
+          "hebreu_brut": "מדבקות",
+          "hebreu_voyelles": "מַדְבֵּקוֹת",
+          "francais_mot": "contagieuses",
+          "expression_contexte": ""
+        },
+        {
+          "id": 7,
+          "hebreu_brut": "ל",
+          "hebreu_voyelles": "ל\"ע,",
+          "francais_mot": "(que l'on en soit préservé),",
+          "expression_contexte": "Acronyme de לא עלינו (Pas sur nous)"
+        },
+        {
+          "id": 8,
+          "hebreu_brut": "ומבקש",
+          "hebreu_voyelles": "וּמְבַקֵּשׁ",
+          "francais_mot": "et demande",
+          "expression_contexte": "",
+          "infinitif": "לְבַקֵּשׁ = Demander"
+        },
+        {
+          "id": 9,
+          "hebreu_brut": "שיביאו",
+          "hebreu_voyelles": "שֶׁיָּבִיאוּ",
+          "francais_mot": "qu'on lui apporte",
+          "expression_contexte": "",
+          "infinitif": "לְהָבִיא = Apporter"
+        },
+        {
+          "id": 10,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "à lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 11,
+          "hebreu_brut": "תפילין,",
+          "hebreu_voyelles": "תְּפִלִּין,",
+          "francais_mot": "des Téfilines,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 12,
+          "hebreu_brut": "ועל",
+          "hebreu_voyelles": "וְעַל",
+          "francais_mot": "et selon",
+          "expression_contexte": "על פי = selon"
+        },
+        {
+          "id": 13,
+          "hebreu_brut": "פי",
+          "hebreu_voyelles": "פִּי",
+          "francais_mot": "la bouche de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 14,
+          "hebreu_brut": "החוק",
+          "hebreu_voyelles": "הַחֹק",
+          "francais_mot": "le règlement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 15,
+          "hebreu_brut": "כל",
+          "hebreu_voyelles": "כָּל",
+          "francais_mot": "tous",
+          "expression_contexte": ""
+        },
+        {
+          "id": 16,
+          "hebreu_brut": "הדברים",
+          "hebreu_voyelles": "הַדְּבָרִים",
+          "francais_mot": "les objets",
+          "expression_contexte": ""
+        },
+        {
+          "id": 17,
+          "hebreu_brut": "שמשתמשים",
+          "hebreu_voyelles": "שֶׁמִּשְׁתַּמְּשִׁים",
+          "francais_mot": "qu'on utilise",
+          "expression_contexte": "",
+          "infinitif": "לְהִשְׁתַּמֵּשׁ = Utiliser"
+        },
+        {
+          "id": 18,
+          "hebreu_brut": "בהם",
+          "hebreu_voyelles": "בָּהֶם",
+          "francais_mot": "dans eux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 19,
+          "hebreu_brut": "בעת",
+          "hebreu_voyelles": "בְּעֵת",
+          "francais_mot": "pendant",
+          "expression_contexte": "בעת = au moment de"
+        },
+        {
+          "id": 20,
+          "hebreu_brut": "החולי,",
+          "hebreu_voyelles": "הַחֹלִי,",
+          "francais_mot": "la maladie,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 21,
+          "hebreu_brut": "שורפים",
+          "hebreu_voyelles": "שׂוֹרְפִים",
+          "francais_mot": "sont brûlés",
+          "expression_contexte": "Littéralement : ils brûlent",
+          "infinitif": "לִשְׂרֹף = Brûler"
+        },
+        {
+          "id": 22,
+          "hebreu_brut": "אותם",
+          "hebreu_voyelles": "אוֹתָם",
+          "francais_mot": "eux",
+          "expression_contexte": ""
+        },
+        {
+          "id": 23,
+          "hebreu_brut": "כשהחולה",
+          "hebreu_voyelles": "כְּשֶׁהַחוֹלֶה",
+          "francais_mot": "lorsque le malade",
+          "expression_contexte": ""
+        },
+        {
+          "id": 24,
+          "hebreu_brut": "עוזב",
+          "hebreu_voyelles": "עוֹזֵב",
+          "francais_mot": "quitte",
+          "expression_contexte": "",
+          "infinitif": "לַעֲזֹב = Quitter / Abandonner"
+        },
+        {
+          "id": 25,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[déterminant]",
+          "expression_contexte": "Marqueur du complément d'objet direct"
+        },
+        {
+          "id": 26,
+          "hebreu_brut": "בית",
+          "hebreu_voyelles": "בֵּית",
+          "francais_mot": "la maison de",
+          "expression_contexte": "בית החולים = l'hôpital"
+        },
+        {
+          "id": 27,
+          "hebreu_brut": "החולים,",
+          "hebreu_voyelles": "הַחוֹלִים,",
+          "francais_mot": "les malades,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 28,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il y a",
+          "expression_contexte": "יש אומרים = certains disent"
+        },
+        {
+          "id": 29,
+          "hebreu_brut": "אומרים",
+          "hebreu_voyelles": "אוֹמְרִים",
+          "francais_mot": "[des autorités] qui disent",
+          "expression_contexte": "",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 30,
+          "hebreu_brut": "שמותר",
+          "hebreu_voyelles": "שֶׁמֻּתָּר",
+          "francais_mot": "qu'il est permis",
+          "expression_contexte": ""
+        },
+        {
+          "id": 31,
+          "hebreu_brut": "למסור",
+          "hebreu_voyelles": "לִמְסֹר",
+          "francais_mot": "de lui remettre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 32,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "à lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 33,
+          "hebreu_brut": "התפילין",
+          "hebreu_voyelles": "הַתְּפִלִּין",
+          "francais_mot": "les Téfilines",
+          "expression_contexte": ""
+        },
+        {
+          "id": 34,
+          "hebreu_brut": "בשביל",
+          "hebreu_voyelles": "בִּשְׁבִיל",
+          "francais_mot": "afin de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 35,
+          "hebreu_brut": "לקיים",
+          "hebreu_voyelles": "לְקַיֵּם",
+          "francais_mot": "d'accomplir",
+          "expression_contexte": ""
+        },
+        {
+          "id": 36,
+          "hebreu_brut": "המצוה",
+          "hebreu_voyelles": "הַמִּצְוָה",
+          "francais_mot": "la mitsva",
+          "expression_contexte": ""
+        },
+        {
+          "id": 37,
+          "hebreu_brut": "אף",
+          "hebreu_voyelles": "אַף",
+          "francais_mot": "bien",
+          "expression_contexte": "אף ש... = bien que..."
+        },
+        {
+          "id": 38,
+          "hebreu_brut": "שגורם",
+          "hebreu_voyelles": "שֶׁגּוֹרֵם",
+          "francais_mot": "que cela entraîne",
+          "expression_contexte": "",
+          "infinitif": "לִגְרֹם = Causer / Entraîner"
+        },
+        {
+          "id": 39,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "par",
+          "expression_contexte": "על ידי זה = par cela"
+        },
+        {
+          "id": 40,
+          "hebreu_brut": "ידי",
+          "hebreu_voyelles": "יְדֵי",
+          "francais_mot": "l'intermédiaire de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 41,
+          "hebreu_brut": "זה",
+          "hebreu_voyelles": "זֶה",
+          "francais_mot": "cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 42,
+          "hebreu_brut": "שלאחר",
+          "hebreu_voyelles": "שֶׁלְּאַחַר",
+          "francais_mot": "qu'ultérieurement",
+          "expression_contexte": "לאחר מכן = après cela / ensuite"
+        },
+        {
+          "id": 43,
+          "hebreu_brut": "מכן",
+          "hebreu_voyelles": "מִכֵּן",
+          "francais_mot": "cela",
+          "expression_contexte": ""
+        },
+        {
+          "id": 44,
+          "hebreu_brut": "ישרפו",
+          "hebreu_voyelles": "יִשְׂרְפוּ",
+          "francais_mot": "ils brûleront",
+          "expression_contexte": "",
+          "infinitif": "לִשְׂרֹף = Brûler"
+        },
+        {
+          "id": 45,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[déterminant]",
+          "expression_contexte": "Marqueur du complément d'objet direct"
+        },
+        {
+          "id": 46,
+          "hebreu_brut": "התפילין.",
+          "hebreu_voyelles": "הַתְּפִלִּין.",
+          "francais_mot": "les Téfilines.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 47,
+          "hebreu_brut": "ויש",
+          "hebreu_voyelles": "וְיֵשׁ",
+          "francais_mot": "Et d'autres",
+          "expression_contexte": "ויש אומרים = Et d'autres disent"
+        },
+        {
+          "id": 48,
+          "hebreu_brut": "אומרים",
+          "hebreu_voyelles": "אוֹמְרִים",
+          "francais_mot": "disent",
+          "expression_contexte": "",
+          "infinitif": "לוֹמַר = Dire"
+        },
+        {
+          "id": 49,
+          "hebreu_brut": "שאין",
+          "hebreu_voyelles": "שֶׁאֵין",
+          "francais_mot": "qu'il ne faut pas",
+          "expression_contexte": "שאין להביא = qu'il ne faut pas apporter"
+        },
+        {
+          "id": 50,
+          "hebreu_brut": "להביא",
+          "hebreu_voyelles": "לְהָבִיא",
+          "francais_mot": "lui apporter",
+          "expression_contexte": ""
+        },
+        {
+          "id": 51,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "à lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 52,
+          "hebreu_brut": "תפילין,",
+          "hebreu_voyelles": "תְּפִלִּין,",
+          "francais_mot": "des Téfilines,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 53,
+          "hebreu_brut": "אלא",
+          "hebreu_voyelles": "אֶלָּא",
+          "francais_mot": "à moins",
+          "expression_contexte": "אלא אם כן = à moins que"
+        },
+        {
+          "id": 54,
+          "hebreu_brut": "אם",
+          "hebreu_voyelles": "אִם",
+          "francais_mot": "si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 55,
+          "hebreu_brut": "כן",
+          "hebreu_voyelles": "כֵּן",
+          "francais_mot": "ainsi",
+          "expression_contexte": ""
+        },
+        {
+          "id": 56,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il y a",
+          "expression_contexte": ""
+        },
+        {
+          "id": 57,
+          "hebreu_brut": "חשש",
+          "hebreu_voyelles": "חֲשָׁשׁ",
+          "francais_mot": "une crainte",
+          "expression_contexte": ""
+        },
+        {
+          "id": 58,
+          "hebreu_brut": "שצער",
+          "hebreu_voyelles": "שֶׁצַּעַר",
+          "francais_mot": "que ce chagrin",
+          "expression_contexte": ""
+        },
+        {
+          "id": 59,
+          "hebreu_brut": "זה",
+          "hebreu_voyelles": "זֶה",
+          "francais_mot": "ce",
+          "expression_contexte": ""
+        },
+        {
+          "id": 60,
+          "hebreu_brut": "יגרום",
+          "hebreu_voyelles": "יִגְרֹם",
+          "francais_mot": "ne provoque",
+          "expression_contexte": "",
+          "infinitif": "לִגְרֹם = Causer / Provoquer"
+        },
+        {
+          "id": 61,
+          "hebreu_brut": "לדרדור",
+          "hebreu_voyelles": "לְדִרְדּוּר",
+          "francais_mot": "une détérioration",
+          "expression_contexte": ""
+        },
+        {
+          "id": 62,
+          "hebreu_brut": "במצבו",
+          "hebreu_voyelles": "בְּמַצָּבוֹ",
+          "francais_mot": "de son état",
+          "expression_contexte": ""
+        },
+        {
+          "id": 63,
+          "hebreu_brut": "הגופני",
+          "hebreu_voyelles": "הַגּוּפָנִי",
+          "francais_mot": "physique",
+          "expression_contexte": ""
+        },
+        {
+          "id": 64,
+          "hebreu_brut": "ויבוא",
+          "hebreu_voyelles": "וְיָבוֹא",
+          "francais_mot": "et ne le mette",
+          "expression_contexte": "",
+          "infinitif": "לָבוֹא = Venir / Arriver"
+        },
+        {
+          "id": 65,
+          "hebreu_brut": "לידי",
+          "hebreu_voyelles": "לִידֵי",
+          "francais_mot": "en situation de",
+          "expression_contexte": "לידי סכנה = en danger"
+        },
+        {
+          "id": 66,
+          "hebreu_brut": "סכנה,",
+          "hebreu_voyelles": "סַכָּנָה,",
+          "francais_mot": "danger,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 67,
+          "hebreu_brut": "שאז",
+          "hebreu_voyelles": "שֶׁאָז",
+          "francais_mot": "auquel cas",
+          "expression_contexte": "שאז = alors"
+        },
+        {
+          "id": 68,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il est permis",
+          "expression_contexte": "יש להקל = il convient de se montrer indulgent / de permettre"
+        },
+        {
+          "id": 69,
+          "hebreu_brut": "להקל",
+          "hebreu_voyelles": "לְהָקֵל",
+          "francais_mot": "de se montrer indulgent",
+          "expression_contexte": ""
+        },
+        {
+          "id": 70,
+          "hebreu_brut": "להביא",
+          "hebreu_voyelles": "לְהָבִיא",
+          "francais_mot": "de lui apporter",
+          "expression_contexte": ""
+        },
+        {
+          "id": 71,
+          "hebreu_brut": "לו",
+          "hebreu_voyelles": "לוֹ",
+          "francais_mot": "à lui",
+          "expression_contexte": ""
+        },
+        {
+          "id": 72,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[déterminant]",
+          "expression_contexte": "Marqueur du complément d'objet direct"
+        },
+        {
+          "id": 73,
+          "hebreu_brut": "התפילין,",
+          "hebreu_voyelles": "הַתְּפִלִּין,",
+          "francais_mot": "les Téfilines,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 74,
+          "hebreu_brut": "אף",
+          "hebreu_voyelles": "אַף",
+          "francais_mot": "bien",
+          "expression_contexte": "אף שידוע = bien qu'il soit connu"
+        },
+        {
+          "id": 75,
+          "hebreu_brut": "שידוע",
+          "hebreu_voyelles": "שֶׁיָּדוּעַ",
+          "francais_mot": "qu'il soit certain",
+          "expression_contexte": ""
+        },
+        {
+          "id": 76,
+          "hebreu_brut": "שישרפו",
+          "hebreu_voyelles": "שֶׁיִּשְׂרְפוּ",
+          "francais_mot": "qu'elles seront brûlées",
+          "expression_contexte": "",
+          "infinitif": "לִשְׂרֹף = Brûler"
+        },
+        {
+          "id": 77,
+          "hebreu_brut": "את",
+          "hebreu_voyelles": "אֶת",
+          "francais_mot": "[déterminant]",
+          "expression_contexte": "Marqueur du complément d'objet direct"
+        },
+        {
+          "id": 78,
+          "hebreu_brut": "התפילין.",
+          "hebreu_voyelles": "הַתְּפִלִּין.",
+          "francais_mot": "les Téfilines.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 79,
+          "hebreu_brut": "ואם",
+          "hebreu_voyelles": "וְאִם",
+          "francais_mot": "Et si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 80,
+          "hebreu_brut": "הוא",
+          "hebreu_voyelles": "הוּא",
+          "francais_mot": "il",
+          "expression_contexte": ""
+        },
+        {
+          "id": 81,
+          "hebreu_brut": "גורם",
+          "hebreu_voyelles": "גּוֹרֵם",
+          "francais_mot": "fait en sorte",
+          "expression_contexte": "",
+          "infinitif": "לִגְרֹם = Causer / Faire en sorte"
+        },
+        {
+          "id": 82,
+          "hebreu_brut": "שהשריפה",
+          "hebreu_voyelles": "שֶׁהַשְּׂרֵפָה",
+          "francais_mot": "que l'incinération",
+          "expression_contexte": ""
+        },
+        {
+          "id": 83,
+          "hebreu_brut": "תהיה",
+          "hebreu_voyelles": "תִּהְיֶה",
+          "francais_mot": "soit effectuée",
+          "expression_contexte": "",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 84,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "par",
+          "expression_contexte": "על ידי = par l'intermédiaire de"
+        },
+        {
+          "id": 85,
+          "hebreu_brut": "ידי",
+          "hebreu_voyelles": "יְדֵי",
+          "francais_mot": "l'intermédiaire de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 86,
+          "hebreu_brut": "גוי",
+          "hebreu_voyelles": "גּוֹי",
+          "francais_mot": "un non-Juif,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 87,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "on peut",
+          "expression_contexte": "יש להקל = on peut se montrer indulgent"
+        },
+        {
+          "id": 88,
+          "hebreu_brut": "להקל",
+          "hebreu_voyelles": "לְהָקֵל",
+          "francais_mot": "se montrer indulgent",
+          "expression_contexte": ""
+        },
+        {
+          "id": 89,
+          "hebreu_brut": "גם",
+          "hebreu_voyelles": "גַּם",
+          "francais_mot": "même",
+          "expression_contexte": ""
+        },
+        {
+          "id": 90,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "en dehors",
+          "expression_contexte": "שלא במקום = pas dans un endroit de"
+        },
+        {
+          "id": 91,
+          "hebreu_brut": "במקום",
+          "hebreu_voyelles": "בִּמְקוֹם",
+          "francais_mot": "d'une situation de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 92,
+          "hebreu_brut": "סכנה,",
+          "hebreu_voyelles": "סַכָּנָה,",
+          "francais_mot": "danger,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 93,
+          "hebreu_brut": "כדי",
+          "hebreu_voyelles": "כְּדֵי",
+          "francais_mot": "afin",
+          "expression_contexte": "כדי שלא = afin que... ne pas"
+        },
+        {
+          "id": 94,
+          "hebreu_brut": "שלא",
+          "hebreu_voyelles": "שֶׁלֹּא",
+          "francais_mot": "qu'il ne... pas",
+          "expression_contexte": ""
+        },
+        {
+          "id": 95,
+          "hebreu_brut": "יתבטל",
+          "hebreu_voyelles": "יִתְבַּטֵּל",
+          "francais_mot": "manque",
+          "expression_contexte": "",
+          "infinitif": "לְהִתְבַּטֵּל = S'annuler / Être annulé"
+        },
+        {
+          "id": 96,
+          "hebreu_brut": "ממצות",
+          "hebreu_voyelles": "מִמִּצְוַת",
+          "francais_mot": "le commandement",
+          "expression_contexte": ""
+        },
+        {
+          "id": 97,
+          "hebreu_brut": "עשה",
+          "hebreu_voyelles": "עֲשֵׂה",
+          "francais_mot": "positif",
+          "expression_contexte": "מצות עשה = commandement positif"
+        },
+        {
+          "id": 98,
+          "hebreu_brut": "של",
+          "hebreu_voyelles": "שֶׁל",
+          "francais_mot": "de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 99,
+          "hebreu_brut": "מצות",
+          "hebreu_voyelles": "מִצְוַת",
+          "francais_mot": "la mitsva des",
+          "expression_contexte": ""
+        },
+        {
+          "id": 100,
+          "hebreu_brut": "תפילין.",
+          "hebreu_voyelles": "תְּפִלִּין.",
+          "francais_mot": "Téfilines.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 101,
+          "hebreu_brut": "[ובכל",
+          "hebreu_voyelles": "[וּבְכָל",
+          "francais_mot": "[Et en tout",
+          "expression_contexte": "בכל אופן = en tout état de cause"
+        },
+        {
+          "id": 102,
+          "hebreu_brut": "אופן",
+          "hebreu_voyelles": "אֹפֶן",
+          "francais_mot": "état de cause,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 103,
+          "hebreu_brut": "ישתדל",
+          "hebreu_voyelles": "יִשְׁתַּדֵּל",
+          "francais_mot": "il s'efforcera",
+          "expression_contexte": "",
+          "infinitif": "לְהִשְׁתַּדֵּל = S'efforcer"
+        },
+        {
+          "id": 104,
+          "hebreu_brut": "שהשריפה",
+          "hebreu_voyelles": "שֶׁהַשְּׂרֵפָה",
+          "francais_mot": "que l'incinération",
+          "expression_contexte": ""
+        },
+        {
+          "id": 105,
+          "hebreu_brut": "תהיה",
+          "hebreu_voyelles": "תִּהְיֶה",
+          "francais_mot": "soit effectuée",
+          "expression_contexte": "",
+          "infinitif": "לִהְיוֹת = Être"
+        },
+        {
+          "id": 106,
+          "hebreu_brut": "על",
+          "hebreu_voyelles": "עַל",
+          "francais_mot": "par",
+          "expression_contexte": "על ידי = par"
+        },
+        {
+          "id": 107,
+          "hebreu_brut": "ידי",
+          "hebreu_voyelles": "יְדֵי",
+          "francais_mot": "l'intermédiaire d'",
+          "expression_contexte": ""
+        },
+        {
+          "id": 108,
+          "hebreu_brut": "ישראל.",
+          "hebreu_voyelles": "יִשְׂרָאֵל.",
+          "francais_mot": "un Israël.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 109,
+          "hebreu_brut": "ואם",
+          "hebreu_voyelles": "וְאִם",
+          "francais_mot": "Et si",
+          "expression_contexte": ""
+        },
+        {
+          "id": 110,
+          "hebreu_brut": "אפשר",
+          "hebreu_voyelles": "אֶפְשָׁר",
+          "francais_mot": "cela est possible,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 111,
+          "hebreu_brut": "יש",
+          "hebreu_voyelles": "יֵשׁ",
+          "francais_mot": "il faut",
+          "expression_contexte": ""
+        },
+        {
+          "id": 112,
+          "hebreu_brut": "לשכנעם",
+          "hebreu_voyelles": "לְשַׁכְנְעָם",
+          "francais_mot": "les convaincre",
+          "expression_contexte": ""
+        },
+        {
+          "id": 113,
+          "hebreu_brut": "שיסתפקו",
+          "hebreu_voyelles": "שֶׁיִּסְתַּפְּקוּ",
+          "francais_mot": "de se contenter",
+          "expression_contexte": "",
+          "infinitif": "לְהִסְתַּפֵּק = Se contenter"
+        },
+        {
+          "id": 114,
+          "hebreu_brut": "בקבורת",
+          "hebreu_voyelles": "בִּקְבוּרַת",
+          "francais_mot": "d'enterrer",
+          "expression_contexte": "בקבורת = dans l'enterrement de"
+        },
+        {
+          "id": 115,
+          "hebreu_brut": "התפילין",
+          "hebreu_voyelles": "הַתְּפִלִּין",
+          "francais_mot": "les Téfilines",
+          "expression_contexte": ""
+        },
+        {
+          "id": 116,
+          "hebreu_brut": "ולא",
+          "hebreu_voyelles": "וְלֹא",
+          "francais_mot": "plutôt que",
+          "expression_contexte": "ולא = et non"
+        },
+        {
+          "id": 117,
+          "hebreu_brut": "בשריפתם].",
+          "hebreu_voyelles": "בִּשְׂרֵפָתָם].",
+          "francais_mot": "de les brûler].",
+          "expression_contexte": ""
+        },
+        {
+          "id": 118,
+          "hebreu_brut": "[שם",
+          "hebreu_voyelles": "[שָׁם",
+          "francais_mot": "[Ibid.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 119,
+          "hebreu_brut": "סי'",
+          "hebreu_voyelles": "סִי'",
+          "francais_mot": "siman",
+          "expression_contexte": "Abréviation de סימן (chapitre / section)"
+        },
+        {
+          "id": 120,
+          "hebreu_brut": "מד",
+          "hebreu_voyelles": "מַד",
+          "francais_mot": "44,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 121,
+          "hebreu_brut": "הערה",
+          "hebreu_voyelles": "הֶעָרָה",
+          "francais_mot": "note",
+          "expression_contexte": ""
+        },
+        {
+          "id": 122,
+          "hebreu_brut": "ז'.",
+          "hebreu_voyelles": "ז'.",
+          "francais_mot": "7.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 123,
+          "hebreu_brut": "עמוד",
+          "hebreu_voyelles": "עַמּוּד",
+          "francais_mot": "Page",
+          "expression_contexte": ""
+        },
+        {
+          "id": 124,
+          "hebreu_brut": "תרצ'ו",
+          "hebreu_voyelles": "תרצ'ו",
+          "francais_mot": "696",
+          "expression_contexte": ""
+        },
+        {
+          "id": 125,
+          "hebreu_brut": "במהדורא",
+          "hebreu_voyelles": "בַּמַּהֲדוֹרָא",
+          "francais_mot": "dans l'édition",
+          "expression_contexte": ""
+        },
+        {
+          "id": 126,
+          "hebreu_brut": "האחרונה.",
+          "hebreu_voyelles": "הָאַחֲרוֹנָה.",
+          "francais_mot": "la dernière.",
+          "expression_contexte": ""
+        },
+        {
+          "id": 127,
+          "hebreu_brut": "ילקו\"י",
+          "hebreu_voyelles": "ילקו\"י",
+          "francais_mot": "Yalkout Yossef",
+          "expression_contexte": "Acronyme de ילקוט יוסף"
+        },
+        {
+          "id": 128,
+          "hebreu_brut": "ח\"ב",
+          "hebreu_voyelles": "ח\"ב",
+          "francais_mot": "vol. 2,",
+          "expression_contexte": "Acronyme de חלק ב' (Volume 2)"
+        },
+        {
+          "id": 129,
+          "hebreu_brut": "הל'",
+          "hebreu_voyelles": "הֵל'",
+          "francais_mot": "Lois de",
+          "expression_contexte": "Abréviation de הלכות (Lois)"
+        },
+        {
+          "id": 130,
+          "hebreu_brut": "קריאת",
+          "hebreu_voyelles": "קְרִיאַת",
+          "francais_mot": "la lecture de",
+          "expression_contexte": ""
+        },
+        {
+          "id": 131,
+          "hebreu_brut": "התורה",
+          "hebreu_voyelles": "הַתּוֹרָה",
+          "francais_mot": "la Torah,",
+          "expression_contexte": ""
+        },
+        {
+          "id": 132,
+          "hebreu_brut": "עמ'",
+          "hebreu_voyelles": "עמ'",
+          "francais_mot": "p.",
+          "expression_contexte": "Abréviation de עמוד (page)"
+        },
+        {
+          "id": 133,
+          "hebreu_brut": "שכא].",
+          "hebreu_voyelles": "שכא].",
+          "francais_mot": "321].",
+          "expression_contexte": ""
+        }
+      ],
+      "_globalId": 7
+    }
+  ]
+}

@@ -15,1204 +15,454 @@
   },
   "knowledge_points": [
     {
-      "id": "s3-kp-001",
-      "title": "Se soulager matin et soir",
-      "rule": "1. C'est une marque de diligence et de propreté que de s'habituer à se soulager le matin et le soir, c'est-à-dire avant la prière de Chaharit, ainsi qu'avant Minha et Arvit, ce qui est également une habitude d'hygiène. S'il n'y parvient pas, il marchera quatre coudées, s'assiéra et se lèvera jusqu'à ce qu'il se soulage, ou bien il détournera son attention vers d'autres sujets. De même, lorsqu'il est couché dans son lit la nuit, s'il ressent le besoin de faire ses besoins, il prendra courage pour se lever et ne fera preuve ni de paresse ni de négligence à cause du froid. [Chéérit Yossef tome 1 p. 25. Yalkout Yossef sur les lois du lever matinal p. 252. Et là-bas dans la note p. 253 : pour celui qui souffre de maux d'estomac, le conseil est de ne pas aller trop souvent aux toilettes].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "1. C'est une marque de diligence et de propreté que de s'habituer à se soulager le matin et le soir, c'est-à-dire avant la prière de Chaharit, ainsi qu'avant Minha et Arvit, ce qui est également une habitude d'hygiène. S'il n'y parvient pas, il marchera quatre coudées, s'assiéra et se lèvera jusqu'à ce qu'il se soulage, ou bien il détournera son attention vers d'autres sujets. De même, lorsqu'il est couché dans son lit la nuit, s'il ressent le besoin de faire ses besoins, il prendra courage pour se lever et ne fera preuve ni de paresse ni de négligence à cause du froid. [Chéérit Yossef tome 1 p. 25. Yalkout Yossef sur les lois du lever matinal p. 252. Et là-bas dans la note p. 253 : pour celui qui souffre de maux d'estomac, le conseil est de ne pas aller trop souvent aux toilettes].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "1"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-001",
+      "title": "La santé est spirituelle",
+      "rule": "Dans le judaïsme, le corps est un \"véhicule\" prêté par Dieu. Il faut en prendre soin ! C'est pourquoi les Sages recommandent d'avoir un rythme de vie sain et de prendre le temps de passer aux toilettes le matin et le soir, sans jamais se précipiter ni forcer. Prendre soin de son système digestif est une vraie marque de sagesse.",
       "sources": [
         {
           "siman": 3,
-          "seif": "1"
+          "seif": 1
+        },
+        {
+          "siman": 3,
+          "seif": 2
+        },
+        {
+          "siman": 3,
+          "seif": 6
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 1 : Se soulager matin et soir",
-        "simple_explanation": "1. C'est une marque de diligence et de propreté que de s'habituer à se soulager le matin et le soir, c'est-à-dire avant la prière de Chaharit, ainsi qu'avant Minha et Arvit, ce qui est également une habitude d'hygiène. S'il n'y parvient pas, il marchera quatre coudées, s'assiéra et se lèvera jusqu'à ce qu'il se soulage, ou bien il détournera son attention vers d'autres sujets. De même, lorsqu'il est couché dans son lit la nuit, s'il ressent le besoin de faire ses besoins, il prendra courage pour se lever et ne fera preuve ni de paresse ni de négligence à cause du froid. [Chéérit Yossef tome 1 p. 25. Yalkout Yossef sur les lois du lever matinal p. 252. Et là-bas dans la note p. 253 : pour celui qui souffre de maux d'estomac, le conseil est de ne pas aller trop souvent aux toilettes].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-001-flashcard-01",
-            "knowledge_point_id": "s3-kp-001",
-            "source_seif": "1",
-            "title": "Se soulager matin et soir",
-            "question": "Que présente le סעיף 1 concernant « Se soulager matin et soir » ?",
-            "answer": "1. C'est une marque de diligence et de propreté que de s'habituer à se soulager le matin et le soir, c'est-à-dire avant la prière de Chaharit, ainsi qu'avant Minha et Arvit, ce qui est également une habitude d'hygiène. S'il n'y parvient pas, il marchera quatre coudées, s'assiéra et se lèvera jusqu'à ce qu'il se soulage, ou bien il détournera son attention vers d'autres sujets. De même, lorsqu'il est couché dans son lit la nuit, s'il ressent le besoin de faire ses besoins, il prendra courage pour se lever et ne fera preuve ni de paresse ni de négligence à cause du froid. [Chéérit Yossef tome 1 p. 25. Yalkout Yossef sur les lois du lever matinal p. 252. Et là-bas dans la note p. 253 : pour celui qui souffre de maux d'estomac, le conseil est de ne pas aller trop souvent aux toilettes].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "Dans le judaïsme, le corps est un \"véhicule\" prêté par Dieu. Il faut en prendre soin ! C'est pourquoi les Sages recommandent d'avoir un rythme de vie sain et de prendre le temps de passer aux toilettes le matin et le soir, sans jamais se précipiter ni forcer. Prendre soin de son système digestif est une vraie marque de sagesse."
+      },
+      "quizEyebrow": "Vrai ou Faux ?",
+      "quizPrompt": "\"Selon le judaïsme, il est bien vu de se retenir d'aller aux toilettes pour montrer que l'on contrôle son corps.\"",
+      "quizOptions": [
+        "Vrai",
+        "Faux (C'est même strictement interdit pour des raisons de santé !)"
+      ],
+      "quizAnswer": "Faux (C'est même strictement interdit pour des raisons de santé !)"
     },
     {
-      "id": "s3-kp-002",
-      "title": "Interdiction de retenir ses besoins",
-      "rule": "2. Nos Sages de mémoire bénie ont dit (Traité Makkot 16b) : Quiconque retient ses besoins transgresse l'interdit de \"Ne rendez pas vos âmes abominables\". Par conséquent, s'il ressent le besoin de se soulager, que ce soit pour la grande ou la petite commission, il ne se retiendra pas, mais ira se soulager immédiatement. Pour la petite commission, il y a en outre un risque de stérilité. C'est pourquoi, même lorsqu'il est couché la nuit, s'il ressent le besoin de faire ses besoins, il s'armera de courage pour se lever et ne cédera pas à la paresse à cause de l'obscurité ou du froid. [Comme mentionné ci-dessus au chapitre 2]. Il devra se laver les mains pour réciter la bénédiction \"Acher Yatsar\". [S'il craint que le fait de se laver les mains l'empêche de se rendormir, il s'essuiera les mains avec quelque chose qui nettoie et récitera \"Acher Yatsar\", et s'appuiera sur l'ablution qu'il fera plus tard le matin avec bénédiction, à son réveil ; car selon la stricte loi, il est permis de dire des paroles saintes après s'être nettoyé les mains avec quelque chose qui nettoie]. [Yalkout Yossef sur les lois du lever matinal p. 254. Chéérit Yossef tome 1 p. 34].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "2. Nos Sages de mémoire bénie ont dit (Traité Makkot 16b) : Quiconque retient ses besoins transgresse l'interdit de \"Ne rendez pas vos âmes abominables\". Par conséquent, s'il ressent le besoin de se soulager, que ce soit pour la grande ou la petite commission, il ne se retiendra pas, mais ira se soulager immédiatement. Pour la petite commission, il y a en outre un risque de stérilité. C'est pourquoi, même lorsqu'il est couché la nuit, s'il ressent le besoin de faire ses besoins, il s'armera de courage pour se lever et ne cédera pas à la paresse à cause de l'obscurité ou du froid. [Comme mentionné ci-dessus au chapitre 2]. Il devra se laver les mains pour réciter la bénédiction \"Acher Yatsar\". [S'il craint que le fait de se laver les mains l'empêche de se rendormir, il s'essuiera les mains avec quelque chose qui nettoie et récitera \"Acher Yatsar\", et s'appuiera sur l'ablution qu'il fera plus tard le matin avec bénédiction, à son réveil ; car selon la stricte loi, il est permis de dire des paroles saintes après s'être nettoyé les mains avec quelque chose qui nettoie]. [Yalkout Yossef sur les lois du lever matinal p. 254. Chéérit Yossef tome 1 p. 34].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "2"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-002",
+      "title": "Ne jamais se retenir",
+      "rule": "Il existe une règle très stricte appelée Bal Teshaktzu (qui signifie \"Ne rendez pas votre corps abominable\"). Cette règle interdit de se retenir quand on a envie d'aller aux toilettes. Se retenir est mauvais pour la santé, et la religion nous demande de ne jamais abîmer notre corps.",
       "sources": [
         {
           "siman": 3,
-          "seif": "2"
+          "seif": 1
+        },
+        {
+          "siman": 3,
+          "seif": 2
+        },
+        {
+          "siman": 3,
+          "seif": 6
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 2 : Interdiction de retenir ses besoins",
-        "simple_explanation": "2. Nos Sages de mémoire bénie ont dit (Traité Makkot 16b) : Quiconque retient ses besoins transgresse l'interdit de \"Ne rendez pas vos âmes abominables\". Par conséquent, s'il ressent le besoin de se soulager, que ce soit pour la grande ou la petite commission, il ne se retiendra pas, mais ira se soulager immédiatement. Pour la petite commission, il y a en outre un risque de stérilité. C'est pourquoi, même lorsqu'il est couché la nuit, s'il ressent le besoin de faire ses besoins, il s'armera de courage pour se lever et ne cédera pas à la paresse à cause de l'obscurité ou du froid. [Comme mentionné ci-dessus au chapitre 2]. Il devra se laver les mains pour réciter la bénédiction \"Acher Yatsar\". [S'il craint que le fait de se laver les mains l'empêche de se rendormir, il s'essuiera les mains avec quelque chose qui nettoie et récitera \"Acher Yatsar\", et s'appuiera sur l'ablution qu'il fera plus tard le matin avec bénédiction, à son réveil ; car selon la stricte loi, il est permis de dire des paroles saintes après s'être nettoyé les mains avec quelque chose qui nettoie]. [Yalkout Yossef sur les lois du lever matinal p. 254. Chéérit Yossef tome 1 p. 34].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-002-flashcard-01",
-            "knowledge_point_id": "s3-kp-002",
-            "source_seif": "2",
-            "title": "Interdiction de retenir ses besoins",
-            "question": "Que présente le סעיף 2 concernant « Interdiction de retenir ses besoins » ?",
-            "answer": "2. Nos Sages de mémoire bénie ont dit (Traité Makkot 16b) : Quiconque retient ses besoins transgresse l'interdit de \"Ne rendez pas vos âmes abominables\". Par conséquent, s'il ressent le besoin de se soulager, que ce soit pour la grande ou la petite commission, il ne se retiendra pas, mais ira se soulager immédiatement. Pour la petite commission, il y a en outre un risque de stérilité. C'est pourquoi, même lorsqu'il est couché la nuit, s'il ressent le besoin de faire ses besoins, il s'armera de courage pour se lever et ne cédera pas à la paresse à cause de l'obscurité ou du froid. [Comme mentionné ci-dessus au chapitre 2]. Il devra se laver les mains pour réciter la bénédiction \"Acher Yatsar\". [S'il craint que le fait de se laver les mains l'empêche de se rendormir, il s'essuiera les mains avec quelque chose qui nettoie et récitera \"Acher Yatsar\", et s'appuiera sur l'ablution qu'il fera plus tard le matin avec bénédiction, à son réveil ; car selon la stricte loi, il est permis de dire des paroles saintes après s'être nettoyé les mains avec quelque chose qui nettoie]. [Yalkout Yossef sur les lois du lever matinal p. 254. Chéérit Yossef tome 1 p. 34].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "Il existe une règle très stricte appelée Bal Teshaktzu (qui signifie \"Ne rendez pas votre corps abominable\"). Cette règle interdit de se retenir quand on a envie d'aller aux toilettes. Se retenir est mauvais pour la santé, et la religion nous demande de ne jamais abîmer notre corps."
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Il est 3h du matin, tu es bien au chaud mais tu as envie d'aller aux toilettes. Que fais-tu ?",
+      "quizOptions": [
+        "Je me retiens jusqu'au matin pour ne pas avoir froid.",
+        "Je me lève tout de suite, car le judaïsme interdit de se retenir et de faire souffrir son corps."
+      ],
+      "quizAnswer": "Je me lève tout de suite, car le judaïsme interdit de se retenir et de faire souffrir son corps."
     },
     {
-      "id": "s3-kp-003",
-      "title": "Retenir des gaz et Téfilines",
-      "rule": "3. Cependant, celui qui s'abstient de lâcher des gaz ne transgresse pas l'interdit de \"Ne rendez pas vos âmes abominables\". Il est donc permis de se retenir de lâcher des gaz en présence d'autres personnes, lorsque cela lui causerait de la honte ou de la gêne aux autres. De même, il faut faire attention lors de la mise des Téfilines [et lorsqu'on les porte] à ne pas lâcher de gaz. S'il ne peut se retenir et est obligé de le faire, il déplacera légèrement les Téfilines pour les détacher de leur emplacement, puis les remettra. [Ibid. p. 255].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "3. Cependant, celui qui s'abstient de lâcher des gaz ne transgresse pas l'interdit de \"Ne rendez pas vos âmes abominables\". Il est donc permis de se retenir de lâcher des gaz en présence d'autres personnes, lorsque cela lui causerait de la honte ou de la gêne aux autres. De même, il faut faire attention lors de la mise des Téfilines [et lorsqu'on les porte] à ne pas lâcher de gaz. S'il ne peut se retenir et est obligé de le faire, il déplacera légèrement les Téfilines pour les détacher de leur emplacement, puis les remettra. [Ibid. p. 255].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "3"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-003",
+      "title": "Vaincre la paresse",
+      "rule": "Même s'il fait très froid en plein milieu de la nuit, ou que l'on est bien au chaud sous la couette, si le corps réclame d'aller aux toilettes, on ne doit pas céder à la paresse. On se lève, on se soulage, et on retourne dormir sereinement !",
       "sources": [
         {
           "siman": 3,
-          "seif": "3"
+          "seif": 1
+        },
+        {
+          "siman": 3,
+          "seif": 2
+        },
+        {
+          "siman": 3,
+          "seif": 6
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 3 : Retenir des gaz et Téfilines",
-        "simple_explanation": "3. Cependant, celui qui s'abstient de lâcher des gaz ne transgresse pas l'interdit de \"Ne rendez pas vos âmes abominables\". Il est donc permis de se retenir de lâcher des gaz en présence d'autres personnes, lorsque cela lui causerait de la honte ou de la gêne aux autres. De même, il faut faire attention lors de la mise des Téfilines [et lorsqu'on les porte] à ne pas lâcher de gaz. S'il ne peut se retenir et est obligé de le faire, il déplacera légèrement les Téfilines pour les détacher de leur emplacement, puis les remettra. [Ibid. p. 255].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-003-flashcard-01",
-            "knowledge_point_id": "s3-kp-003",
-            "source_seif": "3",
-            "title": "Retenir des gaz et Téfilines",
-            "question": "Que présente le סעיף 3 concernant « Retenir des gaz et Téfilines » ?",
-            "answer": "3. Cependant, celui qui s'abstient de lâcher des gaz ne transgresse pas l'interdit de \"Ne rendez pas vos âmes abominables\". Il est donc permis de se retenir de lâcher des gaz en présence d'autres personnes, lorsque cela lui causerait de la honte ou de la gêne aux autres. De même, il faut faire attention lors de la mise des Téfilines [et lorsqu'on les porte] à ne pas lâcher de gaz. S'il ne peut se retenir et est obligé de le faire, il déplacera légèrement les Téfilines pour les détacher de leur emplacement, puis les remettra. [Ibid. p. 255].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "Même s'il fait très froid en plein milieu de la nuit, ou que l'on est bien au chaud sous la couette, si le corps réclame d'aller aux toilettes, on ne doit pas céder à la paresse. On se lève, on se soulage, et on retourne dormir sereinement !"
+      },
+      "quizEyebrow": "Le sens des mots",
+      "quizPrompt": "Que signifie la règle de Bal Teshaktzu ?",
+      "quizOptions": [
+        "C'est l'obligation de prier tous les matins.",
+        "C'est l'interdiction de rendre son corps \"abominable\" en se retenant d'aller aux toilettes."
+      ],
+      "quizAnswer": "C'est l'interdiction de rendre son corps \"abominable\" en se retenant d'aller aux toilettes."
     },
     {
-      "id": "s3-kp-004",
-      "title": "Se moucher sans attendre",
-      "rule": "4. Il ne convient pas de garder les mucosités nasales, car il est écrit : \"un souffle de vie dans ses narines\". [Ibid. p. 256].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "4. Il ne convient pas de garder les mucosités nasales, car il est écrit : \"un souffle de vie dans ses narines\". [Ibid. p. 256].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "4"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-004",
+      "title": "Fermer la porte",
+      "rule": "La pudeur (Tzniout) nous accompagne partout. Même lorsque l'on vit seul ou qu'il fait nuit noire, on prend l'habitude de toujours fermer la porte des toilettes derrière soi. Se respecter soi-même, c'est garder une attitude digne même quand personne ne nous regarde.",
       "sources": [
         {
           "siman": 3,
-          "seif": "4"
+          "seif": 8
+        },
+        {
+          "siman": 3,
+          "seif": 9
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 4 : Se moucher sans attendre",
-        "simple_explanation": "4. Il ne convient pas de garder les mucosités nasales, car il est écrit : \"un souffle de vie dans ses narines\". [Ibid. p. 256].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-004-flashcard-01",
-            "knowledge_point_id": "s3-kp-004",
-            "source_seif": "4",
-            "title": "Se moucher sans attendre",
-            "question": "Que présente le סעיף 4 concernant « Se moucher sans attendre » ?",
-            "answer": "4. Il ne convient pas de garder les mucosités nasales, car il est écrit : \"un souffle de vie dans ses narines\". [Ibid. p. 256].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "La pudeur (Tzniout) nous accompagne partout. Même lorsque l'on vit seul ou qu'il fait nuit noire, on prend l'habitude de toujours fermer la porte des toilettes derrière soi. Se respecter soi-même, c'est garder une attitude digne même quand personne ne nous regarde."
+      },
+      "quizEyebrow": "Le téléphone sonne",
+      "quizPrompt": "Tu es aux toilettes et tu reçois un appel d'un ami pour discuter de la pluie et du beau temps. Que fais-tu ?",
+      "quizOptions": [
+        "Je réponds pour faire passer le temps.",
+        "Je laisse sonner : on ne parle aux toilettes, sauf urgence absolue."
+      ],
+      "quizAnswer": "Je laisse sonner : on ne parle aux toilettes, sauf urgence absolue."
     },
     {
-      "id": "s3-kp-005",
-      "title": "Besoins pendant l'étude ou la prière",
-      "rule": "5. Celui qui se trouve au milieu de l'écoute de la lecture de la Torah, ou pendant qu'il lit la Méguila, ou le Hallel, et qui ressent le besoin de se soulager, terminera le passage dont il s'occupe et ira ensuite se soulager. Même s'il ne peut pas se retenir pendant la durée de la marche d'une Parsa [c'est-à-dire une heure et douze minutes], il n'a pas non plus besoin de s'interrompre, tant qu'il ne transgresse pas \"Ne rendez pas vos âmes abominables\", c'est-à-dire qu'il n'est pas pressé de se soulager. De même, s'il a besoin de se soulager pendant qu'il donne un cours au public, ou enseigne la Torah à des élèves, et craint que leur étude ne soit annulée à cause de cela, il n'a pas besoin d'être rigoureux et de sortir immédiatement. Toutefois, s'il étudiait la Torah et avait besoin de se soulager, s'il sait qu'il ne peut pas se retenir jusqu'à une heure et douze minutes, il est plus correct qu'il s'interrompe et sorte immédiatement. Mais s'il peut se retenir le temps de la marche d'une Parsa, ou même s'il doute de pouvoir se retenir une heure et douze minutes, il est autorisé à patienter jusqu'à la fin de son étude avant de sortir se soulager. [Yalkout Yossef sur les lois du lever matinal, édition 5764, p. 256. Chéérit Yossef tome 1 p. 35. Yalkout Yossef sur les lois de la lecture de la Torah, suppléments].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "5. Celui qui se trouve au milieu de l'écoute de la lecture de la Torah, ou pendant qu'il lit la Méguila, ou le Hallel, et qui ressent le besoin de se soulager, terminera le passage dont il s'occupe et ira ensuite se soulager. Même s'il ne peut pas se retenir pendant la durée de la marche d'une Parsa [c'est-à-dire une heure et douze minutes], il n'a pas non plus besoin de s'interrompre, tant qu'il ne transgresse pas \"Ne rendez pas vos âmes abominables\", c'est-à-dire qu'il n'est pas pressé de se soulager. De même, s'il a besoin de se soulager pendant qu'il donne un cours au public, ou enseigne la Torah à des élèves, et craint que leur étude ne soit annulée à cause de cela, il n'a pas besoin d'être rigoureux et de sortir immédiatement. Toutefois, s'il étudiait la Torah et avait besoin de se soulager, s'il sait qu'il ne peut pas se retenir jusqu'à une heure et douze minutes, il est plus correct qu'il s'interrompe et sorte immédiatement. Mais s'il peut se retenir le temps de la marche d'une Parsa, ou même s'il doute de pouvoir se retenir une heure et douze minutes, il est autorisé à patienter jusqu'à la fin de son étude avant de sortir se soulager. [Yalkout Yossef sur les lois du lever matinal, édition 5764, p. 256. Chéérit Yossef tome 1 p. 35. Yalkout Yossef sur les lois de la lecture de la Torah, suppléments].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "5"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-005",
+      "title": "Le silence est d'or",
+      "rule": "Les toilettes ne sont pas un salon de discussion ! La règle est de ne jamais y parler. On évite de discuter avec quelqu'un resté dans le couloir et on ne répond pas au téléphone (sauf en cas d'urgence absolue, bien sûr). Ce silence marque le respect de notre intimité.",
       "sources": [
         {
           "siman": 3,
-          "seif": "5"
+          "seif": 8
+        },
+        {
+          "siman": 3,
+          "seif": 9
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 5 : Besoins pendant l'étude ou la prière",
-        "simple_explanation": "5. Celui qui se trouve au milieu de l'écoute de la lecture de la Torah, ou pendant qu'il lit la Méguila, ou le Hallel, et qui ressent le besoin de se soulager, terminera le passage dont il s'occupe et ira ensuite se soulager. Même s'il ne peut pas se retenir pendant la durée de la marche d'une Parsa [c'est-à-dire une heure et douze minutes], il n'a pas non plus besoin de s'interrompre, tant qu'il ne transgresse pas \"Ne rendez pas vos âmes abominables\", c'est-à-dire qu'il n'est pas pressé de se soulager. De même, s'il a besoin de se soulager pendant qu'il donne un cours au public, ou enseigne la Torah à des élèves, et craint que leur étude ne soit annulée à cause de cela, il n'a pas besoin d'être rigoureux et de sortir immédiatement. Toutefois, s'il étudiait la Torah et avait besoin de se soulager, s'il sait qu'il ne peut pas se retenir jusqu'à une heure et douze minutes, il est plus correct qu'il s'interrompe et sorte immédiatement. Mais s'il peut se retenir le temps de la marche d'une Parsa, ou même s'il doute de pouvoir se retenir une heure et douze minutes, il est autorisé à patienter jusqu'à la fin de son étude avant de sortir se soulager. [Yalkout Yossef sur les lois du lever matinal, édition 5764, p. 256. Chéérit Yossef tome 1 p. 35. Yalkout Yossef sur les lois de la lecture de la Torah, suppléments].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-005-flashcard-01",
-            "knowledge_point_id": "s3-kp-005",
-            "source_seif": "5",
-            "title": "Besoins pendant l'étude ou la prière",
-            "question": "Que présente le סעיף 5 concernant « Besoins pendant l'étude ou la prière » ?",
-            "answer": "5. Celui qui se trouve au milieu de l'écoute de la lecture de la Torah, ou pendant qu'il lit la Méguila, ou le Hallel, et qui ressent le besoin de se soulager, terminera le passage dont il s'occupe et ira ensuite se soulager. Même s'il ne peut pas se retenir pendant la durée de la marche d'une Parsa [c'est-à-dire une heure et douze minutes], il n'a pas non plus besoin de s'interrompre, tant qu'il ne transgresse pas \"Ne rendez pas vos âmes abominables\", c'est-à-dire qu'il n'est pas pressé de se soulager. De même, s'il a besoin de se soulager pendant qu'il donne un cours au public, ou enseigne la Torah à des élèves, et craint que leur étude ne soit annulée à cause de cela, il n'a pas besoin d'être rigoureux et de sortir immédiatement. Toutefois, s'il étudiait la Torah et avait besoin de se soulager, s'il sait qu'il ne peut pas se retenir jusqu'à une heure et douze minutes, il est plus correct qu'il s'interrompe et sorte immédiatement. Mais s'il peut se retenir le temps de la marche d'une Parsa, ou même s'il doute de pouvoir se retenir une heure et douze minutes, il est autorisé à patienter jusqu'à la fin de son étude avant de sortir se soulager. [Yalkout Yossef sur les lois du lever matinal, édition 5764, p. 256. Chéérit Yossef tome 1 p. 35. Yalkout Yossef sur les lois de la lecture de la Torah, suppléments].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "Les toilettes ne sont pas un salon de discussion ! La règle est de ne jamais y parler. On évite de discuter avec quelqu'un resté dans le couloir et on ne répond pas au téléphone (sauf en cas d'urgence absolue, bien sûr). Ce silence marque le respect de notre intimité."
+      },
+      "quizEyebrow": "Vrai ou Faux ?",
+      "quizPrompt": "\"Si je vis totalement seul chez moi, je n'ai pas besoin de fermer la porte des toilettes.\"",
+      "quizOptions": [
+        "Vrai",
+        "Faux (La pudeur s'applique même quand on est seul !)."
+      ],
+      "quizAnswer": "Faux (La pudeur s'applique même quand on est seul !)."
     },
     {
-      "id": "s3-kp-006",
-      "title": "Précautions physiques aux toilettes",
-      "rule": "6. On ne s'assiéra pas précipitamment ni violemment, et on ne se forcera pas à pousser outre mesure. On ne se soulagera pas debout, et on ne se hâtera pas de sortir des toilettes tant qu'il n'est pas certain de ne plus en avoir besoin. [Chéérit Yossef tome 1 p. 35. Yalkout Yossef lois du lever matinal p. 258].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "6. On ne s'assiéra pas précipitamment ni violemment, et on ne se forcera pas à pousser outre mesure. On ne se soulagera pas debout, et on ne se hâtera pas de sortir des toilettes tant qu'il n'est pas certain de ne plus en avoir besoin. [Chéérit Yossef tome 1 p. 35. Yalkout Yossef lois du lever matinal p. 258].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "6"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-006",
+      "title": "Se découvrir avec mesure",
+      "rule": "Même dans cet espace privé, la loi juive nous conseille de ne découvrir nos vêtements que pour le strict nécessaire afin de ne pas les salir, et de se rhabiller dès que possible. Le message est simple : notre corps est précieux, on ne l'expose pas sans raison.",
       "sources": [
         {
           "siman": 3,
-          "seif": "6"
+          "seif": 8
+        },
+        {
+          "siman": 3,
+          "seif": 9
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 6 : Précautions physiques aux toilettes",
-        "simple_explanation": "6. On ne s'assiéra pas précipitamment ni violemment, et on ne se forcera pas à pousser outre mesure. On ne se soulagera pas debout, et on ne se hâtera pas de sortir des toilettes tant qu'il n'est pas certain de ne plus en avoir besoin. [Chéérit Yossef tome 1 p. 35. Yalkout Yossef lois du lever matinal p. 258].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-006-flashcard-01",
-            "knowledge_point_id": "s3-kp-006",
-            "source_seif": "6",
-            "title": "Précautions physiques aux toilettes",
-            "question": "Que présente le סעיף 6 concernant « Précautions physiques aux toilettes » ?",
-            "answer": "6. On ne s'assiéra pas précipitamment ni violemment, et on ne se forcera pas à pousser outre mesure. On ne se soulagera pas debout, et on ne se hâtera pas de sortir des toilettes tant qu'il n'est pas certain de ne plus en avoir besoin. [Chéérit Yossef tome 1 p. 35. Yalkout Yossef lois du lever matinal p. 258].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "Même dans cet espace privé, la loi juive nous conseille de ne découvrir nos vêtements que pour le strict nécessaire afin de ne pas les salir, et de se rhabiller dès que possible. Le message est simple : notre corps est précieux, on ne l'expose pas sans raison."
+      },
+      "quizEyebrow": "L'attitude juste",
+      "quizPrompt": "Pourquoi la religion demande-t-elle le silence et la discrétion dans cet endroit ?",
+      "quizOptions": [
+        "Pour nous apprendre à respecter notre intimité et garder une attitude digne partout.",
+        "Parce que le bruit fait fuir les ondes positives."
+      ],
+      "quizAnswer": "Pour nous apprendre à respecter notre intimité et garder une attitude digne partout."
     },
     {
-      "id": "s3-kp-007",
-      "title": "La formule avant d'entrer aux toilettes",
-      "rule": "7. À l'époque de nos maîtres les Sages du Talmud, il était de coutume de dire avant d'entrer aux toilettes : \"Honorez-vous, honorables, etc.\". De nos jours, il est préférable de ne pas le dire, car Maran l'auteur du Choulhan Aroukh a écrit que cela relève de la prétention. [Cependant, selon le Arizal, on peut encore le dire aujourd'hui, car par la récitation de \"Honorez-vous, honorables\", l'homme est préservé de penser à des paroles de Torah aux toilettes]. Quoi qu'il en soit, à Yom Kippour, où nous sommes semblables aux anges, il est permis de dire \"Honorez-vous, honorables\" avant d'entrer aux toilettes. [Ibid. p. 258. Et Chéérit Yossef 1 p. 26].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "7. À l'époque de nos maîtres les Sages du Talmud, il était de coutume de dire avant d'entrer aux toilettes : \"Honorez-vous, honorables, etc.\". De nos jours, il est préférable de ne pas le dire, car Maran l'auteur du Choulhan Aroukh a écrit que cela relève de la prétention. [Cependant, selon le Arizal, on peut encore le dire aujourd'hui, car par la récitation de \"Honorez-vous, honorables\", l'homme est préservé de penser à des paroles de Torah aux toilettes]. Quoi qu'il en soit, à Yom Kippour, où nous sommes semblables aux anges, il est permis de dire \"Honorez-vous, honorables\" avant d'entrer aux toilettes. [Ibid. p. 258. Et Chéérit Yossef 1 p. 26].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "7"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-007",
+      "title": "La séparation du sacré et du profane",
+      "rule": "Le judaïsme accorde une importance capitale à la séparation entre ce qui est \"pur\" (le sacré, la Torah, la prière) et ce qui est \"impur\" (la saleté, les déchets). C'est pourquoi il est strictement interdit de prononcer des mots de Torah, ou même d'y penser, pendant que l'on se trouve aux toilettes.",
       "sources": [
         {
           "siman": 3,
-          "seif": "7"
+          "seif": 10
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 7 : La formule avant d'entrer aux toilettes",
-        "simple_explanation": "7. À l'époque de nos maîtres les Sages du Talmud, il était de coutume de dire avant d'entrer aux toilettes : \"Honorez-vous, honorables, etc.\". De nos jours, il est préférable de ne pas le dire, car Maran l'auteur du Choulhan Aroukh a écrit que cela relève de la prétention. [Cependant, selon le Arizal, on peut encore le dire aujourd'hui, car par la récitation de \"Honorez-vous, honorables\", l'homme est préservé de penser à des paroles de Torah aux toilettes]. Quoi qu'il en soit, à Yom Kippour, où nous sommes semblables aux anges, il est permis de dire \"Honorez-vous, honorables\" avant d'entrer aux toilettes. [Ibid. p. 258. Et Chéérit Yossef 1 p. 26].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-007-flashcard-01",
-            "knowledge_point_id": "s3-kp-007",
-            "source_seif": "7",
-            "title": "La formule avant d'entrer aux toilettes",
-            "question": "Que présente le סעיף 7 concernant « La formule avant d'entrer aux toilettes » ?",
-            "answer": "7. À l'époque de nos maîtres les Sages du Talmud, il était de coutume de dire avant d'entrer aux toilettes : \"Honorez-vous, honorables, etc.\". De nos jours, il est préférable de ne pas le dire, car Maran l'auteur du Choulhan Aroukh a écrit que cela relève de la prétention. [Cependant, selon le Arizal, on peut encore le dire aujourd'hui, car par la récitation de \"Honorez-vous, honorables\", l'homme est préservé de penser à des paroles de Torah aux toilettes]. Quoi qu'il en soit, à Yom Kippour, où nous sommes semblables aux anges, il est permis de dire \"Honorez-vous, honorables\" avant d'entrer aux toilettes. [Ibid. p. 258. Et Chéérit Yossef 1 p. 26].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "Le judaïsme accorde une importance capitale à la séparation entre ce qui est \"pur\" (le sacré, la Torah, la prière) et ce qui est \"impur\" (la saleté, les déchets). C'est pourquoi il est strictement interdit de prononcer des mots de Torah, ou même d'y penser, pendant que l'on se trouve aux toilettes."
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Tu es aux toilettes et tu te surprends à réfléchir à un passage de la Torah ou à Dieu. Que fais-tu ?",
+      "quizOptions": [
+        "C'est très bien, il faut penser à Dieu partout.",
+        "Je change de pensée et je réfléchis plutôt à mes factures ou à mes courses !"
+      ],
+      "quizAnswer": "Je change de pensée et je réfléchis plutôt à mes factures ou à mes courses !"
     },
     {
-      "id": "s3-kp-008",
-      "title": "Modestie requise dans les toilettes",
-      "rule": "8. Celui qui va se soulager doit se comporter avec pudeur dans les toilettes, et limitera le dévoilement de son corps uniquement à ce qui lui est indispensable pour ne pas salir ses vêtements. Bien que la Guemara précise de ne pas se découvrir de plus d'un Téfah (palme) à l'arrière et de deux Téphahim à l'avant, de nos jours, puisque nos toilettes sont équipées de cloisons et d'une porte fermée, il n'est pas nécessaire d'être pointilleux sur cette mesure. Toutefois, on ne dévoilera que le strict nécessaire. On veillera à se comporter pudiquement même la nuit, et on fermera la porte même dans l'obscurité, par pudeur. Tout homme doit y prêter attention, et pas seulement les érudits en Torah. On sera également pudique pour uriner. Et même si le fait de chercher un endroit discret l'oblige à se retenir un peu, il ne faut pas craindre l'interdit de \"Ne rendez pas vos âmes abominables\", car la dignité humaine est d'une grande importance. Cependant, s'il y a une mauvaise odeur et qu'il lui est très difficile d'y faire ses besoins sans ouvrir la porte, on peut faire preuve de clémence s'il n'y a personne pour le voir. Il est également bon d'habituer un enfant en âge de comprendre à être pudique aux toilettes et à ne pas y parler. [Ibid. p. 260. Chéérit Yossef tome 1 p. 27].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "8. Celui qui va se soulager doit se comporter avec pudeur dans les toilettes, et limitera le dévoilement de son corps uniquement à ce qui lui est indispensable pour ne pas salir ses vêtements. Bien que la Guemara précise de ne pas se découvrir de plus d'un Téfah (palme) à l'arrière et de deux Téphahim à l'avant, de nos jours, puisque nos toilettes sont équipées de cloisons et d'une porte fermée, il n'est pas nécessaire d'être pointilleux sur cette mesure. Toutefois, on ne dévoilera que le strict nécessaire. On veillera à se comporter pudiquement même la nuit, et on fermera la porte même dans l'obscurité, par pudeur. Tout homme doit y prêter attention, et pas seulement les érudits en Torah. On sera également pudique pour uriner. Et même si le fait de chercher un endroit discret l'oblige à se retenir un peu, il ne faut pas craindre l'interdit de \"Ne rendez pas vos âmes abominables\", car la dignité humaine est d'une grande importance. Cependant, s'il y a une mauvaise odeur et qu'il lui est très difficile d'y faire ses besoins sans ouvrir la porte, on peut faire preuve de clémence s'il n'y a personne pour le voir. Il est également bon d'habituer un enfant en âge de comprendre à être pudique aux toilettes et à ne pas y parler. [Ibid. p. 260. Chéérit Yossef tome 1 p. 27].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "8"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-008",
+      "title": "À quoi penser alors ?",
+      "rule": "Si l'on ne peut pas penser à la religion, que faire ? Les Sages conseillent de profiter de ce moment pour penser à des choses très concrètes : faire ses calculs financiers, penser à sa liste de courses, à son travail ou au programme de la journée. C'est le moment idéal pour penser \"matériel\" !",
       "sources": [
         {
           "siman": 3,
-          "seif": "8"
+          "seif": 10
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 8 : Modestie requise dans les toilettes",
-        "simple_explanation": "8. Celui qui va se soulager doit se comporter avec pudeur dans les toilettes, et limitera le dévoilement de son corps uniquement à ce qui lui est indispensable pour ne pas salir ses vêtements. Bien que la Guemara précise de ne pas se découvrir de plus d'un Téfah (palme) à l'arrière et de deux Téphahim à l'avant, de nos jours, puisque nos toilettes sont équipées de cloisons et d'une porte fermée, il n'est pas nécessaire d'être pointilleux sur cette mesure. Toutefois, on ne dévoilera que le strict nécessaire. On veillera à se comporter pudiquement même la nuit, et on fermera la porte même dans l'obscurité, par pudeur. Tout homme doit y prêter attention, et pas seulement les érudits en Torah. On sera également pudique pour uriner. Et même si le fait de chercher un endroit discret l'oblige à se retenir un peu, il ne faut pas craindre l'interdit de \"Ne rendez pas vos âmes abominables\", car la dignité humaine est d'une grande importance. Cependant, s'il y a une mauvaise odeur et qu'il lui est très difficile d'y faire ses besoins sans ouvrir la porte, on peut faire preuve de clémence s'il n'y a personne pour le voir. Il est également bon d'habituer un enfant en âge de comprendre à être pudique aux toilettes et à ne pas y parler. [Ibid. p. 260. Chéérit Yossef tome 1 p. 27].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-008-flashcard-01",
-            "knowledge_point_id": "s3-kp-008",
-            "source_seif": "8",
-            "title": "Modestie requise dans les toilettes",
-            "question": "Que présente le סעיף 8 concernant « Modestie requise dans les toilettes » ?",
-            "answer": "8. Celui qui va se soulager doit se comporter avec pudeur dans les toilettes, et limitera le dévoilement de son corps uniquement à ce qui lui est indispensable pour ne pas salir ses vêtements. Bien que la Guemara précise de ne pas se découvrir de plus d'un Téfah (palme) à l'arrière et de deux Téphahim à l'avant, de nos jours, puisque nos toilettes sont équipées de cloisons et d'une porte fermée, il n'est pas nécessaire d'être pointilleux sur cette mesure. Toutefois, on ne dévoilera que le strict nécessaire. On veillera à se comporter pudiquement même la nuit, et on fermera la porte même dans l'obscurité, par pudeur. Tout homme doit y prêter attention, et pas seulement les érudits en Torah. On sera également pudique pour uriner. Et même si le fait de chercher un endroit discret l'oblige à se retenir un peu, il ne faut pas craindre l'interdit de \"Ne rendez pas vos âmes abominables\", car la dignité humaine est d'une grande importance. Cependant, s'il y a une mauvaise odeur et qu'il lui est très difficile d'y faire ses besoins sans ouvrir la porte, on peut faire preuve de clémence s'il n'y a personne pour le voir. Il est également bon d'habituer un enfant en âge de comprendre à être pudique aux toilettes et à ne pas y parler. [Ibid. p. 260. Chéérit Yossef tome 1 p. 27].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "Si l'on ne peut pas penser à la religion, que faire ? Les Sages conseillent de profiter de ce moment pour penser à des choses très concrètes : faire ses calculs financiers, penser à sa liste de courses, à son travail ou au programme de la journée. C'est le moment idéal pour penser \"matériel\" !"
+      },
+      "quizEyebrow": "Vrai ou Faux ?",
+      "quizPrompt": "\"Il est permis de lire un magazine de sport ou de décoration aux toilettes pour éviter de penser à la religion.\"",
+      "quizOptions": [
+        "Vrai (Tant qu'il n'y a pas de textes sacrés, c'est permis).",
+        "Faux"
+      ],
+      "quizAnswer": "Vrai (Tant qu'il n'y a pas de textes sacrés, c'est permis)."
     },
     {
-      "id": "s3-kp-009",
-      "title": "Interdiction de parler aux toilettes",
-      "rule": "9. Celui qui se trouve aux toilettes ne doit pas parler avec son ami resté à l'extérieur, ni répondre au téléphone, ni tenir d'autres discussions. Néanmoins, celui qui entend la sonnerie du téléphone et doute qu'il s'agisse d'une affaire impliquant une perte financière, une maladie, ou similaire, il semble que celui qui se montre indulgent pour y répondre a sur qui s'appuyer, mais il devra écourter ses paroles autant que possible. En dehors de cela, il est absolument interdit de parler aux toilettes, même si seuls les membres de la famille sont présents. Si l'on doit parler d'un sujet lié aux toilettes, comme demander de l'eau pour se nettoyer, il est permis de parler avec son ami aux toilettes pour ce besoin. [Yalkout Yossef sur les lois du lever matinal, édition 5764 p. 263. Quant au fait que mon maître et père, dans Yabia Omer tome 1 (Orah Hayim signe 1), n'ait pas cité les paroles de Maran au chapitre 88 paragraphe 2 stipulant qu'il est permis de dire des paroles profanes aux toilettes en langue sainte, c'est parce qu'il s'est appuyé sur les termes du Rambam, qui correspondent à ceux du Choulhan Aroukh, et là-bas il est question de l'usage de la langue sainte aux toilettes].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "9. Celui qui se trouve aux toilettes ne doit pas parler avec son ami resté à l'extérieur, ni répondre au téléphone, ni tenir d'autres discussions. Néanmoins, celui qui entend la sonnerie du téléphone et doute qu'il s'agisse d'une affaire impliquant une perte financière, une maladie, ou similaire, il semble que celui qui se montre indulgent pour y répondre a sur qui s'appuyer, mais il devra écourter ses paroles autant que possible. En dehors de cela, il est absolument interdit de parler aux toilettes, même si seuls les membres de la famille sont présents. Si l'on doit parler d'un sujet lié aux toilettes, comme demander de l'eau pour se nettoyer, il est permis de parler avec son ami aux toilettes pour ce besoin. [Yalkout Yossef sur les lois du lever matinal, édition 5764 p. 263. Quant au fait que mon maître et père, dans Yabia Omer tome 1 (Orah Hayim signe 1), n'ait pas cité les paroles de Maran au chapitre 88 paragraphe 2 stipulant qu'il est permis de dire des paroles profanes aux toilettes en langue sainte, c'est parce qu'il s'est appuyé sur les termes du Rambam, qui correspondent à ceux du Choulhan Aroukh, et là-bas il est question de l'usage de la langue sainte aux toilettes].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "9"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-009",
+      "title": "La lecture aux toilettes",
+      "rule": "Puisqu'on ne peut pas étudier, est-il permis de lire ? Oui ! Vous pouvez tout à fait lire un journal, un magazine ou un article sur votre téléphone, tant qu'il ne contient aucun texte sacré ou religieux. Cela aide l'esprit à se concentrer sur des sujets profanes.",
       "sources": [
         {
           "siman": 3,
-          "seif": "9"
+          "seif": 10
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 9 : Interdiction de parler aux toilettes",
-        "simple_explanation": "9. Celui qui se trouve aux toilettes ne doit pas parler avec son ami resté à l'extérieur, ni répondre au téléphone, ni tenir d'autres discussions. Néanmoins, celui qui entend la sonnerie du téléphone et doute qu'il s'agisse d'une affaire impliquant une perte financière, une maladie, ou similaire, il semble que celui qui se montre indulgent pour y répondre a sur qui s'appuyer, mais il devra écourter ses paroles autant que possible. En dehors de cela, il est absolument interdit de parler aux toilettes, même si seuls les membres de la famille sont présents. Si l'on doit parler d'un sujet lié aux toilettes, comme demander de l'eau pour se nettoyer, il est permis de parler avec son ami aux toilettes pour ce besoin. [Yalkout Yossef sur les lois du lever matinal, édition 5764 p. 263. Quant au fait que mon maître et père, dans Yabia Omer tome 1 (Orah Hayim signe 1), n'ait pas cité les paroles de Maran au chapitre 88 paragraphe 2 stipulant qu'il est permis de dire des paroles profanes aux toilettes en langue sainte, c'est parce qu'il s'est appuyé sur les termes du Rambam, qui correspondent à ceux du Choulhan Aroukh, et là-bas il est question de l'usage de la langue sainte aux toilettes].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-009-flashcard-01",
-            "knowledge_point_id": "s3-kp-009",
-            "source_seif": "9",
-            "title": "Interdiction de parler aux toilettes",
-            "question": "Que présente le סעיף 9 concernant « Interdiction de parler aux toilettes » ?",
-            "answer": "9. Celui qui se trouve aux toilettes ne doit pas parler avec son ami resté à l'extérieur, ni répondre au téléphone, ni tenir d'autres discussions. Néanmoins, celui qui entend la sonnerie du téléphone et doute qu'il s'agisse d'une affaire impliquant une perte financière, une maladie, ou similaire, il semble que celui qui se montre indulgent pour y répondre a sur qui s'appuyer, mais il devra écourter ses paroles autant que possible. En dehors de cela, il est absolument interdit de parler aux toilettes, même si seuls les membres de la famille sont présents. Si l'on doit parler d'un sujet lié aux toilettes, comme demander de l'eau pour se nettoyer, il est permis de parler avec son ami aux toilettes pour ce besoin. [Yalkout Yossef sur les lois du lever matinal, édition 5764 p. 263. Quant au fait que mon maître et père, dans Yabia Omer tome 1 (Orah Hayim signe 1), n'ait pas cité les paroles de Maran au chapitre 88 paragraphe 2 stipulant qu'il est permis de dire des paroles profanes aux toilettes en langue sainte, c'est parce qu'il s'est appuyé sur les termes du Rambam, qui correspondent à ceux du Choulhan Aroukh, et là-bas il est question de l'usage de la langue sainte aux toilettes].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "Puisqu'on ne peut pas étudier, est-il permis de lire ? Oui ! Vous pouvez tout à fait lire un journal, un magazine ou un article sur votre téléphone, tant qu'il ne contient aucun texte sacré ou religieux. Cela aide l'esprit à se concentrer sur des sujets profanes."
+      },
+      "quizEyebrow": "La grande raison",
+      "quizPrompt": "Pourquoi est-il interdit de penser à la prière aux toilettes ?",
+      "quizOptions": [
+        "Parce que ça donne mal à la tête.",
+        "Pour marquer une séparation claire entre ce qui est saint (la prière) et ce qui est impur."
+      ],
+      "quizAnswer": "Pour marquer une séparation claire entre ce qui est saint (la prière) et ce qui est impur."
     },
     {
-      "id": "s3-kp-010",
-      "title": "Pensées de Torah aux toilettes",
-      "rule": "10. Il est dit dans la Torah : \"Et ton camp sera saint\". Par conséquent, il est interdit de penser à des paroles de Torah aux toilettes, et à plus forte raison est-il interdit d'y prononcer des paroles de Torah ou de dire des choses saintes, même dans une langue profane. [Et de toute façon, même des futilités, il faut éviter d'en parler aux toilettes]. C'est pourquoi, lorsqu'il est aux toilettes, il est bon qu'il pense à ses affaires et à ses comptes, afin de ne pas en venir à penser à des paroles de Torah. De même, il peut y lire un journal religieux qui ne contient aucune parole de Torah. [Bien que l'écriture du journal soit en caractères Achouri (hébreu carré), selon la stricte loi, il est permis de l'introduire aux toilettes afin d'éviter toute pensée de Torah]. Le Chabbat, puisqu'il y a une Mitsva de ne pas penser à ses affaires [bien que cela ne soit pas une interdiction stricte], il pensera à des choses merveilleuses qu'il a vues et entendues. [Yalkout Yossef sur le lever matinal p. 265].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "10. Il est dit dans la Torah : \"Et ton camp sera saint\". Par conséquent, il est interdit de penser à des paroles de Torah aux toilettes, et à plus forte raison est-il interdit d'y prononcer des paroles de Torah ou de dire des choses saintes, même dans une langue profane. [Et de toute façon, même des futilités, il faut éviter d'en parler aux toilettes]. C'est pourquoi, lorsqu'il est aux toilettes, il est bon qu'il pense à ses affaires et à ses comptes, afin de ne pas en venir à penser à des paroles de Torah. De même, il peut y lire un journal religieux qui ne contient aucune parole de Torah. [Bien que l'écriture du journal soit en caractères Achouri (hébreu carré), selon la stricte loi, il est permis de l'introduire aux toilettes afin d'éviter toute pensée de Torah]. Le Chabbat, puisqu'il y a une Mitsva de ne pas penser à ses affaires [bien que cela ne soit pas une interdiction stricte], il pensera à des choses merveilleuses qu'il a vues et entendues. [Yalkout Yossef sur le lever matinal p. 265].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "10"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-010",
+      "title": "Vider ses poches",
+      "rule": "Puisque les toilettes sont considérées comme un endroit inapproprié pour le sacré, on ne doit pas y faire entrer de textes saints (comme un livre de prières ou un texte contenant le nom de Dieu). Avant d'entrer, on prend l'habitude de vérifier ses poches et de laisser son livre à l'extérieur.",
       "sources": [
         {
           "siman": 3,
-          "seif": "10"
+          "seif": 13
+        },
+        {
+          "siman": 3,
+          "seif": 14
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 10 : Pensées de Torah aux toilettes",
-        "simple_explanation": "10. Il est dit dans la Torah : \"Et ton camp sera saint\". Par conséquent, il est interdit de penser à des paroles de Torah aux toilettes, et à plus forte raison est-il interdit d'y prononcer des paroles de Torah ou de dire des choses saintes, même dans une langue profane. [Et de toute façon, même des futilités, il faut éviter d'en parler aux toilettes]. C'est pourquoi, lorsqu'il est aux toilettes, il est bon qu'il pense à ses affaires et à ses comptes, afin de ne pas en venir à penser à des paroles de Torah. De même, il peut y lire un journal religieux qui ne contient aucune parole de Torah. [Bien que l'écriture du journal soit en caractères Achouri (hébreu carré), selon la stricte loi, il est permis de l'introduire aux toilettes afin d'éviter toute pensée de Torah]. Le Chabbat, puisqu'il y a une Mitsva de ne pas penser à ses affaires [bien que cela ne soit pas une interdiction stricte], il pensera à des choses merveilleuses qu'il a vues et entendues. [Yalkout Yossef sur le lever matinal p. 265].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-010-flashcard-01",
-            "knowledge_point_id": "s3-kp-010",
-            "source_seif": "10",
-            "title": "Pensées de Torah aux toilettes",
-            "question": "Que présente le סעיף 10 concernant « Pensées de Torah aux toilettes » ?",
-            "answer": "10. Il est dit dans la Torah : \"Et ton camp sera saint\". Par conséquent, il est interdit de penser à des paroles de Torah aux toilettes, et à plus forte raison est-il interdit d'y prononcer des paroles de Torah ou de dire des choses saintes, même dans une langue profane. [Et de toute façon, même des futilités, il faut éviter d'en parler aux toilettes]. C'est pourquoi, lorsqu'il est aux toilettes, il est bon qu'il pense à ses affaires et à ses comptes, afin de ne pas en venir à penser à des paroles de Torah. De même, il peut y lire un journal religieux qui ne contient aucune parole de Torah. [Bien que l'écriture du journal soit en caractères Achouri (hébreu carré), selon la stricte loi, il est permis de l'introduire aux toilettes afin d'éviter toute pensée de Torah]. Le Chabbat, puisqu'il y a une Mitsva de ne pas penser à ses affaires [bien que cela ne soit pas une interdiction stricte], il pensera à des choses merveilleuses qu'il a vues et entendues. [Yalkout Yossef sur le lever matinal p. 265].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "Puisque les toilettes sont considérées comme un endroit inapproprié pour le sacré, on ne doit pas y faire entrer de textes saints (comme un livre de prières ou un texte contenant le nom de Dieu). Avant d'entrer, on prend l'habitude de vérifier ses poches et de laisser son livre à l'extérieur."
+      },
+      "quizEyebrow": "Le bon réflexe",
+      "quizPrompt": "Tu t'apprêtes à entrer aux toilettes chez toi, mais tu as un petit livre de psaumes (prières) dans la poche. Que fais-tu ?",
+      "quizOptions": [
+        "Je le pose sur une table à l'extérieur avant d'entrer.",
+        "Je le garde, ce n'est pas grave s'il reste dans la poche."
+      ],
+      "quizAnswer": "Je le pose sur une table à l'extérieur avant d'entrer."
     },
     {
-      "id": "s3-kp-011",
-      "title": "Emplacement des toilettes et sainteté",
-      "rule": "11. Il faut veiller, lorsqu'on construit une nouvelle maison et qu'on y intègre des toilettes, à les éloigner de la pièce où l'on s'assied pour étudier la Torah, afin qu'aucune mauvaise odeur ne les atteigne, et aussi afin de ne pas entendre des paroles de Torah pendant que l'on se trouve aux toilettes. À plus forte raison lorsqu'on construit une synagogue ou une maison d'étude, il faut éloigner la structure des toilettes de la synagogue, afin que ceux qui s'y trouvent n'entendent pas de choses saintes et n'en viennent à y penser aux toilettes. Cependant, si une telle situation se présente, il est permis d'entrer aux toilettes pour y faire ses besoins, car cela relève de la contrainte (Oness), mais on devra détourner son esprit des choses saintes, par exemple en y faisant des calculs ou autre. On veillera toujours à ce qu'aucune mauvaise odeur ne se répande dans la synagogue, et à plus forte raison pendant les prières. [Yalkout Yossef sur les Lois du lever au matin, 5764, page 266].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "11. Il faut veiller, lorsqu'on construit une nouvelle maison et qu'on y intègre des toilettes, à les éloigner de la pièce où l'on s'assied pour étudier la Torah, afin qu'aucune mauvaise odeur ne les atteigne, et aussi afin de ne pas entendre des paroles de Torah pendant que l'on se trouve aux toilettes. À plus forte raison lorsqu'on construit une synagogue ou une maison d'étude, il faut éloigner la structure des toilettes de la synagogue, afin que ceux qui s'y trouvent n'entendent pas de choses saintes et n'en viennent à y penser aux toilettes. Cependant, si une telle situation se présente, il est permis d'entrer aux toilettes pour y faire ses besoins, car cela relève de la contrainte (Oness), mais on devra détourner son esprit des choses saintes, par exemple en y faisant des calculs ou autre. On veillera toujours à ce qu'aucune mauvaise odeur ne se répande dans la synagogue, et à plus forte raison pendant les prières. [Yalkout Yossef sur les Lois du lever au matin, 5764, page 266].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "11"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-011",
+      "title": "L'exception des lieux publics",
+      "rule": "Le judaïsme est toujours logique. Si vous êtes dans des toilettes publiques (une gare, un aéroport) et que laisser votre livre de prières dehors signifie qu'on va vous le voler, la loi vous autorise exceptionnellement à le garder dans votre poche, bien caché.",
       "sources": [
         {
           "siman": 3,
-          "seif": "11"
+          "seif": 13
+        },
+        {
+          "siman": 3,
+          "seif": 14
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 11 : Emplacement des toilettes et sainteté",
-        "simple_explanation": "11. Il faut veiller, lorsqu'on construit une nouvelle maison et qu'on y intègre des toilettes, à les éloigner de la pièce où l'on s'assied pour étudier la Torah, afin qu'aucune mauvaise odeur ne les atteigne, et aussi afin de ne pas entendre des paroles de Torah pendant que l'on se trouve aux toilettes. À plus forte raison lorsqu'on construit une synagogue ou une maison d'étude, il faut éloigner la structure des toilettes de la synagogue, afin que ceux qui s'y trouvent n'entendent pas de choses saintes et n'en viennent à y penser aux toilettes. Cependant, si une telle situation se présente, il est permis d'entrer aux toilettes pour y faire ses besoins, car cela relève de la contrainte (Oness), mais on devra détourner son esprit des choses saintes, par exemple en y faisant des calculs ou autre. On veillera toujours à ce qu'aucune mauvaise odeur ne se répande dans la synagogue, et à plus forte raison pendant les prières. [Yalkout Yossef sur les Lois du lever au matin, 5764, page 266].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-011-flashcard-01",
-            "knowledge_point_id": "s3-kp-011",
-            "source_seif": "11",
-            "title": "Emplacement des toilettes et sainteté",
-            "question": "Que présente le סעיף 11 concernant « Emplacement des toilettes et sainteté » ?",
-            "answer": "11. Il faut veiller, lorsqu'on construit une nouvelle maison et qu'on y intègre des toilettes, à les éloigner de la pièce où l'on s'assied pour étudier la Torah, afin qu'aucune mauvaise odeur ne les atteigne, et aussi afin de ne pas entendre des paroles de Torah pendant que l'on se trouve aux toilettes. À plus forte raison lorsqu'on construit une synagogue ou une maison d'étude, il faut éloigner la structure des toilettes de la synagogue, afin que ceux qui s'y trouvent n'entendent pas de choses saintes et n'en viennent à y penser aux toilettes. Cependant, si une telle situation se présente, il est permis d'entrer aux toilettes pour y faire ses besoins, car cela relève de la contrainte (Oness), mais on devra détourner son esprit des choses saintes, par exemple en y faisant des calculs ou autre. On veillera toujours à ce qu'aucune mauvaise odeur ne se répande dans la synagogue, et à plus forte raison pendant les prières. [Yalkout Yossef sur les Lois du lever au matin, 5764, page 266].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "Le judaïsme est toujours logique. Si vous êtes dans des toilettes publiques (une gare, un aéroport) et que laisser votre livre de prières dehors signifie qu'on va vous le voler, la loi vous autorise exceptionnellement à le garder dans votre poche, bien caché."
+      },
+      "quizEyebrow": "Vrai ou Faux ?",
+      "quizPrompt": "\"Il est strictement interdit d'entrer aux toilettes avec la photo d'un rabbin sur son téléphone.\"",
+      "quizOptions": [
+        "Vrai",
+        "Faux (Une photo n'a pas de sainteté, c'est donc permis)."
+      ],
+      "quizAnswer": "Faux (Une photo n'a pas de sainteté, c'est donc permis)."
     },
     {
-      "id": "s3-kp-012",
-      "title": "Penser à la Torah pour éviter la faute",
-      "rule": "12. Bien qu'il soit interdit de penser à des paroles de Torah aux toilettes, il est néanmoins permis d'y penser, ainsi que dans les bains publics, afin de se préserver de l'interdit des pensées impures concernant une femme ou autre. En effet, penser à des paroles de Torah dans un endroit sale est une interdiction d'ordre rabbinique, et pour se préserver d'une interdiction plus grave, il est permis de transgresser une interdiction plus légère. [Yalkout Yossef sur les Lois du lever au matin édition 5764, page 269].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "12. Bien qu'il soit interdit de penser à des paroles de Torah aux toilettes, il est néanmoins permis d'y penser, ainsi que dans les bains publics, afin de se préserver de l'interdit des pensées impures concernant une femme ou autre. En effet, penser à des paroles de Torah dans un endroit sale est une interdiction d'ordre rabbinique, et pour se préserver d'une interdiction plus grave, il est permis de transgresser une interdiction plus légère. [Yalkout Yossef sur les Lois du lever au matin édition 5764, page 269].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "12"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-012",
+      "title": "Et les photos ?",
+      "rule": "Peut-on entrer avec une photo d'un grand rabbin dans son portefeuille ou sur l'écran de son téléphone ? Oui, absolument ! Une simple photo ne contient aucune sainteté religieuse et n'est pas un texte sacré. Il faut juste veiller à ne pas la salir.",
       "sources": [
         {
           "siman": 3,
-          "seif": "12"
+          "seif": 13
+        },
+        {
+          "siman": 3,
+          "seif": 14
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 12 : Penser à la Torah pour éviter la faute",
-        "simple_explanation": "12. Bien qu'il soit interdit de penser à des paroles de Torah aux toilettes, il est néanmoins permis d'y penser, ainsi que dans les bains publics, afin de se préserver de l'interdit des pensées impures concernant une femme ou autre. En effet, penser à des paroles de Torah dans un endroit sale est une interdiction d'ordre rabbinique, et pour se préserver d'une interdiction plus grave, il est permis de transgresser une interdiction plus légère. [Yalkout Yossef sur les Lois du lever au matin édition 5764, page 269].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-012-flashcard-01",
-            "knowledge_point_id": "s3-kp-012",
-            "source_seif": "12",
-            "title": "Penser à la Torah pour éviter la faute",
-            "question": "Que présente le סעיף 12 concernant « Penser à la Torah pour éviter la faute » ?",
-            "answer": "12. Bien qu'il soit interdit de penser à des paroles de Torah aux toilettes, il est néanmoins permis d'y penser, ainsi que dans les bains publics, afin de se préserver de l'interdit des pensées impures concernant une femme ou autre. En effet, penser à des paroles de Torah dans un endroit sale est une interdiction d'ordre rabbinique, et pour se préserver d'une interdiction plus grave, il est permis de transgresser une interdiction plus légère. [Yalkout Yossef sur les Lois du lever au matin édition 5764, page 269].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "Peut-on entrer avec une photo d'un grand rabbin dans son portefeuille ou sur l'écran de son téléphone ? Oui, absolument ! Une simple photo ne contient aucune sainteté religieuse et n'est pas un texte sacré. Il faut juste veiller à ne pas la salir."
+      },
+      "quizEyebrow": "Scénario voyage",
+      "quizPrompt": "Tu es dans une gare et tu as peur qu'on te vole ton livre de prières si tu le laisses devant les toilettes. Que dit la loi ?",
+      "quizOptions": [
+        "Exceptionnellement, tu peux le garder caché dans ta poche pour le protéger.",
+        "Tu dois le jeter à la poubelle plutôt que de l'entrer aux toilettes."
+      ],
+      "quizAnswer": "Exceptionnellement, tu peux le garder caché dans ta poche pour le protéger."
     },
     {
-      "id": "s3-kp-013",
-      "title": "Entrer aux toilettes avec des livres saints",
-      "rule": "13. A priori, on ne doit pas entrer aux toilettes avec un petit livre saint dans la poche de son vêtement ; par conséquent, avant d'y entrer, on déposera le livre à l'extérieur. Toutefois, s'il se trouve dans un endroit fréquenté par des non-Juifs et qu'il lui est impossible de laisser le livre à l'extérieur, ou dans tout cas similaire, il lui est permis d'entrer aux toilettes avec le livre dans sa poche. Quoi qu'il en soit, il est permis d'entrer aux toilettes avec la photo d'un Rabbin, car ces images ne possèdent aucune sainteté, bien qu'il ne faille pas les traiter avec mépris. [Pour nous (Séfarades), il est permis de s'asseoir sur un banc où se trouvent des livres saints imprimés par nos imprimeries actuelles, et il n'est pas nécessaire de les redresser. Les Ashkénazes sont rigoureux à ce sujet]. [Yalkout Yossef, Lever au matin...].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "13. A priori, on ne doit pas entrer aux toilettes avec un petit livre saint dans la poche de son vêtement ; par conséquent, avant d'y entrer, on déposera le livre à l'extérieur. Toutefois, s'il se trouve dans un endroit fréquenté par des non-Juifs et qu'il lui est impossible de laisser le livre à l'extérieur, ou dans tout cas similaire, il lui est permis d'entrer aux toilettes avec le livre dans sa poche. Quoi qu'il en soit, il est permis d'entrer aux toilettes avec la photo d'un Rabbin, car ces images ne possèdent aucune sainteté, bien qu'il ne faille pas les traiter avec mépris. [Pour nous (Séfarades), il est permis de s'asseoir sur un banc où se trouvent des livres saints imprimés par nos imprimeries actuelles, et il n'est pas nécessaire de les redresser. Les Ashkénazes sont rigoureux à ce sujet]. [Yalkout Yossef, Lever au matin...].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "13"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-013",
+      "title": "Une hygiène irréprochable",
+      "rule": "Après avoir fait ses besoins, il faut se nettoyer avec un soin extrême. On utilise du papier, et l'idéal (quand c'est possible) est de terminer avec un peu d'eau ou une lingette humide. Pourquoi cette exigence ? Parce que pour pouvoir prononcer des prières ensuite, le corps doit être d'une propreté parfaite.",
       "sources": [
         {
           "siman": 3,
-          "seif": "13"
+          "seif": 18
+        },
+        {
+          "siman": 3,
+          "seif": 19
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 13 : Entrer aux toilettes avec des livres saints",
-        "simple_explanation": "13. A priori, on ne doit pas entrer aux toilettes avec un petit livre saint dans la poche de son vêtement ; par conséquent, avant d'y entrer, on déposera le livre à l'extérieur. Toutefois, s'il se trouve dans un endroit fréquenté par des non-Juifs et qu'il lui est impossible de laisser le livre à l'extérieur, ou dans tout cas similaire, il lui est permis d'entrer aux toilettes avec le livre dans sa poche. Quoi qu'il en soit, il est permis d'entrer aux toilettes avec la photo d'un Rabbin, car ces images ne possèdent aucune sainteté, bien qu'il ne faille pas les traiter avec mépris. [Pour nous (Séfarades), il est permis de s'asseoir sur un banc où se trouvent des livres saints imprimés par nos imprimeries actuelles, et il n'est pas nécessaire de les redresser. Les Ashkénazes sont rigoureux à ce sujet]. [Yalkout Yossef, Lever au matin...].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-013-flashcard-01",
-            "knowledge_point_id": "s3-kp-013",
-            "source_seif": "13",
-            "title": "Entrer aux toilettes avec des livres saints",
-            "question": "Que présente le סעיף 13 concernant « Entrer aux toilettes avec des livres saints » ?",
-            "answer": "13. A priori, on ne doit pas entrer aux toilettes avec un petit livre saint dans la poche de son vêtement ; par conséquent, avant d'y entrer, on déposera le livre à l'extérieur. Toutefois, s'il se trouve dans un endroit fréquenté par des non-Juifs et qu'il lui est impossible de laisser le livre à l'extérieur, ou dans tout cas similaire, il lui est permis d'entrer aux toilettes avec le livre dans sa poche. Quoi qu'il en soit, il est permis d'entrer aux toilettes avec la photo d'un Rabbin, car ces images ne possèdent aucune sainteté, bien qu'il ne faille pas les traiter avec mépris. [Pour nous (Séfarades), il est permis de s'asseoir sur un banc où se trouvent des livres saints imprimés par nos imprimeries actuelles, et il n'est pas nécessaire de les redresser. Les Ashkénazes sont rigoureux à ce sujet]. [Yalkout Yossef, Lever au matin...].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "Après avoir fait ses besoins, il faut se nettoyer avec un soin extrême. On utilise du papier, et l'idéal (quand c'est possible) est de terminer avec un peu d'eau ou une lingette humide. Pourquoi cette exigence ? Parce que pour pouvoir prononcer des prières ensuite, le corps doit être d'une propreté parfaite."
+      },
+      "quizEyebrow": "L'exigence de propreté",
+      "quizPrompt": "Pourquoi le judaïsme exige-t-il de se nettoyer avec un soin extrême aux toilettes ?",
+      "quizOptions": [
+        "Parce que le corps doit être parfaitement propre pour pouvoir prier ou parler à Dieu ensuite.",
+        "Parce que c'est une loi pour faire des économies de papier."
+      ],
+      "quizAnswer": "Parce que le corps doit être parfaitement propre pour pouvoir prier ou parler à Dieu ensuite."
     },
     {
-      "id": "s3-kp-014",
-      "title": "Respect de la sainteté des livres",
-      "rule": "14. Cependant, il faut être très attentif à la sainteté des livres. Celui qui n'y prend pas garde, par exemple en plaçant un pot de chambre pour de jeunes enfants dans la pièce où se trouvent des livres, et qu'une mauvaise odeur se répand dans toute la pièce, il est dit de lui que son corps sera profané devant les créatures, et que \"la parole de l'Éternel il a méprisée\". On a également l'habitude de couvrir les jeunes enfants pour qu'ils ne soient pas nus à la lumière des bougies de Chabbat, par égard pour le respect de la Mitsva (Bizouy Mitsva). Même à une certaine distance, cela est interdit pour cause de mépris de la Mitsva, puisque cette lumière est celle d'une Mitsva. [Yalkout Yossef ibid. page 281].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "14. Cependant, il faut être très attentif à la sainteté des livres. Celui qui n'y prend pas garde, par exemple en plaçant un pot de chambre pour de jeunes enfants dans la pièce où se trouvent des livres, et qu'une mauvaise odeur se répand dans toute la pièce, il est dit de lui que son corps sera profané devant les créatures, et que \"la parole de l'Éternel il a méprisée\". On a également l'habitude de couvrir les jeunes enfants pour qu'ils ne soient pas nus à la lumière des bougies de Chabbat, par égard pour le respect de la Mitsva (Bizouy Mitsva). Même à une certaine distance, cela est interdit pour cause de mépris de la Mitsva, puisque cette lumière est celle d'une Mitsva. [Yalkout Yossef ibid. page 281].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "14"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-014",
+      "title": "L'éducation des enfants",
+      "rule": "L'hygiène s'apprend dès le plus jeune âge. Il est recommandé d'habituer les enfants à se nettoyer correctement. Cependant, la religion est pleine de douceur : même si un enfant n'est pas encore capable de se nettoyer parfaitement seul, on l'encourage quand même à dire ses petites prières sans le braquer.",
       "sources": [
         {
           "siman": 3,
-          "seif": "14"
+          "seif": 18
+        },
+        {
+          "siman": 3,
+          "seif": 19
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 14 : Respect de la sainteté des livres",
-        "simple_explanation": "14. Cependant, il faut être très attentif à la sainteté des livres. Celui qui n'y prend pas garde, par exemple en plaçant un pot de chambre pour de jeunes enfants dans la pièce où se trouvent des livres, et qu'une mauvaise odeur se répand dans toute la pièce, il est dit de lui que son corps sera profané devant les créatures, et que \"la parole de l'Éternel il a méprisée\". On a également l'habitude de couvrir les jeunes enfants pour qu'ils ne soient pas nus à la lumière des bougies de Chabbat, par égard pour le respect de la Mitsva (Bizouy Mitsva). Même à une certaine distance, cela est interdit pour cause de mépris de la Mitsva, puisque cette lumière est celle d'une Mitsva. [Yalkout Yossef ibid. page 281].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-014-flashcard-01",
-            "knowledge_point_id": "s3-kp-014",
-            "source_seif": "14",
-            "title": "Respect de la sainteté des livres",
-            "question": "Que présente le סעיף 14 concernant « Respect de la sainteté des livres » ?",
-            "answer": "14. Cependant, il faut être très attentif à la sainteté des livres. Celui qui n'y prend pas garde, par exemple en plaçant un pot de chambre pour de jeunes enfants dans la pièce où se trouvent des livres, et qu'une mauvaise odeur se répand dans toute la pièce, il est dit de lui que son corps sera profané devant les créatures, et que \"la parole de l'Éternel il a méprisée\". On a également l'habitude de couvrir les jeunes enfants pour qu'ils ne soient pas nus à la lumière des bougies de Chabbat, par égard pour le respect de la Mitsva (Bizouy Mitsva). Même à une certaine distance, cela est interdit pour cause de mépris de la Mitsva, puisque cette lumière est celle d'une Mitsva. [Yalkout Yossef ibid. page 281].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "L'hygiène s'apprend dès le plus jeune âge. Il est recommandé d'habituer les enfants à se nettoyer correctement. Cependant, la religion est pleine de douceur : même si un enfant n'est pas encore capable de se nettoyer parfaitement seul, on l'encourage quand même à dire ses petites prières sans le braquer."
+      },
+      "quizEyebrow": "Vrai ou Faux ?",
+      "quizPrompt": "\"Si un petit enfant ne sait pas encore s'essuyer parfaitement, il n'a plus le droit de réciter de petites prières.\"",
+      "quizOptions": [
+        "Vrai",
+        "Faux (On lui apprend avec patience, mais il peut continuer à faire ses petites prières)."
+      ],
+      "quizAnswer": "Faux (On lui apprend avec patience, mais il peut continuer à faire ses petites prières)."
     },
     {
-      "id": "s3-kp-015",
-      "title": "Interruption de l'étude pour les toilettes",
-      "rule": "15. Celui qui étudie la Torah et se trouve au beau milieu de l'analyse d'une Halakha est tout de même autorisé à entrer aux toilettes bien qu'il s'agisse d'une Halakha non encore tranchée. Cependant, il s'efforcera de détourner son esprit du doute halakhique qui l'occupe, et portera son attention sur d'autres sujets. [Yalkout Yossef sur les Lois du lever au matin édition 5764, Chapitre 3, page 282].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "15. Celui qui étudie la Torah et se trouve au beau milieu de l'analyse d'une Halakha est tout de même autorisé à entrer aux toilettes bien qu'il s'agisse d'une Halakha non encore tranchée. Cependant, il s'efforcera de détourner son esprit du doute halakhique qui l'occupe, et portera son attention sur d'autres sujets. [Yalkout Yossef sur les Lois du lever au matin édition 5764, Chapitre 3, page 282].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "15"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-015",
+      "title": "Le respect des autres",
+      "rule": "Garder des toilettes propres et sans mauvaises odeurs est aussi une question de respect pour les autres membres de la famille ou de la communauté. D'ailleurs, il est interdit de faire sa prière s'il y a une mauvaise odeur dans la pièce. La propreté est la condition de la spiritualité !",
       "sources": [
         {
           "siman": 3,
-          "seif": "15"
+          "seif": 18
+        },
+        {
+          "siman": 3,
+          "seif": 19
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 15 : Interruption de l'étude pour les toilettes",
-        "simple_explanation": "15. Celui qui étudie la Torah et se trouve au beau milieu de l'analyse d'une Halakha est tout de même autorisé à entrer aux toilettes bien qu'il s'agisse d'une Halakha non encore tranchée. Cependant, il s'efforcera de détourner son esprit du doute halakhique qui l'occupe, et portera son attention sur d'autres sujets. [Yalkout Yossef sur les Lois du lever au matin édition 5764, Chapitre 3, page 282].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-015-flashcard-01",
-            "knowledge_point_id": "s3-kp-015",
-            "source_seif": "15",
-            "title": "Interruption de l'étude pour les toilettes",
-            "question": "Que présente le סעיף 15 concernant « Interruption de l'étude pour les toilettes » ?",
-            "answer": "15. Celui qui étudie la Torah et se trouve au beau milieu de l'analyse d'une Halakha est tout de même autorisé à entrer aux toilettes bien qu'il s'agisse d'une Halakha non encore tranchée. Cependant, il s'efforcera de détourner son esprit du doute halakhique qui l'occupe, et portera son attention sur d'autres sujets. [Yalkout Yossef sur les Lois du lever au matin édition 5764, Chapitre 3, page 282].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "Garder des toilettes propres et sans mauvaises odeurs est aussi une question de respect pour les autres membres de la famille ou de la communauté. D'ailleurs, il est interdit de faire sa prière s'il y a une mauvaise odeur dans la pièce. La propreté est la condition de la spiritualité !"
+      },
+      "quizEyebrow": "La règle des odeurs",
+      "quizPrompt": "Tu es dans ta chambre et tu veux prier, mais une très mauvaise odeur vient des toilettes d'à côté. Que fais-tu ?",
+      "quizOptions": [
+        "Je prie en me bouchant le nez.",
+        "Je m'éloigne ou j'aère la pièce, car on ne prie pas s'il y a une mauvaise odeur."
+      ],
+      "quizAnswer": "Je m'éloigne ou j'aère la pièce, car on ne prie pas s'il y a une mauvaise odeur."
     },
     {
-      "id": "s3-kp-016",
-      "title": "Livres de grammaire et poésie aux toilettes",
-      "rule": "16. On ne doit pas lire de livres de grammaire composés par des grands de la Torah, rédigés en langue sainte (hébreu), aux toilettes, car la méthode utilisée pour atteindre une connaissance précise passe par l'étude de versets, et la personne en viendrait à penser aux Textes bibliques. De même, il est interdit d'écrire aux toilettes des poèmes en rimes dans la langue du Talmud, car il en viendra certainement à penser un peu aux paroles du Talmud. [Yalkout Yossef sur les Lois du lever au matin, édition 5764, Chap. 3, note 16, page 282].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "16. On ne doit pas lire de livres de grammaire composés par des grands de la Torah, rédigés en langue sainte (hébreu), aux toilettes, car la méthode utilisée pour atteindre une connaissance précise passe par l'étude de versets, et la personne en viendrait à penser aux Textes bibliques. De même, il est interdit d'écrire aux toilettes des poèmes en rimes dans la langue du Talmud, car il en viendra certainement à penser un peu aux paroles du Talmud. [Yalkout Yossef sur les Lois du lever au matin, édition 5764, Chap. 3, note 16, page 282].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "16"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-016",
+      "title": "Respecter la nourriture",
+      "rule": "Manger est une action qui entretient la vie, tandis que les toilettes sont le lieu où l'on rejette les déchets. Pour marquer cette différence, il est strictement interdit d'introduire de la nourriture ou des boissons (une pomme, un café, un sandwich) dans les toilettes, même si on ne les mange pas à l'intérieur !",
       "sources": [
         {
           "siman": 3,
-          "seif": "16"
+          "seif": 23
+        },
+        {
+          "siman": 3,
+          "seif": 24
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 16 : Livres de grammaire et poésie aux toilettes",
-        "simple_explanation": "16. On ne doit pas lire de livres de grammaire composés par des grands de la Torah, rédigés en langue sainte (hébreu), aux toilettes, car la méthode utilisée pour atteindre une connaissance précise passe par l'étude de versets, et la personne en viendrait à penser aux Textes bibliques. De même, il est interdit d'écrire aux toilettes des poèmes en rimes dans la langue du Talmud, car il en viendra certainement à penser un peu aux paroles du Talmud. [Yalkout Yossef sur les Lois du lever au matin, édition 5764, Chap. 3, note 16, page 282].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-016-flashcard-01",
-            "knowledge_point_id": "s3-kp-016",
-            "source_seif": "16",
-            "title": "Livres de grammaire et poésie aux toilettes",
-            "question": "Que présente le סעיף 16 concernant « Livres de grammaire et poésie aux toilettes » ?",
-            "answer": "16. On ne doit pas lire de livres de grammaire composés par des grands de la Torah, rédigés en langue sainte (hébreu), aux toilettes, car la méthode utilisée pour atteindre une connaissance précise passe par l'étude de versets, et la personne en viendrait à penser aux Textes bibliques. De même, il est interdit d'écrire aux toilettes des poèmes en rimes dans la langue du Talmud, car il en viendra certainement à penser un peu aux paroles du Talmud. [Yalkout Yossef sur les Lois du lever au matin, édition 5764, Chap. 3, note 16, page 282].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "Manger est une action qui entretient la vie, tandis que les toilettes sont le lieu où l'on rejette les déchets. Pour marquer cette différence, il est strictement interdit d'introduire de la nourriture ou des boissons (une pomme, un café, un sandwich) dans les toilettes, même si on ne les mange pas à l'intérieur !"
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Tu vas aux toilettes dans un café, mais tu as ton gobelet de café à la main. Que fais-tu ?",
+      "quizOptions": [
+        "Je le garde avec moi, ce n'est qu'une boisson.",
+        "Je le confie à un ami ou je le pose dehors : on n'entre ni nourriture ni boisson aux toilettes."
+      ],
+      "quizAnswer": "Je le confie à un ami ou je le pose dehors : on n'entre ni nourriture ni boisson aux toilettes."
     },
     {
-      "id": "s3-kp-017",
-      "title": "Pensées relatives aux Mitsvot aux toilettes",
-      "rule": "17. D'après la stricte loi, il est permis de penser aux besoins de la charité (Tsédaka) aux toilettes [et dans les bains publics], d'y faire des calculs relatifs à l'accomplissement d'une Mitsva, et de penser aux besoins du Chabbat ou de la Soucca, et même de donner de la Tsédaka dans un bain public. [Cheérit Yossef page 29. Yalkout Yossef sur les Lois du lever au matin édition 5764, page 283].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "17. D'après la stricte loi, il est permis de penser aux besoins de la charité (Tsédaka) aux toilettes [et dans les bains publics], d'y faire des calculs relatifs à l'accomplissement d'une Mitsva, et de penser aux besoins du Chabbat ou de la Soucca, et même de donner de la Tsédaka dans un bain public. [Cheérit Yossef page 29. Yalkout Yossef sur les Lois du lever au matin édition 5764, page 283].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "17"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-017",
+      "title": "Les boîtes fermées",
+      "rule": "La règle est tellement respectée qu'on évite même de ranger des boîtes de conserve ou des paquets de gâteaux fermés dans la pièce des toilettes (si la salle de bain fait aussi office de cellier, par exemple). La nourriture mérite un endroit propre.",
       "sources": [
         {
           "siman": 3,
-          "seif": "17"
+          "seif": 23
+        },
+        {
+          "siman": 3,
+          "seif": 24
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 17 : Pensées relatives aux Mitsvot aux toilettes",
-        "simple_explanation": "17. D'après la stricte loi, il est permis de penser aux besoins de la charité (Tsédaka) aux toilettes [et dans les bains publics], d'y faire des calculs relatifs à l'accomplissement d'une Mitsva, et de penser aux besoins du Chabbat ou de la Soucca, et même de donner de la Tsédaka dans un bain public. [Cheérit Yossef page 29. Yalkout Yossef sur les Lois du lever au matin édition 5764, page 283].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-017-flashcard-01",
-            "knowledge_point_id": "s3-kp-017",
-            "source_seif": "17",
-            "title": "Pensées relatives aux Mitsvot aux toilettes",
-            "question": "Que présente le סעיף 17 concernant « Pensées relatives aux Mitsvot aux toilettes » ?",
-            "answer": "17. D'après la stricte loi, il est permis de penser aux besoins de la charité (Tsédaka) aux toilettes [et dans les bains publics], d'y faire des calculs relatifs à l'accomplissement d'une Mitsva, et de penser aux besoins du Chabbat ou de la Soucca, et même de donner de la Tsédaka dans un bain public. [Cheérit Yossef page 29. Yalkout Yossef sur les Lois du lever au matin édition 5764, page 283].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+        "simple_explanation": "La règle est tellement respectée qu'on évite même de ranger des boîtes de conserve ou des paquets de gâteaux fermés dans la pièce des toilettes (si la salle de bain fait aussi office de cellier, par exemple). La nourriture mérite un endroit propre."
+      },
+      "quizEyebrow": "Vrai ou Faux ?",
+      "quizPrompt": "\"Il est interdit d'entrer aux toilettes avec des médicaments dans sa poche.\"",
+      "quizOptions": [
+        "Vrai",
+        "Faux (La santé prime, les médicaments sont autorisés)."
+      ],
+      "quizAnswer": "Faux (La santé prime, les médicaments sont autorisés)."
     },
     {
-      "id": "s3-kp-018",
-      "title": "Modalités de nettoyage aux toilettes",
-      "rule": "18. On veillera à bien s'essuyer avec du papier, puis à se laver à l'eau, car le nettoyage principal se fait avec de l'eau. Une personne délicate se nettoiera soigneusement avec du papier [hygiénique] humide. S'il n'a pas d'eau du tout, il se nettoiera très méticuleusement avec du papier hygiénique. Bien que Maran (Rabbi Yossef Karo) ait écrit qu'il ne faut pas s'essuyer avec une matière qui se consume au feu, la coutume actuelle est d'être indulgent et de s'essuyer avec du papier. [Cheérit Yossef partie 1 page 30, et dans Yalkout Yossef vol. 1 édition 5745 page 100, et dans Shabbat volume 2 page 276, et dans Yalkout Yossef sur les lois du lever du matin édition 5764 page 284].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "18. On veillera à bien s'essuyer avec du papier, puis à se laver à l'eau, car le nettoyage principal se fait avec de l'eau. Une personne délicate se nettoiera soigneusement avec du papier [hygiénique] humide. S'il n'a pas d'eau du tout, il se nettoiera très méticuleusement avec du papier hygiénique. Bien que Maran (Rabbi Yossef Karo) ait écrit qu'il ne faut pas s'essuyer avec une matière qui se consume au feu, la coutume actuelle est d'être indulgent et de s'essuyer avec du papier. [Cheérit Yossef partie 1 page 30, et dans Yalkout Yossef vol. 1 édition 5745 page 100, et dans Shabbat volume 2 page 276, et dans Yalkout Yossef sur les lois du lever du matin édition 5764 page 284].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "18"
-            }
-          ]
-        }
-      ],
+      "id": "new-s3-kp-018",
+      "title": "L'exception médicale",
+      "rule": "Comme toujours, le judaïsme fait passer la santé avant tout. Si vous avez une boîte de médicaments dans votre poche, vous avez tout à fait le droit de la garder avec vous aux toilettes. Les médicaments ne sont pas considérés comme des \"repas\" ou de la nourriture de plaisir.",
       "sources": [
         {
           "siman": 3,
-          "seif": "18"
-        }
-      ],
-      "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 18 : Modalités de nettoyage aux toilettes",
-        "simple_explanation": "18. On veillera à bien s'essuyer avec du papier, puis à se laver à l'eau, car le nettoyage principal se fait avec de l'eau. Une personne délicate se nettoiera soigneusement avec du papier [hygiénique] humide. S'il n'a pas d'eau du tout, il se nettoiera très méticuleusement avec du papier hygiénique. Bien que Maran (Rabbi Yossef Karo) ait écrit qu'il ne faut pas s'essuyer avec une matière qui se consume au feu, la coutume actuelle est d'être indulgent et de s'essuyer avec du papier. [Cheérit Yossef partie 1 page 30, et dans Yalkout Yossef vol. 1 édition 5745 page 100, et dans Shabbat volume 2 page 276, et dans Yalkout Yossef sur les lois du lever du matin édition 5764 page 284].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-018-flashcard-01",
-            "knowledge_point_id": "s3-kp-018",
-            "source_seif": "18",
-            "title": "Modalités de nettoyage aux toilettes",
-            "question": "Que présente le סעיף 18 concernant « Modalités de nettoyage aux toilettes » ?",
-            "answer": "18. On veillera à bien s'essuyer avec du papier, puis à se laver à l'eau, car le nettoyage principal se fait avec de l'eau. Une personne délicate se nettoiera soigneusement avec du papier [hygiénique] humide. S'il n'a pas d'eau du tout, il se nettoiera très méticuleusement avec du papier hygiénique. Bien que Maran (Rabbi Yossef Karo) ait écrit qu'il ne faut pas s'essuyer avec une matière qui se consume au feu, la coutume actuelle est d'être indulgent et de s'essuyer avec du papier. [Cheérit Yossef partie 1 page 30, et dans Yalkout Yossef vol. 1 édition 5745 page 100, et dans Shabbat volume 2 page 276, et dans Yalkout Yossef sur les lois du lever du matin édition 5764 page 284].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
-    },
-    {
-      "id": "s3-kp-019",
-      "title": "Propreté des enfants et éducation",
-      "rule": "19. Il est bon de veiller à ce qu'un jeune enfant ayant atteint l'âge de l'éducation (Hinoukh) ait le corps propre après avoir fait ses besoins. Toutefois, il est permis d'éduquer les jeunes enfants à réciter des bénédictions, des versets et des paroles de Torah même si l'on sait qu'ils ne se nettoient pas parfaitement. Il est également permis de s'asseoir à leurs côtés pour lire le Chema, prier et réciter des bénédictions, à la seule condition qu'il n'y ait pas de mauvaise odeur présente. [Yalkout Yossef sur les Lois du lever au matin édition 5764, page 285].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "19. Il est bon de veiller à ce qu'un jeune enfant ayant atteint l'âge de l'éducation (Hinoukh) ait le corps propre après avoir fait ses besoins. Toutefois, il est permis d'éduquer les jeunes enfants à réciter des bénédictions, des versets et des paroles de Torah même si l'on sait qu'ils ne se nettoient pas parfaitement. Il est également permis de s'asseoir à leurs côtés pour lire le Chema, prier et réciter des bénédictions, à la seule condition qu'il n'y ait pas de mauvaise odeur présente. [Yalkout Yossef sur les Lois du lever au matin édition 5764, page 285].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "19"
-            }
-          ]
-        }
-      ],
-      "sources": [
+          "seif": 23
+        },
         {
           "siman": 3,
-          "seif": "19"
+          "seif": 24
         }
       ],
       "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 19 : Propreté des enfants et éducation",
-        "simple_explanation": "19. Il est bon de veiller à ce qu'un jeune enfant ayant atteint l'âge de l'éducation (Hinoukh) ait le corps propre après avoir fait ses besoins. Toutefois, il est permis d'éduquer les jeunes enfants à réciter des bénédictions, des versets et des paroles de Torah même si l'on sait qu'ils ne se nettoient pas parfaitement. Il est également permis de s'asseoir à leurs côtés pour lire le Chema, prier et réciter des bénédictions, à la seule condition qu'il n'y ait pas de mauvaise odeur présente. [Yalkout Yossef sur les Lois du lever au matin édition 5764, page 285].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-019-flashcard-01",
-            "knowledge_point_id": "s3-kp-019",
-            "source_seif": "19",
-            "title": "Propreté des enfants et éducation",
-            "question": "Que présente le סעיף 19 concernant « Propreté des enfants et éducation » ?",
-            "answer": "19. Il est bon de veiller à ce qu'un jeune enfant ayant atteint l'âge de l'éducation (Hinoukh) ait le corps propre après avoir fait ses besoins. Toutefois, il est permis d'éduquer les jeunes enfants à réciter des bénédictions, des versets et des paroles de Torah même si l'on sait qu'ils ne se nettoient pas parfaitement. Il est également permis de s'asseoir à leurs côtés pour lire le Chema, prier et réciter des bénédictions, à la seule condition qu'il n'y ait pas de mauvaise odeur présente. [Yalkout Yossef sur les Lois du lever au matin édition 5764, page 285].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
-    },
-    {
-      "id": "s3-kp-020",
-      "title": "Utilisation de la main droite",
-      "rule": "20. On ne s'essuiera pas avec la main droite. Un gaucher s'essuiera avec sa main gauche, qui correspond à la main droite de la majorité des gens. Certains décisionnaires affirment que tout ceci s'applique uniquement lorsqu'on s'essuie directement avec la main, mais si l'on s'essuie au moyen de papier, il n'est pas nécessaire d'être rigoureux sur ce point. [Yalkout Yossef ibid. page 286].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "20. On ne s'essuiera pas avec la main droite. Un gaucher s'essuiera avec sa main gauche, qui correspond à la main droite de la majorité des gens. Certains décisionnaires affirment que tout ceci s'applique uniquement lorsqu'on s'essuie directement avec la main, mais si l'on s'essuie au moyen de papier, il n'est pas nécessaire d'être rigoureux sur ce point. [Yalkout Yossef ibid. page 286].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "20"
-            }
-          ]
-        }
+        "simple_explanation": "Comme toujours, le judaïsme fait passer la santé avant tout. Si vous avez une boîte de médicaments dans votre poche, vous avez tout à fait le droit de la garder avec vous aux toilettes. Les médicaments ne sont pas considérés comme des \"repas\" ou de la nourriture de plaisir."
+      },
+      "quizEyebrow": "Le grand principe",
+      "quizPrompt": "Pourquoi la nourriture est-elle interdite dans les toilettes ?",
+      "quizOptions": [
+        "Pour bien séparer ce qui nourrit la vie (la nourriture) du lieu des déchets.",
+        "Parce que ça attire les insectes."
       ],
-      "sources": [
-        {
-          "siman": 3,
-          "seif": "20"
-        }
-      ],
-      "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 20 : Utilisation de la main droite",
-        "simple_explanation": "20. On ne s'essuiera pas avec la main droite. Un gaucher s'essuiera avec sa main gauche, qui correspond à la main droite de la majorité des gens. Certains décisionnaires affirment que tout ceci s'applique uniquement lorsqu'on s'essuie directement avec la main, mais si l'on s'essuie au moyen de papier, il n'est pas nécessaire d'être rigoureux sur ce point. [Yalkout Yossef ibid. page 286].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-020-flashcard-01",
-            "knowledge_point_id": "s3-kp-020",
-            "source_seif": "20",
-            "title": "Utilisation de la main droite",
-            "question": "Que présente le סעיף 20 concernant « Utilisation de la main droite » ?",
-            "answer": "20. On ne s'essuiera pas avec la main droite. Un gaucher s'essuiera avec sa main gauche, qui correspond à la main droite de la majorité des gens. Certains décisionnaires affirment que tout ceci s'applique uniquement lorsqu'on s'essuie directement avec la main, mais si l'on s'essuie au moyen de papier, il n'est pas nécessaire d'être rigoureux sur ce point. [Yalkout Yossef ibid. page 286].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
-    },
-    {
-      "id": "s3-kp-021",
-      "title": "Uriner debout sur le sol",
-      "rule": "21. Celui qui urine sur le sol ne doit pas uriner debout, en raison des éclaboussures qui pourraient atteindre ses chaussures, à moins de se tenir sur un endroit surélevé ou sur de la terre meuble. Dans nos toilettes modernes, il n'est pas nécessaire d'être strict à ce sujet [puisque cette crainte n'existe plus]. [Yalkout Yossef, Lois du lever du matin, éd. 5764, p. 286].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "21. Celui qui urine sur le sol ne doit pas uriner debout, en raison des éclaboussures qui pourraient atteindre ses chaussures, à moins de se tenir sur un endroit surélevé ou sur de la terre meuble. Dans nos toilettes modernes, il n'est pas nécessaire d'être strict à ce sujet [puisque cette crainte n'existe plus]. [Yalkout Yossef, Lois du lever du matin, éd. 5764, p. 286].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "21"
-            }
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "siman": 3,
-          "seif": "21"
-        }
-      ],
-      "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 21 : Uriner debout sur le sol",
-        "simple_explanation": "21. Celui qui urine sur le sol ne doit pas uriner debout, en raison des éclaboussures qui pourraient atteindre ses chaussures, à moins de se tenir sur un endroit surélevé ou sur de la terre meuble. Dans nos toilettes modernes, il n'est pas nécessaire d'être strict à ce sujet [puisque cette crainte n'existe plus]. [Yalkout Yossef, Lois du lever du matin, éd. 5764, p. 286].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-021-flashcard-01",
-            "knowledge_point_id": "s3-kp-021",
-            "source_seif": "21",
-            "title": "Uriner debout sur le sol",
-            "question": "Que présente le סעיף 21 concernant « Uriner debout sur le sol » ?",
-            "answer": "21. Celui qui urine sur le sol ne doit pas uriner debout, en raison des éclaboussures qui pourraient atteindre ses chaussures, à moins de se tenir sur un endroit surélevé ou sur de la terre meuble. Dans nos toilettes modernes, il n'est pas nécessaire d'être strict à ce sujet [puisque cette crainte n'existe plus]. [Yalkout Yossef, Lois du lever du matin, éd. 5764, p. 286].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
-    },
-    {
-      "id": "s3-kp-022",
-      "title": "Tenir le membre en urinant",
-      "rule": "22. On fera attention, en urinant, de ne pas tenir son membre, si ce n'est depuis la couronne et en dessous, même si l'on urine dans un endroit effrayant, comme au bord d'un toit ou autre. Cependant, pour un homme marié dont la femme se trouve avec lui [en période de pureté], cela est permis selon la stricte loi, bien qu'il soit d'une mesure de piété d'être rigoureux. [Yalkout Yossef, Lois du lever du matin, éd. 5764, p. 287].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "22. On fera attention, en urinant, de ne pas tenir son membre, si ce n'est depuis la couronne et en dessous, même si l'on urine dans un endroit effrayant, comme au bord d'un toit ou autre. Cependant, pour un homme marié dont la femme se trouve avec lui [en période de pureté], cela est permis selon la stricte loi, bien qu'il soit d'une mesure de piété d'être rigoureux. [Yalkout Yossef, Lois du lever du matin, éd. 5764, p. 287].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "22"
-            }
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "siman": 3,
-          "seif": "22"
-        }
-      ],
-      "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 22 : Tenir le membre en urinant",
-        "simple_explanation": "22. On fera attention, en urinant, de ne pas tenir son membre, si ce n'est depuis la couronne et en dessous, même si l'on urine dans un endroit effrayant, comme au bord d'un toit ou autre. Cependant, pour un homme marié dont la femme se trouve avec lui [en période de pureté], cela est permis selon la stricte loi, bien qu'il soit d'une mesure de piété d'être rigoureux. [Yalkout Yossef, Lois du lever du matin, éd. 5764, p. 287].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-022-flashcard-01",
-            "knowledge_point_id": "s3-kp-022",
-            "source_seif": "22",
-            "title": "Tenir le membre en urinant",
-            "question": "Que présente le סעיף 22 concernant « Tenir le membre en urinant » ?",
-            "answer": "22. On fera attention, en urinant, de ne pas tenir son membre, si ce n'est depuis la couronne et en dessous, même si l'on urine dans un endroit effrayant, comme au bord d'un toit ou autre. Cependant, pour un homme marié dont la femme se trouve avec lui [en période de pureté], cela est permis selon la stricte loi, bien qu'il soit d'une mesure de piété d'être rigoureux. [Yalkout Yossef, Lois du lever du matin, éd. 5764, p. 287].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
-    },
-    {
-      "id": "s3-kp-023",
-      "title": "Introduire de la nourriture aux toilettes",
-      "rule": "23. A priori, il faut être rigoureux et ne pas introduire de nourriture ni de boisson dans les toilettes, même s'ils sont emballés et scellés dans une boîte fermée ; par conséquent, on ne rangera pas de boîtes de conserve fermées dans la pièce des toilettes. Mais a posteriori, cela est permis même s'il n'y a pas de perte financière importante. Si l'on a de la nourriture dans la poche de son vêtement et que l'on souhaite entrer aux toilettes, et qu'il n'y a pas d'endroit où la déposer, il est permis d'y entrer avec. Des aliments non couverts qui auraient été introduits dans les toilettes, comme des fruits, devront de préférence être lavés trois fois ; si cela est impossible, ils sont permis a posteriori. Par mesure de piété, il est préférable de ne pas les consommer. [Chéérit Yossef vol. 1 p. 30, d'après les responsa Lev 'Haïm vol. 1 signe 66, et Yabia Omer vol. 3 Ora'h 'Haïm signe 1 lettre 6, et vol. 4 Ora'h 'Haïm signe 5 lettre 3].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "23. A priori, il faut être rigoureux et ne pas introduire de nourriture ni de boisson dans les toilettes, même s'ils sont emballés et scellés dans une boîte fermée ; par conséquent, on ne rangera pas de boîtes de conserve fermées dans la pièce des toilettes. Mais a posteriori, cela est permis même s'il n'y a pas de perte financière importante. Si l'on a de la nourriture dans la poche de son vêtement et que l'on souhaite entrer aux toilettes, et qu'il n'y a pas d'endroit où la déposer, il est permis d'y entrer avec. Des aliments non couverts qui auraient été introduits dans les toilettes, comme des fruits, devront de préférence être lavés trois fois ; si cela est impossible, ils sont permis a posteriori. Par mesure de piété, il est préférable de ne pas les consommer. [Chéérit Yossef vol. 1 p. 30, d'après les responsa Lev 'Haïm vol. 1 signe 66, et Yabia Omer vol. 3 Ora'h 'Haïm signe 1 lettre 6, et vol. 4 Ora'h 'Haïm signe 5 lettre 3].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "23"
-            }
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "siman": 3,
-          "seif": "23"
-        }
-      ],
-      "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 23 : Introduire de la nourriture aux toilettes",
-        "simple_explanation": "23. A priori, il faut être rigoureux et ne pas introduire de nourriture ni de boisson dans les toilettes, même s'ils sont emballés et scellés dans une boîte fermée ; par conséquent, on ne rangera pas de boîtes de conserve fermées dans la pièce des toilettes. Mais a posteriori, cela est permis même s'il n'y a pas de perte financière importante. Si l'on a de la nourriture dans la poche de son vêtement et que l'on souhaite entrer aux toilettes, et qu'il n'y a pas d'endroit où la déposer, il est permis d'y entrer avec. Des aliments non couverts qui auraient été introduits dans les toilettes, comme des fruits, devront de préférence être lavés trois fois ; si cela est impossible, ils sont permis a posteriori. Par mesure de piété, il est préférable de ne pas les consommer. [Chéérit Yossef vol. 1 p. 30, d'après les responsa Lev 'Haïm vol. 1 signe 66, et Yabia Omer vol. 3 Ora'h 'Haïm signe 1 lettre 6, et vol. 4 Ora'h 'Haïm signe 5 lettre 3].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-023-flashcard-01",
-            "knowledge_point_id": "s3-kp-023",
-            "source_seif": "23",
-            "title": "Introduire de la nourriture aux toilettes",
-            "question": "Que présente le סעיף 23 concernant « Introduire de la nourriture aux toilettes » ?",
-            "answer": "23. A priori, il faut être rigoureux et ne pas introduire de nourriture ni de boisson dans les toilettes, même s'ils sont emballés et scellés dans une boîte fermée ; par conséquent, on ne rangera pas de boîtes de conserve fermées dans la pièce des toilettes. Mais a posteriori, cela est permis même s'il n'y a pas de perte financière importante. Si l'on a de la nourriture dans la poche de son vêtement et que l'on souhaite entrer aux toilettes, et qu'il n'y a pas d'endroit où la déposer, il est permis d'y entrer avec. Des aliments non couverts qui auraient été introduits dans les toilettes, comme des fruits, devront de préférence être lavés trois fois ; si cela est impossible, ils sont permis a posteriori. Par mesure de piété, il est préférable de ne pas les consommer. [Chéérit Yossef vol. 1 p. 30, d'après les responsa Lev 'Haïm vol. 1 signe 66, et Yabia Omer vol. 3 Ora'h 'Haïm signe 1 lettre 6, et vol. 4 Ora'h 'Haïm signe 5 lettre 3].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
-    },
-    {
-      "id": "s3-kp-024",
-      "title": "Entrer aux toilettes avec des médicaments",
-      "rule": "24. Selon tous les avis, il est permis d'entrer aux toilettes avec un médicament dans la poche de son vêtement. Toutefois, pour les médicaments qui ont une saveur sucrée et qui se sucent, on agira comme expliqué dans le paragraphe précédent. [Yalkout Yossef, Lois du lever du matin, p. 290].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "24. Selon tous les avis, il est permis d'entrer aux toilettes avec un médicament dans la poche de son vêtement. Toutefois, pour les médicaments qui ont une saveur sucrée et qui se sucent, on agira comme expliqué dans le paragraphe précédent. [Yalkout Yossef, Lois du lever du matin, p. 290].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "24"
-            }
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "siman": 3,
-          "seif": "24"
-        }
-      ],
-      "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 24 : Entrer aux toilettes avec des médicaments",
-        "simple_explanation": "24. Selon tous les avis, il est permis d'entrer aux toilettes avec un médicament dans la poche de son vêtement. Toutefois, pour les médicaments qui ont une saveur sucrée et qui se sucent, on agira comme expliqué dans le paragraphe précédent. [Yalkout Yossef, Lois du lever du matin, p. 290].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-024-flashcard-01",
-            "knowledge_point_id": "s3-kp-024",
-            "source_seif": "24",
-            "title": "Entrer aux toilettes avec des médicaments",
-            "question": "Que présente le סעיף 24 concernant « Entrer aux toilettes avec des médicaments » ?",
-            "answer": "24. Selon tous les avis, il est permis d'entrer aux toilettes avec un médicament dans la poche de son vêtement. Toutefois, pour les médicaments qui ont une saveur sucrée et qui se sucent, on agira comme expliqué dans le paragraphe précédent. [Yalkout Yossef, Lois du lever du matin, p. 290].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
-    },
-    {
-      "id": "s3-kp-025",
-      "title": "Orientation et disposition du lit",
-      "rule": "25. On peut orienter son lit comme on le souhaite, mais lorsque cela est possible, il est bon de disposer le lit de sorte que la tête soit à l'est et les pieds à l'ouest. [Yalkout Yossef, ibid. p. 291 et Chéérit Yossef vol. 1 p. 20].",
-      "explanation": null,
-      "practical_example": null,
-      "common_trap": null,
-      "learning_level": 1,
-      "importance": "important",
-      "knowledge_type": "source_seif",
-      "halakha_status": "unclassified",
-      "claims": [
-        {
-          "text": "25. On peut orienter son lit comme on le souhaite, mais lorsque cela est possible, il est bon de disposer le lit de sorte que la tête soit à l'est et les pieds à l'ouest. [Yalkout Yossef, ibid. p. 291 et Chéérit Yossef vol. 1 p. 20].",
-          "sources": [
-            {
-              "siman": 3,
-              "seif": "25"
-            }
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "siman": 3,
-          "seif": "25"
-        }
-      ],
-      "pedagogy": {
-        "learning_summary": "Lecture directe du סעיף 25 : Orientation et disposition du lit",
-        "simple_explanation": "25. On peut orienter son lit comme on le souhaite, mais lorsque cela est possible, il est bon de disposer le lit de sorte que la tête soit à l'est et les pieds à l'ouest. [Yalkout Yossef, ibid. p. 291 et Chéérit Yossef vol. 1 p. 20].",
-        "human_review_required": true,
-        "pilot_scope": "source_exposure_only",
-        "activities": {
-          "flashcard": {
-            "activity_id": "s3-kp-025-flashcard-01",
-            "knowledge_point_id": "s3-kp-025",
-            "source_seif": "25",
-            "title": "Orientation et disposition du lit",
-            "question": "Que présente le סעיף 25 concernant « Orientation et disposition du lit » ?",
-            "answer": "25. On peut orienter son lit comme on le souhaite, mais lorsque cela est possible, il est bon de disposer le lit de sorte que la tête soit à l'est et les pieds à l'ouest. [Yalkout Yossef, ibid. p. 291 et Chéérit Yossef vol. 1 p. 20].",
-            "conditions": "",
-            "validated": true,
-            "validation_scope": "exact_source_projection"
-          }
-        }
-      }
+      "quizAnswer": "Pour bien séparer ce qui nourrit la vie (la nourriture) du lieu des déchets."
     }
   ]
 }

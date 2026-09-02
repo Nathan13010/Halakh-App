@@ -10,10 +10,10 @@ export const LEARNING_SIMANS = Object.freeze({
     sourcePath: "/data/הלכות הנהגת אדם בבוקר/siman_1.json",
     knowledgePath: "/data/הלכות הנהגת אדם בבוקר/siman_1_knowledge.json",
     contentContract: Object.freeze({
-      totalActivities: 117,
-      acceptedActivities: 94,
-      rejectedActivities: 23,
-      allowedRejectionReason: "Activité conditionnelle sans texte de condition fourni"
+      totalActivities: 0,
+      acceptedActivities: 0,
+      rejectedActivities: 0,
+      allowedRejectionReason: null
     })
   }),
   siman_2: Object.freeze({
@@ -23,9 +23,8 @@ export const LEARNING_SIMANS = Object.freeze({
     sourcePath: "/data/הלכות הנהגת אדם בבוקר/siman_2.json",
     knowledgePath: "/data/הלכות הנהגת אדם בבוקר/siman_2_knowledge.json",
     contentContract: Object.freeze({
-      pilotScope: "source_exposure_only",
-      totalActivities: 28,
-      acceptedActivities: 28,
+      totalActivities: 0,
+      acceptedActivities: 0,
       rejectedActivities: 0,
       allowedRejectionReason: null
     })
@@ -37,9 +36,8 @@ export const LEARNING_SIMANS = Object.freeze({
     sourcePath: "/data/הלכות הנהגת אדם בבוקר/siman_3.json",
     knowledgePath: "/data/הלכות הנהגת אדם בבוקר/siman_3_knowledge.json",
     contentContract: Object.freeze({
-      pilotScope: "source_exposure_only",
-      totalActivities: 25,
-      acceptedActivities: 25,
+      totalActivities: 0,
+      acceptedActivities: 0,
       rejectedActivities: 0,
       allowedRejectionReason: null
     })

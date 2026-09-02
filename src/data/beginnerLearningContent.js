@@ -24,7 +24,7 @@ const CONTENT_OVERRIDES = Object.freeze({
   }),
   "s1-kp-018": Object.freeze({
     coreText: "Dès le réveil, on remercie Dieu avec la courte prière Modé Ani. Un garçon dit « Modé Ani » et une fille dit « Moda Ani ».",
-    explanation: "Texte : « Modé ani lefanékha, Mélekh 'haï vékayam, chéhékhézarta bi nichmati bé'hèmla, raba émounatékha. »\n\nTraduction : « Je Te remercie, Roi vivant et éternel, d'avoir réintégré en moi mon âme avec bienveillance ; grande est Ta fidélité. »\n\nLe Modé Ani est la première prière prononcée au réveil. Elle remercie Dieu de nous avoir restitué notre âme et rendu la vie après le sommeil, comparé à une petite mort. La journée commence ainsi par la gratitude et la reconnaissance.",
+    explanation: "Texte : « Modé ani lefanékha, Mélekh 'haï vékayam, chéhékhézarta bi nichmati bé'hèmla, raba émounatékha. »\n\nTraduction : « Je Te remercie, Roi vivant et éternel, d'avoir réintégré en moi mon âme avec bienveillance ; grande est Ta fidélité. »\n\nUne fille dit « Moda Ani » au lieu de « Modé Ani ».\n\nLe Modé Ani est la première prière prononcée au réveil. Elle remercie Dieu de nous avoir restitué notre âme et rendu la vie après le sommeil, comparé à une petite mort. La journée commence ainsi par la gratitude et la reconnaissance.",
     quizPrompt: "Quel est le rôle de la prière Modé Ani dès le réveil ?",
     quizAnswer: "Remercier Dieu pour le retour de notre âme.",
     quizOptions: [
@@ -145,7 +145,7 @@ export const removeLearningJargon = (value) => {
   JARGON_REPLACEMENTS.forEach(([pattern, replacement]) => {
     text = text.replace(pattern, replacement);
   });
-  return text.replace(/\s+/g, " ").trim();
+  return text.replace(/[ \t]+/g, " ").trim();
 };
 
 const fallbackExplanation = (coreText) => {

@@ -1,0 +1,12 @@
+{
+  "siman": 0,
+  "file": "siman_3_knowledge.json",
+  "error": "Aucun seif trouvé dans le fichier",
+  "summary": {
+    "total": 0,
+    "pass": 0,
+    "warn": 0,
+    "fail": 0
+  },
+  "seifim": []
+}

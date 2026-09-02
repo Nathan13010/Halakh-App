@@ -1,13 +1,13 @@
 {
-  "siman": 0,
-  "file": "siman_32-33.json",
-  "timestamp": "2026-09-02T12:15:46.394Z",
+  "siman": 37,
+  "file": "siman_37.json",
+  "timestamp": "2026-09-02T07:18:08.142Z",
   "summary": {
-    "total": 19,
-    "pass": 19,
-    "warn": 0,
+    "total": 17,
+    "pass": 15,
+    "warn": 2,
     "fail": 0,
-    "avg_score": 100
+    "avg_score": 98
   },
   "seifim": [
     {
@@ -243,12 +243,12 @@
     },
     {
       "seif": 12,
-      "status": "PASS",
-      "score": 100,
+      "status": "WARN",
+      "score": 83,
       "checks": {
         "json_structure": true,
         "alignment_count": true,
-        "alignment_accuracy": true,
+        "alignment_accuracy": false,
         "no_terme": true,
         "no_pipes": true,
         "no_double_spaces": true,
@@ -260,7 +260,65 @@
         "no_empty_words": true,
         "no_hebrew_in_french": true
       },
-      "issues": []
+      "issues": [
+        {
+          "type": "ALIGNMENT_MISMATCH_WORD",
+          "severity": "error",
+          "detail": "124 mot(s) ont un décalage majeur entre brut et voyelles",
+          "words": [
+            {
+              "id": 1,
+              "hebreu_brut": "קדושת",
+              "hebreu_voyelles": "ב"
+            },
+            {
+              "id": 2,
+              "hebreu_brut": "תפילין",
+              "hebreu_voyelles": "קְדֻשַּׁת"
+            },
+            {
+              "id": 3,
+              "hebreu_brut": "קדושתן",
+              "hebreu_voyelles": "תְּפִלִּין"
+            },
+            {
+              "id": 4,
+              "hebreu_brut": "גדולה",
+              "hebreu_voyelles": "קְדֻשָּׁתָן"
+            },
+            {
+              "id": 5,
+              "hebreu_brut": "היא",
+              "hebreu_voyelles": "גְּדוֹלָה"
+            },
+            {
+              "id": 6,
+              "hebreu_brut": "שכל",
+              "hebreu_voyelles": "הִיא"
+            },
+            {
+              "id": 7,
+              "hebreu_brut": "זמן",
+              "hebreu_voyelles": "שֶׁכָּל"
+            },
+            {
+              "id": 8,
+              "hebreu_brut": "שהתפילין",
+              "hebreu_voyelles": "זְמַן"
+            },
+            {
+              "id": 9,
+              "hebreu_brut": "בראשו",
+              "hebreu_voyelles": "שֶׁהַתְּפִלִּין"
+            },
+            {
+              "id": 10,
+              "hebreu_brut": "של",
+              "hebreu_voyelles": "בְּרֹאשׁוֹ"
+            }
+          ]
+        }
+      ]
     },
     {
       "seif": 13,
@@ -285,12 +343,12 @@
     },
     {
       "seif": 14,
-      "status": "PASS",
-      "score": 100,
+      "status": "WARN",
+      "score": 83,
       "checks": {
         "json_structure": true,
         "alignment_count": true,
-        "alignment_accuracy": true,
+        "alignment_accuracy": false,
         "no_terme": true,
         "no_pipes": true,
         "no_double_spaces": true,
@@ -302,7 +360,50 @@
         "no_empty_words": true,
         "no_hebrew_in_french": true
       },
-      "issues": []
+      "issues": [
+        {
+          "type": "ALIGNMENT_MISMATCH_WORD",
+          "severity": "error",
+          "detail": "7 mot(s) ont un décalage majeur entre brut et voyelles",
+          "words": [
+            {
+              "id": 29,
+              "hebreu_brut": "על",
+              "hebreu_voyelles": "תְּפִלִּין"
+            },
+            {
+              "id": 30,
+              "hebreu_brut": "תפילין",
+              "hebreu_voyelles": "סִי'"
+            },
+            {
+              "id": 31,
+              "hebreu_brut": "סי'",
+              "hebreu_voyelles": "לז"
+            },
+            {
+              "id": 32,
+              "hebreu_brut": "לז",
+              "hebreu_voyelles": "הֶעָרָה"
+            },
+            {
+              "id": 33,
+              "hebreu_brut": "הערה",
+              "hebreu_voyelles": "ד'."
+            },
+            {
+              "id": 34,
+              "hebreu_brut": "ד'.",
+              "hebreu_voyelles": "שאר\"י"
+            },
+            {
+              "id": 35,
+              "hebreu_brut": "שאר",
+              "hebreu_voyelles": "ח\"א"
+            }
+          ]
+        }
+      ]
     },
     {
       "seif": 15,
@@ -348,48 +449,6 @@
     },
     {
       "seif": 17,
-      "status": "PASS",
-      "score": 100,
-      "checks": {
-        "json_structure": true,
-        "alignment_count": true,
-        "alignment_accuracy": true,
-        "no_terme": true,
-        "no_pipes": true,
-        "no_double_spaces": true,
-        "badge_correct": true,
-        "titre_seif_present": true,
-        "sujet_present": false,
-        "ktiv_male": true,
-        "no_punctuation_word": true,
-        "no_empty_words": true,
-        "no_hebrew_in_french": true
-      },
-      "issues": []
-    },
-    {
-      "seif": 18,
-      "status": "PASS",
-      "score": 100,
-      "checks": {
-        "json_structure": true,
-        "alignment_count": true,
-        "alignment_accuracy": true,
-        "no_terme": true,
-        "no_pipes": true,
-        "no_double_spaces": true,
-        "badge_correct": true,
-        "titre_seif_present": true,
-        "sujet_present": false,
-        "ktiv_male": true,
-        "no_punctuation_word": true,
-        "no_empty_words": true,
-        "no_hebrew_in_french": true
-      },
-      "issues": []
-    },
-    {
-      "seif": 19,
       "status": "PASS",
       "score": 100,
       "checks": {
