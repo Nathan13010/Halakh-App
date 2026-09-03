@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Icon from './Icon';
+import { sendReport } from '../services/reportService';
 
 const ProfileScreen = ({
   streak = 0,
@@ -41,9 +42,18 @@ const ProfileScreen = ({
   const selectedHebrew = hebrewFontsList.find(f => f.id === hebrewFont) || hebrewFontsList[0] || { name: 'Noto Serif Hebrew', family: "'Noto Serif Hebrew', serif" };
   const selectedFrench = frenchFontsList.find(f => f.id === frenchFont) || frenchFontsList[0] || { name: 'Inter', family: "'Inter', sans-serif" };
 
-  const handleSendReport = () => {
+  const handleSendReport = async () => {
     if (reportText.trim().length === 0) return;
     setReportSent(true);
+    try {
+      await sendReport({
+        bookTitle: "Onglet Profil & Réglages",
+        chapterTitle: "Signalement / Retour utilisateur",
+        message: reportText.trim()
+      });
+    } catch (e) {
+      console.error("Erreur lors de l'envoi du signalement:", e);
+    }
     setTimeout(() => {
       setReportOpen(false);
       setReportSent(false);

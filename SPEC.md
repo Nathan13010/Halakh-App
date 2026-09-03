@@ -145,22 +145,55 @@ graph TD
 
 ---
 
+## ☁️ Sauvegarde Cloud & Synchronisation Multi-Appareils (Septembre 2026)
+
+Le système de persistance repose sur une architecture **Offline-First** avec fusion intelligente (Merge bidirectionnel) :
+- **Source locale immédiate** : `localStorage` pour une vitesse instantanée et une utilisation hors-ligne.
+- **Synchronisation Cloud automatique** : En arrière-plan vers Cloud Firestore (`users/{uid}` ou `users/{syncCode}`).
+- **Fusion sans perte** : À la connexion ou restauration, l'application effectue l'union des leçons complétées, conserve les meilleurs scores d'examens et prend le maximum de points XP et de série (Streak).
+
+### Deux modes d'accès utilisateur :
+1. **Option A · Compte Google (Firebase Auth)** :
+   - Connexion en 1 clic via popup Google.
+   - Idéal pour les utilisateurs souhaitant une liaison transparente liée à leur compte email.
+2. **Option B · Code Secret de Restauration (100% Anonyme)** :
+   - Génération d'un code unique lisible (format `HLK-XXX-XXX`).
+   - Aucun email ni mot de passe requis.
+   - Saisie du code sur un nouvel appareil pour restaurer et lier la progression instantanément.
+
+---
+
+## 🎓 Parcours d'Apprentissage (Simanim 1, 2, 3, 4)
+
+Chaque Siman d'apprentissage est structuré en **6 leçons progressives** :
+- **3 notions clés** claires et pédagogiques par leçon.
+- **3 questions interactives** (QCM à 2 choix A/B ou Vrai/Faux alternés).
+- **Cartographie précise des sources** renvoyant directement aux paragraphes et lois du Kitsour Yalkout Yossef :
+  - **Siman 1** : Paragraphes 1, 8, 9, etc.
+  - **Siman 2** : Paragraphes 1, 3, 4, 5, 6, 11, 14, 25, 15, 16, 17, 21, 22, 24, 27, 28.
+  - **Siman 3** : Paragraphes 1, 2, 6, 8, 9, 10, 13, 14, 18, 19, 23, 24.
+  - **Siman 4** : Lavage des mains du matin (Netilat Yadaïm) en 6 leçons.
+- **Examens de fin de Siman et Examen global de Catégorie** débloquant la fiche de synthèse.
+
+---
+
 ## 🚀 Fonctionnalités Futures (Roadmap)
 
 ### Court terme
 - [ ] Résoudre le problème de clé API pour débloquer l'Assistant IA (Gemini)
-- [ ] Terminer la génération des Seifim 21 à 59 du Siman 1
-- [ ] Ajouter plus de quiz dans le parcours d'apprentissage
+- [ ] Terminer la génération des Seifim 21 à 59 du Siman 1 (Bibliothèque d'étude)
+- [x] Système de comptes et sauvegarde Cloud (Option A Google + Option B Code Secret)
+- [x] Parcours d'apprentissage complet sur les Simanim 1, 2, 3 et 4 avec QCM variés
 
 ### Moyen terme
-- [ ] Générer les données pour d'autres Simanim (2, 3, 4...)
+- [ ] Générer les données pour d'autres Simanim dans le parcours d'apprentissage (Siman 5, 6...)
+- [ ] Système d'alerte instantanée des signalements utilisateurs (Discord Webhook / Telegram Bot)
 - [ ] Audio : prononciation des mots hébreux
 - [ ] Mode "Flashcards" pour réviser le vocabulaire
 - [ ] Système de progression par Siman (% de complétion)
 
 ### Long terme
-- [ ] Application mobile (React Native ou PWA)
-- [ ] Système de comptes utilisateurs (synchronisation multi-appareils)
+- [ ] Application mobile (React Native ou PWA installable)
 - [ ] Communauté : partage de notes et discussions entre utilisateurs
 - [ ] Couverture complète du Kitsour Yalkout Yossef
 
