@@ -13,7 +13,7 @@ export function getClientId() {
 
 export async function sendDiscordNotification(reportData) {
   const env = (typeof import.meta !== "undefined" && import.meta.env) ? import.meta.env : {};
-  const webhookUrl = env.VITE_DISCORD_WEBHOOK_URL;
+  const webhookUrl = env.VITE_DISCORD_WEBHOOK_URL || "https://discord.com/api/webhooks/1545162444471668737/MpRRM93BfJZXASbhBLH5KXicaRtVrKPWmcEfFxS7LtMaAMNAkD4LgbCXQM-QFtFInF11";
 
   if (!webhookUrl || !webhookUrl.startsWith("http")) {
     return false;
