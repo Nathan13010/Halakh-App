@@ -9,7 +9,17 @@ import QuickSettingsPopover from './components/QuickSettingsPopover';
 import SettingsModal from './components/SettingsModal';
 import { BOOKS, FALLBACK_PARAGRAPHS } from './data/books';
 import { resetAllProgressions } from './services/progressionTracker';
-import { resetLearningPathState } from './services/learningPathProgress';
+import { resetLearningPathState, loadLearningPathState, saveLearningPathState } from './services/learningPathProgress';
+import { onAuthChange, loginWithGoogle, logoutUser } from './firebase';
+import { 
+  fetchCloudUserData, 
+  saveCloudUserData, 
+  mergeUserData, 
+  generateSyncCode, 
+  cleanSyncCode, 
+  getStoredSyncCode, 
+  setStoredSyncCode 
+} from './services/cloudSyncService';
 
 export const HEBREW_FONTS = [
   { id: 'noto-serif-hebrew', name: 'Noto Serif Hebrew', family: "'Noto Serif Hebrew', serif", style: 'Traditionnel • Torah' },
@@ -66,6 +76,12 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState(null);
   const [toast, setToast] = useState(null);
+
+  // Cloud Sync & Auth States
+  const [currentUser, setCurrentUser] = useState(null);
+  const [syncCode, setSyncCode] = useState(() => getStoredSyncCode());
+  const [isSyncing, setIsSyncing] = useState(false);
+  const [lastSyncTime, setLastSyncTime] = useState(null);
 
   useEffect(() => {
     const applyTheme = () => {
@@ -135,6 +151,163 @@ function App() {
     const storedTextSize = localStorage.getItem("mishne_mikra_text_size");
     if (storedTextSize) setTextSize(storedTextSize);
   }, []);
+
+  const getLocalUserData = () => {
+    let localFavorites = [];
+    try {
+      localFavorites = JSON.parse(localStorage.getItem("mishne_mikra_favorites") || "[]");
+    } catch (_) {}
+    let localBookmarks = [];
+    try {
+      localBookmarks = JSON.parse(localStorage.getItem("mishne_mikra_bookmarks_list") || "[]");
+    } catch (_) {}
+
+    return {
+      xp: Number(localStorage.getItem("mishne_mikra_xp")) || 0,
+      streak: Number(localStorage.getItem("mishne_mikra_streak")) || 0,
+      lastStreakDate: localStorage.getItem("mishne_mikra_last_streak_date") || "",
+      favorites: localFavorites,
+      bookmarks: localBookmarks,
+      learningPath: loadLearningPathState()
+    };
+  };
+
+  const applyMergedUserData = (merged) => {
+    setXp(merged.xp);
+    localStorage.setItem("mishne_mikra_xp", merged.xp);
+
+    setStreak(merged.streak);
+    localStorage.setItem("mishne_mikra_streak", merged.streak);
+
+    setLastStreakDate(merged.lastStreakDate);
+    localStorage.setItem("mishne_mikra_last_streak_date", merged.lastStreakDate);
+
+    setFavorites(merged.favorites);
+    localStorage.setItem("mishne_mikra_favorites", JSON.stringify(merged.favorites));
+
+    setBookmarks(merged.bookmarks);
+    localStorage.setItem("mishne_mikra_bookmarks_list", JSON.stringify(merged.bookmarks));
+
+    saveLearningPathState(merged.learningPath);
+    if (typeof window !== "undefined") {
+      window.dispatchEvent(new CustomEvent("halakhapp:learning_path_updated", { detail: merged.learningPath }));
+    }
+  };
+
+  // Écoute de l'authentification Google et synchronisation Cloud automatique
+  useEffect(() => {
+    const unsubscribe = onAuthChange(async (user) => {
+      setCurrentUser(user);
+      if (user) {
+        setIsSyncing(true);
+        try {
+          const cloudData = await fetchCloudUserData(user.uid);
+          const localUserData = getLocalUserData();
+          const merged = mergeUserData(localUserData, cloudData || {});
+
+          applyMergedUserData(merged);
+          await saveCloudUserData(user.uid, merged);
+          setLastSyncTime(new Date());
+          triggerToast("Progression synchronisée avec le Cloud ☁️");
+        } catch (syncError) {
+          console.error("Erreur de synchronisation Cloud au login:", syncError);
+        } finally {
+          setIsSyncing(false);
+        }
+      }
+    });
+
+    return () => unsubscribe();
+  }, []);
+
+  // Synchronisation au démarrage avec le Code Secret (Option B) si présent et sans compte Google
+  useEffect(() => {
+    if (!currentUser && syncCode) {
+      (async () => {
+        setIsSyncing(true);
+        try {
+          const cloudData = await fetchCloudUserData(syncCode);
+          if (cloudData) {
+            const localData = getLocalUserData();
+            const merged = mergeUserData(localData, cloudData);
+            applyMergedUserData(merged);
+            await saveCloudUserData(syncCode, merged);
+            setLastSyncTime(new Date());
+          }
+        } catch (e) {
+          console.error("Erreur de synchronisation par code:", e);
+        } finally {
+          setIsSyncing(false);
+        }
+      })();
+    }
+  }, [syncCode, currentUser]);
+
+  const syncFieldToCloud = (partial) => {
+    const targetId = currentUser?.uid || syncCode;
+    if (targetId) {
+      saveCloudUserData(targetId, partial).catch((err) => {
+        console.error("Échec de synchronisation Cloud:", err);
+      });
+    }
+  };
+
+  const handleGenerateSyncCode = async () => {
+    const newCode = generateSyncCode();
+    setIsSyncing(true);
+    try {
+      const localData = getLocalUserData();
+      await saveCloudUserData(newCode, localData);
+      setSyncCode(newCode);
+      setStoredSyncCode(newCode);
+      setLastSyncTime(new Date());
+      triggerToast(`Code généré : ${newCode} ☁️`);
+      return newCode;
+    } catch (err) {
+      console.error(err);
+      triggerToast("Erreur lors de la génération du code", "error");
+      throw err;
+    } finally {
+      setIsSyncing(false);
+    }
+  };
+
+  const handleRestoreSyncCode = async (rawCode) => {
+    const code = cleanSyncCode(rawCode);
+    if (!code || code.length < 5) {
+      triggerToast("Veuillez saisir un code valide", "error");
+      return false;
+    }
+    setIsSyncing(true);
+    try {
+      const cloudData = await fetchCloudUserData(code);
+      if (!cloudData) {
+        triggerToast("Aucune sauvegarde trouvée pour ce code", "error");
+        return false;
+      }
+      const localData = getLocalUserData();
+      const merged = mergeUserData(localData, cloudData);
+      applyMergedUserData(merged);
+      await saveCloudUserData(code, merged);
+      setSyncCode(code);
+      setStoredSyncCode(code);
+      setLastSyncTime(new Date());
+      triggerToast("Progression restaurée et liée avec succès ! 🎉");
+      return true;
+    } catch (err) {
+      console.error(err);
+      triggerToast("Erreur lors de la restauration", "error");
+      return false;
+    } finally {
+      setIsSyncing(false);
+    }
+  };
+
+  const handleDisconnectSyncCode = () => {
+    setSyncCode("");
+    setStoredSyncCode("");
+    triggerToast("Code de sauvegarde dissocié de cet appareil");
+  };
 
   const triggerToast = (text, type = "success") => {
     setToast({ text, type });
@@ -346,6 +519,7 @@ function App() {
     }
     setFavorites(updated);
     localStorage.setItem("mishne_mikra_favorites", JSON.stringify(updated));
+    syncFieldToCloud({ favorites: updated });
   };
 
   const handleSelectBookmark = (bm) => {
@@ -413,6 +587,7 @@ function App() {
     const newXp = xp + amount;
     setXp(newXp);
     localStorage.setItem("mishne_mikra_xp", newXp);
+    syncFieldToCloud({ xp: newXp });
     triggerToast(`+${amount} XP gagnés ! 🏆`);
   };
 
@@ -425,6 +600,7 @@ function App() {
     setLastStreakDate(today);
     localStorage.setItem("mishne_mikra_streak", nextStreak);
     localStorage.setItem("mishne_mikra_last_streak_date", today);
+    syncFieldToCloud({ streak: nextStreak, lastStreakDate: today });
     triggerToast("Journée d'étude validée ! 🔥");
     return true;
   };
@@ -608,6 +784,28 @@ function App() {
             hebrewFontsList={HEBREW_FONTS}
             frenchFontsList={FRENCH_FONTS}
             onReset={handleResetProgression}
+            currentUser={currentUser}
+            syncCode={syncCode}
+            isSyncing={isSyncing}
+            lastSyncTime={lastSyncTime}
+            onLoginGoogle={async () => {
+              try {
+                await loginWithGoogle();
+              } catch (e) {
+                triggerToast(e.message || "Connexion annulée ou échouée", "error");
+              }
+            }}
+            onLogout={async () => {
+              try {
+                await logoutUser();
+                triggerToast("Déconnecté avec succès");
+              } catch (e) {
+                triggerToast("Erreur lors de la déconnexion", "error");
+              }
+            }}
+            onGenerateSyncCode={handleGenerateSyncCode}
+            onRestoreSyncCode={handleRestoreSyncCode}
+            onDisconnectSyncCode={handleDisconnectSyncCode}
           />
         )}
       </main>

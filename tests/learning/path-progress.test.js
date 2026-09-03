@@ -11,6 +11,7 @@ import {
   recordCategoryExam,
   recordSimanExam
 } from "../../src/services/learningPathProgress.js";
+import { LEARNING_CATEGORY } from "../../src/services/learningPathModel.js";
 
 test("le parcours débloque les leçons et les Simanim strictement dans l'ordre", () => {
   let state = createDefaultLearningPathState();
@@ -34,7 +35,7 @@ test("le parcours débloque les leçons et les Simanim strictement dans l'ordre"
 });
 test("seul un score parfait valide un examen et la catégorie", () => {
   let state = createDefaultLearningPathState();
-  for (const simanId of ["siman_1", "siman_2", "siman_3"]) {
+  for (const simanId of LEARNING_CATEGORY.simanIds) {
     state = recordSimanExam(state, simanId, 5, 5, 100);
   }
 

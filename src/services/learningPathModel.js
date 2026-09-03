@@ -9,7 +9,7 @@ export const LEARNING_CATEGORY = Object.freeze({
   title: "La conduite de l'homme au réveil",
   titleHebrew: "הלכות הנהגת אדם בבוקר",
   subtitle: "Les lois qui accompagnent le début de la journée",
-  simanIds: Object.freeze(["siman_1", "siman_2", "siman_3"])
+  simanIds: Object.freeze(["siman_1", "siman_2", "siman_3", "siman_4"])
 });
 
 export const LESSON_SIZE = 3;
@@ -62,6 +62,14 @@ const LESSON_TITLES = Object.freeze({
     "Le respect des objets sacrés 📖",
     "La propreté, c'est sacré 🧼",
     "Séparer la nourriture des toilettes 🍎"
+  ]),
+  siman_4: Object.freeze([
+    "Un réveil plein d'énergie 🌅",
+    "Le mot magique du matin 🗣️",
+    "Une histoire de famille 👨👩👧👦",
+    "Pas de stress au réveil ! 😌",
+    "Une hygiène spirituelle au quotidien ✨",
+    "La sagesse des toilettes 🚰"
   ])
 });
 
@@ -166,6 +174,9 @@ const buildSourceIndex = (sourceData) => new Map((sourceData?.halakhot || []).ma
 
 export const getOrderedKnowledgePoints = (knowledgeData, simanId) => {
   const points = [...(knowledgeData?.knowledge_points || [])];
+  if (points.some((kp) => kp.id?.startsWith("new-"))) {
+    return points;
+  }
   const originalIndex = new Map(points.map((kp, index) => [kp.id, index]));
   const bySource = points.sort((left, right) => (
     getParagraphNumber(left) - getParagraphNumber(right)

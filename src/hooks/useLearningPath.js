@@ -13,6 +13,8 @@ import {
   recordSimanExam,
   saveLearningPathState
 } from "../services/learningPathProgress.js";
+import { auth } from "../firebase.js";
+import { saveCloudUserData, getStoredSyncCode } from "../services/cloudSyncService.js";
 
 export const useLearningPath = () => {
   const [status, setStatus] = useState("loading");
@@ -49,8 +51,31 @@ export const useLearningPath = () => {
     return () => { isMounted = false; };
   }, []);
 
+  useEffect(() => {
+    const handleSyncUpdate = (e) => {
+      if (e.detail) {
+        setPathState(e.detail);
+      } else {
+        setPathState(loadLearningPathState());
+      }
+    };
+    if (typeof window !== "undefined") {
+      window.addEventListener("halakhapp:learning_path_updated", handleSyncUpdate);
+      return () => window.removeEventListener("halakhapp:learning_path_updated", handleSyncUpdate);
+    }
+  }, []);
+
   const updateState = (updater) => {
-    setPathState((current) => saveLearningPathState(updater(current)));
+    setPathState((current) => {
+      const nextState = saveLearningPathState(updater(current));
+      const targetId = auth?.currentUser?.uid || getStoredSyncCode();
+      if (targetId) {
+        saveCloudUserData(targetId, { learningPath: nextState }).catch((err) => {
+          console.error("Échec de synchronisation Cloud:", err);
+        });
+      }
+      return nextState;
+    });
   };
 
   const completeLesson = (simanId, lessonId) => {

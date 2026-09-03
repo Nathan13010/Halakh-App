@@ -41,6 +41,19 @@ export const LEARNING_SIMANS = Object.freeze({
       rejectedActivities: 0,
       allowedRejectionReason: null
     })
+  }),
+  siman_4: Object.freeze({
+    id: "siman_4",
+    simanNumber: 4,
+    shortLabel: "Siman 4",
+    sourcePath: "/data/הלכות הנהגת אדם בבוקר/siman_4.json",
+    knowledgePath: "/data/הלכות הנהגת אדם בבוקר/siman_4_knowledge.json",
+    contentContract: Object.freeze({
+      totalActivities: 0,
+      acceptedActivities: 0,
+      rejectedActivities: 0,
+      allowedRejectionReason: null
+    })
   })
 });
 

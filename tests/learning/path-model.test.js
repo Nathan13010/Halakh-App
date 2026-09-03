@@ -232,5 +232,5 @@ test("les examens couvrent le Siman et le test final prend des questions des tro
 
   const categoryExam = buildCategoryExamQuestions(curricula);
   assert.deepEqual(new Set(categoryExam.map((question) => question.simanId)), new Set(LEARNING_CATEGORY.simanIds));
-  assert.equal(categoryExam.length, 6);
+  assert.equal(categoryExam.length, LEARNING_CATEGORY.simanIds.length * 2);
 });

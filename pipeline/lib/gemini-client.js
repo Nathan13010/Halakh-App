@@ -34,12 +34,12 @@ let lastRequestTime = 0;
  */
 export function initGeminiClient() {
   apiKeys = [];
-  
+
   // Charger toutes les clés GEMINI_API_KEY, GEMINI_API_KEY_2, etc.
   const envKeys = Object.keys(process.env)
     .filter(k => /^GEMINI_API_KEY(_\d+)?$/i.test(k))
     .sort();
-  
+
   for (const key of envKeys) {
     const val = process.env[key];
     if (val && val.trim().length > 0) {
@@ -65,7 +65,7 @@ export function initGeminiClient() {
  */
 function switchKey() {
   const nextIndex = (currentKeyIndex + 1) % apiKeys.length;
-  
+
   if (nextIndex === 0 && currentKeyIndex !== 0) {
     // On a fait le tour complet de toutes les clés
     console.log(`⚠️  Toutes les ${apiKeys.length} clés ont atteint leur quota.`);
@@ -145,13 +145,13 @@ export async function callGemini({ prompt, config = {}, model = GEMINI_MODEL, js
 
     } catch (error) {
       const errorMsg = error?.message || String(error);
-      const isQuotaError = errorMsg.includes('429') || 
-                           errorMsg.includes('RESOURCE_EXHAUSTED') ||
-                           errorMsg.includes('quota');
+      const isQuotaError = errorMsg.includes('429') ||
+        errorMsg.includes('RESOURCE_EXHAUSTED') ||
+        errorMsg.includes('quota');
 
       if (isQuotaError) {
         console.log(`⏳ Quota atteint sur clé n°${currentKeyIndex + 1}/${apiKeys.length}`);
-        
+
         // Essayer de basculer sur une autre clé
         const switched = switchKey();
         if (!switched) {

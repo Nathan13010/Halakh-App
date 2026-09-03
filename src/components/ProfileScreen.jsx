@@ -16,12 +16,27 @@ const ProfileScreen = ({
   setFrenchFont,
   hebrewFontsList = [],
   frenchFontsList = [],
-  onReset
+  onReset,
+  currentUser = null,
+  syncCode = "",
+  isSyncing = false,
+  lastSyncTime = null,
+  onLoginGoogle,
+  onLogout,
+  onGenerateSyncCode,
+  onRestoreSyncCode,
+  onDisconnectSyncCode
 }) => {
   const [reportOpen, setReportOpen] = useState(false);
   const [reportText, setReportText] = useState("");
   const [reportSent, setReportSent] = useState(false);
   const [previewClickedWord, setPreviewClickedWord] = useState(null);
+
+  // Option B (Code Secret) states
+  const [isRestoreModalOpen, setIsRestoreModalOpen] = useState(false);
+  const [enteredCode, setEnteredCode] = useState("");
+  const [copiedCode, setCopiedCode] = useState(false);
+  const [isActionLoading, setIsActionLoading] = useState(false);
 
   const selectedHebrew = hebrewFontsList.find(f => f.id === hebrewFont) || hebrewFontsList[0] || { name: 'Noto Serif Hebrew', family: "'Noto Serif Hebrew', serif" };
   const selectedFrench = frenchFontsList.find(f => f.id === frenchFont) || frenchFontsList[0] || { name: 'Inter', family: "'Inter', sans-serif" };
@@ -43,24 +58,208 @@ const ProfileScreen = ({
       
       {/* 👤 Profile Header & Stats */}
       <div className="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-3xl p-6 shadow-sm flex flex-col sm:flex-row items-center sm:items-start gap-5">
-        <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-amber-500 to-yellow-600 border-2 border-amber-300 shadow-lg shadow-amber-500/20 flex items-center justify-center text-4xl shrink-0">
-          🦁
-        </div>
+        {currentUser?.photoURL ? (
+          <img 
+            src={currentUser.photoURL} 
+            alt={currentUser.displayName || "Avatar"} 
+            className="w-20 h-20 rounded-3xl object-cover border-2 border-amber-300 shadow-lg shadow-amber-500/20 shrink-0" 
+          />
+        ) : (
+          <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-amber-500 to-yellow-600 border-2 border-amber-300 shadow-lg shadow-amber-500/20 flex items-center justify-center text-4xl shrink-0">
+            🦁
+          </div>
+        )}
 
-        <div className="flex-1 text-center sm:text-left space-y-1">
+        <div className="flex-1 text-center sm:text-left space-y-1 w-full">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <div>
-              <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400 bg-amber-500/10 px-2.5 py-0.5 rounded-full border border-amber-500/20">
-                Compte Étudiant
-              </span>
+              {currentUser ? (
+                <span className="inline-flex items-center gap-1.5 text-[10px] font-mono font-bold uppercase tracking-widest text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/20">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                  {isSyncing ? "Synchronisation..." : "Compte Google Synchronisé"}
+                </span>
+              ) : syncCode ? (
+                <span className="inline-flex items-center gap-1.5 text-[10px] font-mono font-bold uppercase tracking-widest text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/20">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                  {isSyncing ? "Synchronisation..." : "Sauvegardé via Code Secret"}
+                </span>
+              ) : (
+                <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400 bg-amber-500/10 px-2.5 py-0.5 rounded-full border border-amber-500/20">
+                  Compte Local (Invité)
+                </span>
+              )}
               <h2 className="text-xl sm:text-2xl font-serif font-bold text-zinc-900 dark:text-zinc-100 mt-1">
-                Mon Profil & Réglages
+                {currentUser?.displayName || (syncCode ? "Profil Synchronisé (Code)" : "Mon Profil & Réglages")}
               </h2>
+              {currentUser?.email ? (
+                <p className="text-xs text-zinc-500 dark:text-zinc-400 font-medium">
+                  {currentUser.email}
+                </p>
+              ) : syncCode ? (
+                <p className="text-xs text-zinc-500 dark:text-zinc-400 font-medium font-mono">
+                  Code actif : {syncCode}
+                </p>
+              ) : null}
             </div>
-            <span className="text-xs text-zinc-600 dark:text-zinc-400">
-              Yalkout Yossef Édition Bilingue
-            </span>
+
+            <div className="flex items-center gap-2 justify-center sm:justify-end">
+              {currentUser ? (
+                <button
+                  type="button"
+                  onClick={onLogout}
+                  className="px-3 py-1.5 rounded-xl bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 hover:text-red-600 dark:hover:text-red-400 border border-zinc-200 dark:border-zinc-700 text-xs font-semibold transition"
+                >
+                  Se déconnecter
+                </button>
+              ) : (
+                <button
+                  type="button"
+                  onClick={onLoginGoogle}
+                  className="px-3 py-1.5 rounded-xl bg-blue-50 dark:bg-blue-950/40 text-blue-700 dark:text-blue-300 hover:bg-blue-100 dark:hover:bg-blue-900/60 border border-blue-200 dark:border-blue-800 text-xs font-bold transition flex items-center gap-1.5"
+                >
+                  <svg className="w-3.5 h-3.5" viewBox="0 0 24 24">
+                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                  </svg>
+                  Connexion Google
+                </button>
+              )}
+            </div>
           </div>
+
+          {/* Si déconnecté de Google : Affichage du Code Actif OU Options de Sauvegarde (Google & Code Secret) */}
+          {!currentUser && (
+            <div className="mt-4 space-y-3">
+              {syncCode ? (
+                /* Carte Code Secret Actif */
+                <div className="p-4 rounded-2xl bg-emerald-50/70 dark:bg-emerald-950/20 border border-emerald-200 dark:border-emerald-800/60 space-y-3 text-left">
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-900/50 flex items-center justify-center text-xl shrink-0">
+                        🔑
+                      </div>
+                      <div>
+                        <div className="text-xs font-bold text-zinc-900 dark:text-zinc-100">Votre Code Secret de Sauvegarde</div>
+                        <div className="text-[11px] text-zinc-600 dark:text-zinc-400">Conservez ce code pour restaurer vos leçons et XP sur un autre appareil.</div>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-2 w-full sm:w-auto">
+                      <div className="px-3 py-1.5 rounded-xl bg-white dark:bg-zinc-900 border border-emerald-300 dark:border-emerald-700 font-mono font-bold text-sm tracking-wider text-emerald-700 dark:text-emerald-300 select-all">
+                        {syncCode}
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          navigator.clipboard.writeText(syncCode);
+                          setCopiedCode(true);
+                          setTimeout(() => setCopiedCode(false), 2000);
+                        }}
+                        className="px-3 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition flex items-center gap-1 shrink-0"
+                      >
+                        {copiedCode ? "✓ Copié" : "📋 Copier"}
+                      </button>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center justify-between pt-2 border-t border-emerald-200/50 dark:border-emerald-900/40 text-[11px]">
+                    <span className="text-emerald-700 dark:text-emerald-400 font-medium flex items-center gap-1">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                      Sauvegarde Cloud active en arrière-plan
+                    </span>
+                    <div className="flex items-center gap-3">
+                      <button
+                        type="button"
+                        onClick={() => setIsRestoreModalOpen(true)}
+                        className="text-zinc-600 dark:text-zinc-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:underline font-semibold"
+                      >
+                        Changer de code
+                      </button>
+                      <span className="text-zinc-300 dark:text-zinc-750">•</span>
+                      <button
+                        type="button"
+                        onClick={onDisconnectSyncCode}
+                        className="text-zinc-500 hover:text-red-600 dark:hover:text-red-400 transition font-medium"
+                      >
+                        Dissocier
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                /* Carte Choix des 2 Options */
+                <div className="p-4 rounded-2xl bg-gradient-to-r from-blue-50/70 to-amber-50/40 dark:from-blue-950/20 dark:to-amber-950/10 border border-blue-200/60 dark:border-blue-900/40 space-y-3.5 text-left">
+                  <div className="flex items-center gap-3">
+                    <span className="text-2xl shrink-0">☁️</span>
+                    <div>
+                      <div className="text-xs font-bold text-zinc-900 dark:text-zinc-100">Sauvegardez votre progression</div>
+                      <div className="text-[11px] text-zinc-600 dark:text-zinc-400">Choisissez votre méthode de synchronisation préférée :</div>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-1">
+                    {/* Option A : Google */}
+                    <button
+                      type="button"
+                      onClick={onLoginGoogle}
+                      className="p-3 rounded-xl bg-white dark:bg-zinc-900/90 border border-zinc-200 dark:border-zinc-800 hover:border-blue-300 dark:hover:border-blue-800 transition shadow-sm flex items-center justify-between group text-left"
+                    >
+                      <div className="flex items-center gap-2.5">
+                        <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                          <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+                          <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+                          <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+                          <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+                        </svg>
+                        <div>
+                          <div className="text-xs font-bold text-zinc-900 dark:text-zinc-100 group-hover:text-blue-600 transition">Option A • Google</div>
+                          <div className="text-[10px] text-zinc-500">1-clic avec votre compte</div>
+                        </div>
+                      </div>
+                      <span className="text-xs font-semibold text-blue-600 dark:text-blue-400">Lier →</span>
+                    </button>
+
+                    {/* Option B : Code Secret Anonyme */}
+                    <div className="p-3 rounded-xl bg-white dark:bg-zinc-900/90 border border-zinc-200 dark:border-zinc-800 shadow-sm flex flex-col justify-between gap-2 text-left">
+                      <div className="flex items-center justify-between">
+                        <div>
+                          <div className="text-xs font-bold text-zinc-900 dark:text-zinc-100">Option B • Sans compte</div>
+                          <div className="text-[10px] text-zinc-500">Code secret anonyme</div>
+                        </div>
+                        <span className="text-base">🔑</span>
+                      </div>
+                      <div className="flex items-center gap-1.5 pt-1">
+                        <button
+                          type="button"
+                          disabled={isActionLoading}
+                          onClick={async () => {
+                            setIsActionLoading(true);
+                            try {
+                              await onGenerateSyncCode();
+                            } finally {
+                              setIsActionLoading(false);
+                            }
+                          }}
+                          className="flex-1 px-2.5 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-600 text-white text-[11px] font-bold transition text-center shadow-xs"
+                        >
+                          Créer un code
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setIsRestoreModalOpen(true)}
+                          className="px-2.5 py-1.5 rounded-lg bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 text-zinc-800 dark:text-zinc-200 text-[11px] font-semibold transition"
+                        >
+                          J'ai un code
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Quick Stats Grid */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-4">
@@ -366,6 +565,81 @@ const ProfileScreen = ({
           Réinitialiser ma progression (Apprentissage, Streak & XP)
         </button>
       </div>
+
+      {/* 🔑 MODALE DE RESTAURATION VIA CODE SECRET */}
+      {isRestoreModalOpen && (
+        <div className="fixed inset-0 bg-black/60 backdrop-blur-xs z-50 flex items-center justify-center p-4">
+          <div className="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-3xl p-6 max-w-sm w-full shadow-2xl space-y-4 text-left">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <span className="text-xl">🔑</span>
+                <h3 className="text-base font-bold text-zinc-900 dark:text-zinc-100">
+                  Restaurer un Code Secret
+                </h3>
+              </div>
+              <button
+                type="button"
+                onClick={() => {
+                  setIsRestoreModalOpen(false);
+                  setEnteredCode("");
+                }}
+                className="text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-200 text-lg leading-none cursor-pointer"
+              >
+                ✕
+              </button>
+            </div>
+
+            <p className="text-xs text-zinc-600 dark:text-zinc-400">
+              Entrez votre code secret de sauvegarde (ex: <span className="font-mono font-bold">HLK-84K-92M</span>) pour récupérer votre progression sur cet appareil.
+            </p>
+
+            <div>
+              <label className="block text-[11px] font-bold uppercase tracking-wider text-zinc-500 mb-1">
+                Code de sauvegarde
+              </label>
+              <input
+                type="text"
+                value={enteredCode}
+                onChange={(e) => setEnteredCode(e.target.value.toUpperCase())}
+                placeholder="HLK-XXX-XXX"
+                className="w-full uppercase font-mono tracking-widest text-center text-sm py-2.5 px-3 rounded-xl bg-zinc-50 dark:bg-zinc-950 border border-zinc-300 dark:border-zinc-700 text-zinc-900 dark:text-zinc-100 outline-none focus:border-amber-500 font-bold"
+              />
+            </div>
+
+            <div className="flex items-center gap-2 pt-2">
+              <button
+                type="button"
+                onClick={() => {
+                  setIsRestoreModalOpen(false);
+                  setEnteredCode("");
+                }}
+                className="flex-1 py-2.5 rounded-xl text-xs font-semibold text-zinc-600 dark:text-zinc-300 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition cursor-pointer"
+              >
+                Annuler
+              </button>
+              <button
+                type="button"
+                disabled={isActionLoading || enteredCode.trim().length < 5}
+                onClick={async () => {
+                  setIsActionLoading(true);
+                  try {
+                    const success = await onRestoreSyncCode(enteredCode);
+                    if (success) {
+                      setIsRestoreModalOpen(false);
+                      setEnteredCode("");
+                    }
+                  } finally {
+                    setIsActionLoading(false);
+                  }
+                }}
+                className="flex-1 py-2.5 rounded-xl text-xs font-bold bg-amber-500 hover:bg-amber-600 disabled:opacity-50 text-white transition shadow-sm cursor-pointer"
+              >
+                {isActionLoading ? "Vérification..." : "Restaurer"}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       <p className="text-center text-[10px] text-zinc-600 dark:text-zinc-400 pt-2">
         Halakh'App v2.0 • Yalkout Yossef Édition Bilingue

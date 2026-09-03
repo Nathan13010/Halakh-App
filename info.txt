@@ -96,3 +96,8 @@ npm run critic -- --file "public\data\הלכות ציצית\siman_9.json"
 /// CREDENTIALS OAUTH (Google Auth) ///
 # Configuré dans Google Cloud Console / Variables d'environnement locales
 
+///
+
+pour exporter l'hebreu avec voyelle + francais d'un siman en format "txt" dans les telechargment
+
+node scratch/export_siman.js "הלכות הנהגת אדם בבוקר/siman_1.json"
