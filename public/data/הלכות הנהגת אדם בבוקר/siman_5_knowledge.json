@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "siman": 5,
+    "siman_hebrew": "ה",
+    "title": "Lois de l'intention dans les bénédictions",
+    "title_hebrew": "הלכות כוונת הברכות",
+    "source": "siman_5.json",
+    "knowledge_points": 18,
+    "version": "2.0",
+    "method": "novice-friendly rewrite"
+  },
+  "knowledge_points": [
+    {
+      "id": "new-s5-kp-001",
+      "title": "Un mot, plusieurs dimensions",
+      "rule": "Dans le judaïsme, Dieu n'a pas qu'un seul nom, car Il a plusieurs facettes. Le nom le plus courant que nous prononçons dans les bénédictions se lit \"Ado-naï\". Ce nom magnifique signifie tout simplement qu'Il est le Maître bienveillant de tout ce qui existe.",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 1
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Dans le judaïsme, Dieu n'a pas qu'un seul nom, car Il a plusieurs facettes. Le nom le plus courant que nous prononçons dans les bénédictions se lit \"Ado-naï\". Ce nom magnifique signifie tout simplement qu'Il est le Maître bienveillant de tout ce qui existe."
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Tu t'apprêtes à faire une bénédiction sur un fruit. Que te conseille la sagesse juive au moment de prononcer le nom de Dieu ?",
+      "quizOptions": [
+        "Faire une petite pause mentale pour penser qu'Il est le Maître de tout.",
+        "Le dire le plus vite possible en retenant ta respiration pour ne pas bafouiller."
+      ],
+      "quizAnswer": "Faire une petite pause mentale pour penser qu'Il est le Maître de tout."
+    },
+    {
+      "id": "new-s5-kp-002",
+      "title": "Le Maître du temps",
+      "rule": "Ce même nom s'écrit dans les textes sacrés avec quatre lettres hébraïques (Yod-Hé-Vav-Hé). Ce code secret et sacré porte en lui une notion fascinante : il englobe le passé, le présent et le futur. En le voyant, on se rappelle que Dieu \"était, est et sera\". Il est au-delà du temps.",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 1
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Ce même nom s'écrit dans les textes sacrés avec quatre lettres hébraïques (Yod-Hé-Vav-Hé). Ce code secret et sacré porte en lui une notion fascinante : il englobe le passé, le présent et le futur. En le voyant, on se rappelle que Dieu \"était, est et sera\". Il est au-delà du temps."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "Le nom de Dieu écrit en quatre lettres (le Tétragramme) contient l'idée du passé, du présent et du futur.",
+      "quizOptions": [
+        "Faux, il indique seulement qu'Il a créé le monde dans le passé.",
+        "Vrai, il signifie qu'Il \"était, est et sera\"."
+      ],
+      "quizAnswer": "Vrai, il signifie qu'Il \"était, est et sera\"."
+    },
+    {
+      "id": "new-s5-kp-003",
+      "title": "Un ancrage quotidien",
+      "rule": "Quand tu fais une bénédiction, le but n'est pas de réciter une formule magique à toute vitesse. L'idéal est de faire une micro-pause d'une seconde en prononçant Son nom, pour te rappeler que tu t'adresses au Maître de l'Univers, éternel et infini. C'est un formidable exercice de pleine conscience !",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 1
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Quand tu fais une bénédiction, le but n'est pas de réciter une formule magique à toute vitesse. L'idéal est de faire une micro-pause d'une seconde en prononçant Son nom, pour te rappeler que tu t'adresses au Maître de l'Univers, éternel et infini. C'est un formidable exercice de pleine conscience !"
+      },
+      "quizEyebrow": "Devinette",
+      "quizPrompt": "Je suis le mot que l'on prononce dans les prières et qui signifie \"Maître de tout\". Qui suis-je ?",
+      "quizOptions": [
+        "Shalom (Paix)",
+        "Ado-naï"
+      ],
+      "quizAnswer": "Ado-naï"
+    },
+    {
+      "id": "new-s5-kp-004",
+      "title": "Une autre facette du Divin",
+      "rule": "Parfois, dans la prière, tu rencontreras un autre nom très connu : Elokim. Si le nom précédent représentait la miséricorde et l'éternité, Elokim représente la justice, la force et les lois de la nature. C'est l'aspect puissant du Créateur.",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 1
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Parfois, dans la prière, tu rencontreras un autre nom très connu : Elokim. Si le nom précédent représentait la miséricorde et l'éternité, Elokim représente la justice, la force et les lois de la nature. C'est l'aspect puissant du Créateur."
+      },
+      "quizEyebrow": "Devinette",
+      "quizPrompt": "Lorsque je prononce le nom \"Elokim\", à quoi suis-je censé penser ?",
+      "quizOptions": [
+        "À ce que je vais manger ce soir.",
+        "À l'idée que Dieu est puissant et Maître de toutes les forces."
+      ],
+      "quizAnswer": "À l'idée que Dieu est puissant et Maître de toutes les forces."
+    },
+    {
+      "id": "new-s5-kp-005",
+      "title": "Le Maître des forces",
+      "rule": "Quand tu prononces Elokim, l'idée est de penser à une immense centrale d'énergie. Ce nom signifie que Dieu est tout-puissant, omnipotent, et qu'Il est la source absolue de toutes les forces qui régissent notre univers, de la gravité à l'énergie solaire.",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 1
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Quand tu prononces Elokim, l'idée est de penser à une immense centrale d'énergie. Ce nom signifie que Dieu est tout-puissant, omnipotent, et qu'Il est la source absolue de toutes les forces qui régissent notre univers, de la gravité à l'énergie solaire."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "\"Elokénou\" signifie que Dieu est lointain et ne s'intéresse pas à nous.",
+      "quizOptions": [
+        "Faux, cela signifie \"Notre Dieu\", ce qui montre une relation intime et proche.",
+        "Vrai, c'est un mot pour marquer la distance avec l'Univers."
+      ],
+      "quizAnswer": "Faux, cela signifie \"Notre Dieu\", ce qui montre une relation intime et proche."
+    },
+    {
+      "id": "new-s5-kp-006",
+      "title": "\"Notre\" Dieu personnel",
+      "rule": "Il arrive souvent que l'on dise Elokénou, ce qui se traduit par \"Notre Dieu\". C'est un mot magnifique qui allie la puissance infinie de l'Univers à une relation intime et personnelle. Il est le Maître des galaxies, mais Il est aussi \"le nôtre\", proche de nous au quotidien.",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 1
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Il arrive souvent que l'on dise Elokénou, ce qui se traduit par \"Notre Dieu\". C'est un mot magnifique qui allie la puissance infinie de l'Univers à une relation intime et personnelle. Il est le Maître des galaxies, mais Il est aussi \"le nôtre\", proche de nous au quotidien."
+      },
+      "quizEyebrow": "Phrase à trou",
+      "quizPrompt": "Le nom Elokim représente plutôt la _______, tandis que Ado-naï rappelle que Dieu est le Maître du temps.",
+      "quizOptions": [
+        "Puissance et la force",
+        "Faiblesse et la fatigue"
+      ],
+      "quizAnswer": "Puissance et la force"
+    },
+    {
+      "id": "new-s5-kp-007",
+      "title": "L'idéal de concentration",
+      "rule": "Dans un monde parfait, à chaque fois que nous prononçons le nom de Dieu au cours de la journée, nous devrions penser à sa signification (Maître du monde, éternel, etc.). Mais soyons honnêtes : avec la fatigue, le travail et les distractions, c'est humainement très difficile !",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 2
+        },
+        {
+          "siman": 5,
+          "seif": 3
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Dans un monde parfait, à chaque fois que nous prononçons le nom de Dieu au cours de la journée, nous devrions penser à sa signification (Maître du monde, éternel, etc.). Mais soyons honnêtes : avec la fatigue, le travail et les distractions, c'est humainement très difficile !"
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Tu as fait ta \"condition\" le matin, mais à 15h, tu fais une bénédiction sur un verre d'eau et tu oublies de penser au sens profond du nom de Dieu. Que se passe-t-il ?",
+      "quizOptions": [
+        "C'est une catastrophe, la bénédiction est annulée, tu dois jeûner.",
+        "Tout va bien ! Ton intention du matin te couvre, la tradition est compréhensive."
+      ],
+      "quizAnswer": "Tout va bien ! Ton intention du matin te couvre, la tradition est compréhensive."
+    },
+    {
+      "id": "new-s5-kp-008",
+      "title": "La \"condition\" matinale",
+      "rule": "Heureusement, la tradition juive est pleine de bon sens. Elle propose une superbe astuce : le matin, en te levant, tu peux prendre quelques secondes pour décider que chaque fois que tu prononceras le nom de Dieu aujourd'hui, cela inclura automatiquement toute sa belle signification, même si tu oublies d'y penser sur le moment.",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 2
+        },
+        {
+          "siman": 5,
+          "seif": 3
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Heureusement, la tradition juive est pleine de bon sens. Elle propose une superbe astuce : le matin, en te levant, tu peux prendre quelques secondes pour décider que chaque fois que tu prononceras le nom de Dieu aujourd'hui, cela inclura automatiquement toute sa belle signification, même si tu oublies d'y penser sur le moment."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "Il est conseillé de faire un effort de concentration particulier lors de la prière du Chéma Israël.",
+      "quizOptions": [
+        "Vrai, c'est l'un des moments phares de la journée.",
+        "Faux, le Chéma n'a aucune importance."
+      ],
+      "quizAnswer": "Vrai, c'est l'un des moments phares de la journée."
+    },
+    {
+      "id": "new-s5-kp-009",
+      "title": "Les moments phares",
+      "rule": "Grâce à cette astuce du matin, une intention globale (savoir à qui on s'adresse) suffira pour le reste de la journée. Cependant, il y a deux moments où l'on te demandera de faire un petit effort supplémentaire de concentration : lors de la fameuse prière du Chéma Israël et au tout début de la grande prière silencieuse (la Amida).",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 2
+        },
+        {
+          "siman": 5,
+          "seif": 3
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Grâce à cette astuce du matin, une intention globale (savoir à qui on s'adresse) suffira pour le reste de la journée. Cependant, il y a deux moments où l'on te demandera de faire un petit effort supplémentaire de concentration : lors de la fameuse prière du Chéma Israël et au tout début de la grande prière silencieuse (la Amida)."
+      },
+      "quizEyebrow": "Phrase à trou",
+      "quizPrompt": "Faire une \"condition\" le matin, c'est un peu comme activer un _______ spirituel pour la journée.",
+      "quizOptions": [
+        "Mode avion",
+        "Pilote automatique de bonnes intentions"
+      ],
+      "quizAnswer": "Pilote automatique de bonnes intentions"
+    },
+    {
+      "id": "new-s5-kp-010",
+      "title": "Pas de course contre la montre",
+      "rule": "Une règle d'or dans le judaïsme : la spiritualité déteste la précipitation. Quand tu récites une bénédiction ou une prière, fais-le calmement. Il faut prendre le temps d'articuler et éviter \"d'avaler\" les mots. C'est ton moment à toi, respire.",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 4
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Une règle d'or dans le judaïsme : la spiritualité déteste la précipitation. Quand tu récites une bénédiction ou une prière, fais-le calmement. Il faut prendre le temps d'articuler et éviter \"d'avaler\" les mots. C'est ton moment à toi, respire."
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Tu es très en retard pour prendre ton bus, mais tu veux faire une bénédiction sur ton café. Comment faire ?",
+      "quizOptions": [
+        "Mieux vaut prendre 5 secondes pour la dire calmement et avec le sourire.",
+        "La dire en mode \"rap\" ultra-rapide en mâchant la moitié des mots pour gagner 2 secondes."
+      ],
+      "quizAnswer": "Mieux vaut prendre 5 secondes pour la dire calmement et avec le sourire."
+    },
+    {
+      "id": "new-s5-kp-011",
+      "title": "La magie de l'instant présent",
+      "rule": "Prendre le temps de bien prononcer chaque mot, c'est s'ancrer dans le présent. En ralentissant ton débit de parole, tu apaises ton rythme cardiaque et tu donnes du poids et du sens à ce que tu dis. La qualité vaudra toujours mieux que la quantité.",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 4
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Prendre le temps de bien prononcer chaque mot, c'est s'ancrer dans le présent. En ralentissant ton débit de parole, tu apaises ton rythme cardiaque et tu donnes du poids et du sens à ce que tu dis. La qualité vaudra toujours mieux que la quantité."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "Selon la loi juive, il faut avoir l'air très triste et sévère quand on récite une bénédiction.",
+      "quizOptions": [
+        "Vrai, c'est un moment de punition.",
+        "Faux, il est explicitement demandé de bénir avec joie !"
+      ],
+      "quizAnswer": "Faux, il est explicitement demandé de bénir avec joie !"
+    },
+    {
+      "id": "new-s5-kp-012",
+      "title": "L'ingrédient secret : la joie",
+      "rule": "Le texte de loi ajoute un détail magnifique : il faut bénir avec joie. Le judaïsme n'est pas une religion de la tristesse ou de la lourdeur. Faire une bénédiction, c'est s'émerveiller qu'une pomme ait poussé sur un arbre pour nous nourrir. C'est un acte de gratitude qui doit donner le sourire !",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 4
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Le texte de loi ajoute un détail magnifique : il faut bénir avec joie. Le judaïsme n'est pas une religion de la tristesse ou de la lourdeur. Faire une bénédiction, c'est s'émerveiller qu'une pomme ait poussé sur un arbre pour nous nourrir. C'est un acte de gratitude qui doit donner le sourire !"
+      },
+      "quizEyebrow": "Phrase à trou",
+      "quizPrompt": "Il faut faire attention à dire les bénédictions avec sérénité pour ne pas _______ les lettres.",
+      "quizOptions": [
+        "Avaler",
+        "Colorier"
+      ],
+      "quizAnswer": "Avaler"
+    },
+    {
+      "id": "new-s5-kp-013",
+      "title": "Préparer son esprit",
+      "rule": "Avant de faire un acte spirituel (comme mettre une pièce dans la boîte de charité ou étudier un texte), il est bon de préparer son esprit. Pourquoi je le fais ? Pour me connecter à Dieu et faire le bien. Cette petite préparation mentale donne une âme à notre action.",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 7
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Avant de faire un acte spirituel (comme mettre une pièce dans la boîte de charité ou étudier un texte), il est bon de préparer son esprit. Pourquoi je le fais ? Pour me connecter à Dieu et faire le bien. Cette petite préparation mentale donne une âme à notre action."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "Réciter le \"Léchem Yihoud\" avant une bonne action est une obligation stricte pour tous.",
+      "quizOptions": [
+        "Vrai, sinon l'action ne compte pas.",
+        "Faux, c'est optionnel. On le fait seulement si ça nous aide à mieux nous concentrer."
+      ],
+      "quizAnswer": "Faux, c'est optionnel. On le fait seulement si ça nous aide à mieux nous concentrer."
+    },
+    {
+      "id": "new-s5-kp-014",
+      "title": "La formule magique : Léchem Yihoud",
+      "rule": "Pour aider à se concentrer, les sages ont rédigé une petite phrase d'introduction appelée Léchem Yihoud (\"Pour l'unification\"). La réciter avant une action permet de déclarer : \"Je m'apprête à faire cette action uniquement pour accomplir la volonté bienveillante du Créateur\". C'est un peu comme un échauffement spirituel.",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 7
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Pour aider à se concentrer, les sages ont rédigé une petite phrase d'introduction appelée Léchem Yihoud (\"Pour l'unification\"). La réciter avant une action permet de déclarer : \"Je m'apprête à faire cette action uniquement pour accomplir la volonté bienveillante du Créateur\". C'est un peu comme un échauffement spirituel."
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Tu remarques que quand tu dis une phrase d'intention avant une prière, tu es beaucoup plus détendu et concentré. Que te conseille la tradition ?",
+      "quizOptions": [
+        "De continuer à le faire, car cette préparation est excellente pour toi !",
+        "D'arrêter immédiatement car c'est une perte de temps."
+      ],
+      "quizAnswer": "De continuer à le faire, car cette préparation est excellente pour toi !"
+    },
+    {
+      "id": "new-s5-kp-015",
+      "title": "À chacun son rythme",
+      "rule": "Faut-il toujours dire cette phrase ? Pas du tout, c'est à la carte ! Si tu te connais et que la simple bénédiction suffit à te mettre dans le bain, tu n'as pas besoin d'en rajouter. Mais si lire cette petite formule t'aide à te recentrer et à agir avec plus de cœur, alors fonce !",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 7
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Faut-il toujours dire cette phrase ? Pas du tout, c'est à la carte ! Si tu te connais et que la simple bénédiction suffit à te mettre dans le bain, tu n'as pas besoin d'en rajouter. Mais si lire cette petite formule t'aide à te recentrer et à agir avec plus de cœur, alors fonce !"
+      },
+      "quizEyebrow": "Devinette",
+      "quizPrompt": "Je suis une petite phrase optionnelle que certains récitent pour se préparer spirituellement avant une action. Qui suis-je ?",
+      "quizOptions": [
+        "Le Léchem Yihoud",
+        "La liste de courses"
+      ],
+      "quizAnswer": "Le Léchem Yihoud"
+    },
+    {
+      "id": "new-s5-kp-016",
+      "title": "Le mystère du Tétragramme",
+      "rule": "Tu l'as sûrement remarqué : dans la Bible hébraïque, le nom personnel de Dieu s'écrit avec quatre lettres (Yod, Hé, Vav, Hé). C'est ce qu'on appelle le Tétragramme. Mais il y a une règle absolue dans le judaïsme : nous ne prononçons jamais ce nom tel qu'il est écrit.",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 8
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Tu l'as sûrement remarqué : dans la Bible hébraïque, le nom personnel de Dieu s'écrit avec quatre lettres (Yod, Hé, Vav, Hé). C'est ce qu'on appelle le Tétragramme. Mais il y a une règle absolue dans le judaïsme : nous ne prononçons jamais ce nom tel qu'il est écrit."
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Tu lis un livre d'étude juive avec un ami et vous tombez sur les quatre lettres du Nom de Dieu (Yod-Hé-Vav-Hé). Comment le lire à haute voix ?",
+      "quizOptions": [
+        "J'essaie de le prononcer phonétiquement pour voir ce que ça donne.",
+        "Je dis \"Ado-naï\" ou j'épelle \"Yod-Ké-Vav-Ké\" par respect."
+      ],
+      "quizAnswer": "Je dis \"Ado-naï\" ou j'épelle \"Yod-Ké-Vav-Ké\" par respect."
+    },
+    {
+      "id": "new-s5-kp-017",
+      "title": "Pourquoi ne pas le prononcer ?",
+      "rule": "Ce n'est pas un tabou effrayant, mais une marque d'immense respect. Dieu est infini et insaisissable. Prononcer Son vrai nom, ce serait faire comme si on pouvait Le limiter, Le mettre dans une case ou Le contrôler. Ne pas le lire tel quel, c'est garder de l'émerveillement face à Son mystère.",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 8
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Ce n'est pas un tabou effrayant, mais une marque d'immense respect. Dieu est infini et insaisissable. Prononcer Son vrai nom, ce serait faire comme si on pouvait Le limiter, Le mettre dans une case ou Le contrôler. Ne pas le lire tel quel, c'est garder de l'émerveillement face à Son mystère."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "L'interdiction de prononcer le Nom divin tel qu'il s'écrit est une marque de profond respect envers l'Infini.",
+      "quizOptions": [
+        "Vrai, c'est pour garder la notion d'émerveillement et ne pas limiter Dieu.",
+        "Faux, c'est juste parce que c'est trop difficile à prononcer."
+      ],
+      "quizAnswer": "Vrai, c'est pour garder la notion d'émerveillement et ne pas limiter Dieu."
+    },
+    {
+      "id": "new-s5-kp-018",
+      "title": "Comment en parler ?",
+      "rule": "Quand on prie et qu'on lit ces quatre lettres, on prononce à la place le mot Ado-naï (Mon Maître). Et si on doit parler de l'orthographe du nom en dehors d'une prière (par exemple pour l'étudier), on épellera les lettres en modifiant légèrement leur son, par respect (par exemple, on dira \"Yod-Ké-Vav-Ké\").",
+      "sources": [
+        {
+          "siman": 5,
+          "seif": 8
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Quand on prie et qu'on lit ces quatre lettres, on prononce à la place le mot Ado-naï (Mon Maître). Et si on doit parler de l'orthographe du nom en dehors d'une prière (par exemple pour l'étudier), on épellera les lettres en modifiant légèrement leur son, par respect (par exemple, on dira \"Yod-Ké-Vav-Ké\")."
+      },
+      "quizEyebrow": "Phrase à trou",
+      "quizPrompt": "Le Nom de Dieu écrit en quatre lettres s'appelle le _______.",
+      "quizOptions": [
+        "Pentagramme",
+        "Tétragramme"
+      ],
+      "quizAnswer": "Tétragramme"
+    }
+  ]
+}

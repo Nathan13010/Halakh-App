@@ -54,6 +54,45 @@ export const LEARNING_SIMANS = Object.freeze({
       rejectedActivities: 0,
       allowedRejectionReason: null
     })
+  }),
+  siman_5: Object.freeze({
+    id: "siman_5",
+    simanNumber: 5,
+    shortLabel: "Siman 5",
+    sourcePath: "/data/הלכות הנהגת אדם בבוקר/siman_5.json",
+    knowledgePath: "/data/הלכות הנהגת אדם בבוקר/siman_5_knowledge.json",
+    contentContract: Object.freeze({
+      totalActivities: 0,
+      acceptedActivities: 0,
+      rejectedActivities: 0,
+      allowedRejectionReason: null
+    })
+  }),
+  siman_6: Object.freeze({
+    id: "siman_6",
+    simanNumber: 6,
+    shortLabel: "Siman 6",
+    sourcePath: "/data/הלכות הנהגת אדם בבוקר/siman_6.json",
+    knowledgePath: "/data/הלכות הנהגת אדם בבוקר/siman_6_knowledge.json",
+    contentContract: Object.freeze({
+      totalActivities: 0,
+      acceptedActivities: 0,
+      rejectedActivities: 0,
+      allowedRejectionReason: null
+    })
+  }),
+  siman_7: Object.freeze({
+    id: "siman_7",
+    simanNumber: 7,
+    shortLabel: "Siman 7",
+    sourcePath: "/data/הלכות הנהגת אדם בבוקר/siman_7.json",
+    knowledgePath: "/data/הלכות הנהגת אדם בבוקר/siman_7_knowledge.json",
+    contentContract: Object.freeze({
+      totalActivities: 0,
+      acceptedActivities: 0,
+      rejectedActivities: 0,
+      allowedRejectionReason: null
+    })
   })
 });
 

@@ -1,0 +1,25 @@
+{
+  "siman": "32",
+  "timestamp": "2026-09-04T07:05:09.363Z",
+  "dryRun": false,
+  "totalFixes": 4,
+  "seifimFixed": 2,
+  "details": [
+    {
+      "seif": "24",
+      "fixes": 2,
+      "details": [
+        "Suppression ponctuation isolée mot[164] (\"–\") rattachée à mot[163]",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    },
+    {
+      "seif": "78",
+      "fixes": 2,
+      "details": [
+        "Suppression ponctuation isolée mot[28] (\"–\") rattachée à mot[27]",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    }
+  ]
+}

@@ -38319,7 +38319,7 @@
           "id": 4,
           "hebreu_brut": "את",
           "hebreu_voyelles": "אֶת",
-          "francais_mot": "",
+          "francais_mot": "(complément)",
           "expression_contexte": ""
         },
         {
@@ -38354,7 +38354,7 @@
           "id": 9,
           "hebreu_brut": "את",
           "hebreu_voyelles": "אֶת",
-          "francais_mot": "",
+          "francais_mot": "(complément)",
           "expression_contexte": ""
         },
         {
@@ -44458,7 +44458,7 @@
       "siman": "25",
       "seif": "78",
       "texte_integral": {
-        "hebreu_sans_voyelles": "עח. יש נוהגים לכרוך את הרצועה סביב הבית, על התיתורא, ולהדק את היו\"ד של התפילין לבית, ויש שכורכים על הקיבורת שלש כריכות בצורת שי\"ן, ויש שלא נהגו בכל זה, אלא מיד אחר ברכת להניח תפילין והידוק הקשר, מעבירין את הרצועה למטה מן המרפק, וכורכים על הזרוע. [ילקו\"י הלכות תפילין שם סי' כה הערה עז . שארית יוסף ח\"א עמ' שנט].",
+        "hebreu_sans_voyelles": "עח. יש נוהגים לכרוך את הרצועה סביב הבית, על התיתורא, ולהדק את היו\"ד של התפילין לבית, ויש שכורכים על הקיבורת שלש כריכות בצורת שי\"ן, ויש שלא נהגו בכל זה, אלא מיד אחר ברכת להניח תפילין והידוק הקשר, מעבירין את הרצועה למטה מן המרפק, וכורכים על הזרוע. [ילקו\"י הלכות תפילין שם סי' כה הערה עז. שארית יוסף ח\"א עמ' שנט].",
         "hebreu_avec_voyelles": "עח יֵשׁ נוֹהֲגִים לִכְרֹךְ אֶת הָרְצוּעָה סְבִיב הַבַּיִת, עַל הַתִּתּוּרָא, וּלְהַדֵּק אֶת הַיּוֹ\"ד שֶׁל הַתְּפִלִּין לַבַּיִת, וְיֵשׁ שֶׁכּוֹרְכִים עַל הַקִּבֹּרֶת שָׁלֹשׁ כְּרִיכוֹת בְּצוּרַת שִׁי\"ן, וְיֵשׁ שֶׁלֹּא נָהֲגוּ בְּכָל זֶה, אֶלָּא מִיָּד אַחַר בִּרְכַּת לְהַנִּיחַ תְּפִלִּין וְהִדּוּק הַקֶּשֶׁר, מַעֲבִירִין אֶת הָרְצוּעָה לְמַטָּה מִן הַמַּרְפֵּק, וְכוֹרְכִים עַל הַזְּרוֹעַ. [ילקו\"י הִלְכוֹת תְּפִלִּין שָׁם סִי' כֹּה הֶעָרָה עֹז . שְׁאֵרִית יוֹסֵף ח\"א עמ' שנט].",
         "francais": "78. Certains ont l'habitude d'enrouler la lanière autour du boîtier (Bayit), sur la base (Titoura), et de serrer le « Youd » des Tefillines contre le boîtier ; d'autres enroulent trois tours sur le biceps en formant la lettre « Shin » ; et d'autres encore n'ont aucune de ces coutumes, mais immédiatement après la bénédiction « Lehani'ah Tefilline » et le serrage du nœud, ils font passer la lanière sous le coude et l'enroulent autour de l'avant-bras. [Yalkout Yossef, Lois relatives aux Tefillines, siman 25, note 77 ; Che'erit Yossef, vol. 1, p. 359]."
       },
@@ -44844,48 +44844,41 @@
         },
         {
           "id": 53,
-          "hebreu_brut": "עז",
-          "hebreu_voyelles": "עֹז",
+          "hebreu_brut": "עז.",
+          "hebreu_voyelles": "עֹז.",
           "francais_mot": "77",
           "expression_contexte": ""
         },
         {
           "id": 54,
-          "hebreu_brut": ".",
-          "hebreu_voyelles": ".",
-          "francais_mot": ";",
-          "expression_contexte": ""
-        },
-        {
-          "id": 55,
           "hebreu_brut": "שארית",
           "hebreu_voyelles": "שְׁאֵרִית",
           "francais_mot": "Che'erit",
           "expression_contexte": ""
         },
         {
-          "id": 56,
+          "id": 55,
           "hebreu_brut": "יוסף",
           "hebreu_voyelles": "יוֹסֵף",
           "francais_mot": "Yossef,",
           "expression_contexte": ""
         },
         {
-          "id": 57,
+          "id": 56,
           "hebreu_brut": "ח\"א",
           "hebreu_voyelles": "ח\"א",
           "francais_mot": "vol. 1,",
           "expression_contexte": ""
         },
         {
-          "id": 58,
+          "id": 57,
           "hebreu_brut": "עמ'",
           "hebreu_voyelles": "עמ'",
           "francais_mot": "p.",
           "expression_contexte": ""
         },
         {
-          "id": 59,
+          "id": 58,
           "hebreu_brut": "שנט].",
           "hebreu_voyelles": "שנט].",
           "francais_mot": "359].",

@@ -197,35 +197,35 @@
         {
           "id": 24,
           "hebreu_brut": "ע",
-          "hebreu_voyelles": "סִי'",
+          "hebreu_voyelles": "שׁוּ\"עַ",
           "francais_mot": "Aroukh",
           "expression_contexte": ""
         },
         {
           "id": 25,
           "hebreu_brut": "סי'",
-          "hebreu_voyelles": "לַח",
+          "hebreu_voyelles": "סִי'",
           "francais_mot": "chapitre",
           "expression_contexte": ""
         },
         {
           "id": 26,
           "hebreu_brut": "לח",
-          "hebreu_voyelles": "ס\"ג.",
+          "hebreu_voyelles": "לַח",
           "francais_mot": "38",
           "expression_contexte": ""
         },
         {
           "id": 27,
           "hebreu_brut": "ס",
-          "hebreu_voyelles": "ילקו\"י",
+          "hebreu_voyelles": "סְעִיף",
           "francais_mot": "paragraphe",
           "expression_contexte": ""
         },
         {
           "id": 28,
           "hebreu_brut": "ג.",
-          "hebreu_voyelles": "תְּפִלִּין",
+          "hebreu_voyelles": "ג'.",
           "francais_mot": "3,",
           "expression_contexte": ""
         },

@@ -1,0 +1,29 @@
+{
+  "siman": "45",
+  "timestamp": "2026-09-04T07:05:09.390Z",
+  "dryRun": false,
+  "totalFixes": 8,
+  "seifimFixed": 2,
+  "details": [
+    {
+      "seif": "4",
+      "fixes": 2,
+      "details": [
+        "Traduction auto pour mot vide mot[50] \"פי\" → \"selon\"",
+        "Traduction auto pour mot vide mot[55] \"מקום\" → \"lieu\""
+      ]
+    },
+    {
+      "seif": "15",
+      "fixes": 6,
+      "details": [
+        "Suppression ponctuation isolée mot[73] (\".\") rattachée à mot[72]",
+        "Suppression ponctuation isolée mot[60] (\".\") rattachée à mot[59]",
+        "Traduction auto pour mot vide mot[22] \"כך\" → \"ainsi\"",
+        "Traduction auto pour mot vide mot[36] \"מה\" → \"ce que\"",
+        "Traduction auto pour mot vide mot[50] \"את\" → \"(complément)\"",
+        "Traduction auto pour mot vide mot[65] \"הוא\" → \"il\""
+      ]
+    }
+  ]
+}

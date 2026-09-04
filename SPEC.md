@@ -163,16 +163,17 @@ Le système de persistance repose sur une architecture **Offline-First** avec fu
 
 ---
 
-## 🎓 Parcours d'Apprentissage (Simanim 1, 2, 3, 4)
+## 🎓 Parcours d'Apprentissage — Unité « La conduite de l'homme au réveil » (Simanim 1 à 7)
 
-Chaque Siman d'apprentissage est structuré en **6 leçons progressives** :
-- **3 notions clés** claires et pédagogiques par leçon.
-- **3 questions interactives** (QCM à 2 choix A/B ou Vrai/Faux alternés).
+La première unité d'apprentissage est désormais **complète avec ses 7 Simanim** structurés en leçons progressives (3 notions clés + 3 questions interactives par leçon) :
 - **Cartographie précise des sources** renvoyant directement aux paragraphes et lois du Kitsour Yalkout Yossef :
-  - **Siman 1** : Paragraphes 1, 8, 9, etc.
-  - **Siman 2** : Paragraphes 1, 3, 4, 5, 6, 11, 14, 25, 15, 16, 17, 21, 22, 24, 27, 28.
-  - **Siman 3** : Paragraphes 1, 2, 6, 8, 9, 10, 13, 14, 18, 19, 23, 24.
-  - **Siman 4** : Lavage des mains du matin (Netilat Yadaïm) en 6 leçons.
+  - **Siman 1** : Réveil matinal (6 leçons)
+  - **Siman 2** : Pudeur et habillage (6 leçons)
+  - **Siman 3** : Conduite aux toilettes (6 leçons)
+  - **Siman 4** : Lavage des mains du matin (Netilat Yadaïm) (6 leçons)
+  - **Siman 5** : L'intention dans les bénédictions (Kavanat HaBrakhot) (6 leçons)
+  - **Siman 6** : Asher Yatsar et Elohaï Néchama (6 leçons)
+  - **Siman 7** : Pratique et cas particuliers de la bénédiction Acher Yatsar (5 leçons)
 - **Examens de fin de Siman et Examen global de Catégorie** débloquant la fiche de synthèse.
 
 ---
@@ -183,10 +184,10 @@ Chaque Siman d'apprentissage est structuré en **6 leçons progressives** :
 - [ ] Résoudre le problème de clé API pour débloquer l'Assistant IA (Gemini)
 - [ ] Terminer la génération des Seifim 21 à 59 du Siman 1 (Bibliothèque d'étude)
 - [x] Système de comptes et sauvegarde Cloud (Option A Google + Option B Code Secret)
-- [x] Parcours d'apprentissage complet sur les Simanim 1, 2, 3 et 4 avec QCM variés
+- [x] Parcours d'apprentissage complet de la première unité (Simanim 1 à 7) avec QCM variés
 
 ### Moyen terme
-- [ ] Générer les données pour d'autres Simanim dans le parcours d'apprentissage (Siman 5, 6...)
+- [ ] Créer la prochaine unité d'apprentissage (ex: Halakhot Tsitsit / Tefilline / Prière)
 - [ ] Système d'alerte instantanée des signalements utilisateurs (Discord Webhook / Telegram Bot)
 - [ ] Audio : prononciation des mots hébreux
 - [ ] Mode "Flashcards" pour réviser le vocabulaire

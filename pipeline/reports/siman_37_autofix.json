@@ -1,40 +1,12 @@
 {
-  "siman": 37,
-  "timestamp": "2026-09-02T07:18:08.072Z",
+  "siman": "37",
+  "timestamp": "2026-09-04T07:03:51.274Z",
   "dryRun": false,
-  "totalFixes": 5,
-  "seifimFixed": 5,
+  "totalFixes": 1,
+  "seifimFixed": 1,
   "details": [
     {
-      "seif": "11",
-      "fixes": 1,
-      "details": [
-        "Décalage d'alignement détecté (intrus: \"א\"). Réalignement..."
-      ]
-    },
-    {
-      "seif": "13",
-      "fixes": 1,
-      "details": [
-        "Décalage d'alignement détecté (intrus: \"ג\"). Réalignement..."
-      ]
-    },
-    {
-      "seif": "14",
-      "fixes": 1,
-      "details": [
-        "Décalage d'alignement détecté (intrus: \"ד\"). Réalignement..."
-      ]
-    },
-    {
-      "seif": "16",
-      "fixes": 1,
-      "details": [
-        "Décalage d'alignement détecté (intrus: \"א\"). Réalignement..."
-      ]
-    },
-    {
-      "seif": "17",
+      "seif": "12",
       "fixes": 1,
       "details": [
         "Décalage d'alignement détecté (intrus: \"ב\"). Réalignement..."

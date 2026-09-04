@@ -1,23 +1,23 @@
 {
-  "siman": 34,
+  "siman": "34",
   "file": "siman_34.json",
-  "timestamp": "2026-09-01T08:00:29.058Z",
+  "timestamp": "2026-09-04T07:05:13.271Z",
   "summary": {
     "total": 18,
-    "pass": 17,
-    "warn": 1,
+    "pass": 18,
+    "warn": 0,
     "fail": 0,
-    "avg_score": 99
+    "avg_score": 100
   },
   "seifim": [
     {
       "seif": 1,
-      "status": "WARN",
-      "score": 77,
+      "status": "PASS",
+      "score": 100,
       "checks": {
         "json_structure": true,
         "alignment_count": true,
-        "alignment_accuracy": false,
+        "alignment_accuracy": true,
         "no_terme": true,
         "no_pipes": true,
         "no_double_spaces": true,
@@ -26,45 +26,10 @@
         "sujet_present": false,
         "ktiv_male": true,
         "no_punctuation_word": true,
-        "no_empty_words": false,
+        "no_empty_words": true,
         "no_hebrew_in_french": true
       },
-      "issues": [
-        {
-          "type": "ALIGNMENT_MISMATCH_WORD",
-          "severity": "error",
-          "detail": "1 mot(s) ont un décalage majeur entre brut et voyelles",
-          "words": [
-            {
-              "id": 106,
-              "hebreu_brut": "ומראן",
-              "hebreu_voyelles": "וּמָרָן"
-            }
-          ]
-        },
-        {
-          "type": "EMPTY_WORDS",
-          "severity": "error",
-          "detail": "3 mot(s) avec champ vide",
-          "words": [
-            {
-              "id": 174,
-              "hebreu_brut": "ח",
-              "francais_mot": ""
-            },
-            {
-              "id": 175,
-              "hebreu_brut": "עמ'",
-              "francais_mot": ""
-            },
-            {
-              "id": 176,
-              "hebreu_brut": "תלח].",
-              "francais_mot": ""
-            }
-          ]
-        }
-      ]
+      "issues": []
     },
     {
       "seif": 2,

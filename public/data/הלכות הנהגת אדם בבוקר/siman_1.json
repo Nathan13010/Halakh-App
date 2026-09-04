@@ -643,181 +643,174 @@
         },
         {
           "id": 89,
-          "hebreu_brut": "על",
-          "hebreu_voyelles": "עַל",
+          "hebreu_brut": "עלפי",
+          "hebreu_voyelles": "עַלפִּי",
           "francais_mot": "que",
           "expression_contexte": "אף על פי ש... = Bien que..."
         },
         {
           "id": 90,
-          "hebreu_brut": "פי",
-          "hebreu_voyelles": "פִּי",
-          "francais_mot": "—",
-          "expression_contexte": "אף על פי ש... = Bien que..."
-        },
-        {
-          "id": 91,
           "hebreu_brut": "שהמקיים",
           "hebreu_voyelles": "שֶׁהַמְקַיֵּם",
           "francais_mot": "celui qui accomplit",
           "expression_contexte": ""
         },
         {
-          "id": 92,
+          "id": 91,
           "hebreu_brut": "את",
           "hebreu_voyelles": "אֶת",
           "francais_mot": "(particule)",
           "expression_contexte": ""
         },
         {
-          "id": 93,
+          "id": 92,
           "hebreu_brut": "מצוות",
           "hebreu_voyelles": "מִצְווֹת",
           "francais_mot": "les commandements",
           "expression_contexte": ""
         },
         {
-          "id": 94,
+          "id": 93,
           "hebreu_brut": "ה'",
           "hebreu_voyelles": "ה'",
           "francais_mot": "de D.",
           "expression_contexte": ""
         },
         {
-          "id": 95,
+          "id": 94,
           "hebreu_brut": "אין",
           "hebreu_voyelles": "אֵין",
           "francais_mot": "il n'y a pas",
           "expression_contexte": ""
         },
         {
-          "id": 96,
+          "id": 95,
           "hebreu_brut": "לו",
           "hebreu_voyelles": "לוֹ",
           "francais_mot": "pour lui",
           "expression_contexte": ""
         },
         {
-          "id": 97,
+          "id": 96,
           "hebreu_brut": "להתבייש",
           "hebreu_voyelles": "לְהִתְבַּיֵּשׁ",
           "francais_mot": "à avoir honte",
           "expression_contexte": ""
         },
         {
-          "id": 98,
+          "id": 97,
           "hebreu_brut": "מפני",
           "hebreu_voyelles": "מִפְּנֵי",
           "francais_mot": "devant",
           "expression_contexte": ""
         },
         {
-          "id": 99,
+          "id": 98,
           "hebreu_brut": "המלעיגים",
           "hebreu_voyelles": "הַמַּלְעִיגִים",
           "francais_mot": "ceux qui se moquent",
           "expression_contexte": ""
         },
         {
-          "id": 100,
+          "id": 99,
           "hebreu_brut": "עליו,",
           "hebreu_voyelles": "עָלָיו,",
           "francais_mot": "de lui,",
           "expression_contexte": ""
         },
         {
-          "id": 101,
+          "id": 100,
           "hebreu_brut": "מכל",
           "hebreu_voyelles": "מִכָּל",
           "francais_mot": "de tout",
           "expression_contexte": "מכל מקום = Quoi qu'il en soit / Toutefois"
         },
         {
-          "id": 102,
+          "id": 101,
           "hebreu_brut": "מקום",
           "hebreu_voyelles": "מָקוֹם",
           "francais_mot": "lieu (toutefois)",
           "expression_contexte": "מכל מקום = Quoi qu'il en soit / Toutefois"
         },
         {
-          "id": 103,
+          "id": 102,
           "hebreu_brut": "לא",
           "hebreu_voyelles": "לֹא",
           "francais_mot": "il ne (doit) pas",
           "expression_contexte": ""
         },
         {
-          "id": 104,
+          "id": 103,
           "hebreu_brut": "יתקוטט",
           "hebreu_voyelles": "יִתְקוֹטֵט",
           "francais_mot": "se quereller",
           "expression_contexte": ""
         },
         {
-          "id": 105,
+          "id": 104,
           "hebreu_brut": "ויריב",
           "hebreu_voyelles": "וְיָרִיב",
           "francais_mot": "et se disputer",
           "expression_contexte": ""
         },
         {
-          "id": 106,
+          "id": 105,
           "hebreu_brut": "עמהם,",
           "hebreu_voyelles": "עִמָּהֶם,",
           "francais_mot": "avec eux,",
           "expression_contexte": ""
         },
         {
-          "id": 107,
+          "id": 106,
           "hebreu_brut": "גם",
           "hebreu_voyelles": "גַּם",
           "francais_mot": "aussi",
           "expression_contexte": ""
         },
         {
-          "id": 108,
+          "id": 107,
           "hebreu_brut": "כדי",
           "hebreu_voyelles": "כְּדֵי",
           "francais_mot": "afin",
           "expression_contexte": ""
         },
         {
-          "id": 109,
+          "id": 108,
           "hebreu_brut": "שלא",
           "hebreu_voyelles": "שֶׁלֹּא",
           "francais_mot": "qu'il ne",
           "expression_contexte": ""
         },
         {
-          "id": 110,
+          "id": 109,
           "hebreu_brut": "יתרגל",
           "hebreu_voyelles": "יִתְרַגֵּל",
           "francais_mot": "s'habitue",
           "expression_contexte": ""
         },
         {
-          "id": 111,
+          "id": 110,
           "hebreu_brut": "למדת",
           "hebreu_voyelles": "לְמִדַּת",
           "francais_mot": "au trait (de caractère)",
           "expression_contexte": ""
         },
         {
-          "id": 112,
+          "id": 111,
           "hebreu_brut": "העזות",
           "hebreu_voyelles": "הָעַזּוּת",
           "francais_mot": "de l'effronterie",
           "expression_contexte": ""
         },
         {
-          "id": 113,
+          "id": 112,
           "hebreu_brut": "המגונה",
           "hebreu_voyelles": "הַמְגוּנֶּה",
           "francais_mot": "méprisable",
           "expression_contexte": ""
         },
         {
-          "id": 114,
+          "id": 113,
           "hebreu_brut": "מאד.",
           "hebreu_voyelles": "מְאֹד.",
           "francais_mot": "beaucoup.",
@@ -7265,7 +7258,7 @@
         {
           "id": 51,
           "hebreu_brut": "וכאשר",
-          "hebreu_voyelles": "וּמִיָּד",
+          "hebreu_voyelles": "וְכַאֲשֶׁר",
           "francais_mot": "arrivera",
           "expression_contexte": ""
         },
@@ -10721,7 +10714,7 @@
         {
           "id": 29,
           "hebreu_brut": "ולכן",
-          "hebreu_voyelles": "וְיֵשׁ",
+          "hebreu_voyelles": "וְלָכֵן",
           "francais_mot": "Certains (il y a)",
           "expression_contexte": ""
         },
@@ -11221,7 +11214,7 @@
         {
           "id": 11,
           "hebreu_brut": "הקב\"ה,",
-          "hebreu_voyelles": "הַקָּדוֹשׁ",
+          "hebreu_voyelles": "הַקָּדוֹשׁ בָּרוּךְ הוּא,",
           "francais_mot": "le Saint béni soit-Il,",
           "expression_contexte": "הקב\"ה = Acronyme de הקדוש ברוך הוא (Le Saint béni soit-Il)"
         },
@@ -11724,7 +11717,7 @@
         {
           "id": 81,
           "hebreu_brut": "וקריאת",
-          "hebreu_voyelles": "וּפָסוּק",
+          "hebreu_voyelles": "וּקְרִיאַת",
           "francais_mot": "et le verset",
           "expression_contexte": ""
         },
@@ -11822,7 +11815,7 @@
         {
           "id": 95,
           "hebreu_brut": "על",
-          "hebreu_voyelles": "הִלְכוֹת",
+          "hebreu_voyelles": "עַל",
           "francais_mot": "Lois du",
           "expression_contexte": ""
         },
@@ -11965,14 +11958,14 @@
         {
           "id": 13,
           "hebreu_brut": "יוסף",
-          "hebreu_voyelles": "ח\"א",
+          "hebreu_voyelles": "יוֹסֵף",
           "francais_mot": "tome 1",
           "expression_contexte": "ח\"א = Acronyme de חלק א' (Tome 1)"
         },
         {
           "id": 14,
           "hebreu_brut": "חלק",
-          "hebreu_voyelles": "עמ'",
+          "hebreu_voyelles": "חֵלֶק",
           "francais_mot": "page",
           "expression_contexte": "עמ' = Abréviation de עמוד (Page)"
         },
@@ -11993,7 +11986,7 @@
         {
           "id": 17,
           "hebreu_brut": "יוסף",
-          "hebreu_voyelles": "שָׁם",
+          "hebreu_voyelles": "יוֹסֵף",
           "francais_mot": "là-bas",
           "expression_contexte": ""
         },
@@ -12578,7 +12571,7 @@
         {
           "id": 20,
           "hebreu_brut": "הקב\"ה",
-          "hebreu_voyelles": "הַקָּדוֹשׁ",
+          "hebreu_voyelles": "הַקְבָּ\"ה",
           "francais_mot": "Le Saint",
           "expression_contexte": ""
         },
@@ -16539,7 +16532,8 @@
           "hebreu_brut": "לז.",
           "hebreu_voyelles": "לז.",
           "francais_mot": "37.",
-          "expression_contexte": ""
+          "expression_contexte": "",
+          "siman": "48"
         },
         {
           "id": 1,
@@ -25498,7 +25492,7 @@
       "siman": "1",
       "seif": "53",
       "texte_integral": {
-        "hebreu_sans_voyelles": "נג. עדיף יותר לומר תיקון חצות, אף שיתכן שעל ידי שיתעכב וישאר ער עד חצות לילה לא יוכל להשכים לתפלת ותיקין. וכל שכן שבחודש אלול יש להעדיף תיקון חצות על אמירת הסליחות, כאשר אין לו אפשרות לומר את שניהם. [ילקו\"י השכמת הבוקר מהדו' תשס\"ד, עמוד קצא. ושם בהערה אריכות בענין אין מעבירין על המצוות, ובדין העוסק במצוה פטור מן המצוה].",
+        "hebreu_sans_voyelles": "נג. עדיף יותר לומר תיקון חצות, אף שיתכן שעל ידי שיתעכב וישאר ער עד חצות לילה לא יוכל להשכים לתפלת ותיקין. וכל שכן שבחודש אלול יש להעדיף תיקון חצות על אמירת הסליחות, כאשר אין לו אפשרות לומראת שניהם. [ילקו\"י השכמת הבוקר מהדו' תשס\"ד, עמוד קצא. ושם בהערה אריכות בענין אין מעבירין על המצוות, ובדין העוסק במצוה פטור מן המצוה].",
         "hebreu_avec_voyelles": "נג. עָדִיף יוֹתֵר לוֹמַר תִּקּוּן חֲצוֹת, אַף שֶׁיִּתָּכֵן שֶׁעַל יְדֵי שֶׁיִּתְעַכֵּב וְיִשָּׁאֵר עֵר עַד חֲצוֹת לַיְלָה לֹא יוּכַל לְהַשְׁכִּים לִתְפִלַּת וְתִקֵּן. וְכָל שֶׁכֵּן שֶׁבַּחֹדֶשׁ אֱלוּל יֵשׁ לְהַעֲדִיף תִּקּוּן חֲצוֹת עַל אֲמִירַת הַסְּלִיחוֹת, כַּאֲשֶׁר אֵין לוֹ אֶפְשָׁרוּת לוֹמַר אֶת שְׁנֵיהֶם. [ילקו\"י הַשְׁכָּמַת הַבֹּקֶר מֵהַדּוּ' תשס\"ד, עַמּוּד קצא. וְשָׁם בְּהֶעָרָה אֲרִיכוּת בָּעִנְיָן אֵין מַעֲבִירִין עַל הַמִּצְוֹת, וּבְדִין הָעוֹסֵק בְּמִצְוָה פָּטוּר מִן הַמִּצְוָה].",
         "francais": "53. Il est préférable de réciter le Tikkun Chatzot, même s'il est possible qu'en veillant jusqu'à minuit on ne parvienne pas à se lever tôt pour la prière de Vatikine (au lever du soleil). À plus forte raison, durant le mois d'Éloul, on doit privilégier le Tikkun Chatzot par rapport à la récitation des Seli'hot lorsqu'on n'a pas la possibilité de faire les deux. [Yalkout Yossef Lois du lever matinal éd. 5764, p. 191]."
       },
@@ -25761,111 +25755,104 @@
         },
         {
           "id": 36,
-          "hebreu_brut": "לומר",
-          "hebreu_voyelles": "לוֹמַר",
+          "hebreu_brut": "לומראת",
+          "hebreu_voyelles": "לוֹמַראֶת",
           "francais_mot": "de faire",
           "expression_contexte": ""
         },
         {
           "id": 37,
-          "hebreu_brut": "את",
-          "hebreu_voyelles": "אֶת",
-          "francais_mot": "-",
-          "expression_contexte": ""
-        },
-        {
-          "id": 38,
           "hebreu_brut": "שניהם.",
           "hebreu_voyelles": "שְׁנֵיהֶם.",
           "francais_mot": "les deux.",
           "expression_contexte": ""
         },
         {
-          "id": 39,
+          "id": 38,
           "hebreu_brut": "[ילקו\"י",
           "hebreu_voyelles": "[ילקו\"י",
           "francais_mot": "[Yalkout Yossef",
           "expression_contexte": "ילקו\"י = Acronyme de Yalkout Yossef"
         },
         {
-          "id": 40,
+          "id": 39,
           "hebreu_brut": "השכמת",
           "hebreu_voyelles": "הַשְׁכָּמַת",
           "francais_mot": "Lois du lever",
           "expression_contexte": ""
         },
         {
-          "id": 41,
+          "id": 40,
           "hebreu_brut": "הבוקר",
           "hebreu_voyelles": "הַבֹּקֶר",
           "francais_mot": "matinal",
           "expression_contexte": ""
         },
         {
-          "id": 42,
+          "id": 41,
           "hebreu_brut": "מהדו'",
           "hebreu_voyelles": "מֵהַדּוּ'",
           "francais_mot": "éd.",
           "expression_contexte": "מהדו' = Abréviation de מהדורת (Édition)"
         },
         {
-          "id": 43,
+          "id": 42,
           "hebreu_brut": "תשס\"ד,",
           "hebreu_voyelles": "תשס\"ד,",
           "francais_mot": "5764,",
           "expression_contexte": ""
         },
         {
-          "id": 44,
+          "id": 43,
           "hebreu_brut": "עמוד",
           "hebreu_voyelles": "עַמּוּד",
           "francais_mot": "p.",
           "expression_contexte": ""
         },
         {
-          "id": 45,
+          "id": 44,
           "hebreu_brut": "קצא.",
           "hebreu_voyelles": "קצא.",
           "francais_mot": "191.",
           "expression_contexte": ""
         },
         {
-          "id": 46,
+          "id": 45,
           "hebreu_brut": "ושם",
           "hebreu_voyelles": "וְשָׁם",
           "francais_mot": "et là-bas",
           "expression_contexte": ""
         },
         {
-          "id": 47,
+          "id": 46,
           "hebreu_brut": "בהערה",
           "hebreu_voyelles": "בְּהֶעָרָה",
           "francais_mot": "dans la note",
           "expression_contexte": ""
         },
         {
-          "id": 48,
+          "id": 47,
           "hebreu_brut": "אריכות",
           "hebreu_voyelles": "אֲרִיכוּת",
           "francais_mot": "développement",
           "expression_contexte": ""
         },
         {
-          "id": 49,
+          "id": 48,
           "hebreu_brut": "בענין",
           "hebreu_voyelles": "בָּעִנְיָן",
           "francais_mot": "sur le sujet",
           "expression_contexte": ""
         },
         {
-          "id": 50,
+          "id": 49,
           "hebreu_brut": "אין",
           "hebreu_voyelles": "אֵין",
           "francais_mot": "on ne",
           "expression_contexte": "אין מעבירין על המצוות = Règle halachique : On ne repousse pas une Mitsva qui se présente"
         },
         {
-          "id": 51,
+          "id": 50,
           "hebreu_brut": "מעבירין",
           "hebreu_voyelles": "מַעֲבִירִין",
           "francais_mot": "repousse pas",
@@ -25873,28 +25860,28 @@
           "infinitif": "לְהַעֲבִיר = Repousser / Ignorer"
         },
         {
-          "id": 52,
+          "id": 51,
           "hebreu_brut": "על",
           "hebreu_voyelles": "עַל",
           "francais_mot": "une opportunité de",
           "expression_contexte": "אין מעבירין על המצוות = Règle halachique : On ne repousse pas une Mitsva qui se présente"
         },
         {
-          "id": 53,
+          "id": 52,
           "hebreu_brut": "המצוות,",
           "hebreu_voyelles": "הַמִּצְוֹת,",
           "francais_mot": "mitsva,",
           "expression_contexte": "אין מעבירין על המצוות = Règle halachique : On ne repousse pas une Mitsva qui se présente"
         },
         {
-          "id": 54,
+          "id": 53,
           "hebreu_brut": "ובדין",
           "hebreu_voyelles": "וּבְדִין",
           "francais_mot": "et sur le principe de",
           "expression_contexte": ""
         },
         {
-          "id": 55,
+          "id": 54,
           "hebreu_brut": "העוסק",
           "hebreu_voyelles": "הָעוֹסֵק",
           "francais_mot": "celui qui s'occupe de",
@@ -25902,28 +25889,28 @@
           "infinitif": "לַעֲסֹק = S'occuper de"
         },
         {
-          "id": 56,
+          "id": 55,
           "hebreu_brut": "במצוה",
           "hebreu_voyelles": "בְּמִצְוָה",
           "francais_mot": "une mitsva",
           "expression_contexte": "העוסק במצוה פטור מן המצוה = Règle halachique : Celui qui est occupé à une Mitsva est exempté d'une autre Mitsva"
         },
         {
-          "id": 57,
+          "id": 56,
           "hebreu_brut": "פטור",
           "hebreu_voyelles": "פָּטוּר",
           "francais_mot": "est exempté",
           "expression_contexte": "העוסק במצוה פטור מן המצוה = Règle halachique : Celui qui est occupé à une Mitsva est exempté d'une autre Mitsva"
         },
         {
-          "id": 58,
+          "id": 57,
           "hebreu_brut": "מן",
           "hebreu_voyelles": "מִן",
           "francais_mot": "d'une autre",
           "expression_contexte": "העוסק במצוה פטור מן המצוה = Règle halachique : Celui qui est occupé à une Mitsva est exempté d'une autre Mitsva"
         },
         {
-          "id": 59,
+          "id": 58,
           "hebreu_brut": "המצוה].",
           "hebreu_voyelles": "הַמִּצְוָה].",
           "francais_mot": "mitsva].",
@@ -26193,7 +26180,8 @@
           "hebreu_brut": "נה.",
           "hebreu_voyelles": "נה.",
           "francais_mot": "55.",
-          "expression_contexte": ""
+          "expression_contexte": "",
+          "francais": "55. Le Tikkun Chatzot se divise en deux parties : la première s'appelle Tikkun Rachel, et la seconde Tikkun Léa. Le Tikkun Rachel traite des sujets liés à la destruction du Temple, tandis que le Tikkun Léa consiste principalement en des chapitres de louanges, requêtes et remerciements à Dieu. La plupart des nuits de l'année, on récite le Tikkun Rachel, suivi du Tikkun Léa. Cependant, il y a des périodes où l'on ne récite que le Tikkun Léa et l'on omet le Tikkun Rachel, car on ne doit pas y évoquer de tristesse [et d'autres raisons selon le secret]. Et voici les jours où l'on ne récite pas le Tikkun Rachel : Roch Hodech [et la veille de Roch Hodech après le Molad, bien que l'on fasse les confessions ce jour-là], et de Roch Hachana jusqu'à Chemini Atseret, les jours de Hanoucca, les jours de Pourim, tout le mois de Nissan, et tous les jours de l'Om"
         },
         {
           "id": 1,

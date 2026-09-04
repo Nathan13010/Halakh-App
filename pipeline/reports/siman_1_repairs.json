@@ -1,0 +1,18 @@
+{
+  "siman": "1",
+  "timestamp": "2026-09-04T08:11:08.511Z",
+  "total_applied": 11,
+  "details": [
+    "✅ Seif 12, mot[51].hebreu_voyelles: \"וּמִיָּד\" → \"וְכַאֲשֶׁר\" (Le mot brut correspondant au mot 51 est 'וכאשר', la ponctuation ponctuelle doit être 'וְכַאֲשֶׁר' au lieu de 'וּמִיָּד'.)",
+    "✅ Seif 21, mot[29].hebreu_voyelles: \"וְיֵשׁ\" → \"וְלָכֵן\" (Le mot hébreu brut est 'ולכן', sa vocalisation doit donc être 'וְלָכֵן' (et non 'וְיֵשׁ' qui correspond au mot suivant).)",
+    "✅ Seif 22, mot[11].hebreu_voyelles: \"הַקָּדוֹשׁ\" → \"הַקָּדוֹשׁ בָּרוּךְ הוּא,\" (Le mot brut est l'acronyme הקב\"ה (HaKadosh Baruch Hu), sa vocalisation doit correspondre à l'expression entière et non seulement au premier mot.)",
+    "✅ Seif 22, mot[81].hebreu_voyelles: \"וּפָסוּק\" → \"וּקְרִיאַת\" (Le mot brut est 'וקriאת' (et la lecture de), sa vocalisation doit être 'וּקְרִיאַת' au lieu de 'וּפָסוּק'.)",
+    "✅ Seif 22, mot[95].hebreu_voyelles: \"הִלְכוֹת\" → \"עַל\" (Le mot brut est 'על', sa vocalisation doit être 'עַל' et non 'הִלְכוֹת' (qui correspond au mot suivant tronqué).)",
+    "✅ Seif 23, mot[13].hebreu_voyelles: \"ח\"א\" → \"יוֹסֵף\" (Correction du décalage d'indexation. Le mot brut à cette position est 'יוסף' (Yossef) et non l'abréviation 'ח\"א'.)",
+    "✅ Seif 23, mot[14].hebreu_voyelles: \"עמ'\" → \"חֵלֶק\" (Le mot brut est 'חלק', son équivalent vocalisé est 'חֵלֶק'.)",
+    "✅ Seif 23, mot[17].hebreu_voyelles: \"שָׁם\" → \"יוֹסֵף\" (Le mot brut est 'יוסף', tandis que 'שם' provient d'une version abrégée erronée dans la base de vocalisations.)",
+    "✅ Seif 25, mot[20].hebreu_voyelles: \"הַקָּדוֹשׁ\" → \"הַקְבָּ\"ה\" (L'acronyme הקב\"ה a été développé en plusieurs mots lors de la vocalisation, brisant l'alignement 1-pour-1 avec le texte hébreu brut.)",
+    "✅ Seif 37, mot[0].siman: \"undefined\" → \"48\" (Le passage d'Abayé Havé (Seder HaMaarakha) correspond au Siman 48 de l'Orah Haïm / Yalkout Yossef.)",
+    "✅ Seif 55, mot[0].francais: \"undefined\" → \"55. Le Tikkun Chatzot se divise en deux parties : la première s'appelle Tikkun Rachel, et la seconde Tikkun Léa. Le Tikkun Rachel traite des sujets liés à la destruction du Temple, tandis que le Tikkun Léa consiste principalement en des chapitres de louanges, requêtes et remerciements à Dieu. La plupart des nuits de l'année, on récite le Tikkun Rachel, suivi du Tikkun Léa. Cependant, il y a des périodes où l'on ne récite que le Tikkun Léa et l'on omet le Tikkun Rachel, car on ne doit pas y évoquer de tristesse [et d'autres raisons selon le secret]. Et voici les jours où l'on ne récite pas le Tikkun Rachel : Roch Hodech [et la veille de Roch Hodech après le Molad, bien que l'on fasse les confessions ce jour-là], et de Roch Hachana jusqu'à Chemini Atseret, les jours de Hanoucca, les jours de Pourim, tout le mois de Nissan, et tous les jours de l'Om\" (La traduction française était tronquée à la fin par rapport au texte hébreu fourni. Cette correction rétablit l'intégralité de la traduction française correspondant au texte hébreu.)"
+  ]
+}

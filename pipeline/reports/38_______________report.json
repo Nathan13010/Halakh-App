@@ -1,7 +1,7 @@
 {
-  "siman": 38,
+  "siman": "38",
   "file": "siman_38.json",
-  "timestamp": "2026-09-02T07:22:57.659Z",
+  "timestamp": "2026-09-04T07:05:13.284Z",
   "summary": {
     "total": 5,
     "pass": 4,
@@ -33,33 +33,8 @@
         {
           "type": "ALIGNMENT_MISMATCH_WORD",
           "severity": "error",
-          "detail": "14 mot(s) ont un décalage majeur entre brut et voyelles",
+          "detail": "8 mot(s) ont un décalage majeur entre brut et voyelles",
           "words": [
-            {
-              "id": 24,
-              "hebreu_brut": "ע",
-              "hebreu_voyelles": "סִי'"
-            },
-            {
-              "id": 25,
-              "hebreu_brut": "סי'",
-              "hebreu_voyelles": "לַח"
-            },
-            {
-              "id": 26,
-              "hebreu_brut": "לח",
-              "hebreu_voyelles": "ס\"ג."
-            },
-            {
-              "id": 27,
-              "hebreu_brut": "ס",
-              "hebreu_voyelles": "ילקו\"י"
-            },
-            {
-              "id": 28,
-              "hebreu_brut": "ג.",
-              "hebreu_voyelles": "תְּפִלִּין"
-            },
             {
               "id": 29,
               "hebreu_brut": "ילקו",
@@ -71,11 +46,6 @@
               "hebreu_voyelles": "הֶעָרָה"
             },
             {
-              "id": 32,
-              "hebreu_brut": "סי'",
-              "hebreu_voyelles": "א'."
-            },
-            {
               "id": 33,
               "hebreu_brut": "לח",
               "hebreu_voyelles": "(עמ'"
@@ -84,6 +54,26 @@
               "id": 34,
               "hebreu_brut": "הערה",
               "hebreu_voyelles": "תרסג"
+            },
+            {
+              "id": 36,
+              "hebreu_brut": "(עמ'",
+              "hebreu_voyelles": "הָאַחֲרוֹנָה)"
+            },
+            {
+              "id": 37,
+              "hebreu_brut": "תרסג",
+              "hebreu_voyelles": "שאר\"י"
+            },
+            {
+              "id": 39,
+              "hebreu_brut": "האחרונה)",
+              "hebreu_voyelles": "עמ'"
+            },
+            {
+              "id": 40,
+              "hebreu_brut": "שאר",
+              "hebreu_voyelles": "תנד]."
             }
           ]
         }

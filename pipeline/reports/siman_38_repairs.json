@@ -1,0 +1,12 @@
+{
+  "siman": "38",
+  "timestamp": "2026-09-04T07:01:20.571Z",
+  "total_applied": 5,
+  "details": [
+    "✅ Seif 1, mot[24].hebreu_voyelles: \"סִי'\" → \"שׁוּ\"עַ\" (Alignement de la référence du Shoulhan Aroukh (שו\"ע))",
+    "✅ Seif 1, mot[25].hebreu_voyelles: \"לַח\" → \"סִי'\" (Réalignement du mot 'סי' (סימן))",
+    "✅ Seif 1, mot[26].hebreu_voyelles: \"ס\"ג.\" → \"לַח\" (Réalignement du numéro de chapitre 38 (לח))",
+    "✅ Seif 1, mot[27].hebreu_voyelles: \"ילקו\"י\" → \"סְעִיף\" (Réalignement du mot 'ס' (סעיף))",
+    "✅ Seif 1, mot[28].hebreu_voyelles: \"תְּפִלִּין\" → \"ג'.\" (Réalignement du paragraphe 3 (ג.))"
+  ]
+}

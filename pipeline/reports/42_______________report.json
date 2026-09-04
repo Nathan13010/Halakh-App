@@ -1,7 +1,7 @@
 {
-  "siman": 42,
+  "siman": "42",
   "file": "siman_42.json",
-  "timestamp": "2026-09-02T07:36:38.382Z",
+  "timestamp": "2026-09-04T07:05:13.289Z",
   "summary": {
     "total": 4,
     "pass": 4,

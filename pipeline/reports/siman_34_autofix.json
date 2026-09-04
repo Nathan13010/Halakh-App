@@ -1,0 +1,18 @@
+{
+  "siman": "34",
+  "timestamp": "2026-09-04T07:05:09.372Z",
+  "dryRun": false,
+  "totalFixes": 3,
+  "seifimFixed": 1,
+  "details": [
+    {
+      "seif": "1",
+      "fixes": 3,
+      "details": [
+        "Traduction auto pour mot vide mot[174] \"ח\" → \"vol.\"",
+        "Traduction auto pour mot vide mot[175] \"עמ'\" → \"p.\"",
+        "Traduction auto pour mot vide mot[176] \"תלח].\" → \"438].\""
+      ]
+    }
+  ]
+}

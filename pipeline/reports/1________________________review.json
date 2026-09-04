@@ -1,0 +1,107 @@
+{
+  "siman": "1",
+  "timestamp": "2026-09-04T08:11:08.419Z",
+  "message": "Ces Seifim nécessitent une vérification humaine.",
+  "escalations": [
+    {
+      "seif": 1,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 3,
+      "issue_type": "MISSING_KEYS",
+      "reason": "Le numéro de Siman est manquant dans la structure de données et ne figure pas explicitement dans le titre du texte fourni."
+    },
+    {
+      "seif": 4,
+      "issue_type": "MISSING_KEYS",
+      "reason": "Le numéro de siman est absent du texte fourni et ne peut pas être déterminé avec certitude sans le contexte du chapitre."
+    },
+    {
+      "seif": 4,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "reason": "Le texte français est interrompu abruptement ('La Guemara di') et il manque la traduction d'une grande partie du texte hébreu (les enseignements sur l'étude nocturne du Talmud de Jérusalem et la citation du Rambam)."
+    },
+    {
+      "seif": 5,
+      "issue_type": "MISSING_KEYS",
+      "reason": "Le numéro de Siman n'est pas explicitement fourni dans le texte source transmis et nécessite une confirmation formelle de la référence dans le Yalkout Yossef."
+    },
+    {
+      "seif": 6,
+      "issue_type": "MISSING_KEYS",
+      "reason": "La clé 'siman' est manquante dans les métadonnées de la notice et ne peut pas être déterminée avec une certitude absolue uniquement à partir du texte du Seif."
+    },
+    {
+      "seif": 15,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 22,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "reason": "Les deux textes (hébreu et français) sont tronqués à la fin ('ילקו\"י על הל' et 'l'ordre des mon'), ce qui fausse l'alignement global des mots. Une réimportation ou correction globale de la fin du paragraphe est requise."
+    },
+    {
+      "seif": 24,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 26,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 27,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 27,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 27,
+      "issue_type": "ALIGNMENT_MISMATCH_WORD",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 28,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 29,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 29,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 29,
+      "issue_type": "ALIGNMENT_MISMATCH_WORD",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 31,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 38,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "reason": "Le texte hébreu ainsi que la traduction française sont tronqués en fin de seif (hébreu : 'שהרי אם חיסר אחת מ...', français : 'il...'). Le seif complet doit être réimporté avant d'aligner les mots."
+    },
+    {
+      "seif": 40,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    }
+  ]
+}

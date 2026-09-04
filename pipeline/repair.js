@@ -29,7 +29,7 @@ const REPORTS_DIR = path.join(__dirname, 'reports');
 function repairSiman(filePath) {
   const parentDir = path.basename(path.dirname(filePath));
   const categorie = parentDir === 'data' ? '' : parentDir;
-  const simanMatch = filePath.match(/siman_(\d+)\.json$/);
+  const simanMatch = filePath.match(/siman_([\d-]+)\.json$/);
   const simanNum = simanMatch ? simanMatch[1] : 'null';
   const uniqueKey = categorie ? `${simanNum}::${categorie}` : String(simanNum);
   const safeKey = uniqueKey.replace(/[^Ѐ-ӿ\w]/g, '_');
@@ -121,7 +121,7 @@ function parseArgs() {
   let all = false;
 
   for (let i = 0; i < args.length; i++) {
-    if (args[i] === '--file' && args[i + 1]) { specificFile = args[++i]; } else if (args[i] === '--siman' && args[i + 1]) simanNum = parseInt(args[++i], 10);
+    if (args[i] === '--file' && args[i + 1]) { specificFile = args[++i]; } else if (args[i] === '--siman' && args[i + 1]) simanNum = args[++i];
     else if (args[i] === '--all') all = true;
   }
 

@@ -94,7 +94,7 @@ function fixTrailingPunctuation(str) {
 function fixAlignmentOffset(halakha, mots, ti, log) {
   if (mots.length < 3) return 0;
   
-  const clean = text => removeNikkoud(text).replace(/[.,'"]/g,'').trim();
+  const clean = text => cleanForComparison(text || '').replace(/[וי]/g, '').trim();
   
   const brut1 = clean(mots[1].hebreu_brut);
   const voy1 = clean(mots[1].hebreu_voyelles);
@@ -129,6 +129,84 @@ function fixAlignmentOffset(halakha, mots, ti, log) {
     return 1;
   }
   return 0;
+}
+
+const DICT_EMPTY_WORDS = {
+  'את': '(complément)',
+  'מה': 'ce que',
+  'כך': 'ainsi',
+  'הוא': 'il',
+  'היא': 'elle',
+  'פי': 'selon',
+  'מקום': 'lieu',
+  "עמ'": 'p.',
+  'ח': 'vol.',
+  'ח"א': 'vol. 1',
+  "סי'": 'chapitre',
+  "ס'": 'paragraphe',
+  'סעיף': 'paragraphe',
+  'שו"ע': "Choul'han Aroukh",
+  'רמב"ם': 'Rambam',
+  'ילקו"י': 'Yalkout Yossef',
+  'תרסג': '663',
+  'תלח': '438',
+  'תלח].': '438].',
+  'תנד].': '454].'
+};
+
+/**
+ * Supprime la ponctuation isolée (tiret, point) qui forme un mot autonome
+ * et la rattache au mot précédent.
+ */
+function fixIsolatedPunctuation(mots, log) {
+  let count = 0;
+  for (let i = mots.length - 1; i >= 1; i--) {
+    const brut = (mots[i].hebreu_brut || '').trim();
+    const fr = (mots[i].francais_mot || '').trim();
+    const isPunctOnly = (brut.length <= 1 && /^[.,;:!?\-–—]$/.test(brut)) || ['—', '–', '-'].includes(fr);
+    
+    if (isPunctOnly) {
+      log.push(`Suppression ponctuation isolée mot[${i}] ("${brut}") rattachée à mot[${i-1}]`);
+      if (brut && !mots[i-1].hebreu_brut.endsWith(brut)) {
+        mots[i-1].hebreu_brut += brut;
+      }
+      if (mots[i].hebreu_voyelles && !mots[i-1].hebreu_voyelles.endsWith(mots[i].hebreu_voyelles)) {
+        mots[i-1].hebreu_voyelles += mots[i].hebreu_voyelles;
+      }
+      mots.splice(i, 1);
+      count++;
+    }
+  }
+  if (count > 0) {
+    mots.forEach((m, idx) => m.id = idx);
+  }
+  return count;
+}
+
+/**
+ * Rapproche les particules grammaticales / références hébraïques vides d'une traduction par défaut.
+ */
+function fixEmptyTranslations(mots, log) {
+  let count = 0;
+  for (let i = 1; i < mots.length; i++) {
+    const fr = (mots[i].francais_mot || '').trim();
+    if (!fr) {
+      const brutClean = cleanForComparison(mots[i].hebreu_brut);
+      const brut = (mots[i].hebreu_brut || '').trim();
+      let translation = DICT_EMPTY_WORDS[brut] || DICT_EMPTY_WORDS[brutClean];
+      if (!translation) {
+        if (/^\d+/.test(brut)) {
+          translation = brut;
+        }
+      }
+      if (translation) {
+        mots[i].francais_mot = translation;
+        log.push(`Traduction auto pour mot vide mot[${i}] "${brut}" → "${translation}"`);
+        count++;
+      }
+    }
+  }
+  return count;
 }
 
 // ─── Application des fixes sur un seif ────────────────────────────────────
@@ -220,7 +298,23 @@ function fixSeifData(halakha) {
     }
   }
 
-  // 3. Re-synchroniser hebreu_sans_voyelles depuis mots_alignes
+  // Remplir hebreu_brut depuis hebreu_voyelles si manquant
+  for (let i = 1; i < mots.length; i++) {
+    if (!mots[i].hebreu_brut && mots[i].hebreu_voyelles) {
+      mots[i].hebreu_brut = removeNikkoud(mots[i].hebreu_voyelles).trim();
+      log.push(`Mot[${i}]: hebreu_brut vide reconstitué depuis hebreu_voyelles ("${mots[i].hebreu_brut}")`);
+      fixCount++;
+    }
+  }
+
+  // 3. Corriger les ponctuations isolées et les traductions vides
+  const punctFixed = fixIsolatedPunctuation(mots, log);
+  if (punctFixed > 0) fixCount += punctFixed;
+
+  const emptyFixed = fixEmptyTranslations(mots, log);
+  if (emptyFixed > 0) fixCount += emptyFixed;
+
+  // 4. Re-synchroniser hebreu_sans_voyelles depuis mots_alignes
   const rebuiltBrut = mots.map(m => m.hebreu_brut).join(' ');
   if (rebuiltBrut !== ti.hebreu_sans_voyelles) {
     const oldLen = ti.hebreu_sans_voyelles.split(/\s+/).filter(Boolean).length;
@@ -246,12 +340,15 @@ function fixSeifData(halakha) {
  */
 export function autoFixSiman(filePath, dryRun = false) {
   const basename = path.basename(filePath);
-  const simanMatch = basename.match(/siman_(\d+)\.json/);
-  const simanNum = simanMatch ? parseInt(simanMatch[1], 10) : 0;
+  const simanMatch = basename.match(/siman_([\d-]+)\.json/);
+  let simanNum = simanMatch ? simanMatch[1] : 0;
 
   let data;
   try {
     data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    if (data && data.siman !== undefined) {
+      simanNum = data.siman;
+    }
   } catch (e) {
     console.error(`❌ Impossible de lire ${basename}: ${e.message}`);
     return { siman: simanNum, totalFixes: 0, seifimFixed: 0 };
@@ -313,7 +410,7 @@ function parseArgs() {
     if (args[i] === '--file' && args[i + 1]) {
       specificFile = args[++i];
     } else if (args[i] === '--siman' && args[i + 1]) {
-      simanNum = parseInt(args[++i], 10);
+      simanNum = args[++i];
     } else if (args[i] === '--all') {
       all = true;
     } else if (args[i] === '--dry') {
@@ -342,19 +439,24 @@ if (isMain) {
   let files = [];
   if (specificFile) {
     if (!fs.existsSync(specificFile)) {
-      console.error(`❌ Fichier introuvable : ${specificFile}`);
+      console.error(`❌ Fichier ou dossier introuvable : ${specificFile}`);
       process.exit(1);
     }
-    files = [specificFile];
+    if (fs.statSync(specificFile).isDirectory()) {
+      const catFiles = fs.readdirSync(specificFile).filter(f => /^siman_[\d-]+\.json$/.test(f));
+      files.push(...catFiles.map(f => path.join(specificFile, f)));
+    } else {
+      files = [specificFile];
+    }
   } else if (all) {
     // Scan root and category subdirectories for siman_X.json
     const rootItems = fs.readdirSync(DATA_DIR);
     for (const item of rootItems) {
       const fullPath = path.join(DATA_DIR, item);
       if (fs.statSync(fullPath).isDirectory()) {
-        const catFiles = fs.readdirSync(fullPath).filter(f => /^siman_\d+\.json$/.test(f));
+        const catFiles = fs.readdirSync(fullPath).filter(f => /^siman_[\d-]+\.json$/.test(f));
         files.push(...catFiles.map(f => path.join(fullPath, f)));
-      } else if (/^siman_\d+\.json$/.test(item)) {
+      } else if (/^siman_[\d-]+\.json$/.test(item)) {
         files.push(fullPath);
       }
     }

@@ -34,10 +34,80 @@ const __dirname = path.dirname(__filename);
 const ROOT = path.resolve(__dirname, '..');
 
 // ─── Configuration ────────────────────────────────────────────────────────────
-const GEMINI_MODEL = 'gemini-3.6-flash';
+// Cascade ordonnée de modèles : si le premier est saturé (503 High Demand), bascule sur le suivant
+const CANDIDATE_MODELS = [
+  'gemini-3.8-flash',
+  'gemini-3.7-flash',
+  'gemini-3.6-flash',
+  'gemini-3.5-flash',
+];
 const API_DELAY_MS = 500;           // 0.5s (Le Smart Scheduler gère déjà la rotation des 4 clés)
 const MAX_RETRIES = 15;
 const RETRY_DELAY_MS = 10000;
+
+class ModelManager {
+  constructor(models = CANDIDATE_MODELS) {
+    this.models = models.map(m => ({ name: m, cooldownUntil: 0 }));
+  }
+
+  getAvailableModel() {
+    const now = Date.now();
+    for (const m of this.models) {
+      if (m.cooldownUntil <= now) {
+        return m.name;
+      }
+    }
+    const soonest = [...this.models].sort((a, b) => a.cooldownUntil - b.cooldownUntil)[0];
+    return soonest.name;
+  }
+
+  isAllInCooldown() {
+    const now = Date.now();
+    return this.models.every(m => m.cooldownUntil > now);
+  }
+
+  getSoonestWaitMs() {
+    const now = Date.now();
+    const soonest = [...this.models].sort((a, b) => a.cooldownUntil - b.cooldownUntil)[0];
+    return Math.max(0, soonest.cooldownUntil - now);
+  }
+
+  setCooldown(modelName, delayMs = 120000) {
+    const found = this.models.find(m => m.name === modelName);
+    if (found) {
+      found.cooldownUntil = Date.now() + delayMs;
+      const next = this.getAvailableModel();
+      console.log(`\n⚠️  [503 Surcharge] Modèle ${modelName} saturé par Google (cooldown ${Math.ceil(delayMs / 1000)}s).`);
+      if (next !== modelName) {
+        console.log(`🔀 Basculement automatique vers le modèle de secours : ${next}`);
+      }
+    }
+  }
+}
+
+const modelManager = new ModelManager();
+
+function isQuotaError(err) {
+  const msg = err?.message || String(err);
+  return (
+    msg.includes('Quota') ||
+    msg.includes('429') ||
+    msg.includes('RESOURCE_EXHAUSTED') ||
+    msg.includes('quota')
+  );
+}
+
+function isHighDemandError(err) {
+  const msg = err?.message || String(err);
+  return (
+    msg.includes('503') ||
+    msg.includes('UNAVAILABLE') ||
+    msg.includes('high demand') ||
+    msg.includes('Spikes in demand') ||
+    msg.includes('overloaded') ||
+    msg.includes('temporarily unavailable')
+  );
+}
 
 class KeyManager {
   constructor(keys) {
@@ -48,7 +118,7 @@ class KeyManager {
     while (true) {
       const now = Date.now();
       const availableKeys = this.keys.filter(k => k.cooldownUntil <= now);
-      
+
       if (availableKeys.length > 0) {
         availableKeys.sort((a, b) => a.cooldownUntil - b.cooldownUntil);
         return availableKeys[0];
@@ -70,16 +140,16 @@ class KeyManager {
 let keyManager = null;
 // ─── Correspondance chiffres arabes → lettres hébraïques (gematria) ───────────
 const HEBREW_NUMERALS = {
-  1:'א',2:'ב',3:'ג',4:'ד',5:'ה',6:'ו',7:'ז',8:'ח',9:'ט',10:'י',
-  11:'יא',12:'יב',13:'יג',14:'יד',15:'טו',16:'טז',17:'יז',18:'יח',19:'יט',20:'כ',
-  21:'כא',22:'כב',23:'כג',24:'כד',25:'כה',26:'כו',27:'כז',28:'כח',29:'כט',30:'ל',
-  31:'לא',32:'לב',33:'לג',34:'לד',35:'לה',36:'לו',37:'לז',38:'לח',39:'לט',40:'מ',
-  41:'מא',42:'מב',43:'מג',44:'מד',45:'מה',46:'מו',47:'מז',48:'מח',49:'מט',50:'נ',
-  51:'נא',52:'נב',53:'נג',54:'נד',55:'נה',56:'נו',57:'נז',58:'נח',59:'נט',60:'ס',
-  61:'סא',62:'סב',63:'סג',64:'סד',65:'סה',66:'סו',67:'סז',68:'סח',69:'סט',70:'ע',
-  71:'עא',72:'עב',73:'עג',74:'עד',75:'עה',76:'עו',77:'עז',78:'עח',79:'עט',80:'פ',
-  81:'פא',82:'פב',83:'פג',84:'פד',85:'פה',86:'פו',87:'פז',88:'פח',89:'פט',90:'צ',
-  91:'צא',92:'צב',93:'צג',94:'צד',95:'צה',96:'צו',97:'צז',98:'צח',99:'צט',100:'ק',
+  1: 'א', 2: 'ב', 3: 'ג', 4: 'ד', 5: 'ה', 6: 'ו', 7: 'ז', 8: 'ח', 9: 'ט', 10: 'י',
+  11: 'יא', 12: 'יב', 13: 'יג', 14: 'יד', 15: 'טו', 16: 'טז', 17: 'יז', 18: 'יח', 19: 'יט', 20: 'כ',
+  21: 'כא', 22: 'כב', 23: 'כג', 24: 'כד', 25: 'כה', 26: 'כו', 27: 'כז', 28: 'כח', 29: 'כט', 30: 'ל',
+  31: 'לא', 32: 'לב', 33: 'לג', 34: 'לד', 35: 'לה', 36: 'לו', 37: 'לז', 38: 'לח', 39: 'לט', 40: 'מ',
+  41: 'מא', 42: 'מב', 43: 'מג', 44: 'מד', 45: 'מה', 46: 'מו', 47: 'מז', 48: 'מח', 49: 'מט', 50: 'נ',
+  51: 'נא', 52: 'נב', 53: 'נג', 54: 'נד', 55: 'נה', 56: 'נו', 57: 'נז', 58: 'נח', 59: 'נט', 60: 'ס',
+  61: 'סא', 62: 'סב', 63: 'סג', 64: 'סד', 65: 'סה', 66: 'סו', 67: 'סז', 68: 'סח', 69: 'סט', 70: 'ע',
+  71: 'עא', 72: 'עב', 73: 'עג', 74: 'עד', 75: 'עה', 76: 'עו', 77: 'עז', 78: 'עח', 79: 'עט', 80: 'פ',
+  81: 'פא', 82: 'פב', 83: 'פג', 84: 'פד', 85: 'פה', 86: 'פו', 87: 'פז', 88: 'פח', 89: 'פט', 90: 'צ',
+  91: 'צא', 92: 'צב', 93: 'צג', 94: 'צד', 95: 'צה', 96: 'צו', 97: 'צז', 98: 'צח', 99: 'צט', 100: 'ק',
 };
 
 function arabicToHebrewNumeral(n) {
@@ -239,12 +309,12 @@ const ALIGNMENT_SCHEMA = {
       items: {
         type: Type.OBJECT,
         properties: {
-          id:                  { type: Type.INTEGER },
-          hebreu_brut:         { type: Type.STRING },
-          hebreu_voyelles:     { type: Type.STRING },
-          francais_mot:        { type: Type.STRING },
+          id: { type: Type.INTEGER },
+          hebreu_brut: { type: Type.STRING },
+          hebreu_voyelles: { type: Type.STRING },
+          francais_mot: { type: Type.STRING },
           expression_contexte: { type: Type.STRING },
-          infinitif:           { type: Type.STRING },
+          infinitif: { type: Type.STRING },
         },
         required: ['id', 'hebreu_brut', 'hebreu_voyelles', 'francais_mot', 'expression_contexte'],
       },
@@ -312,12 +382,19 @@ FRANCAIS: [Génère la traduction fluide ici]
 ---`;
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    if (modelManager.isAllInCooldown()) {
+      const waitMs = modelManager.getSoonestWaitMs();
+      console.log(`\n⏳ Tous les modèles de secours sont saturés (503). Pause de ${Math.ceil(waitMs / 1000)}s...`);
+      await sleep(waitMs + 1000);
+    }
+
+    const currentModel = modelManager.getAvailableModel();
     const keyObj = await keyManager.getAvailableKey();
     const aiClient = new GoogleGenAI({ apiKey: keyObj.value });
 
     try {
       const response = await aiClient.models.generateContent({
-        model: GEMINI_MODEL,
+        model: currentModel,
         contents: [{ role: 'user', parts: [{ text: userPrompt }] }],
         config: { temperature: 0.1 },
       });
@@ -325,36 +402,39 @@ FRANCAIS: [Génère la traduction fluide ici]
       const raw = response.text;
       const titreMatch = raw.match(/TITRE\s*:\s*(.+)/i);
       const francaisMatch = raw.match(/FRANCAIS\s*:\s*([\s\S]+?)(?:---|$)/i);
-      
+
       if (!francaisMatch) throw new Error('Format de traduction invalide');
-      
-      return { 
+
+      return {
         titre: titreMatch ? titreMatch[1].trim() : `Seif ${seifNum}`,
         francais: francaisMatch[1].trim()
       };
 
     } catch (err) {
-      const isQuotaError = err.message && (
-        err.message.includes('Quota') || err.message.includes('429') || err.message.includes('RESOURCE_EXHAUSTED')
-      );
-      
-      if (isQuotaError) {
+      if (isQuotaError(err)) {
         let delayMs = 60000;
         try {
           const body = typeof err.message === 'string' ? JSON.parse(err.message) : err;
           const retryInfo = body?.error?.details?.find(d => d['@type']?.includes('RetryInfo'));
           if (retryInfo?.retryDelay) {
-             const seconds = parseFloat(retryInfo.retryDelay.replace('s', ''));
-             if (!isNaN(seconds) && seconds > 0) delayMs = seconds * 1000;
+            const seconds = parseFloat(retryInfo.retryDelay.replace('s', ''));
+            if (!isNaN(seconds) && seconds > 0) delayMs = seconds * 1000;
           }
         } catch { }
         keyManager.setCooldown(keyObj, delayMs);
-        attempt--; // Ne compte pas comme une erreur de parsing/503
+        attempt--; // Ne compte pas comme une erreur fatale
+        continue;
+      }
+
+      if (isHighDemandError(err)) {
+        modelManager.setCooldown(currentModel, 120000);
+        attempt--; // Ne pas brûler de tentative sur une 503
+        await sleep(500); // Court délai avant de retenter sur le modèle suivant
         continue;
       }
 
       const isLast = attempt === MAX_RETRIES;
-      
+
       // Exponential Backoff avec Jitter (2s, 4s, 8s...)
       let baseDelay = 2000 * Math.pow(2, attempt - 1);
       if (baseDelay > 60000) baseDelay = 60000;
@@ -384,12 +464,19 @@ ${francais}
 Génère le tableau "mots_alignes" selon le schéma défini. Rappel : un élément par mot hébreu (séparé par un espace), sans inclure le badge de numérotation.`;
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    if (modelManager.isAllInCooldown()) {
+      const waitMs = modelManager.getSoonestWaitMs();
+      console.log(`\n⏳ Tous les modèles de secours sont saturés (503). Pause de ${Math.ceil(waitMs / 1000)}s...`);
+      await sleep(waitMs + 1000);
+    }
+
+    const currentModel = modelManager.getAvailableModel();
     const keyObj = await keyManager.getAvailableKey();
     const aiClient = new GoogleGenAI({ apiKey: keyObj.value });
 
     try {
       const response = await aiClient.models.generateContent({
-        model: GEMINI_MODEL,
+        model: currentModel,
         contents: [{ role: 'user', parts: [{ text: userPrompt }] }],
         config: {
           systemInstruction: SYSTEM_PROMPT,
@@ -424,14 +511,7 @@ Génère le tableau "mots_alignes" selon le schéma défini. Rappel : un éléme
       return parsed;
 
     } catch (err) {
-      const isQuotaError = err.message && (
-        err.message.includes('Quota exceeded') ||
-        err.message.includes('429') ||
-        err.message.includes('RESOURCE_EXHAUSTED') ||
-        err.message.includes('quota')
-      );
-      
-      if (isQuotaError) {
+      if (isQuotaError(err)) {
         let delayMs = 60000;
         try {
           const body = typeof err.message === 'string' ? JSON.parse(err.message) : err;
@@ -444,7 +524,14 @@ Génère le tableau "mots_alignes" selon le schéma défini. Rappel : un éléme
           }
         } catch { }
         keyManager.setCooldown(keyObj, delayMs);
-        attempt--; 
+        attempt--;
+        continue;
+      }
+
+      if (isHighDemandError(err)) {
+        modelManager.setCooldown(currentModel, 120000);
+        attempt--;
+        await sleep(500);
         continue;
       }
 
@@ -456,7 +543,7 @@ Génère le tableau "mots_alignes" selon le schéma défini. Rappel : un éléme
       const jitter = Math.floor(Math.random() * 1000);
       const waitMs = baseDelay + jitter;
 
-      console.warn(`  ⚠️  Tentative ${attempt}/${MAX_RETRIES} échouée (attente ${(waitMs / 1000).toFixed(1)}s): ${err.message.substring(0, 120)}`);
+      console.warn(`  ⚠️  Tentative alignement ${attempt}/${MAX_RETRIES} échouée (attente ${(waitMs / 1000).toFixed(1)}s): ${err.message.substring(0, 120)}`);
       if (isLast) throw err;
       await sleep(waitMs);
     }
@@ -693,7 +780,7 @@ async function main() {
       successCount++;
       const seifDuration = (Date.now() - seifStartTime) / 1000;
       totalSeifDuration += seifDuration;
-      
+
       // Télémétrie
       try {
         const logLine = JSON.stringify({

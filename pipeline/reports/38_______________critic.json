@@ -1,0 +1,105 @@
+{
+  "siman": "38",
+  "timestamp": "2026-09-04T07:01:12.910Z",
+  "total_reviewed": 1,
+  "total_fixes": 1,
+  "total_escalations": 0,
+  "fixes": [
+    {
+      "seif": 1,
+      "issue_index": 0,
+      "issue_type": "ALIGNMENT_MISMATCH_WORD",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "word_id": 24,
+          "field": "hebreu_voyelles",
+          "old": "סִי'",
+          "new": "שׁוּ\"עַ",
+          "reason": "Alignement de la référence du Shoulhan Aroukh (שו\"ע)"
+        },
+        {
+          "word_id": 25,
+          "field": "hebreu_voyelles",
+          "old": "לַח",
+          "new": "סִי'",
+          "reason": "Réalignement du mot 'סי' (סימן)"
+        },
+        {
+          "word_id": 26,
+          "field": "hebreu_voyelles",
+          "old": "ס\"ג.",
+          "new": "לַח",
+          "reason": "Réalignement du numéro de chapitre 38 (לח)"
+        },
+        {
+          "word_id": 27,
+          "field": "hebreu_voyelles",
+          "old": "ילקו\"י",
+          "new": "סְעִיף",
+          "reason": "Réalignement du mot 'ס' (סעיף)"
+        },
+        {
+          "word_id": 28,
+          "field": "hebreu_voyelles",
+          "old": "תְּפִלִּין",
+          "new": "ג'.",
+          "reason": "Réalignement du paragraphe 3 (ג.)"
+        }
+      ]
+    }
+  ],
+  "escalations": [],
+  "reviews": [
+    {
+      "seif": 1,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "ALIGNMENT_MISMATCH_WORD",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "word_id": 24,
+                "field": "hebreu_voyelles",
+                "old": "סִי'",
+                "new": "שׁוּ\"עַ",
+                "reason": "Alignement de la référence du Shoulhan Aroukh (שו\"ע)"
+              },
+              {
+                "word_id": 25,
+                "field": "hebreu_voyelles",
+                "old": "לַח",
+                "new": "סִי'",
+                "reason": "Réalignement du mot 'סי' (סימן)"
+              },
+              {
+                "word_id": 26,
+                "field": "hebreu_voyelles",
+                "old": "ס\"ג.",
+                "new": "לַח",
+                "reason": "Réalignement du numéro de chapitre 38 (לח)"
+              },
+              {
+                "word_id": 27,
+                "field": "hebreu_voyelles",
+                "old": "ילקו\"י",
+                "new": "סְעִיף",
+                "reason": "Réalignement du mot 'ס' (סעיף)"
+              },
+              {
+                "word_id": 28,
+                "field": "hebreu_voyelles",
+                "old": "תְּפִלִּין",
+                "new": "ג'.",
+                "reason": "Réalignement du paragraphe 3 (ג.)"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

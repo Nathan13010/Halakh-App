@@ -15,7 +15,14 @@ import 'dotenv/config';
 import { GoogleGenAI } from '@google/genai';
 
 // ─── Configuration ────────────────────────────────────────────────────────────
-const GEMINI_MODEL = 'gemini-3.7-flash';
+export const CANDIDATE_MODELS = [
+  'gemini-3.8-flash',
+  'gemini-3.7-flash',
+  'gemini-3.6-flash',
+  'gemini-3.5-flash',
+];
+export const GEMINI_MODEL = CANDIDATE_MODELS[0];
+let currentModelIndex = 0;
 const BASE_DELAY_MS = 4500;      // 4.5s entre requêtes (15 req/min)
 const MAX_RETRIES = 5;
 const INITIAL_RETRY_MS = 5000;   // 5s premier retry
@@ -95,7 +102,7 @@ function sleep(ms) {
  * @param {boolean} [options.jsonMode] - Si true, attend une réponse JSON
  * @returns {Promise<string|Object>} La réponse (texte ou objet JSON parsé)
  */
-export async function callGemini({ prompt, config = {}, model = GEMINI_MODEL, jsonMode = false }) {
+export async function callGemini({ prompt, config = {}, model = null, jsonMode = false }) {
   if (!aiClient) {
     initGeminiClient();
   }
@@ -109,6 +116,7 @@ export async function callGemini({ prompt, config = {}, model = GEMINI_MODEL, js
 
   let retries = 0;
   let retryDelay = INITIAL_RETRY_MS;
+  let activeModel = model || CANDIDATE_MODELS[currentModelIndex];
 
   while (retries <= MAX_RETRIES) {
     try {
@@ -121,7 +129,7 @@ export async function callGemini({ prompt, config = {}, model = GEMINI_MODEL, js
       }
 
       const response = await aiClient.models.generateContent({
-        model,
+        model: activeModel,
         contents: prompt,
         config: Object.keys(finalConfig).length > 0 ? finalConfig : undefined,
       });
@@ -163,6 +171,22 @@ export async function callGemini({ prompt, config = {}, model = GEMINI_MODEL, js
           aiClient = new GoogleGenAI({ apiKey: apiKeys[0] });
         }
         // Ne pas incrémenter retries pour les erreurs de quota
+        continue;
+      }
+
+      const isHighDemand = errorMsg.includes('503') ||
+        errorMsg.includes('UNAVAILABLE') ||
+        errorMsg.includes('high demand') ||
+        errorMsg.includes('Spikes in demand') ||
+        errorMsg.includes('overloaded');
+
+      if (isHighDemand) {
+        const prevModel = activeModel;
+        currentModelIndex = (currentModelIndex + 1) % CANDIDATE_MODELS.length;
+        activeModel = CANDIDATE_MODELS[currentModelIndex];
+        console.log(`\n⚠️  [503 Surcharge] Modèle ${prevModel} saturé par Google.`);
+        console.log(`🔀 Basculement immédiat vers le modèle de secours : ${activeModel}`);
+        await sleep(500);
         continue;
       }
 

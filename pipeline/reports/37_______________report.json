@@ -1,13 +1,13 @@
 {
-  "siman": 37,
+  "siman": "37",
   "file": "siman_37.json",
-  "timestamp": "2026-09-02T07:18:08.142Z",
+  "timestamp": "2026-09-04T07:05:13.282Z",
   "summary": {
     "total": 17,
-    "pass": 15,
-    "warn": 2,
+    "pass": 16,
+    "warn": 1,
     "fail": 0,
-    "avg_score": 98
+    "avg_score": 99
   },
   "seifim": [
     {
@@ -243,12 +243,12 @@
     },
     {
       "seif": 12,
-      "status": "WARN",
-      "score": 83,
+      "status": "PASS",
+      "score": 100,
       "checks": {
         "json_structure": true,
         "alignment_count": true,
-        "alignment_accuracy": false,
+        "alignment_accuracy": true,
         "no_terme": true,
         "no_pipes": true,
         "no_double_spaces": true,
@@ -260,65 +260,7 @@
         "no_empty_words": true,
         "no_hebrew_in_french": true
       },
-      "issues": [
-        {
-          "type": "ALIGNMENT_MISMATCH_WORD",
-          "severity": "error",
-          "detail": "124 mot(s) ont un décalage majeur entre brut et voyelles",
-          "words": [
-            {
-              "id": 1,
-              "hebreu_brut": "קדושת",
-              "hebreu_voyelles": "ב"
-            },
-            {
-              "id": 2,
-              "hebreu_brut": "תפילין",
-              "hebreu_voyelles": "קְדֻשַּׁת"
-            },
-            {
-              "id": 3,
-              "hebreu_brut": "קדושתן",
-              "hebreu_voyelles": "תְּפִלִּין"
-            },
-            {
-              "id": 4,
-              "hebreu_brut": "גדולה",
-              "hebreu_voyelles": "קְדֻשָּׁתָן"
-            },
-            {
-              "id": 5,
-              "hebreu_brut": "היא",
-              "hebreu_voyelles": "גְּדוֹלָה"
-            },
-            {
-              "id": 6,
-              "hebreu_brut": "שכל",
-              "hebreu_voyelles": "הִיא"
-            },
-            {
-              "id": 7,
-              "hebreu_brut": "זמן",
-              "hebreu_voyelles": "שֶׁכָּל"
-            },
-            {
-              "id": 8,
-              "hebreu_brut": "שהתפילין",
-              "hebreu_voyelles": "זְמַן"
-            },
-            {
-              "id": 9,
-              "hebreu_brut": "בראשו",
-              "hebreu_voyelles": "שֶׁהַתְּפִלִּין"
-            },
-            {
-              "id": 10,
-              "hebreu_brut": "של",
-              "hebreu_voyelles": "בְּרֹאשׁוֹ"
-            }
-          ]
-        }
-      ]
+      "issues": []
     },
     {
       "seif": 13,

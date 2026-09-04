@@ -1,13 +1,13 @@
 {
-  "siman": 27,
+  "siman": "27",
   "file": "siman_27.json",
-  "timestamp": "2026-08-28T09:37:11.366Z",
+  "timestamp": "2026-09-04T07:05:13.223Z",
   "summary": {
     "total": 27,
-    "pass": 24,
-    "warn": 3,
+    "pass": 25,
+    "warn": 2,
     "fail": 0,
-    "avg_score": 98
+    "avg_score": 99
   },
   "seifim": [
     {
@@ -319,7 +319,7 @@
         {
           "type": "ALIGNMENT_MISMATCH_WORD",
           "severity": "error",
-          "detail": "35 mot(s) ont un décalage majeur entre brut et voyelles",
+          "detail": "32 mot(s) ont un décalage majeur entre brut et voyelles",
           "words": [
             {
               "id": 53,
@@ -335,16 +335,6 @@
               "id": 55,
               "hebreu_brut": "כז",
               "hebreu_voyelles": "סְעִיף"
-            },
-            {
-              "id": 56,
-              "hebreu_brut": "סעיף",
-              "hebreu_voyelles": "ה'."
-            },
-            {
-              "id": 57,
-              "hebreu_brut": "ה'.",
-              "hebreu_voyelles": "פְּרִי"
             },
             {
               "id": 58,
@@ -370,6 +360,16 @@
               "id": 62,
               "hebreu_brut": "סק",
               "hebreu_voyelles": "הַחַיִּים"
+            },
+            {
+              "id": 64,
+              "hebreu_brut": "כף",
+              "hebreu_voyelles": "כז"
+            },
+            {
+              "id": 65,
+              "hebreu_brut": "החיים",
+              "hebreu_voyelles": "אוֹת"
             }
           ]
         }
@@ -398,12 +398,12 @@
     },
     {
       "seif": 16,
-      "status": "WARN",
-      "score": 83,
+      "status": "PASS",
+      "score": 100,
       "checks": {
         "json_structure": true,
         "alignment_count": true,
-        "alignment_accuracy": false,
+        "alignment_accuracy": true,
         "no_terme": true,
         "no_pipes": true,
         "no_double_spaces": true,
@@ -415,20 +415,7 @@
         "no_empty_words": true,
         "no_hebrew_in_french": true
       },
-      "issues": [
-        {
-          "type": "ALIGNMENT_MISMATCH_WORD",
-          "severity": "error",
-          "detail": "1 mot(s) ont un décalage majeur entre brut et voyelles",
-          "words": [
-            {
-              "id": 47,
-              "hebreu_brut": "הלאק",
-              "hebreu_voyelles": "הַלָּק"
-            }
-          ]
-        }
-      ]
+      "issues": []
     },
     {
       "seif": 17,

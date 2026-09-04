@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "siman": 7,
+    "siman_hebrew": "ז",
+    "title": "Lois du réveil - Bénédiction Acher Yatsar",
+    "title_hebrew": "הלכות השכמת הבוקר - ברכת אשר יצר",
+    "source": "siman_7.json",
+    "knowledge_points": 15,
+    "version": "2.0",
+    "method": "novice-friendly rewrite"
+  },
+  "knowledge_points": [
+    {
+      "id": "new-s7-kp-001",
+      "title": "Un rendez-vous quotidien",
+      "rule": "Dans le judaïsme, la spiritualité ne se trouve pas seulement dans les grandes prières, mais aussi dans les actes les plus basiques. À chaque fois que l'on va aux toilettes, on récite une courte bénédiction appelée Acher Yatsar. C'est un moment pour remercier Dieu de faire fonctionner notre incroyable machine corporelle.",
+      "sources": [
+        {
+          "siman": 7,
+          "seif": 1
+        },
+        {
+          "siman": 7,
+          "seif": 2
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Dans le judaïsme, la spiritualité ne se trouve pas seulement dans les grandes prières, mais aussi dans les actes les plus basiques. À chaque fois que l'on va aux toilettes, on récite une courte bénédiction appelée Acher Yatsar. C'est un moment pour remercier Dieu de faire fonctionner notre incroyable machine corporelle."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "Il faut attendre d'aller aux toilettes au moins 3 fois dans la journée pour faire un \"tir groupé\" et réciter la bénédiction.",
+      "quizOptions": [
+        "Vrai, c'est un gain de temps spirituel.",
+        "Faux, on récite la bénédiction après chaque passage aux toilettes."
+      ],
+      "quizAnswer": "Faux, on récite la bénédiction après chaque passage aux toilettes."
+    },
+    {
+      "id": "new-s7-kp-002",
+      "title": "La magie d'une seule goutte",
+      "rule": "Vous pourriez penser qu'on ne fait cette bénédiction qu'après un \"grand\" besoin. Pas du tout ! Même si l'on n'a évacué qu'une seule petite goutte, on prend le temps de réciter Acher Yatsar. La loi juive nous rappelle avec sagesse que si notre corps était bloqué et ne pouvait pas évacuer cette goutte, nous en souffririons énormément.",
+      "sources": [
+        {
+          "siman": 7,
+          "seif": 1
+        },
+        {
+          "siman": 7,
+          "seif": 2
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Vous pourriez penser qu'on ne fait cette bénédiction qu'après un \"grand\" besoin. Pas du tout ! Même si l'on n'a évacué qu'une seule petite goutte, on prend le temps de réciter Acher Yatsar. La loi juive nous rappelle avec sagesse que si notre corps était bloqué et ne pouvait pas évacuer cette goutte, nous en souffririons énormément."
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Léo est allé aux toilettes, mais il n'a fait que quelques gouttes. Que doit-il faire ?",
+      "quizOptions": [
+        "Il récite la bénédiction, car le moindre fonctionnement du corps est un miracle qui mérite gratitude.",
+        "Il laisse tomber, Dieu a des choses plus importantes à gérer que ses quelques gouttes."
+      ],
+      "quizAnswer": "Il récite la bénédiction, car le moindre fonctionnement du corps est un miracle qui mérite gratitude."
+    },
+    {
+      "id": "new-s7-kp-003",
+      "title": "Le corps et l'âme",
+      "rule": "Le judaïsme ne méprise pas le corps, bien au contraire ! Pour avoir une âme en pleine forme, il faut un corps en bonne santé. Remercier pour notre \"plomberie interne\" est un acte de profonde gratitude qui nous apprend à ne jamais banaliser la santé que nous avons au quotidien.",
+      "sources": [
+        {
+          "siman": 7,
+          "seif": 1
+        },
+        {
+          "siman": 7,
+          "seif": 2
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Le judaïsme ne méprise pas le corps, bien au contraire ! Pour avoir une âme en pleine forme, il faut un corps en bonne santé. Remercier pour notre \"plomberie interne\" est un acte de profonde gratitude qui nous apprend à ne jamais banaliser la santé que nous avons au quotidien."
+      },
+      "quizEyebrow": "Phrase à trou",
+      "quizPrompt": "La prière que l'on récite après être allé aux toilettes s'appelle _______.",
+      "quizOptions": [
+        "Le Kaddich",
+        "Acher Yatsar"
+      ],
+      "quizAnswer": "Acher Yatsar"
+    },
+    {
+      "id": "new-s7-kp-004",
+      "title": "L'effet \"tisane\" ou \"café\"",
+      "rule": "Parfois, on boit beaucoup d'eau, des boissons alcoolisées, ou même on prend des médicaments qui nous font courir aux toilettes très souvent. La règle est simple : à chaque nouvelle visite, une nouvelle bénédiction ! C'est autant d'occasions supplémentaires de faire une pause spirituelle dans votre journée.",
+      "sources": [
+        {
+          "siman": 7,
+          "seif": 3
+        },
+        {
+          "siman": 7,
+          "seif": 4
+        },
+        {
+          "siman": 7,
+          "seif": 6
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Parfois, on boit beaucoup d'eau, des boissons alcoolisées, ou même on prend des médicaments qui nous font courir aux toilettes très souvent. La règle est simple : à chaque nouvelle visite, une nouvelle bénédiction ! C'est autant d'occasions supplémentaires de faire une pause spirituelle dans votre journée."
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Sarah boit beaucoup de thé vert au bureau et va aux toilettes 4 fois dans la matinée. Que fait-elle ?",
+      "quizOptions": [
+        "Elle se dit \"C'est bon, j'ai déjà remercié à 9h\", et ne dit plus rien.",
+        "Elle récite la bénédiction après chacune de ses 4 visites."
+      ],
+      "quizAnswer": "Elle récite la bénédiction après chacune de ses 4 visites."
+    },
+    {
+      "id": "new-s7-kp-005",
+      "title": "Même chez le médecin",
+      "rule": "Il arrive que l'on doive fournir un petit échantillon d'urine pour un examen médical, sans même en avoir ressenti l'envie naturelle. Faut-il bénir ? Oui ! Car votre corps a tout de même fonctionné et fait son travail avec succès, et c'est exactement ce que l'on célèbre avec Acher Yatsar.",
+      "sources": [
+        {
+          "siman": 7,
+          "seif": 3
+        },
+        {
+          "siman": 7,
+          "seif": 4
+        },
+        {
+          "siman": 7,
+          "seif": 6
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Il arrive que l'on doive fournir un petit échantillon d'urine pour un examen médical, sans même en avoir ressenti l'envie naturelle. Faut-il bénir ? Oui ! Car votre corps a tout de même fonctionné et fait son travail avec succès, et c'est exactement ce que l'on célèbre avec Acher Yatsar."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "Si on va aux toilettes uniquement pour remplir un flacon d'analyse médicale, on récite quand même la bénédiction.",
+      "quizOptions": [
+        "Vrai, car le corps a évacué avec succès.",
+        "Faux, on ne remercie pas quand on est malade."
+      ],
+      "quizAnswer": "Vrai, car le corps a évacué avec succès."
+    },
+    {
+      "id": "new-s7-kp-006",
+      "title": "Zéro lassitude",
+      "rule": "On pourrait se dire que répéter cette bénédiction plusieurs fois de suite devient ennuyeux. Mais voyez cela comme un exercice de pleine conscience. C'est une invitation à s'arrêter quelques secondes, à respirer, et à réaliser que notre corps est un cadeau qui se renouvelle à chaque instant.",
+      "sources": [
+        {
+          "siman": 7,
+          "seif": 3
+        },
+        {
+          "siman": 7,
+          "seif": 4
+        },
+        {
+          "siman": 7,
+          "seif": 6
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "On pourrait se dire que répéter cette bénédiction plusieurs fois de suite devient ennuyeux. Mais voyez cela comme un exercice de pleine conscience. C'est une invitation à s'arrêter quelques secondes, à respirer, et à réaliser que notre corps est un cadeau qui se renouvelle à chaque instant."
+      },
+      "quizEyebrow": "Devinette",
+      "quizPrompt": "Je suis une action qui multiplie tes occasions de dire la bénédiction dans la journée. Qui suis-je ?",
+      "quizOptions": [
+        "Boire beaucoup d'eau.",
+        "Regarder Netflix sur le canapé."
+      ],
+      "quizAnswer": "Boire beaucoup d'eau."
+    },
+    {
+      "id": "new-s7-kp-007",
+      "title": "Le trou de mémoire",
+      "rule": "Vous sortez des toilettes, votre téléphone sonne, vous répondez, et là... vous oubliez totalement de réciter Acher Yatsar. Pas de panique ! La Halakha (loi juive) est très compréhensive et sait que nous sommes humains. Il n'y a aucune culpabilité à avoir.",
+      "sources": [
+        {
+          "siman": 7,
+          "seif": 10
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Vous sortez des toilettes, votre téléphone sonne, vous répondez, et là... vous oubliez totalement de réciter Acher Yatsar. Pas de panique ! La Halakha (loi juive) est très compréhensive et sait que nous sommes humains. Il n'y a aucune culpabilité à avoir."
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "David a oublié de faire sa bénédiction ce matin. À midi, il retourne aux toilettes. Que doit-il faire en sortant ?",
+      "quizOptions": [
+        "Il récite la bénédiction deux fois de suite pour \"rembourser\" sa dette du matin.",
+        "Il récite la bénédiction une seule fois, elle couvrira le tout."
+      ],
+      "quizAnswer": "Il récite la bénédiction une seule fois, elle couvrira le tout."
+    },
+    {
+      "id": "new-s7-kp-008",
+      "title": "On efface l'ardoise",
+      "rule": "Que se passe-t-il si vous avez oublié de bénir la première fois, et que soudainement, vous avez encore envie d'aller aux toilettes ? C'est simple : allez-y tranquillement. Inutile de rattraper votre oubli maintenant. Allez faire ce que vous avez à faire.",
+      "sources": [
+        {
+          "siman": 7,
+          "seif": 10
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Que se passe-t-il si vous avez oublié de bénir la première fois, et que soudainement, vous avez encore envie d'aller aux toilettes ? C'est simple : allez-y tranquillement. Inutile de rattraper votre oubli maintenant. Allez faire ce que vous avez à faire."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "Le judaïsme nous demande de stresser et de nous sentir coupables si on oublie une bénédiction.",
+      "quizOptions": [
+        "Faux, on est humains, l'important est de continuer d'avancer joyeusement.",
+        "Vrai, il faut s'excuser pendant des heures."
+      ],
+      "quizAnswer": "Faux, on est humains, l'important est de continuer d'avancer joyeusement."
+    },
+    {
+      "id": "new-s7-kp-009",
+      "title": "Une seule bénédiction suffit",
+      "rule": "Une fois que vous avez terminé votre deuxième passage, vous réciterez la bénédiction Acher Yatsar une seule et unique fois. Cette unique récitation couvrira, avec amour, vos deux derniers passages. Dieu ne tient pas de carnet de pénalités !",
+      "sources": [
+        {
+          "siman": 7,
+          "seif": 10
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Une fois que vous avez terminé votre deuxième passage, vous réciterez la bénédiction Acher Yatsar une seule et unique fois. Cette unique récitation couvrira, avec amour, vos deux derniers passages. Dieu ne tient pas de carnet de pénalités !"
+      },
+      "quizEyebrow": "Phrase à trou",
+      "quizPrompt": "Si j'ai oublié de bénir la première fois et que j'y retourne, je dis la bénédiction _______ à la fin.",
+      "quizOptions": [
+        "Une seule fois",
+        "Trois fois très vite"
+      ],
+      "quizAnswer": "Une seule fois"
+    },
+    {
+      "id": "new-s7-kp-010",
+      "title": "L'idéal et la réalité",
+      "rule": "Normalement, en sortant des toilettes, on se lave les mains avec de l'eau avant de prononcer la bénédiction, par respect pour les mots sacrés que l'on s'apprête à dire. Mais la vie est pleine d'imprévus ! Que faire si vous êtes en pleine nature, ou dans des toilettes où le robinet est en panne ?",
+      "sources": [
+        {
+          "siman": 7,
+          "seif": 12
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Normalement, en sortant des toilettes, on se lave les mains avec de l'eau avant de prononcer la bénédiction, par respect pour les mots sacrés que l'on s'apprête à dire. Mais la vie est pleine d'imprévus ! Que faire si vous êtes en pleine nature, ou dans des toilettes où le robinet est en panne ?"
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Chloé campe en forêt. Elle va aux toilettes derrière un arbre, mais n'a pas d'eau pour se laver les mains, juste des lingettes nettoyantes.",
+      "quizOptions": [
+        "Elle s'essuie bien les mains avec la lingette, puis fait sa bénédiction. Le système D fonctionne !",
+        "Tant pis, elle attendra de rentrer chez elle dans 3 jours pour remercier Dieu."
+      ],
+      "quizAnswer": "Elle s'essuie bien les mains avec la lingette, puis fait sa bénédiction. Le système D fonctionne !"
+    },
+    {
+      "id": "new-s7-kp-011",
+      "title": "Le système D est accepté !",
+      "rule": "Le judaïsme est une religion de la vie réelle, pas un manuel rigide. Si vous n'avez pas d'eau, vous pouvez utiliser des lingettes, frotter vos mains avec un mouchoir, ou tout autre objet qui permet de les nettoyer. L'important est l'intention et l'effort.",
+      "sources": [
+        {
+          "siman": 7,
+          "seif": 12
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Le judaïsme est une religion de la vie réelle, pas un manuel rigide. Si vous n'avez pas d'eau, vous pouvez utiliser des lingettes, frotter vos mains avec un mouchoir, ou tout autre objet qui permet de les nettoyer. L'important est l'intention et l'effort."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "Sans eau pure coulant d'un robinet, il est formellement interdit de s'adresser à Dieu.",
+      "quizOptions": [
+        "Vrai, Dieu n'aime que la perfection.",
+        "Faux, le judaïsme s'adapte, tout moyen de se nettoyer les mains est valable."
+      ],
+      "quizAnswer": "Faux, le judaïsme s'adapte, tout moyen de se nettoyer les mains est valable."
+    },
+    {
+      "id": "new-s7-kp-012",
+      "title": "La propreté avant tout",
+      "rule": "Dès que vos mains sont propres grâce à ce nettoyage de fortune, et qu'aucune saleté n'y reste, vous avez le feu vert ! Vous pouvez réciter Acher Yatsar avec le cœur léger. L'hygiène est respectée, et votre connexion avec le Divin n'est pas interrompue par un simple problème de plomberie.",
+      "sources": [
+        {
+          "siman": 7,
+          "seif": 12
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Dès que vos mains sont propres grâce à ce nettoyage de fortune, et qu'aucune saleté n'y reste, vous avez le feu vert ! Vous pouvez réciter Acher Yatsar avec le cœur léger. L'hygiène est respectée, et votre connexion avec le Divin n'est pas interrompue par un simple problème de plomberie."
+      },
+      "quizEyebrow": "Phrase à trou",
+      "quizPrompt": "Le but principal avant de dire la bénédiction est d'avoir les mains _______, quel que soit le moyen d'y parvenir.",
+      "quizOptions": [
+        "Propres",
+        "Parfumées à la lavande"
+      ],
+      "quizAnswer": "Propres"
+    },
+    {
+      "id": "new-s7-kp-013",
+      "title": "Le fameux \"L'ai-je dit ou pas ?\"",
+      "rule": "Nous menons des vies à 100 à l'heure, et parfois on agit par automatisme. Il peut vous arriver de vous arrêter net en vous demandant : \"Attends... est-ce que je viens de dire Acher Yatsar ou est-ce que j'ai oublié ?\". C'est un doute classique qui arrive aux meilleurs !",
+      "sources": [
+        {
+          "siman": 7,
+          "seif": 13
+        },
+        {
+          "siman": 7,
+          "seif": 14
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Nous menons des vies à 100 à l'heure, et parfois on agit par automatisme. Il peut vous arriver de vous arrêter net en vous demandant : \"Attends... est-ce que je viens de dire Acher Yatsar ou est-ce que j'ai oublié ?\". C'est un doute classique qui arrive aux meilleurs !"
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Julien a un doute immense. Il ne sait plus du tout s'il a remercié Dieu en sortant des toilettes il y a 5 minutes.",
+      "quizOptions": [
+        "Il la récite à voix haute juste au cas où, mieux vaut deux fois qu'une.",
+        "Il ne dit rien à voix haute pour ne pas utiliser le nom de Dieu en vain, mais peut la penser très fort."
+      ],
+      "quizAnswer": "Il ne dit rien à voix haute pour ne pas utiliser le nom de Dieu en vain, mais peut la penser très fort."
+    },
+    {
+      "id": "new-s7-kp-014",
+      "title": "Dans le doute, on s'abstient",
+      "rule": "Il y a une règle d'or très bienveillante dans la loi juive : quand on doute d'avoir fait une bénédiction, on ne la refait pas. Pourquoi ? Pour éviter de prononcer le Nom de Dieu \"en vain\" au cas où on l'aurait déjà dite. On ne prend pas de risque, et Dieu comprend parfaitement notre confusion.",
+      "sources": [
+        {
+          "siman": 7,
+          "seif": 13
+        },
+        {
+          "siman": 7,
+          "seif": 14
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Il y a une règle d'or très bienveillante dans la loi juive : quand on doute d'avoir fait une bénédiction, on ne la refait pas. Pourquoi ? Pour éviter de prononcer le Nom de Dieu \"en vain\" au cas où on l'aurait déjà dite. On ne prend pas de risque, et Dieu comprend parfaitement notre confusion."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "Si je pense très fort à ma prière sans la dire à voix haute à cause d'un doute, Dieu \"ne l'entend pas\".",
+      "quizOptions": [
+        "Vrai, il faut crier fort sinon ça ne marche pas.",
+        "Faux, Dieu connaît nos pensées et notre cœur."
+      ],
+      "quizAnswer": "Faux, Dieu connaît nos pensées et notre cœur."
+    },
+    {
+      "id": "new-s7-kp-015",
+      "title": "La force de la pensée",
+      "rule": "Mais si on veut quand même se connecter à Dieu malgré ce doute ? C'est simple : vous pouvez tout à fait repenser à la bénédiction dans votre cœur ou la lire des yeux dans un livre, sans la prononcer à voix haute. Vos pensées sont audibles par le Ciel, et votre gratitude sera toujours reçue avec amour !",
+      "sources": [
+        {
+          "siman": 7,
+          "seif": 13
+        },
+        {
+          "siman": 7,
+          "seif": 14
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Mais si on veut quand même se connecter à Dieu malgré ce doute ? C'est simple : vous pouvez tout à fait repenser à la bénédiction dans votre cœur ou la lire des yeux dans un livre, sans la prononcer à voix haute. Vos pensées sont audibles par le Ciel, et votre gratitude sera toujours reçue avec amour !"
+      },
+      "quizEyebrow": "Devinette",
+      "quizPrompt": "Je suis la règle d'or qui te protège de prononcer le nom de Dieu en vain quand tu as un trou de mémoire. Que me dit-on de faire ?",
+      "quizOptions": [
+        "\"Dans le doute, abstiens-toi (de la dire à voix haute).\"",
+        "\"Dans le doute, dis-la 10 fois pour être sûr.\""
+      ],
+      "quizAnswer": "\"Dans le doute, abstiens-toi (de la dire à voix haute).\""
+    }
+  ]
+}

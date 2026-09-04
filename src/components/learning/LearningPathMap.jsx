@@ -157,7 +157,7 @@ const LearningPathMap = ({ curricula, pathState, onOpenSiman, onOpenCategoryExam
             </span>
             <h3 className="mt-1 text-xl font-serif font-black">Test de la catégorie</h3>
             <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-400">
-              Des questions issues de chacun des trois Simanim · réussite à 100 %
+              Des questions issues de chacun des Simanim · réussite à 100 %
             </p>
             <button
               type="button"
@@ -169,7 +169,7 @@ const LearningPathMap = ({ curricula, pathState, onOpenSiman, onOpenCategoryExam
                   : "bg-zinc-200 dark:bg-zinc-800 text-zinc-400 cursor-not-allowed"
               }`}
             >
-              {categoryCompleted ? "Refaire le test final" : categoryUnlocked ? "Passer le test final" : "Valide d'abord les 3 Simanim"}
+              {categoryCompleted ? "Refaire le test final" : categoryUnlocked ? "Passer le test final" : "Valide d'abord tous les Simanim"}
             </button>
           </article>
         </div>

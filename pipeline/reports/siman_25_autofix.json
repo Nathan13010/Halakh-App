@@ -1,0 +1,25 @@
+{
+  "siman": "25",
+  "timestamp": "2026-09-04T07:05:09.313Z",
+  "dryRun": false,
+  "totalFixes": 4,
+  "seifimFixed": 2,
+  "details": [
+    {
+      "seif": "65",
+      "fixes": 2,
+      "details": [
+        "Traduction auto pour mot vide mot[4] \"את\" → \"(complément)\"",
+        "Traduction auto pour mot vide mot[9] \"את\" → \"(complément)\""
+      ]
+    },
+    {
+      "seif": "78",
+      "fixes": 2,
+      "details": [
+        "Suppression ponctuation isolée mot[54] (\".\") rattachée à mot[53]",
+        "Re-synchronisation hebreu_sans_voyelles depuis mots_alignes"
+      ]
+    }
+  ]
+}

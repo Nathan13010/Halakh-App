@@ -1,11 +1,11 @@
 {
-  "siman": 25,
+  "siman": "25",
   "file": "siman_25.json",
-  "timestamp": "2026-08-27T21:03:05.800Z",
+  "timestamp": "2026-09-04T07:05:13.210Z",
   "summary": {
     "total": 95,
-    "pass": 93,
-    "warn": 2,
+    "pass": 94,
+    "warn": 1,
     "fail": 0,
     "avg_score": 100
   },
@@ -54,12 +54,12 @@
     },
     {
       "seif": 3,
-      "status": "WARN",
-      "score": 83,
+      "status": "PASS",
+      "score": 100,
       "checks": {
         "json_structure": true,
         "alignment_count": true,
-        "alignment_accuracy": false,
+        "alignment_accuracy": true,
         "no_terme": true,
         "no_pipes": true,
         "no_double_spaces": true,
@@ -71,30 +71,7 @@
         "no_empty_words": true,
         "no_hebrew_in_french": true
       },
-      "issues": [
-        {
-          "type": "ALIGNMENT_MISMATCH_WORD",
-          "severity": "error",
-          "detail": "3 mot(s) ont un décalage majeur entre brut et voyelles",
-          "words": [
-            {
-              "id": 48,
-              "hebreu_brut": "לאאות",
-              "hebreu_voyelles": "לְאוֹת"
-            },
-            {
-              "id": 60,
-              "hebreu_brut": "לאאות",
-              "hebreu_voyelles": "לְאוֹת"
-            },
-            {
-              "id": 78,
-              "hebreu_brut": "לאאות",
-              "hebreu_voyelles": "לְאוֹת"
-            }
-          ]
-        }
-      ]
+      "issues": []
     },
     {
       "seif": 4,
@@ -581,7 +558,7 @@
         {
           "type": "ALIGNMENT_MISMATCH_WORD",
           "severity": "error",
-          "detail": "23 mot(s) ont un décalage majeur entre brut et voyelles",
+          "detail": "17 mot(s) ont un décalage majeur entre brut et voyelles",
           "words": [
             {
               "id": 20,
@@ -589,19 +566,9 @@
               "hebreu_voyelles": "סִי'"
             },
             {
-              "id": 22,
-              "hebreu_brut": "סכה",
-              "hebreu_voyelles": "ס\"א,"
-            },
-            {
               "id": 23,
               "hebreu_brut": "ס",
               "hebreu_voyelles": "שׁוּ\"ת"
-            },
-            {
-              "id": 24,
-              "hebreu_brut": "א,",
-              "hebreu_voyelles": "דִּבְרֵי"
             },
             {
               "id": 25,
@@ -609,19 +576,9 @@
               "hebreu_voyelles": "שָׁלוֹם"
             },
             {
-              "id": 26,
-              "hebreu_brut": "דברי",
-              "hebreu_voyelles": "א'"
-            },
-            {
               "id": 27,
               "hebreu_brut": "שלום",
               "hebreu_voyelles": "סִי'"
-            },
-            {
-              "id": 28,
-              "hebreu_brut": "א'",
-              "hebreu_voyelles": "כֹּה."
             },
             {
               "id": 29,
@@ -632,6 +589,26 @@
               "id": 30,
               "hebreu_brut": "כה.",
               "hebreu_voyelles": "עַל"
+            },
+            {
+              "id": 33,
+              "hebreu_brut": "על",
+              "hebreu_voyelles": "מַהֲדוּרַת"
+            },
+            {
+              "id": 34,
+              "hebreu_brut": "הל'",
+              "hebreu_voyelles": "תשס\"ד,"
+            },
+            {
+              "id": 35,
+              "hebreu_brut": "תפילין",
+              "hebreu_voyelles": "סִימָן"
+            },
+            {
+              "id": 36,
+              "hebreu_brut": "מהדורת",
+              "hebreu_voyelles": "כֹּה"
             }
           ]
         }
@@ -1438,7 +1415,7 @@
     {
       "seif": 65,
       "status": "PASS",
-      "score": 94,
+      "score": 100,
       "checks": {
         "json_structure": true,
         "alignment_count": true,
@@ -1451,28 +1428,10 @@
         "sujet_present": false,
         "ktiv_male": true,
         "no_punctuation_word": true,
-        "no_empty_words": false,
+        "no_empty_words": true,
         "no_hebrew_in_french": true
       },
-      "issues": [
-        {
-          "type": "EMPTY_WORDS",
-          "severity": "error",
-          "detail": "2 mot(s) avec champ vide",
-          "words": [
-            {
-              "id": 4,
-              "hebreu_brut": "את",
-              "francais_mot": ""
-            },
-            {
-              "id": 9,
-              "hebreu_brut": "את",
-              "francais_mot": ""
-            }
-          ]
-        }
-      ]
+      "issues": []
     },
     {
       "seif": 66,
@@ -1729,7 +1688,7 @@
     {
       "seif": 78,
       "status": "PASS",
-      "score": 96,
+      "score": 100,
       "checks": {
         "json_structure": true,
         "alignment_count": true,
@@ -1741,23 +1700,11 @@
         "titre_seif_present": true,
         "sujet_present": false,
         "ktiv_male": true,
-        "no_punctuation_word": false,
+        "no_punctuation_word": true,
         "no_empty_words": true,
         "no_hebrew_in_french": true
       },
-      "issues": [
-        {
-          "type": "PUNCTUATION_WORD",
-          "severity": "warning",
-          "detail": "1 mot(s) ne sont que de la ponctuation isolée",
-          "words": [
-            {
-              "id": 54,
-              "word": "."
-            }
-          ]
-        }
-      ]
+      "issues": []
     },
     {
       "seif": 79,

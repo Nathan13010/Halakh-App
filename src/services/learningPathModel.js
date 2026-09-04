@@ -9,7 +9,7 @@ export const LEARNING_CATEGORY = Object.freeze({
   title: "La conduite de l'homme au réveil",
   titleHebrew: "הלכות הנהגת אדם בבוקר",
   subtitle: "Les lois qui accompagnent le début de la journée",
-  simanIds: Object.freeze(["siman_1", "siman_2", "siman_3", "siman_4"])
+  simanIds: Object.freeze(["siman_1", "siman_2", "siman_3", "siman_4", "siman_5", "siman_6", "siman_7"])
 });
 
 export const LESSON_SIZE = 3;
@@ -70,6 +70,29 @@ const LESSON_TITLES = Object.freeze({
     "Pas de stress au réveil ! 😌",
     "Une hygiène spirituelle au quotidien ✨",
     "La sagesse des toilettes 🚰"
+  ]),
+  siman_5: Object.freeze([
+    "Le sens caché du Nom divin ✨",
+    "Elokim : La source de toute énergie ⚡",
+    "L'astuce spirituelle du matin 🌅",
+    "Mettre sur pause : Joie et sérénité 🧘‍♂️",
+    "Un petit pas avant l'action 🎯",
+    "Le respect du Nom imprononçable 🤫"
+  ]),
+  siman_6: Object.freeze([
+    "La merveille du corps humain 🧬",
+    "Un lavage simple et concentré 🚰",
+    "La santé avant tout ! 🏃‍♂️",
+    "Temps et imprévus nocturnes 🌙",
+    "Une pratique pour toute la famille 👨‍👩‍👧‍👦",
+    "L'âme qui respire : Elohaï Néchama 🌬️"
+  ]),
+  siman_7: Object.freeze([
+    "Le miracle de notre corps 🧬",
+    "À chaque visite, sa bénédiction 💧",
+    "Oups, j'ai oublié de bénir ! 😅",
+    "Mode \"tout-terrain\" (sans eau) 🏜️",
+    "Le bénéfice du doute 🤔"
   ])
 });
 

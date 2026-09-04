@@ -1,13 +1,13 @@
 {
-  "siman": 36,
+  "siman": "36",
   "file": "siman_36.json",
-  "timestamp": "2026-09-02T06:47:44.085Z",
+  "timestamp": "2026-09-04T07:05:13.277Z",
   "summary": {
     "total": 21,
-    "pass": 18,
-    "warn": 3,
+    "pass": 21,
+    "warn": 0,
     "fail": 0,
-    "avg_score": 98
+    "avg_score": 100
   },
   "seifim": [
     {
@@ -138,12 +138,12 @@
     },
     {
       "seif": 7,
-      "status": "WARN",
-      "score": 83,
+      "status": "PASS",
+      "score": 100,
       "checks": {
         "json_structure": true,
         "alignment_count": true,
-        "alignment_accuracy": false,
+        "alignment_accuracy": true,
         "no_terme": true,
         "no_pipes": true,
         "no_double_spaces": true,
@@ -155,25 +155,7 @@
         "no_empty_words": true,
         "no_hebrew_in_french": true
       },
-      "issues": [
-        {
-          "type": "ALIGNMENT_MISMATCH_WORD",
-          "severity": "error",
-          "detail": "2 mot(s) ont un décalage majeur entre brut et voyelles",
-          "words": [
-            {
-              "id": 13,
-              "hebreu_brut": "מבגדאד,",
-              "hebreu_voyelles": "מִבַּגְדָּד,"
-            },
-            {
-              "id": 45,
-              "hebreu_brut": "מבגדאד",
-              "hebreu_voyelles": "מִבַּגְדָּד"
-            }
-          ]
-        }
-      ]
+      "issues": []
     },
     {
       "seif": 8,
@@ -198,12 +180,12 @@
     },
     {
       "seif": 9,
-      "status": "WARN",
-      "score": 83,
+      "status": "PASS",
+      "score": 100,
       "checks": {
         "json_structure": true,
         "alignment_count": true,
-        "alignment_accuracy": false,
+        "alignment_accuracy": true,
         "no_terme": true,
         "no_pipes": true,
         "no_double_spaces": true,
@@ -215,20 +197,7 @@
         "no_empty_words": true,
         "no_hebrew_in_french": true
       },
-      "issues": [
-        {
-          "type": "ALIGNMENT_MISMATCH_WORD",
-          "severity": "error",
-          "detail": "1 mot(s) ont un décalage majeur entre brut et voyelles",
-          "words": [
-            {
-              "id": 94,
-              "hebreu_brut": "שמכשירין,",
-              "hebreu_voyelles": "שֶׁמַּכְשִׁירִים,"
-            }
-          ]
-        }
-      ]
+      "issues": []
     },
     {
       "seif": 10,
@@ -400,12 +369,12 @@
     },
     {
       "seif": 18,
-      "status": "WARN",
-      "score": 83,
+      "status": "PASS",
+      "score": 100,
       "checks": {
         "json_structure": true,
         "alignment_count": true,
-        "alignment_accuracy": false,
+        "alignment_accuracy": true,
         "no_terme": true,
         "no_pipes": true,
         "no_double_spaces": true,
@@ -417,20 +386,7 @@
         "no_empty_words": true,
         "no_hebrew_in_french": true
       },
-      "issues": [
-        {
-          "type": "ALIGNMENT_MISMATCH_WORD",
-          "severity": "error",
-          "detail": "1 mot(s) ont un décalage majeur entre brut et voyelles",
-          "words": [
-            {
-              "id": 36,
-              "hebreu_brut": "בגדאד",
-              "hebreu_voyelles": "בַּגְדָּד"
-            }
-          ]
-        }
-      ]
+      "issues": []
     },
     {
       "seif": 19,

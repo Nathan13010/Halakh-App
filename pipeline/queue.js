@@ -77,10 +77,61 @@ function arabicToHebrewNumeral(n) {
   return result;
 }
 
+// ─── Charger l'ordre canonique des catégories depuis all_category.txt ─────────
+
+function loadCategoryOrder() {
+  const allCategoryPath = path.join(ROOT, 'all_category.txt');
+  const dirToOrder = new Map();
+  if (!fs.existsSync(allCategoryPath)) return dirToOrder;
+
+  const content = fs.readFileSync(allCategoryPath, 'utf8');
+  const lines = content.split('\n');
+  const orderList = [];
+  for (const line of lines) {
+    const match = line.match(/^(\d+)\.\s*(.*)/);
+    if (match) {
+      let cat = match[2].trim();
+      if (cat.includes('—')) cat = cat.split('—')[0].trim();
+      orderList.push({ index: parseInt(match[1], 10), name: cat });
+    }
+  }
+
+  const dirs = fs.existsSync(COMPLET_DIR)
+    ? fs.readdirSync(COMPLET_DIR).filter(f => {
+        try { return fs.statSync(path.join(COMPLET_DIR, f)).isDirectory(); } catch { return false; }
+      })
+    : [];
+
+  function simplify(s) {
+    return s.replace(/[\(\)\-\—\'\"\s,]/g, '').replace(/י/g, '');
+  }
+
+  orderList.forEach(item => {
+    let found = dirs.find(d => d === item.name);
+    if (!found) found = dirs.find(d => simplify(d) === simplify(item.name));
+    if (!found) found = dirs.find(d => simplify(d).includes(simplify(item.name)) || simplify(item.name).includes(simplify(d)));
+    if (found && !dirToOrder.has(found)) {
+      dirToOrder.set(found, item.index);
+    }
+  });
+
+  // Alias connus pour les répertoires réels de complet/
+  dirs.forEach(d => {
+    if (!dirToOrder.has(d)) {
+      if (d.includes('כבוד רבו')) dirToOrder.set(d, 53);
+      else if (d.includes('נחלות')) dirToOrder.set(d, 77);
+      else dirToOrder.set(d, 999);
+    }
+  });
+
+  return dirToOrder;
+}
+
 // ─── Scanner les fichiers source (complet/) ───────────────────────────────────
 
 function scanCompletDir() {
   const simanim = [];
+  const categoryOrder = loadCategoryOrder();
 
   function walk(dir, category) {
     const items = fs.readdirSync(dir);
@@ -106,12 +157,14 @@ function scanCompletDir() {
             }
           }
 
-          // Clé unique = categorie + siman (évite les collisions de numéros)
+          // Clé unique = siman::categorie (évite les collisions de numéros)
           const uniqueKey = `${simanNum}::${categorie}`;
+          const catOrder = categoryOrder.get(categorie) ?? 999;
 
           simanim.push({
             siman: simanNum,
             categorie,
+            category_order: catOrder,
             total_seifim: totalSeifim,
             source_path: full,
             seifim: seifimBruts,
@@ -128,6 +181,12 @@ function scanCompletDir() {
 
   walk(COMPLET_DIR, '');
   simanim.sort((a, b) => {
+    // 1. Ordre canonique des catégories selon all_category.txt (1..86)
+    const orderA = a.category_order ?? 999;
+    const orderB = b.category_order ?? 999;
+    if (orderA !== orderB) return orderA - orderB;
+
+    // 2. Ordre des simanim à l'intérieur d'une catégorie
     const numA = parseInt(String(a.siman).split('-')[0], 10) || 0;
     const numB = parseInt(String(b.siman).split('-')[0], 10) || 0;
     return numA - numB;
@@ -229,8 +288,9 @@ async function processSiman(simanInfo, state, dryRun = false) {
   const simanNum = simanInfo.siman;
   const outputDir = path.dirname(simanInfo.output_path);
   const stateKey = simanInfo.unique_key;
+  const catOrderStr = simanInfo.category_order && simanInfo.category_order < 999 ? `[Catégorie ${simanInfo.category_order}/86] ` : '';
   console.log(`\n${'═'.repeat(60)}`);
-  console.log(`📖 Siman ${simanNum} — ${simanInfo.categorie}`);
+  console.log(`📖 ${catOrderStr}Siman ${simanNum} — ${simanInfo.categorie}`);
   console.log(`   ${simanInfo.total_seifim} seifim`);
   console.log(`   Sortie: public/data/${simanInfo.categorie}/siman_${simanNum}.json`);
   console.log('═'.repeat(60));
@@ -240,11 +300,15 @@ async function processSiman(simanInfo, state, dryRun = false) {
 
   if (dryRun) {
     console.log('   🔍 [DRY-RUN] Pas de traitement');
-    state.simanim[simanNum] = { status: 'dry_run', total_seifim: simanInfo.total_seifim };
+    const dryRecord = { status: 'dry_run', total_seifim: simanInfo.total_seifim, categorie: simanInfo.categorie, category_order: simanInfo.category_order };
+    state.simanim[stateKey] = dryRecord;
+    state.simanim[simanNum] = dryRecord;
     return;
   }
 
-  state.simanim[simanNum] = { status: 'in_progress', started: new Date().toISOString(), total_seifim: simanInfo.total_seifim };
+  const inProgressRecord = { status: 'in_progress', started: new Date().toISOString(), total_seifim: simanInfo.total_seifim, categorie: simanInfo.categorie, category_order: simanInfo.category_order };
+  state.simanim[stateKey] = inProgressRecord;
+  state.simanim[simanNum] = inProgressRecord;
   saveState(state);
 
   try {
@@ -299,9 +363,16 @@ async function processSiman(simanInfo, state, dryRun = false) {
       score = report.summary?.avg_score || 0;
     }
 
-    // Étape 5: Critique IA si score < 90%
-    if (score < 90) {
-      console.log(`   🔍 Étape 5/5: Critique IA (score: ${score}%)...`);
+    // Étape 5: Critique IA si score < 90% ou s'il y a des Seifim avec problèmes
+    let reportData = null;
+    if (fs.existsSync(reportPath)) {
+      reportData = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
+    }
+    const hasIssues = reportData && reportData.seifim && reportData.seifim.some(s => s.status !== 'PASS');
+
+    if (score < 90 || hasIssues) {
+      const reason = score < 90 ? `score moyen: ${score}%` : 'seifim avec avertissements détectés';
+      console.log(`   🔍 Étape 5/5: Critique IA (${reason})...`);
       try {
         await runScript('pipeline/critic.js', ['--file', simanInfo.output_path]);
         await runScript('pipeline/repair.js', ['--file', simanInfo.output_path]);
@@ -328,26 +399,34 @@ async function processSiman(simanInfo, state, dryRun = false) {
       finalReport = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
     }
 
-    state.simanim[simanNum] = {
+    const simanRecord = {
       status: 'complete',
       score,
+      categorie: simanInfo.categorie,
+      category_order: simanInfo.category_order,
       total_seifim: simanInfo.total_seifim,
-      seifim_pass: finalReport?.summary?.pass || 0,
-      seifim_warn: finalReport?.summary?.warn || 0,
-      seifim_fail: finalReport?.summary?.fail || 0,
+      seifim_pass: finalReport?.summary?.pass !== undefined ? finalReport.summary.pass : (score === 100 ? simanInfo.total_seifim : 0),
+      seifim_warn: finalReport?.summary?.warn ?? 0,
+      seifim_fail: finalReport?.summary?.fail ?? 0,
       completed: new Date().toISOString()
     };
+    state.simanim[stateKey] = simanRecord;
+    state.simanim[simanNum] = simanRecord;
     saveState(state);
 
     console.log(`\n   ✅ Siman ${simanNum} terminé — Score: ${score}%`);
 
   } catch (error) {
-    state.simanim[simanNum] = {
+    const errorRecord = {
       status: 'error',
       error: error.message,
+      categorie: simanInfo.categorie,
+      category_order: simanInfo.category_order,
       total_seifim: simanInfo.total_seifim,
       completed: new Date().toISOString()
     };
+    state.simanim[stateKey] = errorRecord;
+    state.simanim[simanNum] = errorRecord;
     saveState(state);
     console.error(`   ❌ Erreur: ${error.message}`);
   }
@@ -382,7 +461,8 @@ function showStatus() {
     console.log('\n  Derniers traités :');
     const sorted = processed.sort((a, b) => (b[1].completed || '') > (a[1].completed || '') ? 1 : -1);
     for (const [num, info] of sorted.slice(0, 10)) {
-      console.log(`   Siman ${num}: score ${info.score}% (${info.seifim_pass || '?'}/${info.total_seifim} PASS)`);
+      const passCount = info.seifim_pass !== undefined && info.seifim_pass !== null ? info.seifim_pass : '?';
+      console.log(`   Siman ${num}: score ${info.score}% (${passCount}/${info.total_seifim} PASS)`);
     }
   }
 
@@ -400,7 +480,8 @@ function showStatus() {
 
 function parseArgs() {
   const args = process.argv.slice(2);
-  let from = null, to = null, simanNum = null, status = false, dryRun = false, categorie = null;
+  let from = null, to = null, simanNum = null, status = false, dryRun = false, categorie = null, all = false;
+  let fromCat = null, toCat = null;
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--from' && args[i + 1]) from = parseInt(args[++i], 10);
@@ -409,13 +490,16 @@ function parseArgs() {
     else if (args[i] === '--categorie' && args[i + 1]) categorie = args[++i];
     else if (args[i] === '--status') status = true;
     else if (args[i] === '--dry') dryRun = true;
+    else if (args[i] === '--all') all = true;
+    else if (args[i] === '--from-cat' && args[i + 1]) fromCat = parseInt(args[++i], 10);
+    else if (args[i] === '--to-cat' && args[i + 1]) toCat = parseInt(args[++i], 10);
   }
 
-  return { from, to, simanNum, status, dryRun, categorie };
+  return { from, to, simanNum, status, dryRun, categorie, all, fromCat, toCat };
 }
 
 async function main() {
-  const { from, to, simanNum, status, dryRun, categorie } = parseArgs();
+  const { from, to, simanNum, status, dryRun, categorie, all, fromCat, toCat } = parseArgs();
 
   // Créer les répertoires nécessaires
   fs.mkdirSync(DATA_DIR, { recursive: true });
@@ -426,14 +510,15 @@ async function main() {
     return;
   }
 
-  if (!from && !to && !simanNum && !categorie) {
+  if (!from && !to && !simanNum && !categorie && !all && !fromCat && !toCat) {
     console.log('💡 Usage :');
+    console.log('  node pipeline/queue.js --all                 # Traite TOUTES les catégories dans l\'ordre canonique (1..86)');
+    console.log('  node pipeline/queue.js --from-cat 4          # Démarre à partir de la catégorie numéro 4');
+    console.log('  node pipeline/queue.js --from-cat 4 --to-cat 10 # Traite les catégories 4 à 10');
+    console.log('  node pipeline/queue.js --categorie "הלכות ציצית" # Traite une seule catégorie');
+    console.log('  node pipeline/queue.js --siman 66            # Traite un siman spécifique');
     console.log('  node pipeline/queue.js --status              # Affiche l\'état');
-    console.log('  node pipeline/queue.js --siman 66            # Traite un siman');
-    console.log('  node pipeline/queue.js --categorie "הלכות ציצית" # Traite une catégorie entière');
-    console.log('  node pipeline/queue.js --from 10 --to 50     # Traite une plage');
-    console.log('  node pipeline/queue.js --from 1 --to 694     # Traite tout');
-    console.log('  node pipeline/queue.js --dry                 # Dry-run');
+    console.log('  node pipeline/queue.js --all --dry           # Aperçu de l\'ordre sans exécuter (dry-run)');
     process.exit(0);
   }
 
@@ -466,9 +551,21 @@ async function main() {
       simaninToProcess = simaninToProcess.filter(s => s.siman >= fromNum && s.siman <= toNum);
     }
   } else {
-    const fromNum = from || 1;
-    const toNum = to || 999;
-    simaninToProcess = allSimanim.filter(s => s.siman >= fromNum && s.siman <= toNum);
+    // Mode global (--all, ou --from-cat / --to-cat, ou --from / --to)
+    simaninToProcess = [...allSimanim];
+    if (fromCat || toCat) {
+      const minCat = fromCat || 1;
+      const maxCat = toCat || 999;
+      simaninToProcess = simaninToProcess.filter(s => {
+        const catIdx = s.category_order ?? 999;
+        return catIdx >= minCat && catIdx <= maxCat;
+      });
+    }
+    if (from || to) {
+      const fromNum = from || 1;
+      const toNum = to || 999;
+      simaninToProcess = simaninToProcess.filter(s => s.siman >= fromNum && s.siman <= toNum);
+    }
   }
 
   // Exclure les simanim déjà traités (sauf si --siman spécifique)

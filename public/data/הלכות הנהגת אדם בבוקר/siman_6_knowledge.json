@@ -1,0 +1,428 @@
+{
+  "meta": {
+    "siman": 6,
+    "siman_hebrew": "ו",
+    "title": "Lois des bénédictions Acher Yatsar et Elohaï Néchama",
+    "title_hebrew": "הלכות ברכות אשר יצר ואלהי נשמה",
+    "source": "siman_6.json",
+    "knowledge_points": 18,
+    "version": "2.0",
+    "method": "novice-friendly rewrite"
+  },
+  "knowledge_points": [
+    {
+      "id": "new-s6-kp-001",
+      "title": "Un miracle quotidien",
+      "rule": "Chaque fois que nous allons aux toilettes, le judaïsme nous invite à faire une pause de gratitude en récitant une courte bénédiction appelée \"Acher Yatsar\". Ce n'est pas un moment banal, mais une occasion de remercier Dieu pour le bon fonctionnement de notre corps. Plutôt que de prendre notre santé pour acquise, nous prenons conscience du miracle qu'est la vie au quotidien.",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 1
+        },
+        {
+          "siman": 6,
+          "seif": 7
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Chaque fois que nous allons aux toilettes, le judaïsme nous invite à faire une pause de gratitude en récitant une courte bénédiction appelée \"Acher Yatsar\". Ce n'est pas un moment banal, mais une occasion de remercier Dieu pour le bon fonctionnement de notre corps. Plutôt que de prendre notre santé pour acquise, nous prenons conscience du miracle qu'est la vie au quotidien."
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Vous venez de sortir des toilettes. Quel est le but principal de la bénédiction que vous allez réciter ?",
+      "quizOptions": [
+        "Remercier Dieu pour le fonctionnement miraculeux de mon corps et ma santé.",
+        "M'excuser d'avoir dû répondre à un besoin naturel."
+      ],
+      "quizAnswer": "Remercier Dieu pour le fonctionnement miraculeux de mon corps et ma santé."
+    },
+    {
+      "id": "new-s6-kp-002",
+      "title": "Célébrer notre biologie",
+      "rule": "Cette bénédiction est incroyablement moderne ! Elle nous fait méditer sur la sagesse avec laquelle nous sommes créés. Elle évoque subtilement nos cellules, notre système digestif et nos défenses immunitaires qui nous protègent à chaque instant. C'est une déclaration d'émerveillement face à la biologie humaine, où la science et la spiritualité se rencontrent avec joie.",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 1
+        },
+        {
+          "siman": 6,
+          "seif": 7
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Cette bénédiction est incroyablement moderne ! Elle nous fait méditer sur la sagesse avec laquelle nous sommes créés. Elle évoque subtilement nos cellules, notre système digestif et nos défenses immunitaires qui nous protègent à chaque instant. C'est une déclaration d'émerveillement face à la biologie humaine, où la science et la spiritualité se rencontrent avec joie."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "Le judaïsme s'intéresse uniquement à l'âme, le corps n'a pas d'importance spirituelle.",
+      "quizOptions": [
+        "Vrai",
+        "Faux"
+      ],
+      "quizAnswer": "Faux"
+    },
+    {
+      "id": "new-s6-kp-003",
+      "title": "Un équilibre précieux",
+      "rule": "Le texte de la bénédiction rappelle que notre corps est un réseau complexe de canaux et d'ouvertures. Si un seul de ces éléments se bloquait, la survie deviendrait impossible. En réalisant cette fragilité, nous ressentons une immense gratitude envers le \"Médecin de toute chair\" qui maintient l'harmonie entre notre corps matériel et notre esprit.",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 1
+        },
+        {
+          "siman": 6,
+          "seif": 7
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Le texte de la bénédiction rappelle que notre corps est un réseau complexe de canaux et d'ouvertures. Si un seul de ces éléments se bloquait, la survie deviendrait impossible. En réalisant cette fragilité, nous ressentons une immense gratitude envers le \"Médecin de toute chair\" qui maintient l'harmonie entre notre corps matériel et notre esprit."
+      },
+      "quizEyebrow": "Phrase à trou",
+      "quizPrompt": "Complétez cette phrase : \"Cette bénédiction est une déclaration d'émerveillement face à la _______ humaine.\"",
+      "quizOptions": [
+        "Biologie",
+        "Météo"
+      ],
+      "quizAnswer": "Biologie"
+    },
+    {
+      "id": "new-s6-kp-004",
+      "title": "Pas besoin de matériel compliqué",
+      "rule": "Avant de réciter cette belle bénédiction, il convient de se rincer les mains pour se préparer spirituellement. La bonne nouvelle ? Aucune installation complexe n'est requise. Pas besoin d'un récipient spécial (bien que ce soit très bien si vous en avez un) : vous pouvez tout simplement vous laver les mains trois fois directement sous l'eau du robinet !",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 2
+        },
+        {
+          "siman": 6,
+          "seif": 10
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Avant de réciter cette belle bénédiction, il convient de se rincer les mains pour se préparer spirituellement. La bonne nouvelle ? Aucune installation complexe n'est requise. Pas besoin d'un récipient spécial (bien que ce soit très bien si vous en avez un) : vous pouvez tout simplement vous laver les mains trois fois directement sous l'eau du robinet !"
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Vous n'avez pas le fameux \"récipient à deux anses\" sous la main en sortant des toilettes. Que faites-vous ?",
+      "quizOptions": [
+        "Je panique et je décide de ne pas me laver les mains du tout.",
+        "Pas de problème, j'utilise simplement l'eau du robinet pour me rincer les mains !"
+      ],
+      "quizAnswer": "Pas de problème, j'utilise simplement l'eau du robinet pour me rincer les mains !"
+    },
+    {
+      "id": "new-s6-kp-005",
+      "title": "S'essuyer avant de parler",
+      "rule": "Pour bien vivre ce moment, il y a une petite astuce de concentration. Il est recommandé de s'essuyer les mains avant de commencer à prononcer les mots de la bénédiction. Pourquoi ? Tout simplement pour ne pas être distrait par l'action de vous sécher les mains pendant que vous parlez à Dieu.",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 2
+        },
+        {
+          "siman": 6,
+          "seif": 10
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Pour bien vivre ce moment, il y a une petite astuce de concentration. Il est recommandé de s'essuyer les mains avant de commencer à prononcer les mots de la bénédiction. Pourquoi ? Tout simplement pour ne pas être distrait par l'action de vous sécher les mains pendant que vous parlez à Dieu."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "Il est préférable de se sécher les mains pendant que l'on récite la bénédiction pour gagner du temps.",
+      "quizOptions": [
+        "Faux, il vaut mieux se sécher avant pour être bien concentré sur ses mots.",
+        "Vrai, le judaïsme encourage le multitâche permanent."
+      ],
+      "quizAnswer": "Faux, il vaut mieux se sécher avant pour être bien concentré sur ses mots."
+    },
+    {
+      "id": "new-s6-kp-006",
+      "title": "Un instant de pleine conscience",
+      "rule": "Le judaïsme aime l'idée d'être pleinement présent à ce que l'on fait. Prendre quelques secondes pour se sécher les mains, respirer un coup, puis réciter la bénédiction permet d'en faire un véritable moment de \"pleine conscience\". C'est votre petite bulle de sérénité au milieu de l'agitation de la journée.",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 2
+        },
+        {
+          "siman": 6,
+          "seif": 10
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Le judaïsme aime l'idée d'être pleinement présent à ce que l'on fait. Prendre quelques secondes pour se sécher les mains, respirer un coup, puis réciter la bénédiction permet d'en faire un véritable moment de \"pleine conscience\". C'est votre petite bulle de sérénité au milieu de l'agitation de la journée."
+      },
+      "quizEyebrow": "Devinette",
+      "quizPrompt": "Que suis-je ? Je suis l'état d'esprit recherché au moment de dire la bénédiction, facilité par le fait de ne rien faire d'autre en même temps.",
+      "quizOptions": [
+        "La précipitation.",
+        "La pleine conscience (ou concentration)."
+      ],
+      "quizAnswer": "La pleine conscience (ou concentration)."
+    },
+    {
+      "id": "new-s6-kp-007",
+      "title": "Écouter son corps au réveil",
+      "rule": "Imaginez : vous vous réveillez le matin avec une envie très pressante d'aller aux toilettes. Faut-il d'abord courir faire le rituel de se laver les mains, ou filer aux toilettes ? Le judaïsme est clair et plein de bon sens : votre santé passe avant tout. Courez aux toilettes sans culpabiliser !",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 13
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Imaginez : vous vous réveillez le matin avec une envie très pressante d'aller aux toilettes. Faut-il d'abord courir faire le rituel de se laver les mains, ou filer aux toilettes ? Le judaïsme est clair et plein de bon sens : votre santé passe avant tout. Courez aux toilettes sans culpabiliser !"
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Vous vous levez avec une envie très urgente d'aller aux toilettes. Quelle est la priorité ?",
+      "quizOptions": [
+        "Je me retiens de toutes mes forces pour faire mon lavage des mains rituel d'abord.",
+        "Je vais immédiatement aux toilettes pour ne pas faire souffrir mon corps, je me laverai après."
+      ],
+      "quizAnswer": "Je vais immédiatement aux toilettes pour ne pas faire souffrir mon corps, je me laverai après."
+    },
+    {
+      "id": "new-s6-kp-008",
+      "title": "Le respect de soi-même",
+      "rule": "La loi juive interdit de se retenir volontairement et de souffrir, car cela abîme le corps (c'est ce qu'on appelle l'interdit de se \"rendre abominable\"). Prendre soin de soi et ne pas ignorer les signaux d'urgence de son corps est en soi une action profondément respectueuse et spirituelle.",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 13
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "La loi juive interdit de se retenir volontairement et de souffrir, car cela abîme le corps (c'est ce qu'on appelle l'interdit de se \"rendre abominable\"). Prendre soin de soi et ne pas ignorer les signaux d'urgence de son corps est en soi une action profondément respectueuse et spirituelle."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "Le judaïsme considère que répondre à un besoin naturel pressant est une forme de respect envers son propre corps.",
+      "quizOptions": [
+        "Vrai",
+        "Faux"
+      ],
+      "quizAnswer": "Vrai"
+    },
+    {
+      "id": "new-s6-kp-009",
+      "title": "L'ordre des priorités",
+      "rule": "La règle est donc simple : en cas de besoin au réveil, on soulage son corps en premier (en évitant juste de trop toucher son corps avant d'avoir les mains propres). Ce n'est qu'une fois détendu et soulagé que l'on se lavera les mains avec joie. Dieu préfère nous voir en bonne santé plutôt que crispés pour respecter une règle !",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 13
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "La règle est donc simple : en cas de besoin au réveil, on soulage son corps en premier (en évitant juste de trop toucher son corps avant d'avoir les mains propres). Ce n'est qu'une fois détendu et soulagé que l'on se lavera les mains avec joie. Dieu préfère nous voir en bonne santé plutôt que crispés pour respecter une règle !"
+      },
+      "quizEyebrow": "Phrase à trou",
+      "quizPrompt": "Dieu préfère nous voir en bonne santé plutôt que _______ pour respecter un ordre d'actions.",
+      "quizOptions": [
+        "Heureux",
+        "Crispés et en train de souffrir"
+      ],
+      "quizAnswer": "Crispés et en train de souffrir"
+    },
+    {
+      "id": "new-s6-kp-010",
+      "title": "Une fenêtre de temps sans pression",
+      "rule": "Vous êtes sorti des toilettes, vous avez repris vos activités, et zut... vous avez oublié de dire la bénédiction ! Pas de panique. Vous avez environ 72 minutes pour vous rattraper. Si vous vous en souvenez dans ce délai, dites-la. Si le temps est passé, tant pis, passez à autre chose avec le sourire, Dieu ne vous en tiendra pas rigueur.",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 4
+        },
+        {
+          "siman": 6,
+          "seif": 14
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Vous êtes sorti des toilettes, vous avez repris vos activités, et zut... vous avez oublié de dire la bénédiction ! Pas de panique. Vous avez environ 72 minutes pour vous rattraper. Si vous vous en souvenez dans ce délai, dites-la. Si le temps est passé, tant pis, passez à autre chose avec le sourire, Dieu ne vous en tiendra pas rigueur."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "Si j'oublie de réciter la bénédiction en sortant, j'ai une fenêtre d'environ 72 minutes pour la dire.",
+      "quizOptions": [
+        "Vrai",
+        "Faux"
+      ],
+      "quizAnswer": "Vrai"
+    },
+    {
+      "id": "new-s6-kp-011",
+      "title": "Les réveils en pleine nuit",
+      "rule": "Parfois, on se lève à 3h du matin pour un besoin naturel, à moitié endormi. L'idée de se lever pour aller au lavabo vous réveillerait complètement et gâcherait votre nuit ? Le judaïsme est hyper-compréhensif ! Votre repos nocturne est précieux pour être en forme le lendemain.",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 4
+        },
+        {
+          "siman": 6,
+          "seif": 14
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Parfois, on se lève à 3h du matin pour un besoin naturel, à moitié endormi. L'idée de se lever pour aller au lavabo vous réveillerait complètement et gâcherait votre nuit ? Le judaïsme est hyper-compréhensif ! Votre repos nocturne est précieux pour être en forme le lendemain."
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Il est 4h du matin, vous avez fait un petit tour aux toilettes et marcher jusqu'au lavabo va vous réveiller pour de bon. Que permet la loi juive ?",
+      "quizOptions": [
+        "Il faut y aller quand même, le manque de sommeil forge le caractère !",
+        "Je m'essuie les mains sur un tissu propre pour faire la bénédiction, et vite au lit."
+      ],
+      "quizAnswer": "Je m'essuie les mains sur un tissu propre pour faire la bénédiction, et vite au lit."
+    },
+    {
+      "id": "new-s6-kp-012",
+      "title": "La solution de secours",
+      "rule": "Dans ce cas précis (au milieu de la nuit pour ne pas perdre le sommeil), si l'eau est trop loin, vous pouvez simplement essuyer vos mains sur un tissu, une serviette ou n'importe quoi qui nettoie. Vous récitez ensuite votre bénédiction sous la couette et vous vous rendormez paisiblement. Magique, non ?",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 4
+        },
+        {
+          "siman": 6,
+          "seif": 14
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Dans ce cas précis (au milieu de la nuit pour ne pas perdre le sommeil), si l'eau est trop loin, vous pouvez simplement essuyer vos mains sur un tissu, une serviette ou n'importe quoi qui nettoie. Vous récitez ensuite votre bénédiction sous la couette et vous vous rendormez paisiblement. Magique, non ?"
+      },
+      "quizEyebrow": "Devinette",
+      "quizPrompt": "Que suis-je ? Je suis ce que vous devez éviter de faire si vous dépassez le délai de 72 minutes.",
+      "quizOptions": [
+        "Culpabiliser (on passe simplement à autre chose avec le sourire !).",
+        "Sourire."
+      ],
+      "quizAnswer": "Culpabiliser (on passe simplement à autre chose avec le sourire !)."
+    },
+    {
+      "id": "new-s6-kp-013",
+      "title": "Femmes et hommes à l'unisson",
+      "rule": "Dans le judaïsme, certaines lois diffèrent selon les genres, mais concernant la bénédiction \"Acher Yatsar\", femmes et hommes sont exactement au même niveau d'obligation. C'est une prière universelle pour la santé, qui apporte à chacun un immense bienfait spirituel tout au long de la journée.",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 3
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Dans le judaïsme, certaines lois diffèrent selon les genres, mais concernant la bénédiction \"Acher Yatsar\", femmes et hommes sont exactement au même niveau d'obligation. C'est une prière universelle pour la santé, qui apporte à chacun un immense bienfait spirituel tout au long de la journée."
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "Seuls les érudits très avancés ont le droit de réciter la bénédiction du corps.",
+      "quizOptions": [
+        "Vrai, c'est très secret.",
+        "Faux, c'est pour tout le monde : hommes, femmes et enfants !"
+      ],
+      "quizAnswer": "Faux, c'est pour tout le monde : hommes, femmes et enfants !"
+    },
+    {
+      "id": "new-s6-kp-014",
+      "title": "Éduquer avec douceur",
+      "rule": "C'est aussi une magnifique habitude à transmettre aux enfants. Dès qu'ils sont en âge de comprendre, on les habitue avec douceur à se laver les mains après les toilettes et à dire ce petit mot de gratitude. C'est une façon merveilleuse de leur apprendre, très tôt, le respect de leur propre corps.",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 3
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "C'est aussi une magnifique habitude à transmettre aux enfants. Dès qu'ils sont en âge de comprendre, on les habitue avec douceur à se laver les mains après les toilettes et à dire ce petit mot de gratitude. C'est une façon merveilleuse de leur apprendre, très tôt, le respect de leur propre corps."
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Vous lisez la bénédiction en hébreu mais vous n'avez aucune idée de ce qu'elle veut dire. Que conseille la tradition ?",
+      "quizOptions": [
+        "Apprendre le sens littéral pour savoir à qui on parle et ce qu'on demande.",
+        "Ce n'est pas grave, les mots magiques fonctionnent tout seuls."
+      ],
+      "quizAnswer": "Apprendre le sens littéral pour savoir à qui on parle et ce qu'on demande."
+    },
+    {
+      "id": "new-s6-kp-015",
+      "title": "Comprendre ce que l'on dit",
+      "rule": "Un point fondamental : il vaut mieux comprendre ce que l'on dit plutôt que de réciter comme un robot. Prenez le temps de lire la traduction de cette bénédiction. Savoir que vous dites \"merci pour ma santé et mes organes\" a beaucoup plus de valeur spirituelle que de murmurer des mots hébreux sans y mettre du sens.",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 3
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Un point fondamental : il vaut mieux comprendre ce que l'on dit plutôt que de réciter comme un robot. Prenez le temps de lire la traduction de cette bénédiction. Savoir que vous dites \"merci pour ma santé et mes organes\" a beaucoup plus de valeur spirituelle que de murmurer des mots hébreux sans y mettre du sens."
+      },
+      "quizEyebrow": "Phrase à trou",
+      "quizPrompt": "Inculquer cette bénédiction aux enfants est une façon de leur apprendre très tôt le _______ de leur corps.",
+      "quizOptions": [
+        "Rejet",
+        "Respect"
+      ],
+      "quizAnswer": "Respect"
+    },
+    {
+      "id": "new-s6-kp-016",
+      "title": "Le souffle de vie",
+      "rule": "Le matin au réveil, juste après avoir remercié Dieu pour notre corps physique (avec la bénédiction \"Acher Yatsar\"), on enchaîne généralement avec une autre bénédiction sublime : \"Elohaï Néchama\". Celle-ci sert à remercier Dieu de nous avoir rendu notre âme, fraîche et reposée, après la nuit.",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 17
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Le matin au réveil, juste après avoir remercié Dieu pour notre corps physique (avec la bénédiction \"Acher Yatsar\"), on enchaîne généralement avec une autre bénédiction sublime : \"Elohaï Néchama\". Celle-ci sert à remercier Dieu de nous avoir rendu notre âme, fraîche et reposée, après la nuit."
+      },
+      "quizEyebrow": "Mise en situation",
+      "quizPrompt": "Pourquoi accole-t-on souvent la bénédiction \"Elohaï Néchama\" juste après celle des toilettes (\"Acher Yatsar\") le matin ?",
+      "quizOptions": [
+        "Pour remercier pour le corps, puis tout de suite pour l'âme, unifiant notre être.",
+        "Parce que c'est plus rapide de tout dire d'un coup sans réfléchir."
+      ],
+      "quizAnswer": "Pour remercier pour le corps, puis tout de suite pour l'âme, unifiant notre être."
+    },
+    {
+      "id": "new-s6-kp-017",
+      "title": "Un serment de pureté",
+      "rule": "Cette prière est comme une petite boussole pour la journée. Elle nous rappelle que notre âme, à l'intérieur de nous, est pure. C'est un engagement positif, presque intime avec le Créateur : \"Tu m'as donné une âme belle, je vais essayer d'en prendre soin aujourd'hui et d'agir avec bonté.\"",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 17
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Cette prière est comme une petite boussole pour la journée. Elle nous rappelle que notre âme, à l'intérieur de nous, est pure. C'est un engagement positif, presque intime avec le Créateur : \"Tu m'as donné une âme belle, je vais essayer d'en prendre soin aujourd'hui et d'agir avec bonté.\""
+      },
+      "quizEyebrow": "Vrai ou Faux",
+      "quizPrompt": "\"Elohaï Néchama\" est une prière pour nous rappeler que notre âme est pure et divine.",
+      "quizOptions": [
+        "Vrai",
+        "Faux"
+      ],
+      "quizAnswer": "Vrai"
+    },
+    {
+      "id": "new-s6-kp-018",
+      "title": "Le duo parfait",
+      "rule": "Le corps et l'âme forment une équipe. C'est pourquoi la tradition aime coller ces deux bénédictions le matin. On remercie d'abord pour le contenant (notre formidable machine corporelle), puis pour le contenu (notre étincelle divine). C'est la recette parfaite pour démarrer la journée du bon pied, unifié et reconnaissant !",
+      "sources": [
+        {
+          "siman": 6,
+          "seif": 17
+        }
+      ],
+      "pedagogy": {
+        "simple_explanation": "Le corps et l'âme forment une équipe. C'est pourquoi la tradition aime coller ces deux bénédictions le matin. On remercie d'abord pour le contenant (notre formidable machine corporelle), puis pour le contenu (notre étincelle divine). C'est la recette parfaite pour démarrer la journée du bon pied, unifié et reconnaissant !"
+      },
+      "quizEyebrow": "Devinette",
+      "quizPrompt": "Dans le duo du matin, si \"Acher Yatsar\" est le merci pour le \"contenant\" (le corps), que représente \"Elohaï Néchama\" ?",
+      "quizOptions": [
+        "Le merci pour le petit-déjeuner.",
+        "Le merci pour le \"contenu\" (l'âme)."
+      ],
+      "quizAnswer": "Le merci pour le \"contenu\" (l'âme)."
+    }
+  ]
+}

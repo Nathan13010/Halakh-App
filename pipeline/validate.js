@@ -99,15 +99,17 @@ function validateSeif(halakha, simanNum) {
   // ─── 2b. Exactitude de l'alignement (mismatch voyelles vs brut) ──────
   {
     const mismatches = [];
-    const stripVavYod = text => text.replace(/[וי]/g, '');
+    const normalizeHebrewConsonants = text => (text || '')
+      .replace(/[אהוי]/g, '') // Matres lectionis (lettres de lecture)
+      .replace(/[ןם]$/, 'מ'); // Alternance morphologique nun/mem final (ex: שמכשירין / שמכשירים)
     
     mots.forEach((m, idx) => {
       if (idx === 0) return; // Skip badge
       const brut = cleanForComparison(m.hebreu_brut);
       const voy = cleanForComparison(m.hebreu_voyelles);
       
-      const bCore = stripVavYod(brut);
-      const vCore = stripVavYod(voy);
+      const bCore = normalizeHebrewConsonants(brut);
+      const vCore = normalizeHebrewConsonants(voy);
       
       if (bCore !== vCore) {
         // Tolerant if one includes the other (e.g. missing prefix 'ה', 'ב', etc.)
@@ -356,12 +358,15 @@ function buildResult(seifNum, checks, issues) {
  */
 function validateSiman(filePath) {
   const basename = path.basename(filePath);
-  const simanMatch = basename.match(/siman_(\d+)\.json/);
-  const simanNum = simanMatch ? parseInt(simanMatch[1], 10) : 0;
+  const simanMatch = basename.match(/siman_([\d-]+)\.json/);
+  let simanNum = simanMatch ? simanMatch[1] : 0;
 
   let data;
   try {
     data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    if (data && data.siman !== undefined) {
+      simanNum = data.siman;
+    }
   } catch (e) {
     return {
       siman: simanNum,
@@ -551,7 +556,7 @@ function parseArgs() {
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--file' && args[i + 1]) { specificFile = args[++i]; } else if (args[i] === '--siman' && args[i + 1]) {
-      simanNum = parseInt(args[++i], 10);
+      simanNum = args[++i];
     } else if (args[i] === '--all') {
       all = true;
     } else if (args[i] === '--verbose' || args[i] === '-v') {
@@ -587,7 +592,7 @@ async function main() {
       process.exit(1);
     }
     if (fs.statSync(specificFile).isDirectory()) {
-      const catFiles = fs.readdirSync(specificFile).filter(f => /^siman_\d+\.json$/.test(f));
+      const catFiles = fs.readdirSync(specificFile).filter(f => /^siman_[\d-]+\.json$/.test(f));
       files.push(...catFiles.map(f => path.join(specificFile, f)));
     } else {
       files = [specificFile];
@@ -597,9 +602,9 @@ async function main() {
     for (const item of rootItems) {
       const fullPath = path.join(DATA_DIR, item);
       if (fs.statSync(fullPath).isDirectory()) {
-        const catFiles = fs.readdirSync(fullPath).filter(f => /^siman_\d+\.json$/.test(f));
+        const catFiles = fs.readdirSync(fullPath).filter(f => /^siman_[\d-]+\.json$/.test(f));
         files.push(...catFiles.map(f => path.join(fullPath, f)));
-      } else if (/^siman_\d+\.json$/.test(item)) {
+      } else if (/^siman_[\d-]+\.json$/.test(item)) {
         files.push(fullPath);
       }
     }

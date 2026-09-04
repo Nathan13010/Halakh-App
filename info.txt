@@ -86,6 +86,10 @@ node pipeline/queue.js --from 1 --to 694
 # Pour traiter tout un dossier
 node pipeline/queue.js --categorie "הלכות תפילין"
 
+# Traitement automatique de l'ensemble des catégories
+node pipeline/queue.js --all
+
+
 ///
 
 Pour verifier un siman : 

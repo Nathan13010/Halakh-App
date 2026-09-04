@@ -1,0 +1,2129 @@
+{
+  "siman": "1",
+  "timestamp": "2026-09-04T08:11:08.417Z",
+  "total_reviewed": 45,
+  "total_fixes": 52,
+  "total_escalations": 20,
+  "fixes": [
+    {
+      "seif": 1,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": 1,
+          "reason": "Le siman manquant est le Siman 1 (השכמת הבוקר / Se lever le matin)."
+        }
+      ]
+    },
+    {
+      "seif": 2,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": 1,
+          "reason": "Le siman correspond aux lois du réveil matinal (Hilkhot Hashkamat Haboker), Siman 1."
+        }
+      ]
+    },
+    {
+      "seif": 2,
+      "issue_index": 1,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "francais",
+          "old": "2. L'homme doit faire en sorte que ce soit chez lui une nature et une habitude constante de courir pour accomplir une Mitsva. Certains s'attardent dans leur sommeil et traînent chez eux, puis courent ensuite à la synagogue. Ce n'est pas là la qualité de l'empressement (Zrizout) ; car bien qu'on les voie courir et se presser, c'est uniquement parce qu'ils ont retardé leur lever, et courent donc pour rattraper le temps et arriver à la prière à la synagogue. Un homme doit toujours être empressé pou",
+          "new": "2. L'homme doit faire en sorte que ce soit chez lui une nature et une habitude constante de courir pour accomplir une Mitsva. Certains s'attardent dans leur sommeil et traînent chez eux, puis courent ensuite à la synagogue. Ce n'est pas là la qualité de l'empressement (Zrizout) ; car bien qu'on les voie courir et se presser, c'est uniquement parce qu'ils ont retardé leur lever, et courent donc pour rattraper le temps et arriver à la prière à la synagogue. Un homme doit toujours être empressé pour la prière et pour l'étude de la Torah, et ne pas se laisser entraîner par le sommeil et les plaisirs, et que son penchant ne le séduise pas à se relâcher à cause de sa richesse et de ses biens, car tout est éphémère et voué à disparaître, alors que la Torah et sa récompense subsistent pour l'éternité.",
+          "reason": "Complétion de la traduction française tronquée à la fin de la phrase ('pou...')."
+        }
+      ]
+    },
+    {
+      "seif": 5,
+      "issue_index": 1,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "texte_francais",
+          "old": "Mais il ne devra pas dormir excessivement. De même, pendant le Chabbat, il est permis de dormir la journée.",
+          "new": "Mais il ne devra pas dormir excessivement. [Cependant, d'après la Kabbala, il convient de s'abstenir de dormir pendant la journée.] De même, pendant le Chabbat, il est permis de dormir la journée.",
+          "reason": "Traduction manquante de la phrase entre crochets figurant dans le texte hébreu: '[ואמנם על פי הקבלה יש להמנע מלישון ביום]'."
+        }
+      ]
+    },
+    {
+      "seif": 7,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "58",
+          "reason": "Ce texte correspond au Siman 58 du Yalkout Yossef (Hilkhot Kriyat Shema), seif 7."
+        }
+      ]
+    },
+    {
+      "seif": 8,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": 1,
+          "reason": "Le texte concerne les lois sur l'éveil du matin (הלכות השכמת הבוקר), qui correspondent au Siman 1 du Yalkout Yossef."
+        }
+      ]
+    },
+    {
+      "seif": 9,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "1",
+          "reason": "Le seif traite des הלכות השכמת הבוקר ומודה אני, qui se trouvent dans le סימן א' (אורח חיים)."
+        }
+      ]
+    },
+    {
+      "seif": 10,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "word_id": null,
+          "field": "siman",
+          "old": null,
+          "new": "1",
+          "reason": "Le siman manquant pour les lois du lever du matin (הלכות השכמת הבוקר) dans le Yalkout Yossef est le Siman 1."
+        }
+      ]
+    },
+    {
+      "seif": 11,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "1",
+          "reason": "Le siman correspondant aux הלכות השכמת הבוקר (lois du réveil matinal) et au Modeh Ani dans le Yalkout Yossef est le Siman 1 (סימן א)."
+        }
+      ]
+    },
+    {
+      "seif": 12,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": 1,
+          "reason": "Ce seif concerne l'obligation de garder Dieu à l'esprit (Shiviti Hashem LeNegdi Tamid), qui fait partie du Siman 1 (Hilchot Hashkamat Haboker)."
+        }
+      ]
+    },
+    {
+      "seif": 12,
+      "issue_index": 1,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "texte_francais",
+          "old": "12. Ce qu'a dit le Roi David, que la paix soit sur lui (Psaumes 16:8) : « J'ai placé Dieu devant moi constamment », est un grand principe dans la Torah et dans les vertus des justes. Par conséquent, chacun doit prendre à cœur que le grand Roi, le Saint béni soit-Il, dont la gloire remplit toute la terre, se tient au-dessus de lui et voit ses actions, comme il est dit : « Si un homme se cache dans des cachettes, ne le verrai-Je pas, dit l'Éternel ». Et immédiatement, la crainte et la soumission d",
+          "new": "12. Ce qu'a dit le Roi David, que la paix soit sur lui (Psaumes 16:8) : « J'ai placé Dieu devant moi constamment », est un grand principe dans la Torah et dans les vertus des justes. Par conséquent, chacun doit prendre à cœur que le grand Roi, le Saint béni soit-Il, dont la gloire remplit toute la terre, se tient au-dessus de lui et voit ses actions, comme il est dit : « Si un homme se cache dans des cachettes, ne le verrai-Je pas, dit l'Éternel ». Et lorsqu'il pensera ainsi dans son cœur, aussitôt la crainte et la soumission devant Dieu béni soit-Il lui viendront, et il aura honte de Lui constamment, et son comportement changera en bien. [Et si la crainte ne lui vient pas immédiatement, il approfondira beaucoup ce sujet jusqu'à ce que la crainte lui vienne. Et il fera aussi un repentir complet sur toutes ses fautes, qui l'empêchent d'atteindre la cr...",
+          "reason": "Le texte français était tronqué au milieu de la phrase. Complétion de la traduction selon le texte hébreu."
+        }
+      ]
+    },
+    {
+      "seif": 12,
+      "issue_index": 2,
+      "issue_type": "ALIGNMENT_MISMATCH_WORD",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "word_id": 51,
+          "field": "hebreu_voyelles",
+          "old": "וּמִיָּד",
+          "new": "וְכַאֲשֶׁר",
+          "reason": "Le mot brut correspondant au mot 51 est 'וכאשר', la ponctuation ponctuelle doit être 'וְכַאֲשֶׁר' au lieu de 'וּמִיָּד'."
+        }
+      ]
+    },
+    {
+      "seif": 13,
+      "issue_index": 1,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "1",
+          "reason": "Le siman manquant pour cette section des lois du réveil matinal (השכמת הבוקר) dans le Yalkout Yossef est le Siman 1."
+        }
+      ]
+    },
+    {
+      "seif": 13,
+      "issue_index": 2,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "francais",
+          "old": "13. Les remèdes appropriés pour renforcer l'homme dans la crainte du Ciel sont : d'être présent fréquemment à la synagogue et à la maison d'étude. Et de même, de rechercher la paix. Et de faire attention à accomplir le commandement positif de « tu te lèveras devant les cheveux blancs ». Et de même, de donner la dîme. Et de même, de mener ses affaires avec honnêteté. [Yalkout Yossef, lois du réveil matinal, page 96].",
+          "new": "13. Les remèdes appropriés pour renforcer l'homme dans la crainte du Ciel sont : d'être présent fréquemment à la synagogue et à la maison d'étude. Et de même, de rechercher la paix. Et de veiller à accomplir le commandement positif de « tu te lèveras devant les cheveux blancs ». Et de même, de donner la dîme. Et de s'occuper de la Torah constamment, chaque jour. Et d'être humble et rabaissé. Et de détenir dans sa maison des livres de décisionnaires de Halakha et de Moussar. Et de penser, en mangeant le Chabbat, que c'est en l'honneur du Chabbat. Et de restreindre sa parole et de multiplier le silence. Et il priera également le Tout-Puissant de le renforcer dans une crainte pure de Hachem. [Yalkout Yossef, ibid. page 96].",
+          "reason": "La traduction française était tronquée au milieu du texte hébreu et incluait une phrase absente du texte hébreu brut ('mener ses affaires avec honnêteté'). La nouvelle version traduit fidèlement l'intégralité du texte hébreu brut fourni."
+        }
+      ]
+    },
+    {
+      "seif": 13,
+      "issue_index": 3,
+      "issue_type": "ALIGNMENT_MISMATCH_WORD",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "hebreu_voyelles",
+          "old": "יג הַסְּגֻלּוֹת הַנְּכוֹנוֹת לְחִזּוּק הָאָדָם בְּיִרְאַת שָׁמַיִם, שֶׁיִּהְיֶה מָצוּי הַרְבֵּה בְּבֵית הַכְּנֶסֶת וּבְבֵית הַמִּדְרָשׁ. וְכֵן לְבַקֵּשׁ שָׁלוֹם. וּלְהִזָּהֵר לְקַיֵּם מִצְוַת עֲשֵׂה שֶׁל מִפְּנֵי שֵׂיבָה תָּקוּם. וְכֵן לִתֵּן מַעֲשֵׂר. וְכֵן לִהְיוֹת נוֹשֵׂא וְנוֹתֵן בֶּאֱמוּנָה. [ילקו\"י...",
+          "new": "יג הַסְּגֻלּוֹת הַנְּכוֹנוֹת לְחִזּוּק הָאָדָם בְּיִרְאַת שָׁמַיִם, שֶׁיִּהְיֶה מָצוּי הַרְבֵּה בְּבֵית הַכְּנֶסֶת וּבְבֵית הַמִּדְרָשׁ. וְכֵן לְבַקֵּשׁ שָׁלוֹם. וּלְהִזָּהֵר לְקַיֵּם מִצְוַת עֲשֵׂה שֶׁל מִפְּנֵי שֵׂיבָה תָּקוּם. וְכֵן לִתֵּן מַעֲשֵׂר. וְלַעֲסוֹק בַּתּוֹרָה בִּתְמִידוּת, מִדֵּי יוֹם. וְלִהְיוֹת עָנָו וְשָׁפָל. וּלְהַחֲזִיק בְּבֵיתוֹ סִפְרֵי פּוֹסְקִים הֲלָכָה וּמוּסָר. וְלַחְשֹׁב בָּאֲכִילָה בְּשַׁבָּת שֶׁהִיא לִכְבוֹד שַׁבָּת. וּלְמַעֵט בְּדִבּוּר וּלְהַרְבּוֹת בִּשְׁתִיקָה. וְגַם יִתְפַּלֵּל לַהַשֵּׁ\"ת שֶׁיְּחַזְּקֵהוּ בְּיִרְאַת ה' טְהוֹרָה. [יַלְקוּט יוֹסֵף שָׁם עַמּוּד צו].",
+          "reason": "Le texte avec voyelles (hebreu_voyelles) contenait une phrase différente ('וכן להיות נושא ונותן באמונה') qui ne correspondait pas au texte brut fourni ('ולעסוק בתורה בתמידות...'). Les voyelles ont été corrigées pour s'aligner parfaitement sur le texte brut."
+        }
+      ]
+    },
+    {
+      "seif": 14,
+      "issue_index": 1,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "1",
+          "reason": "Le siman manquant pour cette section du Yalkout Yossef (Lois du réveil du matin / Al Yitbayesh) est le Siman 1."
+        }
+      ]
+    },
+    {
+      "seif": 14,
+      "issue_index": 2,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "francais",
+          "old": "14. Il a déjà été expliqué [au paragraphe 1] que celui qui accomplit les commandements de Dieu ne doit pas avoir honte des personnes qui se moquent de lui, mais il ne doit pas se quereller et se disputer avec eux, afin de ne pas s'habituer au vilain défaut de l'effronterie. [Et ce que nous avons écrit au paragraphe 1 qu'il est permis d'être effronté afin de les ramener au bien, cela s'applique uniquement s'il a tout fait par des voies pacifiques et que cela n'a pas été utile]. [Yalkout Yossef là",
+          "new": "14. Il a déjà été expliqué [au paragraphe 1] que celui qui accomplit les commandements de Dieu ne doit pas avoir honte des personnes qui se moquent de lui, mais il ne doit pas se quereller et se disputer avec eux, afin de ne pas s'habituer au vilain défaut de l'effronterie. [Et si son but est d'influencer les affaires de la communauté dans les domaines de la Torah et des commandements, et qu'il a essayé par des voies de paix sans réussir, il est alors permis d'être audacieux et de se disputer avec eux pour faire échouer leur projet]. [Ché'érit Yossef, tome 1, page 3, Yalkout Yossef édition 5764, page 96].",
+          "reason": "La traduction française actuelle traduit par erreur un texte du Seif 1 et est tronquée à la fin. Correction pour l'aligner précisément sur le texte hébreu du Seif 14."
+        }
+      ]
+    },
+    {
+      "seif": 14,
+      "issue_index": 3,
+      "issue_type": "ALIGNMENT_MISMATCH_WORD",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "hebreu_voyelles",
+          "old": "[שֶׁכָּתַבְנוּ בִּסְעִיף א' שֶׁמּוּתָּר לְהָעִיז פָּנִים כְּדֵי לְהַחֲזִירָם לַמּוּטָב...]",
+          "new": "[וְאִם מַטָּרָתוֹ לְהַשְׁפִּיעַ עַל עִנְיְנֵי הַקְּהִלָּה בְּעִנְיְנֵי הַתּוֹרָה וְהַמִּצְווֹת, וְנִסָּה בְּדַרְכֵי שָׁלוֹם וְלֹא הִצְלִיחַ אֲזַי מֻתָּר לְהָעִיז פָּנָיו וְלָרִיב עִמָּם לְהָפֵר עֲצָתָם].",
+          "reason": "Les voyelles hébraïques du passage entre crochets appartenaient à un autre texte (du Seif 1), ce qui générait des décalages d'alignement majeurs. Remplacement par la vocalisation exacte du texte hébreu du Seif 14."
+        }
+      ]
+    },
+    {
+      "seif": 16,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "א",
+          "reason": "Le siman (chapitre) correspondant aux lois du réveil matinal (הלכות השכמת הבוקר) dans le Choulhan Aroukh et le Yalkout Yossef est le Siman 1 (סימן א)."
+        }
+      ]
+    },
+    {
+      "seif": 17,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "1",
+          "reason": "Le siman correspondant est le Siman 1 (א) d'après la source dans She'erit Yosef volume 1, page 4 (Hilkhot Hanahgat Haboker)."
+        }
+      ]
+    },
+    {
+      "seif": 18,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "word_id": null,
+          "field": "siman",
+          "old": "",
+          "new": "46",
+          "reason": "Le siman manquant correspondant à ce passage du Yalkout Yossef (Vol. Tefilah, page 103) est le Siman 46 (מו - ברכות השחר)."
+        }
+      ]
+    },
+    {
+      "seif": 19,
+      "issue_index": 1,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "word_id": null,
+          "field": "siman",
+          "old": "",
+          "new": "53",
+          "reason": "Le texte hébreu cite explicitement le Siman 53 ('בסי' נג') à la fin de la référence."
+        }
+      ]
+    },
+    {
+      "seif": 20,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "1",
+          "reason": "Ce paragraphe (Seif 20) appartient au Siman 1 du Yalkout Yossef (Lois sur le réveil du matin / השכמת הבוקר), correspondant au Siman 1 du Choulhan Aroukh."
+        }
+      ]
+    },
+    {
+      "seif": 21,
+      "issue_index": 1,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "101",
+          "reason": "La section traite des lois sur le volume de la voix pendant la prière de la Amida, ce qui correspond au Siman 101 du Choulhan Aroukh et du Yalkout Yossef."
+        }
+      ]
+    },
+    {
+      "seif": 21,
+      "issue_index": 2,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "francais",
+          "old": "21. La coutume du Ari (de mémoire bénie) était de ne pas prier à haute voix, même pour les Zemirot (cantiques), afin de manifester soumission, crainte et révérence devant l'Éternel. Cependant, le jour du Chabbat, il élevait légèrement la voix avec mélodie en l'honneur du Chabbat. Certains ont l'habitude de réciter les Zemirot, le Chema et ses bénédictions à haute voix et avec ferveur pour éveiller leur concentration. Tout dépend de chaque personne, selon ce qui l'aide à se concentrer. Il en va d",
+          "new": "21. La coutume du Ari (de mémoire bénie) était de ne pas prier à haute voix, même pour les Zemirot (cantiques), afin de manifester soumission, crainte et révérence devant l'Éternel. Cependant, le jour du Chabbat, il élevait légèrement la voix avec mélodie en l'honneur du Chabbat. Certains ont l'habitude de réciter les Zemirot, le Chema et ses bénédictions à haute voix et avec ferveur pour éveiller leur concentration. Tout dépend de chaque personne, selon ce qui l'aide à se concentrer. Il en va de même concernant le fait de se balancer pendant la prière : certaines personnes parviennent à s'éveiller à la concentration en bougeant, selon le verset 'Que tous mes os disent : Éternel !', tandis que d'autres peuvent très bien se concentrer sans bouger, et il est alors préférable pour elles de ne pas bouger.",
+          "reason": "Le texte français était tronqué à la fin ('Il en va d'). Il a été complété pour correspondre exactement à la fin du texte hébreu."
+        }
+      ]
+    },
+    {
+      "seif": 21,
+      "issue_index": 3,
+      "issue_type": "ALIGNMENT_MISMATCH_WORD",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "word_id": 29,
+          "field": "hebreu_voyelles",
+          "old": "וְיֵשׁ",
+          "new": "וְלָכֵן",
+          "reason": "Le mot hébreu brut est 'ולכן', sa vocalisation doit donc être 'וְלָכֵן' (et non 'וְיֵשׁ' qui correspond au mot suivant)."
+        }
+      ]
+    },
+    {
+      "seif": 22,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "1",
+          "reason": "La section de la Parachat Haakedah (Seder Hayom) se trouve dans le Siman 1 (הנהגת הבוקר / סדר היום) du Yalkout Yossef."
+        }
+      ]
+    },
+    {
+      "seif": 22,
+      "issue_index": 2,
+      "issue_type": "ALIGNMENT_MISMATCH_WORD",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "word_id": 11,
+          "field": "hebreu_voyelles",
+          "old": "הַקָּדוֹשׁ",
+          "new": "הַקָּדוֹשׁ בָּרוּךְ הוּא,",
+          "reason": "Le mot brut est l'acronyme הקב\"ה (HaKadosh Baruch Hu), sa vocalisation doit correspondre à l'expression entière et non seulement au premier mot."
+        },
+        {
+          "word_id": 81,
+          "field": "hebreu_voyelles",
+          "old": "וּפָסוּק",
+          "new": "וּקְרִיאַת",
+          "reason": "Le mot brut est 'וקriאת' (et la lecture de), sa vocalisation doit être 'וּקְרִיאַת' au lieu de 'וּפָסוּק'."
+        },
+        {
+          "word_id": 95,
+          "field": "hebreu_voyelles",
+          "old": "הִלְכוֹת",
+          "new": "עַל",
+          "reason": "Le mot brut est 'על', sa vocalisation doit être 'עַל' et non 'הִלְכוֹת' (qui correspond au mot suivant tronqué)."
+        }
+      ]
+    },
+    {
+      "seif": 23,
+      "issue_index": 1,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "1",
+          "reason": "Extraction du Siman (chapitre) depuis l'indication explicite dans le texte hébreu: 'סימן א''."
+        }
+      ]
+    },
+    {
+      "seif": 23,
+      "issue_index": 2,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "francais_texte",
+          "old": "23. Notre coutume est de réciter la Parachat Haakedah lors de l'office de Cha'harit, y compris le Chabbat et les jours de fête (Yom Tov), et il ne faut pas modifier cette pratique. [Chéérit Yossef tome 1 page 10. Yalkout Yossef là-bas page 115].",
+          "new": "23. Notre coutume est de réciter la Parachat Haakedah lors de l'office de Cha'harit, y compris le Chabbat et les jours de fête (Yom Tov), et il ne faut pas modifier cette pratique. [Chéérit Yossef tome 1 page 10. Yalkout Yossef sur les lois du réveil du matin, édition 5764, siman 1, page 115].",
+          "reason": "La traduction française de la référence utilise 'là-bas' (pour 'שם'), alors que le texte hébreu brut utilise la formule non-abrégée complète. La modification de la traduction française permet de restaurer l'alignement exact des mots."
+        }
+      ]
+    },
+    {
+      "seif": 23,
+      "issue_index": 3,
+      "issue_type": "ALIGNMENT_MISMATCH_WORD",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "word_id": 13,
+          "field": "hebreu_voyelles",
+          "old": "ח\"א",
+          "new": "יוֹסֵף",
+          "reason": "Correction du décalage d'indexation. Le mot brut à cette position est 'יוסף' (Yossef) et non l'abréviation 'ח\"א'."
+        },
+        {
+          "word_id": 14,
+          "field": "hebreu_voyelles",
+          "old": "עמ'",
+          "new": "חֵלֶק",
+          "reason": "Le mot brut est 'חלק', son équivalent vocalisé est 'חֵלֶק'."
+        },
+        {
+          "word_id": 17,
+          "field": "hebreu_voyelles",
+          "old": "שָׁם",
+          "new": "יוֹסֵף",
+          "reason": "Le mot brut est 'יוסף', tandis que 'שם' provient d'une version abrégée erronée dans la base de vocalisations."
+        }
+      ]
+    },
+    {
+      "seif": 25,
+      "issue_index": 1,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": 1,
+          "reason": "Ce seif traite de l'ordre des prières du matin (Seder Hashkamat Haboker / Pesuké Dezimra), correspondant au Siman 1 du Choulhan Aroukh / Yalkout Yossef."
+        }
+      ]
+    },
+    {
+      "seif": 25,
+      "issue_index": 2,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "francais",
+          "old": "25. Après la récitation de la Parachat Haakedah, on récite le verset \"Il l'égorgera sur le côté de l'autel...\", telle est la coutume des Séfarades. Cela se fonde sur le Midrach : Le Saint béni soit-Il a dit : \"Je prends à témoin le ciel et la terre, que ce soit un non-Juif ou un Juif, au moment où ils lisent ce verset 'Tsafona lifné Hachem' (au nord devant l'Éternel), Je me souviens de la ligature d'Isaac.\" [On récite également le verset \"Il l'égorgera...\" avant le passage \"Ézéhou mekoman\"]. [Ch",
+          "new": "25. Après la récitation de la Parachat Haakedah, on récite le verset \"Il l'égorgera sur le côté de l'autel...\", telle est la coutume des Séfarades. Cela se fonde sur le Midrach : Le Saint béni soit-Il a dit : \"Je prends à témoin le ciel et la terre, que ce soit un non-Juif ou un Juif, au moment où ils lisent ce verset 'Tsafona lifné Hachem' (au nord devant l'Éternel), Je me souviens de la ligature d'Isaac.\" [On récite également le verset \"Il l'égorgera...\" avant le passage \"Ézéhou mekoman\"]. [Chéérit Yossef tome 1, page 13. Yalkout Yossef sur les lois du lever du matin, édition 5764, page 116].",
+          "reason": "Complétion de la traduction française tronquée à la fin ('[Ch')."
+        }
+      ]
+    },
+    {
+      "seif": 25,
+      "issue_index": 3,
+      "issue_type": "ALIGNMENT_MISMATCH_WORD",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "word_id": 20,
+          "field": "hebreu_voyelles",
+          "old": "הַקָּדוֹשׁ",
+          "new": "הַקְבָּ\"ה",
+          "reason": "L'acronyme הקב\"ה a été développé en plusieurs mots lors de la vocalisation, brisant l'alignement 1-pour-1 avec le texte hébreu brut."
+        }
+      ]
+    },
+    {
+      "seif": 26,
+      "issue_index": 1,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "texte_francais",
+          "old": "26. Il est bon de réciter chaque jour le passage du sacrifice perpétuel (Parachat Hatamid). [Cependant, la récitation du passage des sacrifices n'est pas une obligation absolue comme le reste de la prière, mais c'est une coutume juste et bonne]. Après la Parachat Hatamid, il est bon de réciter le chapitre \"Ézéhou mekoman\" (Quel est leur emplacement). [Là-bas page 117].",
+          "new": "26. Il est bon de réciter chaque jour le passage du sacrifice perpétuel (Parachat Hatamid). [Cependant, la récitation du passage des sacrifices n'est pas une obligation absolue comme le reste de la prière, mais c'est une coutume juste et bonne, pour laquelle on demandera des comptes au Ciel selon le niveau de la personne]. Après la Parachat Hatamid, il est bon de réciter le chapitre « Ézéhou mekoman » (Quel est leur emplacement). [Là-bas page 117].",
+          "reason": "La proposition relative 'שיתבעו על זה בשמים לפי מדרגת האדם' manquait dans la traduction française."
+        }
+      ]
+    },
+    {
+      "seif": 30,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": 1,
+          "reason": "Dans le Yalkout Yossef (הלכות השכמת הבוקר), la récitation des Korbanot et de la Ketoret fait partie du Siman 1 (סימן א')."
+        }
+      ]
+    },
+    {
+      "seif": 32,
+      "issue_index": 1,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "48",
+          "reason": "La section sur la récitation de la Parachat Hakorbanot correspond au Siman 48 dans le Choulhan Aroukh et le Yalkout Yossef."
+        }
+      ]
+    },
+    {
+      "seif": 32,
+      "issue_index": 2,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "texte_francais",
+          "old": "32. Notre coutume est de réciter le passage des sacrifices en étant assis. Celui qui prie avec la communauté et souhaite se montrer rigoureux en se tenant debout pour la récitation des sacrifices, alors que la communauté est assise et qu'il est évident qu'il se lève pour les sacrifices, doit craindre de faire preuve de prétention (Youhara), et il ne faut pas agir ainsi. La coutume est de dire \"Yehi Ratzon\" (Que ce soit Ta volonté) après la récitation des sacrifices. Certains ont l'habitude de di",
+          "new": "32. Notre coutume est de réciter le passage des sacrifices en étant assis. Celui qui prie avec la communauté et souhaite se montrer rigoureux en se tenant debout pour la récitation des sacrifices, alors que la communauté est assise et qu'il est évident qu'il se lève pour les sacrifices, doit craindre de faire preuve de prétention (Youhara), et il ne faut pas agir ainsi. La coutume est de dire \"Yehi Ratzon\" (Que ce soit Ta volonté) après la récitation des sacrifices. Certains ont l'habitude de dire le \"Yehi Ratzon\" comme s'ils s'étaient rendus redevables d'un sacrifice d'expiation (Chatat), etc., mais notre coutume n'est pas de dire cela, car le sacrifice d'expiation requiert une connaissance préalable du péché, et une condition n'est d'aucune utilité s'il ne sait pas qu'il a péché.",
+          "reason": "Le texte français d'origine était tronqué à la fin ('Certains ont l'habitude de di'). La complétion de la traduction résout l'écart d'alignement avec le texte hébreu."
+        }
+      ]
+    },
+    {
+      "seif": 33,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "1",
+          "reason": "Les lois de la vigilance matinale (הלכות השכמת הבוקר) correspondent au Siman 1."
+        }
+      ]
+    },
+    {
+      "seif": 34,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "new": "מ\"ח",
+          "reason": "Le siman manquant correspondant à cette section du Yalkout Yossef (lois de l'ordre de la prière avant Baroukh Chéamar) est le Siman 48 (מ\"ח)."
+        }
+      ]
+    },
+    {
+      "seif": 34,
+      "issue_index": 1,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "francais",
+          "old": "34. A priori (Lekhat'hila), il faut réciter la Parachat Haakedah et le sacrifice perpétuel, etc., avant Baroukh Chéamar, afin de ne pas inverser l'ordre des mondes. Lorsque la communauté prie rapidement, il est juste de s'avancer pour prier posément en suivant l'ordre, afin de ne pas avaler des mots ou de lettres. Les Sages ont dit de manière allusive : \"Tu feras une lucarne (Tsohar) à l'arche (Teiva / mot)\", signifiant que chaque mot (Tévah) de la prière doit briller comme le soleil de midi (T",
+          "new": "34. A priori (Lekhat'hila), il faut réciter la Parachat Haakedah et le sacrifice perpétuel, etc., avant Baroukh Chéamar, afin de ne pas inverser l'ordre des mondes. Lorsque la communauté prie rapidement, il est juste d'anticiper et de prier posément dans l'ordre, afin de ne pas avaler de mots ou de lettres. C'est ainsi qu'il a été dit par allusion : \"Tu feras une lucarne (Tsohar) à l'arche (Teivah / mot)\", signifiant que chaque mot (Teivah) de la prière doit briller comme le soleil de midi, et comme s'il comptait des perles. Et seulement s'il est arrivé en retard à la synagogue et qu'il n'y a pas d'autre choix, il sautera les sacrifices (Korbanot) et les dira après la prière [et il est préférable de les sauter pour prier en assemblée]. Quoi qu'il en soit, si possible, il s'efforcera d'en dire au moins une partie. Mais il veillera à ne pas les dire pendant la répétition de la Amida, car il faut écouter la répétition et répondre Amen après les bénédictions. [She'erit",
+          "reason": "La traduction française était tronquée au milieu d'un mot et ne couvrait pas la seconde moitié du texte hébreu."
+        }
+      ]
+    },
+    {
+      "seif": 35,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "new": "1",
+          "reason": "Ajout du Siman 1 correspondant aux lois de l'éveil du matin (הלכות השכמת הבוקר) traité dans ce passage."
+        }
+      ]
+    },
+    {
+      "seif": 36,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "1",
+          "reason": "Le Siman correspondant aux lois du lever du matin (הלכות השכמת הבוקר) est le Siman 1."
+        }
+      ]
+    },
+    {
+      "seif": 37,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "word_id": 0,
+          "field": "siman",
+          "old": null,
+          "new": "48",
+          "reason": "Le passage d'Abayé Havé (Seder HaMaarakha) correspond au Siman 48 de l'Orah Haïm / Yalkout Yossef."
+        }
+      ]
+    },
+    {
+      "seif": 38,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": 48,
+          "reason": "Le passage traite de l'ordre de la lecture de Pitoum Haktoret avant les Zemirot, correspondant au Siman 48 dans le Choul'han Aroukh et le Yalkout Yossef."
+        }
+      ]
+    },
+    {
+      "seif": 39,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": 48,
+          "reason": "Ce seif concernant l'ordre de la Qetoret et la lecture des onze épices provient du Siman 48 du Yalkout Yossef."
+        }
+      ]
+    },
+    {
+      "seif": 41,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "קנא",
+          "reason": "Le paragraphe traite de l'écriture de versets sur les murs et objets de la synagogue, ce qui correspond aux lois de la synagogue (Hilkhot Beit Knesset) situées dans le Siman 151 (קנא) de l'Orakh Khaïm."
+        }
+      ]
+    },
+    {
+      "seif": 42,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "1",
+          "reason": "Ce paragraphe (Seif 42) appartient au Siman 1 (סימן א) du Yalkout Yossef, traitant des règles de conduite du matin (סדר היום והנהגת הבוקר)."
+        }
+      ]
+    },
+    {
+      "seif": 43,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "siman",
+          "old": null,
+          "new": "א",
+          "reason": "Les lois relatives au Tikkoun 'Hatsot relèvent du premier Siman (Siman 1 / א) du Choulhan Aroukh et du Yalkout Yossef, Orach 'Haim."
+        }
+      ]
+    },
+    {
+      "seif": 43,
+      "issue_index": 1,
+      "issue_type": "BADGE_INCORRECT",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "field": "hebrew_badge",
+          "old": "דיני",
+          "new": "מג",
+          "reason": "Le mot 'דיני' (Lois) fait partie de l'en-tête de la section ('דיני תיקון חצות'). Le véritable badge numérique du Seif est 'מג' (43)."
+        },
+        {
+          "field": "french_badge",
+          "old": "Lois",
+          "new": "43",
+          "reason": "L'expression 'Lois relatives au...' est le titre de la section. Le badge numérique du paragraphe est 43."
+        }
+      ]
+    },
+    {
+      "seif": 44,
+      "issue_index": 0,
+      "issue_type": "MISSING_KEYS",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "word_id": null,
+          "field": "siman",
+          "old": null,
+          "new": "1",
+          "reason": "Les lois relatives au Tikkoun 'Hatsot dans le Yalkout Yossef font partie du Siman 1 (הלכות השכמת הבוקר ותיקון חצות)."
+        }
+      ]
+    },
+    {
+      "seif": 55,
+      "issue_index": 0,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "verdict": "FIX",
+      "fixes": [
+        {
+          "word_id": 0,
+          "field": "francais",
+          "old": "55. Le Tikkun Chatzot se divise en deux parties : la première s'appelle Tikkun Rachel, et la seconde Tikkun Léa. Le Tikkun Rachel traite des sujets liés à la destruction du Temple, tandis que le Tikkun Léa consiste principalement en des chapitres de louanges, requêtes et remerciements à Dieu. La plupart des nuits de l'année, on récite le Tikkun Rachel, suivi du Tikkun Léa. Cependant, il y a des périodes où l'on ne récite que le Tikkun Léa et l'on omet le Tikkun Rachel, car on ne doit pas y évoqu",
+          "new": "55. Le Tikkun Chatzot se divise en deux parties : la première s'appelle Tikkun Rachel, et la seconde Tikkun Léa. Le Tikkun Rachel traite des sujets liés à la destruction du Temple, tandis que le Tikkun Léa consiste principalement en des chapitres de louanges, requêtes et remerciements à Dieu. La plupart des nuits de l'année, on récite le Tikkun Rachel, suivi du Tikkun Léa. Cependant, il y a des périodes où l'on ne récite que le Tikkun Léa et l'on omet le Tikkun Rachel, car on ne doit pas y évoquer de tristesse [et d'autres raisons selon le secret]. Et voici les jours où l'on ne récite pas le Tikkun Rachel : Roch Hodech [et la veille de Roch Hodech après le Molad, bien que l'on fasse les confessions ce jour-là], et de Roch Hachana jusqu'à Chemini Atseret, les jours de Hanoucca, les jours de Pourim, tout le mois de Nissan, et tous les jours de l'Om",
+          "reason": "La traduction française était tronquée à la fin par rapport au texte hébreu fourni. Cette correction rétablit l'intégralité de la traduction française correspondant au texte hébreu."
+        }
+      ]
+    }
+  ],
+  "escalations": [
+    {
+      "seif": 1,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 3,
+      "issue_type": "MISSING_KEYS",
+      "reason": "Le numéro de Siman est manquant dans la structure de données et ne figure pas explicitement dans le titre du texte fourni."
+    },
+    {
+      "seif": 4,
+      "issue_type": "MISSING_KEYS",
+      "reason": "Le numéro de siman est absent du texte fourni et ne peut pas être déterminé avec certitude sans le contexte du chapitre."
+    },
+    {
+      "seif": 4,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "reason": "Le texte français est interrompu abruptement ('La Guemara di') et il manque la traduction d'une grande partie du texte hébreu (les enseignements sur l'étude nocturne du Talmud de Jérusalem et la citation du Rambam)."
+    },
+    {
+      "seif": 5,
+      "issue_type": "MISSING_KEYS",
+      "reason": "Le numéro de Siman n'est pas explicitement fourni dans le texte source transmis et nécessite une confirmation formelle de la référence dans le Yalkout Yossef."
+    },
+    {
+      "seif": 6,
+      "issue_type": "MISSING_KEYS",
+      "reason": "La clé 'siman' est manquante dans les métadonnées de la notice et ne peut pas être déterminée avec une certitude absolue uniquement à partir du texte du Seif."
+    },
+    {
+      "seif": 15,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 22,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "reason": "Les deux textes (hébreu et français) sont tronqués à la fin ('ילקו\"י על הל' et 'l'ordre des mon'), ce qui fausse l'alignement global des mots. Une réimportation ou correction globale de la fin du paragraphe est requise."
+    },
+    {
+      "seif": 24,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 26,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 27,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 27,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 27,
+      "issue_type": "ALIGNMENT_MISMATCH_WORD",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 28,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 29,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 29,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 29,
+      "issue_type": "ALIGNMENT_MISMATCH_WORD",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 31,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    },
+    {
+      "seif": 38,
+      "issue_type": "ALIGNMENT_MISMATCH",
+      "reason": "Le texte hébreu ainsi que la traduction française sont tronqués en fin de seif (hébreu : 'שהרי אם חיסר אחת מ...', français : 'il...'). Le seif complet doit être réimporté avant d'aligner les mots."
+    },
+    {
+      "seif": 40,
+      "issue_type": "MISSING_KEYS",
+      "reason": "IA ne peut pas résoudre avec certitude"
+    }
+  ],
+  "reviews": [
+    {
+      "seif": 1,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": 1,
+                "reason": "Le siman manquant est le Siman 1 (השכמת הבוקר / Se lever le matin)."
+              }
+            ]
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "ESCALATE",
+            "fixes": []
+          }
+        ]
+      }
+    },
+    {
+      "seif": 2,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": 1,
+                "reason": "Le siman correspond aux lois du réveil matinal (Hilkhot Hashkamat Haboker), Siman 1."
+              }
+            ]
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "francais",
+                "old": "2. L'homme doit faire en sorte que ce soit chez lui une nature et une habitude constante de courir pour accomplir une Mitsva. Certains s'attardent dans leur sommeil et traînent chez eux, puis courent ensuite à la synagogue. Ce n'est pas là la qualité de l'empressement (Zrizout) ; car bien qu'on les voie courir et se presser, c'est uniquement parce qu'ils ont retardé leur lever, et courent donc pour rattraper le temps et arriver à la prière à la synagogue. Un homme doit toujours être empressé pou",
+                "new": "2. L'homme doit faire en sorte que ce soit chez lui une nature et une habitude constante de courir pour accomplir une Mitsva. Certains s'attardent dans leur sommeil et traînent chez eux, puis courent ensuite à la synagogue. Ce n'est pas là la qualité de l'empressement (Zrizout) ; car bien qu'on les voie courir et se presser, c'est uniquement parce qu'ils ont retardé leur lever, et courent donc pour rattraper le temps et arriver à la prière à la synagogue. Un homme doit toujours être empressé pour la prière et pour l'étude de la Torah, et ne pas se laisser entraîner par le sommeil et les plaisirs, et que son penchant ne le séduise pas à se relâcher à cause de sa richesse et de ses biens, car tout est éphémère et voué à disparaître, alors que la Torah et sa récompense subsistent pour l'éternité.",
+                "reason": "Complétion de la traduction française tronquée à la fin de la phrase ('pou...')."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 3,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "ESCALATE",
+            "reason": "Le numéro de Siman est manquant dans la structure de données et ne figure pas explicitement dans le titre du texte fourni."
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "PASS",
+            "reason": "Faux positif : l'écart de 8 mots correspond exactement à la référence bibliographique entre crochets « [ילקו\"י הל' השכמת הבוקר מהדור' תשס\"ד עמ' סג] » (8 mots) qui n'est pas destinée à être traduite dans la version française."
+          }
+        ]
+      }
+    },
+    {
+      "seif": 4,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "ESCALATE",
+            "fixes": [],
+            "reason": "Le numéro de siman est absent du texte fourni et ne peut pas être déterminé avec certitude sans le contexte du chapitre."
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "ESCALATE",
+            "fixes": [],
+            "reason": "Le texte français est interrompu abruptement ('La Guemara di') et il manque la traduction d'une grande partie du texte hébreu (les enseignements sur l'étude nocturne du Talmud de Jérusalem et la citation du Rambam)."
+          }
+        ]
+      }
+    },
+    {
+      "seif": 5,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "ESCALATE",
+            "reason": "Le numéro de Siman n'est pas explicitement fourni dans le texte source transmis et nécessite une confirmation formelle de la référence dans le Yalkout Yossef."
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "texte_francais",
+                "old": "Mais il ne devra pas dormir excessivement. De même, pendant le Chabbat, il est permis de dormir la journée.",
+                "new": "Mais il ne devra pas dormir excessivement. [Cependant, d'après la Kabbala, il convient de s'abstenir de dormir pendant la journée.] De même, pendant le Chabbat, il est permis de dormir la journée.",
+                "reason": "Traduction manquante de la phrase entre crochets figurant dans le texte hébreu: '[ואמנם על פי הקבלה יש להמנע מלישון ביום]'."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 6,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "ESCALATE",
+            "reason": "La clé 'siman' est manquante dans les métadonnées de la notice et ne peut pas être déterminée avec une certitude absolue uniquement à partir du texte du Seif."
+          }
+        ]
+      }
+    },
+    {
+      "seif": 7,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "58",
+                "reason": "Ce texte correspond au Siman 58 du Yalkout Yossef (Hilkhot Kriyat Shema), seif 7."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 8,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": 1,
+                "reason": "Le texte concerne les lois sur l'éveil du matin (הלכות השכמת הבוקר), qui correspondent au Siman 1 du Yalkout Yossef."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 9,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "1",
+                "reason": "Le seif traite des הלכות השכמת הבוקר ומודה אני, qui se trouvent dans le סימן א' (אורח חיים)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 10,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "word_id": null,
+                "field": "siman",
+                "old": null,
+                "new": "1",
+                "reason": "Le siman manquant pour les lois du lever du matin (הלכות השכמת הבוקר) dans le Yalkout Yossef est le Siman 1."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 11,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "1",
+                "reason": "Le siman correspondant aux הלכות השכמת הבוקר (lois du réveil matinal) et au Modeh Ani dans le Yalkout Yossef est le Siman 1 (סימן א)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 12,
+      "original_score": 49,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": 1,
+                "reason": "Ce seif concerne l'obligation de garder Dieu à l'esprit (Shiviti Hashem LeNegdi Tamid), qui fait partie du Siman 1 (Hilchot Hashkamat Haboker)."
+              }
+            ]
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "texte_francais",
+                "old": "12. Ce qu'a dit le Roi David, que la paix soit sur lui (Psaumes 16:8) : « J'ai placé Dieu devant moi constamment », est un grand principe dans la Torah et dans les vertus des justes. Par conséquent, chacun doit prendre à cœur que le grand Roi, le Saint béni soit-Il, dont la gloire remplit toute la terre, se tient au-dessus de lui et voit ses actions, comme il est dit : « Si un homme se cache dans des cachettes, ne le verrai-Je pas, dit l'Éternel ». Et immédiatement, la crainte et la soumission d",
+                "new": "12. Ce qu'a dit le Roi David, que la paix soit sur lui (Psaumes 16:8) : « J'ai placé Dieu devant moi constamment », est un grand principe dans la Torah et dans les vertus des justes. Par conséquent, chacun doit prendre à cœur que le grand Roi, le Saint béni soit-Il, dont la gloire remplit toute la terre, se tient au-dessus de lui et voit ses actions, comme il est dit : « Si un homme se cache dans des cachettes, ne le verrai-Je pas, dit l'Éternel ». Et lorsqu'il pensera ainsi dans son cœur, aussitôt la crainte et la soumission devant Dieu béni soit-Il lui viendront, et il aura honte de Lui constamment, et son comportement changera en bien. [Et si la crainte ne lui vient pas immédiatement, il approfondira beaucoup ce sujet jusqu'à ce que la crainte lui vienne. Et il fera aussi un repentir complet sur toutes ses fautes, qui l'empêchent d'atteindre la cr...",
+                "reason": "Le texte français était tronqué au milieu de la phrase. Complétion de la traduction selon le texte hébreu."
+              }
+            ]
+          },
+          {
+            "issue_index": 2,
+            "issue_type": "ALIGNMENT_MISMATCH_WORD",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "word_id": 51,
+                "field": "hebreu_voyelles",
+                "old": "וּמִיָּד",
+                "new": "וְכַאֲשֶׁר",
+                "reason": "Le mot brut correspondant au mot 51 est 'וכאשר', la ponctuation ponctuelle doit être 'וְכַאֲשֶׁר' au lieu de 'וּמִיָּד'."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 13,
+      "original_score": 49,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 1,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "1",
+                "reason": "Le siman manquant pour cette section des lois du réveil matinal (השכמת הבוקר) dans le Yalkout Yossef est le Siman 1."
+              }
+            ]
+          },
+          {
+            "issue_index": 2,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "francais",
+                "old": "13. Les remèdes appropriés pour renforcer l'homme dans la crainte du Ciel sont : d'être présent fréquemment à la synagogue et à la maison d'étude. Et de même, de rechercher la paix. Et de faire attention à accomplir le commandement positif de « tu te lèveras devant les cheveux blancs ». Et de même, de donner la dîme. Et de même, de mener ses affaires avec honnêteté. [Yalkout Yossef, lois du réveil matinal, page 96].",
+                "new": "13. Les remèdes appropriés pour renforcer l'homme dans la crainte du Ciel sont : d'être présent fréquemment à la synagogue et à la maison d'étude. Et de même, de rechercher la paix. Et de veiller à accomplir le commandement positif de « tu te lèveras devant les cheveux blancs ». Et de même, de donner la dîme. Et de s'occuper de la Torah constamment, chaque jour. Et d'être humble et rabaissé. Et de détenir dans sa maison des livres de décisionnaires de Halakha et de Moussar. Et de penser, en mangeant le Chabbat, que c'est en l'honneur du Chabbat. Et de restreindre sa parole et de multiplier le silence. Et il priera également le Tout-Puissant de le renforcer dans une crainte pure de Hachem. [Yalkout Yossef, ibid. page 96].",
+                "reason": "La traduction française était tronquée au milieu du texte hébreu et incluait une phrase absente du texte hébreu brut ('mener ses affaires avec honnêteté'). La nouvelle version traduit fidèlement l'intégralité du texte hébreu brut fourni."
+              }
+            ]
+          },
+          {
+            "issue_index": 3,
+            "issue_type": "ALIGNMENT_MISMATCH_WORD",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "hebreu_voyelles",
+                "old": "יג הַסְּגֻלּוֹת הַנְּכוֹנוֹת לְחִזּוּק הָאָדָם בְּיִרְאַת שָׁמַיִם, שֶׁיִּהְיֶה מָצוּי הַרְבֵּה בְּבֵית הַכְּנֶסֶת וּבְבֵית הַמִּדְרָשׁ. וְכֵן לְבַקֵּשׁ שָׁלוֹם. וּלְהִזָּהֵר לְקַיֵּם מִצְוַת עֲשֵׂה שֶׁל מִפְּנֵי שֵׂיבָה תָּקוּם. וְכֵן לִתֵּן מַעֲשֵׂר. וְכֵן לִהְיוֹת נוֹשֵׂא וְנוֹתֵן בֶּאֱמוּנָה. [ילקו\"י...",
+                "new": "יג הַסְּגֻלּוֹת הַנְּכוֹנוֹת לְחִזּוּק הָאָדָם בְּיִרְאַת שָׁמַיִם, שֶׁיִּהְיֶה מָצוּי הַרְבֵּה בְּבֵית הַכְּנֶסֶת וּבְבֵית הַמִּדְרָשׁ. וְכֵן לְבַקֵּשׁ שָׁלוֹם. וּלְהִזָּהֵר לְקַיֵּם מִצְוַת עֲשֵׂה שֶׁל מִפְּנֵי שֵׂיבָה תָּקוּם. וְכֵן לִתֵּן מַעֲשֵׂר. וְלַעֲסוֹק בַּתּוֹרָה בִּתְמִידוּת, מִדֵּי יוֹם. וְלִהְיוֹת עָנָו וְשָׁפָל. וּלְהַחֲזִיק בְּבֵיתוֹ סִפְרֵי פּוֹסְקִים הֲלָכָה וּמוּסָר. וְלַחְשֹׁב בָּאֲכִילָה בְּשַׁבָּת שֶׁהִיא לִכְבוֹד שַׁבָּת. וּלְמַעֵט בְּדִבּוּר וּלְהַרְבּוֹת בִּשְׁתִיקָה. וְגַם יִתְפַּלֵּל לַהַשֵּׁ\"ת שֶׁיְּחַזְּקֵהוּ בְּיִרְאַת ה' טְהוֹרָה. [יַלְקוּט יוֹסֵף שָׁם עַמּוּד צו].",
+                "reason": "Le texte avec voyelles (hebreu_voyelles) contenait une phrase différente ('וכן להיות נושא ונותן באמונה') qui ne correspondait pas au texte brut fourni ('ולעסוק בתורה בתמידות...'). Les voyelles ont été corrigées pour s'aligner parfaitement sur le texte brut."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 14,
+      "original_score": 49,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 1,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "1",
+                "reason": "Le siman manquant pour cette section du Yalkout Yossef (Lois du réveil du matin / Al Yitbayesh) est le Siman 1."
+              }
+            ]
+          },
+          {
+            "issue_index": 2,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "francais",
+                "old": "14. Il a déjà été expliqué [au paragraphe 1] que celui qui accomplit les commandements de Dieu ne doit pas avoir honte des personnes qui se moquent de lui, mais il ne doit pas se quereller et se disputer avec eux, afin de ne pas s'habituer au vilain défaut de l'effronterie. [Et ce que nous avons écrit au paragraphe 1 qu'il est permis d'être effronté afin de les ramener au bien, cela s'applique uniquement s'il a tout fait par des voies pacifiques et que cela n'a pas été utile]. [Yalkout Yossef là",
+                "new": "14. Il a déjà été expliqué [au paragraphe 1] que celui qui accomplit les commandements de Dieu ne doit pas avoir honte des personnes qui se moquent de lui, mais il ne doit pas se quereller et se disputer avec eux, afin de ne pas s'habituer au vilain défaut de l'effronterie. [Et si son but est d'influencer les affaires de la communauté dans les domaines de la Torah et des commandements, et qu'il a essayé par des voies de paix sans réussir, il est alors permis d'être audacieux et de se disputer avec eux pour faire échouer leur projet]. [Ché'érit Yossef, tome 1, page 3, Yalkout Yossef édition 5764, page 96].",
+                "reason": "La traduction française actuelle traduit par erreur un texte du Seif 1 et est tronquée à la fin. Correction pour l'aligner précisément sur le texte hébreu du Seif 14."
+              }
+            ]
+          },
+          {
+            "issue_index": 3,
+            "issue_type": "ALIGNMENT_MISMATCH_WORD",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "hebreu_voyelles",
+                "old": "[שֶׁכָּתַבְנוּ בִּסְעִיף א' שֶׁמּוּתָּר לְהָעִיז פָּנִים כְּדֵי לְהַחֲזִירָם לַמּוּטָב...]",
+                "new": "[וְאִם מַטָּרָתוֹ לְהַשְׁפִּיעַ עַל עִנְיְנֵי הַקְּהִלָּה בְּעִנְיְנֵי הַתּוֹרָה וְהַמִּצְווֹת, וְנִסָּה בְּדַרְכֵי שָׁלוֹם וְלֹא הִצְלִיחַ אֲזַי מֻתָּר לְהָעִיז פָּנָיו וְלָרִיב עִמָּם לְהָפֵר עֲצָתָם].",
+                "reason": "Les voyelles hébraïques du passage entre crochets appartenaient à un autre texte (du Seif 1), ce qui générait des décalages d'alignement majeurs. Remplacement par la vocalisation exacte du texte hébreu du Seif 14."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 15,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "ESCALATE",
+            "comment": "L'expression 'שם' (là-bas) dans la source fait référence à un contexte ou chapitre précédent non spécifié dans cet extrait. Bien que le sujet (porter le Talit et les Tefilines pour aller à la synagogue) corresponde généralement au Siman 25 (ou éventuellement au Siman 8) de l'Orach Chaim, il est impossible de déterminer avec certitude absolue le Siman précis sans le contexte du livre."
+          }
+        ]
+      }
+    },
+    {
+      "seif": 16,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "א",
+                "reason": "Le siman (chapitre) correspondant aux lois du réveil matinal (הלכות השכמת הבוקר) dans le Choulhan Aroukh et le Yalkout Yossef est le Siman 1 (סימן א)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 17,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "1",
+                "reason": "Le siman correspondant est le Siman 1 (א) d'après la source dans She'erit Yosef volume 1, page 4 (Hilkhot Hanahgat Haboker)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 18,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "word_id": null,
+                "field": "siman",
+                "old": "",
+                "new": "46",
+                "reason": "Le siman manquant correspondant à ce passage du Yalkout Yossef (Vol. Tefilah, page 103) est le Siman 46 (מו - ברכות השחר)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 19,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 1,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "word_id": null,
+                "field": "siman",
+                "old": "",
+                "new": "53",
+                "reason": "Le texte hébreu cite explicitement le Siman 53 ('בסי' נג') à la fin de la référence."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 20,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "1",
+                "reason": "Ce paragraphe (Seif 20) appartient au Siman 1 du Yalkout Yossef (Lois sur le réveil du matin / השכמת הבוקר), correspondant au Siman 1 du Choulhan Aroukh."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 21,
+      "original_score": 49,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 1,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "101",
+                "reason": "La section traite des lois sur le volume de la voix pendant la prière de la Amida, ce qui correspond au Siman 101 du Choulhan Aroukh et du Yalkout Yossef."
+              }
+            ]
+          },
+          {
+            "issue_index": 2,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "francais",
+                "old": "21. La coutume du Ari (de mémoire bénie) était de ne pas prier à haute voix, même pour les Zemirot (cantiques), afin de manifester soumission, crainte et révérence devant l'Éternel. Cependant, le jour du Chabbat, il élevait légèrement la voix avec mélodie en l'honneur du Chabbat. Certains ont l'habitude de réciter les Zemirot, le Chema et ses bénédictions à haute voix et avec ferveur pour éveiller leur concentration. Tout dépend de chaque personne, selon ce qui l'aide à se concentrer. Il en va d",
+                "new": "21. La coutume du Ari (de mémoire bénie) était de ne pas prier à haute voix, même pour les Zemirot (cantiques), afin de manifester soumission, crainte et révérence devant l'Éternel. Cependant, le jour du Chabbat, il élevait légèrement la voix avec mélodie en l'honneur du Chabbat. Certains ont l'habitude de réciter les Zemirot, le Chema et ses bénédictions à haute voix et avec ferveur pour éveiller leur concentration. Tout dépend de chaque personne, selon ce qui l'aide à se concentrer. Il en va de même concernant le fait de se balancer pendant la prière : certaines personnes parviennent à s'éveiller à la concentration en bougeant, selon le verset 'Que tous mes os disent : Éternel !', tandis que d'autres peuvent très bien se concentrer sans bouger, et il est alors préférable pour elles de ne pas bouger.",
+                "reason": "Le texte français était tronqué à la fin ('Il en va d'). Il a été complété pour correspondre exactement à la fin du texte hébreu."
+              }
+            ]
+          },
+          {
+            "issue_index": 3,
+            "issue_type": "ALIGNMENT_MISMATCH_WORD",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "word_id": 29,
+                "field": "hebreu_voyelles",
+                "old": "וְיֵשׁ",
+                "new": "וְלָכֵן",
+                "reason": "Le mot hébreu brut est 'ולכן', sa vocalisation doit donc être 'וְלָכֵן' (et non 'וְיֵשׁ' qui correspond au mot suivant)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 22,
+      "original_score": 49,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "1",
+                "reason": "La section de la Parachat Haakedah (Seder Hayom) se trouve dans le Siman 1 (הנהגת הבוקר / סדר היום) du Yalkout Yossef."
+              }
+            ]
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "ESCALATE",
+            "reason": "Les deux textes (hébreu et français) sont tronqués à la fin ('ילקו\"י על הל' et 'l'ordre des mon'), ce qui fausse l'alignement global des mots. Une réimportation ou correction globale de la fin du paragraphe est requise."
+          },
+          {
+            "issue_index": 2,
+            "issue_type": "ALIGNMENT_MISMATCH_WORD",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "word_id": 11,
+                "field": "hebreu_voyelles",
+                "old": "הַקָּדוֹשׁ",
+                "new": "הַקָּדוֹשׁ בָּרוּךְ הוּא,",
+                "reason": "Le mot brut est l'acronyme הקב\"ה (HaKadosh Baruch Hu), sa vocalisation doit correspondre à l'expression entière et non seulement au premier mot."
+              },
+              {
+                "word_id": 81,
+                "field": "hebreu_voyelles",
+                "old": "וּפָסוּק",
+                "new": "וּקְרִיאַת",
+                "reason": "Le mot brut est 'וקriאת' (et la lecture de), sa vocalisation doit être 'וּקְרִיאַת' au lieu de 'וּפָסוּק'."
+              },
+              {
+                "word_id": 95,
+                "field": "hebreu_voyelles",
+                "old": "הִלְכוֹת",
+                "new": "עַל",
+                "reason": "Le mot brut est 'על', sa vocalisation doit être 'עַל' et non 'הִלְכוֹת' (qui correspond au mot suivant tronqué)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 23,
+      "original_score": 49,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 1,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "1",
+                "reason": "Extraction du Siman (chapitre) depuis l'indication explicite dans le texte hébreu: 'סימן א''."
+              }
+            ]
+          },
+          {
+            "issue_index": 2,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "francais_texte",
+                "old": "23. Notre coutume est de réciter la Parachat Haakedah lors de l'office de Cha'harit, y compris le Chabbat et les jours de fête (Yom Tov), et il ne faut pas modifier cette pratique. [Chéérit Yossef tome 1 page 10. Yalkout Yossef là-bas page 115].",
+                "new": "23. Notre coutume est de réciter la Parachat Haakedah lors de l'office de Cha'harit, y compris le Chabbat et les jours de fête (Yom Tov), et il ne faut pas modifier cette pratique. [Chéérit Yossef tome 1 page 10. Yalkout Yossef sur les lois du réveil du matin, édition 5764, siman 1, page 115].",
+                "reason": "La traduction française de la référence utilise 'là-bas' (pour 'שם'), alors que le texte hébreu brut utilise la formule non-abrégée complète. La modification de la traduction française permet de restaurer l'alignement exact des mots."
+              }
+            ]
+          },
+          {
+            "issue_index": 3,
+            "issue_type": "ALIGNMENT_MISMATCH_WORD",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "word_id": 13,
+                "field": "hebreu_voyelles",
+                "old": "ח\"א",
+                "new": "יוֹסֵף",
+                "reason": "Correction du décalage d'indexation. Le mot brut à cette position est 'יוסף' (Yossef) et non l'abréviation 'ח\"א'."
+              },
+              {
+                "word_id": 14,
+                "field": "hebreu_voyelles",
+                "old": "עמ'",
+                "new": "חֵלֶק",
+                "reason": "Le mot brut est 'חלק', son équivalent vocalisé est 'חֵלֶק'."
+              },
+              {
+                "word_id": 17,
+                "field": "hebreu_voyelles",
+                "old": "שָׁם",
+                "new": "יוֹסֵף",
+                "reason": "Le mot brut est 'יוסף', tandis que 'שם' provient d'une version abrégée erronée dans la base de vocalisations."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 24,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "ESCALATE",
+            "fixes": []
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH_WORD",
+            "verdict": "PASS",
+            "fixes": []
+          }
+        ]
+      }
+    },
+    {
+      "seif": 25,
+      "original_score": 49,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 1,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": 1,
+                "reason": "Ce seif traite de l'ordre des prières du matin (Seder Hashkamat Haboker / Pesuké Dezimra), correspondant au Siman 1 du Choulhan Aroukh / Yalkout Yossef."
+              }
+            ]
+          },
+          {
+            "issue_index": 2,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "francais",
+                "old": "25. Après la récitation de la Parachat Haakedah, on récite le verset \"Il l'égorgera sur le côté de l'autel...\", telle est la coutume des Séfarades. Cela se fonde sur le Midrach : Le Saint béni soit-Il a dit : \"Je prends à témoin le ciel et la terre, que ce soit un non-Juif ou un Juif, au moment où ils lisent ce verset 'Tsafona lifné Hachem' (au nord devant l'Éternel), Je me souviens de la ligature d'Isaac.\" [On récite également le verset \"Il l'égorgera...\" avant le passage \"Ézéhou mekoman\"]. [Ch",
+                "new": "25. Après la récitation de la Parachat Haakedah, on récite le verset \"Il l'égorgera sur le côté de l'autel...\", telle est la coutume des Séfarades. Cela se fonde sur le Midrach : Le Saint béni soit-Il a dit : \"Je prends à témoin le ciel et la terre, que ce soit un non-Juif ou un Juif, au moment où ils lisent ce verset 'Tsafona lifné Hachem' (au nord devant l'Éternel), Je me souviens de la ligature d'Isaac.\" [On récite également le verset \"Il l'égorgera...\" avant le passage \"Ézéhou mekoman\"]. [Chéérit Yossef tome 1, page 13. Yalkout Yossef sur les lois du lever du matin, édition 5764, page 116].",
+                "reason": "Complétion de la traduction française tronquée à la fin ('[Ch')."
+              }
+            ]
+          },
+          {
+            "issue_index": 3,
+            "issue_type": "ALIGNMENT_MISMATCH_WORD",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "word_id": 20,
+                "field": "hebreu_voyelles",
+                "old": "הַקָּדוֹשׁ",
+                "new": "הַקְבָּ\"ה",
+                "reason": "L'acronyme הקב\"ה a été développé en plusieurs mots lors de la vocalisation, brisant l'alignement 1-pour-1 avec le texte hébreu brut."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 26,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "ESCALATE"
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "texte_francais",
+                "old": "26. Il est bon de réciter chaque jour le passage du sacrifice perpétuel (Parachat Hatamid). [Cependant, la récitation du passage des sacrifices n'est pas une obligation absolue comme le reste de la prière, mais c'est une coutume juste et bonne]. Après la Parachat Hatamid, il est bon de réciter le chapitre \"Ézéhou mekoman\" (Quel est leur emplacement). [Là-bas page 117].",
+                "new": "26. Il est bon de réciter chaque jour le passage du sacrifice perpétuel (Parachat Hatamid). [Cependant, la récitation du passage des sacrifices n'est pas une obligation absolue comme le reste de la prière, mais c'est une coutume juste et bonne, pour laquelle on demandera des comptes au Ciel selon le niveau de la personne]. Après la Parachat Hatamid, il est bon de réciter le chapitre « Ézéhou mekoman » (Quel est leur emplacement). [Là-bas page 117].",
+                "reason": "La proposition relative 'שיתבעו על זה בשמים לפי מדרגת האדם' manquait dans la traduction française."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 27,
+      "original_score": 49,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "ESCALATE",
+            "fixes": []
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "ESCALATE",
+            "fixes": []
+          },
+          {
+            "issue_index": 2,
+            "issue_type": "ALIGNMENT_MISMATCH_WORD",
+            "verdict": "ESCALATE",
+            "fixes": []
+          }
+        ]
+      }
+    },
+    {
+      "seif": 28,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "ESCALATE"
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "PASS"
+          }
+        ]
+      }
+    },
+    {
+      "seif": 29,
+      "original_score": 49,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 1,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "ESCALATE",
+            "fixes": []
+          },
+          {
+            "issue_index": 2,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "ESCALATE",
+            "fixes": []
+          },
+          {
+            "issue_index": 3,
+            "issue_type": "ALIGNMENT_MISMATCH_WORD",
+            "verdict": "ESCALATE",
+            "fixes": []
+          }
+        ]
+      }
+    },
+    {
+      "seif": 30,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": 1,
+                "reason": "Dans le Yalkout Yossef (הלכות השכמת הבוקר), la récitation des Korbanot et de la Ketoret fait partie du Siman 1 (סימן א')."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 31,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "ESCALATE",
+            "explanation": "Le numéro de siman n'est pas mentionné dans l'extrait fourni (seul le Seif 31 est indiqué). Il est impossible de le déterminer avec certitude sans la référence exacte du chapitre."
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "PASS",
+            "explanation": "La différence du nombre de mots provient de la référence bibliographique entre crochets [ילקו\"י שם עמ' קכה...] présente en hébreu mais omise dans la traduction française, ce qui est le comportement attendu."
+          }
+        ]
+      }
+    },
+    {
+      "seif": 32,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 1,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "48",
+                "reason": "La section sur la récitation de la Parachat Hakorbanot correspond au Siman 48 dans le Choulhan Aroukh et le Yalkout Yossef."
+              }
+            ]
+          },
+          {
+            "issue_index": 2,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "texte_francais",
+                "old": "32. Notre coutume est de réciter le passage des sacrifices en étant assis. Celui qui prie avec la communauté et souhaite se montrer rigoureux en se tenant debout pour la récitation des sacrifices, alors que la communauté est assise et qu'il est évident qu'il se lève pour les sacrifices, doit craindre de faire preuve de prétention (Youhara), et il ne faut pas agir ainsi. La coutume est de dire \"Yehi Ratzon\" (Que ce soit Ta volonté) après la récitation des sacrifices. Certains ont l'habitude de di",
+                "new": "32. Notre coutume est de réciter le passage des sacrifices en étant assis. Celui qui prie avec la communauté et souhaite se montrer rigoureux en se tenant debout pour la récitation des sacrifices, alors que la communauté est assise et qu'il est évident qu'il se lève pour les sacrifices, doit craindre de faire preuve de prétention (Youhara), et il ne faut pas agir ainsi. La coutume est de dire \"Yehi Ratzon\" (Que ce soit Ta volonté) après la récitation des sacrifices. Certains ont l'habitude de dire le \"Yehi Ratzon\" comme s'ils s'étaient rendus redevables d'un sacrifice d'expiation (Chatat), etc., mais notre coutume n'est pas de dire cela, car le sacrifice d'expiation requiert une connaissance préalable du péché, et une condition n'est d'aucune utilité s'il ne sait pas qu'il a péché.",
+                "reason": "Le texte français d'origine était tronqué à la fin ('Certains ont l'habitude de di'). La complétion de la traduction résout l'écart d'alignement avec le texte hébreu."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 33,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "1",
+                "reason": "Les lois de la vigilance matinale (הלכות השכמת הבוקר) correspondent au Siman 1."
+              }
+            ]
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "PASS",
+            "fixes": [],
+            "comment": "Le décalage de 15 mots s'explique par la présence de la référence bibliographique entre crochets à la fin du texte hébreu, qui n'a pas à être traduite dans le texte français."
+          }
+        ]
+      }
+    },
+    {
+      "seif": 34,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "new": "מ\"ח",
+                "reason": "Le siman manquant correspondant à cette section du Yalkout Yossef (lois de l'ordre de la prière avant Baroukh Chéamar) est le Siman 48 (מ\"ח)."
+              }
+            ]
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "francais",
+                "old": "34. A priori (Lekhat'hila), il faut réciter la Parachat Haakedah et le sacrifice perpétuel, etc., avant Baroukh Chéamar, afin de ne pas inverser l'ordre des mondes. Lorsque la communauté prie rapidement, il est juste de s'avancer pour prier posément en suivant l'ordre, afin de ne pas avaler des mots ou de lettres. Les Sages ont dit de manière allusive : \"Tu feras une lucarne (Tsohar) à l'arche (Teiva / mot)\", signifiant que chaque mot (Tévah) de la prière doit briller comme le soleil de midi (T",
+                "new": "34. A priori (Lekhat'hila), il faut réciter la Parachat Haakedah et le sacrifice perpétuel, etc., avant Baroukh Chéamar, afin de ne pas inverser l'ordre des mondes. Lorsque la communauté prie rapidement, il est juste d'anticiper et de prier posément dans l'ordre, afin de ne pas avaler de mots ou de lettres. C'est ainsi qu'il a été dit par allusion : \"Tu feras une lucarne (Tsohar) à l'arche (Teivah / mot)\", signifiant que chaque mot (Teivah) de la prière doit briller comme le soleil de midi, et comme s'il comptait des perles. Et seulement s'il est arrivé en retard à la synagogue et qu'il n'y a pas d'autre choix, il sautera les sacrifices (Korbanot) et les dira après la prière [et il est préférable de les sauter pour prier en assemblée]. Quoi qu'il en soit, si possible, il s'efforcera d'en dire au moins une partie. Mais il veillera à ne pas les dire pendant la répétition de la Amida, car il faut écouter la répétition et répondre Amen après les bénédictions. [She'erit",
+                "reason": "La traduction française était tronquée au milieu d'un mot et ne couvrait pas la seconde moitié du texte hébreu."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 35,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "new": "1",
+                "reason": "Ajout du Siman 1 correspondant aux lois de l'éveil du matin (הלכות השכמת הבוקר) traité dans ce passage."
+              }
+            ]
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "PASS"
+          }
+        ]
+      }
+    },
+    {
+      "seif": 36,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "1",
+                "reason": "Le Siman correspondant aux lois du lever du matin (הלכות השכמת הבוקר) est le Siman 1."
+              }
+            ]
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "PASS"
+          }
+        ]
+      }
+    },
+    {
+      "seif": 37,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "word_id": 0,
+                "field": "siman",
+                "old": null,
+                "new": "48",
+                "reason": "Le passage d'Abayé Havé (Seder HaMaarakha) correspond au Siman 48 de l'Orah Haïm / Yalkout Yossef."
+              }
+            ]
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "PASS",
+            "fixes": []
+          }
+        ]
+      }
+    },
+    {
+      "seif": 38,
+      "original_score": 66,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": 48,
+                "reason": "Le passage traite de l'ordre de la lecture de Pitoum Haktoret avant les Zemirot, correspondant au Siman 48 dans le Choul'han Aroukh et le Yalkout Yossef."
+              }
+            ]
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "ESCALATE",
+            "reason": "Le texte hébreu ainsi que la traduction française sont tronqués en fin de seif (hébreu : 'שהרי אם חיסר אחת מ...', français : 'il...'). Le seif complet doit être réimporté avant d'aligner les mots."
+          }
+        ]
+      }
+    },
+    {
+      "seif": 39,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": 48,
+                "reason": "Ce seif concernant l'ordre de la Qetoret et la lecture des onze épices provient du Siman 48 du Yalkout Yossef."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 40,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "ESCALATE",
+            "fixes": []
+          }
+        ]
+      }
+    },
+    {
+      "seif": 41,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "קנא",
+                "reason": "Le paragraphe traite de l'écriture de versets sur les murs et objets de la synagogue, ce qui correspond aux lois de la synagogue (Hilkhot Beit Knesset) situées dans le Siman 151 (קנא) de l'Orakh Khaïm."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 42,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "1",
+                "reason": "Ce paragraphe (Seif 42) appartient au Siman 1 (סימן א) du Yalkout Yossef, traitant des règles de conduite du matin (סדר היום והנהגת הבוקר)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 43,
+      "original_score": 74,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "siman",
+                "old": null,
+                "new": "א",
+                "reason": "Les lois relatives au Tikkoun 'Hatsot relèvent du premier Siman (Siman 1 / א) du Choulhan Aroukh et du Yalkout Yossef, Orach 'Haim."
+              }
+            ]
+          },
+          {
+            "issue_index": 1,
+            "issue_type": "BADGE_INCORRECT",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "field": "hebrew_badge",
+                "old": "דיני",
+                "new": "מג",
+                "reason": "Le mot 'דיני' (Lois) fait partie de l'en-tête de la section ('דיני תיקון חצות'). Le véritable badge numérique du Seif est 'מג' (43)."
+              },
+              {
+                "field": "french_badge",
+                "old": "Lois",
+                "new": "43",
+                "reason": "L'expression 'Lois relatives au...' est le titre de la section. Le badge numérique du paragraphe est 43."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 44,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "MISSING_KEYS",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "word_id": null,
+                "field": "siman",
+                "old": null,
+                "new": "1",
+                "reason": "Les lois relatives au Tikkoun 'Hatsot dans le Yalkout Yossef font partie du Siman 1 (הלכות השכמת הבוקר ותיקון חצות)."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seif": 55,
+      "original_score": 83,
+      "result": {
+        "verdicts": [
+          {
+            "issue_index": 0,
+            "issue_type": "ALIGNMENT_MISMATCH",
+            "verdict": "FIX",
+            "fixes": [
+              {
+                "word_id": 0,
+                "field": "francais",
+                "old": "55. Le Tikkun Chatzot se divise en deux parties : la première s'appelle Tikkun Rachel, et la seconde Tikkun Léa. Le Tikkun Rachel traite des sujets liés à la destruction du Temple, tandis que le Tikkun Léa consiste principalement en des chapitres de louanges, requêtes et remerciements à Dieu. La plupart des nuits de l'année, on récite le Tikkun Rachel, suivi du Tikkun Léa. Cependant, il y a des périodes où l'on ne récite que le Tikkun Léa et l'on omet le Tikkun Rachel, car on ne doit pas y évoqu",
+                "new": "55. Le Tikkun Chatzot se divise en deux parties : la première s'appelle Tikkun Rachel, et la seconde Tikkun Léa. Le Tikkun Rachel traite des sujets liés à la destruction du Temple, tandis que le Tikkun Léa consiste principalement en des chapitres de louanges, requêtes et remerciements à Dieu. La plupart des nuits de l'année, on récite le Tikkun Rachel, suivi du Tikkun Léa. Cependant, il y a des périodes où l'on ne récite que le Tikkun Léa et l'on omet le Tikkun Rachel, car on ne doit pas y évoquer de tristesse [et d'autres raisons selon le secret]. Et voici les jours où l'on ne récite pas le Tikkun Rachel : Roch Hodech [et la veille de Roch Hodech après le Molad, bien que l'on fasse les confessions ce jour-là], et de Roch Hachana jusqu'à Chemini Atseret, les jours de Hanoucca, les jours de Pourim, tout le mois de Nissan, et tous les jours de l'Om",
+                "reason": "La traduction française était tronquée à la fin par rapport au texte hébreu fourni. Cette correction rétablit l'intégralité de la traduction française correspondant au texte hébreu."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

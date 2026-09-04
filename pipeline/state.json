@@ -3,11 +3,13 @@
     "1": {
       "status": "complete",
       "score": 78,
+      "categorie": "הלכות הנהגת אדם בבוקר",
+      "category_order": 1,
       "total_seifim": 59,
-      "seifim_pass": 13,
-      "seifim_warn": 45,
-      "seifim_fail": 1,
-      "completed": "2026-08-16T18:19:48.435Z"
+      "seifim_pass": 14,
+      "seifim_warn": 40,
+      "seifim_fail": 5,
+      "completed": "2026-09-04T08:11:08.626Z"
     },
     "2": {
       "status": "complete",
@@ -220,10 +222,10 @@
       "status": "complete",
       "score": 100,
       "total_seifim": 95,
-      "seifim_pass": 93,
-      "seifim_warn": 2,
+      "seifim_pass": 94,
+      "seifim_warn": 1,
       "seifim_fail": 0,
-      "completed": "2026-08-27T21:03:05.849Z"
+      "completed": "2026-09-04T07:05:25.024Z"
     },
     "26": {
       "status": "complete",
@@ -232,16 +234,16 @@
       "seifim_pass": 4,
       "seifim_warn": 0,
       "seifim_fail": 0,
-      "completed": "2026-08-27T21:12:05.510Z"
+      "completed": "2026-09-04T07:05:25.025Z"
     },
     "27": {
       "status": "complete",
-      "score": 98,
+      "score": 99,
       "total_seifim": 27,
-      "seifim_pass": 24,
-      "seifim_warn": 3,
+      "seifim_pass": 25,
+      "seifim_warn": 2,
       "seifim_fail": 0,
-      "completed": "2026-08-28T09:37:11.382Z"
+      "completed": "2026-09-04T07:05:25.030Z"
     },
     "28": {
       "status": "complete",
@@ -250,7 +252,7 @@
       "seifim_pass": 24,
       "seifim_warn": 1,
       "seifim_fail": 0,
-      "completed": "2026-08-28T10:17:42.460Z"
+      "completed": "2026-09-04T07:05:25.033Z"
     },
     "29": {
       "status": "complete",
@@ -259,7 +261,7 @@
       "seifim_pass": 1,
       "seifim_warn": 0,
       "seifim_fail": 0,
-      "completed": "2026-08-28T10:18:29.984Z"
+      "completed": "2026-09-04T07:05:25.033Z"
     },
     "30": {
       "status": "complete",
@@ -268,7 +270,7 @@
       "seifim_pass": 12,
       "seifim_warn": 0,
       "seifim_fail": 0,
-      "completed": "2026-08-29T22:48:47.669Z"
+      "completed": "2026-09-04T07:05:25.036Z"
     },
     "31": {
       "status": "complete",
@@ -277,25 +279,25 @@
       "seifim_pass": 8,
       "seifim_warn": 0,
       "seifim_fail": 0,
-      "completed": "2026-08-29T22:55:43.059Z"
+      "completed": "2026-09-04T07:05:25.037Z"
     },
     "32": {
       "status": "complete",
       "score": 100,
       "total_seifim": 81,
-      "seifim_pass": 79,
-      "seifim_warn": 2,
+      "seifim_pass": 81,
+      "seifim_warn": 0,
       "seifim_fail": 0,
-      "completed": "2026-09-01T07:33:56.071Z"
+      "completed": "2026-09-04T07:05:25.051Z"
     },
     "34": {
       "status": "complete",
-      "score": 99,
+      "score": 100,
       "total_seifim": 18,
-      "seifim_pass": 17,
-      "seifim_warn": 1,
+      "seifim_pass": 18,
+      "seifim_warn": 0,
       "seifim_fail": 0,
-      "completed": "2026-09-01T08:00:29.073Z"
+      "completed": "2026-09-04T07:05:25.055Z"
     },
     "35": {
       "status": "complete",
@@ -304,25 +306,25 @@
       "seifim_pass": 4,
       "seifim_warn": 0,
       "seifim_fail": 0,
-      "completed": "2026-09-01T08:05:12.393Z"
+      "completed": "2026-09-04T07:05:25.056Z"
     },
     "36": {
       "status": "complete",
-      "score": 98,
+      "score": 100,
       "total_seifim": 21,
-      "seifim_pass": 18,
-      "seifim_warn": 3,
+      "seifim_pass": 21,
+      "seifim_warn": 0,
       "seifim_fail": 0,
-      "completed": "2026-09-02T06:47:44.101Z"
+      "completed": "2026-09-04T07:05:25.058Z"
     },
     "37": {
       "status": "complete",
-      "score": 98,
+      "score": 99,
       "total_seifim": 17,
-      "seifim_pass": 15,
-      "seifim_warn": 2,
+      "seifim_pass": 16,
+      "seifim_warn": 1,
       "seifim_fail": 0,
-      "completed": "2026-09-02T07:18:08.146Z"
+      "completed": "2026-09-04T07:05:25.060Z"
     },
     "38": {
       "status": "complete",
@@ -331,7 +333,7 @@
       "seifim_pass": 4,
       "seifim_warn": 1,
       "seifim_fail": 0,
-      "completed": "2026-09-02T07:22:57.677Z"
+      "completed": "2026-09-04T07:05:25.061Z"
     },
     "39": {
       "status": "complete",
@@ -340,7 +342,7 @@
       "seifim_pass": 1,
       "seifim_warn": 0,
       "seifim_fail": 0,
-      "completed": "2026-09-02T07:24:34.590Z"
+      "completed": "2026-09-04T07:05:25.062Z"
     },
     "40": {
       "status": "complete",
@@ -349,7 +351,7 @@
       "seifim_pass": 8,
       "seifim_warn": 0,
       "seifim_fail": 0,
-      "completed": "2026-09-02T07:32:37.833Z"
+      "completed": "2026-09-04T07:05:25.063Z"
     },
     "42": {
       "status": "complete",
@@ -358,7 +360,7 @@
       "seifim_pass": 4,
       "seifim_warn": 0,
       "seifim_fail": 0,
-      "completed": "2026-09-02T07:36:38.402Z"
+      "completed": "2026-09-04T07:05:25.063Z"
     },
     "44": {
       "status": "complete",
@@ -367,12 +369,34 @@
       "seifim_pass": 7,
       "seifim_warn": 0,
       "seifim_fail": 0,
-      "completed": "2026-09-02T07:45:31.941Z"
+      "completed": "2026-09-04T07:05:25.064Z"
     },
     "45": {
+      "status": "complete",
+      "score": 96,
+      "total_seifim": 16,
+      "seifim_pass": 14,
+      "seifim_warn": 2,
+      "seifim_fail": 0,
+      "completed": "2026-09-04T07:05:25.066Z"
+    },
+    "46": {
+      "status": "complete",
+      "score": 100,
+      "categorie": "הלכות ברכות השחר ושאר ברכות",
+      "category_order": 4,
+      "total_seifim": 37,
+      "seifim_pass": 37,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-09-04T09:28:15.575Z"
+    },
+    "47": {
       "status": "in_progress",
-      "started": "2026-09-03T06:07:57.964Z",
-      "total_seifim": 16
+      "started": "2026-09-04T09:28:20.578Z",
+      "total_seifim": 35,
+      "categorie": "הלכות ברכות השחר ושאר ברכות",
+      "category_order": 4
     },
     "109": {
       "status": "complete",
@@ -412,13 +436,42 @@
     },
     "32-33": {
       "status": "complete",
-      "score": 0,
+      "score": 100,
       "total_seifim": 19,
-      "seifim_pass": 0,
+      "seifim_pass": 19,
       "seifim_warn": 0,
       "seifim_fail": 0,
-      "completed": "2026-09-03T06:07:52.963Z"
+      "completed": "2026-09-04T07:05:25.040Z"
+    },
+    "1::הלכות הנהגת אדם בבוקר": {
+      "status": "complete",
+      "score": 78,
+      "categorie": "הלכות הנהגת אדם בבוקר",
+      "category_order": 1,
+      "total_seifim": 59,
+      "seifim_pass": 14,
+      "seifim_warn": 40,
+      "seifim_fail": 5,
+      "completed": "2026-09-04T08:11:08.626Z"
+    },
+    "46::הלכות ברכות השחר ושאר ברכות": {
+      "status": "complete",
+      "score": 100,
+      "categorie": "הלכות ברכות השחר ושאר ברכות",
+      "category_order": 4,
+      "total_seifim": 37,
+      "seifim_pass": 37,
+      "seifim_warn": 0,
+      "seifim_fail": 0,
+      "completed": "2026-09-04T09:28:15.575Z"
+    },
+    "47::הלכות ברכות השחר ושאר ברכות": {
+      "status": "in_progress",
+      "started": "2026-09-04T09:28:20.578Z",
+      "total_seifim": 35,
+      "categorie": "הלכות ברכות השחר ושאר ברכות",
+      "category_order": 4
     }
   },
-  "last_updated": "2026-09-03T06:07:57.964Z"
+  "last_updated": "2026-09-04T09:28:20.578Z"
 }
